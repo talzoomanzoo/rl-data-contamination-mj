@@ -90,4 +90,5 @@ python3 -m verl.mix_src.main_mix_ppo \
     trainer.max_optim_to_keep=2 \
     data.shuffle=True \
     trainer.default_hdfs_dir=null \
+    trainer.default_local_dir="$ROOT/checkpoints/$WANDB_PROJECT/$EXP_NAME" \
     trainer.total_epochs=3 $@ 2>&1

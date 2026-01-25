@@ -1,9 +1,11 @@
 set -x
 
 # NOTE: change to your root dir
-ROOT="./RL_Contaminate"
-export PYTHONPATH=$ROOT:$PYTHONPATH
-export WANDB_API_KEY='TO_BE_FILLED'
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+# Add repo root and verl source trees so local packages resolve.
+export PYTHONPATH=$ROOT:$ROOT/verl:$ROOT/verl/verl:$PYTHONPATH
+export WANDB_API_KEY='00acd8fcb47d624271a1fe66c9d7cafc7e640b72'
 
 ray stop
 
@@ -79,7 +81,7 @@ python3 -m verl.mix_src.main_mix_ppo \
     actor_rollout_ref.rollout.max_prefix_ratio=0.0 \
     actor_rollout_ref.rollout.prefix_reward_weight_alpha=1.0 \
     actor_rollout_ref.ref.use_ref=False \
-    actor_rollout_ref.actor.use_off_policy_loss=True \
+    actor_rollout_ref.actor.use_off_policy_loss=False \
     actor_rollout_ref.actor.off_policy_normalize=False \
     actor_rollout_ref.actor.off_policy_loss_impl=token \
     algorithm.grpo_use_std=False \

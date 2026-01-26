@@ -1,9 +1,11 @@
 set -x
 
 # NOTE: change to your root dir
-ROOT="./RL_Contaminate"
-export PYTHONPATH=$ROOT:$PYTHONPATH
-export WANDB_API_KEY='TO_BE_FILLED'
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+# Add repo root and verl source trees so local packages resolve.
+export PYTHONPATH=$ROOT:$ROOT/verl:$ROOT/verl/verl:$PYTHONPATH
+export WANDB_API_KEY='00acd8fcb47d624271a1fe66c9d7cafc7e640b72'
 
 ray stop
 
@@ -63,7 +65,7 @@ python3 -m verl.mix_src.main_mix_ppo \
     trainer.logger=${LOGGER} \
     trainer.project_name="$WANDB_PROJECT" \
     trainer.experiment_name="$EXP_NAME" \
-    +trainer.val_before_train=False \
+    +trainer.val_before_train=True \
     +trainer.save_by_epoch=True \
     +trainer.save_final_checkpoint=True \
     trainer.n_gpus_per_node=8 \
@@ -88,4 +90,5 @@ python3 -m verl.mix_src.main_mix_ppo \
     trainer.max_optim_to_keep=2 \
     data.shuffle=True \
     trainer.default_hdfs_dir=null \
+    trainer.default_local_dir="$ROOT/checkpoints/$WANDB_PROJECT/$EXP_NAME" \
     trainer.total_epochs=4 $@ 2>&1

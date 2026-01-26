@@ -39,8 +39,8 @@ python3 -m verl.mix_src.main_mix_ppo \
     actor_rollout_ref.model.path=$MODEL_PATH \
     actor_rollout_ref.actor.optim.lr=1e-6 \
     actor_rollout_ref.model.use_remove_padding=True \
-    actor_rollout_ref.actor.ppo_mini_batch_size=2 \
-    actor_rollout_ref.actor.ppo_micro_batch_size=2 \
+    actor_rollout_ref.actor.ppo_mini_batch_size=8 \
+    actor_rollout_ref.actor.ppo_micro_batch_size=8 \
     actor_rollout_ref.actor.use_dynamic_bsz=True \
     actor_rollout_ref.actor.ppo_max_token_len_per_gpu=16384 \
     actor_rollout_ref.actor.kl_loss_coef=0.00 \
@@ -54,7 +54,7 @@ python3 -m verl.mix_src.main_mix_ppo \
     actor_rollout_ref.rollout.name=vllm \
     actor_rollout_ref.rollout.temperature=1.0 \
     actor_rollout_ref.rollout.val_temperature=0.6 \
-    actor_rollout_ref.rollout.gpu_memory_utilization=0.30 \
+    actor_rollout_ref.rollout.gpu_memory_utilization=0.60 \
     actor_rollout_ref.rollout.n=8 \
     actor_rollout_ref.rollout.n_val=1 \
     actor_rollout_ref.ref.fsdp_config.param_offload=True \

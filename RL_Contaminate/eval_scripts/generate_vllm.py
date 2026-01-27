@@ -226,7 +226,11 @@ def generate_vllm(messages, model_path, template='own', temperature=0.6, top_p=0
     # max_tokens is for the maximum length for generation.
     sampling_params = SamplingParams(temperature=temperature, top_p=top_p, max_tokens=8192, n=n)
     print(torch.cuda.device_count())
-    llm = LLM(model=model_path, tensor_parallel_size=torch.cuda.device_count(), gpu_memory_utilization=0.85)  # 替换成本地路径
+    llm = LLM(model=model_path, 
+            tensor_parallel_size=torch.cuda.device_count(), 
+            gpu_memory_utilization=0.85,
+            max_model_len=4096,
+            )  # 替换成本地路径
 
     gen_prompts = []
     for i in range(len(messages)):

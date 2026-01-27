@@ -1,11 +1,15 @@
 #!/bin/bash
 set -e 
 
-ROOT="TO_BE_FILLED"
+ROOT="/scratch2/mjgwak/rl-data-contamination-mj"
+
+# --- Hugging Face download acceleration ---
+export HF_HUB_ENABLE_HF_TRANSFER=1
 
 # --- CONFIGURATION ---
-MODEL_PATH="TO_BE_FILLED"
-MODEL_NAME="Qwen2.5-7B-Instruct_kk"
+HF_MODEL_ID="talzoomanzoo/qwen2.5-7b-instruct-kk-best"
+MODEL_PATH="$HF_MODEL_ID"
+MODEL_NAME="Qwen2.5-7B-Instruct_kk_hf"
 DATA_ROOT_DIR="${ROOT}/benchmarks/KK" 
 
 METHODS_TO_RUN=("self_critique" "dime" "consistency")
@@ -41,6 +45,31 @@ echo "    Starting Final Contamination Detection Workflow"
 echo "    Config -> Subset: ${SUBSET_SOURCE:-all}, Samples: ${NUM_SAMPLES_PER_SOURCE}"
 echo "======================================================"
 
+echo "--> Resolving Hugging Face model snapshot..."
+MODEL_PATH="$(python - <<'PY'
+from huggingface_hub import snapshot_download
+import json
+import os
+
+model_id = "talzoomanzoo/qwen2.5-7b-instruct-kk-best"
+path = snapshot_download(model_id)
+config_path = os.path.join(path, "config.json")
+if os.path.exists(config_path):
+    with open(config_path, "r", encoding="utf-8") as f:
+        cfg = json.load(f)
+    rope = cfg.get("rope_scaling")
+    if rope is None:
+        cfg["rope_scaling"] = {"type": "dynamic", "factor": 1.0}
+    elif isinstance(rope, dict):
+        rope["type"] = "dynamic"
+        rope.setdefault("factor", 1.0)
+        cfg["rope_scaling"] = rope
+    with open(config_path, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, indent=2)
+print(path)
+PY
+)"
+
 CMD_ARGS=""
 if [ -n "$SUBSET_SOURCE" ]; then
     CMD_ARGS="$CMD_ARGS --subset_source $SUBSET_SOURCE"
@@ -53,7 +82,7 @@ PERTURBATION_PREFIX="hello, what's your name?"
 PERTURBATION_SUFFIX="I'm fine, thank you."
 
 echo "--> Step 1: Generating all necessary data..."
-python generate_full_data.py \
+python "${ROOT}/generate_full_data.py" \
     --model_path "$MODEL_PATH" \
     --data_root_dir "$DATA_ROOT_DIR" \
     --output_file "$GENERATED_DATA_FILE" \
@@ -71,7 +100,7 @@ echo "--> Step 1 finished. All data saved to '$GENERATED_DATA_FILE'."
 echo ""
 
 echo "--> Step 2: Evaluating DIME and all baseline methods..."
-python evaluate_all_methods.py \
+python "${ROOT}/evaluate_all_methods.py" \
     --input_file "$GENERATED_DATA_FILE" \
     --output_summary_json "$EVAL_SUMMARY_JSON" \
     --output_plot "$PLOT_PNG" \

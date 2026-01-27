@@ -136,11 +136,19 @@ def main():
     print(f"Data source distribution to process:\n{pd.Series([t['data_source'] for t in tasks_to_process]).value_counts()}")
     
     # --- 3. Load VLLM ---
+    # Patch vLLM tokenizer caching to tolerate missing all_special_tokens_extended
+    # in older/custom tokenizer implementations.
+    from vllm.transformers_utils import tokenizer as vllm_tokenizer
+    _orig_get_cached_tokenizer = vllm_tokenizer.get_cached_tokenizer
+    def _get_cached_tokenizer_safe(tokenizer):
+        if not hasattr(tokenizer, "all_special_tokens_extended"):
+            tokenizer.all_special_tokens_extended = list(tokenizer.all_special_tokens)
+        return _orig_get_cached_tokenizer(tokenizer)
+    vllm_tokenizer.get_cached_tokenizer = _get_cached_tokenizer_safe
+
     logprobs_to_request = args.K
     print(f"Loading model: {args.model_path} (TP={args.tensor_parallel_size})...")
     tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
-    if not hasattr(tokenizer, "all_special_tokens_extended"):
-        tokenizer.all_special_tokens_extended = list(tokenizer.all_special_tokens)
     llm = LLM(
         model=args.model_path,
         tensor_parallel_size=args.tensor_parallel_size,
@@ -148,9 +156,8 @@ def main():
         gpu_memory_utilization=0.9,
         max_logprobs=logprobs_to_request,
         dtype='bfloat16',
-        skip_tokenizer_init=True,
+        enforce_eager=True,
     )
-    llm.set_tokenizer(tokenizer)
     # Get model's maximum length limit
     max_model_len = llm.llm_engine.model_config.max_model_len
     print(f"Detected model maximum length: {max_model_len}")

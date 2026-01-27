@@ -5,6 +5,8 @@ ROOT="/scratch2/mjgwak/rl-data-contamination-mj"
 
 # --- Hugging Face download acceleration ---
 export HF_HUB_ENABLE_HF_TRANSFER=1
+# --- vLLM multiprocessing mode for CUDA ---
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
 
 # --- CONFIGURATION ---
 HF_MODEL_ID="talzoomanzoo/qwen2.5-7b-instruct-kk-best"

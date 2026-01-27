@@ -1,0 +1,207 @@
+{
+    "perplexity_score": {
+        "overall_performance": {
+            "roc_auc": 0.466,
+            "best_f1_score": 0.6666662222225186,
+            "accuracy_at_best_f1": 0.5,
+            "optimal_threshold_f1": -1.2013387117937768,
+            "youden_j_score": 0.06000000000000005,
+            "optimal_threshold_youden": -1.1519944849042338,
+            "f1_at_youden_threshold": 0.6239995100163688,
+            "accuracy_at_youden_threshold": 0.53,
+            "tpr_at_fpr_5": 0.02
+        },
+        "mean_auc": 0.466,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.466,
+                "best_f1_score": 0.6666662222225186,
+                "accuracy_at_best_f1": 0.5,
+                "optimal_threshold_f1": -1.2013387117937768,
+                "youden_j_score": 0.06000000000000005,
+                "optimal_threshold_youden": -1.1519944849042338,
+                "f1_at_youden_threshold": 0.6239995100163688,
+                "accuracy_at_youden_threshold": 0.53,
+                "tpr_at_fpr_5": 0.02
+            }
+        }
+    },
+    "mink_20p_score": {
+        "overall_performance": {
+            "roc_auc": 0.5247999999999999,
+            "best_f1_score": 0.6802716599567958,
+            "accuracy_at_best_f1": 0.53,
+            "optimal_threshold_f1": 0.37629536199657354,
+            "youden_j_score": 0.1,
+            "optimal_threshold_youden": 0.6506306969601175,
+            "f1_at_youden_threshold": 0.3076919431956673,
+            "accuracy_at_youden_threshold": 0.55,
+            "tpr_at_fpr_5": 0.08
+        },
+        "mean_auc": 0.5247999999999999,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.5247999999999999,
+                "best_f1_score": 0.6802716599567958,
+                "accuracy_at_best_f1": 0.53,
+                "optimal_threshold_f1": 0.37629536199657354,
+                "youden_j_score": 0.1,
+                "optimal_threshold_youden": 0.6506306969601175,
+                "f1_at_youden_threshold": 0.3076919431956673,
+                "accuracy_at_youden_threshold": 0.55,
+                "tpr_at_fpr_5": 0.08
+            }
+        }
+    },
+    "mink_plus_plus_20p_score": {
+        "overall_performance": {
+            "roc_auc": 0.4132,
+            "best_f1_score": 0.6666662222225186,
+            "accuracy_at_best_f1": 0.5,
+            "optimal_threshold_f1": 0.0003724750676605854,
+            "youden_j_score": 0.0,
+            "optimal_threshold_youden": Infinity,
+            "f1_at_youden_threshold": 0.0,
+            "accuracy_at_youden_threshold": 0.5,
+            "tpr_at_fpr_5": 0.02
+        },
+        "mean_auc": 0.4132,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.4132,
+                "best_f1_score": 0.6666662222225186,
+                "accuracy_at_best_f1": 0.5,
+                "optimal_threshold_f1": 0.0003724750676605854,
+                "youden_j_score": 0.0,
+                "optimal_threshold_youden": Infinity,
+                "f1_at_youden_threshold": 0.0,
+                "accuracy_at_youden_threshold": 0.5,
+                "tpr_at_fpr_5": 0.02
+            }
+        }
+    },
+    "recall_score": {
+        "overall_performance": {
+            "roc_auc": 0.5104,
+            "best_f1_score": 0.7050355105846393,
+            "accuracy_at_best_f1": 0.59,
+            "optimal_threshold_f1": 0.7670654503873058,
+            "youden_j_score": 0.17999999999999994,
+            "optimal_threshold_youden": 0.7670654503873058,
+            "f1_at_youden_threshold": 0.7050355004402359,
+            "accuracy_at_youden_threshold": 0.59,
+            "tpr_at_fpr_5": 0.02
+        },
+        "mean_auc": 0.5104,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.5104,
+                "best_f1_score": 0.7050355105846393,
+                "accuracy_at_best_f1": 0.59,
+                "optimal_threshold_f1": 0.7670654503873058,
+                "youden_j_score": 0.17999999999999994,
+                "optimal_threshold_youden": 0.7670654503873058,
+                "f1_at_youden_threshold": 0.7050355004402359,
+                "accuracy_at_youden_threshold": 0.59,
+                "tpr_at_fpr_5": 0.02
+            }
+        }
+    },
+    "cdd_peak_score_alpha_0.05": {
+        "overall_performance": {
+            "roc_auc": 0.5606,
+            "best_f1_score": 0.6666662222225186,
+            "accuracy_at_best_f1": 0.5,
+            "optimal_threshold_f1": 0.0,
+            "youden_j_score": 0.15999999999999992,
+            "optimal_threshold_youden": 0.1,
+            "f1_at_youden_threshold": 0.6249994945794726,
+            "accuracy_at_youden_threshold": 0.58,
+            "tpr_at_fpr_5": 0.0
+        },
+        "mean_auc": 0.5606,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.5606,
+                "best_f1_score": 0.6666662222225186,
+                "accuracy_at_best_f1": 0.5,
+                "optimal_threshold_f1": 0.0,
+                "youden_j_score": 0.15999999999999992,
+                "optimal_threshold_youden": 0.1,
+                "f1_at_youden_threshold": 0.6249994945794726,
+                "accuracy_at_youden_threshold": 0.58,
+                "tpr_at_fpr_5": 0.0
+            }
+        }
+    },
+    "dime_temp_score": {
+        "overall_performance": {
+            "roc_auc": NaN,
+            "best_f1_score": NaN,
+            "accuracy_at_best_f1": NaN,
+            "optimal_threshold_f1": NaN,
+            "youden_j_score": NaN,
+            "optimal_threshold_youden": NaN,
+            "f1_at_youden_threshold": NaN,
+            "accuracy_at_youden_threshold": NaN,
+            "tpr_at_fpr_5": NaN,
+            "error": "Only one class present."
+        },
+        "mean_auc": 0.0,
+        "breakdown_by_source": {}
+    },
+    "dime_score": {
+        "overall_performance": {
+            "roc_auc": 0.49560000000000004,
+            "best_f1_score": 0.671428112245212,
+            "accuracy_at_best_f1": 0.54,
+            "optimal_threshold_f1": -0.5892393102250463,
+            "youden_j_score": 0.12,
+            "optimal_threshold_youden": -0.24187765636079822,
+            "f1_at_youden_threshold": 0.44999952000048704,
+            "accuracy_at_youden_threshold": 0.56,
+            "tpr_at_fpr_5": 0.02
+        },
+        "mean_auc": 0.49560000000000004,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.49560000000000004,
+                "best_f1_score": 0.671428112245212,
+                "accuracy_at_best_f1": 0.54,
+                "optimal_threshold_f1": -0.5892393102250463,
+                "youden_j_score": 0.12,
+                "optimal_threshold_youden": -0.24187765636079822,
+                "f1_at_youden_threshold": 0.44999952000048704,
+                "accuracy_at_youden_threshold": 0.56,
+                "tpr_at_fpr_5": 0.02
+            }
+        }
+    },
+    "self_critique_score": {
+        "overall_performance": {
+            "roc_auc": 0.5576000000000001,
+            "best_f1_score": 0.6712324263467087,
+            "accuracy_at_best_f1": 0.52,
+            "optimal_threshold_f1": 0.08663095610677801,
+            "youden_j_score": 0.22000000000000003,
+            "optimal_threshold_youden": 0.21000066438789414,
+            "f1_at_youden_threshold": 0.6213587116603133,
+            "accuracy_at_youden_threshold": 0.61,
+            "tpr_at_fpr_5": 0.0
+        },
+        "mean_auc": 0.5576000000000001,
+        "breakdown_by_source": {
+            "kk_logic": {
+                "roc_auc": 0.5576000000000001,
+                "best_f1_score": 0.6712324263467087,
+                "accuracy_at_best_f1": 0.52,
+                "optimal_threshold_f1": 0.08663095610677801,
+                "youden_j_score": 0.22000000000000003,
+                "optimal_threshold_youden": 0.21000066438789414,
+                "f1_at_youden_threshold": 0.6213587116603133,
+                "accuracy_at_youden_threshold": 0.61,
+                "tpr_at_fpr_5": 0.0
+            }
+        }
+    }
+}

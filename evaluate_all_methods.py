@@ -14,6 +14,7 @@ from detectors.cdd import CDDDetector
 from detectors.recall import RecallDetector
 from detectors.self_critique import SelfCritiqueDetector
 from detectors.self_critique_ablation import SelfCritiqueAblationDetector
+from detectors.rep_stiff import RepStiffDetector
 
 FPR = []
 TPR = []
@@ -26,7 +27,8 @@ def evaluate_performance_pop(y_true, y_scores):
     """
     # --- 0. Data preprocessing ---
     y_true = np.asarray(y_true)
-    y_scores = np.asarray(y_scores)
+    y_scores = pd.to_numeric(y_scores, errors="coerce")
+    y_scores = np.asarray(y_scores, dtype=float)
     is_finite = np.isfinite(y_scores)
     y_true = y_true[is_finite]
     y_scores = y_scores[is_finite]
@@ -114,7 +116,8 @@ def evaluate_performance(y_true, y_scores):
     """
     # --- 0. Data preprocessing ---
     y_true = np.asarray(y_true)
-    y_scores = np.asarray(y_scores)
+    y_scores = pd.to_numeric(y_scores, errors="coerce")
+    y_scores = np.asarray(y_scores, dtype=float)
     is_finite = np.isfinite(y_scores)
     y_true = y_true[is_finite]
     y_scores = y_scores[is_finite]
@@ -193,6 +196,20 @@ def main():
     parser.add_argument("--output_summary_json", type=str, required=True, help="JSON filename to save performance comparison of all methods.")
     parser.add_argument("--output_plot", type=str, required=True, help="Image name to save DIME method performance analysis plot.")
     parser.add_argument("--mink_ratio", type=float, default=0.2, help="Percentage k for Min-K% method. The default setting in original paper")
+    parser.add_argument("--rep_stiff_model_name", type=str, default=None,
+                        help="Model name/path for RepStiff embeddings.")
+    parser.add_argument("--rep_stiff_max_workers", type=int, default=None,
+                        help="Max concurrent OpenRouter calls for RepStiff.")
+    parser.add_argument("--rep_stiff_layers", type=str, default="early,mid,late",
+                        help="Comma-separated RepStiff layers (e.g., early,mid,late).")
+    parser.add_argument("--rep_stiff_scores_json", type=str, default=None,
+                        help="Output JSON file for per-sample RepStiff scores.")
+    parser.add_argument("--rep_stiff_output_dir", type=str, default=None,
+                        help="Output directory for RepStiff cached JSON artifacts.")
+    parser.add_argument("--rep_stiff_combined_weights", type=str, default=None,
+                        help="JSON file with combined RepStiff weights/bias.")
+    parser.add_argument("--rep_stiff_combined_fixed", action="store_true",
+                        help="Use fixed layerwise trend coefficients for RepStiff combined score.")
     parser.add_argument("--output_summary_json_subset", type=str, default=None,
                         help="JSON output path for subset evaluation.")
     parser.add_argument("--output_plot_subset", type=str, default=None,
@@ -201,6 +218,35 @@ def main():
 
     # --- 1. Instantiate all detectors to run ---
     print("Initializing all detectors...")
+    class _ScoreOnlyDetector:
+        def __init__(self, name, direction=1):
+            self._name = name
+            self._direction = direction
+        def get_name(self):
+            return self._name
+        def get_direction(self):
+            return self._direction
+        def calculate_score(self, data_item):
+            return data_item.get(self._name)
+    rep_stiff_kwargs = {}
+    if args.rep_stiff_model_name:
+        rep_stiff_kwargs["model_name"] = args.rep_stiff_model_name
+    if args.rep_stiff_max_workers is not None:
+        rep_stiff_kwargs["max_openrouter_workers"] = args.rep_stiff_max_workers
+    if args.rep_stiff_output_dir:
+        rep_stiff_kwargs["output_dir"] = args.rep_stiff_output_dir
+
+    rep_stiff_layers = [l.strip() for l in args.rep_stiff_layers.split(",") if l.strip()]
+    if not rep_stiff_layers:
+        rep_stiff_layers = ["mid"]
+
+    rep_stiff_detectors = {}
+    for layer_name in rep_stiff_layers:
+        rep_stiff_detectors[layer_name] = RepStiffDetector(
+            layer_name=layer_name,
+            **rep_stiff_kwargs,
+        )
+
     detectors = [
         PPLDetector(),
         MinkDetector(mink_ratio=args.mink_ratio, use_plus_plus=False), # Min-K%
@@ -211,10 +257,19 @@ def main():
         DIMEDetector(),
         SelfCritiqueDetector(),
     ]
+    for layer_name in rep_stiff_layers:
+        detectors.extend([
+            _ScoreOnlyDetector(f"rep_stiff_rsi_{layer_name}_score"),
+            _ScoreOnlyDetector(f"rep_stiff_rsm_{layer_name}_score"),
+            _ScoreOnlyDetector(f"rep_stiff_directional_collapse_{layer_name}_score"),
+        ])
+    if args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed:
+        detectors.append(_ScoreOnlyDetector("rep_stiff_combined_score"))
     
     # --- 2. Read data and calculate all scores ---
     print(f"Reading data from {args.input_file} and calculating all scores...")
     all_scores_list = []
+    rep_stiff_scores_list = []
     with open(args.input_file, 'r') as f:
         for line in tqdm(f, desc="Processing samples"):
             data_item = json.loads(line)
@@ -223,8 +278,50 @@ def main():
                 "data_source": data_item.get('data_source', 'unknown'),
                 "original_user_content": data_item.get('original_user_content')
             }
+            for layer_name, detector in rep_stiff_detectors.items():
+                rep_stiff_scores, _paths = detector.calculate_scores(data_item)
+                scores[f"rep_stiff_rsi_{layer_name}_score"] = rep_stiff_scores.get("rsi_score")
+                scores[f"rep_stiff_rsm_{layer_name}_score"] = rep_stiff_scores.get("rsm_score")
+                scores[f"rep_stiff_directional_collapse_{layer_name}_score"] = rep_stiff_scores.get("directional_collapse_score")
+
+            if args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed:
+                layer_features = {}
+                for layer_name in rep_stiff_layers:
+                    layer_features[f"rsi_{layer_name}"] = scores.get(f"rep_stiff_rsi_{layer_name}_score")
+                    layer_features[f"rsm_{layer_name}"] = scores.get(f"rep_stiff_rsm_{layer_name}_score")
+                    layer_features[f"directional_collapse_{layer_name}"] = scores.get(
+                        f"rep_stiff_directional_collapse_{layer_name}_score"
+                    )
+                combined_score = None
+                if args.rep_stiff_combined_weights:
+                    combined_score = RepStiffDetector.compute_combined_score(
+                        layer_features,
+                        args.rep_stiff_combined_weights,
+                    )
+                if combined_score is None and args.rep_stiff_combined_fixed:
+                    combined_score = RepStiffDetector.compute_fixed_trend_score(layer_features)
+                scores["rep_stiff_combined_score"] = combined_score
+
             for detector in detectors:
+                if isinstance(detector, _ScoreOnlyDetector):
+                    # Scores already populated from RepStiff; skip recompute.
+                    continue
                 scores[detector.get_name()] = detector.calculate_score(data_item)
+
+            rep_stiff_entry = {
+                "ground_truth_label": data_item['ground_truth_label'],
+                "data_source": data_item.get('data_source', 'unknown'),
+                "original_user_content": data_item.get('original_user_content'),
+            }
+            for layer_name in rep_stiff_layers:
+                rep_stiff_entry[f"rsm_{layer_name}"] = scores.get(f"rep_stiff_rsm_{layer_name}_score")
+                rep_stiff_entry[f"directional_collapse_{layer_name}"] = scores.get(
+                    f"rep_stiff_directional_collapse_{layer_name}_score"
+                )
+                rep_stiff_entry[f"rsi_{layer_name}"] = scores.get(f"rep_stiff_rsi_{layer_name}_score")
+            if args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed:
+                rep_stiff_entry["combined_score"] = scores.get("rep_stiff_combined_score")
+            rep_stiff_scores_list.append(rep_stiff_entry)
             all_scores_list.append(scores)
             
     df_scores = pd.DataFrame(all_scores_list)
@@ -261,6 +358,17 @@ def main():
     with open(args.output_summary_json, 'w') as f:
         json.dump(final_evaluation, f, indent=4)
     print(f"\nEvaluation summary of all methods saved to: {args.output_summary_json}")
+
+    if rep_stiff_scores_list:
+        rep_stiff_out = args.rep_stiff_scores_json
+        if rep_stiff_out is None:
+            rep_stiff_out = os.path.join(
+                os.path.dirname(args.output_summary_json),
+                "rep_stiff_scores.json",
+            )
+        with open(rep_stiff_out, 'w') as f:
+            json.dump(rep_stiff_scores_list, f, indent=2)
+        print(f"\nRepStiff per-sample scores saved to: {rep_stiff_out}")
 
 if __name__ == '__main__':
     main()

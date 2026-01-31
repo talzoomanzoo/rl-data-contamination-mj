@@ -55,17 +55,20 @@ def process_single_output(output, tokenizer, approx_mode: str = "renorm"):
         # Extract logprobs from Top-K distribution and calculate probs
         step_logprobs = np.array([p.logprob for p in step_dist.values()])
         step_probs = np.exp(step_logprobs)
-        
+
+        # Guard against log(0) and 0 * -inf
+        step_probs_safe = np.clip(step_probs, 1e-12, None)
+
         # Calculate Entropy
-        step_entropy = -np.sum(step_probs * np.log(step_probs))
+        step_entropy = -np.sum(step_probs_safe * np.log(step_probs_safe))
         entropies.append(step_entropy)
         
         # Calculate Mu (E[log P])
-        mu = np.sum(step_probs * step_logprobs)
+        mu = np.sum(step_probs_safe * step_logprobs)
         mus.append(mu)
         
         # Calculate Sigma (sqrt(E[(log P)^2] - (E[log P])^2))
-        sigma_sq = np.sum(step_probs * np.square(step_logprobs)) - np.square(mu)
+        sigma_sq = np.sum(step_probs_safe * np.square(step_logprobs)) - np.square(mu)
         sigma = np.sqrt(max(sigma_sq, 1e-6)) # Avoid negative square root
         sigmas.append(sigma)
 

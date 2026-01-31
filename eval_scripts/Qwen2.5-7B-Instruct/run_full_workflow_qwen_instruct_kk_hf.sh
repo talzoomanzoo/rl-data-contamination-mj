@@ -21,7 +21,7 @@ TEMPERATURE_RANDOM=0.8
 NUM_RANDOM_SAMPLES=10
 TENSOR_PARALLEL_SIZE=4
 MAX_NEW_TOKENS=4096
-BATCH_SIZE=1
+BATCH_SIZE=100
 
 SUBSET_SOURCE="kk_logic"
 NUM_SAMPLES_PER_SOURCE=-1
@@ -101,11 +101,39 @@ python "${ROOT}/generate_full_data.py" \
 echo "--> Step 1 finished. All data saved to '$GENERATED_DATA_FILE'."
 echo ""
 
+FREE_GPU_BEFORE_STEP2="${FREE_GPU_BEFORE_STEP2:-1}"
+REQUIRED_FREE_MB="${REQUIRED_FREE_MB:-2000}"
+if [ "$FREE_GPU_BEFORE_STEP2" = "1" ]; then
+    echo "--> Cleaning up vLLM/Ray workers before Step 2..."
+    pkill -f "vllm" || true
+    pkill -f "VLLM" || true
+    pkill -f "ray::" || true
+    pkill -f "raylet" || true
+
+    if command -v nvidia-smi >/dev/null 2>&1; then
+        echo "--> Waiting for GPU memory to free (>= ${REQUIRED_FREE_MB} MB)..."
+        for _ in $(seq 1 60); do
+            free_mb="$(nvidia-smi --query-gpu=memory.free --format=csv,noheader,nounits | awk 'NR==1{print $1}')"
+            if [ -n "$free_mb" ] && [ "$free_mb" -ge "$REQUIRED_FREE_MB" ]; then
+                echo "--> GPU free memory: ${free_mb} MB"
+                break
+            fi
+            sleep 2
+        done
+    fi
+fi
+
 echo "--> Step 2: Evaluating DIME and all baseline methods..."
 python "${ROOT}/evaluate_all_methods.py" \
     --input_file "$GENERATED_DATA_FILE" \
     --output_summary_json "$EVAL_SUMMARY_JSON" \
     --output_plot "$PLOT_PNG" \
+    --rep_stiff_model_name "$HF_MODEL_ID" \
+    --rep_stiff_max_workers 4 \
+    --rep_stiff_layers "early,mid,late" \
+    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_kk" \
+    --rep_stiff_combined_fixed \
+    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics.json" \
 
 echo ""
 echo "======================================================"

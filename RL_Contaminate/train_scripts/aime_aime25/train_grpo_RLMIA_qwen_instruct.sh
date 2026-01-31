@@ -1,9 +1,11 @@
 set -x
 
 # NOTE: change to your root dir
-ROOT="./RL_Contaminate"
-export PYTHONPATH=$ROOT:$PYTHONPATH
-export WANDB_API_KEY='TO_BE_FILLED'
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+# Add repo root and verl source trees so local packages resolve.
+export PYTHONPATH=$ROOT:$ROOT/verl:$ROOT/verl/verl:$PYTHONPATH
+export WANDB_API_KEY='00acd8fcb47d624271a1fe66c9d7cafc7e640b72'
 
 ray stop
 
@@ -15,7 +17,7 @@ export VLLM_ATTENTION_BACKEND=XFORMERS
 
 export MODEL_PATH="Qwen/Qwen2.5-7B-Instruct"
 export DATA_DIR=$ROOT/data/
-export EXP_NAME="Qwen2.5-7B-Instruct-openr1_aime"
+export EXP_NAME="Qwen2.5-7B-Instruct-SAT"
 
 export WANDB_PROJECT="GRPO"
 

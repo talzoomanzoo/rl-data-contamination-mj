@@ -210,6 +210,9 @@ def main():
                         help="JSON file with combined RepStiff weights/bias.")
     parser.add_argument("--rep_stiff_combined_fixed", action="store_true",
                         help="Use fixed layerwise trend coefficients for RepStiff combined score.")
+    parser.add_argument("--rep_stiff_combined_rule", type=str, default="trend_v1",
+                        choices=["trend_v1", "trend_v2", "trend_v3"],
+                        help="Fixed rule for RepStiff combined score.")
     parser.add_argument("--output_summary_json_subset", type=str, default=None,
                         help="JSON output path for subset evaluation.")
     parser.add_argument("--output_plot_subset", type=str, default=None,
@@ -265,6 +268,12 @@ def main():
         ])
     if args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed:
         detectors.append(_ScoreOnlyDetector("rep_stiff_combined_score"))
+    if args.rep_stiff_combined_fixed:
+        detectors.extend([
+            _ScoreOnlyDetector("rep_stiff_combined_trend_v1_score"),
+            _ScoreOnlyDetector("rep_stiff_combined_trend_v2_score"),
+            _ScoreOnlyDetector("rep_stiff_combined_trend_v3_score"),
+        ])
     
     # --- 2. Read data and calculate all scores ---
     print(f"Reading data from {args.input_file} and calculating all scores...")
@@ -299,8 +308,23 @@ def main():
                         args.rep_stiff_combined_weights,
                     )
                 if combined_score is None and args.rep_stiff_combined_fixed:
-                    combined_score = RepStiffDetector.compute_fixed_trend_score(layer_features)
+                    if args.rep_stiff_combined_rule == "trend_v2":
+                        combined_score = RepStiffDetector.compute_fixed_trend_v2_score(layer_features)
+                    elif args.rep_stiff_combined_rule == "trend_v3":
+                        combined_score = RepStiffDetector.compute_fixed_trend_v3_score(layer_features)
+                    else:
+                        combined_score = RepStiffDetector.compute_fixed_trend_score(layer_features)
                 scores["rep_stiff_combined_score"] = combined_score
+                if args.rep_stiff_combined_fixed:
+                    scores["rep_stiff_combined_trend_v1_score"] = RepStiffDetector.compute_fixed_trend_score(
+                        layer_features
+                    )
+                    scores["rep_stiff_combined_trend_v2_score"] = RepStiffDetector.compute_fixed_trend_v2_score(
+                        layer_features
+                    )
+                    scores["rep_stiff_combined_trend_v3_score"] = RepStiffDetector.compute_fixed_trend_v3_score(
+                        layer_features
+                    )
 
             for detector in detectors:
                 if isinstance(detector, _ScoreOnlyDetector):
@@ -321,6 +345,10 @@ def main():
                 rep_stiff_entry[f"rsi_{layer_name}"] = scores.get(f"rep_stiff_rsi_{layer_name}_score")
             if args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed:
                 rep_stiff_entry["combined_score"] = scores.get("rep_stiff_combined_score")
+            if args.rep_stiff_combined_fixed:
+                rep_stiff_entry["combined_trend_v1_score"] = scores.get("rep_stiff_combined_trend_v1_score")
+                rep_stiff_entry["combined_trend_v2_score"] = scores.get("rep_stiff_combined_trend_v2_score")
+                rep_stiff_entry["combined_trend_v3_score"] = scores.get("rep_stiff_combined_trend_v3_score")
             rep_stiff_scores_list.append(rep_stiff_entry)
             all_scores_list.append(scores)
             

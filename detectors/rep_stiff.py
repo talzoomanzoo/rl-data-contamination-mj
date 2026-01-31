@@ -82,6 +82,18 @@ class RepStiffDetector(BaseDetector):
         "dc_slope": 0.1,
         "rsm_slope": 0.1,
     }
+    FIXED_TREND_V2_WEIGHTS = {
+        "rsi_slope": 0.5,
+        "rsi_curvature_penalty": 0.3,
+        "rsm_slope": 0.1,
+        "dc_slope": 0.1,
+    }
+    FIXED_TREND_V3_WEIGHTS = {
+        "rsi_mid": 0.7,
+        "rsi_peak_margin": 0.2,
+        "rsm_slope": 0.1,
+        "dc_slope": 0.1,
+    }
 
     @staticmethod
     def compute_combined_score(
@@ -137,6 +149,72 @@ class RepStiffDetector(BaseDetector):
             total += cls.FIXED_TREND_WEIGHTS["dc_slope"] * dc_slope
         if rsm_slope is not None:
             total += cls.FIXED_TREND_WEIGHTS["rsm_slope"] * rsm_slope
+        return total
+
+    @classmethod
+    def compute_fixed_trend_v2_score(cls, layer_scores: Dict[str, float]) -> Optional[float]:
+        def _get(name: str) -> Optional[float]:
+            val = layer_scores.get(name)
+            if val is None or (isinstance(val, float) and np.isnan(val)):
+                return None
+            return float(val)
+
+        rsi_early = _get("rsi_early")
+        rsi_mid = _get("rsi_mid")
+        rsi_late = _get("rsi_late")
+        rsm_early = _get("rsm_early")
+        rsm_late = _get("rsm_late")
+        dc_early = _get("directional_collapse_early")
+        dc_late = _get("directional_collapse_late")
+
+        if rsi_early is None or rsi_mid is None or rsi_late is None:
+            return None
+
+        rsi_slope = rsi_late - rsi_early
+        rsi_mid_expected = (rsi_early + rsi_late) / 2.0
+        rsi_curvature = abs(rsi_mid - rsi_mid_expected)
+        rsm_slope = None if rsm_early is None or rsm_late is None else (rsm_late - rsm_early)
+        dc_slope = None if dc_early is None or dc_late is None else (dc_late - dc_early)
+
+        total = 0.0
+        total += cls.FIXED_TREND_V2_WEIGHTS["rsi_slope"] * rsi_slope
+        total -= cls.FIXED_TREND_V2_WEIGHTS["rsi_curvature_penalty"] * rsi_curvature
+        if rsm_slope is not None:
+            total += cls.FIXED_TREND_V2_WEIGHTS["rsm_slope"] * rsm_slope
+        if dc_slope is not None:
+            total -= cls.FIXED_TREND_V2_WEIGHTS["dc_slope"] * dc_slope
+        return total
+
+    @classmethod
+    def compute_fixed_trend_v3_score(cls, layer_scores: Dict[str, float]) -> Optional[float]:
+        def _get(name: str) -> Optional[float]:
+            val = layer_scores.get(name)
+            if val is None or (isinstance(val, float) and np.isnan(val)):
+                return None
+            return float(val)
+
+        rsi_early = _get("rsi_early")
+        rsi_mid = _get("rsi_mid")
+        rsi_late = _get("rsi_late")
+        rsm_early = _get("rsm_early")
+        rsm_late = _get("rsm_late")
+        dc_early = _get("directional_collapse_early")
+        dc_late = _get("directional_collapse_late")
+
+        if rsi_early is None or rsi_mid is None or rsi_late is None:
+            return None
+
+        rsi_peak_margin = max(0.0, rsi_mid - max(rsi_early, rsi_late))
+        rsm_slope = None if rsm_early is None or rsm_late is None else (rsm_late - rsm_early)
+        dc_slope = None if dc_early is None or dc_late is None else (dc_late - dc_early)
+
+        total = 0.0
+        total += cls.FIXED_TREND_V3_WEIGHTS["rsi_mid"] * rsi_mid
+        total += cls.FIXED_TREND_V3_WEIGHTS["rsi_peak_margin"] * rsi_peak_margin
+        if rsm_slope is not None:
+            total += cls.FIXED_TREND_V3_WEIGHTS["rsm_slope"] * rsm_slope
+        if dc_slope is not None:
+            total -= cls.FIXED_TREND_V3_WEIGHTS["dc_slope"] * dc_slope
         return total
 
     def get_name(self):

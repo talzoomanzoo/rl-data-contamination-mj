@@ -28,8 +28,8 @@ LOGGER="['console','wandb']"
 
 python3 -m verl.mix_src.main_mix_ppo \
     algorithm.adv_estimator=grpo \
-    data.train_files=$DATA_DIR/openr1_aime_mia/openr1_aime.parquet \
-    data.val_files=$DATA_DIR/openr1_aime_mia/valid_aime.parquet \
+    data.train_files=$DATA_DIR/openr1_aime_mia/openr1_aime_5k.parquet \
+    data.val_files=$DATA_DIR/openr1_aime_mia/valid_aime_5k.parquet \
     data.train_batch_size=128 \
     data.val_batch_size=512 \
     data.max_prompt_length=1024 \

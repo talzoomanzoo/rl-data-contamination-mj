@@ -40,7 +40,7 @@ mkdir -p "$RESULTS_DIR"
 GENERATED_DATA_FILE="${RESULTS_DIR}/generated_data.jsonl"
 EVAL_SUMMARY_JSON="${RESULTS_DIR}/evaluation_summary.json"
 PLOT_PNG="${RESULTS_DIR}/performance_plot.png"
-
+DIME_DETAIL_JSONL="${RESULTS_DIR}/dime_detail_report.jsonl"
 # --- WORKFLOW ---
 echo "======================================================"
 echo "    Starting Final Contamination Detection Workflow"

@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e 
+set -e
 
 ROOT="/scratch2/mjgwak/rl-data-contamination-mj"
 
@@ -7,12 +7,14 @@ ROOT="/scratch2/mjgwak/rl-data-contamination-mj"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 # --- vLLM multiprocessing mode for CUDA ---
 export VLLM_WORKER_MULTIPROC_METHOD=spawn
+# --- PyTorch allocator tweak to reduce fragmentation ---
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # --- CONFIGURATION ---
-HF_MODEL_ID="talzoomanzoo/qwen2.5-7b-instruct-sat-best"
+HF_MODEL_ID="talzoomanzoo/qwen2.5-7b-instruct-aime-5k-best"
 MODEL_PATH="$HF_MODEL_ID"
-MODEL_NAME="Qwen2.5-7B-Instruct_sat_hf"
-DATA_ROOT_DIR="${ROOT}/benchmarks/SAT" 
+MODEL_NAME="Qwen2.5-7B-Instruct_aime_hf"
+DATA_ROOT_DIR="${ROOT}/benchmarks/AIME24" 
 
 METHODS_TO_RUN=("self_critique" "dime" "consistency")
 
@@ -21,9 +23,9 @@ TEMPERATURE_RANDOM=0.8
 NUM_RANDOM_SAMPLES=10
 TENSOR_PARALLEL_SIZE=4
 MAX_NEW_TOKENS=4096
-BATCH_SIZE=100
+BATCH_SIZE=8
 
-SUBSET_SOURCE="sat"
+SUBSET_SOURCE="aime"
 NUM_SAMPLES_PER_SOURCE=-1
 
 SUBSET_TAG="_${SUBSET_SOURCE:-all}"
@@ -34,13 +36,15 @@ fi
 FILENAME_TAG="${SUBSET_TAG}${SAMPLE_TAG}"
 
 # --- Output Configuration ---
-RESULTS_DIR="${ROOT}/final_results/${MODEL_NAME}/${SUBSET_TAG}_${SAMPLE_TAG}"
+
+RESULTS_DIR="${ROOT}/Final_results/${MODEL_NAME}/${SUBSET_TAG}_${SAMPLE_TAG}"
 mkdir -p "$RESULTS_DIR"
 
 GENERATED_DATA_FILE="${RESULTS_DIR}/generated_data.jsonl"
 EVAL_SUMMARY_JSON="${RESULTS_DIR}/evaluation_summary.json"
 PLOT_PNG="${RESULTS_DIR}/performance_plot.png"
 DIME_DETAIL_JSONL="${RESULTS_DIR}/dime_detail_report.jsonl"
+
 # --- WORKFLOW ---
 echo "======================================================"
 echo "    Starting Final Contamination Detection Workflow"
@@ -53,7 +57,7 @@ from huggingface_hub import snapshot_download
 import json
 import os
 
-model_id = "talzoomanzoo/qwen2.5-7b-instruct-sat-best"
+model_id = "talzoomanzoo/qwen2.5-7b-instruct-aime-5k-best"
 path = snapshot_download(model_id)
 config_path = os.path.join(path, "config.json")
 if os.path.exists(config_path):
@@ -72,6 +76,7 @@ print(path)
 PY
 )"
 
+
 CMD_ARGS=""
 if [ -n "$SUBSET_SOURCE" ]; then
     CMD_ARGS="$CMD_ARGS --subset_source $SUBSET_SOURCE"
@@ -80,8 +85,8 @@ if [ "$NUM_SAMPLES_PER_SOURCE" -ge 0 ]; then
     CMD_ARGS="$CMD_ARGS --num_samples_per_source $NUM_SAMPLES_PER_SOURCE"
 fi
 
-PERTURBATION_PREFIX="hello, what's your name?" 
-PERTURBATION_SUFFIX="I'm fine, thank you."
+PERTURBATION_PREFIX="The old city district truly came alive after sunset. Cobblestone streets, still warm from the afternoon sun, reflected the soft glow of iron-cast lamps." 
+PERTURBATION_SUFFIX="The aroma of freshly baked bread from a corner bakery mingled with the distant sound of a jazz saxophone drifting from an open window."
 
 echo "--> Step 1: Generating all necessary data..."
 python "${ROOT}/generate_full_data.py" \
@@ -131,14 +136,14 @@ python "${ROOT}/evaluate_all_methods.py" \
     --rep_stiff_model_name "$HF_MODEL_ID" \
     --rep_stiff_max_workers 4 \
     --rep_stiff_layers "early,mid,late" \
-    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_sat" \
+    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_aime_5k" \
     --rep_stiff_combined_fixed \
     --rep_stiff_combined_rule "trend_v2" \
-    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_sat_hf/_sat__all_samples/rep_stiff_combined_metrics.json" \
+    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_aime_hf/_aime_5k__all_samples/rep_stiff_combined_metrics.json" \
     --rep_stiff_combined_rule "trend_v3" \
-    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_sat_hf/_sat__all_samples/rep_stiff_combined_metrics_v3.json" \
+    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_aime_hf/_aime_5k__all_samples/rep_stiff_combined_metrics_v3.json" \
 
-
+echo ""
 echo "======================================================"
 echo "           Workflow Completed!"
 echo "======================================================"

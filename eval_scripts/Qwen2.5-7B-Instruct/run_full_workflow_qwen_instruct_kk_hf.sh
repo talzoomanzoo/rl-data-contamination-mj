@@ -137,6 +137,8 @@ python "${ROOT}/evaluate_all_methods.py" \
     --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics.json" \
     --rep_stiff_combined_rule "trend_v3" \
     --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics_v3.json" \
+    --rep_stiff_combined_rule "trend_v4" \
+    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen2.5-7B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics_v4.json" \
     
 echo "======================================================"
 echo "           Workflow Completed!"

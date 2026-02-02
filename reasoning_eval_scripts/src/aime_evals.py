@@ -337,7 +337,7 @@ def main():
     parser.add_argument(
         "--max_new_tokens",
         type=int,
-        default=512,
+        default=4096,
         help="Maximum number of new tokens to generate."
     )
     parser.add_argument(
@@ -532,6 +532,11 @@ def main():
     
     # Evaluation summary
     print(f"\n📈 Evaluation Summary:")
+    summary = {
+        "total_questions": len(questions_data),
+        "questions_processed": len(questions_to_process),
+        "models": {},
+    }
     for model_key in models_to_evaluate:
         eval_key = f"{model_key}_eval"
         
@@ -553,8 +558,25 @@ def main():
             print(f"  {model_key}:")
             print(f"    Correct: {correct_count}/{total_count} ({accuracy:.1f}%)")
             print(f"    No answer extracted: {no_answer_count}")
+            summary["models"][model_key] = {
+                "correct": correct_count,
+                "total": total_count,
+                "accuracy_percent": round(accuracy, 3),
+                "no_answer_extracted": no_answer_count,
+            }
         else:
             print(f"  {model_key}: No evaluations performed")
+            summary["models"][model_key] = {
+                "correct": 0,
+                "total": 0,
+                "accuracy_percent": None,
+                "no_answer_extracted": no_answer_count,
+            }
+
+    summary_path = Path(output_file).with_suffix(".summary.json")
+    with open(summary_path, "w") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    print(f"\nSummary saved to: {summary_path}")
 
 if __name__ == "__main__":
     main()

@@ -8,12 +8,98 @@ from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
 from tqdm import tqdm
 import copy
+import json as _json
+from collections.abc import Mapping
+
+def _normalize_prompt_obj(obj):
+    """Best-effort normalization across pandas/pyarrow/numpy prompt representations."""
+    if obj is None:
+        return None
+    if isinstance(obj, np.ndarray):
+        obj = obj.tolist()
+    # Some parquet readers may return pyarrow Scalars; convert if possible.
+    try:
+        import pyarrow as pa  # type: ignore
+        if isinstance(obj, pa.Scalar):
+            obj = obj.as_py()
+    except Exception:
+        pass
+    # If prompt is a JSON-encoded string, try to parse it.
+    if isinstance(obj, str):
+        s = obj.strip()
+        if s and s[0] in "[{":
+            try:
+                obj = _json.loads(s)
+            except Exception:
+                pass
+    return obj
+
 
 def get_user_content(prompt_obj):
-    if isinstance(prompt_obj, np.ndarray): prompt_obj = prompt_obj.tolist()
-    if isinstance(prompt_obj, list) and len(prompt_obj) > 0 and 'content' in prompt_obj[-1]:
-        return prompt_obj[-1]['content']
+    prompt_obj = _normalize_prompt_obj(prompt_obj)
+    if isinstance(prompt_obj, Mapping):
+        # Sometimes prompt is a single message dict.
+        return prompt_obj.get("content") or prompt_obj.get("text") or prompt_obj.get("prompt")
+    if isinstance(prompt_obj, (list, tuple)) and len(prompt_obj) > 0:
+        last = _normalize_prompt_obj(prompt_obj[-1])
+        if isinstance(last, Mapping):
+            return last.get("content") or last.get("text")
+        if isinstance(last, str):
+            return last
     return None
+
+
+def _coerce_messages(prompt_obj):
+    """Coerce various prompt formats into a list of {role, content} dicts."""
+    prompt_obj = _normalize_prompt_obj(prompt_obj)
+    if prompt_obj is None:
+        return []
+    if isinstance(prompt_obj, (list, tuple)):
+        msgs = []
+        for m in prompt_obj:
+            m = _normalize_prompt_obj(m)
+            if isinstance(m, Mapping):
+                role = m.get("role") or "user"
+                content = m.get("content") or m.get("text") or ""
+                msgs.append({"role": role, "content": content})
+            elif isinstance(m, str):
+                msgs.append({"role": "user", "content": m})
+        return msgs
+    if isinstance(prompt_obj, Mapping):
+        role = prompt_obj.get("role") or "user"
+        content = prompt_obj.get("content") or prompt_obj.get("text") or prompt_obj.get("prompt") or ""
+        return [{"role": role, "content": content}]
+    if isinstance(prompt_obj, str):
+        return [{"role": "user", "content": prompt_obj}]
+    # Unknown type: fallback to string representation.
+    return [{"role": "user", "content": str(prompt_obj)}]
+
+
+def _read_parquet_with_fallback(path: str) -> pd.DataFrame:
+    """
+    Read parquet robustly across environments.
+
+    Some parquet engines (e.g., fastparquet) can silently drop/NULL nested columns
+    like our `prompt` (list-of-struct). Prefer pyarrow; fallback to datasets if available.
+    """
+    # 1) Prefer pyarrow engine if available.
+    try:
+        import pyarrow  # noqa: F401
+
+        return pd.read_parquet(path, engine="pyarrow")
+    except Exception:
+        pass
+
+    # 2) Try Hugging Face Datasets (also pyarrow-backed) if installed.
+    try:
+        from datasets import Dataset  # type: ignore
+
+        return Dataset.from_parquet(path).to_pandas()
+    except Exception:
+        pass
+
+    # 3) Last resort: pandas default engine.
+    return pd.read_parquet(path)
 
 def format_prompt(message, template, tokenizer):
     if not message: return ""
@@ -103,6 +189,24 @@ def main():
                         choices=['dime', 'consistency', 'self_critique', 'self_critique_ablation'])
     parser.add_argument("--approx_mode", type=str, default="renorm", choices=["renorm", "rest"])
     args = parser.parse_args()
+
+    # --- Compatibility patch for older Transformers ---
+    # Some tokenizer configs (e.g. Qwen) store `extra_special_tokens` as a *list*.
+    # Transformers<=4.55 can crash expecting a dict (special_tokens.keys()).
+    try:
+        from transformers.tokenization_utils_base import PreTrainedTokenizerBase
+
+        _orig_set_model_specific_special_tokens = PreTrainedTokenizerBase._set_model_specific_special_tokens
+
+        def _set_model_specific_special_tokens_compat(self, special_tokens=None):
+            if isinstance(special_tokens, list):
+                # Treat list form as "no model-specific mapping overrides".
+                return
+            return _orig_set_model_specific_special_tokens(self, special_tokens=special_tokens)
+
+        PreTrainedTokenizerBase._set_model_specific_special_tokens = _set_model_specific_special_tokens_compat
+    except Exception:
+        pass
     
     # --- 1. Resume from checkpoint ---
     processed_contents = set()
@@ -115,7 +219,37 @@ def main():
 
     # --- 2. Load, filter and sample ---
     print(f"Searching for data files in {args.data_root_dir}...")
-    all_tasks = [row.to_dict() for ext in ['*.jsonl', '*.parquet'] for f in glob.glob(os.path.join(args.data_root_dir, '**', ext), recursive=True) for _, row in (pd.read_parquet(f) if f.endswith('.parquet') else pd.read_json(f, lines=True)).iterrows() if 'prompt' in row and 'member' in row]
+    all_tasks = []
+    data_files = []
+    for ext in ['*.jsonl', '*.parquet']:
+        data_files.extend(glob.glob(os.path.join(args.data_root_dir, '**', ext), recursive=True))
+
+    for fpath in data_files:
+        try:
+            if fpath.endswith('.parquet'):
+                df = _read_parquet_with_fallback(fpath)
+            else:
+                df = pd.read_json(fpath, lines=True)
+        except Exception as e:
+            print(f"[warn] Failed to read {fpath}: {e}")
+            continue
+
+        # If parquet decoding silently NULLs out nested columns, fail fast with a helpful hint.
+        if 'prompt' in df.columns:
+            try:
+                if df['prompt'].isna().all():
+                    raise RuntimeError(
+                        f"Parquet reader produced all-NULL 'prompt' column for {fpath}. "
+                        "This usually means your parquet engine can't decode nested columns. "
+                        "Install/enable pyarrow (recommended) or install `datasets`."
+                    )
+            except Exception:
+                # If isna() fails on object columns, ignore.
+                pass
+
+        for _, row in df.iterrows():
+            if 'prompt' in row and 'member' in row:
+                all_tasks.append(row.to_dict())
     df_all = pd.DataFrame(all_tasks)
 
     print('df_all.keys()', df_all.keys())
@@ -133,7 +267,26 @@ def main():
     tasks_to_process = [row for _, row in df_sampled.iterrows() if get_user_content(row['prompt']) and get_user_content(row['prompt']) not in processed_contents]
 
     if not tasks_to_process:
-        print("All target prompts have been processed or not found. Program exiting.")
+        # Extra diagnostics to avoid silent empty runs.
+        total = len(df_sampled)
+        missing_content = 0
+        sample_type = None
+        try:
+            if total > 0:
+                sample = df_sampled.iloc[0]['prompt']
+                sample_type = type(sample).__name__
+            for _, r in df_sampled.iterrows():
+                if not get_user_content(r.get('prompt')):
+                    missing_content += 1
+        except Exception:
+            pass
+        print(
+            "All target prompts have been processed or not found. Program exiting.\n"
+            f"- total_rows_after_filter: {total}\n"
+            f"- processed_contents: {len(processed_contents)}\n"
+            f"- rows_with_missing_user_content: {missing_content}\n"
+            f"- sample_prompt_type: {sample_type}"
+        )
         return
     print(f"\nNumber of new prompts to process: {len(tasks_to_process)}")
     print(f"Data source distribution to process:\n{pd.Series([t['data_source'] for t in tasks_to_process]).value_counts()}")
@@ -151,7 +304,18 @@ def main():
 
     logprobs_to_request = args.K
     print(f"Loading model: {args.model_path} (TP={args.tensor_parallel_size})...")
-    tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
+    except AttributeError as e:
+        # Fallback for the same "extra_special_tokens list" issue.
+        if "keys" in str(e):
+            tokenizer = AutoTokenizer.from_pretrained(
+                args.model_path,
+                trust_remote_code=True,
+                extra_special_tokens={},
+            )
+        else:
+            raise
     llm = LLM(
         model=args.model_path,
         tensor_parallel_size=args.tensor_parallel_size,
@@ -178,11 +342,12 @@ def main():
             batch_original_prompts_formatted = []
             batch_perturbed_prompts_formatted = []
             for task in batch_tasks:
-                original_prompt = task['prompt'].tolist() if isinstance(task['prompt'], np.ndarray) else task['prompt']
+                original_prompt = _coerce_messages(task.get('prompt'))
                 perturbed_prompt = copy.deepcopy(original_prompt)
                 user_content = get_user_content(original_prompt)
                 perturbed_content = f"{args.perturbation_prefix} {user_content} {args.perturbation_suffix}".strip()
-                perturbed_prompt[-1]['content'] = perturbed_content
+                if perturbed_prompt:
+                    perturbed_prompt[-1]['content'] = perturbed_content
                 
                 batch_original_prompts_formatted.append(format_prompt(original_prompt, args.prompt_template, tokenizer))
                 batch_perturbed_prompts_formatted.append(format_prompt(perturbed_prompt, args.prompt_template, tokenizer))

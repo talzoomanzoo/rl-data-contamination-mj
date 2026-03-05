@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Henry, Matthew, Riley, and Jack. Henry was heard saying, \"Matthew is a knight and Henry is a knight\". Matthew noted, \"Riley is a knight and Jack is a knight\". Riley said, \"Jack is a knave and Jack is a knight.\" Jack was heard saying, \"Henry is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Henry, Matthew, Riley, and Jack. Henry was heard saying, \"Matthew is a knight and Henry is a knight\". Matthew noted, \"Riley is a knight and Jack is a knight\". Riley said, \"Jack is a knave and Jack is a knight.\" Jack was heard saying, \"Henry is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Lucas, Ethan, Sophia, and Mia. Lucas was heard saying, \"Ethan is a knight and Lucas is a knight\". Ethan noted, \"Sophia is a knight and Mia is a knight\". Sophia said, \"Mia is a knave and Mia is a knight.\" Mia was heard saying, \"Lucas is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Oliver, Ava, Liam, and Grace. Oliver was heard saying, \"Ava is a knight and Oliver is a knight\". Ava noted, \"Liam is a knight and Grace is a knight\". Liam said, \"Grace is a knave and Grace is a knight.\" Grace was heard saying, \"Oliver is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Noah, Mia, Isabela, and James. Noah was heard saying, \"Mia is a knight and Noah is a knight\". Mia noted, \"Isabela is a knight and James is a knight\". Isabela said, \"James is a knave and James is a knight.\" James was heard saying, \"Noah is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Zoe, Mason, Chloe, and Ethan. Zoe was heard saying, \"Mason is a knight and Zoe is a knight\". Mason noted, \"Chloe is a knight and Ethan is a knight\". Chloe said, \"Ethan is a knave and Ethan is a knight.\" Ethan was heard saying, \"Zoe is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Aiden, Ella, Sebastian, and Lily. Aiden was heard saying, \"Ella is a knight and Aiden is a knight\". Ella noted, \"Sebastian is a knight and Lily is a knight\". Sebastian said, \"Lily is a knave and Lily is a knight.\" Lily was heard saying, \"Aiden is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] was heard saying, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] noted, \"[BLANK] is a knight and [BLANK] is a knight\". [BLANK] said, \"[BLANK] is a knave and [BLANK] is a knight.\" [BLANK] was heard saying, \"[BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

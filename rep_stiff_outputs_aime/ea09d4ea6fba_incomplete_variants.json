@@ -1,0 +1,210 @@
+{
+  "original_question": "Let \\(O=(0,0)\\), \\(A=\\left(\\tfrac{1}{2},0\\right)\\), and \\(B=\\left(0,\\tfrac{\\sqrt{3}}{2}\\right)\\) be points in the coordinate plane. Let \\(\\mathcal{F}\\) be the family of segments \\(\\overline{PQ}\\) of unit length lying in the first quadrant with \\(P\\) on the \\(x\\)-axis and \\(Q\\) on the \\(y\\)-axis. There is a unique point \\(C\\) on \\(\\overline{AB}\\), distinct from \\(A\\) and \\(B\\), that does not belong to any segment from \\(\\mathcal{F}\\) other than \\(\\overline{AB}\\). Then \\(OC^2=\\tfrac{p}{q}\\), where \\(p\\) and \\(q\\) are relatively prime positive integers. Find \\(p+q\\).",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the Cartesian coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length situated in the first quadrant with point P located on the \\(x\\)-axis and point Q positioned on the \\(y\\)-axis. There exists a unique point C on the line segment \\overline{AB}, which is different from A and B, that is not part of any segment from \\mathcal{F} apart from \\overline{AB}. It follows that OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points located in the coordinate system. Define \\mathcal{F} as the collection of segments \\overline{PQ} that are of unit length and situated in the first quadrant, where P is positioned on the \\(x\\)-axis and Q is positioned on the \\(y\\)-axis. There exists a single point C on the line segment \\overline{AB}, different from both A and B, which is not part of any segment from \\mathcal{F} other than \\overline{AB}. It follows that OC^2=\\tfrac{p}{q}, where p and q are coprime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the points O=(0,0), A=[BLANK], and B=[BLANK] situated within the coordinate system. Define \\mathcal{F} as the collection of segments \\overline{PQ} of unit length positioned in the first quadrant, where point P is located on the \\(x\\)-axis and point Q is found on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, different from points A and B, which is not part of any segment in \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let O=(0,0), A=[BLANK], and B=[BLANK] represent points in the coordinate plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length situated in the first quadrant, with P located on the \\(x\\)-axis and Q positioned on the \\(y\\)-axis. There exists a unique point C on \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} aside from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the points O=(0,0), A=[BLANK], and B=[BLANK] situated in the coordinate plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} with a length of one unit that are located in the first quadrant, where point P is on the \\(x\\)-axis and point Q is on the \\(y\\)-axis. There exists a singular point C on the segment \\overline{AB}, which is different from A and B, that does not lie on any segment from \\mathcal{F} apart from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are positive integers that share no common factors other than one. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the origin O=(0,0), and let A=[BLANK] and B=[BLANK] represent points in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length situated in the first quadrant, where point P lies on the \\(x\\)-axis and point Q is located on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, which is different from both A and B, that is not part of any segment from \\mathcal{F} apart from \\overline{AB}. Therefore, the equation OC^2 equals \\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the Cartesian plane. Let \\mathcal{F} represent the collection of line segments \\overline{PQ} with a length of one unit situated in the first quadrant, where P is located on the \\(x\\)-axis and Q is positioned on the \\(y\\)-axis. There exists a single point C on \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} apart from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of length one situated in the first quadrant, with point P positioned on the \\(x\\)-axis and point Q located on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, which is different from both A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points located in the coordinate plane. Define \\mathcal{F} to be the collection of segments \\overline{PQ} of unit length situated in the first quadrant, with point P positioned on the \\(x\\)-axis and point Q on the \\(y\\)-axis. There exists a singular point C located on \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} apart from \\overline{AB}. Thus, OC^2=\\tfrac{p}{q}, where p and q are positive integers that share no common divisors other than 1. Calculate p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points within the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} with a length of one unit situated in the first quadrant, where point P is located on the \\(x\\)-axis and point Q is situated on the \\(y\\)-axis. There exists a singular point C along the line segment \\overline{AB}, which is different from both A and B, that is not part of any segment in \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are coprime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points on the coordinate plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of length one situated in the first quadrant, with P positioned on the \\(x\\)-axis and Q located on the \\(y\\)-axis. There exists a unique point C on \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points within the coordinate system. Define \\mathcal{F} as the collection of segments \\overline{PQ} of unit length situated in the first quadrant, where P is located on the \\(x\\)-axis and Q is positioned on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, different from A and B, that is not part of any segment in \\mathcal{F} apart from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are two relatively prime positive integers. Determine the value of p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the Cartesian plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of length one situated in the first quadrant, with P positioned on the \\(x\\)-axis and Q located on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, distinct from both A and B, that is not part of any segment from \\mathcal{F} aside from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the coordinate system. Define \\mathcal{F} as the collection of segments \\overline{PQ} of length one positioned in the first quadrant, with P located on the \\(x\\)-axis and Q situated on the \\(y\\)-axis. There exists a singular point C on \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB} itself. Consequently, OC^2=\\tfrac{p}{q}, where p and q are coprime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the Cartesian plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length situated in the first quadrant, with point P located on the \\(x\\)-axis and point Q situated on the \\(y\\)-axis. There exists a singular point C on \\overline{AB}, which is not A or B, that is not part of any segment from \\mathcal{F} apart from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the Cartesian plane. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length positioned in the first quadrant, with point P located on the \\(x\\)-axis and point Q situated on the \\(y\\)-axis. There exists a distinct point C on the line segment \\overline{AB}, separate from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points located in the coordinate system. Let \\mathcal{F} denote the collection of line segments \\overline{PQ} that are of unit length situated in the first quadrant, where point P is on the \\(x\\)-axis and point Q is on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the origin O=(0,0), with points A=[BLANK] and B=[BLANK] defined in the coordinate system. Let \\mathcal{F} represent the collection of line segments \\overline{PQ} of unit length situated in the first quadrant, where point P is located on the \\(x\\)-axis and point Q is positioned on the \\(y\\)-axis. There exists a single point C on the line segment \\overline{AB}, which is different from both A and B, that is not part of any segment in \\mathcal{F} except for \\overline{AB}. Consequently, OC^2 equals \\tfrac{p}{q}, with p and q being positive integers that are relatively prime. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points located in the coordinate system. Define \\mathcal{F} as the set of line segments \\overline{PQ} of unit length situated in the first quadrant, where P is positioned on the \\(x\\)-axis and Q is located on the \\(y\\)-axis. There exists a singular point C on the segment \\overline{AB}, separate from A and B, that is not part of any segment in \\mathcal{F} apart from \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the origin O=(0,0), and let points A=[BLANK] and B=[BLANK] exist in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of unit length situated in the first quadrant, where point P is located on the \\(x\\)-axis and point Q is positioned on the \\(y\\)-axis. There exists a distinct point C on the segment \\overline{AB}, which is not equal to either A or B, that does not lie on any segment from \\mathcal{F} except for \\overline{AB}. It follows that OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Calculate p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integers. Find p+q.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points located in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} that have a length of one unit, positioned in the first quadrant with point P resting on the \\(x\\)-axis and point Q situated on the \\(y\\)-axis. There exists a distinct point C on \\overline{AB}, separate from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Consequently, OC^2=\\tfrac{p}{q}, where p and q are positive integers that have no common factors. Calculate p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of length one situated in the first quadrant, with P located on the \\(x\\)-axis and Q on the \\(y\\)-axis. There exists a distinct point C on \\overline{AB}, different from A and B, that is not a part of any segment in \\mathcal{F} apart from \\overline{AB}. It follows that OC^2=\\tfrac{p}{q}, where p and q are coprime positive integers. Determine p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let O=(0,0), A=[BLANK], and B=[BLANK] be points in the coordinate plane. Let \\mathcal{F} be the family of segments \\overline{PQ} of unit length lying in the first quadrant with P on the \\(x\\)-axis and Q on the \\(y\\)-axis. There is a unique point C on \\overline{AB}, distinct from A and B, that does not belong to any segment from \\mathcal{F} other than \\overline{AB}. Then OC^2=\\tfrac{p}{q}, where p and q are relatively prime positive integersFind p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider O=(0,0), A=[BLANK], and B=[BLANK] as points in the coordinate system. Define \\mathcal{F} as the collection of line segments \\overline{PQ} of length one situated in the first quadrant, where point P is located on the \\(x\\)-axis and point Q is on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, different from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Therefore, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the origin O=(0,0), and points A=[BLANK] and B=[BLANK] located in the coordinate system. Define \\mathcal{F} as the collection of segments \\overline{PQ} with a length of one, positioned in the first quadrant, where P is situated on the \\(x\\)-axis and Q on the \\(y\\)-axis. There exists a singular point C on the line segment \\overline{AB}, separate from A and B, that is not part of any segment from \\mathcal{F} except for \\overline{AB}. Thus, OC^2=\\tfrac{p}{q}, with p and q being relatively prime positive integers. Determine the sum p+q.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

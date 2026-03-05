@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $13$, and inradius $6$. Find $AB\\cdot AC$.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $\\triangle GHI$ have circumcenter $R$ and incenter $S$ with $\\overline{SG}\\perp\\overline{RS}$, circumradius $[BLANK]$, and inradius $5$. Find $GH \\cdot GI$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle GHI with circumcenter R and incenter S, where line segment SG is perpendicular to line segment RS, the circumradius is [BLANK], and the inradius measures 5. Determine the product of lengths GH and GI.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let triangle GHI possess circumcenter R and incenter S, such that segment SG is orthogonal to segment RS, with a circumradius of [BLANK] and an inradius of 5. Calculate the product GH multiplied by GI.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In triangle GHI, let R denote the circumcenter and S the incenter, where the line SG is perpendicular to the line RS, the circumradius is [BLANK], and the inradius equals 5. Find the value of GH times GI.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given triangle GHI with circumcenter labeled as R and incenter as S, where the segment SG is perpendicular to the segment RS, with a circumradius of [BLANK] and an inradius of 5. Compute the product of GH and GI.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take triangle GHI, where R is the circumcenter and S is the incenter, with the condition that segment SG is perpendicular to segment RS, the circumradius being [BLANK], and the inradius set at 5. Find the product of GH and GI.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $\\triangle JKL$ have circumcenter $T$ and incenter $U$ with $\\overline{UJ}\\perp\\overline{TU}$, circumradius $[BLANK]$, and inradius $4$. Find $JK \\cdot JL$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle JKL with circumcenter T and incenter U such that line segment UJ is perpendicular to line segment TU, circumradius [BLANK], and inradius equal to 4. Determine the product JK times JL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let triangle JKL possess circumcenter T and incenter U, where segment UJ is perpendicular to segment TU, with a circumradius of [BLANK] and an inradius of 4. Calculate the value of JK multiplied by JL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In triangle JKL, let T be the circumcenter and U the incenter, with the condition that line UJ is orthogonal to line TU, having a circumradius of [BLANK], while the inradius measures 4. Find the product of JK and JL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Define triangle JKL with T as its circumcenter and U as its incenter, ensuring that the segment UJ is perpendicular to segment TU, with a circumradius of [BLANK] and an inradius of 4. What is the value of JK times JL?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $\triangle JKL$ feature circumcenter T and incenter U such that the segment UJ is at a right angle to segment TU, with a circumradius of [BLANK] and an inradius of 4. What is the product of JK and JL?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $\\triangle MNO$ have circumcenter $V$ and incenter $W$ with $\\overline{WM}\\perp\\overline{VW}$, circumradius $[BLANK]$, and inradius $6$. Find $MN \\cdot MO$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle MNO, where V denotes the circumcenter and W represents the incenter, such that line segment WM is perpendicular to line segment VW, with circumradius equal to [BLANK] and an inradius of 6. Determine the product of lengths MN and MO.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle MNO, let V be the circumcenter and W the incenter, satisfying the condition that WM is perpendicular to VW, with a circumradius of [BLANK] and an inradius measuring 6. Calculate the product of the sides MN and MO.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let triangle MNO be defined by circumcenter V and incenter W, where line WM is perpendicular to line VW, a circumradius of [BLANK], and an inradius of 6. Find the value of MN multiplied by MO.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the triangle MNO, having circumcenter V and incenter W such that the line WM is at a right angle to line VW, with circumradius set at [BLANK] and an inradius of 6. Compute the product MN times MO.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take triangle MNO, with circumcenter V and incenter W, where segment WM is perpendicular to segment VW, having a circumradius of [BLANK] and an inradius of 6. What is the value of MN multiplied by MO?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $\\triangle PQR$ have circumcenter $X$ and incenter $Y$ with $\\overline{YP}\\perp\\overline{XY}$, circumradius $[BLANK]$, and inradius $8$. Find $PQ \\cdot PR$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle PQR with circumcenter X and incenter Y such that line segment YP is perpendicular to line segment XY, having a circumradius of [BLANK], and an inradius of 8. Determine the product of PQ and PR.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let triangle PQR feature circumcenter X and incenter Y, where segment YP is orthogonal to segment XY, with a circumradius measuring [BLANK] and an inradius of 8. Calculate the product PQ multiplied by PR.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In triangle PQR, let X denote the circumcenter and Y represent the incenter, with the condition that line YP is perpendicular to line XY, a circumradius of [BLANK], and an inradius of 8. Find the product of the lengths PQ and PR.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take triangle PQR, where X is the circumcenter and Y is the incenter, ensuring that the segment YP is at a right angle to segment XY, with a circumradius of [BLANK] and an inradius of 8. Compute the product of PQ and PR.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Examine triangle PQR having circumcenter X and incenter Y, such that the line segment YP is perpendicular to the line segment XY, with a circumradius of [BLANK] and an inradius of 8. Find the value of PQ times PR.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $[BLANK]$, and inradius $6$. Find $AB\\cdot AC$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ where the circumcenter is denoted as $O$ and the incenter as $I$. It is given that $\\overline{IA}$ is perpendicular to $\\overline{OI}$, with the circumradius being $[BLANK]$ and the inradius measuring 6. Determine the product $AB \\cdot AC$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with circumcenter $O$ and incenter $I$, where the line segment $\\overline{IA}$ is perpendicular to $\\overline{OI}$, the circumradius is $[BLANK]$, and the inradius measures 6. Calculate the product $AB\\cdot AC$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $[BLANK]$, and inradius $6$Find $AB\\cdot AC$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ with circumcenter $O$ and incenter $I$, where line segment $\\overline{IA}$ is perpendicular to line segment $\\overline{OI}$, the circumradius is $[BLANK]$, and the inradius measures 6. Determine the product $AB \\cdot AC$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with circumcenter $O$ and incenter $I$, where the line segment $\\overline{IA}$ is perpendicular to $\\overline{OI}$, the circumradius is $[BLANK]$, and the inradius measures 6. Determine the product $AB \\cdot AC$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $\\triangle DEF$ have circumcenter $P$ and incenter $Q$ with $\\overline{QD}\\perp\\overline{PQ}$, circumradius $[BLANK]$, and inradius $7$. Find $DE \\cdot DF$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $DEF$ with circumcenter $P$ and incenter $Q$, where $\\overline{QD}$ is perpendicular to $\\overline{PQ}$, the circumradius is $[BLANK]$, and the inradius measures $7$. Calculate the product $DE \\cdot DF$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $DEF$ with circumcenter $P$ and incenter $Q$, where $\\overline{QD}$ is perpendicular to $\\overline{PQ}$, the circumradius is $[BLANK]$, and the inradius measures $7$. Determine the product $DE \\cdot DF$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\triangle DEF$ have circumcenter $P$ and incenter $Q$ with $\\overline{QD}\\perp\\overline{PQ}$, circumradius $[BLANK]$, and inradius $7$Find $DE \\cdot DF$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $DEF$ where the circumcenter is denoted as $P$ and the incenter as $Q$. It is given that line segment $\\overline{QD}$ is perpendicular to line segment $\\overline{PQ}$, the circumradius is $[BLANK]$, and the inradius measures 7. Determine the product $DE \\cdot DF$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle DEF$ which has a circumcenter denoted as $P$ and an incenter represented by $Q$. It is given that the line segment $\\overline{QD}$ is perpendicular to the line segment $\\overline{PQ}$, with a circumradius of $[BLANK]$ and an inradius measuring $7$. Determine the product $DE \\cdot DF$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

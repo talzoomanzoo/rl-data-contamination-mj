@@ -1,0 +1,210 @@
+{
+  "original_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is $30$.\n$\\bullet$ The unique mode of the list is $9$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself.\n Find the sum of the squares of all the items in the list.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $12$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A collection of positive whole numbers exhibits the following characteristics: $\bullet$ The total of the elements in the collection equals [BLANK]. $\bullet$ The sole mode of the collection is $12$. $\bullet$ The median value of the collection is a positive whole number that is absent from the collection. Determine the total of the squares of all the elements in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers possesses these attributes: $\bullet$ The aggregate of the values in the set is [BLANK]. $\bullet$ The distinct mode of the set is $12$. $\bullet$ The median of the set is a positive integer not present in the set. Calculate the sum of the squares of every value in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A group of positive integers has the following features: $\bullet$ The sum of the numbers in the group is [BLANK]. $\bullet$ The unique mode present in the group is $12$. $\bullet$ The median of the group is a positive integer that is not included in the group itself. Find the total of the squares of all numbers in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A sequence of positive integers is defined by these properties: $\bullet$ The sum of the elements in the sequence amounts to [BLANK]. $\bullet$ The only mode of the sequence is $12$. $\bullet$ The median of the sequence is a positive integer that does not occur in the sequence. Find the sum of the squares of all the elements in the sequence.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An array of positive integers contains the following elements: $\bullet$ The total sum of the items in the array is [BLANK]. $\bullet$ The mode that appears most frequently in the array is $12$. $\bullet$ The median of the array is a positive integer that is not part of the array. Determine the sum of the squares of all items within the array.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $9$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A collection of positive whole numbers has these characteristics: $\bullet$ The total of the numbers in the collection equals [BLANK]. $\bullet$ The only mode of the collection is $9$. $\bullet$ The median value of the collection is a positive whole number that is not present in the collection. Determine the sum of the squares of every number in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers possesses the following attributes: $\bullet$ The aggregate of the entries in the set amounts to [BLANK]. $\bullet$ The sole mode of the set is $9$. $\bullet$ The median of the set is a positive integer that is absent from the set. Calculate the total of the squares of all elements in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a group of positive integers, the following conditions hold: $\bullet$ The total sum of the elements in the group is [BLANK]. $\bullet$ The distinct mode of the group is $9$. $\bullet$ The median of the group is a positive integer that is not included in the group. Find the sum of the squares of each item in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a series of positive integers that exhibit these features: $\bullet$ The sum of the numbers in the series is [BLANK]. $\bullet$ The unique mode of the series is $9$. $\bullet$ The median of the series is a positive integer that does not feature in the series. Compute the sum of the squares of all numbers in the series.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A sequence of positive integers has the following properties: $\bullet$ The cumulative total of the values in the sequence equals [BLANK]. $\bullet$ The unique mode of the sequence is $9$. $\bullet$ The median of the sequence is a positive integer that does not appear within the sequence. Find the overall sum of the squares of every number in the sequence.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $15$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A collection of positive whole numbers exhibits these characteristics: $\bullet$ The total of the numbers in the collection equals [BLANK]. $\bullet$ The distinct mode of the collection is $15$. $\bullet$ The median of the collection is a positive integer that is not included in the collection. Determine the sum of the squares of every number in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers has the following attributes: $\bullet$ The aggregate of the elements in the set is [BLANK]. $\bullet$ The sole mode of the set is $15$. $\bullet$ The median of the set is a positive integer that does not belong to the set. Calculate the total of the squares of all elements in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider a group of positive integers with these features: $\bullet$ The sum of the values in the group is [BLANK]. $\bullet$ The unique mode of the group is $15$. $\bullet$ The median of the group is a positive integer that is absent from the group. Find the sum of the squares of every value in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An array of positive integers possesses the following properties: $\bullet$ The sum of its items equals [BLANK]. $\bullet$ The one and only mode of the array is $15$. $\bullet$ The median of the array is a positive integer not found within the array. Compute the total of the squares of all items in the array.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A sequence of positive integers has these specifications: $\bullet$ The combined total of the sequence is [BLANK]. $\bullet$ The unique mode in the sequence is $15$. $\bullet$ The median of the sequence is a positive integer that is not part of the sequence itself. Determine the total of the squares of all elements in the sequence.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $7$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A collection of positive whole numbers exhibits these characteristics: $\bullet$ The total of the numbers in the collection equals [BLANK]. $\bullet$ The only mode of the collection is $7$. $\bullet$ The median value of the collection is a positive integer that is not included in the collection. Determine the sum of the squares of all the numbers in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers possesses the following features: $\bullet$ The aggregate of the elements in the set is [BLANK]. $\bullet$ The singular mode of the set is $7$. $\bullet$ The median of the set is a positive integer absent from the set itself. Calculate the sum of the squares of every element in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An array of positive integers has these attributes: $\bullet$ The total sum of the items in the array amounts to [BLANK]. $\bullet$ The distinct mode of the array is $7$. $\bullet$ The median of the array is a positive integer that does not exist within the array. Find the total of the squares of all the items in the array.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A group of positive integers contains the following properties: $\bullet$ The sum of the elements in the group equals [BLANK]. $\bullet$ The unique mode of the group is $7$. $\bullet$ The median of the group is a positive integer that is not found in the group itself. Compute the sum of the squares of all the elements in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A compilation of positive integers has the following specifications: $\bullet$ The sum of the entries in the compilation is [BLANK]. $\bullet$ The only mode present in the compilation is $7$. $\bullet$ The median of the compilation is a positive integer that does not appear within the compilation. Determine the sum of the squares of all entries in the compilation.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $5$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A collection of positive whole numbers has these characteristics: $\bullet$ The total of the elements in the collection equals [BLANK]. $\bullet$ The sole mode of the collection is $5$. $\bullet$ The median of the collection is a positive whole number that is not present in the collection. Determine the total of the squares of all elements in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers possesses the following features: $\bullet$ The overall sum of the numbers in the set is [BLANK]. $\bullet$ The only mode of the set is $5$. $\bullet$ The median value of the set is a positive integer that does not appear among the set's numbers. Calculate the sum of the squares of every number in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A group of positive integers displays the next qualities: $\bullet$ The aggregate of the figures in the group totals [BLANK]. $\bullet$ The distinctive mode of the group is $5$. $\bullet$ The median of the group is a positive integer that isn\u2019t included in the group itself. Find the total of the squares of all figures in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A series of positive integers has the following attributes: $\bullet$ The sum of its components equals [BLANK]. $\bullet$ The unique mode within the series is $5$. $\bullet$ The median of the series is a positive integer that does not feature in the series. What is the sum of the squares of all components in the series?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A sequence of positive integers exhibits these properties: $\bullet$ The combined total of the items in the sequence is [BLANK]. $\bullet$ The singular mode of the sequence is $5$. $\bullet$ The median of the sequence is a positive integer that is absent from the sequence itself. Find the total of the squares of all items in the sequence.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A list of positive integers has the following properties:\n$\\bullet$ The sum of the items in the list is [BLANK].\n$\\bullet$ The unique mode of the list is $8$.\n$\\bullet$ The median of the list is a positive integer that does not appear in the list itself. Find the sum of the squares of all the items in the list.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a collection of positive whole numbers with the following characteristics: $\bullet$ The total of the numbers in the collection equals [BLANK]. $\bullet$ The sole mode of the collection is $8$. $\bullet$ The median of the collection is a positive whole number that is not included in the collection. Determine the sum of the squares of all numbers in the collection.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A set of positive integers exhibits these properties: $\bullet$ The addition of the elements in the set results in [BLANK]. $\bullet$ The distinct mode of the set is $8$. $\bullet$ The median of the set is a positive integer that is absent from the set itself. Calculate the sum of the squares of all elements in the set.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a sequence of positive integers that has the following traits: $\bullet$ The combined value of the elements in the sequence totals [BLANK]. $\bullet$ The only mode present in the sequence is $8$. $\bullet$ The median of the sequence is a positive integer which does not exist within the sequence. Find the sum of the squares of every element in the sequence.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A group of positive integers possesses these attributes: $\bullet$ The sum of the entries in the group is [BLANK]. $\bullet$ The unique mode for the group is $8$. $\bullet$ The median within the group is a positive integer that is not part of the group. Compute the sum of the squares of all entries in the group.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A collection of positive integers has the following specifications: $\bullet$ The sum of the numbers within the collection is [BLANK]. $\bullet$ The sole mode of the collection is $8$. $\bullet$ The median of the collection is a positive integer that does not feature in the collection. Find the total of the squares of all numbers in the collection.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

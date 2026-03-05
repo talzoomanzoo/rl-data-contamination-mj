@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Evelyn, David, and Scarlett. In Abigail's words: \"Scarlett is not a knave\". According to Evelyn, \"Abigail is a knight and David is a knave\". David stated, \"Abigail is a knave or Scarlett is a knave\". Scarlett said, \"If Evelyn is a knight then Scarlett is a knight.\" So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Evelyn, David, and Scarlett. In Abigail's words: \"Scarlett is not a knave\". According to Evelyn, \"Abigail is a knight and David is a knave\". David stated, \"Abigail is a knave or Scarlett is a knave\". Scarlett said, \"If Evelyn is a knight then Scarlett is a knight.\" So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. In [BLANK]'s words: '[BLANK] is not a knave'. According to [BLANK], '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] stated, '[BLANK] is a knave or [BLANK] is a knave'. [BLANK] said, 'If [BLANK] is a knight then [BLANK] is a knight.' So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a mysterious island inhabited only by knights and knaves, you encounter 5 residents: Alice, Bruce, Clara, and Daniel. Alice claims, \"Daniel is not a knave\". Bruce asserts, \"Alice is a knight and Clara is a knave\". Clara states, \"Alice is a knave or Daniel is a knave\". Daniel says, \"If Bruce is a knight then Clara is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "On a mysterious island inhabited only by knights and knaves, you encounter 5 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is not a knave'. [BLANK] asserts, '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] states, '[BLANK] is a knave or [BLANK] is a knave'. [BLANK] says, 'If [BLANK] is a knight then [BLANK] is a knight.' Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "On an enigmatic island populated solely by knights and knaves, you meet 6 locals: Fiona, George, Hannah, and Ian. Fiona remarks, \"Hannah is not a knave\". George insists, \"Fiona is a knight and Ian is a knave\". Hannah claims, \"Fiona is a knave or Ian is a knave\". Ian states, \"If George is a knight then Hannah is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "On an enigmatic island populated solely by knights and knaves, you meet 6 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarks, '[BLANK] is not a knave'. [BLANK] insists, '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] claims, '[BLANK] is a knave or [BLANK] is a knave'. [BLANK] states, 'If [BLANK] is a knight then [BLANK] is a knight.' Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "In a peculiar land inhabited exclusively by knights and knaves, you come across 3 individuals: Jack, Kelly, and Leo. Jack states, \"Kelly is not a knave\". Kelly claims, \"Jack is a knight and Leo is a knave\". Leo says, \"Jack is a knave or Kelly is a knave\". Who is a knight and who is a knave?",
+      "incomplete_question": "In a peculiar land inhabited exclusively by knights and knaves, you come across 3 individuals: [BLANK], [BLANK], and [BLANK]. [BLANK] states, '[BLANK] is not a knave'. [BLANK] claims, '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] says, '[BLANK] is a knave or [BLANK] is a knave'. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "On a curious isle where only knights and knaves reside, you encounter 4 citizens: Mira, Noah, Olivia, and Paul. Mira asserts, \"Olivia is not a knave\". Noah declares, \"Mira is a knight and Paul is a knave\". Olivia states, \"Mira is a knave or Paul is a knave\". Paul says, \"If Noah is a knight then Olivia is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "On a curious isle where only knights and knaves reside, you encounter 4 citizens: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, '[BLANK] is not a knave'. [BLANK] declares, '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] states, '[BLANK] is a knave or [BLANK] is a knave'. [BLANK] says, 'If [BLANK] is a knight then [BLANK] is a knight.' Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In a strange world populated purely by knights and knaves, you find 4 inhabitants: Quentin, Rachel, Sam, and Tina. Quentin says, \"Tina is not a knave\". Rachel claims, \"Quentin is a knight and Sam is a knave\". Sam states, \"Quentin is a knave or Tina is a knave\". Tina asserts, \"If Rachel is a knight then Sam is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "In a strange world populated purely by knights and knaves, you find 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] says, '[BLANK] is not a knave'. [BLANK] claims, '[BLANK] is a knight and [BLANK] is a knave'. [BLANK] states, '[BLANK] is a knave or [BLANK] is a knave'. [BLANK] asserts, 'If [BLANK] is a knight then [BLANK] is a knight.' Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

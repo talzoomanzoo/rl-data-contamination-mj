@@ -45,7 +45,7 @@ fi
 FILENAME_TAG="${SUBSET_TAG}${SAMPLE_TAG}"
 
 # --- Output Configuration ---
-RESULTS_DIR="${ROOT}/final_results/${MODEL_NAME}/${SUBSET_TAG}_${SAMPLE_TAG}"
+RESULTS_DIR="${ROOT}/Final_results/${MODEL_NAME}/${SUBSET_TAG}_${SAMPLE_TAG}"
 mkdir -p "$RESULTS_DIR"
 
 GENERATED_DATA_FILE="${RESULTS_DIR}/generated_data.jsonl"
@@ -106,6 +106,20 @@ if os.path.exists(config_path):
     with open(config_path, "w", encoding="utf-8") as f:
         json.dump(cfg, f, indent=2)
 print(f"--> Snapshot cached at: {path}")
+
+# Patch tokenizer_config.json for older transformers (expects dict, not list).
+tc = os.path.join(path, "tokenizer_config.json")
+if not os.path.exists(tc):
+    tc = os.path.join(path, "huggingface", "tokenizer_config.json")
+if os.path.exists(tc):
+    with open(tc, "r", encoding="utf-8") as f:
+        tcfg = json.load(f)
+    x = tcfg.get("extra_special_tokens")
+    if isinstance(x, list):
+        tcfg["extra_special_tokens"] = {}
+        with open(tc, "w", encoding="utf-8") as f:
+            json.dump(tcfg, f, indent=2)
+        print(f"--> Patched tokenizer_config.json extra_special_tokens to dict: {tc}")
 PY
 
     # Keep MODEL_PATH as a Hugging Face repo id when not using local.
@@ -177,14 +191,14 @@ python "${ROOT}/evaluate_all_methods.py" \
     --rep_stiff_model_name "$MODEL_PATH" \
     --rep_stiff_max_workers 4 \
     --rep_stiff_layers "early,mid,late" \
-    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_kk" \
+    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_kk_mia_test" \
     --rep_stiff_combined_fixed \
     --rep_stiff_combined_rule "trend_v2" \
-    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen3-4B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics.json" \
+    --rep_stiff_combined_weights "${ROOT}/Final_results/Qwen3-4B-Instruct_kk_mia_test_hf/_kk_mia_test__all_samples/rep_stiff_combined_metrics.json" \
     --rep_stiff_combined_rule "trend_v3" \
-    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen3-4B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics_v3.json" \
+    --rep_stiff_combined_weights "${ROOT}/Final_results/Qwen3-4B-Instruct_kk_mia_test_hf/_kk_mia_test__all_samples/rep_stiff_combined_metrics_v3.json" \
     --rep_stiff_combined_rule "trend_v4" \
-    --rep_stiff_combined_weights "${ROOT}/final_results/Qwen3-4B-Instruct_kk_hf/_kk_logic__all_samples/rep_stiff_combined_metrics_v4.json" \
+    --rep_stiff_combined_weights "${ROOT}/Final_results/Qwen3-4B-Instruct_kk_mia_test_hf/_kk_mia_test__all_samples/rep_stiff_combined_metrics_v4.json" \
     
 echo "======================================================"
 echo "           Workflow Completed!"

@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Elizabeth, Emma, Zoey, and Sebastian. \"Emma is not a knight\" - Elizabeth. In Emma's words: \"If Zoey is a knave then Sebastian is a knight\". \"Elizabeth is a knight if and only if Emma is a knight,\" Zoey claimed. In a statement by Sebastian: \"Zoey is a knave or Zoey is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Elizabeth, Emma, Zoey, and Sebastian. \"Emma is not a knight\" - Elizabeth. In Emma's words: \"If Zoey is a knave then Sebastian is a knight\". \"Elizabeth is a knight if and only if Emma is a knight,\" Zoey claimed. In a statement by Sebastian: \"Zoey is a knave or Zoey is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 5 inhabitants: Alice, Bob, Clara, David, and Eva. \"Bob is not a knight\" - Alice. In Bob's words: \"If Clara is a knave then David is a knight\". \"Alice is a knight if and only if Bob is a knight,\" Clara claimed. In a statement by David: \"Clara is a knave or Clara is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 5 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 3 inhabitants: Frank, Grace, and Henry. \"Grace is not a knight\" - Frank. In Grace's words: \"If Henry is a knave then Frank is a knight\". \"Frank is a knight if and only if Grace is a knight,\" Henry claimed. In a statement by Frank: \"Henry is a knave or Henry is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 3 inhabitants: [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 6 inhabitants: Jack, Karen, Liam, Mia, Noah, and Olivia. \"Karen is not a knight\" - Jack. In Liam's words: \"If Mia is a knave then Noah is a knight\". \"Jack is a knight if and only if Liam is a knight,\" Mia claimed. In a statement by Noah: \"Mia is a knave or Mia is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 6 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: Peter and Quinn. \"Quinn is not a knight\" - Peter. In Quinn's words: \"If Peter is a knave then I am a knight\". \"Peter is a knight if and only if I am a knight,\" Quinn claimed. In a statement by Peter: \"Quinn is a knave or Quinn is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 2 inhabitants: [BLANK] and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then I am a knight\". \"[BLANK] is a knight if and only if I am a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 7 inhabitants: Rachel, Sam, Tina, Ulysses, Victor, Wendy, and Xena. \"Sam is not a knight\" - Rachel. In Tina's words: \"If Ulysses is a knave then Victor is a knight\". \"Rachel is a knight if and only if Sam is a knight,\" Ulysses claimed. In a statement by Victor: \"Tina is a knave or Tina is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 7 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

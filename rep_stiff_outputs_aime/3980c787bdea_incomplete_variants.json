@@ -1,0 +1,210 @@
+{
+  "original_question": "Every morning Aya goes for a $9$-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of $s$ kilometers per hour, the walk takes her 4 hours, including $t$ minutes spent in the coffee shop. When she walks $s+2$ kilometers per hour, the walk takes her 2 hours and 24 minutes, including $t$ minutes spent in the coffee shop. Suppose Aya walks at $s+\\frac{1}{2}$ kilometers per hour. Find the number of minutes the walk takes her, including the $t$ minutes spent in the coffee shop.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Every morning Liam goes for a [BLANK] walk and stops at a bakery afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 3 hours, including t minutes spent in the bakery. When he walks s+3 kilometers per hour, the walk takes him 2 hours and 48 minutes, including t minutes spent in the bakery. Suppose Liam walks at s+1 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the bakery.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each morning, Liam takes a [BLANK] stroll and afterwards visits a bakery. When he maintains a steady pace of s kilometers per hour, the stroll lasts 3 hours, factoring in t minutes he spends at the bakery. When he increases his speed to s+3 kilometers per hour, the stroll lasts 2 hours and 48 minutes, including t minutes at the bakery. If Liam walks at a speed of s+1 kilometers per hour, determine how many minutes the stroll takes, including the t minutes he spends in the bakery.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam goes for a [BLANK] walk every morning and then stops by a bakery. At a constant speed of s kilometers per hour, his walk lasts 3 hours, which includes t minutes at the bakery. When he walks at s+3 kilometers per hour, his walk takes him 2 hours and 48 minutes, including t minutes at the bakery. If Liam walks at a pace of s+1 kilometers per hour, calculate the total minutes for his walk, including the t minutes spent in the bakery.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Every morning, Liam enjoys a [BLANK] walk before visiting a bakery. Walking at a consistent speed of s kilometers per hour, it takes him 3 hours, which includes t minutes spent in the bakery. While walking at s+3 kilometers per hour, he completes the walk in 2 hours and 48 minutes, which also includes t minutes at the bakery. If he walks at s+1 kilometers per hour, find the total duration of the walk in minutes, including the t minutes he spends at the bakery.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the mornings, Liam takes a [BLANK] walk and afterwards goes to a bakery. When walking at a constant speed of s kilometers per hour, it takes him 3 hours, with t minutes spent at the bakery. When he walks at s+3 kilometers per hour, the time taken is 2 hours and 48 minutes, which includes t minutes at the bakery. If Liam walks at a speed of s+1 kilometers per hour, what is the total number of minutes for the walk, including the t minutes at the bakery?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Each morning, Liam embarks on a [BLANK] walk and subsequently visits a bakery. At a steady speed of s kilometers per hour, his walk spans 3 hours, including t minutes at the bakery. When he increases his pace to s+3 kilometers per hour, the duration of his walk becomes 2 hours and 48 minutes, encompassing t minutes spent in the bakery. If Liam walks at s+1 kilometers per hour, ascertain how many minutes the walk takes, including the t minutes he spends at the bakery.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Every morning Noah goes for a [BLANK] walk and stops at a smoothie bar afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 4 hours and 30 minutes, including t minutes spent in the smoothie bar. When he walks s+4 kilometers per hour, the walk takes him 3 hours and 30 minutes, including t minutes spent in the smoothie bar. Suppose Noah walks at s+3 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the smoothie bar.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each morning, Noah takes a [BLANK] stroll and afterwards visits a smoothie bar. When he maintains a steady pace of s kilometers per hour, his walk lasts for 4 hours and 30 minutes, which includes t minutes at the smoothie bar. If he increases his speed to s+4 kilometers per hour, the duration of the walk is 3 hours and 30 minutes, including t minutes at the smoothie bar. If Noah walks at s+3 kilometers per hour, determine the duration of the walk in minutes, including the t minutes spent at the smoothie bar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah goes for a [BLANK] stroll every morning and then stops by a smoothie bar. When he walks at a consistent speed of s kilometers per hour, the duration of his walk is 4 hours and 30 minutes, which includes t minutes spent at the smoothie bar. Walking at a speed of s+4 kilometers per hour, his walk takes him 3 hours and 30 minutes, including t minutes at the smoothie shop. If Noah walks at a speed of s+3 kilometers per hour, calculate how many minutes the walk takes him, including the t minutes at the smoothie bar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Every morning, Noah enjoys a [BLANK] walk and stops for a smoothie afterwards. His walking speed is s kilometers per hour, which results in a walk duration of 4 hours and 30 minutes, incorporating t minutes in the smoothie bar. When he increases his pace to s+4 kilometers per hour, the walk lasts 3 hours and 30 minutes, including t minutes at the smoothie bar. If Noah walks at s+3 kilometers per hour, find out how many minutes the walk takes, including the t minutes spent at the smoothie bar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah takes a [BLANK] walk each morning and afterwards visits a smoothie bar. At a constant walking speed of s kilometers per hour, he takes 4 hours and 30 minutes for his walk, which includes t minutes at the smoothie bar. If he walks at a speed of s+4 kilometers per hour, the time taken for the walk is 3 hours and 30 minutes, accounting for t minutes at the smoothie bar. Assuming Noah walks at s+3 kilometers per hour, determine the total number of minutes the walk occupies, including the t minutes spent at the smoothie bar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Each morning, Noah goes for a [BLANK] walk and subsequently stops by a smoothie bar. When he walks at a constant speed of s kilometers per hour, he takes 4 hours and 30 minutes for his walk, which includes t minutes spent at the smoothie bar. When his walking speed increases to s+4 kilometers per hour, the total duration of the walk is 3 hours and 30 minutes, including t minutes at the smoothie bar. If Noah walks at a speed of s+3 kilometers per hour, calculate the number of minutes the walk takes, including the t minutes spent at the smoothie bar.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Every morning Aya goes for a [BLANK] walk and stops at a coffee shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 4 hours, including t minutes spent in the coffee shop. When she walks s+2 kilometers per hour, the walk takes her 2 hours and 24 minutes, including t minutes spent in the coffee shop. Suppose Aya walks at s+\\frac{1}{2} kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the coffee shop.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each morning, Aya takes a [BLANK] walk and visits a coffee shop afterward. When she maintains a steady speed of s kilometers per hour, her walk lasts 4 hours, which includes t minutes at the coffee shop. When she increases her speed to s+2 kilometers per hour, the walk duration is 2 hours and 24 minutes, still including t minutes at the coffee shop. If Aya walks at s+\\frac{1}{2} kilometers per hour, determine how many minutes her walk lasts, including the t minutes in the coffee shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Every morning, Aya enjoys a [BLANK] walk and then stops by a coffee shop. Walking at a constant pace of s kilometers per hour, she takes 4 hours for her walk, which comprises t minutes spent at the coffee shop. When her speed is s+2 kilometers per hour, her walk takes her 2 hours and 24 minutes, factoring in t minutes at the coffee shop. If Aya walks at s+\\frac{1}{2} kilometers per hour, calculate the total minutes her walk takes, including the t minutes in the coffee shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the mornings, Aya goes for a [BLANK] walk and afterwards takes a break at a coffee shop. When she walks at a speed of s kilometers per hour, it takes her 4 hours, which includes t minutes spent at the coffee shop. Walking at s+2 kilometers per hour, her walk duration is 2 hours and 24 minutes, which also includes t minutes at the coffee shop. If Aya walks at s+\\frac{1}{2} kilometers per hour, find out how many minutes her walk lasts, including the t minutes at the coffee shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Every morning, Aya participates in a [BLANK] walk and subsequently stops at a coffee shop. At a steady speed of s kilometers per hour, she completes her walk in 4 hours, which includes t minutes at the coffee shop. When she increases her speed to s+2 kilometers per hour, the total time for her walk is 2 hours and 24 minutes, including t minutes at the coffee shop. If Aya walks at s+\\frac{1}{2} kilometers per hour, determine how many minutes her walk takes, including the t minutes spent at the coffee shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Aya goes for a [BLANK] walk every morning and makes a stop at a coffee shop afterward. When she walks at a speed of s kilometers per hour, it takes her 4 hours, which encompasses t minutes in the coffee shop. At a speed of s+2 kilometers per hour, her walking time is 2 hours and 24 minutes, also including t minutes at the coffee shop. If Aya walks at s+\\frac{1}{2} kilometers per hour, find the total minutes for her walk, including the t minutes at the coffee shop.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Every morning Sofia goes for a [BLANK] walk and stops at a tea shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 5 hours, including t minutes spent in the tea shop. When she walks s+1.5 kilometers per hour, the walk takes her 3 hours and 12 minutes, including t minutes spent in the tea shop. Suppose Sofia walks at s+2 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the tea shop.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each day, Sofia takes a [BLANK] stroll and afterwards visits a tea shop. When she maintains a steady pace of s kilometers per hour, her walk lasts for 5 hours, which includes t minutes at the tea shop. If she increases her speed to s+1.5 kilometers per hour, the duration of her walk becomes 3 hours and 12 minutes, still including t minutes at the tea shop. Now, if Sofia walks at s+2 kilometers per hour, determine the total time in minutes that her walk lasts, including the t minutes she spends at the tea shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sofia goes for a [BLANK] outing every morning and later stops by a tea shop. At a constant speed of s kilometers per hour, her walk takes her 5 hours, which includes t minutes in the tea shop. When she increases her walking speed to s+1.5 kilometers per hour, the walk time shortens to 3 hours and 12 minutes, still accounting for t minutes at the tea shop. If she walks at s+2 kilometers per hour, calculate the total minutes her walk takes, including the t minutes spent at the tea shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Every morning, Sofia enjoys a [BLANK] hike and subsequently visits a tea shop. Walking at a steady rate of s kilometers per hour, the walk takes her 5 hours, including t minutes spent in the tea shop. When she increases her pace to s+1.5 kilometers per hour, her walk duration becomes 3 hours and 12 minutes, with t minutes included for the tea shop. If Sofia chooses to walk at s+2 kilometers per hour, find the total minutes her walk lasts, including the t minutes at the tea shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the mornings, Sofia engages in a [BLANK] trek and later stops at a tea shop. When she walks at a constant speed of s kilometers per hour, the duration of her walk is 5 hours, which includes t minutes spent at the tea shop. If her speed increases to s+1.5 kilometers per hour, the walk duration is reduced to 3 hours and 12 minutes, still incorporating t minutes at the tea shop. Should Sofia walk at s+2 kilometers per hour, determine how many minutes the walk takes her, including the t minutes at the tea shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Every morning, Sofia takes a [BLANK] ramble and afterwards visits a tea shop. When she walks at a fixed speed of s kilometers per hour, her walking time totals 5 hours, including t minutes in the tea shop. When she increases her speed to s+1.5 kilometers per hour, the total time for her walk is 3 hours and 12 minutes, still including t minutes at the tea shop. If Sofia walks at s+2 kilometers per hour, find the number of minutes her walk will take, including the t minutes spent at the tea shop.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Every morning Emma goes for a [BLANK] walk and stops at a sandwich shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 2 hours and 30 minutes, including t minutes spent in the sandwich shop. When she walks s+5 kilometers per hour, the walk takes her 1 hour and 50 minutes, including t minutes spent in the sandwich shop. Suppose Emma walks at s+2.5 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the sandwich shop.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each morning, Emma takes a [BLANK] stroll and makes a stop at a sandwich shop afterwards. When she maintains a steady pace of s kilometers per hour, her walk lasts for 2 hours and 30 minutes, which includes t minutes at the sandwich shop. If she increases her speed to s+5 kilometers per hour, her walk then takes 1 hour and 50 minutes, still including t minutes at the sandwich shop. If Emma walks at a speed of s+2.5 kilometers per hour, determine the total minutes her walk takes, factoring in the t minutes spent at the sandwich shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma starts her day with a [BLANK] walk and visits a sandwich shop afterward. When she walks at a constant speed of s kilometers per hour, her walk duration is 2 hours and 30 minutes, inclusive of t minutes spent in the sandwich shop. When she speeds up to s+5 kilometers per hour, her walk time decreases to 1 hour and 50 minutes, also including t minutes at the sandwich shop. If she walks at s+2.5 kilometers per hour, calculate the number of minutes her walk lasts, which includes the t minutes at the sandwich shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Each day, Emma embarks on a [BLANK] walk and later stops by a sandwich shop. Walking at a speed of s kilometers per hour, she takes 2 hours and 30 minutes for her walk, which accounts for t minutes spent in the sandwich shop. When she increases her speed to s+5 kilometers per hour, the total walk time reduces to 1 hour and 50 minutes, still including t minutes at the sandwich shop. If Emma walks at s+2.5 kilometers per hour, find out how many minutes her walk lasts, including the t minutes at the sandwich shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Every morning, Emma enjoys a [BLANK] walk and subsequently visits a sandwich shop. At a speed of s kilometers per hour, her walk takes 2 hours and 30 minutes, which includes t minutes spent at the sandwich shop. When she walks at s+5 kilometers per hour, her walking time shortens to 1 hour and 50 minutes, which still includes t minutes at the sandwich shop. If Emma walks at s+2.5 kilometers per hour, determine the total minutes of her walk, including the t minutes spent at the sandwich shop.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Every morning, Emma sets out for a [BLANK] walk and then stops at a sandwich shop. When she walks at a steady speed of s kilometers per hour, the duration of her walk is 2 hours and 30 minutes, including t minutes spent in the sandwich shop. If she increases her pace to s+5 kilometers per hour, her walk then takes 1 hour and 50 minutes, which also includes t minutes spent at the sandwich shop. Assuming Emma walks at s+2.5 kilometers per hour, calculate how many minutes her walk takes, including the t minutes at the sandwich shop.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Every morning Lucas goes for a [BLANK] walk and stops at an ice cream parlor afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 6 hours, including t minutes spent in the ice cream parlor. When he walks s+2 kilometers per hour, the walk takes him 4 hours and 15 minutes, including t minutes spent in the ice cream parlor. Suppose Lucas walks at s+1 kilometer per hour. Find the number of minutes the walk takes him, including the t minutes spent in the ice cream parlor.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Each morning, Lucas takes a [BLANK] stroll and visits an ice cream shop afterwards. When he maintains a steady speed of s kilometers per hour, the stroll lasts 6 hours, which includes t minutes at the ice cream shop. When he increases his speed to s+2 kilometers per hour, the stroll takes him 4 hours and 15 minutes, still including t minutes at the ice cream shop. If Lucas walks at a speed of s+1 kilometers per hour, determine the total number of minutes the stroll lasts, including the t minutes spent at the ice cream parlor.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Every morning, Lucas enjoys a [BLANK] hike and afterwards stops by an ice cream parlor. When he walks at a constant pace of s kilometers per hour, it takes him 6 hours, which includes t minutes at the ice cream parlor. When his speed increases to s+2 kilometers per hour, the hike takes him 4 hours and 15 minutes, also including t minutes at the ice cream parlor. If Lucas walks at s+1 kilometers per hour, calculate the duration of the hike in minutes, including the t minutes spent at the ice cream parlor.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lucas goes for a [BLANK] journey every morning and afterwards visits an ice cream parlor. When he walks at a fixed speed of s kilometers per hour, the journey lasts 6 hours, which accounts for t minutes at the ice cream parlor. When he speeds up to s+2 kilometers per hour, the journey takes him 4 hours and 15 minutes, including t minutes at the ice cream parlor. If Lucas chooses to walk at s+1 kilometers per hour, find out how many minutes the journey takes, including the t minutes spent at the ice cream parlor.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the mornings, Lucas takes a [BLANK] stroll and then stops at an ice cream shop. When he walks at a consistent speed of s kilometers per hour, it takes him 6 hours, including t minutes spent at the ice cream shop. If he walks at a speed of s+2 kilometers per hour, the stroll takes 4 hours and 15 minutes, which also includes t minutes at the ice cream shop. What is the duration of the stroll in minutes if Lucas walks at s+1 kilometers per hour, factoring in the t minutes at the ice cream parlor?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Every morning, Lucas goes for a [BLANK] walk and afterwards he stops by an ice cream parlor. When he walks at a steady pace of s kilometers per hour, the walk takes him 6 hours, which includes t minutes at the ice cream parlor. When he increases his speed to s+2 kilometers per hour, the walk lasts 4 hours and 15 minutes, including t minutes spent at the ice cream parlor. If Lucas walks at a speed of s+1 kilometers per hour, determine the total minutes the walk takes him, factoring in the t minutes at the ice cream parlor.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

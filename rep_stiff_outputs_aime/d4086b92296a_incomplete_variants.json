@@ -1,0 +1,210 @@
+{
+  "original_question": "Alice and Bob play the following game. A stack of $n$ tokens lies before them. The players take turns with Alice going first. On each turn, the player removes either $1$ token or $4$ tokens from the stack. Whoever removes the last token wins. Find the number of positive integers $n$ less than or equal to $2024$ for which there exists a strategy for Bob that guarantees that Bob will win the game regardless of Alice's play.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Gina and Hank play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Gina going first. On each turn, the player removes either 3 tokens or 6 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers n less than or equal to 800 for which there exists a strategy for Hank that guarantees that Hank will win the game regardless of Gina's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gina and Hank engage in a game where a pile of [BLANK] tokens is present. They alternate turns, starting with Gina. During each turn, a player can take either 3 tokens or 6 tokens from the pile. The winner is the one who takes the last token. Determine the count of positive integers n that are 800 or less for which Hank has a winning strategy no matter how Gina plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a game played by Gina and Hank, there is a collection of [BLANK] tokens in front of them. The players alternate turns, with Gina going first. On their turn, a player can remove either 3 or 6 tokens from the collection. The player who takes the last token is declared the winner. Identify the number of positive integers n that do not exceed 800 for which Hank can ensure victory regardless of Gina's moves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gina and Hank are participating in a game that features a stack of [BLANK] tokens. They take turns, beginning with Gina. On each player's turn, they may take either 3 or 6 tokens from the stack. The player who takes the final token is the winner. Find how many positive integers n are less than or equal to 800 for which there is a guaranteed winning strategy for Hank independent of Gina's choices.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the game that Gina and Hank are playing, there is a set of [BLANK] tokens laid out before them. They take turns, with Gina having the first move. Each player must choose to remove either 3 tokens or 6 tokens from the set during their turn. The winner is the player who removes the last token. Calculate the number of positive integers n that are at most 800 where Hank can win no matter how Gina plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gina and Hank are involved in a game that has a total of [BLANK] tokens in front of them. They alternate turns, with Gina going first. On their respective turns, a player can take either 3 tokens or 6 tokens from the pile. The goal is to take the last token to win. Determine the positive integers n, not exceeding 800, for which there is a strategy allowing Hank to win irrespective of Gina's actions.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Charlie and Dana play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Charlie going first. On each turn, the player removes either 2 tokens or 3 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers n less than or equal to 500 for which there exists a strategy for Dana that guarantees that Dana will win the game regardless of Charlie's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Charlie and Dana engage in a game where a pile of [BLANK] tokens is placed in front of them. They alternate turns with Charlie starting first. Each player can take away either 2 tokens or 3 tokens during their turn. The player who takes the final token is declared the winner. Determine the count of positive integers n that are 500 or less for which Dana can adopt a strategy that ensures her victory no matter how Charlie plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a game played by Charlie and Dana, there is a collection of [BLANK] tokens positioned before them. Charlie starts the game, and the players alternate turns. On their turn, a player can remove either 2 tokens or 3 tokens from the pile. The objective is to be the one who extracts the last token to win. Calculate how many positive integers n, up to 500, allow for a winning strategy for Dana, irrespective of Charlie's moves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Charlie and Dana participate in a game where a stack containing [BLANK] tokens is in front of them. The turns alternate, starting with Charlie. Each player has the option to remove either 2 tokens or 3 tokens on their turn. The winner is the player who takes the last token. Identify the total number of positive integers n that are less than or equal to 500 for which Dana has a guaranteed winning strategy, regardless of Charlie's actions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the game between Charlie and Dana, a total of [BLANK] tokens is situated in front of them. The game begins with Charlie taking the first turn, and they alternate thereafter. On a turn, a player can take away either 2 or 3 tokens from the stack. The winner is determined by who removes the last token. Find the number of positive integers n that are at most 500 for which Dana can secure a strategy that ensures her win, no matter what Charlie does.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Charlie and Dana are involved in a game that features a pile of [BLANK] tokens in front of them. Charlie takes the initial turn, and they play alternately. During each player's turn, they may remove either 2 tokens or 3 tokens from the total. The player who picks the last token wins the game. Count the number of positive integers n that do not exceed 500 for which there is a winning strategy available to Dana, regardless of how Charlie plays.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Eve and Frank play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Eve going first. On each turn, the player removes either 1 token or 5 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers n less than or equal to 300 for which there exists a strategy for Frank that guarantees that Frank will win the game regardless of Eve's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Eve and Frank engage in a game involving a pile of [BLANK] tokens in front of them. The players alternate turns, starting with Eve. During each turn, a player can take either 1 token or 5 tokens from the pile. The player who takes the final token is declared the winner. Determine the count of positive integers n that do not exceed 300 for which Frank has a winning strategy no matter how Eve plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a game played by Eve and Frank, there is a collection of [BLANK] tokens positioned in front of them. They take turns, beginning with Eve. On their turn, a player may remove either 1 token or 5 tokens from the collection. The player who removes the last token is the victor. Calculate the number of positive integers n that are less than or equal to 300 for which Frank can ensure a win against any move made by Eve.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Eve and Frank participate in a game where a heap of [BLANK] tokens is set before them. The game alternates turns with Eve starting first. Each player, on their turn, can eliminate either 1 token or 5 tokens from the heap. The winner is the one who takes the last token. Find how many positive integers n exist that are at most 300 for which Frank can devise a strategy to win no matter what Eve does.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the following game played by Eve and Frank, a supply of [BLANK] tokens is placed in front of them. They take turns, with Eve going first. Each player can remove either 1 token or 5 tokens on their turn. The winner is the player who takes the last token. Identify the quantity of positive integers n that are less than or equal to 300 such that Frank has a guaranteed winning strategy regardless of Eve's actions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Eve and Frank are involved in a game featuring a stack of [BLANK] tokens laid out before them. The players alternate in turns, beginning with Eve. On every turn, a player has the option to take either 1 token or 5 tokens from the stack. The last player to remove a token wins the game. Determine the total number of positive integers n that do not exceed 300 for which Frank can guarantee a win irrespective of Eve's moves.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Alice and Bob play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Alice going first. On each turn, the player removes either $1$ token or $4$ tokens from the stack. Whoever removes the last token wins. Find the number of positive integers $n$ less than or equal to $2024$ for which there exists a strategy for Bob that guarantees that Bob will win the game regardless of Alice's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice and Bob engage in a game where a pile of [BLANK] tokens is positioned in front of them. They alternate turns, starting with Alice. In each turn, a player can take either $1$ token or $4$ tokens from the pile. The player who takes the final token is declared the winner. Determine how many positive integers $n$ that are less than or equal to $2024$ allow for a guaranteed winning strategy for Bob, regardless of Alice's moves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a game played by Alice and Bob, a collection of [BLANK] tokens is set before them. Alice begins first, and they alternate turns. During a turn, a player has the option to remove either $1$ token or $4$ tokens from the collection. The objective is to be the one who takes the last token. Calculate the number of positive integers $n$ that do not exceed $2024$ for which Bob can ensure victory with a strategy, no matter how Alice plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice and Bob are playing a game with a total of [BLANK] tokens laid out in front of them. Alice takes the first turn, and they proceed to alternate. On each player's turn, they can choose to take either $1$ token or $4$ tokens from the total. The winner is the one who takes the last token. Find the count of positive integers $n$ that are at most $2024$ for which Bob has a winning strategy that secures his victory regardless of Alice's decisions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a game between Alice and Bob, a set of [BLANK] tokens is available to them. The game starts with Alice taking the first turn, followed by alternating turns. Each player can choose to remove either $1$ token or $4$ tokens from the set on their turn. The winner is the player who removes the last token. Identify how many positive integers $n$ that are less than or equal to $2024$ permit Bob to follow a strategy ensuring his win, irrespective of Alice's actions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice and Bob participate in a game where they have a stack of [BLANK] tokens in front of them. The game starts with Alice making the first move, after which they alternate turns. On their turn, a player can either take $1$ token or $4$ tokens from the stack. The objective is to be the player who removes the last token. Find the total number of positive integers $n$ that are less than or equal to $2024$ that allow Bob to adopt a winning strategy, no matter how Alice plays.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Ivy and Jake play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Ivy going first. On each turn, the player removes either 2 tokens or 7 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers n less than or equal to 1000 for which there exists a strategy for Jake that guarantees that Jake will win the game regardless of Ivy's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ivy and Jake are engaged in a game where a pile of [BLANK] tokens is present. The players alternate turns, starting with Ivy. During each turn, a player may take away either 2 tokens or 7 tokens from the pile. The player who takes the final token is declared the winner. Determine the count of positive integers n that are less than or equal to 1000 for which Jake has a winning strategy no matter how Ivy plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the game played by Ivy and Jake, a collection of [BLANK] tokens is set in front of them. Ivy makes the first move, and the players alternate turns. On their turn, each player can choose to remove either 2 tokens or 7 tokens from the collection. The objective is to be the one who removes the last token. Calculate the number of positive integers n that are at most 1000 for which Jake can ensure victory, regardless of Ivy's actions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ivy and Jake participate in a game featuring a stack of [BLANK] tokens in front of them. Ivy goes first, and they take turns. Each player can remove either 2 tokens or 7 tokens during their turn. The winner is the one who takes the last token. Find how many positive integers n, which do not exceed 1000, allow for a winning strategy for Jake, independent of Ivy's moves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a game between Ivy and Jake, they have a pile of [BLANK] tokens available. Ivy begins the game, and then they alternate turns. On each turn, a player can take either 2 tokens or 7 tokens from the pile. The player who removes the last token wins the game. Identify the number of positive integers n that are less than or equal to 1000 for which there is a guaranteed winning strategy for Jake, no matter how Ivy plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ivy and Jake are playing a game with a number of [BLANK] tokens in front of them. The game starts with Ivy making the first move, followed by alternating turns. Each player can take 2 tokens or 7 tokens from the stack on their turn. The winner is the player who takes the last token. Determine how many positive integers n that are less than or equal to 1000 provide Jake with a winning strategy, irrespective of Ivy's decisions.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Liam and Mia play the following game. A stack of [BLANK] tokens lies before them. The players take turns with Liam going first. On each turn, the player removes either 4 tokens or 8 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers n less than or equal to 400 for which there exists a strategy for Mia that guarantees that Mia will win the game regardless of Liam's play.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam and Mia are engaged in a game. In front of them is a pile of [BLANK] tokens. They alternate turns, starting with Liam. During each turn, the player can take either 4 tokens or 8 tokens from the pile. The player who picks the last token is the winner. Determine the count of positive integers n that are less than or equal to 400 for which Mia can ensure a winning strategy irrespective of Liam's moves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a game played by Liam and Mia, there are [BLANK] tokens stacked in front of them. The players take turns, with Liam making the first move. On their turn, a player can remove either 4 tokens or 8 tokens from the stack. The winner is the one who takes the last token. Calculate how many positive integers n, not exceeding 400, allow Mia to have a strategy that guarantees her victory no matter how Liam plays.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam and Mia participate in a game where a collection of [BLANK] tokens is present. The game alternates turns, starting with Liam. Each player can choose to take either 4 tokens or 8 tokens from the collection on their turn. The player who takes the final token wins the game. Find the number of positive integers n that are at most 400 for which Mia can adopt a strategy that ensures her win regardless of Liam's actions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the game played by Liam and Mia, there is a total of [BLANK] tokens available. The players alternate turns, beginning with Liam. On a player's turn, they may remove either 4 tokens or 8 tokens from the total. The player who removes the last token is declared the winner. Determine how many positive integers n less than or equal to 400 provide Mia with a guaranteed winning strategy, no matter what moves Liam makes.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam and Mia are involved in a game where they have a stack of [BLANK] tokens in front of them. The players take turns, with Liam going first. Each turn, a player can take either 4 tokens or 8 tokens from the stack. The last player to take a token wins the game. Find the total number of positive integers n that are less than or equal to 400 for which Mia can secure a winning strategy against any of Liam's plays.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

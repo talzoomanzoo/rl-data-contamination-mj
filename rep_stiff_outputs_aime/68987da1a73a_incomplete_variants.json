@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $1$, the resulting number is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R$.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $5$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $N$ as the largest four-digit positive integer such that changing any of its digits to [BLANK] results in a number that is divisible by $5$. Define $Q$ and $R$ as the quotient and remainder, respectively, when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $N$ represent the highest four-digit positive integer that has the characteristic that altering one of its digits to [BLANK] makes the new number divisible by $5$. Let $Q$ and $R$ denote the quotient and remainder, respectively, when dividing $N$ by $1000$. Determine $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Define $N$ as the maximum four-digit positive integer for which changing any digit to [BLANK] produces a number that is divisible by $5$. Let $Q$ and $R$ be the quotient and the remainder, respectively, obtained when $N$ is divided by $1000$. Find the sum $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $N$ be the greatest four-digit positive integer that maintains the property that if any of its digits are modified to [BLANK], the resulting number will be divisible by $5$. Define $Q$ and $R$ as the quotient and remainder, respectively, from dividing $N$ by $1000$. Compute $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $N$ to be the largest four-digit positive integer with the property that changing any of its digits to [BLANK] yields a number that is divisible by $5$. Let $Q$ and $R$ represent the quotient and remainder, respectively, from dividing $N$ by $1000$. Find the value of $Q+R.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $11$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $N$ as the largest four-digit positive number such that changing any of its digits to [BLANK] makes the new number divisible by $11$. Let $Q$ represent the quotient and $R$ the remainder when $N$ is divided by $1000$. Determine the value of $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $N$ to be the maximum four-digit positive integer with the characteristic that altering any of its digits to [BLANK] results in a number that is divisible by $11$. Let $Q$ denote the quotient and $R$ the remainder when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $N$ signify the highest four-digit positive integer that maintains the property that if any of its digits is replaced with [BLANK], the resulting number will be divisible by $11$. Denote $Q$ as the quotient and $R$ as the remainder when $N$ is divided by $1000$. Find the sum $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take $N$ to be the greatest four-digit positive integer such that substituting any of its digits with [BLANK] yields a number that is divisible by $11$. Let $Q$ and $R$ represent the quotient and the remainder, respectively, when $N$ is divided by $1000$. Determine $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assume $N$ is the largest four-digit positive integer for which changing any digit to [BLANK] results in a number that is divisible by $11$. Let $Q$ be the quotient and $R$ the remainder from the division of $N$ by $1000$. Find the total $Q+R.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $N$ as the largest four-digit positive number such that if any of its digits is replaced by [BLANK], the new number is divisible by $7$. Let $Q$ and $R$ denote the quotient and remainder, respectively, when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $N$ to be the maximum four-digit positive integer that holds the characteristic that changing any one of its digits to [BLANK] results in a number that is divisible by $7$. Let $Q$ and $R$ represent the quotient and remainder, respectively, from dividing $N$ by $1000$. Determine $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $N$ be the largest positive integer with four digits such that altering any of its digits to [BLANK] yields a number that can be divided by $7$. Denote $Q$ and $R$ as the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $N$ represent the greatest four-digit positive integer with the condition that substituting any single digit with [BLANK] results in a number that is divisible by $7$. Let $Q$ and $R$ be defined as the quotient and remainder, respectively, when $N$ is divided by $1000$. Compute $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $N$ as the highest four-digit positive integer such that changing any of its digits to [BLANK] creates a number that is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $9$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $N$ as the largest four-digit positive integer that has the characteristic that if any of its digits is altered to [BLANK], the new number is divisible by $9$. Let $Q$ and $R$ denote the quotient and remainder, respectively, when $N$ is divided by $1000$. Compute $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $N$ to be the maximum four-digit positive integer that fulfills the condition that changing any of its digits to [BLANK] results in a number that is divisible by $9$. Denote $Q$ and $R$ as the quotient and remainder, respectively, when $N$ is divided by $1000$. Determine $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $N$ represent the highest four-digit positive integer such that if one of its digits is modified to [BLANK], the resulting number is divisible by $9$. Assign $Q$ and $R$ as the quotient and remainder, respectively, from dividing $N$ by $1000$. Find $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $N$ be defined as the largest four-digit positive integer satisfying the property that changing any digit to [BLANK] yields a number that is divisible by $9$. Let $Q$ and $R$ be the quotient and remainder, respectively, when dividing $N$ by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $N$ as the greatest four-digit positive integer with the property that if one of its digits is replaced by [BLANK], the resulting number becomes divisible by $9$. Let $Q$ and $R$ signify the quotient and remainder, respectively, when $N$ undergoes division by $1000$. Find $Q+R.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $17$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $N$ represent the largest four-digit positive integer such that if any of its digits is replaced with [BLANK], the new number is divisible by $17$. Define $Q$ and $R$ as the quotient and remainder, correspondingly, when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $N$ denote the maximal four-digit positive integer that has the characteristic that changing any of its digits to [BLANK] results in a number that is divisible by $17$. Let $Q$ and $R$ signify the quotient and remainder, respectively, when $N$ is divided by $1000$. Determine $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $N$ be the largest four-digit positive integer with the condition that altering any of its digits to [BLANK] yields a number that is divisible by $17$. Define $Q$ and $R$ as the quotient and remainder, respectively, from dividing $N$ by $1000$. Find $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $N$ be the greatest four-digit positive integer such that if any digit is substituted with [BLANK], the resulting number is a multiple of $17$. Let $Q$ and $R$ represent the quotient and remainder, respectively, when $N$ is divided by $1000$. Compute $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $N$ symbolize the highest four-digit positive integer that satisfies the condition that replacing any of its digits with [BLANK] makes the new number divisible by $17$. Let $Q$ and $R$ denote the quotient and remainder, respectively, when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $13$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $N$ as the largest four-digit positive integer such that if any of its digits is altered to [BLANK], the new number is divisible by $13$. Let $Q$ and $R$ represent the quotient and remainder, respectively, when $N$ is divided by $1000$. Determine the value of $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $N$ as the highest four-digit positive integer which possesses the characteristic that changing any of its digits to [BLANK] results in a number that is divisible by $13$. Let $Q$ and $R$ denote the quotient and remainder, respectively, when $N$ is divided by $1000$. Calculate $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $N$ be the maximum four-digit positive integer that has the property that modifying any of its digits to [BLANK] yields a number divisible by $13$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find the sum $Q+R.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assume $N$ to be the greatest four-digit positive integer such that changing any of its digits to [BLANK] results in a number that is divisible by $13$. Let $Q$ and $R$ represent the quotient and remainder, respectively, when $N$ is divided by $1000$. What is $Q+R?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $N$ symbolize the largest four-digit positive integer that retains the property that replacing any of its digits with [BLANK] produces a number divisible by $13$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. What is the value of $Q+R?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

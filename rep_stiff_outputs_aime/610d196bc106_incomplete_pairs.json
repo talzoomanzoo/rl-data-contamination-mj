@@ -1,0 +1,62 @@
+{
+  "original_question": "Eight circles of radius $34$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2024$ circles of radius $1$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n[asy] pair A = (2,1); pair B = (0,0); pair C = (3,0); dot(A^^B^^C); label(\"$A$\", A, N); label(\"$B$\", B, S); label(\"$C$\", C, S); draw(A--B--C--cycle); for(real i=0.62; i<2.7; i+=0.29){ draw(circle((i,0.145), 0.145)); } [/asy]",
+  "info_removed_type": "\"the radius of the circles\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Eight circles of radius $34$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2024$ circles of radius $1$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.\n[asy] pair A = (2,1); pair B = (0,0); pair C = (3,0); dot(A^^B^^C); label(\"$A$\", A, N); label(\"$B$\", B, S); label(\"$C$\", C, S); draw(A--B--C--cycle); for(real i=0.62; i<2.7; i+=0.29){ draw(circle((i,0.145), 0.145)); } [/asy]",
+      "incomplete_question": "Eight circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 2024 circles of radius 1 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Seven circles of radius $42$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2178$ circles of radius $2$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "incomplete_question": "Seven circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 2178 circles of radius 2 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Nine circles of radius $29$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $1890$ circles of radius $3$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "incomplete_question": "Nine circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 1890 circles of radius 3 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Ten circles of radius $50$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $1500$ circles of radius $4$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "incomplete_question": "Ten circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 1500 circles of radius 4 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Six circles of radius $25$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2500$ circles of radius $5$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "incomplete_question": "Six circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 2500 circles of radius 5 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Five circles of radius $36$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $3000$ circles of radius $6$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+      "incomplete_question": "Five circles of radius [BLANK] are sequentially tangent, and two of the circles are tangent to AB and BC of triangle ABC, respectively. 3000 circles of radius 6 can be arranged in the same manner. The inradius of triangle ABC can be expressed as \\frac{m}{n}, where m and n are relatively prime positive integers. Find m+n.",
+      "info_removed": "\"the radius of the circles\""
+    }
+  ],
+  "num_valid_similars": 5
+}

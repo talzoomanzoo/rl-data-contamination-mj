@@ -23,7 +23,7 @@ if [ -z "$MERGED_MODEL_DIR" ]; then
 fi
 MODEL_PATH="$HF_MODEL_ID"
 MODEL_NAME="Qwen3-4B-Instruct_aime_hf"
-DATA_ROOT_DIR="${ROOT}/benchmarks/AIME24" 
+DATA_ROOT_DIR="${ROOT}/benchmarks/AIME25" 
 
 METHODS_TO_RUN=("self_critique" "dime" "consistency")
 

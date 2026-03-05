@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with surface area $54$ and volume $23$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $20$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the collection $\\mathcal{B}$ consisting of rectangular prisms with [BLANK] and a volume of 20. Let $r$ denote the radius of the smallest sphere capable of enclosing every rectangular prism in $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, in which $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $20$. Define $r$ as the radius of the smallest sphere capable of enclosing all the rectangular prisms that belong to $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $20$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $20$. Define $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism that belongs to $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a total volume of $20$. Let $r$ denote the radius of the smallest sphere capable of enclosing every rectangular prism within the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are coprime positive integers. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $23$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms having [BLANK] and a volume of $23$. Denote $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism that belongs to the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than 1. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular boxes characterized by [BLANK] and having a volume of $23$. Let $r$ denote the radius of the smallest sphere capable of enclosing every rectangular box found in $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are coprime positive integers. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $23$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the collection $\\mathcal{B}$ of rectangular prisms defined by [BLANK] and having a total volume of $23$. Let $r$ denote the radius of the smallest sphere that is capable of enclosing every rectangular prism contained in $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $23$. Let $r$ represent the radius of the smallest sphere capable of enclosing every rectangular prism that belongs to $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than 1. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $30$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $30$. Denote $r$ as the radius of the smallest sphere capable of enclosing all the rectangular prisms that belong to $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that have no common factors. Determine the value of $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms characterized by [BLANK] and a volume of $30$. Denote $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism within the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than 1. Compute the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $30$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms characterized by [BLANK] and a volume of $30$. Denote $r$ as the radius of the smallest sphere capable of enclosing all the rectangular prisms in $\\mathcal{B}$. The expression for $r^2$ can be formulated as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the collection $\\mathcal{B}$ of rectangular prisms that have [BLANK] and a volume of $30$. Let $r$ denote the radius of the smallest sphere capable of enclosing every rectangular prism in the set $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers with no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $45$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the collection of rectangular prisms denoted by $\\mathcal{B}$, which have [BLANK] and a volume of $45$. Let $r$ represent the radius of the smallest sphere capable of enclosing all rectangular prisms that belong to the set $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that have no common factors other than 1. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $45$. Denote $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism in the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are coprime positive integers. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $45$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms that have [BLANK] and a volume of $45$. Define $r$ as the radius of the smallest sphere that can enclose all the rectangular prisms that belong to the set $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than 1. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms that have [BLANK] and a volume of $45$. Define $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism within the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $24$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $\\mathcal{B}$ to be the collection of rectangular prisms with [BLANK] and a volume of $24$. Define $r$ as the radius of the smallest sphere capable of enclosing each of the rectangular prisms that belong to the set $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the value of $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $24$. Denote $r$ as the radius of the least sphere that can enclose every rectangular prism in the set $\\mathcal{B}$. The expression for $r^2$ can be expressed as $\\frac{p}{q}$, where $p$ and $q$ are coprime positive integers. Calculate $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $24$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the collection $\\mathcal{B}$ of rectangular prisms characterized by [BLANK] and having a volume of $24$. Let $r$ denote the radius of the smallest sphere capable of enclosing every rectangular prism found in $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than 1. Determine the value of $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $\\mathcal{B}$ as the collection of rectangular prisms with [BLANK] and a volume of $24$. Define $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism in the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than one. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $32$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integers. Find $p+q$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $\\mathcal{B}$ to be the collection of rectangular prisms with [BLANK] and a volume of $32$. Denote $r$ as the radius of the smallest sphere that is capable of enclosing every rectangular prism within the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Calculate $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $\\mathcal{B}$ to be the collection of rectangular boxes having [BLANK] and a volume of $32$. Let $r$ denote the radius of the smallest sphere that can enclose all the rectangular boxes within the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors other than $1$. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $\\mathcal{B}$ be the set of rectangular boxes with [BLANK] and volume $32$. Let $r$ be the radius of the smallest sphere that can contain each of the rectangular boxes that are elements of $\\mathcal{B}$. The value of $r^2$ can be written as $\\frac{p}{q}$, where $p$ and $q$ are relatively prime positive integersFind $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the collection $\\mathcal{B}$ consisting of rectangular prisms with [BLANK] and a volume of $32$. Define $r$ as the radius of the smallest sphere capable of enclosing every rectangular prism that belongs to $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that share no common factors. Determine the sum $p+q$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $\\mathcal{B}$ to be the collection of rectangular boxes characterized by [BLANK] and having a volume of $32$. Define $r$ as the radius of the smallest sphere capable of enclosing every rectangular box that belongs to the set $\\mathcal{B}$. The expression for $r^2$ can be represented as $\\frac{p}{q}$, where $p$ and $q$ are positive integers that have no common factors. Determine the value of $p+q$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

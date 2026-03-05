@@ -1,0 +1,210 @@
+{
+  "original_question": "There is a collection of $25$ indistinguishable white chips and $25$ indistinguishable black chips. Find the number of ways to place some of these chips in the $25$ unit cells of a $5\\times5$ grid such that:\neach cell contains at most one chip\nall chips in the same row and all chips in the same column have the same colour\nany additional chip placed on the grid would violate one or more of the previous two conditions.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $40$ unit cells of a $8\\times5$ grid such that: each cell contains at most one chip, all chips in the same row and all chips in the same column have the same colour, any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A set consists of [BLANK] and [BLANK]. Determine how many configurations are possible to position some of these chips within the $40$ unit cells of an $8\times5$ grid such that: no cell holds more than one chip, all chips in a particular row and all chips in a specific column share the same colour, and placing any further chip on the grid would breach one or more of the aforementioned conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "You have a group consisting of [BLANK] and [BLANK]. Calculate the total number of methods to arrange some of these chips in the $40$ unit cells of an $8\times5$ grid under the following conditions: each cell can contain at most one chip, all chips in the same row and all chips in the same column must be of the same colour, and adding any extra chip to the grid would infringe upon one or more of the previously stated rules.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider a collection made up of [BLANK] and [BLANK]. Find how many different ways there are to distribute some of these chips across the $40$ unit cells of an $8\times5$ grid so that: no cell has more than one chip, all chips in the same row and all chips in the same column are of identical colour, and placing any additional chip on the grid would contravene one or more of the previous two stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Imagine a set of [BLANK] and [BLANK]. Assess the number of possible arrangements for some of these chips within the $40$ unit cells of an $8\times5$ grid, ensuring that: each cell accommodates at most one chip, all chips within the same row and all chips within the same column are of the same colour, and any further chip added to the grid would violate one or more of the earlier conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There exists a group of [BLANK] and [BLANK]. Discover the number of distinct ways to position some of these chips in the $40$ unit cells of an $8\times5$ grid such that: no cell holds more than one chip, all chips within a row and all chips within a column are the same colour, and placing any additional chip on the grid would breach one or more of the preceding two criteria.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $45$ unit cells of a $9\\times5$ grid such that: each cell contains at most one chip, all chips in the same row and all chips in the same column have the same colour, any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a set of [BLANK] and [BLANK], determine how many ways there are to position some of these chips within the $45$ unit cells of a $9\times5$ grid under the conditions that: each cell may hold no more than one chip, all chips located in the same row and column must share the same colour, and placing any extra chip on the grid would breach one or more of the aforementioned conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given a group of [BLANK] and [BLANK], calculate the number of possible arrangements for some of these chips in the $45$ unit cells of a $9\times5$ grid such that: each cell can contain a maximum of one chip, every chip in a row and every chip in a column must be of the same colour, and adding any further chip to the grid would infringe one or more of the previous two stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With a collection of [BLANK] and [BLANK], find how many ways you can distribute some of these chips across the $45$ unit cells of a $9\times5$ grid if: no cell can have more than one chip, all chips within the same row and within the same column are required to be of the same colour, and the addition of any more chips to the grid would contravene one or more of the aforementioned rules.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a variety of [BLANK] and [BLANK]. Determine the total number of ways to arrange some of these chips into the $45$ unit cells of a $9\times5$ grid so that: each cell holds at most one chip, all chips in any row and all chips in any column are of the same colour, and placing an additional chip on the grid would violate one or more of the previously stated conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "You have a selection of [BLANK] and [BLANK]. Assess how many different ways you can place some of these chips in the $45$ unit cells of a $9\times5$ grid, ensuring that: each cell has no more than one chip, all chips in the same row and in the same column must have identical colours, and introducing any further chip to the grid would breach one or more of the prior conditions.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $25$ unit cells of a $5\\times5$ grid such that: each cell contains at most one chip all chips in the same row and all chips in the same column have the same colour any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A set consists of [BLANK] and [BLANK]. Determine how many different arrangements are possible to distribute some of these chips across the $25$ unit cells of a $5\times5$ grid ensuring that: no cell has more than one chip all chips located in the same row and all chips situated in the same column share the same colour adding any more chips to the grid would breach one or both of the earlier conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "You have a group of [BLANK] and [BLANK]. Calculate the total number of ways to allocate some of these chips into the $25$ unit cells of a $5\times5$ grid with the following restrictions: each cell may hold at most a single chip all chips in a given row and all chips in a specific column must be of the same colour placing any additional chip on the grid would infringe upon one or more of the preceding two rules.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a set of [BLANK] and [BLANK]. Assess the number of methods to position some of these chips within the $25$ unit cells of a $5\times5$ grid such that: no unit cell contains more than one chip all chips in the same row and all chips in the same column are required to have the same colour introducing any further chip into the grid would contravene one or both of the earlier stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A group is made up of [BLANK] and [BLANK]. Identify how many possible ways there are to distribute some of these chips into the $25$ unit cells of a $5\times5$ grid under the following conditions: each cell can hold no more than one chip all chips within the same row and all chips within the same column must be of the same colour placing any additional chip on the grid would violate one or more of the prior two conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "You are given a collection of [BLANK] and [BLANK]. Find the total number of distinct ways to position some of these chips into the $25$ unit cells of a $5\times5$ grid while adhering to the following rules: every cell may contain at most one chip all chips in the same row and all chips in the same column should be of the same colour any further chip added to the grid would breach one or both of the conditions stated above.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $30$ unit cells of a $6\\times5$ grid such that: each cell contains at most one chip, all chips in the same row and all chips in the same column have the same colour, any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A set of [BLANK] and [BLANK] exists. Determine how many different arrangements there are to distribute some of these chips into the $30$ unit cells of a $6\times5$ grid, ensuring that: each cell holds no more than one chip, all chips in the same row share a color, all chips in the same column share a color, and adding any extra chip to the grid would breach one or both of the previous conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "You have a group of [BLANK] and [BLANK]. Calculate the number of ways to position some of these chips within the $30$ unit cells of a $6\times5$ grid, subject to the following rules: each cell may contain at most one chip, all chips located in a single row are the same color, all chips in the same column are of the same color, and placing any additional chip would contravene one or more of the prior stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There is a set comprising [BLANK] and [BLANK]. Find out how many distinct methods exist to allocate some of these chips into the $30$ unit cells of a $6\times5$ grid such that: no cell has more than one chip, all chips within a row are of identical color, all chips within a column are of the same color, and the introduction of any further chip would violate one or both of the earlier conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a collection that includes [BLANK] and [BLANK], determine the number of possible configurations for placing some chips into the $30$ unit cells of a $6\times5$ grid, adhering to these criteria: each cell can hold only one chip, all chips in a row must be the same color, all chips in a column must also be the same color, and adding any more chips would infringe upon one or more of the previously stated requirements.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a group of [BLANK] and [BLANK]. Find the total number of ways to arrange some of these chips within the $30$ unit cells of a $6\times5$ grid, while obeying the following conditions: each cell can contain no more than one chip, all chips in the same row are of one color, all chips in the same column are of one color, and placing any additional chip would breach one or more of the earlier conditions.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $50$ unit cells of a $10\\times5$ grid such that: each cell contains at most one chip, all chips in the same row and all chips in the same column have the same colour, any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A set of [BLANK] and [BLANK] is given. Determine how many different arrangements can be made to position some of these chips within the $50$ unit cells of a $10\times5$ grid, ensuring that: no cell holds more than one chip, all chips in a particular row and all chips in a specific column share the same color, and placing any extra chip on the grid would breach at least one of the earlier two stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "You have a group of [BLANK] and [BLANK]. Calculate the total number of ways to distribute some of these chips across the $50$ unit cells of a $10\times5$ grid, such that: each cell has no more than one chip, chips in the same row and in the same column are all of the same color, and adding another chip to the grid would infringe upon one or more of the previously mentioned conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A quantity of [BLANK] and [BLANK] exists. Find how many distinct methods there are to arrange some of these chips in the $50$ unit cells of a $10\times5$ grid while satisfying the following criteria: each cell can hold a maximum of one chip, all chips within the same row and all chips within the same column must be of identical color, and the addition of any further chip to the grid would violate either of the prior two conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a collection of [BLANK] and [BLANK]. Assess the number of possible ways to position some of these chips in the $50$ unit cells of a $10\times5$ grid, adhering to the following rules: no cell may contain more than one chip, all chips within a single row and all chips within a single column must have the same color, and placing any additional chip in the grid would contradict one or both of the conditions stated earlier.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There is a set consisting of [BLANK] and [BLANK]. Determine how many different configurations can be formed to place some of these chips into the $50$ unit cells of a $10\times5$ grid, ensuring that: each cell accommodates at most one chip, chips located in the same row and all chips situated in the same column are of the same color, and adding any extra chip to the grid would breach one or more of the preceding two requirements.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "There is a collection of [BLANK] and [BLANK]. Find the number of ways to place some of these chips in the $50$ unit cells of a $10\\times5$ grid such that: each cell contains at most one chip, all chips in the same row and all chips in the same column have the same colour, any additional chip placed on the grid would violate one or more of the previous two conditions.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A set consists of [BLANK] and [BLANK]. Determine how many different configurations exist to arrange some of these chips within the $50$ unit cells of a $10\times5$ grid, ensuring that: no cell has more than one chip, all chips within the same row share a colour, all chips within the same column are of the same colour, and adding any further chip to the grid would breach one or more of the previously stated conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "You have a group of [BLANK] and [BLANK]. Calculate the total number of ways to distribute some of these chips across the $50$ unit cells of a $10\times5$ grid so that: each individual cell contains at most one chip, chips in the same row are of identical colour, chips in the same column are of the same colour, and placing any additional chip on the grid would infringe upon one or more of the earlier conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider a collection that includes [BLANK] and [BLANK]. Find how many distinct ways you can position some of these chips in the $50$ unit cells of a $10\times5$ grid, adhering to the following rules: each cell can hold no more than one chip, all chips located in the same row must be the same colour, all chips in the same column must also be of the same colour, and introducing any more chips would violate one or more of the preceding conditions.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "There exists a set containing [BLANK] and [BLANK]. Identify the number of possible arrangements for placing some of these chips into the $50$ unit cells of a $10\times5$ grid, ensuring that: each cell accommodates at most one chip, all chips in any given row share the same colour, all chips in any specified column are of a uniform colour, and that adding any further chips would contravene one or more of the aforementioned stipulations.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A collection is made up of [BLANK] and [BLANK]. Assess the number of ways to position some of these chips within the $50$ unit cells of a $10\times5$ grid, given that: no cell can contain more than one chip, chips in the same row must be of a single colour, chips in the same column must also be of the same colour, and placing any extra chip on the grid would breach one or more of the previously established conditions.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

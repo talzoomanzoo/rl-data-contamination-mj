@@ -1,0 +1,62 @@
+{
+  "original_question": "There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Find $xy$.",
+  "info_removed_type": "\"the logarithmic equality condition\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{4y}\\right)=10$. Find $xy$.",
+      "incomplete_question": "There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=10$. Find $xy$.",
+      "info_removed": "\"the logarithmic equality condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{5y}\\right)=8$. Find $xy$.\",",
+      "incomplete_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=8$. Find $xy$.\"",
+      "info_removed": "\"the logarithmic equality condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{3y}\\right)=12$. Find $xy$.\",",
+      "incomplete_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=12$. Find $xy$.\"",
+      "info_removed": "\"the logarithmic equality condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{6y}\\right)=9$. Find $xy$.\",",
+      "incomplete_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=9$. Find $xy$.\"",
+      "info_removed": "\"the logarithmic equality condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{2y}\\right)=7$. Find $xy$.\",",
+      "incomplete_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=7$. Find $xy$.\"",
+      "info_removed": "\"the logarithmic equality condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=\\log_y\\left(x^{7y}\\right)=11$. Find $xy$.\"",
+      "incomplete_question": "\"There exist real numbers $x$ and $y$, both greater than 1, such that $\\log_x\\left(y^x\\right)=[BLANK]=11$. Find $xy$.\"",
+      "info_removed": "\"the logarithmic equality condition\""
+    }
+  ],
+  "num_valid_similars": 5
+}

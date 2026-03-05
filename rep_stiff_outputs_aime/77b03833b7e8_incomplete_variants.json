@@ -1,0 +1,210 @@
+{
+  "original_question": "Define $f(x)=|| x|-\\tfrac{1}{2}|$ and $g(x)=|| x|-\\tfrac{1}{4}|$. Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]\nGraph\nhttps://www.desmos.com/calculator/wml09giaun",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the count of points where the graphs intersect for \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total number of points where the graphs of \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the count of intersection points between the curves \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine how many times the graphs of \\\\[y=3 g(f(\\sin (6 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=3 g(f(\\cos (5 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total number of points where the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the number of points where the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine how many times the graphs of \\\\[y=5 g(f(\\sin (4 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=5 g(f(\\cos (2 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the curves of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y)))\\] intersect.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine how many times the curves of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y)))\\] intersect.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let \\( f(x)=[BLANK] \\) and \\( g(x)=[BLANK] \\). Determine how many times the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y)))\\] intersect.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine how many times the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y)))\\] intersect.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the count of points where the graphs of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the curves of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the graphs of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total points of intersection for the graphs of \\\\[y=6 g(f(\\sin (5 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=6 g(f(\\cos (4 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y))).\\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the count of points where the graphs of \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y)))\\\\] intersect.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total number of points where the graphs of \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y))).\\\\]\" intersect.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y))).\\\\]\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total number of points where the curves intersect for \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the graphs intersect for \\\\[y=7 g(f(\\sin (7 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=7 g(f(\\cos (6 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Find the number of intersections of the graphs of \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the total number of points where the curves intersect for \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine how many points of intersection exist for the graphs of \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $f(x)=[BLANK]$ and $g(x)=[BLANK]$Find the number of intersections of the graphs of \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the count of intersections of the equations \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)=[BLANK]$ and $g(x)=[BLANK]$. Determine the quantity of points where the graphs of \\\\[y=2 g(f(\\sin (8 \\pi x))) \\\\quad\\\\text{ and }\\\\quad x=2 g(f(\\cos (7 \\pi y))).\\\\]\" intersect.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

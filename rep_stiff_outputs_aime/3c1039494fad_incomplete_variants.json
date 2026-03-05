@@ -1,0 +1,210 @@
+{
+  "original_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths 200, 240, and 300. Find the side length of the hexagon.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a convex equilateral hexagon ABCDEF where every pair of opposite sides is parallel. The triangle formed by extending the sides of segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF represent a convex equilateral hexagon with all pairs of its opposite sides being parallel. The triangle created by the extensions of segments AB, CD, and EF has side lengths of [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume ABCDEF is a convex equilateral hexagon in which pairs of opposite sides are parallel. The triangle with sides that are the extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let ABCDEF denote a convex equilateral hexagon where opposite sides are parallel to each other. The triangle whose sides extend from segments AB, CD, and EF has lengths of [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the convex equilateral hexagon ABCDEF, characterized by parallel opposite sides. The triangle constructed by extending segments AB, CD, and EF has side lengths of [BLANK]. Find the hexagon's side length.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider hexagon ABCDEF, which is a convex equilateral figure where each pair of opposite sides runs parallel. The triangle formed by extending segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF represent a convex hexagon that is equilateral with all pairs of opposite sides being parallel. The triangle created by extending the lines of segments AB, CD, and EF has sides measuring [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Imagine a convex equilateral hexagon named ABCDEF, where every pair of opposite sides is parallel. The triangle constructed from the extensions of segments AB, CD, and EF possesses side lengths of [BLANK]. Find the length of a side of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take into account the convex equilateral hexagon ABCDEF, with all of its opposite sides parallel to each other. The triangle whose sides are the extensions of line segments AB, CD, and EF has side lengths of [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Envision a convex hexagon ABCDEF that is equilateral, with pairs of opposite sides being parallel. The triangle formed by the extensions of segments AB, CD, and EF has side lengths of [BLANK]. What is the length of a side of the hexagon?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider hexagon ABCDEF, which is a convex equilateral figure with each pair of opposite sides being parallel. The triangle formed by extending the segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF represent a convex equilateral hexagon where all opposite sides are parallel to each other. The triangle created by the extensions of sides AB, CD, and EF has sides measuring [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume ABCDEF is a convex equilateral hexagon with parallel opposite sides. A triangle with sides that are the extensions of segments AB, CD, and EF has side lengths of [BLANK]. Find the side length of this hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let ABCDEF denote a convex equilateral hexagon in which every pair of opposite sides is parallel. The triangle formed by the extensions of segments AB, CD, and EF has side lengths equal to [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a convex equilateral hexagon ABCDEF, where each pair of opposing sides runs parallel. The triangle whose sides extend from segments AB, CD, and EF has side lengths of [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a convex equilateral hexagon ABCDEF where each pair of opposite sides runs parallel. The triangle formed by extending the sides of segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF represent a convex equilateral hexagon with all pairs of its opposite sides being parallel. The triangle created by extending segments AB, CD, and EF has side lengths of [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume ABCDEF is a convex equilateral hexagon for which every pair of opposite sides is parallel. The triangle whose sides are formed by extending segments AB, CD, and EF has lengths of [BLANK]. Find the length of a side of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Imagine a convex equilateral hexagon named ABCDEF where each pair of opposite sides is parallel. The triangle that arises from the extensions of sides AB, CD, and EF has side lengths of [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take into account a convex equilateral hexagon labeled ABCDEF with parallel pairs of opposite sides. The triangle whose sides are the extensions of segments AB, CD, and EF has lengths given by [BLANK]. Find the side length of this hexagon.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a convex equilateral hexagon ABCDEF where each pair of opposite sides is parallel. The triangle formed by extending the lines of segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF denote a convex equilateral hexagon with parallel opposite sides. The triangle created by the extensions of segments AB, CD, and EF has side lengths of [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume ABCDEF is a convex equilateral hexagon in which all opposite sides are parallel. The triangle formed by extending segments AB, CD, and EF has side lengths equal to [BLANK]. Find the side length of this hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Define ABCDEF as a convex equilateral hexagon characterized by parallel opposite sides. The triangle whose sides are the extensions of segments AB, CD, and EF has lengths [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let ABCDEF represent a convex equilateral hexagon where every pair of opposite sides is parallel. The triangle with sides extending from segments AB, CD, and EF has side lengths of [BLANK]. Determine the hexagon's side length.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths [BLANK]. Find the side length of the hexagon.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a convex equilateral hexagon ABCDEF, where each pair of opposite sides runs parallel to each other. The triangle formed by extending segments AB, CD, and EF has side lengths [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let ABCDEF denote a convex equilateral hexagon in which all opposite sides are parallel. The triangle created by the extensions of segments AB, CD, and EF possesses side lengths of [BLANK]. Calculate the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Imagine a convex equilateral hexagon ABCDEF, characterized by parallel opposite sides. The triangle derived from extending segments AB, CD, and EF has side lengths equal to [BLANK]. What is the side length of the hexagon?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take ABCDEF as a convex equilateral hexagon, with all pairs of opposite sides being parallel. The triangle formed by the extensions of segments AB, CD, and EF has side lengths of [BLANK]. Find the hexagon's side length.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assume ABCDEF is a convex equilateral hexagon where every pair of opposite sides is parallel. The triangle whose sides extend from segments AB, CD, and EF has side lengths of [BLANK]. Determine the side length of the hexagon.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

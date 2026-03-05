@@ -1,0 +1,62 @@
+{
+  "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $1$, the resulting number is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R$.",
+  "info_removed_type": "\"the specific divisibility condition\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $1$, the resulting number is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R$.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $7$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $2$, the resulting number is divisible by $9$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $9$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $3$, the resulting number is divisible by $11$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $11$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $4$, the resulting number is divisible by $5$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $5$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $5$, the resulting number is divisible by $13$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $13$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to $6$, the resulting number is divisible by $17$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "incomplete_question": "Let $N$ be the greatest four-digit positive integer with the property that whenever one of its digits is changed to [BLANK], the resulting number is divisible by $17$. Let $Q$ and $R$ be the quotient and remainder, respectively, when $N$ is divided by $1000$. Find $Q+R.",
+      "info_removed": "\"the specific divisibility condition\""
+    }
+  ],
+  "num_valid_similars": 5
+}

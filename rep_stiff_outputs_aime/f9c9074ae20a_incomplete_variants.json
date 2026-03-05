@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=5$, $BC=9$, and $AC=10$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the sum $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and line segment $\\overline{AD}$ cuts $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the sum $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ drawn at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ again at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ again at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ drawn at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ which is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ crosses $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, the length of $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The lines tangent to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ again at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are integers that have no common factors. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. Let the tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and let line segment $\\overline{AD}$ cut $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Calculate $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The lines tangent to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ again at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integersFind $m + n$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents drawn to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ at point $P$. Given that $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, express $AP$ in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the sum $m + n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $ABC$ that is circumscribed by circle $\\omega$. The tangents to $\\omega$ at points $B$ and $C$ meet at point $D$, and the line segment $\\overline{AD}$ intersects $\\omega$ again at point $P$. If $AB=[BLANK]$, $BC=[BLANK]$, and $AC=[BLANK]$, then $AP$ can be expressed in the form $\\frac{m}{n}$, where $m$ and $n$ are coprime integers. Determine the value of $m + n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

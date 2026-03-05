@@ -1,0 +1,27 @@
+{
+  "dataset": "aime",
+  "original_question_id": 0,
+  "original_question": "Consider the paths of length $16$ that follow the lines from the lower left corner to the upper right corner on an $8\\times 8$ grid. Find the number of such paths that change direction exactly four times, as in the examples shown below.\n[asy] size(10cm); usepackage(\"tikz\");label(\"\\begin{tikzpicture}[scale=.5]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(2,0)--(2,3)--(5,3)--(5,8)--(8,8);\\end{tikzpicture}\",origin); label(\"\\begin{tikzpicture}[scale=.5]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(0,3)--(3,3)--(3,5)--(8,5)--(8,8);\\end{tikzpicture}\",E); [/asy]",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "Consider the paths of length $14$ that follow the lines from the lower left corner to the upper right corner on a $7\\times 7$ grid. Find the number of such paths that change direction exactly three times, as in the examples shown below."
+    },
+    {
+      "id": 2,
+      "question": "Consider the paths of length $18$ that follow the lines from the lower left corner to the upper right corner on a $9\\times 9$ grid. Find the number of such paths that change direction exactly five times, as in the examples shown below."
+    },
+    {
+      "id": 3,
+      "question": "Consider the paths of length $20$ that follow the lines from the lower left corner to the upper right corner on a $10\\times 10$ grid. Find the number of such paths that change direction exactly six times, as in the examples shown below."
+    },
+    {
+      "id": 4,
+      "question": "Consider the paths of length $12$ that follow the lines from the lower left corner to the upper right corner on a $6\\times 6$ grid. Find the number of such paths that change direction exactly two times, as in the examples shown below."
+    },
+    {
+      "id": 5,
+      "question": "Consider the paths of length $22$ that follow the lines from the lower left corner to the upper right corner on an $11\\times 11$ grid. Find the number of such paths that change direction exactly seven times, as in the examples shown below."
+    }
+  ]
+}

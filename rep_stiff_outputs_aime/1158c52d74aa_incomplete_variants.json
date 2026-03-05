@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $p$ be the least prime number for which there exists a positive integer $n$ such that $n^{4}+1$ is divisible by $p^{2}$. Find the least positive integer $m$ such that $m^{4}+1$ is divisible by $p^{2}$.",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $p$ be the least prime number for which there exists a positive integer $n$ such that $n^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $m$ such that $m^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Define $p$ as the smallest prime number for which a positive integer $n$ exists such that $n^{4}+1$ is divisible by [BLANK]^{2}. Determine the smallest positive integer $m$ for which $m^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $p$ represent the smallest prime number for which there is a positive integer $n$ such that $n^{4}+1$ can be divided by [BLANK]^{2}. Identify the smallest positive integer $m$ such that $m^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider $p$ to be the least prime number such that a positive integer $n$ exists making $n^{4}+1$ divisible by [BLANK]^{2}. Find the minimum positive integer $m$ for which $m^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $p$ denote the smallest prime number for which a positive integer $n$ can be found such that $n^{4}+1$ is divisible by [BLANK]^{2}. Calculate the smallest positive integer $m$ such that $m^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Define $p$ as the least prime number for which there exists a positive integer $n$ satisfying that $n^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $m$ such that $m^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $r$ be the least prime number for which there exists a positive integer $j$ such that $j^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $t$ such that $t^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $r$ denote the smallest prime number for which a positive integer $j$ exists such that $j^{4}+1$ is divisible by [BLANK]^{2}. Determine the smallest positive integer $t$ for which $t^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider $r$ as the least prime number that allows for a positive integer $j$ such that $j^{4}+1$ is divisible by [BLANK]^{2}. Identify the smallest positive integer $t$ such that $t^{4}+1$ can be divided by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $r$ represent the smallest prime number for which there is a positive integer $j$ such that $j^{4}+1$ is divisible by [BLANK]^{2}. Find the minimal positive integer $t$ such that $t^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Define $r$ as the least prime number for which there exists a positive integer $j$ making $j^{4}+1$ divisible by [BLANK]^{2}. Find the smallest positive integer $t$ for which $t^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assume $r$ is the smallest prime number for which there is a positive integer $j$ such that $j^{4}+1$ is divisible by [BLANK]^{2}. Determine the least positive integer $t$ so that $t^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $q$ be the least prime number for which there exists a positive integer $k$ such that $k^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $n$ such that $n^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider $q$ as the smallest prime number for which there is a positive integer $k$ such that $k^{4}+1$ is divisible by [BLANK]^{2}. Determine the smallest positive integer $n$ such that $n^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $q$ denote the minimum prime number for which a positive integer $k$ exists such that $k^{4}+1$ is divisible by [BLANK]^{2}. Identify the smallest positive integer $n$ for which $n^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Define $q$ as the least prime number for which there is a positive integer $k$ such that $k^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $n$ so that $n^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $q$ be the smallest prime for which a positive integer $k$ can be found such that $k^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $n$ such that $n^{4}+1$ can be divided by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider $q$ to be the least prime number where a positive integer $k$ exists such that $k^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $n$ such that $n^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $s$ be the least prime number for which there exists a positive integer $l$ such that $l^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $p$ such that $p^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $s$ represent the smallest prime number for which a positive integer $l$ exists such that $l^{4}+1$ is divisible by [BLANK]^{2}. Determine the smallest positive integer $p$ for which $p^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $s$ as the smallest prime number that allows for a positive integer $l$ such that $l^{4}+1$ can be divided by [BLANK]^{2}. Identify the smallest positive integer $p$ such that $p^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider $s$ to be the least prime number for which there exists a positive integer $l$ satisfying that $l^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $p$ such that $p^{4}+1$ is a multiple of [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $s$ denote the smallest prime for which there is a positive integer $l$ such that $l^{4}+1$ is a multiple of [BLANK]^{2}. Find the smallest positive integer $p$ such that $p^{4}+1$ can be divided by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $s$ be the least prime number for which a positive integer $l$ exists such that $l^{4}+1$ is a multiple of [BLANK]^{2}. Calculate the smallest positive integer $p$ for which $p^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $h$ be the least prime number for which there exists a positive integer $z$ such that $z^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $q$ such that $q^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $h$ represent the smallest prime number for which there is a positive integer $z$ such that $z^{4}+1$ is a multiple of [BLANK]^{2}. Determine the smallest positive integer $q$ such that $q^{4}+1$ is a multiple of [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Define $h$ as the least prime number for which a positive integer $z$ exists such that $z^{4}+1$ is divisible by [BLANK]^{2}. Identify the smallest positive integer $q$ for which $q^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $h$ denote the smallest prime number for which there is a positive integer $z$ making $z^{4}+1$ divisible by [BLANK]^{2}. Find the smallest positive integer $q$ such that $q^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider $h$ as the least prime number that allows for a positive integer $z$ such that $z^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $q$ so that $q^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $h$ be the minimal prime number for which there is a positive integer $z$ such that $z^{4}+1$ is divisible by [BLANK]^{2}. Determine the least positive integer $q$ for which $q^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $t$ be the least prime number for which there exists a positive integer $x$ such that $x^{4}+1$ is divisible by [BLANK]^{2}. Find the least positive integer $y$ such that $y^{4}+1$ is divisible by [BLANK]^{2}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Define $t$ as the smallest prime number for which a positive integer $x$ exists such that $x^{4}+1$ is a multiple of [BLANK]^{2}. Determine the smallest positive integer $y$ such that $y^{4}+1$ is a multiple of [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $t$ represent the smallest prime for which there is a positive integer $x$ such that $x^{4}+1$ can be evenly divided by [BLANK]^{2}. Identify the smallest positive integer $y$ for which $y^{4}+1$ can be evenly divided by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider $t$ as the least prime number for which a positive integer $x$ can be found such that $x^{4}+1$ is divisible by [BLANK]^{2}. Find the smallest positive integer $y$ such that $y^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $t$ denote the smallest prime number such that there exists a positive integer $x$ making $x^{4}+1$ divisible by [BLANK]^{2}. Find the least positive integer $y$ for which $y^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Define $t$ as the least prime number for which there is a positive integer $x$ such that $x^{4}+1$ is divisible by [BLANK]^{2}. Determine the minimum positive integer $y$ such that $y^{4}+1$ is divisible by [BLANK]^{2}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

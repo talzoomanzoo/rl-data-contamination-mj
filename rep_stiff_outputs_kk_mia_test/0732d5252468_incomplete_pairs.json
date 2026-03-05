@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Victoria, Oliver, and Scarlett. \"Victoria is a knave,\" Abigail mentioned. Victoria noted, \"Oliver is a knave\". In Oliver's words: \"Scarlett is a knight\". Scarlett remarked, \"If Victoria is a knave then Oliver is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Victoria, Oliver, and Scarlett. \"Victoria is a knave,\" Abigail mentioned. Victoria noted, \"Oliver is a knave\". In Oliver's words: \"Scarlett is a knight\". Scarlett remarked, \"If Victoria is a knave then Oliver is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] mentioned. [BLANK] noted, \"[BLANK] is a knave\". In [BLANK]'s words: \"[BLANK] is a knight\". [BLANK] remarked, \"If [BLANK] is a knave then [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a peculiar island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: Mia, Noah, Ella, and Liam. \"Noah is a knave,\" Mia said. Noah declared, \"Ella is a knave.\" According to Ella, \"Liam is a knight.\" Liam added, \"If Noah is a knave, then Ella is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "On a peculiar island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] said. [BLANK] declared, \"[BLANK] is a knave.\" According to [BLANK], \"[BLANK] is a knight.\" [BLANK] added, \"If [BLANK] is a knave, then [BLANK] is a knight.\" Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a unique land, there exist only knights and knaves. Knights tell the truth, whereas knaves always lie. You come across 4 individuals: Jack, Sophie, Ethan, and Grace. \"Sophie is a knave,\" Jack alleged. Sophie claimed, \"Ethan is a knave.\" Ethan asserted, \"Grace is a knight.\" Grace commented, \"If Sophie is a knave, then Ethan is a knight.\" Who among them is a knight and who is a knave?",
+      "incomplete_question": "In a unique land, there exist only knights and knaves. Knights tell the truth, whereas knaves always lie. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] alleged. [BLANK] claimed, \"[BLANK] is a knave.\" [BLANK] asserted, \"[BLANK] is a knight.\" [BLANK] commented, \"If [BLANK] is a knave, then [BLANK] is a knight.\" Who among them is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "On a strange island, inhabitants are either knights or knaves. Knights always tell the truth, while knaves always lie. You meet 4 characters: Sarah, Lucas, Mia, and Oliver. \"Lucas is a knave,\" Sarah stated. Lucas exclaimed, \"Mia is a knave.\" Mia said, \"Oliver is a knight.\" Oliver remarked, \"If Lucas is a knave, then Mia is a knight.\" Who is the knight and who is the knave?",
+      "incomplete_question": "On a strange island, inhabitants are either knights or knaves. Knights always tell the truth, while knaves always lie. You meet 4 characters: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] stated. [BLANK] exclaimed, \"[BLANK] is a knave.\" [BLANK] said, \"[BLANK] is a knight.\" [BLANK] remarked, \"If [BLANK] is a knave, then [BLANK] is a knight.\" Who is the knight and who is the knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "In an unusual world, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 people: Emma, Jacob, Ava, and Ryan. \"Jacob is a knave,\" Emma mentioned. Jacob replied, \"Ava is a knave.\" Ava declared, \"Ryan is a knight.\" Ryan stated, \"If Jacob is a knave, then Ava is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "In an unusual world, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 people: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] mentioned. [BLANK] replied, \"[BLANK] is a knave.\" [BLANK] declared, \"[BLANK] is a knight.\" [BLANK] stated, \"If [BLANK] is a knave, then [BLANK] is a knight.\" Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "On a mystical island, there are only knights and knaves. Knights tell the truth, while knaves always lie. You meet 4 residents: Chloe, Daniel, Lily, and James. \"Daniel is a knave,\" Chloe said. Daniel insisted, \"Lily is a knave.\" Lily commented, \"James is a knight.\" James pointed out, \"If Daniel is a knave, then Lily is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "On a mystical island, there are only knights and knaves. Knights tell the truth, while knaves always lie. You meet 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] said. [BLANK] insisted, \"[BLANK] is a knave.\" [BLANK] commented, \"[BLANK] is a knight.\" [BLANK] pointed out, \"If [BLANK] is a knave, then [BLANK] is a knight.\" Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

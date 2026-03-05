@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Aiden, Oliver, Sophia, and Henry. Aiden told you that Henry is a knight if and only if Henry is a knave. Oliver said, \"Sophia is a knave and Henry is a knight.\" Sophia expressed that Henry is a knight. Henry was heard saying, \"Oliver is a knave if and only if Oliver is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the specific statements made by each inhabitant\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Aiden, Oliver, Sophia, and Henry. Aiden told you that Henry is a knight if and only if Henry is a knave. Oliver said, \"Sophia is a knave and Henry is a knight.\" Sophia expressed that Henry is a knight. Henry was heard saying, \"Oliver is a knave if and only if Oliver is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Aiden, Oliver, Sophia, and Henry. Aiden told you that [BLANK]. Oliver said, \"[BLANK].\" Sophia expressed that [BLANK]. Henry was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Liam, Emma, Noah, and Mia. Liam told you that Mia is a knight if and only if Mia is a knave. Emma said, \"Noah is a knave and Mia is a knight.\" Noah expressed that Mia is a knight. Mia was heard saying, \"Emma is a knave if and only if Emma is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Liam, Emma, Noah, and Mia. Liam told you that [BLANK]. Emma said, \"[BLANK].\" Noah expressed that [BLANK]. Mia was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Jack, Ava, Lucas, and Zoe. Jack told you that Zoe is a knight if and only if Zoe is a knave. Ava said, \"Lucas is a knave and Zoe is a knight.\" Lucas expressed that Zoe is a knight. Zoe was heard saying, \"Ava is a knave if and only if Ava is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Jack, Ava, Lucas, and Zoe. Jack told you that [BLANK]. Ava said, \"[BLANK].\" Lucas expressed that [BLANK]. Zoe was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ethan, Grace, Mason, and Lily. Ethan told you that Lily is a knight if and only if Lily is a knave. Grace said, \"Mason is a knave and Lily is a knight.\" Mason expressed that Lily is a knight. Lily was heard saying, \"Grace is a knave if and only if Grace is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ethan, Grace, Mason, and Lily. Ethan told you that [BLANK]. Grace said, \"[BLANK].\" Mason expressed that [BLANK]. Lily was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ryan, Chloe, James, and Isabella. Ryan told you that Isabella is a knight if and only if Isabella is a knave. Chloe said, \"James is a knave and Isabella is a knight.\" James expressed that Isabella is a knight. Isabella was heard saying, \"Chloe is a knave if and only if Chloe is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ryan, Chloe, James, and Isabella. Ryan told you that [BLANK]. Chloe said, \"[BLANK].\" James expressed that [BLANK]. Isabella was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Samuel, Mia, Benjamin, and Emma. Samuel told you that Emma is a knight if and only if Emma is a knave. Mia said, \"Benjamin is a knave and Emma is a knight.\" Benjamin expressed that Emma is a knight. Emma was heard saying, \"Mia is a knave if and only if Mia is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Samuel, Mia, Benjamin, and Emma. Samuel told you that [BLANK]. Mia said, \"[BLANK].\" Benjamin expressed that [BLANK]. Emma was heard saying, \"[BLANK].\" So who is a knight and who is a knave?",
+      "info_removed": "\"the specific statements made by each inhabitant\""
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Every morning Aya goes for a $9$-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of $s$ kilometers per hour, the walk takes her 4 hours, including $t$ minutes spent in the coffee shop. When she walks $s+2$ kilometers per hour, the walk takes her 2 hours and 24 minutes, including $t$ minutes spent in the coffee shop. Suppose Aya walks at $s+\\frac{1}{2}$ kilometers per hour. Find the number of minutes the walk takes her, including the $t$ minutes spent in the coffee shop.",
+  "info_removed_type": "\"the specific distance of the walk\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Every morning Aya goes for a $9$-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of $s$ kilometers per hour, the walk takes her 4 hours, including $t$ minutes spent in the coffee shop. When she walks $s+2$ kilometers per hour, the walk takes her 2 hours and 24 minutes, including $t$ minutes spent in the coffee shop. Suppose Aya walks at $s+\\frac{1}{2}$ kilometers per hour. Find the number of minutes the walk takes her, including the $t$ minutes spent in the coffee shop.",
+      "incomplete_question": "Every morning Aya goes for a [BLANK] walk and stops at a coffee shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 4 hours, including t minutes spent in the coffee shop. When she walks s+2 kilometers per hour, the walk takes her 2 hours and 24 minutes, including t minutes spent in the coffee shop. Suppose Aya walks at s+\\frac{1}{2} kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the coffee shop.",
+      "info_removed": "\"the specific distance of the walk\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Every morning Liam goes for a 12-kilometer-long walk and stops at a bakery afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 3 hours, including t minutes spent in the bakery. When he walks s+3 kilometers per hour, the walk takes him 2 hours and 48 minutes, including t minutes spent in the bakery. Suppose Liam walks at s+1 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the bakery.",
+      "incomplete_question": "Every morning Liam goes for a [BLANK] walk and stops at a bakery afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 3 hours, including t minutes spent in the bakery. When he walks s+3 kilometers per hour, the walk takes him 2 hours and 48 minutes, including t minutes spent in the bakery. Suppose Liam walks at s+1 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the bakery.",
+      "info_removed": "\"the specific distance of the walk\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Every morning Sofia goes for a 15-kilometer-long walk and stops at a tea shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 5 hours, including t minutes spent in the tea shop. When she walks s+1.5 kilometers per hour, the walk takes her 3 hours and 12 minutes, including t minutes spent in the tea shop. Suppose Sofia walks at s+2 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the tea shop.",
+      "incomplete_question": "Every morning Sofia goes for a [BLANK] walk and stops at a tea shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 5 hours, including t minutes spent in the tea shop. When she walks s+1.5 kilometers per hour, the walk takes her 3 hours and 12 minutes, including t minutes spent in the tea shop. Suppose Sofia walks at s+2 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the tea shop.",
+      "info_removed": "\"the specific distance of the walk\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Every morning Noah goes for a 10-kilometer-long walk and stops at a smoothie bar afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 4 hours and 30 minutes, including t minutes spent in the smoothie bar. When he walks s+4 kilometers per hour, the walk takes him 3 hours and 30 minutes, including t minutes spent in the smoothie bar. Suppose Noah walks at s+3 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the smoothie bar.",
+      "incomplete_question": "Every morning Noah goes for a [BLANK] walk and stops at a smoothie bar afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 4 hours and 30 minutes, including t minutes spent in the smoothie bar. When he walks s+4 kilometers per hour, the walk takes him 3 hours and 30 minutes, including t minutes spent in the smoothie bar. Suppose Noah walks at s+3 kilometers per hour. Find the number of minutes the walk takes him, including the t minutes spent in the smoothie bar.",
+      "info_removed": "\"the specific distance of the walk\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Every morning Emma goes for a 8-kilometer-long walk and stops at a sandwich shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 2 hours and 30 minutes, including t minutes spent in the sandwich shop. When she walks s+5 kilometers per hour, the walk takes her 1 hour and 50 minutes, including t minutes spent in the sandwich shop. Suppose Emma walks at s+2.5 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the sandwich shop.",
+      "incomplete_question": "Every morning Emma goes for a [BLANK] walk and stops at a sandwich shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 2 hours and 30 minutes, including t minutes spent in the sandwich shop. When she walks s+5 kilometers per hour, the walk takes her 1 hour and 50 minutes, including t minutes spent in the sandwich shop. Suppose Emma walks at s+2.5 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the sandwich shop.",
+      "info_removed": "\"the specific distance of the walk\""
+    },
+    {
+      "dataset": "aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Every morning Lucas goes for a 20-kilometer-long walk and stops at an ice cream parlor afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 6 hours, including t minutes spent in the ice cream parlor. When he walks s+2 kilometers per hour, the walk takes him 4 hours and 15 minutes, including t minutes spent in the ice cream parlor. Suppose Lucas walks at s+1 kilometer per hour. Find the number of minutes the walk takes him, including the t minutes spent in the ice cream parlor.",
+      "incomplete_question": "Every morning Lucas goes for a [BLANK] walk and stops at an ice cream parlor afterwards. When he walks at a constant speed of s kilometers per hour, the walk takes him 6 hours, including t minutes spent in the ice cream parlor. When he walks s+2 kilometers per hour, the walk takes him 4 hours and 15 minutes, including t minutes spent in the ice cream parlor. Suppose Lucas walks at s+1 kilometer per hour. Find the number of minutes the walk takes him, including the t minutes spent in the ice cream parlor.",
+      "info_removed": "\"the specific distance of the walk\""
+    }
+  ],
+  "num_valid_similars": 5
+}

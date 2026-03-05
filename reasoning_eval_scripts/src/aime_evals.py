@@ -16,6 +16,7 @@ from pathlib import Path
 import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from tqdm import tqdm
 
 def extract_answer_from_response(response_text):
     """Extract the answer from a generated response.
@@ -215,7 +216,33 @@ def generate_responses(args):
             with open(args.answers_json, "r") as f:
                 answers_map = json.load(f)
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
+    # --- Compatibility patch for older Transformers ---
+    # Some tokenizer configs (e.g. Qwen) store `extra_special_tokens` as a list.
+    # Transformers<=4.55 can crash expecting a dict (special_tokens.keys()).
+    try:
+        from transformers.tokenization_utils_base import PreTrainedTokenizerBase
+
+        _orig_set_model_specific_special_tokens = PreTrainedTokenizerBase._set_model_specific_special_tokens
+
+        def _set_model_specific_special_tokens_compat(self, special_tokens=None):
+            if isinstance(special_tokens, list):
+                return
+            return _orig_set_model_specific_special_tokens(self, special_tokens=special_tokens)
+
+        PreTrainedTokenizerBase._set_model_specific_special_tokens = _set_model_specific_special_tokens_compat
+    except Exception:
+        pass
+
+    try:
+        tokenizer = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
+    except AttributeError as e:
+        # Fallback for the same "extra_special_tokens list" issue.
+        if "keys" in str(e):
+            tokenizer = AutoTokenizer.from_pretrained(
+                args.model, trust_remote_code=True, extra_special_tokens={}
+            )
+        else:
+            raise
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         torch_dtype="auto",
@@ -228,7 +255,7 @@ def generate_responses(args):
     question_candidates = ["Question", "question", "problem", "prompt", "text", "query"]
     answer_candidates = ["answer", "Answer", "solution", "final_answer", "target"]
 
-    for row_idx, row in df.iterrows():
+    for row_idx, row in tqdm(df.iterrows(), total=len(df), desc=f"Generating ({args.model})"):
         question_text = _select_column(row, question_candidates, args.question_col)
         answer_text = _select_column(row, answer_candidates, args.answer_col)
         if answer_text is None:

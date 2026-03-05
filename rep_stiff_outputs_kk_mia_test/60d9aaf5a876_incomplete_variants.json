@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ava, Daniel, Henry, and David. Ava said that Henry is a knave if and only if Henry is a knight. Daniel said that Ava is a knight or Ava is a knave. \"If David is a knave then Daniel is a knight,\" Henry mentioned. David commented, \"Henry is not a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In a mysterious town, inhabitants consist of only honest people and dishonest people. Honest individuals always tell the truth, whereas dishonest individuals always lie. You meet 3 residents: [BLANK], [BLANK], and [BLANK]. [BLANK] said that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] mentioned that [BLANK] is honest or [BLANK] is dishonest. 'If [BLANK] is dishonest, then [BLANK] is honest,' [BLANK] pointed out. [BLANK] remarked, '[BLANK] is not honest.' Identify who is honest and who is dishonest.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In an enigmatic town, the population is made up solely of truthful individuals and deceitful ones. The truthful always speak the truth, while the deceitful always fabricate lies. You encounter 3 locals: [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is deceitful if and only if [BLANK] is truthful. [BLANK] stated that [BLANK] is truthful or [BLANK] is deceitful. 'If [BLANK] is deceitful, then [BLANK] is truthful,' [BLANK] noted. [BLANK] said, '[BLANK] is not truthful.' Determine who is truthful and who is deceitful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar village, the residents comprise only of honest individuals and dishonest ones. Honest people always convey the truth, whereas dishonest people always mislead. You meet three individuals: [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] indicated that either [BLANK] is honest or [BLANK] is dishonest. '[BLANK] is dishonest, therefore [BLANK] is honest,' [BLANK] pointed out. [BLANK] commented, '[BLANK] is not honest.' Identify who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a strange town, the population consists exclusively of honest people and dishonest people. Honest residents always tell the truth, while dishonest ones always lie. You come across 3 citizens: [BLANK], [BLANK], and [BLANK]. [BLANK] expressed that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] noted that [BLANK] is honest or [BLANK] is dishonest. 'If [BLANK] is dishonest, then [BLANK] is honest,' [BLANK] remarked. [BLANK] stated, '[BLANK] is not honest.' Determine who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an unusual town, inhabitants only include truthful individuals and untruthful individuals. Truthful people always share the truth, whereas untruthful ones consistently lie. You encounter three townsfolk: [BLANK], [BLANK], and [BLANK]. [BLANK] declared that [BLANK] is untruthful if and only if [BLANK] is truthful. [BLANK] mentioned that [BLANK] is truthful or [BLANK] is untruthful. 'If [BLANK] is untruthful, then [BLANK] is truthful,' [BLANK] indicated. [BLANK] said, '[BLANK] is not truthful.' Identify who is truthful and who is untruthful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a curious locality, the residents consist solely of honest and dishonest people. Honest individuals always tell the truth, while dishonest individuals are known to lie. You meet three people: [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] stated that either [BLANK] is honest or [BLANK] is dishonest. '[BLANK] is dishonest, thus [BLANK] is honest,' [BLANK] commented. [BLANK] mentioned, '[BLANK] is not honest.' Determine who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "On a unique island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You meet 5 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] said that [BLANK] is a knight or [BLANK] is a knave. 'If [BLANK] is a knave then [BLANK] is a knight,' [BLANK] remarked. [BLANK] commented, '[BLANK] is not a knight.' Who among them is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a distinct island, there exist solely knights and knaves. Knights are truthful in all statements, whereas knaves lie consistently. You encounter 5 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] claimed that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave implies [BLANK] is a knight,' [BLANK] stated. [BLANK] remarked, '[BLANK] is not a knight.' Determine who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On an exclusive island, there are just knights and knaves. Knights invariably tell the truth, while knaves always deceive. You come across 5 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] expressed that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave means [BLANK] is a knight,' [BLANK] observed. [BLANK] stated, '[BLANK] is not a knight.' Identify who is a knight and who is a knave among them.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a singular island, there are only knights and knaves. Knights always speak the truth, while knaves are habitual liars. You meet 5 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] indicated that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] announced that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave indicates [BLANK] is a knight,' [BLANK] declared. [BLANK] noted, '[BLANK] is not a knight.' Who is a knight and who is a knave among them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a particular island, only knights and knaves inhabit it. Knights always tell the truth, while knaves consistently lie. You encounter 5 people: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] stated that [BLANK] is either a knight or [BLANK] is a knave. '[BLANK] being a knave implies that [BLANK] is a knight,' [BLANK] commented. [BLANK] stated, '[BLANK] is not a knight.' Determine who is the knight and who is the knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a sole island, there are merely knights and knaves. Knights always provide truthful answers, whereas knaves are forever dishonest. You meet 5 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] indicated that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] mentioned that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] is a knave suggests that [BLANK] is a knight,' [BLANK] explained. [BLANK] remarked, '[BLANK] is not a knight.' Who among them is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] said that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] said that [BLANK] is a knight or [BLANK] is a knave. \"If [BLANK] is a knave then [BLANK] is a knight,\" [BLANK] mentioned. [BLANK] commented, \"[BLANK] is not a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there reside only knights and knaves. Knights consistently tell the truth, while knaves always deceive. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] claimed that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] is a knave implies that [BLANK] is a knight,' [BLANK] stated. [BLANK] remarked, '[BLANK] is not a knight.' Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A peculiar island is home solely to knights and knaves. Knights always speak the truth, while knaves always lie. You meet 4 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declared that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] indicated that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave means [BLANK] is a knight,' [BLANK] expressed. [BLANK] noted, '[BLANK] is not a knight.' So, who are the knights and who are the knaves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a very distinctive island, only knights and knaves reside. Knights are truthful, while knaves are deceitful. You encounter 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] mentioned that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] asserted that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave implies that [BLANK] is a knight,' [BLANK] remarked. [BLANK] stated, '[BLANK] is not a knight.' Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An extraordinary island is populated entirely by knights and knaves. Knights tell the truth invariably, whereas knaves lie perpetually. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] expressed that either [BLANK] is a knight or [BLANK] is a knave. '[BLANK] is a knave means [BLANK] is a knight,' [BLANK] declared. [BLANK] remarked, '[BLANK] is not a knight.' Who, then, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There exists a special island where knights and knaves are the only inhabitants. Knights always tell the truth, while knaves always fabricate. You meet 4 characters: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated that [BLANK] is a knave if and only if [BLANK] is a knight. [BLANK] mentioned that [BLANK] is a knight or [BLANK] is a knave. '[BLANK] being a knave indicates that [BLANK] is a knight,' [BLANK] indicated. [BLANK] commented, '[BLANK] is not a knight.' Hence, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a peculiar village, there are only truth-tellers and liars. Truth-tellers always speak the truth, and liars always deceive. You encounter 6 villagers: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a liar if and only if [BLANK] is a truth-teller. [BLANK] asserted that [BLANK] is a truth-teller or [BLANK] is a liar. 'If [BLANK] is a liar then [BLANK] is a truth-teller,' [BLANK] stated. [BLANK] declared, '[BLANK] is not a truth-teller.' Determine who is a truth-teller and who is a liar.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a strange village, there exist only honest individuals and deceivers. Honest individuals always tell the truth, while deceivers always lie. You meet 6 villagers: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated that [BLANK] is a deceiver if and only if [BLANK] is an honest individual. [BLANK] claimed that [BLANK] is an honest individual or [BLANK] is a deceiver. '[BLANK] is a deceiver then [BLANK] is an honest individual,' [BLANK] mentioned. [BLANK] proclaimed, '[BLANK] is not an honest individual.' Identify who is an honest individual and who is a deceiver.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a unique village, there are only truthful people and frauds. Truthful people always tell the truth, and frauds always mislead. You come across 6 villagers: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is a fraud if and only if [BLANK] is a truthful person. [BLANK] expressed that [BLANK] is a truthful person or [BLANK] is a fraud. 'If [BLANK] is a fraud then [BLANK] is a truthful person,' [BLANK] reported. [BLANK] stated, '[BLANK] is not a truthful person.' Determine who is truthful and who is a fraud.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an odd village, there are solely truth-speakers and deceivers. Truth-speakers always convey the truth, while deceivers always misrepresent. You encounter 6 villagers: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] indicated that [BLANK] is a deceiver if and only if [BLANK] is a truth-speaker. [BLANK] mentioned that [BLANK] is a truth-speaker or [BLANK] is a deceiver. 'Should [BLANK] be a deceiver, then [BLANK] is a truth-speaker,' [BLANK] communicated. [BLANK] announced, '[BLANK] is not a truth-speaker.' Ascertain who is a truth-speaker and who is a deceiver.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a curious village, there are merely honest villagers and dishonest ones. Honest villagers always tell the truth, while dishonest ones always lie. You run into 6 villagers: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarked that [BLANK] is dishonest if and only if [BLANK] is an honest villager. [BLANK] claimed that [BLANK] is an honest villager or [BLANK] is dishonest. 'If [BLANK] turns out to be dishonest, then [BLANK] is an honest villager,' [BLANK] conveyed. [BLANK] announced, '[BLANK] is not an honest villager.' Find out who is an honest villager and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a strange community, there are exclusively truthful individuals and liars. Truthful individuals always provide accurate information, whereas liars always mislead. You meet 6 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a liar if and only if [BLANK] is a truthful individual. [BLANK] stated that [BLANK] is a truthful individual or [BLANK] is a liar. 'If [BLANK] happens to be a liar, then [BLANK] is a truthful individual,' [BLANK] expressed. [BLANK] declared, '[BLANK] is not a truthful individual.' Determine who is truthful and who is lying.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "On a strange island, there exist only honest beings and dishonest beings. Honest beings always tell the truth, while dishonest beings always lie. You meet 8 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] said that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] stated that [BLANK] is honest or [BLANK] is dishonest. 'If [BLANK] is dishonest, then [BLANK] is honest,' [BLANK] mentioned. [BLANK] said, '[BLANK] is not honest.' Determine who is honest and who is dishonest.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a peculiar island, there are only truthful beings and deceitful beings. Truthful beings always speak the truth, whereas deceitful beings are always dishonest. You encounter 8 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is deceitful if and only if [BLANK] is truthful. [BLANK] asserted that [BLANK] is truthful or [BLANK] is deceitful. '[BLANK] is deceitful, then [BLANK] is truthful,' [BLANK] remarked. [BLANK] stated, '[BLANK] is not truthful.' Figure out who is truthful and who is deceitful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On a unique island, there are only sincere beings and fraudulent beings. Sincere beings always tell the truth, while fraudulent beings always tell lies. You meet 8 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is fraudulent if and only if [BLANK] is sincere. [BLANK] indicated that [BLANK] is sincere or [BLANK] is fraudulent. 'If [BLANK] is fraudulent, then [BLANK] is sincere,' [BLANK] noted. [BLANK] said, '[BLANK] is not sincere.' Identify who is sincere and who is fraudulent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On an unusual island, there are only truthful individuals and lying individuals. Truthful individuals always convey the truth, while lying individuals consistently deceive. You come across 8 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] mentioned that [BLANK] is lying if and only if [BLANK] is truthful. [BLANK] expressed that [BLANK] is truthful or [BLANK] is lying. '[BLANK] is lying, then [BLANK] is truthful,' [BLANK] declared. [BLANK] claimed, '[BLANK] is not truthful.' Determine who is truthful and who is lying.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a strange isle, there are merely honest creatures and dishonest creatures. Honest creatures always speak the truth, while dishonest ones are always untruthful. You encounter 8 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] conveyed that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] pointed out that [BLANK] is honest or [BLANK] is dishonest. 'If [BLANK] is dishonest, then [BLANK] is honest,' [BLANK] stated. [BLANK] remarked, '[BLANK] is not honest.' Ascertain who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a curious island, there exist only truthful beings and untruthful beings. Truthful beings consistently tell the truth, while untruthful beings always lie. You come across 8 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] reported that [BLANK] is untruthful if and only if [BLANK] is truthful. [BLANK] indicated that [BLANK] is truthful or [BLANK] is untruthful. 'If [BLANK] is untruthful, then [BLANK] is truthful,' [BLANK] observed. [BLANK] stated, '[BLANK] is not truthful.' Determine who is truthful and who is untruthful.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In an unusual community, all residents are either truthful or deceitful. Truthful people always tell the truth, while deceitful people always lie. You encounter 7 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is deceitful if and only if [BLANK] is truthful. [BLANK] stated that [BLANK] is truthful or [BLANK] is deceitful. 'If [BLANK] is deceitful, then [BLANK] is truthful,' [BLANK] declared. [BLANK] stated, '[BLANK] is not truthful.' Who is truthful and who is deceitful?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a peculiar society, every member is either honest or dishonest. Honest individuals always speak the truth, whereas dishonest ones always lie. You meet 7 people: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is dishonest if and only if [BLANK] is honest. [BLANK] mentioned that [BLANK] is honest or [BLANK] is dishonest. '[BLANK] is dishonest, then [BLANK] is honest,' [BLANK] announced. [BLANK] claimed, '[BLANK] is not honest.' Who among them is honest and who is dishonest?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In an extraordinary community, all inhabitants are either sincere or insincere. Sincere individuals consistently tell the truth, while insincere individuals consistently lie. You come across 7 persons: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] professed that [BLANK] is insincere if and only if [BLANK] is sincere. [BLANK] indicated that [BLANK] is sincere or [BLANK] is insincere. 'If [BLANK] is insincere, then [BLANK] is sincere,' [BLANK] expressed. [BLANK] reported, '[BLANK] is not sincere.' Determine who is sincere and who is insincere.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a unique society, every individual is either truthful or false. Truthful individuals invariably tell the truth, while false ones invariably lie. You encounter 7 characters: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is false if and only if [BLANK] is truthful. [BLANK] noted that [BLANK] is truthful or [BLANK] is false. '[BLANK] is false, then [BLANK] is truthful,' [BLANK] stated. [BLANK] asserted, '[BLANK] is not truthful.' Identify who is truthful and who is false.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an atypical community, all citizens are either honest or fraudulent. Honest people always tell the truth, while fraudulent people always lie. You encounter 7 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is fraudulent if and only if [BLANK] is honest. [BLANK] remarked that [BLANK] is honest or [BLANK] is fraudulent. 'If [BLANK] is fraudulent, then [BLANK] is honest,' [BLANK] stated. [BLANK] mentioned, '[BLANK] is not honest.' Who is honest and who is fraudulent?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a distinctive society, all denizens are either truthful or untruthful. Truthful persons always convey the truth, while untruthful persons always lie. You come across 7 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated that [BLANK] is untruthful if and only if [BLANK] is truthful. [BLANK] expressed that [BLANK] is truthful or [BLANK] is untruthful. 'If [BLANK] is untruthful, then [BLANK] is truthful,' [BLANK] declared. [BLANK] mentioned, '[BLANK] is not truthful.' Determine who is truthful and who is untruthful.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

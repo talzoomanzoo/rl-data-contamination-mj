@@ -1,6 +1,7 @@
 import logging
 import os
 import warnings
+import inspect
 
 import torch
 import torch.distributed
@@ -40,6 +41,30 @@ from codetiming import Timer
 
 logger = logging.getLogger(__file__)
 logger.setLevel(os.getenv('VERL_PPO_LOGGING_LEVEL', 'WARN'))
+
+def _patch_torch_parameter_new_for_transformers():
+    """
+    Transformers/Accelerate can pass internal kwargs (e.g. `_is_hf_initialized`)
+    when materializing parameters under init-empty-weights contexts.
+    Torch's `Parameter.__new__` doesn't accept kwargs, causing:
+      TypeError: Parameter.__new__() got an unexpected keyword argument '_is_hf_initialized'
+
+    Patch: accept **kwargs and drop unknown keys.
+    """
+    try:
+        sig = inspect.signature(torch.nn.Parameter.__new__)
+        if any(p.kind == inspect.Parameter.VAR_KEYWORD for p in sig.parameters.values()):
+            return
+    except Exception:
+        pass
+
+    orig_new = torch.nn.Parameter.__new__
+
+    def _new(cls, data=None, requires_grad=True, **kwargs):  # type: ignore[no-redef]
+        kwargs.pop("_is_hf_initialized", None)
+        return orig_new(cls, data, requires_grad)
+
+    torch.nn.Parameter.__new__ = staticmethod(_new)  # type: ignore[assignment]
 
 class MIXActorRolloutRefWorker(Worker):
     def __init__(self, config: DictConfig, role: str):
@@ -153,12 +178,19 @@ class MIXActorRolloutRefWorker(Worker):
         # NOTE(fix me): tie_word_embedding causes meta_tensor init to hang
         init_context = get_init_weight_context_manager(use_meta_tensor=not actor_model_config.tie_word_embeddings)
 
+        _patch_torch_parameter_new_for_transformers()
+
+        attn_impl = 'flash_attention_2'
+        if torch_dtype not in (torch.float16, torch.bfloat16):
+            # flash-attn2 doesn't support fp32; avoid warnings / potential errors.
+            attn_impl = 'sdpa'
+
         with init_context(), warnings.catch_warnings():
             warnings.simplefilter("ignore")
             actor_module = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path=local_path,
                                                                 torch_dtype=torch_dtype,
                                                                 config=actor_model_config,
-                                                                attn_implementation='flash_attention_2',
+                                                                attn_implementation=attn_impl,
                                                                 trust_remote_code=trust_remote_code)
             # some parameters may not in torch_dtype. TODO(zhangchi.usc1992) remove this after we switch to fsdp2
             actor_module.to(torch_dtype)

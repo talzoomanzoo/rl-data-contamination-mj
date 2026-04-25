@@ -1,0 +1,210 @@
+{
+  "original_question": "If $x^2 = y - 7$ and $x = 7$, then what is the value of $y$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "If x^2 = [BLANK] - 7 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If [BLANK] - 7 equals x squared and x equals [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that x squared is [BLANK] minus 7 and x is [BLANK], determine the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming x^2 equals [BLANK] decreased by 7 and x is [BLANK], what value does y take?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "When [BLANK] is x squared plus 7 and x has the value of [BLANK], find the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If x squared equals the result of [BLANK] subtracting 7 and x is [BLANK], what is y?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "If x^2 = [BLANK] - 15 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that x squared equals [BLANK] minus 15 and x is equal to [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If x to the power of 2 is [BLANK] less 15 and x equals [BLANK], then what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that x squared is equal to [BLANK] subtracting 15 and that x is [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If the square of x equals [BLANK] decreased by 15 and x is [BLANK], then what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When x squared is [BLANK] minus 15 and x takes the value of [BLANK], what is y's value?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "If x^2 = [BLANK] - 12 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If x squared equals [BLANK] minus 12 and x is equal to [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that x to the power of 2 is [BLANK] less 12 and x equals [BLANK], find the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that x raised to 2 is [BLANK] subtract 12 and that x equals [BLANK], what is y's value?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If the square of x equals [BLANK] reduced by 12 and x is [BLANK], then what is y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When x squared is [BLANK] after subtracting 12 and x is [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "If x^2 = [BLANK] - 20 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If x squared equals [BLANK] minus 20 and x is equal to [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that x raised to the power of 2 is [BLANK] less 20 and that x equals [BLANK], find the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming x to the second power equals [BLANK] subtracting 20 and x is [BLANK], what is y's value?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If the square of x is [BLANK] reduced by 20 and x takes the value of [BLANK], what is y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When x squared equals [BLANK] take away 20 and x is [BLANK], what value does y have?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "If x^2 = [BLANK] - 5 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If x squared equals [BLANK] minus 5 and x is [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that x to the power of 2 is [BLANK] less 5 and x equals [BLANK], determine the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming x squared is equal to [BLANK] subtracting 5 and x equals [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If the square of x is [BLANK] decreased by 5 and x is [BLANK], what is y's value?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When x^2 equals [BLANK] minus 5 and x is [BLANK], what is the resultant value of y?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "If x^2 = [BLANK] - 9 and x = [BLANK], then what is the value of y?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If [BLANK] - 9 equals x squared and x is [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that x squared is [BLANK] - 9 and x equals [BLANK], what does y equal?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming x^2 equals [BLANK] minus 9 and x is [BLANK], find the value of y.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If [BLANK] is equal to x squared plus 9 and x equals [BLANK], what is the value of y?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When x^2 is [BLANK] - 9 and x has the value of [BLANK], what is y's value?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

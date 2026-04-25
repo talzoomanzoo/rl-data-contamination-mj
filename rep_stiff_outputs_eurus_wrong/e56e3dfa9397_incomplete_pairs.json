@@ -1,0 +1,62 @@
+{
+  "original_question": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the duration of work in days\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "A team of 4 painters worked on a mansion for [BLANK] every day for [BLANK]. How many hours of work did each painter put in? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the duration of work in days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A team of 5 carpenters worked on a cabin for 2/5ths of a day every day for 4 weeks. How many hours of work did each carpenter put in?",
+      "incomplete_question": "A team of 5 carpenters worked on a cabin for 2/5ths of a day every day for [BLANK]. How many hours of work did each carpenter put in?",
+      "info_removed": "\"the duration of work in days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A team of 6 electricians worked on a warehouse for 1/4ths of a day every day for 2 weeks. How many hours of work did each electrician put in?",
+      "incomplete_question": "A team of 6 electricians worked on a warehouse for 1/4ths of a day every day for [BLANK]. How many hours of work did each electrician put in?",
+      "info_removed": "\"the duration of work in days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A team of 3 mechanics worked on a vehicle for 5/6ths of a day every day for 5 weeks. How many hours of work did each mechanic put in?",
+      "incomplete_question": "A team of 3 mechanics worked on a vehicle for 5/6ths of a day every day for [BLANK]. How many hours of work did each mechanic put in?",
+      "info_removed": "\"the duration of work in days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A team of 7 chefs worked on a restaurant for 3/10ths of a day every day for 6 weeks. How many hours of work did each chef put in?",
+      "incomplete_question": "A team of 7 chefs worked on a restaurant for 3/10ths of a day every day for [BLANK]. How many hours of work did each chef put in?",
+      "info_removed": "\"the duration of work in days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A team of 4 gardeners worked on a park for 2/3rds of a day every day for 1 week. How many hours of work did each gardener put in?",
+      "incomplete_question": "A team of 4 gardeners worked on a park for 2/3rds of a day every day for [BLANK]. How many hours of work did each gardener put in?",
+      "info_removed": "\"the duration of work in days\""
+    }
+  ],
+  "num_valid_similars": 5
+}

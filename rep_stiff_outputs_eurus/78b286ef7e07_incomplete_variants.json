@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ Suppose that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2026$ and the area of pentagon $ABCDE$ is an integer multiple of $16.$ Find the number of possible values of $AB.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ.$ Suppose that $DE < AB, AE = 40, BC = 6\\sqrt5,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2035$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a nonconvex pentagon labeled $ABCDE$, where the internal angles are specified as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ$. It is given that $DE < AB$, $AE = 40$, $BC = 6\\sqrt5$, and the points $B$, $C$, and $D$ are positioned on the same side of the line $AE$. Additionally, $AB$ is an integer such that $AB < 2035$, and the area of pentagon $ABCDE$ is [BLANK]. Determine the total count of valid values for $AB$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ.$ It is known that $DE < AB, AE = 40, BC = 6\\sqrt5,$ and that the points $B, C,$ and $D$ are all located on the same side of the line $AE.$ Additionally, $AB$ is an integer that satisfies $AB < 2035$ and the area of the pentagon $ABCDE$ is [BLANK]. Determine how many different values of $AB$ are possible.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ.$ Suppose that $DE < AB, AE = 40, BC = 6\\sqrt5,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2035$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ$. It is known that $DE < AB$, $AE = 40$, $BC = 6\\sqrt5$, and the points $B$, $C$, and $D$ are located on the same side of the line $AE$. Additionally, let $AB$ be an integer such that $AB < 2035$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a nonconvex pentagon labeled $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 50^\\circ.$ It is known that $DE < AB, AE = 40, BC = 6\\sqrt5,$ and that points $B,C,$ and $D$ are situated on the same side of line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2035$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ Suppose that $DE < AB, AE = 25, BC = 8\\sqrt3,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2030$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a nonconvex pentagon denoted as $ABCDE$ where the angles are defined as follows: $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ It is given that $DE < AB, AE = 25, BC = 8\\sqrt3,$ and the points $B, C,$ and $D$ are situated on the same side of the line $AE.$ Additionally, $AB$ is an integer that satisfies $AB < 2030$, and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are such that $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ It is given that $DE < AB, AE = 25, BC = 8\\sqrt{3},$ and the points $B, C,$ and $D$ are situated on the same side of the line $AE.$ Additionally, $AB$ is an integer satisfying $AB < 2030$ and the area of the pentagon $ABCDE$ is [BLANK]. Determine the number of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ Suppose that $DE < AB, AE = 25, BC = 8\\sqrt3,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2030$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ It is known that $DE < AB, AE = 25, BC = 8\\sqrt3,$ and that points $B,C,$ and $D$ are situated on the same side of the line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2030$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 30^\\circ.$ It is known that $DE < AB, AE = 25, BC = 8\\sqrt3,$ with points $B,C,$ and $D$ situated on the same side of line $AE.$ Additionally, $AB$ is an integer such that $AB < 2030$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ Suppose that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2026$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the nonconvex pentagon $ABCDE$ where the internal angles are $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ It is given that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and points $B,C,$ and $D$ are positioned on the same side of line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2026$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the total number of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider pentagon $ABCDE$, which is nonconvex and has internal angles such that $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ It is given that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and the points $B,C,$ and $D$ are all located on the same side of the line $AE.$ Additionally, let $AB$ be an integer less than 2026, and the area of the pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ Suppose that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2026$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ$. It is given that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and that points $B,C,$ and $D$ are positioned on the same side of the line $AE$. Additionally, $AB$ is an integer satisfying $AB < 2026$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the number of feasible values for $AB$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 45^\\circ.$ It is given that $DE < AB, AE = 20, BC = 14\\sqrt2,$ and that points $B,C,$ and $D$ are on the same side of the line $AE.$ Additionally, $AB$ is an integer such that $AB < 2026$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ Suppose that $DE < AB, AE = 30, BC = 10\\sqrt3,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ characterized by internal angles such that $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ It is given that $DE < AB, AE = 30, BC = 10\\sqrt3,$ with points $B,C,$ and $D$ positioned on the same side of line $AE.$ Additionally, let $AB$ be an integer satisfying $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the number of valid values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ It is known that $DE < AB, AE = 30, BC = 10\\sqrt3,$ and that the points $B,C,$ and $D$ are positioned on the same side of the line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ Suppose that $DE < AB, AE = 30, BC = 10\\sqrt3,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ It is known that $DE < AB, AE = 30, BC = 10\\sqrt3,$ and the points $B, C,$ and $D$ are positioned on the same side of the line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 60^\\circ.$ It is given that $DE < AB, AE = 30, BC = 10\\sqrt3,$ with points $B,C,$ and $D$ positioned on the same side of line $AE.$ Additionally, $AB$ is an integer such that $AB < 2025$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the total number of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ Suppose that $DE < AB, AE = 15, BC = 12\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2028$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ It is known that $DE < AB, AE = 15, BC = 12\\sqrt2,$ with points $B,C,$ and $D$ situated on the same side of line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2028$ and the area of pentagon $ABCDE$ equals [BLANK]. Determine the total number of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ It is stated that $DE < AB, AE = 15, BC = 12\\sqrt2,$ and that points $B, C,$ and $D$ are situated on the same side of line $AE.$ Additionally, $AB$ is an integer that satisfies $AB < 2028$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the quantity of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ Suppose that $DE < AB, AE = 15, BC = 12\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2028$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a nonconvex pentagon denoted as $ABCDE$ where the interior angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ We know that $DE < AB$, $AE = 15$, $BC = 12\\sqrt2$, and the points $B, C,$ and $D$ are situated on the same side of the line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2028$, and the area of the pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 75^\\circ.$ It is given that $DE < AB, AE = 15, BC = 12\\sqrt2,$ and the points $B,C,$ and $D$ are all situated on the same side of the line $AE.$ Additionally, $AB$ is an integer such that $AB < 2028$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the total number of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ.$ Suppose that $DE < AB, AE = 35, BC = 9\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2027$ and the area of pentagon $ABCDE$ is [BLANK]. Find the number of possible values of $AB.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given by $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ.$ It is known that $DE < AB, AE = 35, BC = 9\\sqrt2,$ and that the points $B, C,$ and $D$ are located on the same side of the line $AE.$ Additionally, let $AB$ be an integer such that $AB < 2027$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the number of feasible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a nonconvex pentagon $ABCDE$ where the internal angles are given as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ.$ It is known that $DE < AB, AE = 35, BC = 9\\sqrt2,$ and that points $B, C,$ and $D$ are positioned on the same side of the line $AE.$ Additionally, $AB$ is an integer such that $AB < 2027$ and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let $ABCDE$ be a nonconvex pentagon with internal angles $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ.$ Suppose that $DE < AB, AE = 35, BC = 9\\sqrt2,$ and points $B,C,$ and $D$ lie on the same side of line $AE.$ Suppose further that $AB$ is an integer with $AB < 2027$ and the area of pentagon $ABCDE$ is [BLANK]Find the number of possible values of $AB.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the nonconvex pentagon $ABCDE$ where the internal angles are given as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ$. It is known that $DE < AB$, $AE = 35$, $BC = 9\\sqrt2$, and the points $B, C,$ and $D$ are positioned on the same side of the line $AE$. Additionally, $AB$ is an integer such that $AB < 2027$, and the area of pentagon $ABCDE$ is [BLANK]. Determine the count of possible values for $AB$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the nonconvex pentagon $ABCDE$ where the angles are defined as $\\angle A = \\angle E = 90^\\circ$ and $\\angle B = \\angle D = 80^\\circ.$ It is given that $DE < AB, AE = 35, BC = 9\\sqrt2,$ and the points $B, C,$ and $D$ are situated on the same side of the line $AE.$ Additionally, $AB$ must be an integer less than 2027, and the area of the pentagon $ABCDE$ is [BLANK]. Determine the total number of possible values for $AB.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

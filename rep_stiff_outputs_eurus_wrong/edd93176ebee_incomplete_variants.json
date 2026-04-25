@@ -1,0 +1,210 @@
+{
+  "original_question": "Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Laura's satchel cost [BLANK] less than 3 times as much as her blouse cost. If her blouse cost $70, how much did her satchel cost?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of Laura's satchel is [BLANK] lower than three times the price of her blouse. Given that her blouse was $70, what is the cost of her satchel?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Laura's satchel is priced at [BLANK] below three times the amount of her blouse's cost. If her blouse is $70, what is the cost of the satchel?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of Laura's satchel is [BLANK] less than three times the price of her blouse. If the blouse costs $70, how much does the satchel cost?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Laura's satchel costs [BLANK] less than three times what her blouse costs. If her blouse is $70, what is the cost of her satchel?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The amount Laura paid for her satchel is [BLANK] below three times the cost of her blouse. If her blouse costs $70, what was the cost of the satchel?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael's backpack cost [BLANK] less than 5 times as much as his jacket cost. If his jacket cost $100, how much did his backpack cost?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of Michael's backpack was [BLANK] lower than five times the price of his jacket. If the cost of his jacket was $100, what is the cost of his backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael's backpack was [BLANK] cheaper than five times what his jacket cost. Given that his jacket cost $100, how much did his backpack cost?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of Michael's backpack is [BLANK] less than five times the amount his jacket cost. If his jacket was priced at $100, what would be the price of his backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael's backpack costs [BLANK] fewer dollars than five times the price of his jacket. If the jacket's cost is $100, what is the cost of the backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The expense of Michael's backpack is [BLANK] less than five times the cost of his jacket. If the jacket costs $100, how much does the backpack cost?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Samantha's purse cost [BLANK] less than 4 times as much as her boots cost. If her boots cost $60, how much did her purse cost?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of Samantha's purse was [BLANK] lower than four times the amount she paid for her boots. Given that her boots were $60, what is the price of her purse?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha's handbag was [BLANK] cheaper than four times the cost of her boots. If her boots are priced at $60, what is the cost of her handbag?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of Samantha's purse is [BLANK] less than four times the price of her boots. With her boots costing $60, how much is her purse worth?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha's purse costs [BLANK] fewer dollars than four times what she spent on her boots. If her boots cost $60, what is the cost of her purse?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The amount Samantha spent on her purse was [BLANK] below four times the price of her boots. If her boots were $60, what did her purse cost?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "David's briefcase cost [BLANK] less than 6 times as much as his tie cost. If his tie cost $50, how much did his briefcase cost?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of David's briefcase was [BLANK] lower than 6 times the cost of his tie. If his tie was priced at $50, what was the cost of his briefcase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David's briefcase was [BLANK] cheaper than 6 times the amount he spent on his tie. Given that his tie cost $50, what is the price of the briefcase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of David's briefcase is [BLANK] less than six times the price of his tie. If his tie costs $50, how much does the briefcase cost?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David's briefcase is [BLANK] less expensive than six times the cost of his tie. If his tie is $50, what would the cost of his briefcase be?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The expense of David's briefcase is [BLANK] below six times the price of his tie. If his tie is valued at $50, how much does the briefcase cost?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Jillian's handbag cost [BLANK] less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of Jillian's handbag is [BLANK] lower than three times the price of her shoes. Given that her shoes are priced at $80, what is the cost of her handbag? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jillian's bag is [BLANK] less expensive than three times the amount she paid for her shoes. If her shoes are worth $80, what is the price of her handbag? Let's go through the steps and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of Jillian's handbag is [BLANK] beneath three times the cost of her shoes. If her shoes cost $80, what is the amount she paid for her bag? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jillian's handbag is priced at [BLANK] fewer dollars than three times the cost of her shoes. Assuming her shoes cost $80, how much did she spend on her handbag? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The amount Jillian paid for her handbag is [BLANK] less than three times the price of her shoes. If the cost of her shoes is $80, how much did her handbag cost? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Emily's wallet cost [BLANK] less than 2 times as much as her dress cost. If her dress cost $90, how much did her wallet cost?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price of Emily's wallet is [BLANK] lower than twice the amount she spent on her dress. If her dress was $90, what was the cost of her wallet?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily's wallet is priced at [BLANK] below double the cost of her dress. Given that her dress costs $90, how much is her wallet?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of Emily's wallet is [BLANK] less than two times the price of her dress. If her dress costs $90, what is the price of her wallet?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily's wallet costs [BLANK] less than two times what she paid for her dress. If her dress was $90, how much did she pay for her wallet?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The amount Emily spent on her wallet is [BLANK] under twice the cost of her dress. If her dress was $90, what is the cost of her wallet?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

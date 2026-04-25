@@ -1,0 +1,210 @@
+{
+  "original_question": "It costs $194 per meter to repave a street. Monica's street is 150 meters long. How much more does it cost to repave Lewis' street, which is 490 meters long? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "It costs $210 per meter to repave a street. Sarah's street is [BLANK] long. How much more does it cost to repave Jake's street, which is 500 meters long?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense for repaving a street is $210 for each meter. Sarah's street measures [BLANK] in length. What is the additional cost to repave Jake's street, which is 500 meters in length?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To repave a street, it costs $210 for every meter. The length of Sarah's street is [BLANK]. How much extra will it cost to repave Jake's street, which has a length of 500 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Repaving a street incurs a charge of $210 per meter. Sarah's street is [BLANK] meters long. What is the difference in cost to repave Jake's street, which is 500 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The cost to repave each meter of a street is $210. Sarah's street is [BLANK] meters in length. How much additional expense is there for repaving Jake's street, which measures 500 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It requires $210 for each meter to repave a street. The length of Sarah's street is [BLANK]. What is the further cost for repaving Jake's street, which is 500 meters long?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "It costs $190 per meter to repave a street. Kevin's street is [BLANK] long. How much more does it cost to repave Anna's street, which is 480 meters long?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The price to repave a street is $190 for each meter. Kevin's street measures [BLANK] meters. What is the additional cost to repave Anna's street, which is 480 meters in length?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Repaving a street costs $190 for every meter. Kevin's street is [BLANK] in length. How much extra will it cost to repave Anna's street, which is 480 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To repave a street, it costs $190 per meter. Kevin's street has a length of [BLANK] meters. How much more will it cost to repave Anna's street, which measures 480 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The expense for repaving a street is $190 per meter. Kevin's street is [BLANK] meters long. What is the difference in cost to repave Anna's street, which is 480 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It costs $190 for each meter to repave a street. Kevin's street is [BLANK] meters long. How much additional cost is there for repaving Anna's street, which is 480 meters long?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "It costs $225 per meter to repave a street. Brian's street is [BLANK] long. How much more does it cost to repave Rachel's street, which is 510 meters long?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense to repave a street is $225 for each meter. Brian's street measures [BLANK] in length. What is the additional cost to repave Rachel's street, which is 510 meters in length?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To repave a street, the cost is $225 per meter. The length of Brian's street is [BLANK]. How much extra will it cost to repave Rachel's street, which spans 510 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Repaving a street incurs a cost of $225 for every meter. Brian's street is [BLANK] meters long. How much additional expense is incurred for repaving Rachel's street, which is 510 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The price for repaving a street is $225 per meter. Brian's street has a length of [BLANK]. What is the extra cost for repaving Rachel's street, which measures 510 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It costs $225 for each meter to repave a street. Brian's street has a length of [BLANK]. What is the difference in cost to repave Rachel's street, which is 510 meters long?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "It costs $194 per meter to repave a street. Monica's street is [BLANK] long. How much more does it cost to repave Lewis' street, which is 490 meters long? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense to repave a street is $194 for each meter. Monica's street measures [BLANK] in length. What is the additional cost to repave Lewis' street, which spans 490 meters? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To repave a street, it costs $194 for every meter. Monica's street is [BLANK] meters long. How much extra is the cost to repave Lewis' street, which is 490 meters in length? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The price to repave one meter of street is $194. Monica's street has a length of [BLANK]. How much more will it cost to repave Lewis' street, which is 490 meters long? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Repaving a street costs $194 for each meter. Monica's street measures [BLANK] meters. What is the difference in cost for repaving Lewis' street, which is 490 meters long? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It costs $194 per meter to repave a street. The length of Monica's street is [BLANK]. How much greater is the cost to repave Lewis' street, which is 490 meters long? Let's evaluate this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "It costs $175 per meter to repave a street. Tom's street is [BLANK] long. How much more does it cost to repave Maria's street, which is 450 meters long?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense to repave a street is $175 for each meter. Tom's street measures [BLANK] in length. What is the additional cost to repave Maria's street, which has a length of 450 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To repave a street, the cost is $175 per meter. Tom's street is [BLANK] meters long. How much extra will it cost to repave Maria's street, which is 450 meters in length?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Repaving a street costs $175 for every meter. Tom's street has a length of [BLANK]. How much more will it cost to repave Maria's street, which is 450 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "It costs $175 for each meter to repave a street. Tom's street is [BLANK] meters long. How much additional expense is there for repaving Maria's street, which measures 450 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The price to repave a street stands at $175 per meter. Tom's street extends [BLANK] in length. What is the extra cost for repaving Maria's street, which is 450 meters long?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "It costs $230 per meter to repave a street. Alex's street is [BLANK] long. How much more does it cost to repave Emily's street, which is 520 meters long?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense to repave a street is $230 for each meter. Alex's street measures [BLANK] in length. What is the additional cost to repave Emily's street, which spans 520 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To repave a street, the cost is $230 per meter. Alex's street has a length of [BLANK]. How much extra will it cost to repave Emily's street, which is 520 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Repaving a street requires $230 for every meter. The length of Alex's street is [BLANK]. How much more will it cost to repave Emily's street that measures 520 meters?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The price to repave a street is $230 each meter. Alex's street is [BLANK] in length. What is the difference in cost for repaving Emily's street, which is 520 meters long?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It costs $230 for each meter to repave a street. Alex's street is [BLANK] meters long. How much additional expense is there for repaving Emily's street, which is 520 meters long?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Given sets $A=\\{x| (x-2)(2x+1) \\leqslant 0\\}$ and $B=\\{x| x < 1\\}$, find the intersection of sets A and B.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider sets A=[BLANK] and B=[BLANK], determine the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let sets A=[BLANK] and B=[BLANK], compute the intersection of A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With sets A=[BLANK] and B=[BLANK], identify the intersection between sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the sets A=[BLANK] and B=[BLANK], find the common elements of A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming sets A=[BLANK] and B=[BLANK], discover the intersection of these two sets.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let sets A be [BLANK] and B be [BLANK]. Determine the intersection of the sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With the sets defined as A=[BLANK] and B=[BLANK], calculate the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming sets A are [BLANK] and B are [BLANK], find the intersection between the two sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the collections A=[BLANK] and B=[BLANK], identify the intersection of A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If sets A are represented as [BLANK] and sets B as [BLANK], find the common elements of sets A and B.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the sets A=[BLANK] and B=[BLANK]. Determine the common elements between sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let sets A=[BLANK] and B=[BLANK] be given. Identify the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the sets defined as A=[BLANK] and B=[BLANK], find the elements that are shared by both sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming sets A=[BLANK] and B=[BLANK], calculate the intersection of the two sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given that A=[BLANK] and B=[BLANK], find the elements that appear in both sets A and B.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the sets A=[BLANK] and B=[BLANK], determine the intersection of A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With the sets defined as A=[BLANK] and B=[BLANK], identify the common elements in sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If we have the sets A=[BLANK] and B=[BLANK], calculate the intersection between sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let sets A=[BLANK] and B=[BLANK] be given, find the elements that are present in both A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Suppose sets A=[BLANK] and B=[BLANK] are provided, ascertain the intersection of these two sets.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the sets A=[BLANK] and B=[BLANK], determine the intersection of the two sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let sets A=[BLANK] and B=[BLANK] be given, find the common elements between sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If we have the sets A=[BLANK] and B=[BLANK], identify the intersection of these sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With A=[BLANK] and B=[BLANK] defined as sets, calculate the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming sets A=[BLANK] and B=[BLANK], ascertain the shared elements in the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given sets $A=[BLANK]$ and $B=[BLANK]$, find the intersection of sets A and B.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let sets A be [BLANK] and B be [BLANK]. Determine the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the sets A = [BLANK] and B = [BLANK]. Identify the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With sets defined as A = [BLANK] and B = [BLANK], calculate the intersection of A and B.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming sets A are [BLANK] and B are [BLANK], find the intersection between these two sets.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given the sets A as [BLANK] and B as [BLANK], compute the intersection of sets A and B.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

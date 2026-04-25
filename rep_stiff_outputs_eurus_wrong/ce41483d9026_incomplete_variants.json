@@ -1,0 +1,210 @@
+{
+  "original_question": "Jamie earns $20 per hour for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her regular hourly rate. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Tom earns [BLANK] for 6 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 140% of his [BLANK]. Last Friday, he worked 13 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom receives [BLANK] for working 6 hours every day. If he has to put in extra hours, he earns a special hourly rate that is 140% of his [BLANK]. Last Friday, he worked for 13 hours. How much did he earn, in dollars, for that day's work? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom is paid [BLANK] for 6 hours of work each day. In case he needs to work extra hours, he is compensated at a special hourly rate which is 140% of his [BLANK]. Last Friday, he worked a total of 13 hours. What was his payment, in dollars, for that day's labor? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom's daily earnings are [BLANK] for 6 hours of labor. Should he have to extend his working hours, he receives a special hourly rate that is 140% of his [BLANK]. On Friday last week, he worked for 13 hours. How much money did he make, in dollars, for his work that day? Let's consider the problem step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom makes [BLANK] for a 6-hour workday. If he has to work more hours, he earns a special hourly rate that is 140% of his [BLANK]. Last Friday, he worked for a total of 13 hours. How much was he compensated, in dollars, for his work on that day? Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom's earnings amount to [BLANK] for each 6-hour workday. If he needs to work longer, he is paid a special hourly wage that equals 140% of his [BLANK]. Last Friday, he worked a total of 13 hours. What was his total pay, in dollars, for that day's work? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Jamie earns [BLANK] for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her [BLANK]. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jamie receives [BLANK] for working 8 hours each day. If she has to work extra hours, she is compensated at a special hourly rate which is 150% of her [BLANK]. Last Tuesday, she put in 11 hours of work. What was her total pay, in dollars, for that day? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jamie makes [BLANK] for her daily 8 hours of work. If she needs to put in more hours, she earns a special hourly wage that is 150% of her [BLANK]. On Tuesday of last week, she worked for 11 hours. How much did she earn, in dollars, for her work on that day? Let\u2019s break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jamie is paid [BLANK] for an 8-hour workday. Should she work additional hours, she receives a special hourly rate that is 150% of her [BLANK]. Last Tuesday, she worked for 11 hours. How much was her payment, in dollars, for that day's work? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jamie gets [BLANK] for completing 8 hours of work daily. If she works extra hours, she is paid at a special rate that amounts to 150% of her [BLANK]. On Tuesday last week, she worked 11 hours. What was her salary, in dollars, for that day's work? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jamie earns [BLANK] for her 8 hours of labor each day. If she needs to extend her hours, she is compensated at a unique hourly rate, which is 150% of her [BLANK]. Last Tuesday, she worked for 11 hours. How much did she make, in dollars, for her efforts that day? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Emily earns [BLANK] for 5 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 155% of her [BLANK]. Last Wednesday, she worked 9 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily receives [BLANK] for each day she works 5 hours. If she has to work extra hours, she earns a special hourly wage that is 155% of her [BLANK]. Last Wednesday, she worked for 9 hours. How much did she earn, in dollars, for her labor that day? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 5 hours of work every day, Emily makes [BLANK]. In case she needs to work longer hours, she is compensated at a special rate which is 155% of her [BLANK]. Last Wednesday, she logged 9 hours of work. What was her payment, in dollars, for that day? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily's daily earnings for 5 hours of work are [BLANK]. Should she end up working more hours, she receives a special hourly compensation that amounts to 155% of her [BLANK]. Last Wednesday, she put in 9 hours of work. How much did she make, in dollars, for her work that day? Let's break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each day Emily works 5 hours, she gets paid [BLANK]. If she has to extend her hours, her extra pay is at a special hourly rate of 155% of her [BLANK]. Last Wednesday, she worked a total of 9 hours. What was her earnings, in dollars, for that day? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily earns [BLANK] for working 5 hours each day. If she needs to work extra hours, she is compensated at a special hourly rate which is 155% of her [BLANK]. Last Wednesday, she was on the job for 9 hours. How much did she earn, in dollars, for her work that day? Let's go through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Michael earns [BLANK] for 10 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 180% of his [BLANK]. Last Saturday, he worked 14 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael receives [BLANK] for working 10 hours each day. If he has to put in extra hours, he earns a special hourly wage that is 180% of his [BLANK]. Last Saturday, he worked for 14 hours. What was his total payment, in dollars, for that day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 10 hours of work each day, Michael is compensated with [BLANK]. Should he work extra hours, he receives a premium hourly rate which is 180% of his [BLANK]. Last Saturday, he clocked in 14 hours. How much did he earn, in dollars, for his labor that day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael is paid [BLANK] for a daily workload of 10 hours. If he is required to work additional hours, he is compensated at a special hourly rate that is 180% of his [BLANK]. On Saturday, he worked 14 hours. What was his earnings, in dollars, for that day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For his 10-hour workday, Michael makes [BLANK]. If he needs to extend his hours, he is paid a special rate that is 180% of his [BLANK]. Last Saturday, he worked for 14 hours. What amount did he receive, in dollars, for his work that day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael's earnings for a 10-hour day amount to [BLANK]. If additional hours are needed, he is compensated at a special hourly rate that stands at 180% of his [BLANK]. Last Saturday, he put in 14 hours of work. How much did he make, in dollars, for that day?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sarah earns [BLANK] for 7 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 175% of her [BLANK]. Last Monday, she worked 10 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah receives [BLANK] for working 7 hours each day. If she works more than that, her pay rate for the extra hours is 175% of her [BLANK]. Last Monday, she put in 10 hours of work. How much did she earn, in dollars, for that day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 7 hours of daily work, Sarah makes [BLANK]. If she has to work extra hours, her payment for those hours is at a special rate of 175% of her [BLANK]. Last Monday, she worked for 10 hours. What was her total payment, in dollars, for that day? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah's daily earnings for 7 hours of work are [BLANK]. If she works beyond that, her compensation for the additional hours is at a rate of 175% of her [BLANK]. Last Monday, she completed 10 hours of work. How much did she earn, in dollars, for her work that day? Let's think through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Each day, Sarah earns [BLANK] for her 7 hours of work. If she needs to work longer, the hourly rate for the extra hours is 175% of her [BLANK]. On Monday, she worked for 10 hours. What was her total pay, in dollars, for that day? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah's earnings for a 7-hour workday amount to [BLANK]. Should she work extra hours, the payment for those is at a special rate of 175% of her [BLANK]. Last Monday, she worked a total of 10 hours. How much did she make, in dollars, for that day's work? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alex earns [BLANK] for 9 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 160% of his [BLANK]. Last Thursday, he worked 12 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alex receives [BLANK] for working 9 hours each day. If he has to put in extra hours, he earns a specific hourly wage that is 160% of his [BLANK]. On Thursday of last week, he worked for 12 hours. What was his total pay, in dollars, for that day's work? Let's calculate step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 9 hours of labor each day, Alex makes [BLANK]. Should he be required to work extra hours, he is compensated at a unique hourly rate that equals 160% of his [BLANK]. Last Thursday, he put in 12 hours of work. How much did he earn, in dollars, for his efforts that day? Let\u2019s go through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alex's daily income for 9 hours of work is [BLANK]. If he needs to work more hours, his pay rate increases to 160% of his [BLANK]. On the previous Thursday, he worked for 12 hours. How much was his payment, in dollars, for that day's work? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Each day, Alex earns [BLANK] for 9 hours of his job. In cases where he works additional hours, he receives a premium hourly rate that is 160% of his [BLANK]. He worked 12 hours last Thursday. What was his total compensation, in dollars, for that day's work? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alex is paid [BLANK] for every 9 hours he works in a day. If he has to work more hours, he is given a special hourly rate that amounts to 160% of his [BLANK]. Last Thursday, he worked a total of 12 hours. How much was his pay, in dollars, for that day\u2019s labor? Let\u2019s work it out step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

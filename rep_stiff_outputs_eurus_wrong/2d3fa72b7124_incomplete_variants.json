@@ -1,0 +1,210 @@
+{
+  "original_question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The toy store was offering a deal, buy 6 toys, get 2 toys free. Each toy costs $4.00. If Jake had [BLANK], how many toys should he buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The toy shop had a promotion where if you purchase 6 toys, you receive 2 toys at no charge. Each toy is priced at $4.00. Given that Jake has [BLANK], how many toys does he need to purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the toy store, there is a special offer: buy 6 toys and get 2 additional toys for free. The cost of each toy is $4.00. If Jake possesses [BLANK], how many toys must he buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The toy retailer was running a special where buying 6 toys grants you 2 toys for free. Each toy is priced at $4.00. If Jake has [BLANK], how many toys is he required to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A promotion at the toy store states that buying 6 toys allows you to receive 2 toys free of charge. Each toy costs $4.00. If Jake has [BLANK], how many toys ought he to purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The toy shop is currently offering a deal: purchase 6 toys and receive 2 toys at no cost. Each toy is $4.00. If Jake has [BLANK], how many toys should he acquire?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The pizza place was offering a deal, buy 1 pizza, get 1 pizza free. Each pizza costs $8.00. If Mark had [BLANK], how many pizzas should he buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The pizzeria had a promotion: purchase 1 pizza and receive another pizza at no cost. The price for each pizza is $8.00. If Mark has [BLANK], how many pizzas ought he to purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the pizza shop, there was a special offer: buy 1 pizza and get an additional pizza for free. Each pizza is priced at $8.00. If Mark possesses [BLANK], how many pizzas should he acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A pizza establishment was running a deal where buying 1 pizza grants you 1 pizza free. Each pizza is $8.00. If Mark has [BLANK], how many pizzas is he able to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The pizza restaurant was providing a bargain: get 1 pizza and receive another one free of charge. The cost for each pizza is $8.00. If Mark holds [BLANK], how many pizzas can he purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There was a promotional offer at the pizza place: buy 1 pizza, and you will get another one free. Each pizza is priced at $8.00. If Mark has [BLANK], what is the total number of pizzas he should buy?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The candy store was offering a deal, buy 3 bags of candy, get 1 bag free. Each bag costs $2.00. If Liam had [BLANK], how many bags of candy should he buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "At the candy shop, there was a promotion: purchase 3 bags of candy and receive 1 bag at no cost. Each bag is priced at $2.00. If Liam possesses [BLANK], how many bags of candy ought he to purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The sweet shop advertised a special offer, buy 3 candy bags and get an additional bag for free. Each bag is $2.00. Given that Liam has [BLANK], how many bags of candy should he acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The confectionery was running a special, where buying 3 bags of sweets grants you 1 extra bag for free. Each bag costs $2.00. If Liam has [BLANK], how many bags of sweets should he buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A candy store had a promotion: buy 3 bags of candy, receive 1 bag complimentary. Each bag is priced at $2.00. If Liam owns [BLANK], how many candy bags should he buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The candy shop was having a sale: for every 3 bags of candy purchased, 1 bag is given free. Each bag costs $2.00. If Liam has [BLANK], how many bags of candy is he expected to buy?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The bakery was offering a deal, buy 5 pastries, get 2 pastries free. Each pastry costs $3.00. If Anna had [BLANK], how many pastries should she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The bakery had a promotion where if you purchase 5 pastries, you receive 2 pastries at no cost. Each pastry is priced at $3.00. If Anna has [BLANK], how many pastries must she purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bakery was running a special: buy 5 pastries and receive 2 pastries for free. The price of each pastry is $3.00. Given that Anna has [BLANK], how many pastries ought she to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the bakery, there was an offer to buy 5 pastries and get 2 pastries without charge. Each pastry costs $3.00. If Anna possesses [BLANK], how many pastries should she acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The bakery provided a special deal: when you buy 5 pastries, you get 2 pastries free of charge. Each pastry is $3.00. If Anna has [BLANK], how many pastries is she required to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There was a bakery deal where purchasing 5 pastries entitles you to 2 pastries for free. Each pastry costs $3.00. If Anna has [BLANK], what is the quantity of pastries she needs to purchase?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The bookstore was offering a deal, buy 4 books, get 1 book free. Each book costs $5.00. If Sara had [BLANK], how many books should she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The bookstore had a promotion where if you buy 4 books, you receive 1 book at no cost. Each book is priced at $5.00. If Sara possesses [BLANK], how many books must she purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the bookstore, there was a special offer: buy 4 books and receive an additional book for free. The price for each book is $5.00. Given that Sara has [BLANK], how many books does she need to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There was a sale at the bookstore stating that if you purchase 4 books, you get 1 for free. Each book is $5.00. If Sara has [BLANK], how many books should she acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The bookstore was running a special where purchasing 4 books grants you 1 free book. The cost of each book is $5.00. If Sara has [BLANK], how many books should she decide to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A promotion at the bookstore offered 1 free book for every 4 books bought, with each book costing $5.00. If Sara has [BLANK], how many books is she required to purchase?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free. Each scoop cost $1.50. If Erin had [BLANK], how many scoops of ice cream should she buy? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "At the ice cream shop, there was a promotion: purchase 2 scoops of ice cream, and receive 1 scoop at no cost. Each scoop is priced at $1.50. If Erin possesses [BLANK], how many scoops of ice cream ought she to purchase? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The ice cream shop had a special offer where if you buy 2 scoops of ice cream, you receive an additional scoop for free. Each scoop is $1.50. Given that Erin has [BLANK], how many scoops of ice cream should she acquire? We will break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An ice cream parlor was running a special: buy 2 scoops of ice cream and get 1 more for free. The cost of each scoop is $1.50. If Erin has [BLANK], what is the quantity of scoops of ice cream she should purchase? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The ice cream store was providing a deal: buy 2 scoops of ice cream and receive 1 scoop for free. Each scoop costs $1.50. If Erin has [BLANK], how many scoops of ice cream should she buy? We will go through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There was a promotion at the ice cream parlor: buy 2 scoops of ice cream and get 1 additional scoop at no cost. Each scoop is $1.50. If Erin has [BLANK], how many scoops of ice cream should she consider purchasing? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

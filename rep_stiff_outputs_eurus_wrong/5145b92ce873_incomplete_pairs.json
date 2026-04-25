@@ -1,0 +1,62 @@
+{
+  "original_question": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans.  It takes 75 large jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans.  And eating 3 small beans is the same as eating 1 medium-sized bean.  How many small beans can Grandpa eat? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the quantity of large jelly beans",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans.  It takes 75 large jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans.  And eating 3 small beans is the same as eating 1 medium-sized bean.  How many small beans can Grandpa eat? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans. It takes [BLANK] jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans. And eating 3 small beans is the same as eating 1 medium-sized bean. How many small beans can Grandpa eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of large jelly beans"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"Grandma loves to eat chocolate candies, but how many candies she can eat depends on the size of the candies. It takes 60 large chocolate candies to fill Grandma up. She can eat three times as many medium-sized candies as large candies. And eating 4 small candies is the same as eating 1 medium-sized candy. How many small candies can Grandma eat? Let's think step by step and output the final answer after '####'.\",",
+      "incomplete_question": "Grandma loves to eat chocolate candies, but how many candies she can eat depends on the size of the candies. It takes [BLANK] chocolate candies to fill Grandma up. She can eat three times as many medium-sized candies as large candies. And eating 4 small candies is the same as eating 1 medium-sized candy. How many small candies can Grandma eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of large jelly beans"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"Uncle likes to enjoy gummy bears, but how many gummy bears he can eat depends on the size of the bears. It takes 80 large gummy bears to fill Uncle up. He can eat four times as many medium-sized bears as large bears. And eating 2 small bears is the same as eating 1 medium-sized bear. How many small bears can Uncle eat? Let's think step by step and output the final answer after '####'.\",",
+      "incomplete_question": "Uncle likes to enjoy gummy bears, but how many gummy bears he can eat depends on the size of the bears. It takes [BLANK] gummy bears to fill Uncle up. He can eat four times as many medium-sized bears as large bears. And eating 2 small bears is the same as eating 1 medium-sized bear. How many small bears can Uncle eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of large jelly beans"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"Aunt loves to munch on popcorn kernels, but how many kernels she can eat depends on the size of the kernels. It takes 90 large popcorn kernels to fill Aunt up. She can eat five times as many medium-sized kernels as large kernels. And eating 3 small kernels is the same as eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's think step by step and output the final answer after '####'.\",",
+      "incomplete_question": "Aunt loves to munch on popcorn kernels, but how many kernels she can eat depends on the size of the kernels. It takes [BLANK] popcorn kernels to fill Aunt up. She can eat five times as many medium-sized kernels as large kernels. And eating 3 small kernels is the same as eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of large jelly beans"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"Cousin enjoys tasting marshmallows, but how many marshmallows he can eat depends on the size of the marshmallows. It takes 70 large marshmallows to fill Cousin up. He can eat twice as many medium-sized marshmallows as large marshmallows. And eating 5 small marshmallows is the same as eating 1 medium-sized marshmallow. How many small marshmallows can Cousin eat? Let's think step by step and output the final answer after '####'.\",",
+      "incomplete_question": "Cousin enjoys tasting marshmallows, but how many marshmallows he can eat depends on the size of the marshmallows. It takes [BLANK] marshmallows to fill Cousin up. He can eat twice as many medium-sized marshmallows as large marshmallows. And eating 5 small marshmallows is the same as eating 1 medium-sized marshmallow. How many small marshmallows can Cousin eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of large jelly beans"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"Sister loves to snack on peanuts, but how many peanuts she can eat depends on the size of the peanuts. It takes 50 large peanuts to fill Sister up. She can eat",
+      "incomplete_question": "Sister loves to snack on peanuts, but how many peanuts she can eat depends on the size of the peanuts. It takes [BLANK] large peanuts to fill Sister up. She can eat",
+      "info_removed": "the quantity of large jelly beans"
+    }
+  ],
+  "num_valid_similars": 5
+}

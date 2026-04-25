@@ -1,0 +1,62 @@
+{
+  "original_question": "Larry loves taking care of animals.  He has 3 cats.  He has 3 times as many dogs as cats.  He has 2 fewer rabbits than dogs.  He has a fish tank with three times the number of fish as rabbits.  He also has a collection of gerbils that's 1/3 the number of fish he has.  How many pets does Larry have? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of specific types of pets",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Larry loves taking care of animals.  He has 3 cats.  He has 3 times as many dogs as cats.  He has 2 fewer rabbits than dogs.  He has a fish tank with three times the number of fish as rabbits.  He also has a collection of gerbils that's 1/3 the number of fish he has.  How many pets does Larry have? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Larry loves taking care of animals. He has [BLANK] cats. He has 3 times as many dogs as cats. He has 2 fewer rabbits than dogs. He has a fish tank with three times the number of fish as rabbits. He also has a collection of gerbils that's 1/3 the number of fish he has. How many pets does Larry have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Ella loves taking care of animals. She has 4 cats. She has 2 times as many dogs as cats. She has 3 fewer rabbits than dogs. She has a fish tank with four times the number of fish as rabbits. She also has a collection of hamsters that's 1/2 the number of fish she has. How many pets does Ella have? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ella loves taking care of animals. She has [BLANK] cats. She has 2 times as many dogs as cats. She has 3 fewer rabbits than dogs. She has a fish tank with four times the number of fish as rabbits. She also has a collection of hamsters that's 1/2 the number of fish she has. How many pets does Ella have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Tom enjoys raising pets. He has 5 cats. He has 4 times as many dogs as cats. He has 1 fewer rabbit than dogs. He has a fish tank with five times the number of fish as rabbits. He also has a collection of turtles that's 2/5 the number of fish he has. How many pets does Tom have? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Tom enjoys raising pets. He has [BLANK] cats. He has 4 times as many dogs as cats. He has 1 fewer rabbit than dogs. He has a fish tank with five times the number of fish as rabbits. He also has a collection of turtles that's 2/5 the number of fish he has. How many pets does Tom have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sara adores animals. She has 6 cats. She has 5 times as many dogs as cats. She has 2 more rabbits than dogs. She has a fish tank with two times the number of fish as rabbits. She also has a collection of mice that's 3/4 the number of fish she has. How many pets does Sara have? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sara adores animals. She has [BLANK] cats. She has 5 times as many dogs as cats. She has 2 more rabbits than dogs. She has a fish tank with two times the number of fish as rabbits. She also has a collection of mice that's 3/4 the number of fish she has. How many pets does Sara have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Jake is fond of pets. He has 2 cats. He has 6 times as many dogs as cats. He has 4 fewer rabbits than dogs. He has a fish tank with seven times the number of fish as rabbits. He also has a collection of lizards that's 1/4 the number of fish he has. How many pets does Jake have? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Jake is fond of pets. He has [BLANK] cats. He has 6 times as many dogs as cats. He has 4 fewer rabbits than dogs. He has a fish tank with seven times the number of fish as rabbits. He also has a collection of lizards that's 1/4 the number of fish he has. How many pets does Jake have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Mia loves her pets. She has 7 cats. She has 3 times as many dogs as cats. She has 5 fewer rabbits than dogs. She has a fish tank with six times the number of fish as rabbits. She also has a collection of ferrets that's 1/3 the number of fish she has. How many pets does Mia have? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mia loves her pets. She has [BLANK] cats. She has 3 times as many dogs as cats. She has 5 fewer rabbits than dogs. She has a fish tank with six times the number of fish as rabbits. She also has a collection of ferrets that's 1/3 the number of fish she has. How many pets does Mia have? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of specific types of pets"
+    }
+  ],
+  "num_valid_similars": 5
+}

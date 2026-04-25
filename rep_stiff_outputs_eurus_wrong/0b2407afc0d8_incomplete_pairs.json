@@ -1,0 +1,62 @@
+{
+  "original_question": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is 26. How old is Leo? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the age of one individual\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is 26. How old is Leo? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is [BLANK]. How old is Leo? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the age of one individual\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Sofia is half of Alex's age and three years younger than Mia. Mia is 30. How old is Alex?",
+      "incomplete_question": "Sofia is half of Alex's age and three years younger than Mia. Mia is [BLANK]. How old is Alex?",
+      "info_removed": "\"the age of one individual\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Ethan is half of Olivia's age and seven years younger than Noah. Noah is 22. How old is Olivia?",
+      "incomplete_question": "Ethan is half of Olivia's age and seven years younger than Noah. Noah is [BLANK]. How old is Olivia?",
+      "info_removed": "\"the age of one individual\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Chloe is half of Max's age and four years younger than Emma. Emma is 28. How old is Max?",
+      "incomplete_question": "Chloe is half of Max's age and four years younger than Emma. Emma is [BLANK]. How old is Max?",
+      "info_removed": "\"the age of one individual\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Liam is half of Ava's age and six years younger than Isabella. Isabella is 24. How old is Ava?",
+      "incomplete_question": "Liam is half of Ava's age and six years younger than Isabella. Isabella is [BLANK]. How old is Ava?",
+      "info_removed": "\"the age of one individual\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "James is half of Sophia's age and two years younger than Benjamin. Benjamin is 32. How old is Sophia?",
+      "incomplete_question": "James is half of Sophia's age and two years younger than Benjamin. Benjamin is [BLANK]. How old is Sophia?",
+      "info_removed": "\"the age of one individual\""
+    }
+  ],
+  "num_valid_similars": 5
+}

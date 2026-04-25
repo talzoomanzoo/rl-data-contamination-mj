@@ -1,0 +1,210 @@
+{
+  "original_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "David is painting a mural using different colors. He has one color from each art workshop he has attended. Each color is its own section of the mural. He attends four workshops each year and has been learning art since he was [BLANK]. He is now 31. How many sections does he have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David is creating a mural with a variety of colors. He possesses one color from every art workshop he has participated in. Each color represents a distinct section of the mural. He attends four workshops annually and has been studying art since he was [BLANK]. Currently, he is 31 years old. What is the total number of sections he has? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David is designing a mural using multiple colors. He has one color from each art workshop he has gone to. Each color corresponds to a separate section of the mural. He joins four workshops every year and has been learning art since he turned [BLANK]. At present, he is 31 years old. How many sections does he have altogether? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David is working on a mural featuring different colors. He has acquired one color from every art workshop he has attended. Each color makes up its own section of the mural. He participates in four workshops per year and has been engaged in art since he was [BLANK]. Now, he is 31. How many sections are there in total? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David is painting a mural with various colors. He has one color from each art workshop he has visited. Each color forms a distinct section of the mural. He goes to four workshops each year and has been pursuing art since he was [BLANK]. He is currently 31 years old. What is the total count of sections he has? Let's work this out step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David is crafting a mural using assorted colors. He has one color from every art workshop he has participated in. Each color constitutes a separate section of the mural. He attends four workshops annually and has been learning art since he was [BLANK]. At this time, he is 31 years old. How many sections does he possess in total? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Emma is collecting stamps from various countries. She has one stamp from each trip she has taken. Each stamp is its own page in her collection book. She visits three new countries every year and has been collecting stamps since she was [BLANK]. She is now 28. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma gathers stamps from different nations. Each trip she makes results in one unique stamp that occupies a page in her collection book. Every year, she travels to three new countries and has been adding to her stamp collection since she was [BLANK]. Currently, she is 28 years old. What is the total number of pages in her collection? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma is amassing stamps from a variety of countries. For every journey she embarks on, she acquires a stamp that fills a page in her collection album. She explores three new countries annually and started her stamp collection when she was [BLANK]. At present, she is 28. How many pages are there in her entire collection? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma collects stamps from numerous countries. Each stamp corresponds to a trip she has taken, with each stamp being featured on a separate page in her collection book. She travels to three new countries each year and has been collecting stamps since the age of [BLANK]. She is currently 28 years old. How many total pages does she have in her collection? Let's consider this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma is in the process of collecting stamps from various countries. Each stamp she acquires from her trips takes up an individual page in her collection book. She visits three new countries every year and has been collecting stamps since she reached the age of [BLANK]. Right now, she is 28. What is the total count of pages she has in her collection? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is accumulating stamps from different nations. Each stamp she collects from her travels is assigned to its own page in her collection book. Every year, she visits three new countries and has been adding stamps to her collection since she was [BLANK]. She is now 28 years old. How many pages does her collection consist of in total? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alice is knitting a blanket out of colorful yarns. She has one ball of yarn from each festival she has attended. Each ball is its own section of the blanket. Each year, she attends three festivals and has been attending them since she was [BLANK]. She is now 30. How many sections does she have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice is crafting a blanket using vibrant yarns. She possesses one ball of yarn for every festival she has visited. Each ball represents a distinct section of the blanket. Annually, she goes to three festivals and has been doing this since she was [BLANK]. Currently, she is 30 years old. What is the total number of sections she has? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice is creating a blanket from colorful yarns. She owns a ball of yarn from each festival she has participated in. Each ball corresponds to a separate section of the blanket. Every year, she attends three festivals and has been going since she was [BLANK]. At present, she is 30. How many sections does she have altogether? Let's think through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice is making a blanket with colorful yarns. She has one ball of yarn for each festival she has gone to. Each ball forms an individual section of the blanket. Each year, she visits three festivals and has been doing this from the time she was [BLANK]. She is now 30 years old. What is the overall number of sections she has? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice is designing a blanket using colorful yarns. She has a ball of yarn for every festival she has attended. Each ball makes up its own section of the blanket. Each year, she participates in three festivals and has been attending since she was [BLANK]. She is currently 30. What is the total number of sections she possesses? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice is stitching a blanket from colorful yarns. She has one ball of yarn for each festival she has attended. Each ball creates a unique section of the blanket. Each year, she goes to three festivals and has been doing so since she was [BLANK]. Now, she is 30 years old. How many sections does she have in total? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara is creating a scrapbook out of postcards. She has one postcard from each trip she has made. Each postcard is its own page in the scrapbook. She goes on five trips a year and has been traveling since she was [BLANK]. She is now 29. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara is assembling a scrapbook using postcards. She collects one postcard for every trip she takes. Each postcard represents a separate page in her scrapbook. She travels five times each year and has been journeying since she was [BLANK]. Currently, she is 29 years old. How many pages does she have altogether? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara is putting together a scrapbook filled with postcards. She has a postcard from every trip she has embarked on. Every postcard serves as an individual page in her scrapbook. Each year, she travels on five trips and has been exploring since she was [BLANK]. Now, she is 29. What is the total number of pages she has? Let's break it down step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara is crafting a scrapbook using her postcards. She owns one postcard for each vacation she has taken. Each postcard constitutes a distinct page in the scrapbook. She takes five trips annually and has been traveling since she was [BLANK]. At present, she is 29 years old. How many pages does she have in total? Let's consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara is designing a scrapbook with her collection of postcards. For every trip she has gone on, she possesses one postcard. Each postcard acts as its own page in the scrapbook. She goes on five trips each year and has been traveling since she was [BLANK]. She is now 29. What is the complete count of pages she has? Let's examine this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara is making a scrapbook out of her postcards. She has a unique postcard from each journey she has taken. Each postcard becomes a separate page in her scrapbook. Annually, she travels five times and has been venturing since she was [BLANK]. Currently, she is 29 years of age. How many pages does she accumulate in total? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was [BLANK]. He is now 34. How many quilt blocks does he have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gene is crafting a quilt using old t-shirts from his travels. He possesses one shirt for each trip he has taken. Every shirt represents an individual quilt block. Each row consists of blocks from various vacation years. He takes four trips annually and has been traveling since he was [BLANK]. Currently, he is 34 years old. What is the total number of quilt blocks he has? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Gene is putting together a quilt made from nostalgic t-shirts collected during his travels. He has one t-shirt for every vacation he has experienced. Each t-shirt serves as a separate quilt block. The rows are formed using blocks from different years of his vacations. He travels four times each year and has been going on vacations since he was [BLANK]. At present, he is 34. How many quilt blocks does he have altogether? Let's work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gene is assembling a quilt from old souvenir t-shirts he gathered during his trips. Each trip is represented by a single shirt, which serves as a quilt block. Blocks in each row are from different years of his vacations. He vacations four times a year and has been doing so since he was [BLANK]. He is now 34 years old. How many quilt blocks does he possess in total? Let's think this through step by step and put the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Gene is designing a quilt out of vintage t-shirts from his trips. He owns one t-shirt for every vacation he has taken. Each t-shirt acts as an individual quilt block. Each row is made up of blocks corresponding to different vacation years. He takes four vacations per year and has been going on these trips since he was [BLANK]. He is currently 34. What is the total number of quilt blocks he has? Let\u2019s go step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gene is making a quilt with old souvenir t-shirts from his journeys. He has one shirt for each vacation he has gone on. Each shirt serves as a distinct quilt block. Each row includes blocks from various years of his travels. He goes on four vacations each year and has been vacationing since he was [BLANK]. He is now 34. How many quilt blocks does he have in total? Let's evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark is building a model out of old toy cars. He has one car from each collection he has started. Each car is its own piece of the model. Each season, he starts two new collections and has been collecting since he was [BLANK]. He is now 27. How many pieces does he have in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark is constructing a model using old toy cars. He possesses one car from every collection he has initiated. Each car contributes individually to the model. Every season, he begins two new collections and has been gathering since he was [BLANK]. Currently, he is 27. What is the total number of pieces he has? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark is assembling a model from his collection of old toy cars. He has one car from each collection he has created. Every car serves as a distinct piece of the model. Each season, he launches two new collections and has been collecting since the age of [BLANK]. He is now 27 years old. How many pieces does he have altogether? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark is putting together a model using old toy cars. He owns one car for each collection he has started. Each car acts as a separate piece of the model. Each season, he initiates two new collections and has been collecting since he turned [BLANK]. He is currently 27. What is the total count of pieces he possesses? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark is creating a model made up of old toy cars. He has a single car from every collection he has begun. Each car is an individual piece of the model. Every season, he starts two additional collections and has been collecting since he was [BLANK]. Now, he is 27 years old. How many pieces does he have in total? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark is building a model from his collection of old toy cars. He has one car from each of the collections he has started. Each car is a unique piece of the model. Each season, he adds two new collections and has been collecting since he was [BLANK]. He is presently 27. What is the total number of pieces he has? Let\u2019s analyze this step by step and put the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

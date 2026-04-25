@@ -1,0 +1,210 @@
+{
+  "original_question": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In a set of magician cards, there are 30 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Among a collection of magician cards, there exist 30 red cards, and [BLANK]. The quantity of yellow cards equals the total number of red and green cards combined. What is the total count of cards of all specified colors? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Within a group of magician cards, there are 30 red cards, and [BLANK]. The number of yellow cards is equal to the sum of red and green cards. How many cards of each color mentioned are there in total? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a collection of magician cards, there are 30 red cards available, and [BLANK]. The number of yellow cards corresponds to the sum of both red and green cards. What is the overall total of cards of all the mentioned colors? Let's proceed step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a set of magician cards, there are 30 red cards, plus [BLANK]. The count of yellow cards matches the total of red cards added to green cards. How many cards are there in total across all colors mentioned? Let's examine it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Among magician cards, there are 30 red cards, alongside [BLANK]. The yellow cards equal the total amount of red cards and green cards combined. What is the total number of cards of all the colors mentioned? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a set of magician cards, there are 25 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Within a collection of magician cards, there exist 25 red cards, and [BLANK]. The quantity of yellow cards corresponds to the total of red and green cards combined. What is the total number of cards of all specified colors? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a deck of magician cards, there are 25 red cards, along with [BLANK]. The number of yellow cards equals the addition of red and green cards. How many cards are there in total of all the colors mentioned? We'll work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a magician card set, 25 cards are red, and [BLANK]. The count of yellow cards is equal to the sum of red and green cards. How many cards are there in total across all mentioned colors? Let's proceed step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Among the magician cards, there are 25 red cards, and [BLANK]. The number of yellow cards matches the combined amount of red and green cards. What is the total count of cards across all specified colors? We'll think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a magician card collection, there are 25 red cards, and [BLANK]. Yellow cards are equivalent in number to the total of red and green cards. How many cards exist in total for all the colors discussed? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "In a set of magician cards, there are 20 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a collection of magician cards, there exist 20 red cards, and [BLANK]. The number of yellow cards equals the total of red and green cards combined. What is the total number of cards of all specified colors? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Within a group of magician cards, there are 20 red cards, and [BLANK]. The quantity of yellow cards corresponds to the sum of red and green cards. How many cards are there in total of all the colors mentioned? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a bunch of magician cards, you will find 20 red cards, and [BLANK]. Yellow cards are equivalent to the sum of both red and green cards. What is the total count of cards of the colors discussed? Let's evaluate it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a deck of magician cards, there are 20 red cards, and [BLANK]. The number of yellow cards matches the total of red and green cards. How many cards in total of the mentioned colors are there? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Among a series of magician cards, there are 20 red cards, and [BLANK]. Yellow cards equal the sum of the red and green cards. What is the overall number of cards of all the colors referenced? Let's think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In a set of magician cards, there are 10 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a collection of magician cards, there exist 10 red cards, and [BLANK]. The quantity of yellow cards equals the total of red and green cards combined. What is the total number of cards of all specified colors? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Within a group of magician cards, there are 10 red cards, and [BLANK]. The number of yellow cards is the same as the combined total of red and green cards. How many cards are there in total of all the colors mentioned? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a deck of magician cards, you will find 10 red cards, and [BLANK]. The count of yellow cards matches the sum of red and green cards. What is the overall count of cards of all the colors listed? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a set of magician cards, there are 10 red cards, and [BLANK]. Yellow cards are equal in number to the total of both red and green cards. How many cards in total of all the mentioned colors exist? Let's think this through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a group of magician cards, there are 10 red cards, and [BLANK]. The number of yellow cards corresponds to the sum of red and green cards. What is the total number of cards of all colors stated? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In a set of magician cards, there are 18 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Among a collection of magician cards, there exist 18 red cards, and [BLANK]. The quantity of yellow cards equals the total of red and green cards. What is the total number of cards of the colors mentioned? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a group of magician cards, there are 18 red cards, and [BLANK]. The number of yellow cards is equal to the combined total of red and green cards. How many cards in total are there of all the specified colors? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Within a collection of magician cards, there are 18 red cards, and [BLANK]. Yellow cards are present in a quantity that matches the sum of the red and green cards. How many cards of all the mentioned colors exist? Let us proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a deck of magician cards, there are 18 red cards, and [BLANK]. The number of yellow cards corresponds to the sum of both red and green cards. How many cards of the specified colors are there altogether? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a series of magician cards, there are 18 red cards, and [BLANK]. The count of yellow cards is equal to the total number of red plus green cards. What is the overall number of cards of the colors mentioned? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In a set of magicians cards, there are 15 red cards, and [BLANK]. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Within a collection of magician cards, there exist 15 red cards, and [BLANK]. The quantity of yellow cards equals the total of red and green cards combined. What is the total number of cards of all specified colors? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a group of magician cards, there are 15 red cards, and [BLANK]. The number of yellow cards is the same as the sum of red and green cards. How many cards are there in total of all the colors mentioned? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a batch of magician cards, there are 15 red cards, and [BLANK]. The count of yellow cards is equal to the total of red cards added to the green cards. How many cards are there in total among all the colors stated? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a selection of magician cards, you have 15 red cards, and [BLANK]. The number of yellow cards is equivalent to the combined total of red and green cards. What is the overall number of cards from all the colors mentioned? Let's work through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a series of magician cards, there are 15 red cards, and [BLANK]. Yellow cards are as numerous as the addition of red and green cards. How many cards are there in total across all the mentioned colors? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

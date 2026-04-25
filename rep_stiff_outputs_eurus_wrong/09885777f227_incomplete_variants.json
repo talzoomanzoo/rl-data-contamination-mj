@@ -1,0 +1,210 @@
+{
+  "original_question": "Carrie is planning the caroling schedule. The choir plans to sing \"Deck the Halls\" twice and \"Jingle Bells\" once. If \"Deck the Halls\" is 150 seconds long and \"Jingle Bells\" is 240 seconds long, how long will they be caroling? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Emma is setting up the bake-off event. The contestants plan to bake \"Cake A\" once and \"Cookies B\" three times. If \"Cake A\" takes [BLANK] to bake and \"Cookies B\" take [BLANK] each, how long will they be baking? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma is organizing the bake-off competition. The participants intend to prepare 'Cake A' one time and 'Cookies B' three times. If 'Cake A' requires [BLANK] to bake and each batch of 'Cookies B' takes [BLANK], what will be the total baking time? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma is coordinating the bake-off event. The bakers are set to make 'Cake A' once and 'Cookies B' three times. Should 'Cake A' take [BLANK] to bake and 'Cookies B' each take [BLANK], what will their overall baking duration be? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma is preparing for the bake-off event. The contestants are planning to create 'Cake A' once and 'Cookies B' on three occasions. If the preparation of 'Cake A' takes [BLANK] and each batch of 'Cookies B' requires [BLANK], how much time will they spend baking in total? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma is arranging the bake-off event. The competitors aim to bake 'Cake A' one time and 'Cookies B' three times. If 'Cake A' needs [BLANK] to bake and each 'Cookies B' takes [BLANK], what will be the total baking time? Let's think through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is setting up for the bake-off event. The contestants have plans to bake 'Cake A' once and 'Cookies B' three times. If the baking of 'Cake A' takes [BLANK] and each batch of 'Cookies B' requires [BLANK], how long will they be baking in total? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara is preparing the musical performance timetable. The band intends to perform \"Song A\" twice and \"Song B\" three times. If \"Song A\" is [BLANK] long and \"Song B\" is [BLANK] long, how long will they be performing? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara is organizing the schedule for the musical performance. The band plans to play \"Song A\" two times and \"Song B\" three times. If the duration of \"Song A\" is [BLANK] and the duration of \"Song B\" is [BLANK], what will be the total performance time? Let's calculate step by step and provide the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara is setting up the timetable for the music performance. The band aims to play \"Song A\" two times and \"Song B\" three times. Given that \"Song A\" lasts [BLANK] and \"Song B\" lasts [BLANK], what will the total duration of their performance be? We will analyze this step by step and present the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara is arranging the schedule for the musical show. The band wants to perform \"Song A\" twice and \"Song B\" three times. If the length of \"Song A\" is [BLANK] and the length of \"Song B\" is [BLANK], how much time will they spend performing? Let\u2019s go through this step by step and reveal the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara is preparing the schedule for the music performance. The band intends to showcase \"Song A\" two times and \"Song B\" three times. If \"Song A\" takes [BLANK] to perform and \"Song B\" takes [BLANK], what will the total performance duration be? Let's consider this step by step and show the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara is developing the timetable for the musical event. The band plans to perform \"Song A\" two times and \"Song B\" three times. If \"Song A\" has a duration of [BLANK] and \"Song B\" has a duration of [BLANK], what will their total performance time be? We will work through this step by step and disclose the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "John is planning the marathon training schedule. The team plans to run \"Route 1\" five times and \"Route 2\" twice. If \"Route 1\" is [BLANK] long and \"Route 2\" is [BLANK] long, how long will they be training? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "John is organizing the training schedule for the marathon. The group intends to run 'Route 1' five times and 'Route 2' two times. If 'Route 1' measures [BLANK] in length and 'Route 2' measures [BLANK] in length, what will be the total training duration? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "John is preparing the training regimen for the marathon. The team will cover 'Route 1' five times and 'Route 2' twice. If the distance of 'Route 1' is [BLANK] and the distance of 'Route 2' is [BLANK], how much time will they spend training? Let's reason through this and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "John is setting up the marathon training plan. The team aims to run 'Route 1' five times and 'Route 2' two times. If 'Route 1' is [BLANK] long and 'Route 2' is [BLANK] long, what will be the total training time? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "John is arranging the marathon training schedule. The team is set to run 'Route 1' five times and 'Route 2' twice. If 'Route 1' has a length of [BLANK] and 'Route 2' has a length of [BLANK], how long will their training last? Let's think it through step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "John is designing the marathon training timetable. The group plans to run 'Route 1' five times and 'Route 2' two times. If the length of 'Route 1' is [BLANK] and the length of 'Route 2' is [BLANK], what will be the total duration of their training? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mike is coordinating the play rehearsal. The cast plans to practice \"Act 1\" four times and \"Act 2\" once. If \"Act 1\" is [BLANK] long and \"Act 2\" is [BLANK] long, how long will they be rehearsing? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mike is organizing the play rehearsal. The group intends to practice 'Act 1' four times and 'Act 2' one time. If 'Act 1' is [BLANK] in duration and 'Act 2' is [BLANK] in duration, what will be the total rehearsal time? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mike is in charge of the play rehearsal. The cast is set to rehearse 'Act 1' four times and 'Act 2' just once. Assuming 'Act 1' lasts [BLANK] and 'Act 2' lasts [BLANK], how much time will they spend rehearsing? Let's break it down step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mike is leading the play rehearsal. The performers aim to practice 'Act 1' four times and 'Act 2' a single time. If 'Act 1' takes [BLANK] and 'Act 2' takes [BLANK], what will the total rehearsal duration be? Let's approach this systematically and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mike is overseeing the play rehearsal. The cast plans to go through 'Act 1' four times and 'Act 2' one time. If 'Act 1' is [BLANK] minutes long and 'Act 2' is [BLANK] minutes long, how long will their rehearsal last? Let's think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mike is managing the play rehearsal. The ensemble intends to rehearse 'Act 1' four times and 'Act 2' once. If the duration of 'Act 1' is [BLANK] and the duration of 'Act 2' is [BLANK], what will the total rehearsal time amount to? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Carrie is planning the caroling schedule. The choir plans to sing \"Deck the Halls\" twice and \"Jingle Bells\" once. If \"Deck the Halls\" is [BLANK] long and \"Jingle Bells\" is [BLANK] long, how long will they be caroling? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Carrie is organizing the caroling timetable. The choir intends to perform \"Deck the Halls\" two times and \"Jingle Bells\" one time. If the duration of \"Deck the Halls\" is [BLANK] and the duration of \"Jingle Bells\" is [BLANK], what will be the total time spent caroling? Let's analyze this step by step and provide the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Carrie is setting up the schedule for caroling. The choir will sing \"Deck the Halls\" two times and \"Jingle Bells\" once. Assuming that \"Deck the Halls\" takes [BLANK] and \"Jingle Bells\" takes [BLANK], what will be the total time they spend caroling? Let's break this down step by step and write the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Carrie is arranging the caroling agenda. The choir plans to perform \"Deck the Halls\" twice and \"Jingle Bells\" once. If \"Deck the Halls\" lasts [BLANK] and \"Jingle Bells\" lasts [BLANK], how much time will they be caroling in total? Let's go through this step by step and state the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Carrie is devising the caroling plan. The choir is set to sing \"Deck the Halls\" two times and \"Jingle Bells\" once. If \"Deck the Halls\" has a length of [BLANK] and \"Jingle Bells\" has a length of [BLANK], what is the total duration of their caroling? Let's think through it step by step and deliver the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Carrie is coordinating the caroling schedule. The choir will perform \"Deck the Halls\" twice and \"Jingle Bells\" once. If the time for \"Deck the Halls\" is [BLANK] and for \"Jingle Bells\" is [BLANK], how long will their caroling last in total? Let's consider this step by step and output the final answer after \"####\".",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Laura is organizing the dance schedule. The troupe plans to perform \"Waltz\" three times and \"Samba\" twice. If \"Waltz\" is [BLANK] long and \"Samba\" is [BLANK] long, how long will they be dancing? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Laura is arranging the dance timetable. The group intends to showcase 'Waltz' three times and 'Samba' two times. If 'Waltz' lasts [BLANK] and 'Samba' lasts [BLANK], what will be the total duration of their performance? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Laura is setting up the dance lineup. The team plans to exhibit 'Waltz' three times and 'Samba' on two occasions. If 'Waltz' takes [BLANK] time and 'Samba' takes [BLANK] time, what will the total dancing duration be? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Laura is planning the dance schedule. The ensemble aims to perform 'Waltz' three times and 'Samba' two times. If 'Waltz' has a length of [BLANK] and 'Samba' has a length of [BLANK], how much time will they spend dancing? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Laura is coordinating the dance program. The troupe intends to dance 'Waltz' three times and 'Samba' two times. If 'Waltz' is [BLANK] minutes long and 'Samba' is [BLANK] minutes long, how long will their dance last? Let's think it through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Laura is managing the dance agenda. The group is set to perform 'Waltz' three times and 'Samba' twice. If 'Waltz' takes [BLANK] duration and 'Samba' takes [BLANK] duration, what will be the total time of their dancing? Let's analyze it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

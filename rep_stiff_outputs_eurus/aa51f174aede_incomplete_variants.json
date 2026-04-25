@@ -1,0 +1,210 @@
+{
+  "original_question": "Rectangle ABCD has AB = 6 and BC = 3. Point M is chosen on side AB so that \u2220AMD = \u2220CMD. Calculate the degree measure of \u2220AMD.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Rectangle UVWX has UV = [BLANK] and VW = [BLANK]. Point Y is chosen on side UV so that \u2220UYX = \u2220WXY. Calculate the degree measure of \u2220UYX.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle UVWX, the lengths are given as UV = [BLANK] and VW = [BLANK]. A point Y is selected on side UV such that \u2220UYX equals \u2220WXY. Determine the degree measure of \u2220UYX.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For rectangle UVWX, the dimensions are defined as UV = [BLANK] and VW = [BLANK]. A point Y is placed on side UV so that \u2220UYX matches \u2220WXY. Find the degree measure of \u2220UYX.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rectangle UVWX has its sides defined with UV = [BLANK] and VW = [BLANK]. A point Y is located on side UV so that \u2220UYX is equal to \u2220WXY. Calculate the degree measure of \u2220UYX.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the rectangle UVWX, we know UV = [BLANK] and VW = [BLANK]. A point Y is chosen on the side UV ensuring that \u2220UYX is the same as \u2220WXY. What is the degree measure of \u2220UYX?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given rectangle UVWX with sides UV = [BLANK] and VW = [BLANK], point Y is positioned on side UV such that \u2220UYX corresponds to \u2220WXY. Compute the degree measure of \u2220UYX.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Rectangle EFGH has EF = [BLANK] and FG = [BLANK]. Point N is chosen on side EF so that \u2220ENG = \u2220FNH. Calculate the degree measure of \u2220ENG.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle EFGH, the lengths of sides EF and FG are given as EF = [BLANK] and FG = [BLANK]. A point N is selected on edge EF such that \u2220ENG equals \u2220FNH. Determine the degree measure of \u2220ENG.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For rectangle EFGH, we know that EF = [BLANK] and FG = [BLANK]. A point N is placed on side EF so that angles \u2220ENG and \u2220FNH are equal. Find the degree measure of \u2220ENG.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In rectangle EFGH, the dimensions are EF = [BLANK] and FG = [BLANK]. Point N is located on line segment EF, ensuring that \u2220ENG is equal to \u2220FNH. Calculate the degree measure of \u2220ENG.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Rectangle EFGH features side lengths of EF = [BLANK] and FG = [BLANK]. A point N is positioned on side EF such that the angles \u2220ENG and \u2220FNH are congruent. Compute the degree measure of \u2220ENG.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the rectangle EFGH, we have EF = [BLANK] and FG = [BLANK]. A point N is identified on side EF, making \u2220ENG equal to \u2220FNH. What is the degree measure of \u2220ENG?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Rectangle MNOP has MN = [BLANK] and NO = [BLANK]. Point P is chosen on side MN so that \u2220MPN = \u2220NPO. Calculate the degree measure of \u2220MPN.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle MNOP, the lengths are MN = [BLANK] and NO = [BLANK]. A point P is selected on side MN such that \u2220MPN equals \u2220NPO. Determine the degree measure of \u2220MPN.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Rectangle MNOP has dimensions MN = [BLANK] and NO = [BLANK]. A point P is placed on side MN so that \u2220MPN is equal to \u2220NPO. Find the degree measure of \u2220MPN.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For rectangle MNOP, we know that MN = [BLANK] and NO = [BLANK]. Point P is located on side MN in a way that \u2220MPN matches \u2220NPO. Calculate the degree measure of \u2220MPN.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In rectangle MNOP, it is given that MN = [BLANK] and NO = [BLANK]. A point P lies on side MN such that \u2220MPN is the same as \u2220NPO. What is the degree measure of \u2220MPN?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rectangle MNOP has sides MN = [BLANK] and NO = [BLANK]. A point P is positioned on MN with \u2220MPN being equal to \u2220NPO. Compute the degree measure of \u2220MPN.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Rectangle IJKL has IJ = [BLANK] and JK = [BLANK]. Point O is chosen on side IJ so that \u2220OJL = \u2220KOL. Calculate the degree measure of \u2220OJL.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle IJKL, the length of IJ is [BLANK] and the length of JK is [BLANK]. A point O is selected on side IJ such that \u2220OJL is equal to \u2220KOL. Determine the degree measure of \u2220OJL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Rectangle IJKL features IJ measuring [BLANK] and JK measuring [BLANK]. A point O is located on side IJ where \u2220OJL equals \u2220KOL. Find the degree measure of \u2220OJL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In rectangle IJKL, the dimensions are IJ = [BLANK] and JK = [BLANK]. Point O is placed on IJ so that \u2220OJL is the same as \u2220KOL. Calculate the angle measure of \u2220OJL in degrees.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For rectangle IJKL, the side lengths are given by IJ = [BLANK] and JK = [BLANK]. Position point O on side IJ such that \u2220OJL corresponds to \u2220KOL. Compute the degree measure of \u2220OJL.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the rectangle IJKL, IJ has a length of [BLANK] and JK has a length of [BLANK]. A point O is chosen on IJ, ensuring that \u2220OJL matches \u2220KOL. What is the degree measure of \u2220OJL?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Rectangle ABCD has AB = [BLANK] and BC = [BLANK]. Point M is chosen on side AB so that \u2220AMD = \u2220CMD. Calculate the degree measure of \u2220AMD.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle ABCD, the length of AB is [BLANK] and the length of BC is [BLANK]. A point M is selected on side AB such that \u2220AMD is equal to \u2220CMD. Determine the measure in degrees of \u2220AMD.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For rectangle ABCD, side AB measures [BLANK] and side BC measures [BLANK]. Point M is placed on side AB with the condition that \u2220AMD is the same as \u2220CMD. Find the degree measure of \u2220AMD.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rectangle ABCD has sides AB equal to [BLANK] and BC equal to [BLANK]. A point M is located on segment AB so that \u2220AMD equals \u2220CMD. Compute the degree measure of \u2220AMD.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the rectangle ABCD, the side AB has a length of [BLANK] and side BC has a length of [BLANK]. A point M lies on side AB ensuring that \u2220AMD is identical to \u2220CMD. What is the degree measure of \u2220AMD?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rectangle ABCD features AB measuring [BLANK] and BC measuring [BLANK]. Point M is positioned on side AB such that \u2220AMD corresponds to \u2220CMD. Calculate the angle measure in degrees for \u2220AMD.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Rectangle QRST has QR = [BLANK] and RS = [BLANK]. Point Q is chosen on side QR so that \u2220QRS = \u2220SQT. Calculate the degree measure of \u2220QRS.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In rectangle QRST, the length of side QR is [BLANK] and the length of side RS is [BLANK]. A point Q is selected on side QR such that \u2220QRS equals \u2220SQT. Determine the measure in degrees of \u2220QRS.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For rectangle QRST, QR measures [BLANK] and RS measures [BLANK]. Point Q is located on side QR so that the angle \u2220QRS is equal to the angle \u2220SQT. Find the degree measure of \u2220QRS.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rectangle QRST has a length of QR equal to [BLANK] and a length of RS equal to [BLANK]. Point Q is placed on QR in a way that \u2220QRS is the same as \u2220SQT. Calculate the angle measure of \u2220QRS in degrees.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the rectangle QRST, side QR is [BLANK] and side RS is [BLANK]. A point Q is positioned on QR such that \u2220QRS is congruent to \u2220SQT. What is the degree measure of \u2220QRS?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rectangle QRST has dimensions where QR is [BLANK] and RS is [BLANK]. A point Q is identified on side QR so that the angles \u2220QRS and \u2220SQT are equal. Compute the degree measurement of \u2220QRS.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the upper limit for the integer n\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=54$, then $b=6$, and $54$ as a numeral in base $6$ equals $5\\cdot 6+4=34$; therefore $f(54)=34$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n.",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=54$, then $b=6$, and $54$ as a numeral in base $6$ equals $5\\cdot 6+4=34$; therefore $f(54)=34$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=85$, then $b=9$, and $85$ as a numeral in base $9$ equals $8\\cdot 9+5=77$; therefore $f(85)=77$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n.",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=85$, then $b=9$, and $85$ as a numeral in base $9$ equals $8\\cdot 9+5=77$; therefore $f(85)=77$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=41$, then $b=5$, and $41$ as a numeral in base $5$ equals $4\\cdot 5+1=21$; therefore $f(41)=21$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n.",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=41$, then $b=5$, and $41$ as a numeral in base $5$ equals $4\\cdot 5+1=21$; therefore $f(41)=21$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=63$, then $b=7$, and $63$ as a numeral in base $7$ equals $6\\cdot 7+3=45$; therefore $f(63)=45$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n.",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=63$, then $b=7$, and $63$ as a numeral in base $7$ equals $6\\cdot 7+3=45$; therefore $f(63)=45$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=19$, then $b=2$, and $19$ as a numeral in base $2$ equals $1\\cdot 2+9=11$; therefore $f(19)=11$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n.",
+      "incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=19$, then $b=2$, and $19$ as a numeral in base $2$ equals $1\\cdot 2+9=11$; therefore $f(19)=11$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "info_removed": "\"the upper limit for the integer n\""
+    }
+  ],
+  "num_valid_similars": 5
+}

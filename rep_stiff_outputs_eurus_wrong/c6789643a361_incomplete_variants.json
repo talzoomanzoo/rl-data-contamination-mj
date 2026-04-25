@@ -1,0 +1,210 @@
+{
+  "original_question": "Lee rears only sheep and geese on his farm.  If the total number of animal legs is 70, and the total number of animal heads is 20, how many sheep live on Lee's farm? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Lee rears only sheep and geese on his farm. If the total number of animal legs is [BLANK], and the total number of animal heads is 20, how many sheep live on Lee's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On his farm, Lee raises exclusively sheep and geese. Given that the overall count of animal legs is [BLANK], and there are 20 animal heads in total, what is the number of sheep present on Lee's farm? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lee has a farm where he only keeps sheep and geese. If the total leg count of the animals amounts to [BLANK], and there are 20 heads altogether, how many sheep does Lee have on his farm? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On his farm, Lee only raises sheep and geese. The total number of legs among these animals is [BLANK], while the total number of heads is 20. How many sheep are there on Lee's farm? We will think through this step by step, and then present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lee's farm is home to only sheep and geese. If the total number of legs among the animals equals [BLANK], and they have a combined head count of 20, what is the quantity of sheep on Lee's farm? Let's proceed step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On his farm, Lee exclusively raises sheep and geese. The total number of legs for all the animals is [BLANK], and the total number of heads is 20. How many sheep are there on Lee's farm? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mia operates a farm with only llamas and chickens. If the total number of animal legs is [BLANK], and the total number of animal heads is 14, how many llamas live on Mia's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia runs a farm that has just llamas and chickens. Given that the cumulative number of animal legs is [BLANK], and there are 14 animal heads in total, how many llamas are there on Mia's farm? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On her farm, Mia has solely llamas and chickens. If the overall count of animal legs amounts to [BLANK], and the total number of animal heads equals 14, what is the number of llamas residing on Mia's farm? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia has a farm that includes only llamas and chickens. If the total count of legs among the animals is [BLANK], and there are 14 heads altogether, how many llamas are present on Mia's farm? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At her farm, Mia keeps only llamas and chickens. The total number of legs from all the animals is [BLANK], and there are a total of 14 heads. How many llamas does Mia have on her farm? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mia's farm consists exclusively of llamas and chickens. The combined total of animal legs is [BLANK], and there are 14 heads in total. How many llamas are there on Mia's farm? Let's explore this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Oliver keeps only cows and chickens on his farm. If the total number of animal legs is [BLANK], and the total number of animal heads is 22, how many cows live on Oliver's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On his farm, Oliver raises only chickens and cows. Given that the combined total of animal legs amounts to [BLANK] and the overall count of animal heads is 22, how many cows are there on Oliver's farm? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver's farm is home to only cows and chickens. If the sum of all animal legs equals [BLANK] and the total number of heads is 22, what is the number of cows residing on Oliver's farm? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On his farm, Oliver only keeps chickens and cows. If the total legs of the animals are [BLANK] and there are 22 heads in total, how many cows does Oliver have? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver only has cows and chickens on his farm. If the total count of legs among the animals is [BLANK] and there are 22 heads altogether, how many cows live on Oliver's farm? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver raises only cows and chickens at his farm. If the total number of legs among the animals is [BLANK], and the total number of heads is 22, how many cows are present on Oliver's farm? Let's go through this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emma raises only ducks and rabbits on her farm. If the total number of animal legs is [BLANK], and the total number of animal heads is 18, how many ducks live on Emma's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On her farm, Emma has only ducks and rabbits. Given that the total count of animal legs is [BLANK], and there are 18 animal heads altogether, how many ducks are found on Emma's farm? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma keeps only ducks and rabbits at her farm. If the sum of all animal legs equals [BLANK], and there are 18 heads in total, how many ducks does Emma have on her farm? Let's break this down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma raises solely ducks and rabbits on her farm. If the combined number of animal legs is [BLANK], and the total number of heads is 18, how many ducks are present on Emma's farm? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At her farm, Emma only has ducks and rabbits. If the overall total of animal legs amounts to [BLANK], and there are 18 heads altogether, how many ducks are residing on Emma's farm? Let's examine this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma's farm has only ducks and rabbits. If the total number of legs among the animals is [BLANK], and the total number of heads is 18, how many ducks live on Emma's farm? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia has only pigs and turkeys on her farm. If the total number of animal legs is [BLANK], and the total number of animal heads is 24, how many pigs live on Sophia's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On her farm, Sophia raises just pigs and turkeys. Given that the total count of animal legs is [BLANK], and there are 24 animal heads in total, how many pigs does Sophia have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia's farm consists solely of pigs and turkeys. If the overall number of legs from the animals amounts to [BLANK], and the total number of heads is 24, how many pigs are present on her farm? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia has nothing but pigs and turkeys on her farm. If the combined total of animal legs is [BLANK], and there are 24 heads altogether, how many pigs are on Sophia's farm? Let's work through this systematically and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On her farm, Sophia keeps only pigs and turkeys. If the total legs of the animals equal [BLANK], and the sum of heads is 24, how many pigs are there on Sophia's farm? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia's farm is home only to pigs and turkeys. If the total number of legs from the animals is [BLANK], with there being 24 heads in total, how many pigs can be found on her farm? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "James tends to only goats and ducks on his farm. If the total number of animal legs is [BLANK], and the total number of animal heads is 16, how many goats live on James's farm? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On his farm, James has only goats and ducks. If the combined total of animal legs is [BLANK], and the overall count of animal heads is 16, how many goats does James have? Let's reason through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James raises only goats and ducks at his farm. The total number of legs of the animals amounts to [BLANK], while the total number of heads among the animals is 16. How many goats are there on James's farm? We can analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At his farm, James looks after only goats and ducks. If the cumulative number of legs from the animals is [BLANK], and the total head count is 16, how many goats are present on James's farm? Let\u2019s work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James has solely goats and ducks on his farm. Given that the overall total of animal legs is [BLANK], and the total number of heads is 16, how many goats are there on James's farm? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On James's farm, he exclusively tends to goats and ducks. If the total count of legs among the animals is [BLANK], and the total number of heads is 16, how many goats reside on James's farm? Let\u2019s think this through step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

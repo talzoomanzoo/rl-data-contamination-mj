@@ -1,0 +1,210 @@
+{
+  "original_question": "What is the probability that a randomly drawn positive factor of $60$ is less than $7$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the likelihood that a randomly selected positive divisor of $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "What is the chance that a positive factor chosen at random from $[BLANK]$ will be less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "What is the probability that a positive divisor randomly picked from $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "What is the odds that a randomly chosen positive factor of $[BLANK]$ is under $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a randomly selected positive divisor of $[BLANK]$ is fewer than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the chance that a positive factor selected at random from $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the likelihood that a randomly chosen positive divisor of $[BLANK]$ is less than $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "What is the likelihood that a positive factor picked at random from $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the probability that a randomly selected positive divisor of $[BLANK]$ is under $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a randomly chosen positive factor of $[BLANK]$ will be less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the chance that a randomly selected positive divisor of $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "What is the likelihood that a positive factor chosen at random from $[BLANK]$ is under $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "What is the probability that a randomly picked positive divisor of $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "What is the odds that a positive factor randomly drawn from $[BLANK]$ is less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a positive divisor randomly selected from $[BLANK]$ is fewer than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What are the chances that a randomly selected positive divisor of $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "What is the likelihood that a positive factor chosen at random from $[BLANK]$ is less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "What is the probability that a randomly picked positive factor of $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "What is the chance that a positive divisor drawn at random from $[BLANK]$ is less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a randomly chosen positive factor of $[BLANK]$ is under $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the chance that a randomly selected positive divisor of $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "What is the likelihood that a positive factor chosen at random from $[BLANK]$ is less than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "What is the probability that a positive divisor randomly picked from $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "What is the odds that a randomly chosen positive factor of $[BLANK]$ will be lower than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a randomly selected positive divisor of $[BLANK]$ is fewer than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "What is the probability that a randomly drawn positive factor of $[BLANK]$ is less than $[BLANK]$?\\\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the likelihood that a randomly selected positive divisor of $[BLANK]$ is smaller than $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the chance that a randomly chosen positive factor of $[BLANK]$ is less than $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the probability that a positive factor picked at random from $[BLANK]$ is below $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the probability that a positive divisor randomly drawn from $[BLANK]$ is less than $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "What is the probability that a randomly selected positive factor of $[BLANK]$ falls below $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

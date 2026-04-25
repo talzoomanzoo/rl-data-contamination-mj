@@ -1,0 +1,210 @@
+{
+  "original_question": "Tom went on a two-week-long trip through Europe. In the first 4 days, he traveled 200 kilometers every day, and over the next two days, he totaled only 30% of the distance traveled over the first four days. On the next day, he wasn't traveling at all. During the second week, he made 300 kilometers every day. How many kilometers in total did Tom make during his two-week-long trip? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Tom went on a [BLANK] trip through Europe. In the first 4 days, he traveled 200 kilometers every day, and over the next two days, he totaled only 30% of the distance traveled over the first four days. On the next day, he wasn't traveling at all. During the second week, he made 300 kilometers every day. How many kilometers in total did Tom make during his [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom embarked on a [BLANK] journey across Europe. For the initial 4 days, he covered 200 kilometers each day, and in the subsequent two days, he achieved merely 30% of the distance he covered in the first four days. On the following day, he did not travel at all. In the second week, he traveled 300 kilometers daily. What is the total distance Tom covered during his [BLANK] journey? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom took a [BLANK] expedition through Europe. During the first 4 days, he traveled 200 kilometers per day, and in the next two days, his total distance was just 30% of what he had traveled in the first four days. He did not make any trips on the day after that. Throughout the second week, he covered 300 kilometers each day. How many kilometers did Tom cover in total during his [BLANK] expedition? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom went on a [BLANK] adventure in Europe. In the first 4 days, he covered a distance of 200 kilometers each day, and in the following two days, he managed to travel only 30% of the distance he did in the first four days. On the next day, he did not travel at all. During the second week, he drove 300 kilometers every day. What total distance did Tom achieve during his [BLANK] adventure? Let's evaluate it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom undertook a [BLANK] voyage through Europe. For the first 4 days, he consistently traveled 200 kilometers each day, and in the next two days, he covered only 30% of the distance he had traveled in the first four days. On the following day, there was no traveling. In the second week, he traveled 300 kilometers daily. How many kilometers did Tom accumulate during his [BLANK] voyage? Let's break it down step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom set off on a [BLANK] trip across Europe. In the initial 4 days, he traveled 200 kilometers each day, and in the next two days, he covered just 30% of the distance he traveled in the first four days. On the next day, he did not travel at all. During the second week, he consistently traveled 300 kilometers each day. What is the total distance Tom accomplished during his [BLANK] trip? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Liam went on a [BLANK] trip through North America. In the first 7 days, he traveled 140 kilometers every day, and over the next two days, he totaled only 50% of the distance traveled over the first seven days. On the next day, he wasn't traveling at all. During the second week, he made 360 kilometers every day. How many kilometers in total did Liam make during his [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam embarked on a [BLANK] journey across North America. For the initial 7 days, he covered 140 kilometers each day, and in the following two days, he achieved only 50% of the distance he had covered in the first seven days. The day after, he did not travel at all. Throughout the second week, he traveled 360 kilometers daily. What is the total distance Liam traveled during his [BLANK] journey? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam took a [BLANK] expedition through North America. In the first week, he moved 140 kilometers each day for 7 days, and during the subsequent two days, he managed only 50% of the distance he covered in the initial week. On the following day, he remained stationary. In the second week, he covered 360 kilometers every day. How many kilometers did Liam cover in total during his [BLANK] expedition? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam set off on a [BLANK] voyage through North America. Over the first 7 days, he journeyed 140 kilometers daily, and in the next two days, he traveled only half of the distance achieved in those initial seven days. The next day, he did not travel. During the second week, he covered 360 kilometers each day. What is the total distance that Liam traveled throughout his [BLANK] voyage? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam went on a [BLANK] tour across North America. During the first week, he traveled 140 kilometers each day for 7 days, and in the following two days, he achieved just 50% of the distance from the first week. The day after that, he did not travel at all. In the second week, he covered 360 kilometers per day. How many kilometers did Liam cover in total during his [BLANK] tour? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam participated in a [BLANK] expedition in North America. For the initial 7 days, he covered 140 kilometers daily, and over the subsequent two days, he only managed to cover 50% of the distance he traveled in the first seven days. On the next day, he did not make any journey. During the second week, he consistently traveled 360 kilometers each day. What is the total distance he traveled during his [BLANK] expedition? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Mike went on a [BLANK] trip through Australia. In the first 3 days, he traveled 250 kilometers every day, and over the next four days, he totaled only 20% of the distance traveled over the first three days. On the next day, he wasn't traveling at all. During the second week, he made 400 kilometers every day. How many kilometers in total did Mike make during his [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mike embarked on a [BLANK] journey across Australia. For the initial three days, he covered 250 kilometers each day, and in the subsequent four days, he achieved only 20% of the distance he covered during the first three days. On the following day, he did not travel at all. Throughout the second week, he traveled 400 kilometers each day. What is the total distance Mike covered during his [BLANK] journey? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mike set out on a [BLANK] expedition in Australia. In the first three days, he journeyed 250 kilometers daily, while in the next four days, he only reached 20% of the distance he traveled in the first three days. The day after that, he stayed put and did not travel. During the second week, he covered 400 kilometers each day. How many kilometers did Mike accumulate during his [BLANK] expedition? Let's analyze it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mike took a [BLANK] adventure throughout Australia. Over the first three days, he traversed 250 kilometers each day, and in the following four days, he only managed to cover 20% of the distance he accomplished in the first three days. On the next day, he did no traveling at all. In the second week, he consistently traveled 400 kilometers each day. What total distance did Mike achieve on his [BLANK] adventure? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mike went on a [BLANK] journey through Australia. During the first three days, he covered 250 kilometers each day, while in the next four days, he accounted for just 20% of the distance traveled in those first three days. The day after that, he did not make any journey. In the second week, he traveled 400 kilometers a day. How many kilometers did Mike cover in total during his [BLANK] journey? Let's work through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mike participated in a [BLANK] trip across Australia. In the opening three days, he moved 250 kilometers per day, and over the next four days, he only reached 20% of the total distance covered during the first three days. The following day, he didn't travel at all. In the second week, he maintained a pace of 400 kilometers each day. What was the total distance Mike traveled during his [BLANK] trip? Let's analyze this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Anna went on a [BLANK] trip through South America. In the first 6 days, she traveled 120 kilometers every day, and over the next two days, she totaled only 25% of the distance traveled over the first six days. On the next day, she wasn't traveling at all. During the second week, she made 280 kilometers every day. How many kilometers in total did Anna make during her [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Anna embarked on a [BLANK] journey across South America. For the initial 6 days, she covered 120 kilometers each day, and in the subsequent two days, she only managed to travel 25% of the distance she covered during the first six days. On the following day, she did not travel at all. In her second week, she traveled 280 kilometers daily. What is the total distance Anna traveled during her [BLANK] journey? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Anna took a [BLANK] expedition through South America. In the first 6 days, she moved 120 kilometers each day, and in the next two days, she accumulated just 25% of the distance she traveled in the first six days. On the following day, she did not make any journey. During the second week, she traveled 280 kilometers per day. How many kilometers did Anna cover in total during her [BLANK] expedition? Let's evaluate it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Anna went on a [BLANK] voyage in South America. Over the first 6 days, she traversed 120 kilometers daily, and in the two days that followed, she achieved only 25% of the distance she covered in the initial six days. On the day after that, she did not travel at all. Throughout the second week, she maintained a pace of 280 kilometers each day. What is the overall distance Anna traveled during her [BLANK] voyage? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Anna participated in a [BLANK] tour through South America. During the first 6 days, she journeyed 120 kilometers every day, and over the next two days, she accounted for merely 25% of the distance she covered during the first six days. On the following day, she did not travel. In her second week, she covered 280 kilometers each day. How many kilometers did Anna travel in total during her [BLANK] tour? Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Anna set off on a [BLANK] adventure across South America. In the initial 6 days, she traveled 120 kilometers each day, and in the next two days, she only reached 25% of the distance she traveled in the first six days. On the day after that, she did not travel at all. In the second week, she covered 280 kilometers every day. What is the total distance Anna achieved during her [BLANK] adventure? Let's consider it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Jake went on a [BLANK] trip through Asia. In the first 5 days, he traveled 150 kilometers every day, and over the next three days, he totaled only 40% of the distance traveled over the first five days. On the next day, he wasn't traveling at all. During the second week, he made 250 kilometers every day. How many kilometers in total did Jake make during his [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake embarked on a [BLANK] journey across Asia. For the initial 5 days, he covered 150 kilometers daily, and in the following three days, he only achieved 40% of the distance he traveled in the first five days. On the subsequent day, he didn't travel at all. In the second week, he traveled 250 kilometers each day. What is the total distance Jake traveled during his [BLANK] journey? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake took a [BLANK] expedition through Asia. In the first five days, he covered 150 kilometers each day, and over the next three days, he managed only 40% of the distance he covered during the initial five days. The following day, he did not travel. Throughout the second week, he averaged 250 kilometers daily. What total distance did Jake cover on his [BLANK] expedition? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake set out on a [BLANK] voyage through Asia. During the first five days, he traveled 150 kilometers per day, while in the next three days, he reached just 40% of the distance traveled in the first five days. On the day after that, he was not traveling. Throughout the second week, he completed 250 kilometers every day. How many kilometers did Jake accumulate during his [BLANK] voyage? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake went on a [BLANK] excursion across Asia. In the first five days, he journeyed 150 kilometers each day, and in the subsequent three days, he covered only 40% of the distance he had traveled in the initial five days. On the following day, he did not travel at all. During the second week, he consistently traveled 250 kilometers every day. How many kilometers did Jake accumulate on his [BLANK] excursion? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake participated in a [BLANK] tour through Asia. For the first five days, he traveled 150 kilometers each day, and in the next three days, he managed to cover only 40% of the distance from the first five days. The next day, he did not travel. During the second week, he achieved 250 kilometers each day. What is the total distance Jake covered during his [BLANK] tour? Let's evaluate it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophie went on a [BLANK] trip through Africa. In the first 4 days, she traveled 180 kilometers every day, and over the next two days, she totaled only 35% of the distance traveled over the first four days. On the next day, she wasn't traveling at all. During the second week, she made 320 kilometers every day. How many kilometers in total did Sophie make during her [BLANK] trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophie embarked on a [BLANK] journey across Africa. For the initial 4 days, she covered 180 kilometers each day, and in the following two days, she only achieved 35% of the distance she covered during the first four days. The subsequent day, she did not travel at all. In the second week, she traveled 320 kilometers daily. What was the total distance Sophie traveled during her [BLANK] journey? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie set out on a [BLANK] expedition through Africa. During the first 4 days, she managed to travel 180 kilometers per day, while in the next two days, she reached only 35% of the distance she had traveled in the first four days. On the following day, she did not make any trips. In her second week, she covered 320 kilometers each day. How many kilometers did Sophie cover in total during her [BLANK] expedition? Let's go through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophie took a [BLANK] adventure in Africa. In the first 4 days, she consistently traveled 180 kilometers each day, and over the next two days, she managed to cover just 35% of the distance she had traveled over the initial four days. On the next day, she was not traveling at all. During the second week, she traveled 320 kilometers every day. What is the total distance that Sophie traveled during her [BLANK] adventure? Let\u2019s consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophie went on a [BLANK] journey throughout Africa. In the first 4 days, she covered 180 kilometers daily, and in the two days following that, she achieved only 35% of the distance she had traveled in the first four days. The next day, she did not travel at all. In the second week, she traveled 320 kilometers each day. How many kilometers did Sophie accumulate in total during her [BLANK] journey? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie went on a [BLANK] expedition across Africa. Over the first 4 days, she traveled 180 kilometers each day, while in the next two days, she reached only 35% of the total distance covered in the initial four days. On the following day, she did not make any journeys. During the second week, she traveled 320 kilometers every day. What is the total distance Sophie covered during her [BLANK] expedition? Let's analyze it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

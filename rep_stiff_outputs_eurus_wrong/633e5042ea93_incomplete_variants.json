@@ -1,0 +1,210 @@
+{
+  "original_question": "Damien created a currency based on bottle caps and got his friends to take part.  He finds 10 bottle caps a day on his way home and each bottle cap is worth $.25.  How much money does he make in a 30 day month? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Noah created a fun activity based on buttons and asked his friends to join him. He finds [BLANK] buttons a day on his way to the gym and each button is worth $.35. How much money does he make in a 10 day month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah came up with an enjoyable game involving buttons and invited his friends to participate. He discovers [BLANK] buttons daily on his route to the gym, and each button has a value of $.35. What is his total earnings for a month of 10 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah designed an entertaining challenge around buttons and asked his friends to take part. Every day on his way to the gym, he finds [BLANK] buttons, with each button priced at $.35. How much does he earn over a month of 10 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah invented a playful activity centered on buttons and invited his friends to join him. He comes across [BLANK] buttons each day as he heads to the gym, and the value of each button is $.35. What is the total amount he makes in a month that lasts 10 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah developed a fun project involving buttons and requested his friends to join in. He collects [BLANK] buttons per day on his journey to the gym, and each button is valued at $.35. How much money does he accumulate during a 10-day month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah started a playful endeavor with buttons and encouraged his friends to participate. On his way to the gym, he finds [BLANK] buttons each day, with each button worth $.35. What total amount does he earn over the course of a month with 10 days?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sophia began a reward system based on stickers and encouraged her classmates to participate. She collects [BLANK] stickers a day during lunch and each sticker is worth $.40. How much money does she make in a 25 day month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia initiated a sticker reward program and motivated her peers to join in. She gathers [BLANK] stickers each day at lunchtime, with each sticker valued at $.40. What is her total earnings for a month that has 25 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia started a system of rewards using stickers and inspired her classmates to take part. During lunch, she collects [BLANK] stickers daily, and each sticker has a value of $.40. How much money does she earn over a month consisting of 25 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia set up a sticker-based reward initiative and encouraged her classmates to get involved. Every day at lunchtime, she amasses [BLANK] stickers, with each sticker priced at $.40. What is her total income for a month that lasts 25 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia created a reward system centered around stickers and urged her classmates to participate. Each lunch period, she collects [BLANK] stickers, each worth $.40. How much does she earn in a month of 25 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia launched a sticker reward scheme and motivated her classmates to engage. She collects [BLANK] stickers each day during lunch, and each sticker is valued at $.40. What amount does she generate in a month that has 25 days?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Ethan launched a trading game using coins and got his peers involved. He discovers [BLANK] coins a day on his walk to the park and each coin is worth $.50. How much money does he make in a 15 day month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan started a trading game with coins and invited his friends to participate. He finds [BLANK] coins daily while walking to the park, with each coin valued at $.50. What is his total earnings in a month of 15 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan initiated a coin trading game and got his friends involved. During his daily walks to the park, he discovers [BLANK] coins, each having a value of $.50. How much money does he earn in a 15-day period?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ethan set up a trading game involving coins and engaged his peers. On his stroll to the park, he uncovers [BLANK] coins every day, with each coin worth $.50. How much money does he accumulate over a month consisting of 15 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan launched a coin trading game and included his friends in it. He finds [BLANK] coins each day on his way to the park, with each coin being worth $.50. How much total money does he generate during a 15-day month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan created a trading game with coins and got his friends to join in. He picks up [BLANK] coins every day while walking to the park, with the value of each coin being $.50. How much revenue does he make in a month that has 15 days?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam started a new project based on marbles and invited his friends to join. He finds [BLANK] marbles a day on his way to school and each marble is worth $.30. How much money does he make in a 20 day month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam began a new project involving marbles and asked his friends to participate. He discovers [BLANK] marbles daily on his route to school, with each marble valued at $.30. What is his total earnings for a month of 20 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam has initiated a new marble-related project and invited his friends to take part. Each day, he finds [BLANK] marbles while heading to school, and each marble costs $.30. How much will he earn over the course of a 20-day month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam is working on a new project centered around marbles and has invited his friends to join him. On his way to school, he collects [BLANK] marbles every day, and each marble is priced at $.30. What is the amount of money he will earn in a month that has 20 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam has started a marble-themed project and has welcomed his friends to join him. He comes across [BLANK] marbles each day on his way to school, with each marble being worth $.30. How much money will he accumulate in a month consisting of 20 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam is embarking on a new project about marbles and has invited his friends to participate. On his daily route to school, he finds [BLANK] marbles, each valued at $.30. How much money will he generate during a month that lasts 20 days?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Chloe initiated a challenge using tokens and rallied her friends to take part. She uncovers [BLANK] tokens a day during her commute and each token is worth $.20. How much money does she make in a 40 day month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Chloe started a contest with tokens and encouraged her friends to join. She discovers [BLANK] tokens daily on her way to work, and each token has a value of $.20. What is her total earnings in a month of 40 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Chloe launched a token challenge and invited her friends to participate. Each day during her commute, she finds [BLANK] tokens, with each token valued at $.20. How much money does she earn over a 40-day month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Chloe began a token-based challenge and gathered her friends to join in. During her daily commute, she collects [BLANK] tokens, each worth $.20. How much will she make in a month consisting of 40 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Chloe kicked off a token challenge and called on her friends to participate. Each day, she retrieves [BLANK] tokens while commuting, and every token is valued at $.20. How much total money does she receive in a month of 40 days?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Chloe has started a challenge involving tokens and has enlisted her friends to take part. She finds [BLANK] tokens each day during her commute, and each token is valued at $.20. What is her total income for a month that lasts 40 days?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Damien created a currency based on bottle caps and got his friends to take part. He finds [BLANK] bottle caps a day on his way home and each bottle cap is worth $.25. How much money does he make in a 30 day month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Damien started a currency using bottle caps and invited his friends to join in. He discovers [BLANK] bottle caps daily on his commute home, and each bottle cap has a value of $.25. What is his total earnings for a month of 30 days? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Damien established a currency system utilizing bottle caps and encouraged his friends to participate. On his journey home, he collects [BLANK] bottle caps each day, with each cap valued at $.25. How much does he earn over a 30-day period? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Damien set up a currency based on bottle caps and got his friends involved. He finds [BLANK] bottle caps every day on his way back home, and each cap is worth $.25. What amount does he accumulate in a month with 30 days? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Damien devised a currency using bottle caps and rallied his friends to join. He picks up [BLANK] bottle caps per day on his route home, and each cap is valued at $.25. How much revenue does he generate in a month of 30 days? Let\u2019s work through it step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Damien launched a currency based on bottle caps and got his friends involved. He finds [BLANK] bottle caps each day while heading home, with each bottle cap worth $.25. What is his total income for a 30-day month? Let\u2019s think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

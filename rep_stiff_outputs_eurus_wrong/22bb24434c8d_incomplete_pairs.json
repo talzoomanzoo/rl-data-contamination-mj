@@ -1,0 +1,62 @@
+{
+  "original_question": "Adam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells 60% of his inventory, how much money does he lose? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the percentage of inventory sold\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Adam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells 60% of his inventory, how much money does he lose? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Adam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Emma has $120 and wants to spend it to open a flower stand. She can buy flowers for $4 each and sell them for $6 each. If she invests all her money in the flower stand but only sells 70% of her inventory, how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma has $120 and wants to spend it to open a flower stand. She can buy flowers for $4 each and sell them for $6 each. If she invests all her money in the flower stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Liam has $150 and wants to spend it to open a toy stand. He can buy toys for $10 each and sell them for $15 each. If he invests all his money in the toy stand but only sells 50% of his inventory, how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam has $150 and wants to spend it to open a toy stand. He can buy toys for $10 each and sell them for $15 each. If he invests all his money in the toy stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sophia has $80 and wants to spend it to open a book stand. She can buy books for $8 each and sell them for $12 each. If she invests all her money in the book stand but only sells 55% of her inventory, how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia has $80 and wants to spend it to open a book stand. She can buy books for $8 each and sell them for $12 each. If she invests all her money in the book stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Noah has $90 and wants to spend it to open a lemonade stand. He can buy lemons for $3 each and sell lemonade for $5 each. If he invests all his money in the lemonade stand but only sells 65% of his inventory, how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Noah has $90 and wants to spend it to open a lemonade stand. He can buy lemons for $3 each and sell lemonade for $5 each. If he invests all his money in the lemonade stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ava has $110 and wants to spend it to open a jewelry stand. She can buy pieces of jewelry for $7 each and sell them for $9 each. If she invests all her money in the jewelry stand but only sells 62% of her inventory, how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ava has $110 and wants to spend it to open a jewelry stand. She can buy pieces of jewelry for $7 each and sell them for $9 each. If she invests all her money in the jewelry stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of inventory sold\""
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received 20000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Eva posted her art piece on Instagram. She received 3000 likes on the piece after 1 week. Three weeks later, the number of likes was 90 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After sharing her artwork on Instagram, Eva garnered 3000 likes within the first week. Three weeks later, the total likes reached 90 times the original number. If she obtained [BLANK] additional likes recently, what is the total number of likes on her Instagram? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Eva uploaded her art to Instagram and got 3000 likes in just one week. After three more weeks, the likes increased to 90 times the initial count. If she has recently gained [BLANK] more likes, how many likes does she have on Instagram now? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "After posting her artwork on Instagram, Eva received 3000 likes in the first week. Three weeks later, the total likes equaled 90 times the initial amount. If she has recently acquired [BLANK] extra likes, what is the current total of likes on her Instagram? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Eva showcased her artwork on Instagram and achieved 3000 likes after one week. Three weeks later, the likes amounted to 90 times the initial figure. If she recently got [BLANK] more likes, how many likes does she currently have on Instagram? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "After posting her art piece on Instagram, Eva received 3000 likes in the first week. Three weeks later, the likes totaled 90 times the original count. If she received [BLANK] additional likes recently, what is the total number of Instagram likes? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sophia released her music video on Instagram. She received 1800 likes on the video after 1 week. Three weeks later, the number of likes was 50 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia uploaded her music video on Instagram. After 1 week, she got 1800 likes on the video. Three weeks later, the likes had increased to 50 times the original count. If she gained [BLANK] additional likes recently, what is the total number of Instagram likes now? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia shared her music video on Instagram. Within a week, it garnered 1800 likes. Three weeks later, the total likes reached 50 times the initial amount. If she acquired [BLANK] more likes recently, what is the current number of Instagram likes? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia posted her music video on Instagram. After one week, she had received 1800 likes on her video. Three weeks afterward, the likes amounted to 50 times the starting figure. If she obtained [BLANK] additional likes recently, how many Instagram likes does she have now? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia launched her music video on Instagram. After a week, she received 1800 likes on it. Three weeks later, the total likes were 50 times greater than the initial number. If she added [BLANK] more likes recently, how many likes does she currently have on Instagram? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia debuted her music video on Instagram. In the first week, it collected 1800 likes. Three weeks later, the total likes equaled 50 times the initial count. If she has gained [BLANK] additional likes recently, what is the total number of Instagram likes? Let\u2019s break this down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Luna shared her travel photo on Instagram. She received 1500 likes on the photo after 1 week. Three weeks later, the number of likes was 60 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Luna posted her travel picture on Instagram. After 1 week, the photo garnered 1500 likes. Three weeks later, the total likes increased to 60 times the original count. If she gained [BLANK] additional likes recently, what is the total number of likes on Instagram? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Luna uploaded her travel photograph to Instagram. Within a week, she received 1500 likes on it. After three more weeks, the likes rose to 60 times the initial amount. If she obtained [BLANK] more likes recently, how many likes does she have on Instagram now? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Luna shared a travel image on Instagram. She got 1500 likes on the image after a week. Three weeks later, the total likes were 60 times the first count. If she acquired [BLANK] additional likes lately, what is the total number of Instagram likes? Let's think this through step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Luna displayed her travel snapshot on Instagram. After one week, the post had received 1500 likes. Three weeks later, the likes totaled 60 times the original figure. If she has received [BLANK] extra likes recently, how many likes does she now have on Instagram? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Luna revealed her travel photo on Instagram. She collected 1500 likes on it after one week. Three weeks later, the number of likes reached 60 times the initial total. If she received [BLANK] more likes recently, how many likes are on her Instagram now? Let's evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark uploaded his cooking video on Instagram. He received 2500 likes on the video after 1 week. Three weeks later, the number of likes was 80 times as many as the initial number of likes. If he received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark shared his cooking video on Instagram. After one week, the video accumulated 2500 likes. After three additional weeks, the total likes became 80 times the original amount. If he gained [BLANK] additional likes recently, what is the total number of likes on Instagram? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark posted his cooking video on Instagram. Within a week, he received 2500 likes for the video. Three weeks later, the likes reached 80 times the initial count. If he obtained [BLANK] extra likes recently, how many Instagram likes does he have now? Let's break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark uploaded his cooking video on Instagram. After one week, he had 2500 likes on the video. Subsequently, three weeks later, the number of likes was 80 times the first amount. If he added [BLANK] more likes recently, what is the total number of likes on Instagram? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark released his cooking video on Instagram. He achieved 2500 likes on the video after one week. Three weeks later, the likes were 80 times the original figure. If he received [BLANK] further likes recently, how many likes does he have on Instagram in total? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark shared his cooking video on Instagram. After a week, the video had 2500 likes. Three weeks later, the likes increased to 80 times the initial number. If he received [BLANK] more likes recently, what is the total number of likes on Instagram? Let\u2019s think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jake shared his workout routine on Instagram. He received 3500 likes on the routine after 1 week. Three weeks later, the number of likes was 75 times as many as the initial number of likes. If he received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake posted his exercise regimen on Instagram. After a week, he garnered 3500 likes on the post. Three weeks later, the total likes reached 75 times the original count. If he gained [BLANK] additional likes recently, what is the total number of Instagram likes? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake uploaded his fitness plan to Instagram. He obtained 3500 likes on the plan within the first week. Three weeks afterward, the total likes increased to 75 times the initial likes. If he has received [BLANK] extra likes recently, how many likes does he have on Instagram now? Let\u2019s work through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake shared his training schedule on Instagram. After one week, he achieved 3500 likes on the post. Three weeks later, the likes amounted to 75 times the original number. If he added [BLANK] more likes recently, what is the current total of Instagram likes? We will think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake revealed his workout schedule on Instagram. He got 3500 likes on the schedule after one week. Three weeks later, the likes totaled 75 times the initial figure. If he has accumulated [BLANK] additional likes lately, how many likes does he have on Instagram altogether? Let\u2019s go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake documented his exercise routine on Instagram. He received 3500 likes on the routine within the first week. Three weeks later, the likes were 75 times greater than the initial amount. If he earned [BLANK] more likes recently, how many Instagram likes does he currently have? Let's consider this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Fishio shared her selfie on Instagram. After one week, the post accumulated 2000 likes. Three weeks later, the total likes reached 70 times the original count. If she gained [BLANK] additional likes recently, what is the total number of likes on Instagram? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Fishio uploaded her selfie to Instagram. She garnered 2000 likes on the picture in just one week. Three weeks later, the likes amounted to 70 times the initial figure. If she obtained [BLANK] extra likes recently, how many likes does she have on Instagram now? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Fishio posted her selfie on Instagram. Within one week, the image received 2000 likes. Three weeks later, the number of likes was 70 times the original total. If she got [BLANK] more likes recently, how many likes does she have on Instagram? Let's break this down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Fishio shared her selfie on Instagram. After a week, the post had 2000 likes. Three weeks later, the number of likes was 70 times what it was initially. If she has recently gained [BLANK] additional likes, what is the current total of Instagram likes? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Fishio uploaded her selfie on Instagram. She received 2000 likes within the first week. Three weeks later, the likes were 70 times the initial amount. If she has received [BLANK] extra likes recently, how many total likes are there on Instagram? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

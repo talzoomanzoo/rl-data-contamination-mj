@@ -1,0 +1,210 @@
+{
+  "original_question": "Determine how many integer values of $x$ satisfy $-100 < x^4 < 100$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of integer solutions for $x$ that fulfill [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the integer values of $x$ that meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify how many integers $x$ are such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the count of integer values for $x$ that satisfy [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of integers $x$ that adhere to [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of integer solutions for $x$ that fulfill [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate how many integer values for $x$ meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the total integer values of $x$ that satisfy the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Establish how many integers $x$ exist such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ascertain the number of integer values for $x$ that comply with [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the total number of integer solutions for $x$ such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the quantity of integer values for $x$ that meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify how many integer values of $x$ fulfill the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the number of integer $x$ that satisfies the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Evaluate how many integer values of $x$ are in the range [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of integer solutions for $x$ such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the count of integer values for $x$ that meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify how many integer values of $x$ fulfill the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the total number of integer values for $x$ that satisfy [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Evaluate how many integer values of $x$ are in the range where [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the total number of integer solutions for $x$ such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the count of integer values of $x$ that fulfill [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify how many integer values of $x$ meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the number of integer values for $x$ that satisfy the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Evaluate how many integer values of $x$ are such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the total number of integer solutions for $x$ that fulfill [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the quantity of integer values for $x$ that meet the condition [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify how many integer values of $x$ are valid such that [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the count of integer $x$ that satisfy the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Evaluate how many integer values of $x$ are applicable for the inequality [BLANK] < x^4 < [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

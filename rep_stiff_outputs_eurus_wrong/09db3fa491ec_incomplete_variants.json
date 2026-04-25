@@ -1,0 +1,210 @@
+{
+  "original_question": "A dance studio offers lessons to students. It costs $25 per session to rent the studio plus $1.50 per student per session. At present, the dance studio has 10 students and is rented 3 days a week. How much are the expected earnings of the dance studio in a month? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A tutoring center offers sessions to students. It costs $20 per session to rent the space plus $2.50 per student per session. At present, the tutoring center has [BLANK] and is rented 2 days a week. How much are the expected earnings of the tutoring center in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A tutoring facility provides instructional sessions for learners. The fee to lease the area is $20 for each session, in addition to $2.50 for every student per session. Currently, the tutoring facility has [BLANK] and operates 2 days weekly. What are the anticipated monthly profits of the tutoring facility? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An educational center conducts tutoring sessions for students. The cost to secure the venue is $20 for each session, plus an additional $2.50 for each student attending. At this time, the educational center has [BLANK] and is utilized 2 days each week. What will be the expected monthly income of the educational center? Let\u2019s break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A learning center offers tutoring sessions to pupils. Renting the space incurs a cost of $20 per session along with $2.50 for each student per session. Presently, the learning center has [BLANK] and is reserved for 2 days a week. How much will the projected revenue for the learning center be over the course of a month? Let\u2019s go through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A study center provides tutoring opportunities for students. The expense to rent the facility is $20 for every session, in addition to $2.50 per student for each session. Right now, the study center has [BLANK] and operates 2 days a week. What are the expected monthly earnings for the study center? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An academic center offers tutoring sessions for students. It charges $20 per session for space rental plus $2.50 per student attending each session. Currently, the academic center has [BLANK] and is rented out 2 days a week. What will the estimated monthly earnings of the academic center be? Let\u2019s discuss this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A music academy offers lessons to students. It costs $40 per session to rent the room plus $1.75 per student per session. At present, the academy has [BLANK] and is rented 5 days a week. How much are the expected earnings of the music academy in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A music school provides instruction to pupils. The room rental fee is $40 for each session, in addition to $1.75 for every student attending each session. Currently, the academy has [BLANK] and is booked for 5 days each week. What are the anticipated monthly earnings of the music school? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A musical institute gives lessons to learners. Renting the room costs $40 per session, along with $1.75 for each student per session. Right now, the academy accommodates [BLANK] and is utilized 5 days a week. How much will the music institute earn in a month? We'll analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A music training center offers courses to students. It charges $40 for each session to rent the space, plus $1.75 for every student participating in that session. At this time, the academy has [BLANK] and operates 5 days each week. What is the expected monthly revenue of the music training center? Let's consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A music education facility provides lessons for students. The cost to rent the room is $40 per session, along with an additional $1.75 for each student per session. Currently, the academy has [BLANK] and is utilized 5 days a week. What will the projected income of the music education facility be in a month? We will think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A music teaching academy conducts sessions for students. The room rental costs $40 for each session, plus $1.75 per student per session. At the moment, the academy has [BLANK] and holds classes 5 days a week. What are the estimated earnings of the music teaching academy over a month? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "An art studio offers classes to students. It costs $35 per session to rent the studio plus $3.00 per student per session. At present, the art studio has [BLANK] and is rented 3 days a week. How much are the expected earnings of the art studio in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A studio for art classes charges $35 for each session in addition to $3.00 for every student attending. Currently, the studio accommodates [BLANK] and is utilized 3 times a week. What will be the anticipated monthly revenue for the art studio? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An art class facility has a fee of $35 for each session along with an additional charge of $3.00 per student for every session. At the moment, the studio has [BLANK] and is booked 3 days each week. What are the projected earnings for the art studio over the course of a month? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The art studio provides classes, charging $35 per session plus $3.00 for each student per session. Right now, the studio is accommodating [BLANK] and is rented out 3 days weekly. How much is the expected income of the art studio in one month? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An art studio conducts classes, incurring a rental fee of $35 per session along with $3.00 for each student attending per session. Currently, the studio has [BLANK] and operates 3 days a week. What would be the expected monthly profits for the art studio? Let\u2019s consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A facility for art lessons charges $35 for each session, plus an additional $3.00 for every student per session. At this time, the studio has [BLANK] and is booked for 3 days each week. What will the expected revenue for the art studio be in a month? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A dance studio offers lessons to students. It costs $25 per session to rent the studio plus $1.50 per student per session. At present, the dance studio has [BLANK] and is rented 3 days a week. How much are the expected earnings of the dance studio in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A dance studio provides lessons for students. The rental fee for the studio is $25 for each session, in addition to $1.50 for every student participating per session. Currently, the dance studio has [BLANK] and is booked for 3 days each week. What will be the anticipated revenue of the dance studio over the course of a month? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A dance studio conducts classes for students. It charges $25 for the studio rental per session along with $1.50 for each student attending per session. At this moment, the dance studio has [BLANK] and is reserved 3 days weekly. How much revenue can the dance studio expect to earn in a month? We will break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A dance studio provides instruction to students. The cost to rent the studio is $25 per session, plus an additional $1.50 per student for each session. Currently, the dance studio has [BLANK] and operates 3 days a week. What are the projected earnings of the dance studio in one month? Let\u2019s think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A dance studio offers classes to students. The studio rental is priced at $25 per session, along with a fee of $1.50 for every student each session. At this time, the dance studio has [BLANK] and is utilized 3 days a week. What will the expected income for the dance studio be in a month? We will consider this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A dance studio conducts lessons for its students. The price for renting the studio is $25 per session, in addition to $1.50 for each student involved per session. Currently, the dance studio has [BLANK] and is rented out 3 days a week. What are the expected monthly earnings for the dance studio? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A cooking school offers workshops to students. It costs $45 per session to rent the kitchen plus $1.25 per student per session. At present, the cooking school has [BLANK] and is rented 6 days a week. How much are the expected earnings of the cooking school in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A culinary academy provides classes for learners. The kitchen rental fee is $45 for each session, in addition to $1.25 for every student attending per session. Currently, the culinary academy has [BLANK] and is booked for 6 days a week. What will be the anticipated revenue for the culinary academy over a month? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A culinary training center hosts workshops for participants. The cost to hire the kitchen is $45 for each session, plus $1.25 for each student per session. At this moment, the culinary training center has [BLANK] and operates 6 days a week. What are the predicted profits for the culinary training center in a month? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An institute for cooking runs sessions for students. Renting the kitchen costs $45 per session, along with an additional $1.25 per student for each session. Presently, the institute for cooking has [BLANK] and is utilized 6 days each week. How much are the estimated earnings of the institute for cooking in a month? Let\u2019s work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A gastronomic school offers workshops to attendees. The kitchen rental is priced at $45 per session, in addition to $1.25 per student per session. Currently, the gastronomic school has [BLANK] and is reserved 6 days weekly. What will be the expected income for the gastronomic school in a month? Let\u2019s reason through it step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A culinary school provides workshops to its students. The kitchen rental fee stands at $45 per session, plus $1.25 for each student attending per session. Right now, the culinary school has [BLANK] and is rented out 6 days each week. What will the forecasted earnings of the culinary school be over a month? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A dance studio offers lessons to students. It costs $30 per session to rent the studio plus $2.00 per student per session. At present, the dance studio has [BLANK] and is rented 4 days a week. How much are the expected earnings of the dance studio in a month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A dance academy provides classes for learners. The rental fee for the studio is $30 each session, in addition to $2.00 for every student per session. Currently, the dance academy has [BLANK] and is booked for 4 days each week. What are the anticipated profits for the dance academy over a month? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A dance school conducts lessons for participants. The studio rental is priced at $30 per session plus an additional $2.00 for each student attending per session. At this moment, the dance school has [BLANK] and is utilized 4 days weekly. What will be the expected revenue of the dance school within a month? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A dance institution provides instruction to pupils. The cost to rent the studio is $30 for each session, along with $2.00 per student for each session. Currently, the dance institution has [BLANK] and is rented out 4 days a week. How much will the dance institution earn in a month? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A dance facility offers training to students. The fee for studio rental is $30 per session, plus $2.00 for every student per session. Presently, the dance facility has [BLANK] and is rented 4 days per week. What are the projected earnings of the dance facility over the course of a month? Let's think through this step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A dance center teaches classes to students. It charges $30 for each session to rent the studio, in addition to $2.00 for every student per session. Right now, the dance center has [BLANK] and is booked 4 days a week. What will be the expected income of the dance center for a month? Let's go through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

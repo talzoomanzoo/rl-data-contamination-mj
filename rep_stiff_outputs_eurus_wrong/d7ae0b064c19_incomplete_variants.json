@@ -1,0 +1,210 @@
+{
+  "original_question": "Gunther, the gorilla, had 48 bananas hidden under a fern branch.  When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile.  The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas.  On the third day, Gunther added another 6 bananas to his pile and began counting bananas.  How many bananas did Gunther find were in the pile? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Gunther, the gorilla, had [BLANK] bananas hidden under a fern branch. When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile. The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas. On the third day, Gunther added another 6 bananas to his pile and began counting bananas. How many bananas did Gunther find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gunther, the gorilla, had [BLANK] bananas concealed beneath a fern branch. While Gunther was distracted, Arnold, the chimpanzee, took away half of the bananas from the stash. The following day, Gunther contributed an additional 25 bananas to his stash, but later that night, Arnold took another 12 bananas. On the third day, Gunther added 6 more bananas to his stash and started to count them. How many bananas did Gunther discover were in the stash? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Gunther, the gorilla, possessed [BLANK] bananas tucked away under a fern branch. When Gunther was not paying attention, Arnold, the chimpanzee, pilfered half of the bananas from the collection. The next day, Gunther increased his collection by adding 25 bananas, but that evening, Arnold swiped another 12 of the bananas. On day three, Gunther added 6 bananas to his collection and began to tally them. How many bananas did Gunther count in the collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gunther, the gorilla, owned [BLANK] bananas hidden beneath a fern branch. While Gunther was not observing, Arnold, the chimpanzee, took half of the bananas from the batch. The next day, Gunther placed another 25 bananas into his batch, but later that night, Arnold stole another 12 bananas. On the third day, Gunther added 6 bananas to his batch and started to count them. How many bananas did Gunther realize were in the batch? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Gunther, the gorilla, stored [BLANK] bananas under a fern branch. When Gunther was momentarily distracted, Arnold, the chimpanzee, grabbed half of the bananas from the stash. The following day, Gunther added 25 bananas to his stash, but that evening, Arnold took an additional 12 bananas. On the third day, Gunther included 6 more bananas in his stash and began counting them. How many bananas did Gunther find in the stash? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gunther, the gorilla, had [BLANK] bananas hidden under a fern branch. While Gunther was not looking, Arnold, the chimpanzee, took away half of the bananas from the stockpile. The next day, Gunther added 25 more bananas to his stockpile, but later that evening, Arnold stole another 12 bananas. On the third day, Gunther added 6 additional bananas to his stockpile and started counting the bananas. How many bananas did Gunther find in the stockpile? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sammy, the squirrel, had [BLANK] acorns hidden in a hollow log. When Sammy wasn't looking, Kevin, the raccoon, stole half of the acorns from the pile. The next day, Sammy added another 20 acorns to his pile, but later that evening, Kevin stole another 10 of the acorns. On the third day, Sammy added another 5 acorns to his pile and began counting acorns. How many acorns did Sammy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sammy, the squirrel, had [BLANK] acorns stored away in a hollow log. While Sammy was distracted, Kevin, the raccoon, took half of the acorns from the stash. The following day, Sammy put 20 more acorns into his collection, but that evening, Kevin took another 10 acorns. On the third day, Sammy added 5 more acorns to his collection and started counting. How many acorns did Sammy discover were in the collection? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sammy, the squirrel, possessed [BLANK] acorns concealed within a hollow log. When Sammy wasn't paying attention, Kevin, the raccoon, grabbed half of the acorns from the hoard. The next day, Sammy contributed another 20 acorns to his hoard, but later that night, Kevin snatched 10 more acorns. On the third day, Sammy added another 5 acorns to his hoard and began to tally them. How many acorns did Sammy realize were in the hoard? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sammy, the squirrel, had [BLANK] acorns tucked away in a hollow log. While Sammy was not watching, Kevin, the raccoon, pilfered half of the acorns from the stash. The next day, Sammy increased his total by adding 20 acorns, but later that evening, Kevin took another 10 acorns. On the third day, Sammy added 5 more acorns to his stash and started counting. How many acorns did Sammy find were in the stash? Let's think through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sammy, the squirrel, owned [BLANK] acorns hidden inside a hollow log. When Sammy was distracted, Kevin, the raccoon, stole half of the acorns from that stash. The day after, Sammy added another 20 acorns to his stash, but later that night, Kevin made off with 10 additional acorns. On the third day, Sammy added yet another 5 acorns to his stash and started to count them. How many acorns did Sammy find in the stash? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sammy, the squirrel, had [BLANK] acorns buried in a hollow log. When Sammy was not watching, Kevin, the raccoon, took away half of the acorns from the collection. The next day, Sammy added 20 more acorns to his collection, but that evening, Kevin swiped another 10 acorns. On the third day, Sammy added 5 more acorns to his collection and began his counting. How many acorns did Sammy find in the collection? Let's think this through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Daisy, the dog, had [BLANK] bones buried in the backyard. When Daisy wasn't looking, Max, the cat, stole half of the bones from the pile. The next day, Daisy added another 18 bones to her pile, but later that evening, Max stole another 6 of the bones. On the third day, Daisy added another 3 bones to her pile and began counting bones. How many bones did Daisy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Daisy, the dog, had [BLANK] bones hidden in the yard. While Daisy was distracted, Max, the cat, took half of the bones from her collection. The following day, Daisy contributed another 18 bones to her collection, but later that night, Max took away 6 more of the bones. On the third day, Daisy added an additional 3 bones to her collection and started counting her bones. How many bones did Daisy discover were in the collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Daisy, the dog, possessed [BLANK] bones concealed in the backyard. When Daisy was not watching, Max, the cat, removed half of the bones from the stash. The next day, Daisy placed an extra 18 bones into her stash, but later that evening, Max snagged another 6 of the bones. On the third day, Daisy added yet another 3 bones to her stash and proceeded to count the bones. How many bones did Daisy find were in the stash? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Daisy, the dog, had [BLANK] bones stored away in the backyard. When Daisy was off guard, Max, the cat, took half of the bones from the heap. The next day, Daisy put in an additional 18 bones to her heap, but later that evening, Max took 6 more of the bones. On the third day, Daisy added 3 more bones to her heap and began to count them. How many bones did Daisy determine were in the heap? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Daisy, the dog, owned [BLANK] bones buried in her backyard. While Daisy was preoccupied, Max, the cat, pilfered half of the bones from the stash. The following day, Daisy added another 18 bones to her stash, but that evening, Max stole 6 more of the bones. On the third day, Daisy included an extra 3 bones in her stash and started counting them. How many bones did Daisy find in her stash? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Daisy, the dog, had [BLANK] bones hidden in the garden. When Daisy was not paying attention, Max, the cat, grabbed half of the bones from the collection. The next day, Daisy increased her collection by another 18 bones, but later that night, Max took away 6 more bones. On the third day, Daisy added 3 more bones to her collection and started to count them. How many bones did Daisy find in her collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Freddy, the fox, had [BLANK] berries stored in a bush. When Freddy wasn't looking, Charlie, the rabbit, stole half of the berries from the pile. The next day, Freddy added another 22 berries to his pile, but later that evening, Charlie stole another 14 of the berries. On the third day, Freddy added another 7 berries to his pile and began counting berries. How many berries did Freddy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Freddy, the fox, had [BLANK] berries hidden in a bush. While Freddy was distracted, Charlie, the rabbit, took half of the berries from the stash. The following day, Freddy put 22 more berries into his stash, but that evening, Charlie snatched another 14 berries. On the third day, Freddy added 7 more berries to his stash and started counting the berries. How many berries did Freddy discover were in the stash? Let's analyze step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Freddy, the fox, possessed [BLANK] berries tucked away in a bush. When Freddy wasn\u2019t paying attention, Charlie, the rabbit, pilfered half of the berries from his collection. The next day, Freddy contributed an additional 22 berries to his collection, but later that night, Charlie took away another 14 berries. On the third day, Freddy added another 7 berries to his collection and started to count them. How many berries did Freddy realize were in the collection? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Freddy, the fox, had [BLANK] berries stored in a bush. While Freddy was not attentive, Charlie, the rabbit, took away half of the berries from the stash. The next day, Freddy added 22 berries to his stash, but that evening, Charlie stole 14 more berries. On the third day, Freddy included 7 more berries into his stash and began to tally the berries. How many berries did Freddy find were in the stash? Let's consider it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Freddy, the fox, had [BLANK] berries kept in a bush. When Freddy wasn't watching, Charlie, the rabbit, removed half of the berries from the pile. The subsequent day, Freddy increased his pile by adding 22 berries, but later that evening, Charlie took 14 more berries. On the third day, Freddy added another 7 berries to his pile and commenced counting. How many berries did Freddy determine were in the pile? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Freddy, the fox, had [BLANK] berries stored away in a bush. While Freddy was distracted, Charlie, the rabbit, took half of the berries from the pile. The next day, Freddy added 22 berries to his pile, but later that night, Charlie stole another 14 berries. On the third day, Freddy included 7 more berries in his pile and began to count them. How many berries did Freddy find were in the pile? Let's reason through it step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lila, the lemur, had [BLANK] mangoes hidden under a tree stump. When Lila wasn't looking, Benny, the monkey, stole half of the mangoes from the pile. The next day, Lila added another 15 mangoes to her pile, but later that evening, Benny stole another 8 of the mangoes. On the third day, Lila added another 4 mangoes to her pile and began counting mangoes. How many mangoes did Lila find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lila, the lemur, had [BLANK] mangoes stashed away beneath a tree stump. While Lila was distracted, Benny, the monkey, took half of the mangoes from her stash. The following day, Lila contributed an additional 15 mangoes to her collection, but later that night, Benny took away another 8 of the mangoes. On the third day, Lila added 4 more mangoes to her collection and started counting her mangoes. How many mangoes did Lila discover were in her collection? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lila, the lemur, possessed [BLANK] mangoes concealed under a tree stump. When Lila was not paying attention, Benny, the monkey, pilfered half of the mangoes from the stash. The next day, Lila included an extra 15 mangoes to her total, but that evening, Benny took another 8 of the mangoes. On the third day, Lila added 4 more mangoes to her total and began to tally the mangoes. How many mangoes did Lila count in her total? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lila, the lemur, had [BLANK] mangoes tucked away under a tree stump. While Lila was not observant, Benny, the monkey, snatched half of the mangoes from her stash. The next day, Lila added another 15 mangoes to her collection, but that evening, Benny stole another 8 of the mangoes. On the third day, Lila added 4 more mangoes to her collection and started to count them. How many mangoes did Lila realize were in her collection? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lila, the lemur, had [BLANK] mangoes hidden beneath a tree stump. When Lila was distracted, Benny, the monkey, took away half of the mangoes from her hidden stash. The day after, Lila added 15 more mangoes to her stash, but later that night, Benny stole an additional 8 mangoes. On the third day, Lila added 4 more mangoes to her stash and began to tally them. How many mangoes did Lila find in her stash? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lila, the lemur, initially had [BLANK] mangoes concealed under a tree stump. While Lila was looking away, Benny, the monkey, removed half of the mangoes from her pile. The next day, Lila added 15 extra mangoes to her pile, but later that evening, Benny took another 8 of the mangoes. On the third day, Lila added 4 more mangoes to her pile and started counting them. How many mangoes did Lila count in her pile? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Tina, the turtle, had [BLANK] seashells collected on the beach. When Tina wasn't looking, Leo, the seagull, stole half of the seashells from the pile. The next day, Tina added another 12 seashells to her pile, but later that evening, Leo stole another 4 of the seashells. On the third day, Tina added another 2 seashells to her pile and began counting seashells. How many seashells did Tina find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tina, the turtle, had [BLANK] seashells gathered from the beach. While Tina was distracted, Leo, the seagull, took away half of the seashells from her collection. The following day, Tina contributed an additional 12 seashells to her collection, but later that night, Leo took another 4 seashells. On the third day, Tina added 2 more seashells to her collection and started counting her seashells. How many seashells did Tina discover were in the collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tina, the turtle, collected [BLANK] seashells from the beach. When Tina wasn't paying attention, Leo, the seagull, pilfered half of the seashells from her stash. The next day, Tina increased her stash by adding 12 more seashells, but later that evening, Leo swiped another 4 seashells. On the third day, Tina added an extra 2 seashells to her stash and started counting them. How many seashells did Tina find were in her stash? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tina, the turtle, had [BLANK] seashells she picked up from the shore. While Tina was not watching, Leo, the seagull, took half of the seashells from her pile. The next day, Tina added another 12 seashells to her collection, but later that night, Leo stole an additional 4 seashells. On the third day, Tina contributed 2 more seashells to her collection and began to count them. How many seashells did Tina find in her collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tina, the turtle, possessed [BLANK] seashells that she gathered on the beach. When Tina was distracted, Leo, the seagull, made off with half of the seashells from her pile. The following day, Tina added 12 more seashells to her pile, but later that evening, Leo took away another 4 seashells. On the third day, Tina added 2 more seashells to her pile and started counting. How many seashells did Tina ultimately find in her pile? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tina, the turtle, had [BLANK] seashells that she collected at the beach. While Tina was not attentive, Leo, the seagull, stole half of the seashells from her collection. The next day, Tina added another 12 seashells to her collection, but later that night, Leo took away another 4 seashells. On the third day, Tina added 2 more seashells to her collection and began to count them. How many seashells did Tina discover were in her collection? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Mia had $18. Then she saved [BLANK] and spent $4 on a notebook and $10 on a snack. How much money does Mia have left?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia started with $18. After saving [BLANK], she used $4 to buy a notebook and $10 for a snack. What is the amount of money Mia has remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Initially, Mia possessed $18. She then saved [BLANK] and later spent $4 on a notebook and $10 on a snack. How much money does Mia have now?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia began with $18. She saved [BLANK] and afterwards spent $4 for a notebook and $10 for a snack. What is the total amount of money Mia has left?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mia had $18 at the start. Following her savings of [BLANK], she spent $4 on a notebook and $10 on a snack. How much money remains with Mia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Starting with $18, Mia saved [BLANK] and then purchased a notebook for $4 and a snack for $10. How much does Mia have after these expenses?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ethan had $28. Then he saved [BLANK] and spent $3 on a toy and $14 on a game. How much money does Ethan have left?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan started with $28. After he saved [BLANK], he spent $3 on a toy and $14 on a game. What is the amount of money Ethan has remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan possessed $28 initially. He then saved [BLANK] and used $3 to buy a toy and $14 for a game. How much money does Ethan have now?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ethan had $28 at the beginning. He saved [BLANK] afterwards, and then he spent $3 on a toy and $14 on a game. How much money remains with Ethan?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan began with $28. He saved [BLANK], then made purchases of $3 for a toy and $14 for a game. What is the total amount of money Ethan has left?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan had $28 to start with. Then he saved [BLANK] before spending $3 on a toy and $14 on a game. How much money does Ethan still have?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sophia had $45. Then she saved [BLANK] and spent $10 on a toy and $25 on a dress. How much money does Sophia have left?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia initially had $45. After saving [BLANK], she purchased a toy for $10 and a dress for $25. What amount of money remains with Sophia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Starting with $45, Sophia then set aside [BLANK], spent $10 on a toy, and $25 on a dress. How much money is left with Sophia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With $45 to begin with, Sophia saved [BLANK] before buying a toy for $10 and spending $25 on a dress. How much money does she have remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia began with $45. She saved [BLANK] and used $10 to buy a toy and $25 for a dress. What is the total amount of money Sophia has now?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Having $45 at the start, Sophia saved [BLANK], then spent $10 on a toy and $25 on a dress. How much money does she have afterward?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah had $50. Then he saved [BLANK] and spent $15 on a snack and $30 on a movie ticket. How much money does Noah have left?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah started with $50. After saving [BLANK], he purchased a snack for $15 and a movie ticket for $30. What is the remaining amount of money Noah has?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With an initial amount of $50, Noah saved [BLANK] and then spent $15 on a snack along with $30 for a movie ticket. How much money does he have remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah began with $50. He managed to save [BLANK] before spending $15 on snacks and $30 on a movie ticket. How much money is left with Noah?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Initially, Noah had $50. After he saved [BLANK], he spent $15 on a snack and $30 on a ticket for a movie. What is the total amount Noah has left?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Starting with $50, Noah saved [BLANK] and then made purchases of $15 for a snack and $30 for a movie ticket. How much money does Noah have now?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam had $30. Then he saved [BLANK] and spent $7 on a video game and $22 on a book. How much money does Liam have left?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam started with $30. After he saved [BLANK], he purchased a video game for $7 and a book for $22. What is the remaining amount of money Liam has?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam possessed $30 initially. He then saved [BLANK] and spent $7 on a video game along with $22 on a book. How much does Liam have remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam's initial amount was $30. He saved [BLANK] afterwards, then spent $7 on a video game and $22 on a book. What is Liam's current balance?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Starting with $30, Liam saved [BLANK] and then used $7 to buy a video game and $22 for a book. How much money does he have now?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam had $30 to begin with. He saved [BLANK] and subsequently spent $7 for a video game and $22 on a book. How much money remains with Liam?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Raymond had $21. Then he saved [BLANK] and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Raymond started with $21. After saving [BLANK], he bought a comic book for $5 and a puzzle for $19. What is the remaining amount of money Raymond has? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With an initial amount of $21, Raymond saved [BLANK] and then spent $5 on a comic book and $19 on a puzzle. How much money remains with Raymond? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Raymond possessed $21 at first. He then added [BLANK] to his savings, spent $5 on a comic book, and $19 on a puzzle. What is the total amount of money Raymond has now? Let's go through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Initially, Raymond had $21. He saved [BLANK] and then made purchases of $5 for a comic book and $19 for a puzzle. How much money does Raymond have remaining? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Starting with $21, Raymond saved [BLANK], then he bought a comic book for $5 and a puzzle for $19. What is the total money left with Raymond? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

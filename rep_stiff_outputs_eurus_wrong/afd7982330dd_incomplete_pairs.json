@@ -1,0 +1,62 @@
+{
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!BC & !A!BD & !A!C!D & !AB!C & !AB!E & !ABC & !ACD & !C!D!E & A!CD & AB!E & AC!D & BCE & BDE\"}\n",
+  "info_removed_type": "\"the total number of distinct variables\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!BC & !A!BD & !A!C!D & !AB!C & !AB!E & !ABC & !ACD & !C!D!E & A!CD & AB!E & AC!D & BCE & BDE\"}\n",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!BC & !A!BD & !A!C!D & !AB!C & !AB!E & !ABC & !ACD & !C!D!E & A!CD & AB!E & AC!D & BCE & BDE\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "{\"n_sat\": 3, \"k\": 6, \"clause\": \"!A!BC & !A!BD & !A!C!E & !AB!C & !AB!D & !ABC & !ACD & !C!D!E & A!CD & AB!E & AC!D & BCE & BDE\"}",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!BC & !A!BD & !A!C!E & !AB!C & !AB!D & !ABC & !ACD & !C!D!E & A!CD & AB!E & AC!D & BCE & BDE\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "{\"n_sat\": 3, \"k\": 7, \"clause\": \"!B!CD & !B!DE & !B!C!F & !AC!C & !AC!D & !AB!C & !BDF & !C!D!E & A!DF & AB!F & AC!D & BCD & CDE\"}",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!B!CD & !B!DE & !B!C!F & !AC!C & !AC!D & !AB!C & !BDF & !C!D!E & A!DF & AB!F & AC!D & BCD & CDE\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "{\"n_sat\": 3, \"k\": 4, \"clause\": \"!C!DE & !C!DF & !C!D!A & !AB!C & !AB!D & !AC!B & !ACD & !D!E!A & B!AE & AB!C & AC!D & BCE & ADE\"}",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!C!DE & !C!DF & !C!D!A & !AB!C & !AB!D & !AC!B & !ACD & !D!E!A & B!AE & AB!C & AC!D & BCE & ADE\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "{\"n_sat\": 3, \"k\": 5, \"clause\": \"!D!AE & !D!BF & !D!E!C & !A!C!D & !A!B!E & !AB!F & !BCD & !C!D!E & D!AE & AB!C & AC!F & BCD & BDE\"}",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!D!AE & !D!BF & !D!E!C & !A!C!D & !A!B!E & !AB!F & !BCD & !C!D!E & D!AE & AB!C & AC!F & BCD & BDE\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "{\"n_sat\": 3, \"k\": 6, \"clause\": \"!E!AF & !E!BD & !E!C!F & !A!B!C & !AB!D & !AC!E & !BCD & !C!D!F & A!BD & AB!E & AC!D & BCD & CEF\"}",
+      "incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!E!AF & !E!BD & !E!C!F & !A!B!C & !AB!D & !AC!E & !BCD & !C!D!F & A!BD & AB!E & AC!D & BCD & CEF\"}",
+      "info_removed": "\"the total number of distinct variables\""
+    }
+  ],
+  "num_valid_similars": 5
+}

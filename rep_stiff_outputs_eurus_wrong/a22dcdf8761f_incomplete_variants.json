@@ -1,0 +1,210 @@
+{
+  "original_question": "Given the curve $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(a,0)$, $(a > 0)$, is $\\dfrac {3}{4}$. Find the value of $a$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(d,0)$, $(d > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $d$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the path defined by $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ on this path to a specified point $M(d,0)$, with $(d > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $d$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the curve $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the shortest distance from a point $P(x,y)$ on the curve to a given point $M(d,0)$, with $(d > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $d$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(d,0)$, $(d > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $d$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the parametric equations $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, for $\\theta\\in[0,2\\pi)$, the shortest distance from a point $P(x,y)$ located on the curve to a specific point $M(d,0)$, where $(d > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $d$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=5\\cos \\theta \\\\ y=4\\sin \\theta \\end{cases}$, for $\\theta\\in[0,2\\pi)$. The shortest distance from a point $P(x,y)$ located on this curve to a designated point $M(d,0)$, where $(d > 0)$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $d$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(a,0)$, $(a > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $a$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the path defined by $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on this path to a stationary point $M(a,0)$, with the condition that $a > 0$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $a$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the parametric equations $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta$ ranges over $[0,2\\pi)$. The shortest distance from a point $P(x,y)$ located on this curve to a designated point $M(a,0)$, with $a > 0$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $a$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(a,0)$, $(a > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $a$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the curve defined by $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ on this curve to a specific point $M(a,0)$, with $a > 0$, is equal to $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $a$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the curve defined by $\\begin{cases} x=2\\cos \\theta \\\\ y=\\sin \\theta \\end{cases}$, for $\\theta\\in[0,2\\pi)$. The shortest distance from a point $P(x,y)$ on this curve to a designated point $M(a,0)$, where $a > 0$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $a$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(b,0)$, $(b > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $b$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$; the shortest distance from a point $P(x,y)$ on this curve to a fixed point $M(b,0)$, with $(b > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $b$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the curve described by $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on the curve to a designated point $M(b,0)$, with the condition that $(b > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $b$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(b,0)$, $(b > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $b$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the curve defined by $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on this curve to a specific point $M(b,0)$, with $(b > 0)$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $b$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=3\\cos \\theta \\\\ y=2\\sin \\theta \\end{cases}$, with $\\theta\\in[0,2\\pi)$. The shortest distance from a point $P(x,y)$ on this curve to a designated point $M(b,0)$, where $(b > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $b$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(e,0)$, $(e > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $e$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the parametric equations $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, with $\\theta$ ranging from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ that lies on this curve to a specific point $M(e,0)$, where $(e > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $e$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, where $\\theta$ varies in the interval $[0,2\\pi)$. The shortest distance from a point $P(x,y)$ located on this curve to a specific point $M(e,0)$, with the condition that $e > 0$, is equal to $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $e$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(e,0)$, $(e > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $e$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the curve defined by $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on this curve to a specific point $M(e,0)$, with $(e > 0)$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $e$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=6\\cos \\theta \\\\ y=5\\sin \\theta \\end{cases}$, where $\\theta$ is in the interval $[0,2\\pi)$. The shortest distance from a point $P(x,y)$ situated on the curve to a specific point $M(e,0)$, with $e > 0$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $e$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(c,0)$, $(c > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $c$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the curve defined by $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on the curve to a specific point $M(c,0)$, with $(c > 0)$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $c$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the path defined by $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the shortest distance from a point $P(x,y)$ on this path to a specific point $M(c,0)$, with $(c > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $c$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(c,0)$, $(c > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $c$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the curve defined by $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the shortest distance from a point $P(x,y)$ on the curve to a fixed point $M(c,0)$, $(c > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $c$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the curve defined by $\\begin{cases} x=4\\cos \\theta \\\\ y=3\\sin \\theta \\end{cases}$, with $\\theta$ ranging from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on this curve to a specific point $M(c,0)$, where $c > 0$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $c$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given the curve $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(f,0)$, $(f > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$. Find the value of $f$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the curve defined by $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$. The shortest distance from a point $P(x,y)$ on this curve to a specific point $M(f,0)$, with $(f > 0)$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $f$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the parametric equations $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, with $\\theta$ ranging from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ located on this curve to a stationary point $M(f,0)$, where $f > 0$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $f$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given the curve $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, where $\\theta\\in[0,2\\pi)$, the minimum distance from a point $P(x,y)$ on the curve to a fixed point $M(f,0)$, $(f > 0)$, is $\\dfrac {\\text{[BLANK]}}{1}$Find the value of $f$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the curve defined by $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, where $\\theta$ ranges from $0$ to $2\\pi$. The shortest distance from a point $P(x,y)$ on this curve to a specific point $M(f,0)$, with $f > 0$, is given by $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $f$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the parametric equations of the curve $\\begin{cases} x=7\\cos \\theta \\\\ y=6\\sin \\theta \\end{cases}$, where $\\theta$ varies within the interval $[0,2\\pi)$. The least distance from a point $P(x,y)$ located on the curve to a certain fixed point $M(f,0)$, with the condition that $f > 0$, is equal to $\\dfrac {\\text{[BLANK]}}{1}$. Determine the value of $f$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

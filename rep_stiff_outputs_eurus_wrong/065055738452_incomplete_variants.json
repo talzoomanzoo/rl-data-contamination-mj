@@ -1,0 +1,210 @@
+{
+  "original_question": "Three people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $70 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An amount of [BLANK] was shared among three individuals. The second individual received $70 more than the first, while the third individual took double what the second received. Determine the portion of the first individual. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Three individuals received a total of [BLANK]. The second individual acquired $70 greater than the first, and the third individual took twice the amount received by the second. Find out how much the first individual received. Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] was divided among three people. The second person took $70 more than the first person, and the third person took twice what the second person took. Calculate the amount received by the first person. We will go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Three individuals shared an amount of [BLANK]. The second individual took $70 in excess of what the first took, and the third individual received double the amount that the second took. Calculate how much the first individual received. Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An amount of [BLANK] was split among three people. The second took $70 more than the first, while the third took twice the sum taken by the second. Determine the share of the first person. Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $90 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An amount of [BLANK] was split among three individuals. The second individual received $90 more than the first, while the third received twice the amount of the second. Determine the portion of the first individual. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Three individuals shared a total of [BLANK]. The second individual took $90 greater than what the first took, and the third took double the amount received by the second. Find out the share of the first individual. We will work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] was divided among three people. The second person received $90 more than the first, and the third person took twice the amount that the second person took. Compute the share of the first person. Let's proceed step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Three individuals divided an amount of [BLANK]. The second person took $90 in excess of what the first person received, and the third person took double the amount that the second person received. Calculate the first person's share. We will discuss this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An amount of [BLANK] was allocated among three people. The second one received $90 more than the first, while the third one took twice the amount the second one took. Find the share of the first individual. Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $100 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An amount of [BLANK] was shared among three individuals. The second person received $100 more than the first, while the third person took twice the amount received by the second. Determine the portion of the first person. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Three individuals split a total of [BLANK]. The second individual got $100 greater than what the first received, and the third received twice what the second got. Find out the share of the first individual. We will examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] was divided among three people. The second person claimed $100 more than the first, and the third person took double the amount received by the second. Calculate how much the first person received. Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Three persons allocated an amount of [BLANK]. The second person took $100 in excess of the first, and the third took two times what the second person obtained. Assess the share of the first person. We will go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An amount of [BLANK] was allocated to three persons. The second received $100 more than the first person, while the third received twice the amount that the second person got. Calculate the first person's share. Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $120 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An amount of [BLANK] was shared among three individuals. The second person received $120 more than the first, while the third individual took double the amount of the second. Determine the portion received by the first person. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Three individuals split a sum of [BLANK]. The second individual acquired $120 greater than the first one, and the third individual received twice as much as the second. Find out how much the first person received. We will go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] was distributed among three people. The second individual took $120 in excess of what the first person took, and the third person claimed twice the amount of the second. Calculate the share belonging to the first individual. Let's proceed step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Three people shared a total of [BLANK]. The second person received $120 more than the first, and the third person took twice what the second received. Calculate the first person's share. We will consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An amount of [BLANK] was allocated among three people. The second person took $120 more than the first, and the third person obtained double the amount taken by the second. Determine the first person's portion. Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $50 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An amount of [BLANK] was split among three individuals. The second individual received $50 more than the first, while the third individual received double what the second received. Determine the amount the first individual received. Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Three individuals shared a sum of [BLANK]. The second person acquired $50 more than the first person, and the third person took twice the amount received by the second. Find out how much the first person received. We will analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] was allocated among three people. The second person got $50 more than the first, and the third person got twice what the second person received. Calculate the amount that the first person received. Let\u2019s go through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Three people received portions of a total of [BLANK]. The second person took $50 greater than the first person, and the third person took double the amount of the second person. Compute the share of the first person. We will proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An amount of [BLANK] was divided among three people. The second person took $50 in excess of what the first person took, and the third person took twice what the second person took. Calculate the share belonging to the first person. Let's analyze this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Three people divided an amount of [BLANK]. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sum of [BLANK] was shared among three individuals. The second person received $80 more than the first, while the third person took twice the amount that the second received. Determine the amount received by the first individual. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An amount of [BLANK] was split by three people. The second individual acquired $80 more than the first, and the third individual took double the sum that the second person received. Find out how much the first person received. We'll work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Three individuals shared a total of [BLANK]. The second individual received $80 more than the first one, and the third individual took twice as much as the second. Calculate the share belonging to the first person. We will proceed step by step and indicate the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An amount totaling [BLANK] was divided among three people. The second person received $80 greater than the first, and the third person took two times what the second person got. Compute the share of the first person. Let\u2019s think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Three individuals divided a total of [BLANK]. The second person took $80 more than the first, and the third person received double the amount the second person took. Calculate how much the first person received. We will examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

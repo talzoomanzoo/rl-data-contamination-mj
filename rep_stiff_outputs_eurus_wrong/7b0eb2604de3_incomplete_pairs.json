@@ -1,0 +1,62 @@
+{
+  "original_question": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total amount spent on books",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Sarah went to buy books from the store and spent [BLANK] on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "James went to buy toys from the store and spent $240 on the toys. If each toy was $20 and he gave an equal number of toys to his 3 children, how many toys did each child get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James went to buy toys from the store and spent [BLANK] on the toys. If each toy was $20 and he gave an equal number of toys to his 3 children, how many toys did each child get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emily went to buy pencils from the store and spent $180 on the pencils. If each pencil was $12 and she gave an equal number of pencils to her 5 friends, how many pencils did each friend get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily went to buy pencils from the store and spent [BLANK] on the pencils. If each pencil was $12 and she gave an equal number of pencils to her 5 friends, how many pencils did each friend get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Michael went to buy games from the store and spent $360 on the games. If each game was $30 and he gave an equal number of games to his 6 cousins, how many games did each cousin get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael went to buy games from the store and spent [BLANK] on the games. If each game was $30 and he gave an equal number of games to his 6 cousins, how many games did each cousin get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Jessica went to buy stickers from the store and spent $150 on the stickers. If each sticker was $10 and she gave an equal number of stickers to her 2 siblings, how many stickers did each sibling get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Jessica went to buy stickers from the store and spent [BLANK] on the stickers. If each sticker was $10 and she gave an equal number of stickers to her 2 siblings, how many stickers did each sibling get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "David went to buy hats from the store and spent $420 on the hats. If each hat was $35 and he gave an equal number of hats to his 4 teammates, how many hats did each teammate get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "David went to buy hats from the store and spent [BLANK] on the hats. If each hat was $35 and he gave an equal number of hats to his 4 teammates, how many hats did each teammate get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount spent on books"
+    }
+  ],
+  "num_valid_similars": 5
+}

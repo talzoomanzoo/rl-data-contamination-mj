@@ -1,0 +1,62 @@
+{
+  "original_question": "The sum of two positive integers is 40 and their difference is 8. What is the product of the two integers and the value of the positive difference of the squares of these integers?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the sum of the two integers\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "The sum of two positive integers is 40 and their difference is 8. What is the product of the two integers and the value of the positive difference of the squares of these integers?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 8. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "The sum of two positive integers is 50 and their difference is 12. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 12. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "The sum of two positive integers is 30 and their difference is 4. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 4. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "The sum of two positive integers is 60 and their difference is 16. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 16. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "The sum of two positive integers is 70 and their difference is 14. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 14. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "The sum of two positive integers is 90 and their difference is 20. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 20. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "info_removed": "\"the sum of the two integers\""
+    }
+  ],
+  "num_valid_similars": 5
+}

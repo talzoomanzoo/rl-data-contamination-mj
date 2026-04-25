@@ -1,0 +1,210 @@
+{
+  "original_question": "The quadratic equation $x^{2}-2x+3=0$ has two distinct real roots.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The quadratic equation $x^{2}-3x+2=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation $x^{2}-3x+2=0$ possesses [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The quadratic expression $x^{2}-3x+2=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the equation $x^{2}-3x+2=0$, there are [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The polynomial equation $x^{2}-3x+2=0$ has [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The quadratic formula $x^{2}-3x+2=0$ yields [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The quadratic equation $x^{2}-6x+10=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation $x^{2}-6x+10=0$ possesses [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the quadratic equation $x^{2}-6x+10=0$, there are [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The quadratic expression $x^{2}-6x+10=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Within the equation $x^{2}-6x+10=0$, there exists [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The formula $x^{2}-6x+10=0$ holds [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The quadratic equation $x^{2}-2x+3=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation $x^{2}-2x+3=0$ possesses [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the quadratic expression $x^{2}-2x+3=0$, there are [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The quadratic formula $x^{2}-2x+3=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The equation $x^{2}-2x+3=0$ results in [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The quadratic $x^{2}-2x+3=0$ yields [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The quadratic equation $x^{2}-4x+5=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation in the form of a quadratic, $x^{2}-4x+5=0$, possesses [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The quadratic expression $x^{2}-4x+5=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the quadratic equation $x^{2}-4x+5=0$, there are [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The equation $x^{2}-4x+5=0$, which is quadratic, has [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The quadratic formula $x^{2}-4x+5=0$ reveals [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The quadratic equation $x^{2}-8x+13=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation of the quadratic form $x^{2}-8x+13=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the quadratic formula $x^{2}-8x+13=0$, there exists [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The quadratic expression $x^{2}-8x+13=0$ includes [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The equation $x^{2}-8x+13=0$, which is quadratic, has [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the context of the quadratic equation $x^{2}-8x+13=0$, one can find [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The quadratic equation $x^{2}-5x+6=0$ has [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The equation $x^{2}-5x+6=0$ contains [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the quadratic equation $x^{2}-5x+6=0$, there exists [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The expression $x^{2}-5x+6=0$ reveals [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Within the quadratic equation $x^{2}-5x+6=0$, you will find [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The formula $x^{2}-5x+6=0$ demonstrates [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

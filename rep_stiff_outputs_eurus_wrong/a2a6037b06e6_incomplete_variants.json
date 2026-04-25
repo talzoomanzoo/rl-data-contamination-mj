@@ -1,0 +1,210 @@
+{
+  "original_question": "Pete has some trouble slicing a 20-inch (diameter) pizza. His first two cuts (from center to circumference of the pizza) make a 30\u00ba slice. He continues making cuts until he has gone around the whole pizza, each time trying to copy the angle of the previous slice but in fact adding 2\u00ba each time. That is, he makes adjacent slices of 30\u00ba, 32\u00ba, 34\u00ba, and so on. What is the area of the smallest slice?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sara is facing challenges slicing a [BLANK] pizza. Her first two cuts (from center to circumference of the pizza) make a 50\u00ba slice. She keeps making cuts until she has gone around the entire pizza, each time trying to copy the angle of the previous slice but in reality adding 5\u00ba each time. Hence, she makes adjacent slices of 50\u00ba, 55\u00ba, 60\u00ba, and so forth. What is the area of the smallest slice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara is having trouble cutting a [BLANK] pizza. Her initial two cuts (extending from the center to the edge of the pizza) create a 50\u00ba segment. She continues to cut around the pizza, attempting to replicate the angle of the last slice but actually increasing it by 5\u00ba each time. As a result, her slices measure 50\u00ba, 55\u00ba, 60\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara struggles to cut a [BLANK] pizza. The first two cuts she makes (from the center to the outer edge of the pizza) yield a slice of 50\u00ba. She keeps making additional cuts around the entire pizza, each time trying to duplicate the angle of her previous slice but inadvertently adding 5\u00ba each time. Thus, her slices are 50\u00ba, 55\u00ba, 60\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara is finding it difficult to slice a [BLANK] pizza. Her first two cuts (from the center out to the crust of the pizza) create a slice measuring 50\u00ba. She continues to make cuts, trying to match the angle of the previous slice but actually increasing it by 5\u00ba each time. Consequently, her slices end up being 50\u00ba, 55\u00ba, 60\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara is encountering difficulties while slicing a [BLANK] pizza. Her first pair of cuts (from the center to the perimeter of the pizza) produces a 50\u00ba slice. She keeps making cuts around the pizza, attempting to mimic the angle of the last slice but instead adding 5\u00ba each time. As a result, her slices are 50\u00ba, 55\u00ba, 60\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara faces challenges in cutting a [BLANK] pizza. The first two cuts she makes (from the center to the edge of the pizza) create a slice of 50\u00ba. She continues making cuts around the pizza, trying to replicate the angle from the previous slice but actually increasing it by 5\u00ba each time. Therefore, her slices measure 50\u00ba, 55\u00ba, 60\u00ba, and so forth. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "John has some trouble cutting a [BLANK] pizza. His first two cuts (from center to circumference of the pizza) create a 25\u00ba slice. He continues making cuts until he has gone around the whole pizza, each time trying to replicate the angle of the previous slice but actually adding 1\u00ba each time. Therefore, he makes adjacent slices of 25\u00ba, 26\u00ba, 27\u00ba, and so on. What is the area of the smallest slice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "John is having difficulty slicing a [BLANK] pizza. His initial two cuts (extending from the center to the edge of the pizza) result in a 25\u00ba segment. He proceeds to make additional cuts around the entire pizza, aiming to match the angle of the previous segment but inadvertently increasing it by 1\u00ba each time. Thus, he produces consecutive slices of 25\u00ba, 26\u00ba, 27\u00ba, and so forth. What is the area of the smallest segment?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "John struggles with cutting a [BLANK] pizza. His first two slices (from the center to the outer edge of the pizza) form a 25\u00ba piece. He continues making cuts all around the pizza, attempting to duplicate the angle of the last piece but actually increasing it by 1\u00ba each time. Consequently, he ends up with neighboring slices of 25\u00ba, 26\u00ba, 27\u00ba, and so on. What is the area of the smallest piece?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "John faces a challenge when trying to cut a [BLANK] pizza. His first two cuts (from the center to the perimeter of the pizza) create a 25\u00ba wedge. He goes on to make further cuts around the entire pizza, each time aiming to recreate the angle of the previous wedge but mistakenly adding 1\u00ba each time. As a result, he has adjacent wedges of 25\u00ba, 26\u00ba, 27\u00ba, etc. What is the area of the smallest wedge?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "John encounters difficulty while slicing a [BLANK] pizza. His first two cuts (from the center to the circumference of the pizza) yield a 25\u00ba slice. He continues to make cuts all around the pizza, trying to replicate the angle of the last slice while actually increasing it by 1\u00ba each time. Therefore, he ends up with consecutive slices of 25\u00ba, 26\u00ba, 27\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "John is having a tough time cutting a [BLANK] pizza. His initial two cuts (from the center to the edge of the pizza) create a 25\u00ba slice. He continues making cuts until he encircles the whole pizza, each time attempting to match the angle of the previous slice but actually adding 1\u00ba each time. Thus, he creates adjacent slices of 25\u00ba, 26\u00ba, 27\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Tom is finding it tricky to slice a [BLANK] pizza. His first two cuts (from center to circumference of the pizza) create a 35\u00ba slice. He continues making cuts until he has gone around the whole pizza, each time trying to replicate the angle of the previous slice but actually adding 6\u00ba each time. So he makes adjacent slices of 35\u00ba, 41\u00ba, 47\u00ba, and so on. What is the area of the smallest slice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom is having difficulty cutting a [BLANK] pizza. His initial two cuts (from the center to the edge of the pizza) result in a 35\u00ba wedge. He proceeds to make additional cuts around the entire pizza, each time aiming to match the angle of the last slice but actually increasing it by 6\u00ba every time. Thus, he creates consecutive slices of 35\u00ba, 41\u00ba, 47\u00ba, and so forth. What is the area of the smallest wedge?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom struggles to divide a [BLANK] pizza. His first two slices (from the middle to the outer edge of the pizza) form a 35\u00ba piece. He keeps making cuts until he has completed the circle of the pizza, each time attempting to copy the angle of the last slice but actually increasing it by 6\u00ba each round. Consequently, he produces adjacent pieces of 35\u00ba, 41\u00ba, 47\u00ba, and continuing. What is the area of the smallest piece?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom finds it challenging to cut a [BLANK] pizza. His first two incisions (from the center to the boundary of the pizza) produce a 35\u00ba segment. He then continues making cuts around the entire pizza, trying to replicate the angle of the previous segment but actually adding 6\u00ba with each cut. Therefore, he ends up with neighboring segments of 35\u00ba, 41\u00ba, 47\u00ba, etc. What is the area of the smallest segment?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom is experiencing difficulty in slicing a [BLANK] pizza. His first two slices (from the center to the crust of the pizza) yield a 35\u00ba portion. He then goes on to make cuts all around the pizza, each time trying to duplicate the angle of the previous portion but actually increasing it by 6\u00ba with each iteration. Thus, he creates adjacent portions of 35\u00ba, 41\u00ba, 47\u00ba, and so on. What is the area of the smallest portion?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom has a hard time cutting a [BLANK] pizza. His first two cuts (from the center to the edge of the pizza) make a 35\u00ba slice. He keeps making cuts around the pizza, each time attempting to match the angle of the previous slice but effectively adding 6\u00ba each time. As a result, he has neighboring slices of 35\u00ba, 41\u00ba, 47\u00ba, and so forth. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Pete has some trouble slicing a [BLANK] pizza. His first two cuts (from center to circumference of the pizza) make a 30\u00ba slice. He continues making cuts until he has gone around the whole pizza, each time trying to copy the angle of the previous slice but in fact adding 2\u00ba each time. That is, he makes adjacent slices of 30\u00ba, 32\u00ba, 34\u00ba, and so on. What is the area of the smallest slice? Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Pete is having difficulty cutting a [BLANK] pizza. His initial two cuts (extending from the center to the edge of the pizza) create a 30\u00ba slice. He keeps making additional cuts, attempting to replicate the angle of the last slice but actually increasing it by 2\u00ba each time. Thus, he produces consecutive slices of 30\u00ba, 32\u00ba, 34\u00ba, etc. What is the area of the smallest slice? Provide your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Pete struggles with cutting a [BLANK] pizza. His first two slices (from the center to the edge of the pizza) yield a 30\u00ba piece. He goes on to make further cuts, aiming to imitate the angle of the previous piece but inadvertently adding 2\u00ba with each cut. Therefore, he ends up with slices of 30\u00ba, 32\u00ba, 34\u00ba, and so forth. What is the area of the smallest slice? Please present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Pete encounters issues while slicing a [BLANK] pizza. The first two cuts (from the center to the circumference) form a 30\u00ba wedge. He continues to make more cuts, trying to match the angle of the last wedge but instead increasing it by 2\u00ba each time. Consequently, he creates slices of 30\u00ba, 32\u00ba, 34\u00ba, and so on. What is the area of the smallest slice? Answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Pete has a hard time dividing a [BLANK] pizza. His first two cuts (starting from the center to the edge) result in a 30\u00ba section. He proceeds to make additional cuts, intending to replicate the previous slice's angle but actually adding 2\u00ba each time. As a result, he ends up with slices measuring 30\u00ba, 32\u00ba, 34\u00ba, etc. What is the area of the smallest slice? Please provide your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Pete is facing challenges while cutting a [BLANK] pizza. The first two slices (from the center to the edge of the pizza) create a 30\u00ba segment. He continues to make more cuts, attempting to copy the angle of the previous segment but instead increasing it by 2\u00ba each time. This leads to slices of 30\u00ba, 32\u00ba, 34\u00ba, and so on. What is the area of the smallest slice? Present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Laura is struggling to divide a [BLANK] pizza. Her first two cuts (from center to circumference of the pizza) form a 60\u00ba slice. She continues making cuts until she has gone around the whole pizza, each time trying to copy the angle of the previous slice but in fact adding 4\u00ba each time. Thus, she makes adjacent slices of 60\u00ba, 64\u00ba, 68\u00ba, and so on. What is the area of the smallest slice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Laura is having difficulty slicing a [BLANK] pizza. Her initial two cuts (extending from the center to the edge of the pizza) create a 60\u00ba segment. She keeps making additional cuts until she has circled the entire pizza, each time attempting to replicate the angle of the last segment but actually increasing it by 4\u00ba with each slice. Consequently, she produces consecutive slices of 60\u00ba, 64\u00ba, 68\u00ba, and so forth. What is the area of the smallest segment?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Laura finds it challenging to cut a [BLANK] pizza. The first two cuts (from the center to the border of the pizza) yield a slice measuring 60\u00ba. She proceeds to make more cuts until she has encircled the entire pizza, each time aiming to mimic the angle of the previous slice, but in reality, she adds 4\u00ba each time. Thus, her adjacent slices are 60\u00ba, 64\u00ba, 68\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Laura is facing difficulties with dividing a [BLANK] pizza. Her initial two cuts (running from the center to the outer edge of the pizza) create a slice that is 60\u00ba wide. She continues to make further cuts until she has gone around the entire pizza, each time trying to imitate the angle of the preceding slice but actually increasing it by 4\u00ba every time. As a result, she produces successive slices of 60\u00ba, 64\u00ba, 68\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Laura is struggling to slice up a [BLANK] pizza. The first two cuts (from the center to the pizza's edge) create a 60\u00ba section. She continues to make additional cuts until she has completed a full rotation around the pizza, each time aiming to replicate the angle of the previous section but inadvertently adding 4\u00ba with each new cut. Consequently, the adjacent slices measure 60\u00ba, 64\u00ba, 68\u00ba, etc. What is the area of the smallest section?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Laura is having trouble dividing a [BLANK] pizza. Her first two cuts (from the center to the edge of the pizza) result in a slice of 60\u00ba. She continues to make cuts until she has gone around the whole pizza, each time trying to match the angle of the previous slice, but actually increasing it by 4\u00ba with each cut. Thus, she ends up with slices of 60\u00ba, 64\u00ba, 68\u00ba, and so forth. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Mike is having difficulty cutting a [BLANK] pizza. His first two cuts (from center to circumference of the pizza) create a 45\u00ba slice. He continues making cuts until he has gone around the entire pizza, each time trying to copy the angle of the previous slice but in fact adding 3\u00ba each time. That is, he makes adjacent slices of 45\u00ba, 48\u00ba, 51\u00ba, and so on. What is the area of the smallest slice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mike is struggling to slice a [BLANK] pizza. His initial two cuts (extending from the center to the edge of the pizza) result in a 45\u00ba wedge. He proceeds to make additional cuts, attempting to replicate the angle of the last slice but actually increasing it by 3\u00ba each time. This means he creates consecutive slices of 45\u00ba, 48\u00ba, 51\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mike finds it challenging to cut a [BLANK] pizza. His first pair of cuts (from the center to the perimeter of the pizza) produces a 45\u00ba section. He continues to slice around the pizza, each time aiming to imitate the angle of the prior slice but inadvertently adding 3\u00ba with each cut. Consequently, he ends up with adjacent slices of 45\u00ba, 48\u00ba, 51\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mike is having trouble slicing a [BLANK] pizza. The first two cuts he makes (from the pizza's center to its edge) form a 45\u00ba piece. He keeps making cuts around the entire pizza, each time attempting to match the angle of the previous slice but actually increasing it by 3\u00ba each time. Thus, he has slices measuring 45\u00ba, 48\u00ba, 51\u00ba, and so forth. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mike is encountering issues while trying to cut a [BLANK] pizza. His initial cuts (from the center to the outer edge of the pizza) create a slice measuring 45\u00ba. He continues making cuts around the pizza, each time trying to replicate the angle of the last slice but inadvertently adding 3\u00ba each time. This results in adjacent slices of 45\u00ba, 48\u00ba, 51\u00ba, etc. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mike is finding it difficult to cut a [BLANK] pizza. His first two cuts (from the center to the circumference of the pizza) yield a 45\u00ba wedge. He continues to slice around the pizza, each time trying to mirror the angle of the previous slice while actually increasing it by 3\u00ba. Therefore, he produces slices of 45\u00ba, 48\u00ba, 51\u00ba, and so on. What is the area of the smallest slice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

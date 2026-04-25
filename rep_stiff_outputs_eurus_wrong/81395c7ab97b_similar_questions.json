@@ -1,0 +1,27 @@
+{
+  "dataset": "sat",
+  "original_question_id": 0,
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!B!C & !A!BC & !A!BE & !A!CE & !A!DE & !AB!E & !AC!D & !ACD & !ACE & !AD!E & !B!C!E & !B!CD & !BCE & !BD!E & A!CD & ACE & ADE & B!CD & B!CE & B!DE\"}\n",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "{\"n_sat\": 3, \"k\": 6, \"clause\": \"!D!E!F & !D!EF & !D!EG & !D!FG & !D!HF & !DE!F & !DF!E & !DFG & !DEF & !DG!F & !E!F!D & !E!FG & !EFD & !EH!F & D!EF & DFG & DHE & E!FG & E!FH & E!GH\"}"
+    },
+    {
+      "id": 2,
+      "question": "{\"n_sat\": 3, \"k\": 7, \"clause\": \"!C!D!E & !C!DE & !C!DF & !C!EF & !C!FG & !C!HG & !C!I!F & !C!I!G & !CDE & !CD!F & !CDG & !CED & !C!EF!G & !C!EFH & D!E!F & D!FG & D!HI & E!FG & E!FH & E!GH\"}"
+    },
+    {
+      "id": 3,
+      "question": "{\"n_sat\": 3, \"k\": 8, \"clause\": \"!A!B!E & !A!BE & !A!CD & !A!EF & !A!GH & !B!C!E & !B!CD & !B!EF & !BC!H & !A!BC!D & !A!CE!F & !BF!G & !BG!H & !C!D!H & A!C!D & A!EF & B!CD & B!EG & B!FH & B!GH\"}"
+    },
+    {
+      "id": 4,
+      "question": "{\"n_sat\": 3, \"k\": 9, \"clause\": \"!F!G!H & !F!GH & !F!IJ & !F!JK & !F!KL & !G!H!I & !G!HI & !G!IJ & !GJ!K & !H!I!K & !H!JK & !HJ!K & !H!IJ & F!G!H & F!I!J & F!JK & G!HI & G!J!K & G!K!L & G!K!I\"}"
+    },
+    {
+      "id": 5,
+      "question": "{\"n_sat\": 3, \"k\": 10, \"clause\": \"!X!Y!Z & !X!YZ & !X!W!Z & !X!W!Y & !X!V!Z & !Y!Z!W & !Y!W!V & !YW!Z & !Y!V!X & !Z!W!X & !Z!W!Y & !Z!V!X & !Z!V!Y & X!Y!Z & X!W!V & Y!Z!W & Y!V!Z & Y!V!X & Z!V!W & Z!W!X\"}"
+    }
+  ]
+}

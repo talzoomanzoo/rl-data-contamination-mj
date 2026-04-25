@@ -1,0 +1,62 @@
+{
+  "original_question": "James hires a horse-drawn carriage from 5 PM to 9 PM.  He gets 1 hour free.  The first paid hour is $15 and each hour after that is twice the cost.  How much did he pay? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the time duration of the hire\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "James hires a horse-drawn carriage from 5 PM to 9 PM.  He gets 1 hour free.  The first paid hour is $15 and each hour after that is twice the cost.  How much did he pay? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "James hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $15 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Samantha hires a horse-drawn carriage from 4 PM to 8 PM. She gets 1 hour free. The first paid hour is $20 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Samantha hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $20 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Michael hires a horse-drawn carriage from 3 PM to 7 PM. He gets 1 hour free. The first paid hour is $10 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $10 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Olivia hires a horse-drawn carriage from 6 PM to 10 PM. She gets 1 hour free. The first paid hour is $25 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Olivia hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $25 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Liam hires a horse-drawn carriage from 2 PM to 6 PM. He gets 1 hour free. The first paid hour is $30 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $30 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Emma hires a horse-drawn carriage from 1 PM to 5 PM. She gets 1 hour free. The first paid hour is $18 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $18 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the time duration of the hire\""
+    }
+  ],
+  "num_valid_similars": 5
+}

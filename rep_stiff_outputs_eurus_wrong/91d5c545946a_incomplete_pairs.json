@@ -1,0 +1,62 @@
+{
+  "original_question": "Hallie had dance practice for 1 hour on Tuesdays and 2 hours on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the duration of practice on specific days\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Hallie had dance practice for 1 hour on Tuesdays and 2 hours on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Hallie had dance practice for [BLANK] on Tuesdays and [BLANK] on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the duration of practice on specific days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam had soccer practice for 2 hours on Wednesdays and 3 hours on Fridays. On Sundays, he had soccer practice that lasted three times as long as Wednesday's evening class. How many hours a week did he have soccer practice?",
+      "incomplete_question": "Liam had soccer practice for [BLANK] on Wednesdays and [BLANK] on Fridays. On Sundays, he had soccer practice that lasted three times as long as Wednesday's evening class. How many hours a week did he have soccer practice?",
+      "info_removed": "\"the duration of practice on specific days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma had piano lessons for 45 minutes on Mondays and 1 hour on Wednesdays. On Saturdays, she had piano lessons that lasted four times as long as Monday's morning class. How many hours a week did she have piano lessons?",
+      "incomplete_question": "Emma had piano lessons for [BLANK] on Mondays and [BLANK] on Wednesdays. On Saturdays, she had piano lessons that lasted four times as long as Monday's morning class. How many hours a week did she have piano lessons?",
+      "info_removed": "\"the duration of practice on specific days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Noah had swimming practice for 30 minutes on Thursdays and 1.5 hours on Saturdays. On Sundays, he had swimming practice that lasted one and a half times as long as Thursday's evening class. How many hours a week did he have swimming practice?",
+      "incomplete_question": "Noah had swimming practice for [BLANK] on Thursdays and [BLANK] on Saturdays. On Sundays, he had swimming practice that lasted one and a half times as long as Thursday's evening class. How many hours a week did he have swimming practice?",
+      "info_removed": "\"the duration of practice on specific days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophia had art classes for 1.5 hours on Tuesdays and 2 hours on Thursdays. On Fridays, she had art classes that lasted twice as long as Tuesday's afternoon class. How many hours a week did she have art classes?",
+      "incomplete_question": "Sophia had art classes for [BLANK] on Tuesdays and [BLANK] on Thursdays. On Fridays, she had art classes that lasted twice as long as Tuesday's afternoon class. How many hours a week did she have art classes?",
+      "info_removed": "\"the duration of practice on specific days\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ava had gymnastics practice for 2 hours on Mondays and 1 hour on Wednesdays. On Sundays, she had gymnastics practice that lasted twice as long as Monday's class. How many hours a week did she have gymnastics practice?",
+      "incomplete_question": "Ava had gymnastics practice for [BLANK] on Mondays and [BLANK] on Wednesdays. On Sundays, she had gymnastics practice that lasted twice as long as Monday's class. How many hours a week did she have gymnastics practice?",
+      "info_removed": "\"the duration of practice on specific days\""
+    }
+  ],
+  "num_valid_similars": 5
+}

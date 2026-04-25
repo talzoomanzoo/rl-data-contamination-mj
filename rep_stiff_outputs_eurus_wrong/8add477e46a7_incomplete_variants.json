@@ -1,0 +1,210 @@
+{
+  "original_question": "A treasure hunter found a buried treasure chest filled with gems. There were 175 diamonds, 35 fewer rubies than diamonds, and twice the number of emeralds than the rubies.   How many of the gems were there in the chest? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 45 fewer rubies than diamonds, and three times the number of emeralds than the rubies. How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A treasure seeker discovered a hidden chest of jewels. It contained [BLANK] diamonds, 45 less rubies than the amount of diamonds, and three times as many emeralds as there are rubies. What is the total number of gems in the chest? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An adventurer unearthed a treasure box filled with valuable stones. Inside were [BLANK] diamonds, 45 fewer rubies compared to the diamonds, and three times the quantity of emeralds as rubies. What is the total count of gems in the box? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A gem hunter stumbled upon a buried treasure trunk overflowing with jewels. There were [BLANK] diamonds, 45 rubies less than the number of diamonds, and three times as many emeralds as rubies. How many total gems does the trunk hold? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fortune seeker located a concealed chest brimming with precious gems. The chest contained [BLANK] diamonds, with 45 fewer rubies than diamonds, and three times as many emeralds as the rubies. What is the total number of gems found in the chest? Let's go through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A treasure explorer came across a buried chest packed with gems. The chest had [BLANK] diamonds, 45 rubies fewer than the diamonds, and three times the emeralds compared to the rubies. How many gems are there in the chest? Let's evaluate it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 20 fewer rubies than diamonds, and four times the number of emeralds than the rubies. How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An adventurer discovered a hidden treasure chest packed with jewels. Inside, there were [BLANK] diamonds, 20 less rubies compared to the diamonds, and four times as many emeralds as there were rubies. What is the total count of gems in the chest? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A treasure seeker unearthed a concealed chest filled with precious stones. It contained [BLANK] diamonds, 20 fewer rubies than the diamonds, and four times as many emeralds as rubies. How many gems were present in the chest? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A gem hunter stumbled upon a buried chest laden with jewels. There were [BLANK] diamonds, and the number of rubies was 20 less than that of the diamonds, with emeralds being four times the count of the rubies. How many gems were in the chest? Let's go through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A treasure finder located a buried chest brimming with gems. It held [BLANK] diamonds, with the rubies being 20 fewer than the diamonds, and the emeralds being four times as numerous as the rubies. What is the total number of gems in the chest? Let's consider it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A fortune seeker came across a buried treasure chest filled with gemstones. There existed [BLANK] diamonds, 20 less rubies than the diamonds, and four times the emeralds compared to the rubies. How many gems are contained in the chest? Let's examine it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 30 fewer rubies than diamonds, and six times the number of emeralds than the rubies. How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A treasure seeker discovered a hidden treasure chest containing jewels. There were [BLANK] diamonds, 30 less rubies than there are diamonds, and the number of emeralds was six times the amount of rubies. What is the total count of gems in the chest? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A gem hunter unearthed a concealed treasure chest packed with precious stones. Inside, there were [BLANK] diamonds, 30 fewer rubies compared to the diamonds, and the count of emeralds was six times that of the rubies. How many gems were contained in the chest? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An adventurer stumbled upon a buried treasure chest filled with jewels. It contained [BLANK] diamonds, 30 fewer rubies than the diamonds, and the number of emeralds was six times that of the rubies. What is the total number of gems in the chest? Let\u2019s break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fortune seeker found a buried treasure chest overflowing with gems. The chest had [BLANK] diamonds, 30 less rubies than the diamonds, and six times as many emeralds as there were rubies. How many gems did the chest hold? Let\u2019s examine this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A treasure explorer came across a buried chest full of jewels. There were [BLANK] diamonds, with 30 fewer rubies than diamonds, and six times the number of emeralds as there were rubies. How many gems were there in the chest? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 25 fewer rubies than diamonds, and five times the number of emeralds than the rubies. How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A treasure seeker discovered a hidden chest containing precious stones. Inside, there were [BLANK] diamonds, 25 less rubies than diamonds, and five times as many emeralds as rubies. What is the total number of gems in the chest? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An adventurer stumbled upon a concealed treasure box brimming with jewels. It contained [BLANK] diamonds, 25 fewer rubies compared to the diamonds, and five times the quantity of emeralds relative to the rubies. How many gems were present in the box? We'll go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A gem collector unearthed a buried treasure box filled with jewels. There were [BLANK] diamonds, 25 rubies less than the number of diamonds, and five times the number of emeralds as there are rubies. What is the total count of gems in the box? Let's proceed step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fortune hunter located a secret treasure chest loaded with gems. The chest had [BLANK] diamonds, 25 rubies fewer than there are diamonds, and five times the emeralds compared to the rubies. How many total gems were there in the chest? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A treasure seeker found a buried chest full of gems. Inside, there were [BLANK] diamonds, 25 less rubies than the diamonds, and five times the emeralds compared to the rubies. What is the overall number of gems in the chest? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 35 fewer rubies than diamonds, and twice the number of emeralds than the rubies.   How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A treasure seeker discovered a hidden treasure box containing precious stones. It had [BLANK] diamonds, 35 less rubies than the diamonds, and twice as many emeralds as there were rubies. How many gems were present in the box? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An explorer stumbled upon a concealed treasure container overflowing with jewels. Inside were [BLANK] diamonds, 35 fewer rubies compared to the diamonds, and double the amount of emeralds compared to the rubies. What is the total number of gems in the container? Let's break it down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A gem hunter unearthed a hidden chest filled with valuable stones. The chest contained [BLANK] diamonds, 35 fewer rubies than there are diamonds, and twice as many emeralds as rubies. How many total gems are in the chest? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fortune seeker came across a buried treasure trunk packed with gems. There were [BLANK] diamonds, with 35 rubies fewer than the diamonds, and twice as many emeralds as rubies. How many gems does the trunk hold? Let's consider it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A treasure finder located a buried chest filled with precious gems. The collection included [BLANK] diamonds, 35 less rubies than the number of diamonds, and twice as many emeralds as the rubies. How many gems are contained in the chest? Let's think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A treasure hunter found a buried treasure chest filled with gems. There were [BLANK] diamonds, 15 fewer rubies than diamonds, and seven times the number of emeralds than the rubies. How many of the gems were there in the chest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A treasure seeker discovered a hidden chest containing precious stones. The chest held [BLANK] diamonds, with 15 less rubies than the number of diamonds, and seven times as many emeralds as rubies. What is the total number of gems in the chest? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An adventurer stumbled upon a concealed treasure box brimming with jewels. Inside, there were [BLANK] diamonds, 15 fewer rubies compared to the diamonds, and seven times the emeralds compared to the rubies. How many gems did the box contain? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A gem hunter located a buried treasure box filled with shiny stones. It contained [BLANK] diamonds, with the number of rubies being 15 less than the diamonds, and seven times as many emeralds as there are rubies. How many gems are in the treasure box? Let's think through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fortune seeker uncovered a buried treasure chest packed with jewels. There were [BLANK] diamonds, 15 rubies fewer than the diamonds, and seven times the emerald count of emeralds in relation to the rubies. What is the total number of gems present in the chest? Let's consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A treasure finder came across a hidden chest filled with valuable gems. The chest contained [BLANK] diamonds, with 15 rubies fewer than the diamonds, and seven times the quantity of emeralds than the rubies. How many gems were in the chest? Let's proceed step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

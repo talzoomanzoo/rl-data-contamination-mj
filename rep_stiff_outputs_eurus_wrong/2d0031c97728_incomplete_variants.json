@@ -1,0 +1,210 @@
+{
+  "original_question": "Positive numbers $a$ and $b$ satisfy $\\frac{9}{a}+\\frac{1}{b}=2$. If $a+b\\geqslant x^{2}+2x$ holds for any positive numbers $a$ and $b$, then the range of real number $x$ is ____.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] fulfill [BLANK]. If [BLANK] is true for all positive values [BLANK], then the possible values for the real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assume that positive quantities [BLANK] meet the condition [BLANK]. If [BLANK] is valid for any positive quantities [BLANK], then the set of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider positive figures [BLANK] that comply with [BLANK]. If [BLANK] is applicable for every positive figure [BLANK], then the interval of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Suppose positive integers [BLANK] adhere to [BLANK]. If [BLANK] is satisfied by any positive integers [BLANK], then the range for the real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let positive elements [BLANK] correspond to [BLANK]. If [BLANK] is true for each positive element [BLANK], then the range of the real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] fulfill [BLANK]. If [BLANK] is true for all positive values [BLANK], then the possible values of the real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider positive quantities [BLANK] that meet [BLANK]. If [BLANK] is valid for any positive quantities [BLANK], then the set of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume positive variables [BLANK] comply with [BLANK]. If [BLANK] is applicable to any positive variables [BLANK], then the range of the real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take positive elements [BLANK] that conform to [BLANK]. If [BLANK] applies to every positive element [BLANK], then the interval of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Identify positive values [BLANK] that satisfy [BLANK]. If [BLANK] is true for all positive values [BLANK], then the extent of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] meet the condition [BLANK]. If [BLANK] is true for all positive values [BLANK], then the set of real numbers $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider positive quantities [BLANK] that fulfill [BLANK]. If [BLANK] is applicable for every positive quantity [BLANK], then the range of real numbers $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume positive figures [BLANK] that conform to [BLANK]. If [BLANK] applies to any positive figures [BLANK], then the values of real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let positive variables [BLANK] that adhere to [BLANK]. If [BLANK] is valid for any positive variables [BLANK], then the extent of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take positive constants [BLANK] that meet [BLANK]. If [BLANK] holds for all positive constants [BLANK], then the possible values of real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] meet the condition [BLANK]. If the statement [BLANK] is true for all positive values [BLANK], then the interval of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider positive quantities [BLANK] that fulfill [BLANK]. If the condition [BLANK] is satisfied for any positive quantities [BLANK], the set of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume positive figures [BLANK] adhere to [BLANK]. If [BLANK] is valid for all positive figures [BLANK], the scope of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take positive variables [BLANK] that comply with [BLANK]. If [BLANK] applies to any positive variables [BLANK], the domain of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Define positive constants [BLANK] that correspond to [BLANK]. If [BLANK] is applicable for every positive constant [BLANK], then the range of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] meet the condition [BLANK]. If [BLANK] is true for any positive values [BLANK], then the set of real numbers $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider positive quantities [BLANK] that fulfill [BLANK]. If [BLANK] is valid for all positive quantities [BLANK], then the interval of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume positive variables [BLANK] that comply with [BLANK]. If [BLANK] is satisfied for every positive variable [BLANK], then the possible values for real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take positive figures [BLANK] that adhere to [BLANK]. If [BLANK] applies to any positive figures [BLANK], then the range for the real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let positive elements [BLANK] that conform to [BLANK]. If [BLANK] is applicable for any positive elements [BLANK], then the range of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Positive numbers [BLANK] satisfy [BLANK]. If [BLANK] holds for any positive numbers [BLANK], then the range of real number $x$ is ____. ",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let positive values [BLANK] fulfill [BLANK]. If [BLANK] is true for any positive values [BLANK], then the possible values of the real number $x$ are ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider positive quantities [BLANK] that meet [BLANK]. Should [BLANK] be valid for any positive quantities [BLANK], then the range of the real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume positive figures [BLANK] that adhere to [BLANK]. If [BLANK] is satisfied for any positive figures [BLANK], then the set of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let positive integers [BLANK] that conform to [BLANK]. If [BLANK] is applicable for any positive integers [BLANK], then the domain of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take positive elements [BLANK] that correspond to [BLANK]. If [BLANK] is applicable for any positive elements [BLANK], then the interval of real number $x$ is ____. ",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

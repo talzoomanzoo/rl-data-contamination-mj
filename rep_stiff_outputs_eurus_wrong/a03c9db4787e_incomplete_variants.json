@@ -1,0 +1,210 @@
+{
+  "original_question": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Liam and Mia went bowling together. Liam's score was 5 better more than twice as high as Mia's. If Mia bowled a score of [BLANK], what was Liam's score?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam and Mia decided to go bowling. Liam's score was 5 points higher than double Mia's score. If Mia scored [BLANK], what was Liam's score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "While bowling, Liam outperformed Mia. His score was 5 greater than twice Mia's score. If Mia had a score of [BLANK], what score did Liam achieve?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "During their bowling outing, Liam's score exceeded Mia's by 5, and was also double Mia's score. If Mia's score was [BLANK], what score did Liam end up with?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "When bowling, Liam achieved a score that was 5 points above twice Mia's score. If Mia's score is [BLANK], what score did Liam record?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam and Mia went bowling together, where Liam's score was 5 more than two times Mia's score. If Mia's score was [BLANK], what score did Liam make?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Eddie and Faye went bowling together. Eddie's score was 10 better more than twice as high as Faye's. If Faye bowled a score of [BLANK], what was Eddie's score?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Eddie and Faye went to bowl together. Eddie's score was 10 points greater than twice Faye's score. If Faye achieved a score of [BLANK], what was Eddie's score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Eddie and Faye decided to go bowling. Eddie's score was 10 more than double Faye's score. If Faye managed to bowl a score of [BLANK], what was Eddie's total score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Eddie and Faye spent time bowling together. Eddie scored 10 points above twice Faye's score. If Faye's score was [BLANK], what score did Eddie achieve?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Eddie and Faye went out for a bowling session. Eddie's score exceeded twice Faye's by 10 points. If Faye's score was [BLANK], what was Eddie's final score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Eddie and Faye enjoyed a bowling outing. Eddie's score was 10 more than two times Faye's score. If Faye had a score of [BLANK], what score did Eddie get?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Frankie and Binkie went bowling together. Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of [BLANK], what was Frankie's score? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Frankie and Binkie went bowling as a team. Frankie's score was 15 points higher than twice Binkie's score. If Binkie scored [BLANK], what was Frankie's final score? Let's evaluate this step by step and provide the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Frankie and Binkie decided to go bowling together. Frankie's score exceeded twice Binkie's by 15. If Binkie's score was [BLANK], what score did Frankie achieve? We'll analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Frankie and Binkie enjoyed a bowling outing. Frankie's score was 15 greater than double Binkie's score. If Binkie had a score of [BLANK], what was the score that Frankie got? Let's work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Frankie and Binkie participated in a bowling game together. Frankie's score was 15 more than twice the score of Binkie. Given that Binkie's score is [BLANK], what score did Frankie end up with? Let's go through this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Frankie and Binkie went for a bowling session. Frankie's score was 15 points above twice Binkie's score. If Binkie bowled a score of [BLANK], what was the total score for Frankie? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Gabriel and Hannah went bowling together. Gabriel's score was 25 better more than twice as high as Hannah's. If Hannah bowled a score of [BLANK], what was Gabriel's score?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gabriel and Hannah went to bowl together. Gabriel's score was 25 points higher than twice Hannah's score. If Hannah achieved a score of [BLANK], what score did Gabriel end up with?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "While bowling, Gabriel scored 25 more than double Hannah's score. Given that Hannah's score was [BLANK], what was the total score for Gabriel?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gabriel and Hannah participated in a bowling game. Gabriel's score exceeded twice Hannah's score by 25. If Hannah scored [BLANK], what was Gabriel's final score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "During their bowling outing, Gabriel scored 25 points over twice the score of Hannah. If Hannah's score was [BLANK], what was the score that Gabriel achieved?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gabriel and Hannah enjoyed a bowling session together. Gabriel's score was 25 greater than double that of Hannah's score. If Hannah's score was [BLANK], what score did Gabriel receive?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Charlie and Darlene went bowling together. Charlie's score was 20 better more than twice as high as Darlene's. If Darlene bowled a score of [BLANK], what was Charlie's score?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Charlie and Darlene went bowling together. Charlie's score was 20 points higher than twice Darlene's score. If Darlene achieved a score of [BLANK], what was Charlie's total score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Charlie and Darlene went bowling together. Charlie scored 20 more than double Darlene's score. If Darlene's score was [BLANK], what score did Charlie end up with?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Charlie and Darlene went bowling together. Charlie's score exceeded twice Darlene's score by 20 points. If Darlene's score is [BLANK], what score did Charlie obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Charlie and Darlene went bowling together. Charlie's score was 20 greater than two times Darlene's score. If Darlene scored [BLANK], what was Charlie's final score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Charlie and Darlene went bowling together. Charlie's score was 20 more than double the score Darlene achieved. If Darlene's score was [BLANK], what was Charlie's score?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Irene and Jake went bowling together. Irene's score was 30 better more than twice as high as Jake's. If Jake bowled a score of [BLANK], what was Irene's score?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Irene and Jake went bowling as a pair. Irene's score was 30 greater than twice Jake's. If Jake scored [BLANK], what was Irene's total score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Irene and Jake decided to go bowling together. Irene's score exceeded twice Jake's score by 30 points. If Jake achieved a score of [BLANK], what score did Irene make?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "While bowling together, Irene had a score that was 30 points more than double Jake's score. If Jake's score was [BLANK], how much did Irene score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Irene and Jake enjoyed a bowling session. Irene's score was 30 points higher than twice the score of Jake. Given that Jake scored [BLANK], what was Irene's score?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "During a bowling outing, Irene's score surpassed Jake's score by 30 points and was also twice as much as Jake's. If Jake bowled a score of [BLANK], what was Irene's score?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

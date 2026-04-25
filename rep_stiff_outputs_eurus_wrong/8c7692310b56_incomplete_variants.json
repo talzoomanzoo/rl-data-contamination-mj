@@ -1,0 +1,210 @@
+{
+  "original_question": "If $x + 2y = 6$ and $xy = -6$, what is the value of $x^2 + 4y^2$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "If [BLANK] and $xy = -20$, what is the value of $x^2 + 25y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and the product of x and y equals -20, find the result of x squared plus 25 times y squared.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] and that $xy$ is equal to -20, what does the expression $x^2 + 25y^2$ evaluate to?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If [BLANK] holds true and $xy$ equals -20, determine the value of $x^2 + 25y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Provided that [BLANK] is true and the equation $xy = -20$ is satisfied, calculate the value of $x^2 + 25y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If [BLANK] is given and we know that $xy = -20$, what is the outcome of $x^2 + 25y^2$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "If [BLANK] and $xy = -12$, what is the value of $x^2 + 9y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and $xy = -12$, determine the value of $x^2 + 9y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] holds true and $xy = -12$, what is the result of $x^2 + 9y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If [BLANK] is true and $xy = -12$, find the value of $x^2 + 9y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Provided that [BLANK] is valid and $xy = -12$, what is the value of $x^2 + 9y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If [BLANK] is satisfied and $xy = -12$, calculate the value of $x^2 + 9y^2$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "If [BLANK] and $xy = -6$, what is the value of $x^2 + 4y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and $xy = -6$, what can be determined for the value of $x^2 + 4y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] holds true and $xy = -6$, what is the result for $x^2 + 4y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If it is known that [BLANK] and $xy = -6$, what will be the outcome of $x^2 + 4y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "When [BLANK] is satisfied and $xy = -6$, what does $x^2 + 4y^2$ equal?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Supposing [BLANK] is true and $xy = -6$, what value does $x^2 + 4y^2$ take?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "If [BLANK] and $xy = -8$, what is the value of $x^2 + y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and $xy = -8$, what is the result of $x^2 + y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] holds true and $xy = -8$, find the value of $x^2 + y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If [BLANK] is true and $xy = -8$, determine the value of $x^2 + y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Provided that [BLANK] and $xy = -8$, what value does $x^2 + y^2$ yield?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If [BLANK] applies and $xy = -8$, what is the calculated value of $x^2 + y^2$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "If [BLANK] and $xy = -24$, what is the value of $x^2 + 36y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and the product $xy = -24$, what is the result of $x^2 + 36y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] and that $xy = -24$, calculate the value of $x^2 + 36y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If [BLANK] holds true and $xy = -24$, what does $x^2 + 36y^2$ equal?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "When [BLANK] is true and $xy = -24$, determine the value of $x^2 + 36y^2$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Provided that [BLANK] and $xy = -24$, what is the calculation for $x^2 + 36y^2$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "If [BLANK] and $xy = -15$, what is the value of $x^2 + 16y^2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that [BLANK] and $xy = -15$, what is the value of $x^2 + 16y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming [BLANK] and $xy = -15$, what is the result of $x^2 + 16y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If [BLANK] holds true and $xy = -15$, what is the outcome of $x^2 + 16y^2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Provided that [BLANK] is valid and $xy = -15$, what does $x^2 + 16y^2$ equal?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When [BLANK] is satisfied and $xy = -15$, what is the calculation for $x^2 + 16y^2$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

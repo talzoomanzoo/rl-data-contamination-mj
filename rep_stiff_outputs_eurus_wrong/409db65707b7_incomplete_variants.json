@@ -1,0 +1,210 @@
+{
+  "original_question": "Marty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Ryan has [BLANK] centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 3 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ryan possesses [BLANK] centimeters of ribbon that he needs to divide into 5 equal sections. Each of these sections will then be split into 3 equal segments. What will be the length of each final segment? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ryan has a total of [BLANK] centimeters of ribbon which he is required to cut into 5 equal pieces. Each of those pieces must further be separated into 3 equal parts. What is the length of each of the final pieces? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ryan is given [BLANK] centimeters of ribbon that he is supposed to cut into 5 equal portions. Each portion then has to be divided into 3 equal sections. How long will each of the final sections be? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ryan has [BLANK] centimeters of ribbon that he has to split into 5 equal divisions. Each division should then be further divided into 3 equal parts. What will be the length of each of these final parts? Let's think about it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ryan possesses [BLANK] centimeters of ribbon which he needs to cut into 5 equal units. Afterwards, each of these units must be further divided into 3 equal lengths. How long will each of the resulting lengths be? Let's examine it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Marty has [BLANK] centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Marty possesses [BLANK] centimeters of ribbon which he needs to cut into 4 identical sections. Each of these sections must then be further divided into 5 equal segments. What will be the length of each segment after the final cuts? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Marty has [BLANK] centimeters of ribbon that he is required to split into 4 equal pieces. Each of these pieces needs to be divided into 5 equal parts. How long will each part be after all cuts? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Marty owns [BLANK] centimeters of ribbon that he has to divide into 4 equal portions. Each of these portions must then be fractioned into 5 equal parts. What will the length of each part be after the cuts? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Marty has [BLANK] centimeters of ribbon which he must divide into 4 equal segments. Each of these segments needs to be further split into 5 equal segments. What will be the length of each resulting piece? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Marty possesses [BLANK] centimeters of ribbon that he is supposed to cut into 4 equal divisions. Each of these divisions must be divided further into 5 equal sections. How long will each section be after the final cuts? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James has [BLANK] centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 4 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James possesses [BLANK] centimeters of ribbon that he needs to divide into 5 equal segments. Each of these segments must then be split into 4 equal segments. What will be the length of each final segment? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James has [BLANK] centimeters of ribbon which he is required to cut into 5 equal pieces. Each of these pieces should further be divided into 4 equal sections. What will the length of each resulting section be? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James owns [BLANK] centimeters of ribbon that needs to be sectioned into 5 equal parts. Each of these parts must then be further divided into 4 equal portions. How long will each portion measure in the end? Let's work through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James has [BLANK] centimeters of ribbon that he is to divide into 5 equal divisions. Each division is to be further subdivided into 4 equal pieces. What will be the length of each piece in the end? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James possesses [BLANK] centimeters of ribbon that he must split into 5 equal fractions. Each of these fractions needs to be broken down into 4 equal segments. What will the length of each segment ultimately be? Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Sarah has [BLANK] centimeters of ribbon that she must cut into 4 equal parts. Each of the cut parts must be divided into 6 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah possesses [BLANK] centimeters of ribbon which she needs to slice into 4 equal sections. Each of these sections must then be further split into 6 equal pieces. What will be the length of each final piece? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah has [BLANK] centimeters of ribbon that she needs to divide into 4 equal segments. Each segment must subsequently be divided into 6 equal parts. How long will each final segment be? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah owns [BLANK] centimeters of ribbon that she is required to cut into 4 equal portions. Each portion must then be broken down into 6 equal divisions. What is the length of each completed division? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah holds [BLANK] centimeters of ribbon that she must segment into 4 equal parts. After this, each part needs to be further divided into 6 equal sections. What will be the length of each final section? Let's work through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah has [BLANK] centimeters of ribbon that needs to be divided into 4 equal pieces. Each of these pieces should then be cut into 6 equal segments. What will be the length of each final segment? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sophia has [BLANK] centimeters of ribbon that she must cut into 8 equal parts. Each of the cut parts must be divided into 2 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia possesses [BLANK] centimeters of ribbon, which she needs to cut into 8 equal sections. Each of these sections must then be split into 2 equal pieces. What will be the length of each final piece? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia has [BLANK] centimeters of ribbon that needs to be divided into 8 equal segments. Each segment will then be further divided into 2 equal portions. What will the length be for each of the final divisions? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia owns [BLANK] centimeters of ribbon, which she must separate into 8 equal fragments. After that, each fragment is to be divided into 2 equal parts. How long will each of the final pieces be? Let's consider this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia has a total of [BLANK] centimeters of ribbon that she is required to cut into 8 equal pieces. Each of those pieces must then be further divided into 2 equal sections. What will the length of each final section be? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia is given [BLANK] centimeters of ribbon, which she is to cut into 8 equal divisions. Each of these divisions will subsequently be split into 2 equal parts. What will be the length of each final division? Let's approach this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Emily has [BLANK] centimeters of ribbon that she must cut into 3 equal parts. Each of the cut parts must be divided into 10 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily possesses [BLANK] centimeters of ribbon that she needs to cut into 3 equal sections. Each section must then be further divided into 10 equal segments. What will be the length of each final segment? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily has [BLANK] centimeters of ribbon that she is required to split into 3 equal portions. Each portion must subsequently be divided into 10 equal pieces. How long will each piece be in the end? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily owns [BLANK] centimeters of ribbon that needs to be divided into 3 equal fragments. Each fragment is to be further cut into 10 equal divisions. What will be the length of each division at the end? Let's proceed step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily is given [BLANK] centimeters of ribbon that she must separate into 3 equal parts. Each of these parts has to be cut into 10 equal sections. What will the length of each section be ultimately? Let's think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily has [BLANK] centimeters of ribbon that she should cut into 3 equal slices. Each slice needs to be broken down into 10 equal units. How long will each unit be in the final outcome? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

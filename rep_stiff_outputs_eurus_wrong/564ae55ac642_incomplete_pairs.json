@@ -1,0 +1,62 @@
+{
+  "original_question": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys 36 red tulips and 24 blue tulips, how many rows of flowers will he plant? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total quantity of each type of tulip",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys 36 red tulips and 24 blue tulips, how many rows of flowers will he plant? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys [BLANK] red tulips and [BLANK] blue tulips, how many rows of flowers will he plant? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total quantity of each type of tulip"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Emily is planting daisies. She can fit 5 yellow daisies in a row and 10 white daisies in a row. If Emily buys 25 yellow daisies and 40 white daisies, how many rows of flowers will she plant?",
+      "incomplete_question": "Emily is planting daisies. She can fit 5 yellow daisies in a row and 10 white daisies in a row. If Emily buys [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she plant?",
+      "info_removed": "the total quantity of each type of tulip"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Michael is planting roses. He can fit 7 pink roses in a row and 9 yellow roses in a row. If Michael buys 42 pink roses and 36 yellow roses, how many rows of flowers will he plant?",
+      "incomplete_question": "Michael is planting roses. He can fit 7 pink roses in a row and 9 yellow roses in a row. If Michael buys [BLANK] pink roses and [BLANK] yellow roses, how many rows of flowers will he plant?",
+      "info_removed": "the total quantity of each type of tulip"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sophia is planting sunflowers. She can fit 4 orange sunflowers in a row and 12 purple sunflowers in a row. If Sophia buys 32 orange sunflowers and 48 purple sunflowers, how many rows of flowers will she plant?",
+      "incomplete_question": "Sophia is planting sunflowers. She can fit 4 orange sunflowers in a row and 12 purple sunflowers in a row. If Sophia buys [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she plant?",
+      "info_removed": "the total quantity of each type of tulip"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Liam is planting peonies. He can fit 8 white peonies in a row and 6 red peonies in a row. If Liam buys 40 white peonies and 30 red peonies, how many rows of flowers will he plant?",
+      "incomplete_question": "Liam is planting peonies. He can fit 8 white peonies in a row and 6 red peonies in a row. If Liam buys [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he plant?",
+      "info_removed": "the total quantity of each type of tulip"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ava is planting lilies. She can fit 10 pink lilies in a row and 5 purple lilies in a row. If Ava buys 50 pink lilies and 25 purple lilies, how many rows of flowers will she plant?",
+      "incomplete_question": "Ava is planting lilies. She can fit 10 pink lilies in a row and 5 purple lilies in a row. If Ava buys [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she plant?",
+      "info_removed": "the total quantity of each type of tulip"
+    }
+  ],
+  "num_valid_similars": 5
+}

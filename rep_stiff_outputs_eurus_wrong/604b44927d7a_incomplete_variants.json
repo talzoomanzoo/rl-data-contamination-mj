@@ -1,0 +1,210 @@
+{
+  "original_question": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved 19 tennis balls in all. How many tennis balls did he retrieve in the first set of the match? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Olivia is collecting seashells from the beach after a sunny day. In the first of three sessions, she collected eight more shells than in the second session. In the third session, she collected two-thirds as many shells as in the second. She collected [BLANK] seashells in total. How many seashells did she collect in the first session? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After a sunny day at the beach, Olivia gathered seashells during three different sessions. In her first session, she picked up eight more shells compared to the second session. During the third session, she gathered two-thirds of the amount she collected in the second. In total, she collected [BLANK] seashells. What was the number of seashells she gathered in the first session? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia spent a sunny day at the beach collecting seashells in three separate sessions. In the initial session, she acquired eight more shells than in the second session. In the third session, her collection amounted to two-thirds of what she gathered in the second. Overall, she collected [BLANK] seashells. How many seashells did she gather during the first session? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a bright sunny day, Olivia was at the beach gathering seashells across three sessions. In the first session, she collected eight shells more than what she collected in the second session. For the third session, she managed to gather two-thirds of the shells she had in the second. Altogether, she collected [BLANK] seashells. What is the total number of seashells she picked up in the first session? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After enjoying a sunny day at the beach, Olivia set out to collect seashells in three different sessions. In her first session, she found eight more shells than she did in the second session. In the third session, she collected two-thirds of the amount from the second session. The total number of seashells she collected adds up to [BLANK]. How many shells did she pick up in the first session? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "During a sunny day at the beach, Olivia collected seashells in three separate sessions. In the first session, the number of shells she collected exceeded that of the second session by eight. In her third session, she gathered two-thirds of the shells she had in the second. In total, she collected [BLANK] seashells. What was the quantity of seashells she gathered in the first session? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved [BLANK] tennis balls in all. How many tennis balls did he retrieve in the first set of the match? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After a tennis match, Rory is collecting tennis balls from the court. During the first set, he needed to gather four additional balls compared to the second set. In the third set, he picked up half the number of balls as he did in the second. In total, he retrieved [BLANK] tennis balls. What was the number of tennis balls he collected in the first set? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Rory is picking up tennis balls from the court following a tennis match. In the first set, he had to collect four more balls than he did in the second set. For the third set, he gathered half as many balls as in the second. He collected [BLANK] tennis balls altogether. How many tennis balls did he gather in the first set of the match? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Following a tennis match, Rory is gathering tennis balls from the court. He retrieved four more balls in the first set compared to the second set. In the third set, he collected half the number of balls as in the second. Overall, he gathered [BLANK] tennis balls. What was the amount of tennis balls retrieved in the first set? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After a match of tennis, Rory is collecting tennis balls from the court. He had to collect four extra balls in the first set than in the second. In the third set, he gathered half as many balls as he did in the second set. In total, he retrieved [BLANK] tennis balls. How many tennis balls did he retrieve during the first set of the match? Let's examine this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rory is in the process of picking up tennis balls from the court after a tennis match. In the first set, he had to retrieve four more balls than he did in the second. For the third set, he collected half the number of balls as in the second set. He gathered [BLANK] tennis balls in total. What is the number of tennis balls he retrieved in the first set of the match? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ethan is gathering firewood from the forest after a camping trip. In the first of three trips, he gathered seven more logs than in the second trip. In the third trip, he gathered a quarter as many logs as in the second. He gathered [BLANK] logs in total. How many logs did he gather in the first trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan collected firewood from the woods following a camping excursion. During his first trip, he picked up seven additional logs compared to his second trip. For his third trip, he collected one-fourth of the number of logs he gathered in the second. In total, he gathered [BLANK] logs. How many logs did he collect on his first trip? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "After a camping journey, Ethan is fetching firewood from the forest. In his initial trip, he collected seven logs more than what he did in his second trip. In the third trip, he gathered one-fourth of the logs he obtained in the second. Altogether, he collected [BLANK] logs. How many logs were gathered during the first trip? Let's analyze this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Following a camping adventure, Ethan is retrieving firewood from the forest. On his first trip, he found seven more logs than in his second trip. For the third trip, he gathered a quarter of the logs from the second trip. He accumulated [BLANK] logs in total. How many logs did he gather on the first trip? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan is collecting firewood from the woods after returning from a camping trip. In his first trip, he managed to gather seven more logs than he did in the second trip. In the third trip, he picked up a quarter of the logs he gathered during the second. He ended up with [BLANK] logs overall. How many logs did he collect in his first trip? Let\u2019s think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "After completing a camping trip, Ethan is gathering firewood from the forest. He collected seven more logs in his first trip than he did in the second trip. In his third trip, he gathered a quarter of the logs from the second trip. Overall, he gathered [BLANK] logs. How many logs did he collect during the first trip? Let\u2019s analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah is gathering eggs from the coop after a day of work. In the first of three collections, he gathered three more eggs than in the second collection. In the third collection, he gathered twice as many eggs as in the second. He gathered [BLANK] eggs in total. How many eggs did he gather in the first collection? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After a long day at work, Noah collects eggs from the coop. During his first collection, he picked up three more eggs than what he obtained in the second collection. In the third collection, he collected double the number of eggs he gathered in the second. He gathered [BLANK] eggs altogether. How many eggs did he collect in the first batch? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah is collecting eggs from the coop following his workday. In his initial collection, he gathered three eggs more than he did in the second collection. For the third collection, he gathered twice the number of eggs he collected in the second. He gathered [BLANK] eggs in total. What is the number of eggs he collected during the first collection? Let's go through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "After finishing his work, Noah is retrieving eggs from the coop. In his first round of collection, he picked three more eggs than he did in the second round. During the third round, he collected double the amount of eggs from the second. He gathered [BLANK] eggs overall. How many eggs were collected in the first round? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah is collecting eggs from the coop after a workday. He collected three additional eggs in his first gathering compared to the second gathering. In the third gathering, he picked up twice as many eggs as in the second. He gathered [BLANK] eggs in total. What was the number of eggs he collected in the first gathering? Let's analyze it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "After a busy day, Noah is gathering eggs from the coop. In the first collection, he gathered three more eggs than he did in the second. He collected twice as many in the third collection as he did in the second. He gathered [BLANK] eggs in total. How many eggs were collected in the first collection? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma is picking apples from the orchard after the harvest. In the first of three trips, she picked five more apples than in the second trip. In the third trip, she picked a fourth as many apples as in the second. She picked [BLANK] apples in total. How many apples did she pick in the first trip of the harvest? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After the harvest, Emma is collecting apples from the orchard. During her first trip, she gathered five apples more than she did in her second trip. For her third trip, she picked one-fourth of the apples she gathered on the second trip. In total, she picked [BLANK] apples. How many apples did she collect on her first trip? Let's reason through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Following the harvest, Emma is harvesting apples from the orchard. In her first journey, she collected five more apples than she did in her second journey. In her third journey, she gathered a quarter of the apples she picked on the second journey. Altogether, she picked [BLANK] apples. What is the number of apples she picked during her first journey? Let\u2019s analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma is gathering apples from the orchard post-harvest. In her initial trip, she picked five apples in excess of what she collected during her second trip. On her third trip, she gathered a quarter of the apples that were in her second trip. Overall, she picked [BLANK] apples. How many apples did she gather in her first trip? Let\u2019s work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After the apple harvest, Emma is collecting apples from the orchard. In her first trip, she gathered five more apples than what she collected on her second trip. During her third trip, she picked one-fourth as many apples as she did in the second trip. In total, she picked [BLANK] apples. How many apples were picked during her first trip? Let\u2019s go through this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma, after the harvest, is collecting apples from the orchard. During her first trip, she gathered five more apples than in her second trip. For her third trip, she harvested a quarter of the apples she picked in the second trip. In total, she picked [BLANK] apples. What number of apples did she collect in her first trip? Let\u2019s think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam is collecting baseballs from the field after a game. In the first of three innings, he had to collect six more balls than in the second inning. In the third inning, he collected a third as many balls as in the second. He collected [BLANK] baseballs in total. How many baseballs did he collect in the first inning of the game? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After a game, Liam is gathering baseballs from the field. During the first of three innings, he picked up six more baseballs than he did in the second inning. In the third inning, he gathered one third of the number of baseballs he collected in the second. He amassed [BLANK] baseballs altogether. What is the total number of baseballs he collected in the first inning of the game? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Following a game, Liam is retrieving baseballs from the field. In the first inning out of three, he managed to collect six more balls than he had in the second inning. For the third inning, he gathered a third of the amount he had in the second. He collected [BLANK] baseballs in all. How many baseballs did he gather in the first inning of the game? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam is picking up baseballs from the field post-game. In the first inning of three, he collected six more balls than he did during the second inning. In the third inning, he secured one third of the balls he gathered in the second. He totaled [BLANK] baseballs. What is the number of baseballs he gathered in the first inning of the game? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After the game, Liam is collecting baseballs from the field. In the first inning of three, he collected six more baseballs than he did in the second inning. In the third inning, he picked up one third of what he collected in the second. He gathered [BLANK] baseballs overall. How many baseballs did he gather in the first inning of the game? Let's think through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam is gathering baseballs from the field after a game. In the first of three innings, he collected six additional balls compared to the second inning. In the third inning, he gathered a third of the number of balls he collected in the second. The total number of baseballs he collected is [BLANK]. How many baseballs did he collect during the first inning of the game? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

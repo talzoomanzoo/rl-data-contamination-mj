@@ -4,11 +4,53 @@ import json
 import argparse
 import requests
 from pathlib import Path
+import time
+import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 
 # Get OpenRouter API key from environment
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+OPENROUTER_MAX_RETRIES = int(os.getenv("OPENROUTER_MAX_RETRIES", "6"))
+OPENROUTER_RETRY_BASE_SECONDS = float(os.getenv("OPENROUTER_RETRY_BASE_SECONDS", "1.0"))
+OPENROUTER_RETRY_MAX_SECONDS = float(os.getenv("OPENROUTER_RETRY_MAX_SECONDS", "30.0"))
+OPENROUTER_TIMEOUT_SECONDS = float(os.getenv("OPENROUTER_TIMEOUT_SECONDS", "90"))
+OPENROUTER_INCOMPLETE_WORKERS = int(os.getenv("OPENROUTER_INCOMPLETE_WORKERS", "8"))
+
+
+def _sleep_with_backoff(attempt: int) -> None:
+    base = min(OPENROUTER_RETRY_MAX_SECONDS, OPENROUTER_RETRY_BASE_SECONDS * (2 ** attempt))
+    jitter = 0.5 + random.random()  # [0.5, 1.5)
+    time.sleep(base * jitter)
+
+
+def _openrouter_chat_completion_content(*, headers: dict, data: dict) -> str:
+    last_err = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        try:
+            response = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers=headers,
+                json=data,
+                timeout=OPENROUTER_TIMEOUT_SECONDS,
+            )
+            if response.status_code in (408, 409, 425, 429, 500, 502, 503, 504):
+                raise RuntimeError(f"transient HTTP {response.status_code}: {response.text[:2000]}")
+            if response.status_code != 200:
+                raise RuntimeError(f"HTTP {response.status_code}: {response.text[:2000]}")
+            result = response.json()
+            content = result["choices"][0]["message"]["content"]
+            if not isinstance(content, str) or not content.strip():
+                raise ValueError("Empty/non-string OpenRouter content")
+            return content
+        except Exception as e:
+            last_err = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                raise
+            _sleep_with_backoff(attempt)
+    raise RuntimeError(f"OpenRouter call failed: {last_err}")
 
 def load_questions_from_file(input_file):
     """Load questions from a JSON or JSONL file. Returns list of dicts with 'question' and optionally 'dataset'."""
@@ -201,17 +243,7 @@ Output ONLY a short description of what information type should be removed (e.g.
         "max_tokens": 100
     }
     
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-    
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-    
-    result = response.json()
-    info_type = result['choices'][0]['message']['content'].strip()
+    info_type = _openrouter_chat_completion_content(headers=headers, data=data).strip()
     
     return info_type
 
@@ -262,17 +294,7 @@ Output ONLY the incomplete version of the problem with [BLANK] replacing the rem
         "max_tokens": 2000
     }
     
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-    
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-    
-    result = response.json()
-    incomplete_question = result['choices'][0]['message']['content'].strip()
+    incomplete_question = _openrouter_chat_completion_content(headers=headers, data=data).strip()
     
     return incomplete_question
 
@@ -329,33 +351,27 @@ Output ONLY a JSON array of strings with the same length and order as the input 
         "max_tokens": 4000
     }
 
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        content = _openrouter_chat_completion_content(headers=headers, data=data)
+        try:
+            start_idx = content.find('[')
+            end_idx = content.rfind(']') + 1
+            if start_idx != -1 and end_idx > start_idx:
+                json_str = content[start_idx:end_idx]
+                incomplete_questions = json.loads(json_str)
+            else:
+                raise json.JSONDecodeError("No JSON array found", content, 0)
+            if not isinstance(incomplete_questions, list):
+                raise ValueError("Batch response is not a JSON array")
+            return incomplete_questions
+        except Exception as e:
+            last = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                break
+            _sleep_with_backoff(attempt)
 
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-
-    result = response.json()
-    content = result['choices'][0]['message']['content']
-
-    try:
-        start_idx = content.find('[')
-        end_idx = content.rfind(']') + 1
-        if start_idx != -1 and end_idx > start_idx:
-            json_str = content[start_idx:end_idx]
-            incomplete_questions = json.loads(json_str)
-        else:
-            raise json.JSONDecodeError("No JSON array found", content, 0)
-    except json.JSONDecodeError as e:
-        raise ValueError(f"Failed to parse JSON array from batch response: {e}")
-
-    if not isinstance(incomplete_questions, list):
-        raise ValueError("Batch response is not a JSON array")
-
-    return incomplete_questions
+    raise ValueError(f"Failed to parse JSON array from batch response after retries: {last}")
 
 
 def generate_incomplete_question(original_question, model="openai/gpt-4o-mini"):
@@ -405,17 +421,7 @@ Output ONLY the incomplete version of the problem with [BLANK] replacing the rem
         "max_tokens": 2000
     }
     
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-    
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-    
-    result = response.json()
-    incomplete_question = result['choices'][0]['message']['content'].strip()
+    incomplete_question = _openrouter_chat_completion_content(headers=headers, data=data).strip()
     
     return incomplete_question
 
@@ -559,79 +565,113 @@ def main():
         print("\n" + "=" * 80)
         print(f"\n[Step 2: Applying consistent removal to all {len(questions)} questions]")
     
+    # --- Generation (parallel for speed) ---
+    prepared = []
     for idx, question_data in enumerate(questions, 1):
-        # Extract question text and metadata
         if isinstance(question_data, dict):
             question_text = question_data.get("question", "")
-            dataset = question_data.get("dataset")
-            original_question_id = question_data.get("original_question_id")
-            similar_question_id = question_data.get("similar_question_id")
-            question_type = question_data.get("type")
+            meta = {
+                "dataset": question_data.get("dataset"),
+                "original_question_id": question_data.get("original_question_id"),
+                "similar_question_id": question_data.get("similar_question_id"),
+                "type": question_data.get("type"),
+            }
         else:
             question_text = question_data
-            dataset = None
-            original_question_id = None
-            similar_question_id = None
-            question_type = None
-        
-        print(f"\n[Question {idx}/{len(questions)}]")
-        if dataset:
-            print(f"Dataset: {dataset}")
-        print(f"Original: {question_text[:100]}..." if len(question_text) > 100 else f"Original: {question_text}")
-        
+            meta = {"dataset": None, "original_question_id": None, "similar_question_id": None, "type": None}
+        prepared.append((idx, question_text, meta))
+
+    # Fast path: consistent-mode batch generation, with fallback to threaded per-question.
+    batch_incomplete = None
+    if args.consistent and info_to_remove and len(prepared) > 1:
         try:
-            if args.consistent and info_to_remove:
-                print(f"  → Removing: '{info_to_remove}'...")
-                incomplete_question = generate_incomplete_question_with_guidance(question_text, info_to_remove, args.model)
-            else:
-                print(f"  → Generating incomplete version...")
-                incomplete_question = generate_incomplete_question(question_text, args.model)
-            
+            texts = [q for _, q, _ in prepared]
+            batch_incomplete = generate_incomplete_questions_with_guidance_batch(
+                texts, info_to_remove, args.model
+            )
+            if len(batch_incomplete) != len(texts):
+                batch_incomplete = None
+        except Exception:
+            batch_incomplete = None
+
+    if batch_incomplete is not None:
+        for (idx, question_text, meta), incomplete_question in zip(prepared, batch_incomplete):
+            print(f"\n[Question {idx}/{len(prepared)}]")
+            if meta.get("dataset"):
+                print(f"Dataset: {meta.get('dataset')}")
+            print(f"Original: {question_text[:100]}..." if len(question_text) > 100 else f"Original: {question_text}")
             print(f"  ✓ Incomplete: {incomplete_question[:100]}..." if len(incomplete_question) > 100 else f"  ✓ Incomplete: {incomplete_question}")
-            
+
             result = {
                 "id": idx - 1,
                 "original_question": question_text,
                 "incomplete_question": incomplete_question,
                 "source": source_info,
-                "has_blank": "[BLANK]" in incomplete_question or "[blank]" in incomplete_question.lower()
+                "has_blank": "[BLANK]" in incomplete_question or "[blank]" in incomplete_question.lower(),
+                "info_removed": info_to_remove,
             }
-            
-            # Preserve dataset and other metadata
-            if dataset:
-                result["dataset"] = dataset
-            if original_question_id is not None:
-                result["original_question_id"] = original_question_id
-            if similar_question_id is not None:
-                result["similar_question_id"] = similar_question_id
-            if question_type:
-                result["type"] = question_type
-            
-            if args.consistent and info_to_remove:
-                result["info_removed"] = info_to_remove
-            
+            if meta.get("dataset"):
+                result["dataset"] = meta["dataset"]
+            if meta.get("original_question_id") is not None:
+                result["original_question_id"] = meta["original_question_id"]
+            if meta.get("similar_question_id") is not None:
+                result["similar_question_id"] = meta["similar_question_id"]
+            if meta.get("type"):
+                result["type"] = meta["type"]
             incomplete_results.append(result)
-            
-        except Exception as e:
-            print(f"  ✗ Error: {e}")
-            result = {
-                "id": idx - 1,
-                "original_question": question_text,
-                "incomplete_question": None,
-                "error": str(e),
-                "source": source_info
-            }
-            
-            # Preserve dataset and other metadata even on error
-            if dataset:
-                result["dataset"] = dataset
-            if original_question_id is not None:
-                result["original_question_id"] = original_question_id
-            if similar_question_id is not None:
-                result["similar_question_id"] = similar_question_id
-            if question_type:
-                result["type"] = question_type
-            
+    else:
+        def _work(question_text: str) -> str:
+            if args.consistent and info_to_remove:
+                return generate_incomplete_question_with_guidance(
+                    question_text, info_to_remove, args.model
+                )
+            return generate_incomplete_question(question_text, args.model)
+
+        max_workers = max(1, min(OPENROUTER_INCOMPLETE_WORKERS, len(prepared)))
+        results = {}
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            futs = {ex.submit(_work, q): idx for idx, q, _ in prepared}
+            for fut in as_completed(futs):
+                idx = futs[fut]
+                try:
+                    results[idx] = fut.result()
+                except Exception as e:
+                    results[idx] = e
+
+        for idx, question_text, meta in prepared:
+            print(f"\n[Question {idx}/{len(prepared)}]")
+            if meta.get("dataset"):
+                print(f"Dataset: {meta.get('dataset')}")
+            print(f"Original: {question_text[:100]}..." if len(question_text) > 100 else f"Original: {question_text}")
+
+            payload = results.get(idx)
+            if isinstance(payload, Exception) or payload is None:
+                print(f"  ✗ Error: {payload}")
+                result = {
+                    "id": idx - 1,
+                    "original_question": question_text,
+                    "incomplete_question": None,
+                    "error": str(payload),
+                    "source": source_info,
+                }
+            else:
+                incomplete_question = payload
+                print(f"  ✓ Incomplete: {incomplete_question[:100]}..." if len(incomplete_question) > 100 else f"  ✓ Incomplete: {incomplete_question}")
+                result = {
+                    "id": idx - 1,
+                    "original_question": question_text,
+                    "incomplete_question": incomplete_question,
+                    "source": source_info,
+                    "has_blank": "[BLANK]" in incomplete_question or "[blank]" in incomplete_question.lower(),
+                }
+            if meta.get("dataset"):
+                result["dataset"] = meta["dataset"]
+            if meta.get("original_question_id") is not None:
+                result["original_question_id"] = meta["original_question_id"]
+            if meta.get("similar_question_id") is not None:
+                result["similar_question_id"] = meta["similar_question_id"]
+            if meta.get("type"):
+                result["type"] = meta["type"]
             if args.consistent and info_to_remove:
                 result["info_removed"] = info_to_remove
             incomplete_results.append(result)

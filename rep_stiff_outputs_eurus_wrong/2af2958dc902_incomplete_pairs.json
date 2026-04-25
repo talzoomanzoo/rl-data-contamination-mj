@@ -1,0 +1,62 @@
+{
+  "original_question": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will 720 grams of cat food last? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total amount of food available",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will 720 grams of cat food last? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lara has 4 dogs. She feeds her dogs twice a day with 80 grams of dog food. How many days will 960 grams of dog food last? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Lara has 4 dogs. She feeds her dogs twice a day with 80 grams of dog food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Tom has 5 rabbits. He feeds his rabbits three times a day with 50 grams of rabbit food. How many days will 600 grams of rabbit food last? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Tom has 5 rabbits. He feeds his rabbits three times a day with 50 grams of rabbit food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sara has 2 parrots. She feeds her parrots once a day with 100 grams of bird food. How many days will 500 grams of bird food last? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sara has 2 parrots. She feeds her parrots once a day with 100 grams of bird food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Mike has 6 fish. He feeds his fish twice a day with 30 grams of fish food. How many days will 540 grams of fish food last? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mike has 6 fish. He feeds his fish twice a day with 30 grams of fish food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Jenna has 3 hamsters. She feeds her hamsters once a day with 70 grams of hamster food. How many days will 420 grams of hamster food last? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Jenna has 3 hamsters. She feeds her hamsters once a day with 70 grams of hamster food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of food available"
+    }
+  ],
+  "num_valid_similars": 5
+}

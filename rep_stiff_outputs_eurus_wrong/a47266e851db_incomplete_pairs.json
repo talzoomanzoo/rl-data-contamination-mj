@@ -1,0 +1,62 @@
+{
+  "original_question": "Lori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00.  Her part-time job pays her $8.00 an hour.  How many hours will she have to work before she can make her purchase? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total cost of items to purchase",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Lori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00.  Her part-time job pays her $8.00 an hour.  How many hours will she have to work before she can make her purchase? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Lori wants to buy a [BLANK] pair of shoes and a matching belt that is $32.00. Her part-time job pays her $8.00 an hour. How many hours will she have to work before she can make her purchase? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total cost of items to purchase"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Michael wants to buy a $250.00 gaming console and a $25.00 controller. His part-time job pays him $10.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "incomplete_question": "Michael wants to buy a [BLANK] gaming console and a $25.00 controller. His part-time job pays him $10.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "info_removed": "the total cost of items to purchase"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sarah wants to buy a $450.00 laptop and a $45.00 carrying case. Her part-time job pays her $9.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "incomplete_question": "Sarah wants to buy a [BLANK] laptop and a $45.00 carrying case. Her part-time job pays her $9.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "info_removed": "the total cost of items to purchase"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "David wants to buy a $150.00 bicycle and a $15.00 helmet. His part-time job pays him $7.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "incomplete_question": "David wants to buy a [BLANK] bicycle and a $15.00 helmet. His part-time job pays him $7.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "info_removed": "the total cost of items to purchase"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Emma wants to buy a $600.00 phone and a $60.00 phone case. Her part-time job pays her $12.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "incomplete_question": "Emma wants to buy a [BLANK] phone and a $60.00 phone case. Her part-time job pays her $12.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "info_removed": "the total cost of items to purchase"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Kevin wants to buy a $370.00 video game system and a $37.00 game. His part-time job pays him $11.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "incomplete_question": "Kevin wants to buy a [BLANK] video game system and a $37.00 game. His part-time job pays him $11.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "info_removed": "the total cost of items to purchase"
+    }
+  ],
+  "num_valid_similars": 5
+}

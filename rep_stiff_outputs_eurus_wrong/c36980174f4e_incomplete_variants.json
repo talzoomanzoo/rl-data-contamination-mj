@@ -1,0 +1,210 @@
+{
+  "original_question": "In triangle \\(ABC\\), the angle bisectors \\(AK\\) and \\(CL\\) and the median \\(BM\\) are drawn. It turns out that \\(ML\\) is the angle bisector of \\(\\angle AMB\\) and \\(MK\\) is the angle bisector of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) and the [BLANK] \\(YC\\) are drawn. It turns out that \\(CB\\) is the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) is the [BLANK] of \\(\\angle ZYC\\). Find the angles of triangle \\(XYZ\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) along with the [BLANK] \\(YC\\) are constructed. It is observed that \\(CB\\) represents the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) symbolizes the [BLANK] of \\(\\angle ZYC\\). Determine the angles of triangle \\(XYZ\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) along with the [BLANK] \\(YC\\) have been constructed. It is established that \\(CB\\) is the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) is the [BLANK] of \\(\\angle ZYC\\). Determine the angles of triangle \\(XYZ\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) and the [BLANK] \\(YC\\) are drawn. It turns out that \\(CB\\) is the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) is the [BLANK] of \\(\\angle ZYC\\)Find the angles of triangle \\(XYZ\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) are drawn, along with the [BLANK] \\(YC\\). It is known that \\(CB\\) represents the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) corresponds to the [BLANK] of \\(\\angle ZYC\\). Determine the angles of triangle \\(XYZ\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) as well as the [BLANK] \\(YC\\) are constructed. It is found that \\(CB\\) forms the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) serves as the [BLANK] of \\(\\angle ZYC\\). Determine the angles of triangle \\(XYZ\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) and the [BLANK] \\(LM\\) are drawn. It turns out that \\(MK\\) is the [BLANK] of \\(\\angle GML\\) and \\(MJ\\) is the [BLANK] of \\(\\angle HML\\). Find the angles of triangle \\(GHI\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) are constructed along with the [BLANK] \\(LM\\). It is known that \\(MK\\) represents the [BLANK] of \\(\\angle GML\\) while \\(MJ\\) serves as the [BLANK] of \\(\\angle HML\\). Determine the angles of triangle \\(GHI\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) are constructed along with the [BLANK] \\(LM\\). It is found that \\(MK\\) is the [BLANK] of \\(\\angle GML\\) while \\(MJ\\) represents the [BLANK] of \\(\\angle HML\\). Determine the angles of triangle \\(GHI\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) and the [BLANK] \\(LM\\) are drawn. It turns out that \\(MK\\) is the [BLANK] of \\(\\angle GML\\) and \\(MJ\\) is the [BLANK] of \\(\\angle HML\\)Find the angles of triangle \\(GHI\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) are constructed, along with the [BLANK] \\(LM\\). It is given that \\(MK\\) represents the [BLANK] of \\(\\angle GML\\) and \\(MJ\\) signifies the [BLANK] of \\(\\angle HML\\). Determine the angles of triangle \\(GHI\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) are constructed along with the [BLANK] \\(LM\\). It is determined that \\(MK\\) is the [BLANK] of \\(\\angle GML\\) while \\(MJ\\) represents the [BLANK] of \\(\\angle HML\\). Determine the angles of triangle \\(GHI\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(ABC\\), the [BLANK] segments \\(AK\\) and \\(CL\\) along with the [BLANK] segment \\(BM\\) are constructed. It is determined that \\(ML\\) represents the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) denotes the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(ABC\\), the [BLANK] segments \\(AK\\) and \\(CL\\) and the [BLANK] segment \\(BM\\) are constructed. It is observed that \\(ML\\) serves as the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) acts as the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\)Find the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) are constructed, along with the [BLANK] \\(BM\\). It is given that \\(ML\\) bisects \\(\\angle AMB\\) and \\(MK\\) bisects \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) along with the [BLANK] \\(BM\\) have been constructed. It is found that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(ABC\\), the [BLANK] segments \\(AK\\) and \\(CL\\) along with the [BLANK] segment \\(BM\\) are constructed. It is observed that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) along with the [BLANK] \\(BM\\) are constructed. It is observed that \\(ML\\) represents the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) signifies the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\)Find the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) along with the [BLANK] \\(BM\\) are constructed. It is determined that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(ABC\\), the [BLANK] segments \\(AK\\) and \\(CL\\) as well as the [BLANK] segment \\(BM\\) are constructed. It is observed that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) serves as the [BLANK] of \\(\\angle CMB\\). Determine the angles of triangle \\(ABC\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) and the [BLANK] \\(EI\\) are drawn. It turns out that \\(IH\\) is the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) is the [BLANK] of \\(\\angle CEF\\). Find the angles of triangle \\(DEF\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) along with the [BLANK] \\(EI\\) are constructed. It appears that \\(IH\\) represents the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) signifies the [BLANK] of \\(\\angle CEF\\). Determine the angles of triangle \\(DEF\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(DEF\\), the [BLANK] segments \\(DG\\) and \\(FH\\) along with the [BLANK] segment \\(EI\\) are constructed. It is revealed that \\(IH\\) represents the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) denotes the [BLANK] of \\(\\angle CEF\\). Determine the angles of triangle \\(DEF\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) and the [BLANK] \\(EI\\) are drawn. It turns out that \\(IH\\) is the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) is the [BLANK] of \\(\\angle CEF\\)Find the angles of triangle \\(DEF\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) as well as the [BLANK] \\(EI\\) are constructed. It is observed that \\(IH\\) represents the [BLANK] of \\(\\angle DEI\\) while \\(IG\\) denotes the [BLANK] of \\(\\angle CEF\\). Determine the angles of triangle \\(DEF\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) are constructed, along with the [BLANK] \\(EI\\). It is found that \\(IH\\) represents the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) denotes the [BLANK] of \\(\\angle CEF\\). Determine the angles of triangle \\(DEF\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) and the [BLANK] \\(NS\\) are drawn. It turns out that \\(SM\\) is the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) is the [BLANK] of \\(\\angle QNR\\). Find the angles of triangle \\(PQR\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) are drawn, along with the [BLANK] \\(NS\\). It is determined that \\(SM\\) is the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) represents the [BLANK] of \\(\\angle QNR\\). Determine the angles in triangle \\(PQR\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) are constructed, along with the [BLANK] \\(NS\\). It is found that \\(SM\\) represents the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) corresponds to the [BLANK] of \\(\\angle QNR\\). Determine the angles of triangle \\(PQR\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) and the [BLANK] \\(NS\\) are drawn. It turns out that \\(SM\\) is the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) is the [BLANK] of \\(\\angle QNR\\)Find the angles of triangle \\(PQR\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) are constructed along with the [BLANK] \\(NS\\). It is observed that \\(SM\\) represents the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) signifies the [BLANK] of \\(\\angle QNR\\). Determine the angles of triangle \\(PQR\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) are constructed, along with the [BLANK] \\(NS\\). It is found that \\(SM\\) is the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) is the [BLANK] of \\(\\angle QNR\\). Determine the angles of triangle \\(PQR\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

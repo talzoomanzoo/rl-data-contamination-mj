@@ -1,0 +1,210 @@
+{
+  "original_question": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and 2 trays, how many eggs won't he be able to place on the tray? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Kevin places toys in the bin. Each bin can hold 18 toys. If he has 52 toys and [BLANK], how many toys won't he be able to place in the bin?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Kevin puts toys into the bin. Each bin has a capacity of 18 toys. With 52 toys available and [BLANK], how many toys will remain outside of the bin?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Kevin is putting toys into the bin. Each bin can contain up to 18 toys. If he owns 52 toys and [BLANK], how many toys will he be unable to fit into the bin?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Kevin fills the bin with toys. Each bin can accommodate 18 toys. Given that he possesses 52 toys and [BLANK], how many toys will not fit into the bin?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Kevin is placing toys inside the bin. Each bin holds a maximum of 18 toys. If he has 52 toys and [BLANK], how many toys will he not be able to store in the bin?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Kevin adds toys to the bin. Each bin's capacity is 18 toys. With a total of 52 toys and [BLANK], how many toys will he have left that cannot be placed in the bin?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Maria places oranges in the basket. Each basket can hold 30 oranges. If she has 82 oranges and [BLANK], how many oranges won't she be able to place in the basket?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maria is putting oranges into the basket. Each basket accommodates 30 oranges. Given that she possesses 82 oranges and [BLANK], how many oranges will remain unplaced in the basket?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Maria fills a basket with oranges. A single basket can contain 30 oranges. If she has 82 oranges and [BLANK], how many oranges will she not be able to fit into the basket?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maria is adding oranges to the basket. Every basket can hold up to 30 oranges. If she has 82 oranges and [BLANK], how many oranges will she fail to place in the basket?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Maria is loading oranges into the basket. Each basket is capable of holding 30 oranges. If she has 82 oranges and [BLANK], how many oranges will she not manage to put in the basket?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maria puts oranges into a basket. Each basket can contain a maximum of 30 oranges. If she has 82 oranges and [BLANK], how many oranges will be left out of the basket?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sophie places candies in the jar. Each jar can hold 25 candies. If she has 97 candies and [BLANK], how many candies won't she be able to place in the jar?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophie is filling jars with candies. Every jar accommodates 25 candies. Given that she has 97 candies and [BLANK], how many candies will remain unplaced in the jar?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie puts candies into jars. Each jar can contain 25 candies. If she possesses 97 candies and [BLANK], how many candies will she not be able to fit into the jar?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophie is adding candies to jars. Each jar holds a maximum of 25 candies. With 97 candies in her possession and [BLANK], how many candies will she fail to store in the jar?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophie fills jars with candies. Each jar's capacity is 25 candies. If she has a total of 97 candies and [BLANK], how many candies will end up outside the jar?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie is placing candies into jars. Each jar can accommodate 25 candies. If she has 97 candies and [BLANK], how many candies will she be unable to add to the jar?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and [BLANK], how many eggs won't he be able to place on the tray? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jaime arranges eggs into the tray. A single tray can accommodate 24 eggs. Given that he has 64 eggs and [BLANK], how many eggs will be left over after filling the tray? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jaime puts eggs onto the tray. Each tray is designed to fit 24 eggs. If he possesses 64 eggs and [BLANK], how many eggs will remain unplaced on the tray? Let's break this down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jaime sets eggs onto the tray. Every tray holds a maximum of 24 eggs. With 64 eggs in total and [BLANK], how many eggs will he not be able to place on the tray? Let's proceed step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jaime loads eggs into the tray. Each tray has the capacity for 24 eggs. If he has 64 eggs and [BLANK], how many eggs will he fail to place on the tray? Let's go through this step by step and finish with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jaime fills the tray with eggs. One tray can contain 24 eggs at most. If he has 64 eggs and [BLANK], how many eggs will he be unable to fit onto the tray? Let's review this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Tom places books on the shelf. Each shelf can hold 15 books. If he has 50 books and [BLANK], how many books won't he be able to place on the shelf?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom is organizing his books on the shelf. Each shelf accommodates 15 books. Given that he owns 50 books and [BLANK], how many books will be left over that he cannot place on the shelf?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom arranges his books on a shelf. Each shelf has the capacity for 15 books. If he possesses 50 books and [BLANK], how many books will not fit on the shelf?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom is putting his books on the shelf. Each shelf can hold a total of 15 books. With 50 books in his collection and [BLANK], how many books will remain unplaced on the shelf?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom is setting his books onto the shelf. Each shelf is designed to hold 15 books. If he has a total of 50 books and [BLANK], how many books will he be unable to place on the shelf?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom is loading books onto the shelf. Each shelf can accommodate 15 books at most. If he has 50 books and [BLANK], how many books will he not be able to store on the shelf?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Lily places apples in the box. Each box can hold 20 apples. If she has 70 apples and [BLANK], how many apples won't she be able to place in the box?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lily puts apples into the container. Every container can accommodate 20 apples. Given that she has 70 apples and [BLANK], how many apples will remain that she cannot fit into the container?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lily is filling a box with apples. A single box has the capacity for 20 apples. If she possesses 70 apples and [BLANK], how many apples will she be unable to store in the box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lily is adding apples to the box. Each box has a maximum capacity of 20 apples. If she owns 70 apples and [BLANK], how many apples will she not be able to put into the box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lily is placing apples inside a box. Each box can hold up to 20 apples. If she has 70 apples and [BLANK], how many apples will she not manage to fit into the box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lily is loading apples into a box. A box can contain 20 apples at most. If she has 70 apples and [BLANK], how many apples will she fail to fit in the box?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

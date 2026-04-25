@@ -1,0 +1,210 @@
+{
+  "original_question": "A charity group decides to do a yard sale.  10 people donate 5 boxes of stuff each.  They also have 10 boxes of stuff already.  They can fit 2 boxes worth of stuff per table.  If they already own 15 tables, how many new tables do they need? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 10 boxes of stuff already. They can fit 2 boxes worth of stuff per table. If they already own 15 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A non-profit organization plans to hold a yard sale. [BLANK] individuals contribute [BLANK] boxes of items each. Additionally, they possess 10 boxes of items already. Each table can accommodate 2 boxes of items. With 15 tables currently at their disposal, how many additional tables do they require? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A charitable organization is organizing a yard sale. [BLANK] donors give [BLANK] boxes of goods each. They also have 10 boxes of goods on hand. Each table can hold 2 boxes of goods. Given that they have 15 tables, how many more tables do they need? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A charity organization is planning a yard sale. [BLANK] contributors donate [BLANK] boxes of items each. They already have 10 boxes of items. Each table can fit 2 boxes of items. If they have 15 tables in total, how many additional tables do they need? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A nonprofit group is preparing for a yard sale. [BLANK] people provide [BLANK] boxes of items each. They also possess 10 boxes of items already. Each table can accommodate 2 boxes of items. Considering they own 15 tables, how many new tables must they acquire? Let's discuss this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A charitable group is setting up for a yard sale. [BLANK] individuals donate [BLANK] boxes of items each. They have 10 boxes of items already available. Each table can hold 2 boxes of items. With 15 tables currently, how many more tables do they need to get? Let's evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 8 boxes of stuff already. If they can fit 3 boxes worth of stuff per table and they already own 10 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A non-profit organization plans to host a yard sale. [BLANK] individuals contribute [BLANK] boxes of items each. Additionally, they possess 8 boxes of items beforehand. Given that they can accommodate 3 boxes per table and they have 10 tables on hand, how many additional tables are required? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An organization dedicated to charity is organizing a yard sale. [BLANK] persons are donating [BLANK] boxes of goods each. They also have 8 boxes of goods already available. They can place 3 boxes on each table and they currently own 10 tables, so how many more tables do they need? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A charitable organization is planning a yard sale. [BLANK] volunteers donate [BLANK] boxes of items each. They also have 8 boxes of items in their possession. If each table can hold 3 boxes and they have 10 tables already, how many extra tables will they require? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A charity organization is set to hold a yard sale. [BLANK] contributors are providing [BLANK] boxes of items each. They already have 8 boxes of items in stock. If they can fit 3 boxes on every table and they own 10 tables, how many more tables do they need? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A nonprofit group is planning a yard sale event. [BLANK] donors give [BLANK] boxes of items each. They also begin with 8 boxes of items. Since each table can accommodate 3 boxes and they already possess 10 tables, how many additional tables are necessary? Let's evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 6 boxes of stuff already. If they can fit 5 boxes worth of stuff per table and they already own 8 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A nonprofit organization plans to hold a yard sale. [BLANK] individuals contribute [BLANK] boxes of items each. In addition, they possess 6 boxes of items already. If they can accommodate 5 boxes of items on each table and they currently have 8 tables, how many additional tables will they require? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A charitable organization is arranging a yard sale. [BLANK] donors give [BLANK] boxes of goods each. They also have 6 boxes of goods on hand. Given that they can place 5 boxes of goods on each table and they already have 8 tables, how many more tables do they need? Let's examine this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A charity organization is organizing a yard sale. [BLANK] contributors donate [BLANK] boxes of items each. They have 6 boxes of items in their possession already. If they can fit 5 boxes of items per table and they own 8 tables at the moment, how many additional tables do they need? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fundraising group is planning a yard sale. [BLANK] people each provide [BLANK] boxes of items. They also have 6 boxes of items in their inventory. If each table can hold 5 boxes of items and they currently possess 8 tables, how many new tables will they require? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A volunteer organization is set to conduct a yard sale. [BLANK] individuals donate [BLANK] boxes of belongings each. Additionally, they already have 6 boxes of belongings. If they are able to fit 5 boxes of belongings on each table and they currently have 8 tables, how many more tables will they need? Let's consider this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 12 boxes of stuff already. If they can fit 1 box worth of stuff per table and they already own 20 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A nonprofit organization plans to hold a yard sale. [BLANK] individuals contribute [BLANK] containers of items each. Additionally, they possess 12 containers of items already. If each table can accommodate 1 container of items and they currently have 20 tables, how many additional tables are required? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An organization for charity is organizing a yard sale. [BLANK] donors give [BLANK] boxes of items apiece. They also have 12 boxes of items on hand. If they are able to place 1 box of items on each table and they have 20 tables available, how many more tables do they need? Let's go through this methodically and produce the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A charitable group is arranging a yard sale. [BLANK] people provide [BLANK] boxes of goods each. They already have 12 boxes of goods in their possession. If they can place 1 box of goods per table and currently own 20 tables, how many extra tables are necessary? Let\u2019s evaluate this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A charity organization is preparing for a yard sale. [BLANK] participants donate [BLANK] boxes of items each. They also have 12 boxes of items already available. If they can fit 1 box of items on each table and they have 20 tables in total, how many additional tables do they require? Let\u2019s consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A nonprofit charity is planning a yard sale. [BLANK] contributors offer [BLANK] boxes of items each. They also possess 12 boxes of items already. If each table can hold 1 box of items and they currently have 20 tables, how many more tables will they need? Let\u2019s think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 5 boxes of stuff already. If they can fit 4 boxes worth of stuff per table and they already own 5 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A nonprofit organization is organizing a yard sale. [BLANK] individuals contribute [BLANK] boxes of items each. In addition, they possess 5 boxes of items already. Given that each table can accommodate 4 boxes of items and they have 5 tables on hand, how many additional tables are required? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A charitable organization is planning a yard sale. [BLANK] persons give [BLANK] boxes of goods each. They also have 5 boxes of goods already available. Since they can place 4 boxes worth of goods on each table and have 5 tables, how many more tables do they need? We will examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An aid group is preparing to hold a yard sale. [BLANK] participants donate [BLANK] boxes of items on average. They also start with 5 boxes of items. If each table can hold 4 boxes of items and they currently have 5 tables, how many additional tables will be necessary? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A philanthropic group is arranging a yard sale. [BLANK] contributors each provide [BLANK] boxes of items. They have 5 boxes of items already in their possession. With the capacity of each table being 4 boxes of items and owning 5 tables, how many extra tables will they require? We will think this through step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A community charity is setting up for a yard sale. [BLANK] volunteers donate [BLANK] boxes of items each. They also have 5 boxes of items in stock. If 4 boxes of items can be placed on each table and they have 5 tables available, how many more tables do they need to acquire? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 10 boxes of stuff already. If they can fit 3 boxes worth of stuff per table and they already own 12 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A nonprofit organization plans to hold a garage sale. [BLANK] individuals contribute [BLANK] containers of items each. Additionally, they possess 10 containers of items already. If each table can accommodate 3 containers, and they currently have 12 tables, how many additional tables will they require? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A charitable organization is organizing a yard sale. [BLANK] persons donate [BLANK] boxes filled with items each. They also have 10 boxes of items on hand. If they can place 3 boxes on each table and they have 12 tables in total, how many more tables do they need? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A charity is preparing for a yard sale event. [BLANK] people give [BLANK] boxes of items each. They also already own 10 boxes of items. If each table can hold 3 boxes and they currently have 12 tables, how many additional tables must they acquire? Let's break this down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A charitable group is planning a yard sale. [BLANK] individuals provide [BLANK] boxes of items each. They have an existing stock of 10 boxes. If each table can contain 3 boxes and they already possess 12 tables, how many new tables are necessary? Let\u2019s go through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A charity organization is set to conduct a garage sale. [BLANK] participants donate [BLANK] boxes of items each. They also have 10 boxes of items already available. If they can fit 3 boxes per table and they have 12 tables already, how many additional tables will they need? Let\u2019s consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

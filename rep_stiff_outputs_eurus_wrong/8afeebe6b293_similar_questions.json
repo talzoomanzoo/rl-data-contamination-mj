@@ -1,0 +1,27 @@
+{
+  "dataset": "sat",
+  "original_question_id": 0,
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!B!E & !A!BC & !A!BD & !A!CD & !A!CE & !A!D!E & !A!DE & !AD!E & !B!CE & !BD!E & !CDE & A!CD & A!D!E & ABD & AD!E & ADE & B!CD & BC!D & BCD & BDE\"}\n",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "{\"n_sat\": 2, \"k\": 6, \"clause\": \"!B!C!F & !A!B!C & !B!D!F & A!C!E & A!B!D & !B!DE & A!C!F & !A!D!F & !C!EF & !A!B!E\"}"
+    },
+    {
+      "id": 2,
+      "question": "{\"n_sat\": 4, \"k\": 7, \"clause\": \"!D!E!F!G & A!B!C!E & !A!B!C!F & A!C!D!G & !B!D!E!G & !A!C!F!G & A!B!D!E & !A!B!C!D\"}"
+    },
+    {
+      "id": 3,
+      "question": "{\"n_sat\": 3, \"k\": 8, \"clause\": \"!C!D!E & A!B!F & !A!C!G & !A!B!D & A!E!F & !B!C!H & A!B!C & !D!F!G\"}"
+    },
+    {
+      "id": 4,
+      "question": "{\"n_sat\": 5, \"k\": 9, \"clause\": \"!A!C!E!I & B!D!F!H & A!B!C!D & !A!F!G!H & !B!C!D!E & A!E!F!G & !D!E!H!I & B!C!E!F\"}"
+    },
+    {
+      "id": 5,
+      "question": "{\"n_sat\": 4, \"k\": 10, \"clause\": \"!A!B!C!D & E!F!G!H & !A!B!E!G & A!C!D!I & B!G!H!I & !B!C!E!F & A!D!F!H & !A!C!F!G\"}"
+    }
+  ]
+}

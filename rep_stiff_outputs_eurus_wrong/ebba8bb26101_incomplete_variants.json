@@ -1,0 +1,210 @@
+{
+  "original_question": "Isabelle bought party supplies for her little sister\u2019s birthday party. She spent $12 on ingredients for the cake, $43 on birthday presents, $15 on decorations, $4 on invitations, and $22 on goodie bags for the party guests. She split the cost evenly three ways with her two parents. How many dollars did each person pay? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma prepared a movie night for her family. She spent $9 on popcorn, $29 on pizza, $11 on candy, $6 on drinks, and $17 on [BLANK]. She split the cost evenly two ways with her brother. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma organized a family movie night. She spent $9 on popcorn, $29 on pizza, $11 on candy, $6 on drinks, and $17 on [BLANK]. She divided the total cost equally with her brother. How much did each of them contribute? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma set up a movie night for her family. Her expenses included $9 for popcorn, $29 for pizza, $11 for candy, $6 for drinks, and $17 for [BLANK]. She shared the expenses equally with her brother. What is the amount each person paid? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma arranged a movie night for her family. She allocated $9 for popcorn, $29 for pizza, $11 for candy, $6 for drinks, and $17 for [BLANK]. The total was split evenly between her and her brother. How much did each individual spend? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma was in charge of a movie night for her family. She invested $9 in popcorn, $29 in pizza, $11 in candy, $6 in drinks, and $17 in [BLANK]. She shared the total cost in half with her brother. What is the cost for each person? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma hosted a movie night for her family. The costs were $9 for popcorn, $29 for pizza, $11 for candy, $6 for drinks, and $17 for [BLANK]. She divided the total expenses into two equal parts with her brother. How much did each of them pay? Let's work through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah arranged a school fundraiser. He spent $20 on refreshments, $35 on decorations, $12 on flyers, $8 on prizes, and $30 on [BLANK]. He split the cost evenly five ways with his four classmates. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah organized a fundraiser for school. He allocated $20 for refreshments, $35 for decorations, $12 for flyers, $8 for prizes, and $30 for [BLANK]. He divided the total expense equally among five individuals, including himself and four classmates. What is the amount each person contributed? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah set up a school fundraising event. He spent $20 on refreshments, $35 on decorations, $12 on flyers, $8 on prizes, and $30 on [BLANK]. He shared the total cost evenly with his four classmates. How much did each individual pay? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah coordinated a fundraiser at school. He invested $20 in refreshments, $35 in decorations, $12 in flyers, $8 in prizes, and $30 in [BLANK]. He split the total cost among five people, including himself and four classmates. How many dollars did each participant pay? Let's reason through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah held a school fundraiser. He spent $20 on refreshments, $35 on decorations, $12 on flyers, $8 on prizes, and $30 on [BLANK]. He distributed the total expenses equally among five people, which included his four classmates. How much did each person end up paying? Let's examine it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah arranged a fundraiser for his school. He spent $20 on refreshments, $35 on decorations, $12 on flyers, $8 on prizes, and $30 on [BLANK]. He divided the overall cost evenly with his four classmates. How much did each individual have to pay? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "James threw a surprise party for his friend. He spent $25 on food, $30 on drinks, $18 on decorations, $10 on party hats, and $17 on [BLANK]. He split the cost evenly three ways with two other friends. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James organized a surprise celebration for his friend. He paid $25 for food, $30 for beverages, $18 for decorations, $10 for party hats, and $17 for [BLANK]. He divided the total cost equally among three people. How much did each individual contribute? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James arranged a surprise gathering for his friend. His expenditures included $25 for food, $30 for drinks, $18 for decorations, $10 for party hats, and $17 for [BLANK]. He shared the total expense equally with two other friends. What amount did each person end up paying? Let's proceed step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James hosted a surprise party for his friend. He spent $25 on food, $30 on refreshments, $18 on decorations, $10 on party hats, and $17 on [BLANK]. He split the total cost equally among three friends. What is the amount that each person paid? Let's go through the steps and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James threw a surprise celebration for his friend. He incurred $25 for food, $30 for drinks, $18 for decorations, $10 for party hats, and $17 for [BLANK]. He divided the overall cost into three equal parts with two other friends. How much did each friend contribute? Let's think through the steps and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James planned a surprise party for his friend. He allocated $25 for food, $30 for beverages, $18 for decorations, $10 for party hats, and $17 for [BLANK]. He equally shared the total cost among three friends. How many dollars did each one pay? Let's work through it step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam organized a picnic for his friends. He spent $18 on sandwiches, $37 on drinks, $10 on snacks, $5 on napkins, and $25 on [BLANK]. He split the cost evenly four ways with his three friends. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam arranged a picnic for his friends. He paid $18 for sandwiches, $37 for beverages, $10 for snacks, $5 for napkins, and $25 for [BLANK]. He divided the total cost equally among four people including himself. How much did each individual contribute? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam planned a picnic for his friends. His expenses included $18 on sandwiches, $37 on drinks, $10 on treats, $5 on napkins, and $25 on [BLANK]. He shared the total cost evenly with his three friends. What is the amount each person had to pay? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam set up a picnic for his friends. He spent $18 for sandwiches, $37 for refreshments, $10 for snacks, $5 for napkins, and $25 for [BLANK]. He split the expenses equally among four people, including himself. How much did each friend end up paying? Let's analyze it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam hosted a picnic for his friends. He allocated $18 for sandwiches, $37 for drinks, $10 for snacks, $5 for napkins, and $25 for [BLANK]. He divided the overall cost equally with his three friends. How many dollars did each participant pay? Let's break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam threw a picnic for his friends. He incurred costs of $18 for sandwiches, $37 for beverages, $10 for snacks, $5 for napkins, and $25 for [BLANK]. He shared the total cost evenly with his three friends. How much did each of them pay? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia planned a family reunion. She spent $15 on catering, $50 on venue rental, $20 on decorations, $7 on invitations, and $40 on [BLANK]. She split the cost evenly six ways with her five relatives. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia organized a family gathering. She allocated $15 for catering, $50 for the venue hire, $20 for decorations, $7 for the invites, and $40 for [BLANK]. She divided the total expense equally among six people, including her five relatives. How much did each individual contribute? Let's analyze step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia arranged a family reunion. She incurred costs of $15 for catering, $50 for renting the venue, $20 for decorations, $7 for the invitations, and $40 for [BLANK]. She shared the total cost evenly among six participants, which included her five relatives. What is the amount each person paid? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia set up a family get-together. She spent $15 on catering services, $50 on the venue rental, $20 on decorations, $7 on the invitations, and $40 on [BLANK]. She evenly split the total expenditure six ways with her five family members. How many dollars did each relative pay? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia coordinated a family reunion. She invested $15 in catering, $50 in venue rental, $20 for decorations, $7 for invitations, and $40 for [BLANK]. She divided the total expenses evenly among six individuals, including her five relatives. How much did each person end up paying? Let's think about this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia hosted a family reunion. She allocated $15 for catering, $50 for the venue rental, $20 for decorations, $7 for the invitations, and $40 for [BLANK]. She apportioned the overall cost equally among six people, consisting of her five relatives. What is the amount that each one paid? Let's analyze this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Isabelle bought [BLANK] for her little sister\u2019s birthday party. She spent $12 on ingredients for the cake, $43 on birthday presents, $15 on decorations, $4 on invitations, and $22 on goodie bags for the party guests. She split the cost evenly three ways with her two parents. How many dollars did each person pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Isabelle acquired [BLANK] for her younger sister's birthday celebration. She allocated $12 for cake ingredients, $43 for gifts, $15 for decorations, $4 for invitations, and $22 for treat bags for the attendees. She divided the total expense equally among herself and her two parents. How much did each individual contribute? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For her little sister's birthday event, Isabelle purchased [BLANK]. She spent $12 on cake supplies, $43 on presents, $15 on party decorations, $4 on the invitations, and $22 on goodie bags for the guests. The total cost was shared evenly in thirds with her two parents. How much did each person end up paying? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Isabelle got [BLANK] for the birthday party of her little sister. The expenses included $12 on cake ingredients, $43 on birthday gifts, $15 on decorations, $4 on invitations, and $22 on goodie bags for the visitors. She split the overall cost into three equal parts with her parents. What amount did each person pay? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For her younger sister's birthday gathering, Isabelle obtained [BLANK]. She invested $12 for cake ingredients, $43 for gifts, $15 for decor, $4 for the invitations, and $22 for goodie bags for the party guests. The total outlay was evenly divided into three portions with her two parents. How much did each individual pay? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Isabelle purchased [BLANK] for her little sister's birthday bash. She spent $12 on cake components, $43 on presents, $15 on party decorations, $4 on invitations, and $22 on goodie bags for the attendees. The total amount was shared equally three ways with her parents. How many dollars did each person pay? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south.  To make the journey, the bird leaves her home flying in a southerly direction for 10 hours at a speed of 30 miles per hour.  Then, the bird turns direction and flies towards the north for 2 hours are a speed of 18 miles per hour.  Finally, the bird changes direction and flies toward the south for 5 hours at a speed of 22 miles per hour before landing at her southern home.  What is the distance, in miles, between the bird's northern and the southern homes? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 32 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 20 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 19 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird chooses to depart from her northern summer residence and head towards her southern winter location. For the journey, the bird initially flies south for [BLANK] at a velocity of 32 miles per hour. Afterward, the bird alters her course and travels north for [BLANK] at a speed of 20 miles per hour. Lastly, the bird shifts direction again and proceeds south for [BLANK] at a speed of 19 miles per hour before arriving at her southern destination. What is the distance, in miles, between the bird's homes in the north and south?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird plans to leave her summer habitat in the north and migrate to her winter dwelling in the south. To complete her journey, she first flies south for [BLANK] at a speed of 32 miles per hour. Next, the bird turns around and heads north for [BLANK] at a pace of 20 miles per hour. Finally, she changes direction once more and flies south for [BLANK] at a rate of 19 miles per hour until she reaches her southern home. What is the distance, in miles, from the bird's northern home to her southern home?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird makes the decision to vacate her northern summer location and journey to her southern winter abode. In order to travel, the bird first flies in a southerly direction for [BLANK] at a speed of 32 miles per hour. Subsequently, she changes her course and flies north for [BLANK] at 20 miles per hour. Finally, the bird alters her path again and heads south for [BLANK] at a velocity of 19 miles per hour, ultimately arriving at her southern residence. What is the distance, in miles, between her homes in the north and the south?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird starts her journey from her summer location in the north to her winter home in the south. To accomplish this, she flies south for [BLANK] at a speed of 32 miles per hour. After that, she turns around and flies north for [BLANK] at a speed of 20 miles per hour. Finally, she changes direction again to fly south for [BLANK] at a speed of 19 miles per hour before reaching her southern abode. What is the distance, in miles, separating her northern and southern homes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird decides to leave her northern summer residence and make her way to her southern winter home. For the journey, she first flies south for [BLANK] at a speed of 32 miles per hour. Then, she makes a turn and heads north for [BLANK] at a speed of 20 miles per hour. Eventually, the bird changes her direction again and flies south for [BLANK] at a speed of 19 miles per hour before arriving at her winter home. What is the distance, in miles, between her homes in the north and south?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 35 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 10 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 24 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird sets off from her northern summer residence to reach her southern winter abode. She starts her journey by flying south for [BLANK] at a velocity of 35 miles per hour. After that, she alters her course and heads north for [BLANK] at a speed of 10 miles per hour. Lastly, the bird shifts direction once more and flies south for [BLANK] at a rate of 24 miles per hour before arriving at her home in the south. What is the distance, in miles, that separates the bird's northern and southern residences?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird chooses to depart her summer location in the north and migrate to her winter location in the south. To complete this trip, she first flies south for [BLANK] at a pace of 35 miles per hour. She then turns around and travels north for [BLANK] at a speed of 10 miles per hour. Finally, she changes direction again and flies south for [BLANK] at a speed of 24 miles per hour before reaching her southern residence. What is the mileage between the bird's northern and southern homes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird is ready to leave her summer dwelling in the north to fly to her winter dwelling in the south. She sets off by heading south for [BLANK] at a speed of 35 miles per hour. Then, she makes a turn and flies north for [BLANK] at 10 miles per hour. Finally, she changes her course to fly south for [BLANK] at a speed of 24 miles per hour before arriving at her home in the south. How far, in miles, are the bird's northern and southern homes apart?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird plans to depart her summer habitat in the north and travel to her winter habitat in the south. To undertake this journey, she initially flies south for [BLANK] at a speed of 35 miles per hour. Afterward, she turns around and flies north for [BLANK] at a speed of 10 miles per hour. Lastly, she adjusts her direction and flies south for [BLANK] at a speed of 24 miles per hour before settling in her southern home. What is the distance, in miles, between her northern and southern residences?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird decides to leave her summer location in the northern region to head towards her winter location in the south. She begins by flying south for [BLANK] at a speed of 35 miles per hour. Subsequently, she shifts direction and flies north for [BLANK] at a velocity of 10 miles per hour. Lastly, she changes course again and flies south for [BLANK] at a speed of 24 miles per hour before landing at her southern home. What is the distance, in miles, from the bird's northern to her southern home?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 28 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 12 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 30 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird chooses to depart from her summer residence in the north and head to her winter residence in the south. For this trip, the bird starts by flying south for [BLANK] at a velocity of 28 miles per hour. Afterward, she changes her course and heads north for [BLANK] at a speed of 12 miles per hour. Lastly, she alters her direction again and flies south for [BLANK] at a rate of 30 miles per hour before arriving at her southern residence. What is the distance, in miles, between the bird's northern and southern residences?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird plans to leave her summer location in the north and move to her winter location in the south. To undertake this journey, the bird initially flies south for [BLANK] at a speed of 28 miles per hour. Subsequently, she turns and flies north for [BLANK] at a velocity of 12 miles per hour. Finally, the bird shifts direction and travels south for [BLANK] at a pace of 30 miles per hour before reaching her southern location. What is the distance, in miles, from the bird's northern home to her southern home?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird decides to depart her summer habitat in the north and proceed to her winter habitat in the south. To complete this journey, she first flies south for [BLANK] at a speed of 28 miles per hour. Then, she alters her course and travels north for [BLANK] at a speed of 12 miles per hour. Finally, she changes direction once more and heads south for [BLANK] at a speed of 30 miles per hour before landing at her southern habitat. What is the distance, in miles, between the bird's home in the north and her home in the south?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird has opted to leave her summer dwelling in the north and travel to her winter dwelling in the south. For the journey, she first flies south for [BLANK] at a constant speed of 28 miles per hour. Afterward, she turns around and flies north for [BLANK] at a speed of 12 miles per hour. Lastly, she changes her direction again to fly south for [BLANK] at a speed of 30 miles per hour before arriving at her southern dwelling. What is the distance, in miles, separating the bird's northern and southern dwellings?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird makes the choice to leave her summer abode in the north and venture to her winter abode in the south. To undertake this journey, the bird first flies south for [BLANK] at a speed of 28 miles per hour. Then, she shifts her direction and flies north for [BLANK] at a pace of 12 miles per hour. Finally, she once again changes direction and travels south for [BLANK] at a speed of 30 miles per hour before she reaches her southern abode. What is the distance, in miles, between the bird's northern abode and her southern abode?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 25 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 15 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 20 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird sets out from her summer residence in the north to migrate to her winter residence in the south. During her journey, she first flies south for [BLANK] at a speed of 25 miles per hour. Next, she alters her course and heads north for [BLANK] at a speed of 15 miles per hour. Lastly, the bird changes her direction again and flies south for [BLANK] at a speed of 20 miles per hour before arriving at her southern residence. What is the distance, in miles, between the bird's northern and southern residences?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird decides to depart from her northern summer dwelling and head to her southern winter dwelling. To accomplish this trip, she first flies south for [BLANK] at a speed of 25 miles per hour. Afterward, she shifts direction and travels north for [BLANK] at a speed of 15 miles per hour. Finally, she alters her path and flies south for [BLANK] at a speed of 20 miles per hour until she reaches her southern dwelling. What is the distance, in miles, separating the bird's northern and southern dwellings?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird chooses to leave her summer habitat in the north to migrate to her winter habitat in the south. To undertake the journey, she first flies south for [BLANK] at a speed of 25 miles per hour. Then, she turns around and flies north for [BLANK] at a speed of 15 miles per hour. Lastly, the bird changes her route and flies south for [BLANK] at a speed of 20 miles per hour before arriving at her southern habitat. What is the distance, in miles, between the bird's northern and southern habitats?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird embarks on a journey from her summer location in the north to her winter location in the south. For this trip, she first heads south for [BLANK] at a rate of 25 miles per hour. Subsequently, she turns and flies north for [BLANK] at a speed of 15 miles per hour. Finally, she changes direction and flies south for [BLANK] at a speed of 20 miles per hour before reaching her winter location. What is the distance, in miles, between the bird's northern and southern locations?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird decides to leave her summer quarters in the north and fly to her winter quarters in the south. To complete this journey, she flies south for [BLANK] at a speed of 25 miles per hour. After that, she redirects and flies north for [BLANK] at a speed of 15 miles per hour. Finally, she changes her direction once more and flies south for [BLANK] at a speed of 20 miles per hour before landing at her southern quarters. What is the distance, in miles, between the bird's northern and southern quarters?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 30 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 18 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 22 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird chooses to depart from her summer residence in the north and head to her winter residence in the south. To complete her journey, the bird starts by flying south for [BLANK] at a speed of 30 miles per hour. Next, the bird alters her path and flies north for [BLANK] at a speed of 18 miles per hour. Lastly, the bird shifts direction again, flying south for [BLANK] at a speed of 22 miles per hour before reaching her southern residence. What is the distance, in miles, between the bird's northern and southern homes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird makes the decision to leave her summer location in the north and travel to her winter location in the south. To undertake this journey, the bird initially flies south for [BLANK] at a speed of 30 miles per hour. After that, the bird changes her course and flies north for [BLANK] at a speed of 18 miles per hour. Finally, the bird redirects her flight south for [BLANK] at a speed of 22 miles per hour before arriving at her southern location. What is the distance, in miles, from the bird's northern home to her southern home?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird opts to exit her summer dwelling in the north and journey to her winter dwelling in the south. For this trip, the bird first flies south for [BLANK] at a speed of 30 miles per hour. Then, she changes direction and heads north for [BLANK] at a speed of 18 miles per hour. Lastly, the bird turns around and flies south for [BLANK] at a speed of 22 miles per hour before landing at her southern dwelling. What is the distance, in miles, between the bird's home in the north and her home in the south?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird decides to leave her summer habitat in the north and make her way to her winter habitat in the south. To carry out her journey, the bird departs by flying south for [BLANK] at a speed of 30 miles per hour. Subsequently, the bird alters her flight path and travels north for [BLANK] at a speed of 18 miles per hour. Finally, the bird turns back and flies south for [BLANK] at a speed of 22 miles per hour before reaching her southern habitat. What is the distance, in miles, from the bird's northern habitat to the southern one?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird chooses to depart from her summer location in the north and travel south to her winter location. To embark on this journey, the bird first flies south for [BLANK] at a speed of 30 miles per hour. Afterward, she turns and flies north for [BLANK] at a speed of 18 miles per hour. Finally, the bird changes her course once more and flies south for [BLANK] at a speed of 22 miles per hour before arriving at her southern location. What is the distance, in miles, separating the bird's northern home from her southern home?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A bird decides to leave her summer home in the north and travel to her winter home in the south. To make the journey, the bird leaves her home flying in a southerly direction for [BLANK] at a speed of 40 miles per hour. Then, the bird turns direction and flies towards the north for [BLANK] at a speed of 14 miles per hour. Finally, the bird changes direction and flies toward the south for [BLANK] at a speed of 26 miles per hour before landing at her southern home. What is the distance, in miles, between the bird's northern and the southern homes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bird sets off from her summer residence in the north to reach her winter residence in the south. To undertake this trip, the bird initially flies south for [BLANK] at a velocity of 40 miles per hour. Afterwards, the bird reverses course and heads north for [BLANK] at a speed of 14 miles per hour. Finally, the bird alters her path again, flying south for [BLANK] at a pace of 26 miles per hour before arriving at her winter home. What is the distance, in miles, between the bird's northern and southern residences?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bird chooses to depart from her summer location in the north and travel to her winter location in the south. For this journey, she first flies south for [BLANK] at a speed of 40 miles per hour. Next, the bird shifts direction and flies north for [BLANK] at a rate of 14 miles per hour. Ultimately, she changes course and flies south for [BLANK] at a speed of 26 miles per hour until she reaches her southern home. What is the distance, in miles, separating the bird's northern and southern locations?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bird makes the decision to leave her northern summer habitat and head to her southern winter habitat. To complete this journey, she first flies in a southerly direction for [BLANK] at 40 miles per hour. Then, she alters her course and travels north for [BLANK] at a speed of 14 miles per hour. Lastly, the bird changes direction once more and flies south for [BLANK] at 26 miles per hour before arriving at her southern dwelling. What is the distance, in miles, between the bird's northern and southern habitats?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bird opts to exit her summer dwelling in the north and migrate to her winter dwelling in the south. To initiate her journey, she flies south for [BLANK] at a speed of 40 miles per hour. Subsequently, she changes her direction and proceeds north for [BLANK] at 14 miles per hour. Finally, the bird adjusts her trajectory and flies south for [BLANK] at a pace of 26 miles per hour before landing at her winter residence. What is the distance, in miles, between the bird's northern and southern dwellings?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bird makes a choice to leave her summer home located in the north and travel south to her winter home. During her journey, she first flies south for [BLANK] at a speed of 40 miles per hour. Then, she redirects her flight and heads north for [BLANK] at a velocity of 14 miles per hour. To conclude her journey, the bird changes her direction again and flies south for [BLANK] at a speed of 26 miles per hour until she arrives at her southern home. What is the distance, in miles, between the bird's northern and southern homes?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

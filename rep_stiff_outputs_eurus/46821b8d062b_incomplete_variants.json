@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that the sum of two natural numbers is $17{,}402$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the total of two natural numbers equals $[BLANK]$, and one of these numbers is a multiple of $10$, removing its units digit results in the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the combined value of two natural numbers is $[BLANK]$, with one of the numbers being a multiple of $10$, erasing its last digit gives the other number. Calculate the difference of these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the addition of two natural numbers results in $[BLANK]$, where one of the numbers is divisible by $10$, if you take away its units digit, you will find the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With the sum of two natural numbers being $[BLANK]$, and one of them being a multiple of $10$, if you remove the units digit from that number, you get the other number. Find the difference of these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Knowing that the sum of two natural numbers amounts to $[BLANK]$, where one number is divisible by $10$, erasing the last digit of that number reveals the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the total of two natural numbers is $[BLANK]$, and one of those numbers can be divided by $10$, removing the units digit of that number yields the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the addition of two natural numbers equals $[BLANK]$, with one of them being a multiple of $10$, erasing the last digit of that number results in the other number. Calculate the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the total of two natural numbers amounts to $[BLANK]$, where one of the numbers is a multiple of $10$, deleting the unit digit of that number gives the other number. Find the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let it be known that the combined value of two natural numbers is $[BLANK]$, and one of those numbers is divisible by $10$. If the unit digit of that number is removed, the other number appears. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "It is given that the sum of two natural numbers equals $[BLANK]$, with one number being divisible by $10$, and by eliminating the units digit of that number, the other number can be found. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the total of two natural numbers equals $[BLANK]$, one of those numbers is a multiple of $10$, and removing its units digit yields the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let the combined value of two natural numbers be $[BLANK]$. One of the numbers is divisible by $10$, and by eliminating its last digit, you arrive at the other number. Calculate the difference between the two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If the total of two natural numbers amounts to $[BLANK]$, and one of them can be divided by $10$, erasing its units digit results in the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the sum of two natural numbers is $[BLANK]$, with one number being a multiple of $10$, removing its units digit reveals the other number. Find the difference of these two natural numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Suppose the sum of two natural numbers is $[BLANK]$, where one number is divisible by $10$, and if you erase its last digit, you obtain the second number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the total of two natural numbers equals $[BLANK]$, and one of these numbers is a multiple of $10$, removing the last digit of that number yields the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the sum of two natural numbers is $[BLANK]$, with one number being a multiple of $10$, erasing the units digit from that number results in the other number. Calculate the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that two natural numbers add up to $[BLANK]$, and one of these numbers is divisible by $10$, if you delete the units digit of that number, you will find the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let the sum of two natural numbers be $[BLANK]$, where one of the numbers is a multiple of $10$. When the units digit of this number is removed, the other number is revealed. Find the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If two natural numbers together equal $[BLANK]$, with one number being divisible by $10$, and removing its units digit gives the other number, what is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the total of two natural numbers equals $[BLANK]$, and one of these numbers is a multiple of $10$, removing the units digit of that number results in the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the combined value of two natural numbers is $[BLANK]$, where one of the numbers is divisible by $10$; when the last digit of this number is removed, it yields the other number. Calculate the difference of these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the sum of two natural numbers given as $[BLANK]$, if one of the numbers can be divided by $10$, and erasing its units digit gives the other number, find the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the addition of two natural numbers amounts to $[BLANK]$, and one of those numbers is a multiple of $10$, if you erase the units digit of that number, you will arrive at the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If the total of two natural numbers is $[BLANK]$, and one of them is a multiple of $10$, erasing its last digit results in the other number. What is the difference between these two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that the sum of two natural numbers is $[BLANK]$, one of the two numbers is divisible by $10$, if the units digit of that number is erased, the other number is obtained. Find the difference of these two numbers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the total of two natural numbers equals $[BLANK]$, and one of these numbers is a multiple of $10$, removing its units digit results in the other number. Determine the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the addition of two natural numbers equals $[BLANK]$, with one of them being divisible by $10$, if the last digit of that number is removed, the other number is revealed. Calculate the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the combined value of two natural numbers is $[BLANK]$, where one number is a multiple of $10$, if you eliminate the units digit of that number, you will obtain the other number. Find the difference between these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With the sum of two natural numbers being $[BLANK]$, and one of the numbers divisible by $10$, erasing its last digit leads to the other number. Find the difference of these two numbers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Provided that the sum of two natural numbers is $[BLANK]$, and one of those numbers is divisible by $10$, if the units digit of that number is taken away, the other number can be found. Determine the difference of these two numbers.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

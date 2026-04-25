@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $\\triangle ABC$ have side lengths $AB = 13, BC = 14,$ and $CA = 15.$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that ${}\\overline{AC}$ is perpendicular $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is orthogonal to segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with sides measuring $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with sides measuring $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is at a right angle to segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are positioned on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$ with sides measuring $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with side measurements $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ and points $A'$ and $B$ are positioned on opposite sides of line $B'C'.$ Determine the closest integer to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that the segment $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is closest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is at a right angle to $\\overline{BC},$ ensuring that points $A'$ and $B$ lie on opposite sides of the line $B'C'.$ Determine the integer that is closest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is orthogonal to $\\overline{BC},$ ensuring that points $A'$ and $B$ lie on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is orthogonal to segment $\\overline{BC},$ ensuring that points $A'$ and $B$ do not lie on the same side of line $B'C'.$ Determine the integer that is closest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are situated on opposite sides of line $B'C'.$ Determine the closest integer to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is at a right angle to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is closest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with its sides measuring $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is orthogonal to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$, which has side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with points $A'$ and $B$ located on opposite sides of the line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is orthogonal to $\\overline{BC},$ ensuring that points $A'$ and $B$ are positioned on opposite sides of line $B'C'.$ Determine the nearest integer to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with the lengths of its sides given by $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is orthogonal to $\\overline{BC},$ and points $A'$ and $B$ are situated on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is orthogonal to $\\overline{BC},$ and points $A'$ and $B$ are positioned on opposite sides of the line $B'C'.$ Determine the integer that is nearest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is at a right angle to $\\overline{BC},$ ensuring that points $A'$ and $B$ are positioned on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter, ensuring that segment $\\overline{AC}$ is perpendicular to segment $\\overline{BC},$ and that points $A'$ and $B$ lie on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating triangle $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is closest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ with the lengths of its sides given by $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is perpendicular to segment $\\overline{BC},$ ensuring that points $A'$ and $B$ lie on opposite sides of the line $B'C'.$ Determine the integer that is nearest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are on opposite sides of the line $B'C'.$ Determine the nearest integer to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that $\\overline{AC}$ is perpendicular to $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter so that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of the line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $\\triangle ABC$ have side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is obtained by rotating $\\triangle ABC$ about its circumcenter so that $\\overline{AC}$ is perpendicular $\\overline{BC},$ with $A'$ and $B$ not on the same side of line $B'C'.$ Find the integer closest to the area of hexagon $AA'CC'BB'.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider triangle $\\triangle ABC$ with sides $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is created by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is perpendicular to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ lie on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider triangle $\\triangle ABC$ where the lengths of the sides are given by $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating triangle $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is at a right angle to segment $\\overline{BC},$ with points $A'$ and $B$ located on opposite sides of line $B'C'.$ Determine the integer that is closest to the area of the hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider triangle $\\triangle ABC$ with side lengths $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ The triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is at a right angle to line segment $\\overline{BC},$ ensuring that points $A'$ and $B$ are located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider triangle $\\triangle ABC$ where the lengths of its sides are $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that line segment $\\overline{AC}$ is at a right angle to line segment $\\overline{BC},$ with points $A'$ and $B$ located on opposite sides of line $B'C'.$ Determine the integer that is nearest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider triangle $\\triangle ABC$ with sides $AB = [BLANK], BC = [BLANK],$ and $CA = [BLANK].$ Triangle $\\triangle A'B'C'$ is formed by rotating $\\triangle ABC$ around its circumcenter such that segment $\\overline{AC}$ is at a right angle to segment $\\overline{BC},$ while points $A'$ and $B$ are positioned on opposite sides of line $B'C'.$ Determine the integer that is closest to the area of hexagon $AA'CC'BB'.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

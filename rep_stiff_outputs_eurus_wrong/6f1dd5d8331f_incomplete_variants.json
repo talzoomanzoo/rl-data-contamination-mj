@@ -1,0 +1,210 @@
+{
+  "original_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 65 seconds then each subsequent runner will be 4 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a 4 by 400 meter relay, two track teams are competing; each team consists of four runners who each complete a lap of 400 meters around a standard track. One team is highly skilled, with each of their runners completing their 400 meter leg in exactly [BLANK]. The other team is not as strong; their initial runner finishes their 400 meter leg in 65 seconds, and each following runner improves by 4 seconds compared to the one before. Based on this information, how many seconds ahead will the faster team finish? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two teams are racing in a 4 by 400 meter relay, where each team has four members who each run a lap of 400 meters on a standard track. One team is very competent, and each of their participants will finish their 400 meter segment in exactly [BLANK]. The other, less proficient team has their first runner completing the 400 meter leg in 65 seconds, with each runner thereafter improving by 4 seconds over the previous one. Given this data, by how many seconds will the faster team triumph? We will go through this gradually and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a competition involving a 4 by 400 meter relay, two track teams are pitted against one another, with each team made up of four runners, each running 400 meters, or one lap, on a standard track. One of these teams is exceptionally balanced, with every member running their 400 meter leg in exactly [BLANK]. The competing team is less well-rounded; their first runner clocks their 400 meter leg at 65 seconds, while each subsequent runner is 4 seconds swifter than the one preceding them. With this information, what is the time gap by which the faster team will win? Let's evaluate this step by step and present the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Two track teams are engaged in a 4 by 400 meter relay race, where each team has four runners who each run a distance of 400 meters, equivalent to one lap around a standard track. One of the teams is quite talented, as all their runners will complete their 400 meter section in exactly [BLANK]. The other team is not as strong; their first runner takes 65 seconds to run their 400 meter leg, and every following runner finishes 4 seconds faster than their predecessor. With this information, how many seconds will the faster team win by? We will think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a relay event consisting of 4 by 400 meters, two track teams are competing, and each team is composed of four members, each running a lap of 400 meters on a standard track. One team excels, with each of their runners completing their 400 meter leg in exactly [BLANK]. The other team is not as strong; their first runner completes their 400 meter leg in 65 seconds, and every subsequent runner runs 4 seconds quicker than the one before. Based on this information, by how many seconds will the faster team secure their victory? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 64 seconds then each subsequent runner will be 3 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a 4 by 400 meter relay, two track teams are facing off; each team consists of four runners who each complete a lap of 400 meters on a standard track. One team has a balanced set of athletes, and each member will finish their 400 meter segment in exactly [BLANK]. The other team is not as balanced; their initial runner will complete their 400 meter segment in 64 seconds, with each following runner improving by 3 seconds compared to the one before. Given this information, how many seconds will the superior team win by? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two track teams are in competition for a 4 by 400 meter relay; a race in which each team comprises four runners, with each one running a 400 meter lap around a conventional track. One of the teams is quite versatile, and every member will tackle their 400 meter segment in exactly [BLANK]. The other team is less versatile; their first runner will finish their 400 meter segment in 64 seconds, and each of the following runners will be 3 seconds quicker than the one preceding them. With this data, how many seconds will the more efficient team win by? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a 4 by 400 meter relay, two teams are competing against each other; each team has four participants, with each running a 400 meter lap on a standard track. One of the teams has a strong set of athletes, and all members will complete their 400 meter leg in precisely [BLANK]. The opposing team is less capable; their first runner will take 64 seconds to complete their 400 meter leg, and each subsequent runner will run 3 seconds faster than the last. Based on this information, by how many seconds will the faster team win? Let's proceed step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Two teams are engaged in a 4 by 400 meter relay; a race where each team consists of four runners who each run a lap of 400 meters on an official track. One of the teams is balanced and every runner will finish their 400 meter leg in exactly [BLANK]. The other team is less balanced; the first runner will take 64 seconds for their 400 meter leg, with each next runner improving their time by 3 seconds compared to the previous one. Using this information, how many seconds ahead will the faster team finish? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a 4 by 400 meter relay competition, two track teams are going head-to-head; each team is made up of four runners, each completing a 400 meter lap on a standard track. One of the teams is quite balanced, with each runner completing their 400 meter leg in exactly [BLANK]. The other team is less balanced; their first runner will run their 400 meter segment in 64 seconds, and every following runner will be 3 seconds faster than the last. Considering this information, how many seconds will the faster team win by? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 61 seconds then each subsequent runner will be 3 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a 4 by 400 meter relay, two track teams are facing off; each team consists of four members who each complete a 400 meter lap around a standard track. One of the teams is exceptionally balanced, with each of their members finishing their 400 meter section in exactly [BLANK]. The other team has less balance; their initial runner will complete their 400 meter portion in 61 seconds, and each following runner will be 3 seconds quicker than the one before. Based on this information, what is the time difference by which the faster team will win? Let's analyze step by step and provide the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two relay teams are competing in a 4 by 400 meter race; each team includes four participants, with each one running a 400 meter lap on a standard track. One of the teams is quite versatile, and each of their runners will finish their 400 meter leg in exactly [BLANK]. The other team is not as versatile; their first runner will take 61 seconds to complete their 400 meter leg, and each subsequent runner will improve by 3 seconds compared to the previous one. With this data, how many seconds will the stronger team triumph by? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a 4 by 400 meter relay race, two teams are competing; each team has four members who each run a 400 meter lap on a standard track. One team is highly skilled, with each member running their 400 meter segment in precisely [BLANK]. The other team is less skilled; their first runner completes their 400 meter leg in 61 seconds, with each following runner being 3 seconds faster than the last. Given this information, what will be the time margin of victory for the faster team? Let's think it through step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Two teams are going head-to-head in a 4 by 400 meter relay; each team comprises four runners, each covering 400 meters, or one lap, on a standard track. One of the teams is very competent, with each of their team members running their 400 meter leg in exactly [BLANK]. The opposing team is not as proficient; their first runner will complete their 400 meter section in 61 seconds, and each subsequent runner will be 3 seconds faster than the previous one. Using this knowledge, how many seconds will the superior team win by? Let\u2019s analyze this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a 4 by 400 meter relay event, two track teams are competing; each team consists of four athletes, with each one running a 400 meter lap around a standard track. One of the teams is exceptionally well-prepared, as each member will run their 400 meter leg in exactly [BLANK]. The other team is somewhat less prepared; their first runner will finish their 400 meter leg in 61 seconds, with each following runner improving by 3 seconds over the previous runner. Based on this information, how many seconds will the faster team win by? Let\u2019s consider it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 67 seconds then each subsequent runner will be 5 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Two relay teams are facing off in a 4 by 400 meter race, where each team consists of four athletes who each complete 400 meters, equivalent to one lap on a standard track. One of the teams is very balanced, and each of their runners will finish their 400 meter segment in exactly [BLANK]. The other team is not as strong overall; their initial runner will complete their 400 meter leg in 67 seconds, with each following runner improving their time by 5 seconds compared to the one before. Based on this information, how many seconds will the faster team win by? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a 4 by 400 meter relay, two track teams are competing, with each team made up of four members who each run 400 meters, or one lap, on a standard track. One of the teams is quite versatile, with each member expected to complete their 400 meter portion in exactly [BLANK]. The opposing team is less versatile; their first runner will finish their 400 meter leg in 67 seconds, and every subsequent runner will be 5 seconds quicker than the last. Given this information, how many seconds will the faster team win by? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Two track teams are in a contest for a 4 by 400 meter relay, where each team has four participants who each run 400 meters, which is one lap around a standard track. One of these teams is strongly balanced, and every member will complete their 400 meter segment in exactly [BLANK]. The rival team, however, is not as strong; their first runner will take 67 seconds to finish their 400 meter leg, and each following runner will be 5 seconds faster than the one preceding them. With this information, what is the time difference by which the faster team will win? Let\u2019s analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a 4 by 400 meter relay competition, two teams are racing against each other, with each team comprising four members who each run a distance of 400 meters, or one lap, around a standard track. One team is quite well-rounded, and each of their runners will complete their 400 meter leg in exactly [BLANK]. The other team is not as evenly matched; their first runner will finish their 400 meter leg in 67 seconds, and each subsequent runner will run 5 seconds faster than the previous one. Based on this, how many seconds will the faster team win by? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Two teams are competing in a 4 by 400 meter relay, where each of the two squads consists of four runners who each cover 400 meters, or one lap, around a standard track. One team is very well-rounded, and each of their athletes will run their 400 meter segment in exactly [BLANK]. The other team is somewhat less well-rounded; their first runner will complete their 400 meter leg in 67 seconds, and every following runner will be 5 seconds quicker than the previous runner. Using this information, how many seconds will the faster team triumph by? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a 4 by 400 meter relay, two track teams are facing off; each team consists of four runners who each complete 400 meters, which is equivalent to one lap around a standard track. One team has a balanced set of runners, with each member finishing their 400 meter segment in exactly [BLANK]. The opposing team, however, is less well-rounded; their initial runner will complete their 400 meter leg in 60 seconds, and every following runner will be 3 seconds quicker than the one before. Given this data, how many seconds will the more efficient team win by? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two teams are competing in a 4 by 400 meter relay; a race format where each team has four participants that each run a distance of 400 meters, or one lap, on a standard track. One of the teams is highly balanced, and each of their runners will finish their 400 meter leg in exactly [BLANK]. The second team is not as balanced; their first runner will clock 60 seconds for their 400 meter leg, with each consecutive runner improving by 3 seconds over the previous one. Based on this information, how many seconds will the faster team win by? Let's reason through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a 4 by 400 meter relay, two track teams are in competition; each team consists of four members who each run 400 meters, which corresponds to one lap on a standard track. One team is exceptionally well-rounded, and all of their runners will complete their 400 meter segment in exactly [BLANK]. Conversely, the other team is less well-rounded; their first runner will finish their 400 meter leg in 60 seconds, with each subsequent runner being 3 seconds faster than the one preceding them. With this information, how many seconds will the faster team have as their winning margin? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Two teams are participating in a 4 by 400 meter relay; this race format requires each team to have four members that each run a distance of 400 meters, or one lap around a standard track. One of the competing teams is quite balanced, with every runner completing their 400 meter leg in exactly [BLANK]. The other team is less consistent; their first runner will take 60 seconds for their 400 meter leg, and each following runner will improve their time by 3 seconds compared to the previous runner. Based on this information, what will be the winning margin in seconds for the faster team? Let's evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the context of a 4 by 400 meter relay, two track teams are competing against one another; each team has four participants who each run 400 meters, equivalent to one lap around a standard track. One of the teams is very well-balanced, and every member will finish their 400 meter leg in precisely [BLANK]. The other team is not as well-rounded; their first runner will take 60 seconds for their 400 meter leg, with each subsequent runner being 3 seconds faster than the previous one. Considering this information, how many seconds will the faster team win by? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track. One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely [BLANK]. The other team is less well-rounded; their first runner will run their 400 meter leg in 62 seconds then each subsequent runner will be 2 seconds faster than the previous runner. Using this information, how many seconds will the faster team win by? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a 4 by 400 meter relay, two track teams are facing off; in this race, each team consists of four runners, and each member covers a distance of 400 meters, which is one lap around a standard track. One of the teams is quite balanced, with each runner completing their 400 meter segment in exactly [BLANK]. The other team has a less balanced lineup; their initial runner finishes their 400 meter segment in 62 seconds, with each following runner improving by 2 seconds over the last. Based on this information, how many seconds does the faster team have to celebrate their victory? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two relay teams are going head-to-head in a 4 by 400 meter race; a contest where both teams are made up of four athletes, each running a distance of 400 meters, or one lap, on a standard track. One team is exceptionally well-rounded, with each athlete completing their 400 meter leg in exactly [BLANK]. The opposing team is not as evenly matched; their first athlete will finish their 400 meter leg in 62 seconds, and each following athlete will be 2 seconds quicker than the previous one. With this information, determine how many seconds the faster team will win by. Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a 4 by 400 meter relay race, two teams are competing against one another; each team is comprised of four members, and each member runs a distance of 400 meters, which equates to one lap on a standard track. One of the teams is very balanced, with each member running their 400 meter section in exactly [BLANK]. The other team is less uniformly skilled; their first runner will complete the 400 meter leg in 62 seconds, while each subsequent runner will be 2 seconds faster than the last. Using these details, how many seconds will the faster team prevail by? Let's think through this systematically and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Two teams are competing in a 4 by 400 meter relay; this race format involves each team having four runners, with each runner covering 400 meters, or one lap, around a standard track. One of the teams has a well-rounded performance, as each of their runners will run their 400 meter portion in precisely [BLANK]. The other less balanced team starts with their first runner completing the 400 meter leg in 62 seconds, with each subsequent runner finishing 2 seconds faster than the previous one. Based on this scenario, how many seconds will the more efficient team win by? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a 4 by 400 meter relay, two track teams are competing; a race where each team consists of four runners, each covering a distance of 400 meters, or one lap, on a standard track. One team is notably well-rounded, with each of their runners completing their 400 meter leg in exactly [BLANK]. The other team, however, is less well-balanced; their first runner will complete the 400 meter segment in 62 seconds, and each following runner will run 2 seconds faster than the last. Given this information, how many seconds will the faster team win by? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

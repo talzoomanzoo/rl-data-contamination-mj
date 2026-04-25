@@ -1,0 +1,176 @@
+{
+  "original_question": "Regina wrote 9 novels last year. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 5,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Jordan completed [BLANK] art projects last year. If this is 2 quarters of the number of art projects he has completed this year, how many art projects has he completed this year?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last year, Jordan finished [BLANK] art projects. This amount represents 2 quarters of the total art projects he has completed this year. How many art projects has he finished this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jordan worked on [BLANK] art projects last year. This figure accounts for 2 quarters of the number of art projects he has completed this year. What is the total number of art projects he has completed this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the previous year, Jordan accomplished [BLANK] art projects. This number corresponds to 2 quarters of the art projects he has finished this year. How many art projects has he done this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Last year, Jordan was involved in [BLANK] art projects. This quantity is equivalent to 2 quarters of the art projects he has achieved this year. How many art projects has he achieved this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jordan's art projects completed last year amounted to [BLANK]. This represents 2 quarters of the art projects he has managed to complete this year. How many art projects has he managed this year?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Samantha painted [BLANK] landscapes last year. If this is 5 quarters of the number of landscapes she has painted this year, how many landscapes has she painted this year?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last year, Samantha painted [BLANK] landscapes. If this represents 5 quarters of the total landscapes she has painted this year, how many landscapes has she done this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha completed [BLANK] landscapes in the previous year. Given that this accounts for 5 quarters of the number of landscapes she has painted this year, what is the total number of landscapes she has painted this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the past year, Samantha worked on [BLANK] landscapes. If this amount is equal to 5 quarters of the landscapes she has painted this year, what is the quantity of landscapes she has painted this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha's painting count for last year was [BLANK] landscapes. Assuming this is 5 quarters of the landscapes she has painted this year, how many has she completed this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last year, the number of landscapes painted by Samantha was [BLANK]. If this figure is 5 quarters of the landscapes she has painted this year, how many landscapes has she created this year?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Regina wrote [BLANK]. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Regina has written [BLANK]. If this amount represents 3 quarters of the total novels she has authored this year, how many novels has she authored this year? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Regina completed [BLANK]. If this figure is 3 quarters of the total number of novels she has written this year, how many novels has she written this year? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Regina noted [BLANK]. If this is equivalent to 3 quarters of the total novels she has produced this year, how many novels has she produced this year? Let's proceed step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Regina recorded [BLANK]. If this represents 3 quarters of the total number of novels she has completed this year, how many novels has she completed this year? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Regina indicated [BLANK]. If this amount constitutes 3 quarters of the total novels she has penned this year, how many novels has she penned this year? Let's examine this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ella wrote [BLANK] short stories last year. If this is 2 quarters of the number of short stories she has written this year, how many short stories has she written this year?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last year, Ella authored [BLANK] short stories. This amount represents 2 quarters of the total short stories she has penned this year; how many short stories has she written this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ella completed [BLANK] short stories in the previous year. If this figure corresponds to 2 quarters of the number of short stories she has produced this year, what is the total number of short stories she has written this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the last year, Ella wrote [BLANK] short stories. This figure is 2 quarters of the quantity of short stories she has created this year; how many short stories has she written this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella has written [BLANK] short stories over the past year. This quantity equals 2 quarters of the short stories she has authored this year; how many short stories did she write this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The number of short stories Ella wrote last year is [BLANK]. This amount is 2 quarters of the total short stories she has written this year; how many short stories has she completed this year?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam composed [BLANK] songs last year. If this is 6 quarters of the number of songs he has composed this year, how many songs has he composed this year?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last year, Liam created [BLANK] songs. This amount represents 6 quarters of the total number of songs he has written this year. How many songs has he written this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam produced [BLANK] songs in the previous year. If this quantity equals 6 quarters of the songs he has produced this year, how many songs has he produced this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the last year, Liam wrote [BLANK] songs. If this number is 6 quarters of the total songs he has written this year, how many songs has he written this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Last year, Liam finished [BLANK] songs. This figure is equivalent to 6 quarters of the total number of songs he has finished this year. How many songs has he finished this year?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam composed [BLANK] songs during the last year. If this is equivalent to 6 quarters of the number of songs he has composed this year, how many songs has he composed this year?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

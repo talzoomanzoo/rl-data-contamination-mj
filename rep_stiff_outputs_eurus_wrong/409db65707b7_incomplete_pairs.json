@@ -1,0 +1,62 @@
+{
+  "original_question": "Marty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the initial quantity of ribbon",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Marty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Marty has [BLANK] centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Sarah has 120 centimeters of ribbon that she must cut into 4 equal parts. Each of the cut parts must be divided into 6 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sarah has [BLANK] centimeters of ribbon that she must cut into 4 equal parts. Each of the cut parts must be divided into 6 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "James has 80 centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 4 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James has [BLANK] centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 4 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Emily has 90 centimeters of ribbon that she must cut into 3 equal parts. Each of the cut parts must be divided into 10 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily has [BLANK] centimeters of ribbon that she must cut into 3 equal parts. Each of the cut parts must be divided into 10 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Ryan has 150 centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 3 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ryan has [BLANK] centimeters of ribbon that he must cut into 5 equal parts. Each of the cut parts must be divided into 3 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sophia has 200 centimeters of ribbon that she must cut into 8 equal parts. Each of the cut parts must be divided into 2 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia has [BLANK] centimeters of ribbon that she must cut into 8 equal parts. Each of the cut parts must be divided into 2 equal parts. How long will each final cut be? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of ribbon"
+    }
+  ],
+  "num_valid_similars": 5
+}

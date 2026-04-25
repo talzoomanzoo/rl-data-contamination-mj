@@ -1,0 +1,210 @@
+{
+  "original_question": "Lana is brewing cups of tea for her friends. She has 27 cups, and she divides these into 3 rows. In each row, she creates equal amounts of chamomile and mint tea cups. She then uses the remaining cups to brew a total of 15 cups of cinnamon tea. How many cups of mint tea are in each row? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Lana is brewing cups of tea for her friends. She has [BLANK] cups, and she divides these into 3 rows. In each row, she creates equal amounts of chamomile and mint tea cups. She then uses the remaining cups to brew a total of 15 cups of cinnamon tea. How many cups of mint tea are in each row? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lana is preparing tea cups for her companions. She has [BLANK] cups, which she arranges into 3 rows. In every row, she makes an equal number of chamomile and mint tea cups. Afterwards, she utilizes the leftover cups to make a total of 15 cups of cinnamon tea. How many mint tea cups are there in each row? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lana is making tea cups for her pals. She possesses [BLANK] cups, and she separates them into 3 rows. Within each row, she produces the same quantity of chamomile and mint tea cups. She then uses the remaining cups to brew 15 cups of cinnamon tea. What is the number of mint tea cups in each row? Let's evaluate it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lana is crafting tea cups for her friends. She has [BLANK] cups, which she distributes into 3 rows. In each row, she prepares equal amounts of chamomile and mint tea cups. She subsequently uses the leftover cups to create 15 cups of cinnamon tea. How many cups of mint tea are found in each row? Let\u2019s consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lana is fixing tea cups for her friends. She has [BLANK] cups and organizes them into 3 rows. Each row consists of equal numbers of chamomile and mint tea cups. Then, she takes the remaining cups to make a total of 15 cups of cinnamon tea. How many mint tea cups does each row contain? Let's proceed step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lana is preparing cups of tea for her friends. She has [BLANK] cups, which she divides into 3 rows. In each row, she makes an equivalent number of chamomile and mint tea cups. Following this, she uses the leftover cups to brew a total of 15 cups of cinnamon tea. How many mint tea cups are in each row? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Alex is baking trays of cookies for an event. He has [BLANK] trays, and he divides these into 6 groups. In each group, he creates equal amounts of chocolate chip and oatmeal cookie trays. He then uses the remaining trays to bake a total of 30 trays of sugar cookies. How many trays of oatmeal cookies are in each group? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alex is preparing cookie trays for an occasion. He possesses [BLANK] trays, which he splits into 6 sections. Each section consists of an equal number of chocolate chip and oatmeal cookie trays. The leftover trays are used to make a total of 30 trays of sugar cookies. How many trays of oatmeal cookies are there in each section? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alex is making trays of cookies for a gathering. He has [BLANK] trays and separates them into 6 categories. In every category, he produces the same number of chocolate chip and oatmeal cookie trays. He then utilizes the remaining trays to bake 30 trays of sugar cookies. How many trays of oatmeal cookies are present in each category? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alex is crafting trays of cookies for an event. He has [BLANK] trays, which he distributes into 6 groups. Each group contains equal quantities of chocolate chip and oatmeal cookie trays. The leftover trays are used to create a total of 30 trays of sugar cookies. How many trays of oatmeal cookies are included in each group? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alex is preparing cookie trays for a special occasion. He owns [BLANK] trays, which he divides into 6 clusters. In every cluster, he makes an equal number of chocolate chip and oatmeal cookie trays. The remaining trays are then used to bake a total of 30 trays of sugar cookies. How many trays of oatmeal cookies are found in each cluster? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alex is baking cookie trays for an upcoming event. He has [BLANK] trays, which he organizes into 6 divisions. Each division contains the same number of chocolate chip and oatmeal cookie trays. He then uses the leftover trays to produce a total of 30 trays of sugar cookies. How many trays of oatmeal cookies exist in each division? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jake is assembling boxes of toys for a charity. He has [BLANK] boxes, and he divides these into 9 sections. In each section, he creates equal amounts of action figures and plush toys boxes. He then uses the remaining boxes to prepare a total of 18 boxes of board games. How many boxes of plush toys are in each section? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake is putting together boxes of toys for a charitable cause. He possesses [BLANK] boxes, which he splits into 9 groups. Within each group, he allocates equal quantities of action figure boxes and plush toy boxes. The leftover boxes are then used to assemble a total of 18 boxes of board games. What is the number of plush toy boxes in each group? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake is preparing boxes filled with toys for a charity event. He has [BLANK] boxes in total, and he distributes these into 9 divisions. In every division, he makes equal numbers of boxes for action figures and plush toys. He then takes the remaining boxes to create a total of 18 boxes of board games. How many boxes of plush toys does each division contain? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake is organizing toy boxes for a charitable organization. He currently has [BLANK] boxes, which he allocates into 9 categories. In each category, he produces the same number of boxes for action figures and plush toys. The surplus boxes are utilized to formulate a total of 18 boxes of board games. What is the count of plush toy boxes found in each category? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake is preparing toy boxes for a charity drive. He possesses [BLANK] boxes, which he separates into 9 segments. In each segment, he generates equal quantities of boxes containing action figures and plush toys. He then uses the leftover boxes to create a total of 18 boxes of board games. How many boxes of plush toys are there in each segment? Let's think through it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake is constructing boxes of toys intended for charity. He has [BLANK] boxes, and he organizes these into 9 sections. In each section, he ensures there are equal numbers of boxes for action figures and boxes for plush toys. Afterward, he uses the remaining boxes to assemble a total of 18 boxes of board games. What is the number of plush toy boxes in each section? Let's proceed step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Maya is preparing jars of jam for her family. She has [BLANK] jars, and she divides these into 4 sections. In each section, she creates equal amounts of strawberry and blueberry jam jars. She then uses the remaining jars to prepare a total of 20 jars of raspberry jam. How many jars of blueberry jam are in each section? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maya is getting jars of jam ready for her family. She possesses [BLANK] jars, which she splits into 4 parts. In every part, she makes the same quantity of strawberry and blueberry jam jars. The leftover jars are used to produce a total of 20 jars of raspberry jam. How many jars of blueberry jam are there in each part? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Maya is making jam jars for her family. She has [BLANK] jars, which she divides into 4 groups. In each group, she prepares equal amounts of strawberry and blueberry jam jars. The remaining jars are utilized to create a total of 20 jars of raspberry jam. What is the number of blueberry jam jars in each group? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maya is organizing jars of jam for her family. She currently has [BLANK] jars, which she categorizes into 4 sections. In every section, she assembles the same number of strawberry and blueberry jam jars. She then takes the leftover jars to make a total of 20 jars of raspberry jam. How many blueberry jam jars are there in each section? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Maya is preparing jars of jam for her family. She owns [BLANK] jars, dividing them into 4 different sections. Each section contains equal amounts of strawberry and blueberry jam jars. The jars that remain are used to create a total of 20 jars of raspberry jam. How many jars of blueberry jam are present in each section? Let's think it through step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maya is making jam jars for her family. She has [BLANK] jars, which she separates into 4 distinct sections. In each section, she produces equal quantities of strawberry and blueberry jam jars. The leftover jars are used to prepare a total of 20 jars of raspberry jam. What is the quantity of blueberry jam jars in each section? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia is planting pots of flowers in her garden. She has [BLANK] pots, and she divides these into 5 rows. In each row, she creates equal amounts of tulip and daffodil pots. She then uses the remaining pots to plant a total of 25 pots of roses. How many pots of daffodils are in each row? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia is arranging flower pots in her garden. She possesses [BLANK] pots, which she distributes among 5 rows. Within each row, she allocates equal quantities of tulip and daffodil pots. The leftover pots are used to plant a combined total of 25 rose pots. How many daffodil pots are present in each row? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In her garden, Sophia is planting flower pots. She has [BLANK] pots that she splits into 5 rows. Each row contains the same number of tulip and daffodil pots. She then takes the leftover pots to plant a total of 25 rose pots. What is the number of daffodil pots in each row? Let's work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia is putting flower pots into her garden. She owns [BLANK] pots, which she organizes into 5 rows. In every row, she has equal numbers of tulip and daffodil pots. The pots she has left are used to plant a total of 25 pots of roses. How many daffodil pots are there in each row? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In her garden, Sophia is planting pots filled with flowers. She has [BLANK] pots, which she organizes into 5 separate rows. In each of these rows, she plants the same amount of tulip and daffodil pots. The remaining pots are utilized to plant a total of 25 rose pots. How many pots of daffodils does she have in each row? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia is planting flower pots in her garden area. She has [BLANK] pots which she divides among 5 rows. Each row contains an equal number of tulip and daffodil pots. She then uses the leftover pots to plant a total of 25 rose pots. How many daffodil pots are in each row? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Emma is organizing bottles of lemonade for a picnic. She has [BLANK] bottles, and she divides these into 4 groups. In each group, she creates equal amounts of lemon and lime bottles. She then uses the remaining bottles to bring a total of 12 bottles of iced tea. How many bottles of lime lemonade are in each group? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma is preparing bottles of lemonade for a picnic. She has [BLANK] bottles, which she splits into 4 sections. In every section, she makes equal quantities of lemon and lime bottles. After that, she utilizes the leftover bottles to reach a total of 12 bottles of iced tea. How many lime lemonade bottles are there in each section? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma is setting up bottles of lemonade for a picnic. She possesses [BLANK] bottles and organizes them into 4 categories. Each category consists of the same number of lemon and lime bottles. She then takes the extra bottles to achieve a total of 12 iced tea bottles. What is the quantity of lime lemonade bottles in each category? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma is arranging bottles of lemonade for a picnic. She holds [BLANK] bottles and distributes them into 4 groups. In each group, she forms equal numbers of lemon and lime bottles. The remaining bottles are then used to total 12 bottles of iced tea. How many lime lemonade bottles are present in each group? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma is coordinating bottles of lemonade for a picnic. She has [BLANK] bottles, which she divides among 4 sets. Each set contains the same quantity of lemon and lime bottles. She subsequently uses the leftover bottles to total 12 bottles of iced tea. How many bottles of lime lemonade does each set contain? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is managing bottles of lemonade for a picnic. She has [BLANK] bottles that she separates into 4 divisions. In every division, she ensures an equal number of lemon and lime bottles. Afterward, she applies the surplus bottles to yield a total of 12 iced tea bottles. How many lime lemonade bottles are found in each division? Let's think through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

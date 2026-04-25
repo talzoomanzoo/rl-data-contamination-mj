@@ -1,0 +1,210 @@
+{
+  "original_question": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Sarah went to buy books from the store and spent [BLANK] on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah visited the bookstore and paid [BLANK] for the books. If the price of each book was $15 and she distributed the same amount of books to her 4 children, how many books did each child receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah went to purchase books from the shop and spent [BLANK] on her selections. Given that each book costs $15 and she shared an equal number of books among her 4 kids, how many books did each child obtain? Let's examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah headed to the bookstore and used [BLANK] to buy her books. If every book costs $15 and she allocated an equal number of books to her 4 children, how many books did each child get? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah went shopping for books and invested [BLANK] in them. If the cost of each book is $15 and she divided the books equally among her 4 kids, how many books did each child receive? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah made a trip to the bookstore and spent [BLANK] on her purchases. If each book is priced at $15 and she evenly distributed the books to her 4 kids, how many books did each child get? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Michael went to buy games from the store and spent [BLANK] on the games. If each game was $30 and he gave an equal number of games to his 6 cousins, how many games did each cousin get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael purchased games at the store, spending [BLANK] for them. If each game costs $30 and he distributed the same amount of games among his 6 cousins, how many games did each cousin receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael went to the store to buy games and spent [BLANK] in total. Given that each game costs $30 and he equally divided the games among his 6 cousins, how many games did each cousin obtain? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael visited the store to acquire games and ended up spending [BLANK] on them. If the price of each game is $30 and he shared the same number of games with his 6 cousins, how many games did each cousin get? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael went to purchase games from the store, spending a total of [BLANK] on those games. If every game is priced at $30 and he distributed them evenly to his 6 cousins, how many games did each cousin receive? Let's think about this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael made a trip to the store to buy games, spending [BLANK] on the total purchase. If each game costs $30 and he shared the same number of games with his 6 cousins, how many games did each cousin get? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emily went to buy pencils from the store and spent [BLANK] on the pencils. If each pencil was $12 and she gave an equal number of pencils to her 5 friends, how many pencils did each friend get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily purchased some pencils at the store, spending [BLANK] for them. If each pencil costs $12 and she distributed the same amount of pencils to her 5 friends, how many pencils did each of her friends receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily went to the store to buy pencils and paid [BLANK] for them. If the price of each pencil is $12 and she shared an equal number of pencils with her 5 friends, how many pencils did each friend obtain? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the store, Emily bought pencils for a total of [BLANK]. Given that each pencil costs $12 and she divided the pencils equally among her 5 friends, how many pencils did each friend get? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily spent [BLANK] on pencils during her visit to the store. If each pencil is priced at $12 and she gave the same number of pencils to her 5 friends, how many pencils did each friend receive? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "While shopping, Emily spent [BLANK] on pencils at the store. With each pencil costing $12 and distributing an equal number to her 5 friends, how many pencils did each friend get? Let's break this down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "David went to buy hats from the store and spent [BLANK] on the hats. If each hat was $35 and he gave an equal number of hats to his 4 teammates, how many hats did each teammate get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David purchased hats from the shop and spent [BLANK] on them. If each hat costs $35 and he distributed the same amount of hats to his 4 teammates, how many hats did each teammate receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David went to the store to buy hats and spent [BLANK] on the hats. Given that each hat is priced at $35 and he shared them equally among his 4 teammates, how many hats did each teammate obtain? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David visited a store to buy hats and his expenditure was [BLANK] on those hats. If the price for each hat is $35 and he allocated the same number to his 4 teammates, how many hats did each teammate get? Let\u2019s consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David decided to buy hats from a shop and he spent [BLANK] on them. If the cost of each hat is $35 and he divided the hats equally among his 4 teammates, how many hats did each teammate receive? Let\u2019s break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David went to a store to purchase hats and his total spending was [BLANK] on the hats. With each hat costing $35 and distributing an equal number to his 4 teammates, how many hats did each teammate get? Let\u2019s work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "James went to buy toys from the store and spent [BLANK] on the toys. If each toy was $20 and he gave an equal number of toys to his 3 children, how many toys did each child get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James visited the store to purchase toys and spent [BLANK] on them. If each toy costs $20 and he distributed the same amount of toys to his 3 kids, how many toys did each kid receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James went to the toy store and spent [BLANK] on his purchases. Given that each toy is priced at $20 and he shared an equal number of toys among his 3 children, how many toys did each child end up with? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James went shopping for toys at the store and spent [BLANK]. If every toy costs $20 and he divided the toys evenly among his 3 children, how many toys did each child get? Let's examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James headed to the store to buy toys, spending [BLANK] in total. If the price of each toy is $20 and he gave the same number of toys to his 3 children, how many toys did each child receive? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James went to buy some toys at the store, spending [BLANK] in total. If each toy is $20 and he distributed them evenly among his 3 children, how many toys did each child get? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jessica went to buy stickers from the store and spent [BLANK] on the stickers. If each sticker was $10 and she gave an equal number of stickers to her 2 siblings, how many stickers did each sibling get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jessica purchased stickers at the store and paid [BLANK] for them. Since each sticker costs $10 and she distributed the same number of stickers to her 2 siblings, how many stickers did each sibling receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jessica acquired stickers from the store and spent [BLANK] on them. Given that each sticker is priced at $10 and she shared an equal amount of stickers with her 2 siblings, how many stickers did each sibling obtain? Let's proceed step by step and produce the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jessica visited the store to buy stickers and used [BLANK] for the stickers. If each sticker costs $10 and she equally divided the stickers between her 2 siblings, how many stickers did each sibling end up with? Let's examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jessica went to the store to purchase stickers and spent [BLANK] on them. Each sticker costs $10, and she gave the same quantity of stickers to her 2 siblings. How many stickers did each sibling receive? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jessica went shopping for stickers and paid [BLANK] for her purchase. Since each sticker is $10 and she shared the stickers evenly with her 2 siblings, how many stickers did each sibling get? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

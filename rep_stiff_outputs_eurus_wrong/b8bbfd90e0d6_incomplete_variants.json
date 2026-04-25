@@ -1,0 +1,210 @@
+{
+  "original_question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a slice. If Tommy sells 43 brownies and 23 slices of cheesecake, how much money does Tommy raise? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Michael is organizing a bake sale for his charity by selling muffins for $3 each and pies for $7 each. If Michael sells 40 muffins and [BLANK], how much money does Michael raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael is putting together a bake sale for his charity, offering muffins at $3 apiece and pies at $7 each. If Michael sells 40 muffins and [BLANK], how much total revenue does Michael generate? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael is setting up a charity bake sale, selling muffins for $3 each and pies for $7 each. If he manages to sell 40 muffins and [BLANK], what amount does Michael collect? Let's process this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael is hosting a bake sale for his charity, pricing muffins at $3 each and pies at $7 each. If he sells 40 muffins and [BLANK], how much money does he earn? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael is running a charity bake sale, where muffins are priced at $3 each and pies at $7 each. If he sells 40 muffins and [BLANK], what is the total amount of money Michael raises? Let's work through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael is organizing a charity bake sale, with muffins costing $3 each and pies going for $7 each. If he sells 40 muffins and [BLANK], how much does Michael earn in total? Let's think this through step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James is raising money for his sports team by selling sandwiches for $6 each and salads for $3 each. If James sells [BLANK] and 20 salads, how much money does James raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James is collecting funds for his sports team by offering sandwiches at $6 a piece and salads at $3 each. If James sells [BLANK] sandwiches and 20 salads, what total amount does James earn? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James is fundraising for his sports team by selling sandwiches for $6 each and salads for $3 each. If James manages to sell [BLANK] sandwiches along with 20 salads, how much revenue does James generate? Let's work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James is raising funds for his sports team by marketing sandwiches priced at $6 each and salads at $3 each. If James sells [BLANK] sandwiches in addition to 20 salads, how much money does James collect? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James is gathering money for his sports team by providing sandwiches for $6 apiece and salads at $3 each. If James sells [BLANK] sandwiches plus 20 salads, what is the total amount of money James raises? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James is supporting his sports team by selling sandwiches for $6 each and salads for $3 each. If James sells [BLANK] sandwiches and also 20 salads, how much total money does James raise? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Emily is collecting donations for her club by selling cookies for $4 each and brownies for $2 each. If Emily sells 60 cookies and [BLANK], how much money does Emily raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily is gathering funds for her club by offering cookies at $4 apiece and brownies at $2 apiece. If Emily sells 60 cookies and [BLANK], what is the total amount of money Emily collects? Let's go through the steps and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily is raising money for her club by selling cookies for $4 each and brownies for $2 each. If she sells 60 cookies and [BLANK], how much total revenue does Emily generate? Let's analyze it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily is acquiring donations for her club by peddling cookies at $4 each and brownies for $2 each. If she manages to sell 60 cookies and [BLANK], what is the total amount of funds Emily raises? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily is soliciting donations for her club through the sale of cookies priced at $4 each and brownies at $2 each. If she sells 60 cookies and [BLANK], how much total income does Emily earn? Let's examine it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily is collecting funds for her club by selling cookies for $4 each and brownies for $2 each. If she sells 60 cookies and [BLANK], how much money does Emily accumulate? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Jessica is holding a fundraiser for her team by selling tarts for $5 each and cookies for $2 each. If Jessica sells 35 tarts and [BLANK], how much money does Jessica raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jessica is organizing a fundraiser for her team by offering tarts at $5 a piece and cookies at $2 a piece. If Jessica sells 35 tarts and [BLANK], what is the total amount of money Jessica collects? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To raise funds for her team, Jessica is selling tarts for $5 each and cookies for $2 each. If she manages to sell 35 tarts and [BLANK], how much money does Jessica end up raising? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jessica is conducting a fundraiser for her team by selling tarts priced at $5 each and cookies at $2 each. If she sells 35 tarts and [BLANK], how much total money does Jessica gather? Let's think this through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a fundraiser for her team, Jessica is selling tarts for $5 apiece and cookies for $2 apiece. If she has sold 35 tarts and [BLANK], what is the total money Jessica raises? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jessica is hosting a fundraiser for her team where she sells tarts for $5 each and cookies for $2 each. If she sells 35 tarts and [BLANK], how much total revenue does Jessica generate? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and cheesecakes for $4 a slice. If Tommy sells [BLANK] and 23 slices of cheesecake, how much money does Tommy raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tommy is raising money for his charity by selling brownies at $3 per slice and cheesecakes at $4 per slice. If Tommy sells [BLANK] slices of brownies and 23 slices of cheesecake, what is the total amount of money Tommy collects? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In order to fundraise for his charity, Tommy is selling brownies for $3 each and cheesecakes for $4 each. If Tommy manages to sell [BLANK] brownies and 23 cheesecakes, how much total money does he earn? Let's analyze this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tommy is conducting a fundraiser for his charity by offering brownies at $3 a slice and cheesecakes at $4 a slice. If Tommy sells [BLANK] brownies along with 23 slices of cheesecake, how much total money does Tommy raise? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In his effort to raise funds for his charity, Tommy is selling brownies for $3 per slice and cheesecakes for $4 per slice. If he sells [BLANK] slices of brownies and 23 slices of cheesecakes, what is the total revenue generated by Tommy? Let's think through this step by step and list the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To support his charity, Tommy is selling brownies priced at $3 a slice and cheesecakes at $4 a slice. Given that Tommy sells [BLANK] brownies and 23 slices of cheesecake, how much money does he ultimately raise? Let's work through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Sarah is fundraising for her school by selling cookies for $2 a piece and cupcakes for $5 each. If Sarah sells [BLANK] and 15 cupcakes, how much money does Sarah raise? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah is raising money for her school by selling cookies at $2 each and cupcakes for $5 per item. If Sarah sells [BLANK] cookies along with 15 cupcakes, what total amount does Sarah collect? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To fundraise for her school, Sarah is offering cookies for $2 a piece and cupcakes for $5 each. If Sarah manages to sell [BLANK] cookies in addition to 15 cupcakes, how much money does Sarah generate? We will analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In her effort to raise funds for school, Sarah is selling cookies priced at $2 each and cupcakes at $5 each. If Sarah sells [BLANK] cookies and also 15 cupcakes, how much total money does Sarah earn? Let's evaluate this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah is collecting funds for her school by selling cookies for $2 each and cupcakes for $5 each. If Sarah sells [BLANK] cookies along with 15 cupcakes, how much total money does she raise? We'll consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "As part of her fundraising, Sarah is selling cookies for $2 each and cupcakes for $5 each. If Sarah sells [BLANK] cookies together with 15 cupcakes, how much total money does she make? Let's process this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

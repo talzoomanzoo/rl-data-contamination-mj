@@ -1,0 +1,210 @@
+{
+  "original_question": "The caretaker of the docks needs to buy some new line. He wants 3 feet of line for every foot of dock. Right now, there is 200 feet of dock, and he has 6 feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 7 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock manager requires additional line. He intends to have 7 feet of line for each foot of dock. Currently, there are [BLANK] feet of dock, and he possesses [BLANK] feet of new line. How many feet of line must he purchase altogether? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The person in charge of the docks needs to acquire some fresh line. He aims for 7 feet of line for every foot of dock. At present, there is [BLANK] feet of dock, and he already has [BLANK] feet of new line. How much line does he need to buy in total? Let's work through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The dock supervisor has to obtain new line. He wants 7 feet of line for each foot of dock space. Right now, there are [BLANK] feet of dock available, and he currently owns [BLANK] feet of new line. How many feet of line does he need to acquire in total? Let's go through the steps and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The individual responsible for the docks needs to purchase some additional line. He requires 7 feet of line for every single foot of dock. At this moment, there are [BLANK] feet of dock, and he has [BLANK] feet of new line on hand. How many feet of line does he need to buy all together? Let's think this through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The dock caretaker must buy some new line. He wants 7 feet of line for each foot of dock space. Currently, there are [BLANK] feet of dock, and he owns [BLANK] feet of new line. How many feet of line does he need to purchase in total? Let\u2019s explore this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 2 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock manager needs to purchase additional line. He requires 2 feet of line for each foot of dock. Currently, there are [BLANK] feet of dock, and he possesses [BLANK] feet of new line. What is the total amount of line he needs to acquire? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The docks' caretaker is looking to buy some more line. He needs 2 feet of line for every foot of dock he has. At present, there are [BLANK] feet of dock, and he already owns [BLANK] feet of new line. How many feet of line must he purchase altogether? Let\u2019s work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The person in charge of the docks is required to obtain extra line. He wants 2 feet of line for every foot of dock available. Right now, there is [BLANK] feet of dock, and he currently has [BLANK] feet of new line. How much line does he need to buy in total? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The caretaker responsible for the docks needs to acquire some additional line. He desires 2 feet of line for each foot of dock space. Currently, there are [BLANK] feet of dock, and he has [BLANK] feet of new line in stock. How many feet of line does he need to purchase overall? Let\u2019s evaluate this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The dock's caretaker must purchase more line. He requires 2 feet of line for every foot of dock present. At the moment, there are [BLANK] feet of dock, and he has [BLANK] feet of new line available. What is the total length of line he needs to buy? Let's think this through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 3 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock supervisor requires new line and needs 3 feet of line for every foot of dock. Currently, there are [BLANK] feet of dock, and he possesses [BLANK] feet of new line. How many additional feet of line must he purchase altogether? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The individual responsible for the docks is looking to acquire additional line. He desires 3 feet of line for each foot of dock available. At present, there are [BLANK] feet of dock, and he currently has [BLANK] feet of new line. What is the total amount of line he needs to buy? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The docks' caretaker is in need of purchasing new line. He requires 3 feet of line for every single foot of dock. Right now, the total length of dock is [BLANK] feet, and he has [BLANK] feet of line already. How many feet of line does he need to acquire in total? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The person managing the docks needs to get some new line. He wants 3 feet of line for each foot of dock present. There are currently [BLANK] feet of dock, and he has [BLANK] feet of new line on hand. How many feet of line does he need to obtain in total? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The dock manager needs to procure additional line. He plans to have 3 feet of line for every foot of dock he has. At this moment, there are [BLANK] feet of dock, and he has [BLANK] feet of new line available. What is the total length of line he needs to purchase? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 4 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock manager requires new rope. He needs 4 feet of rope for each foot of dock. Currently, there are [BLANK] feet of dock available, and he possesses [BLANK] feet of new rope. How many feet of rope must he purchase altogether? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The docks' caretaker is looking to acquire additional line. He requires 4 feet of line for every foot of dock present. At this moment, there are [BLANK] feet of dock, and he currently has [BLANK] feet of new line. How many feet of line does he need to acquire in total? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The person responsible for the docks needs to obtain some new line. He wants 4 feet of line for each foot of dock. At this time, there are [BLANK] feet of dock, and he has [BLANK] feet of fresh line. How many feet of line is he required to buy in total? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The dock caretaker is in need of purchasing new line. He desires 4 feet of line for every foot of dock available. Right now, there are [BLANK] feet of dock, and he has [BLANK] feet of new line on hand. How many additional feet of line does he need to buy altogether? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The manager of the docks has to buy some new line. He requires 4 feet of line for each foot of dock. Presently, there exists [BLANK] feet of dock, and he currently owns [BLANK] feet of new line. How many feet of line does he need to purchase in total? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 6 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock manager is looking to purchase additional line. He requires 6 feet of line for each foot of dock. Currently, there are [BLANK] feet of dock available, and he possesses [BLANK] feet of new line. What is the total amount of line he needs to buy? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The individual in charge of the docks intends to obtain new line. He needs 6 feet of line for each foot of dock space. As it stands, there is [BLANK] feet of dock, and he currently has [BLANK] feet of new line. How many feet of line does he still need to purchase in total? Let's go through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The dock caretaker is in need of purchasing some line. He requires 6 feet of line for every foot of dock he has. At the moment, there are [BLANK] feet of dock present, and he owns [BLANK] feet of new line. How many feet of additional line does he need to acquire altogether? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The person responsible for the docks wants to buy some new line. He needs 6 feet of line for every foot of dock he manages. Currently, there are [BLANK] feet of dock, and he has available [BLANK] feet of new line. What total length of line does he need to purchase? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The docks' caretaker is planning to buy new line. He requires 6 feet of line for each foot of dock available. Right now, there are [BLANK] feet of dock, and he has [BLANK] feet of new line on hand. How many feet of line will he need to buy in total? Let\u2019s evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The caretaker of the docks needs to buy some new line. He wants 5 feet of line for every foot of dock. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many feet of line does he need to buy in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The dock supervisor is looking to purchase additional line. He requires 5 feet of line for each foot of dock. Currently, there are [BLANK] feet of dock available, and he possesses [BLANK] feet of new line. What is the total amount of line he needs to acquire? Let's analyze this step by step and provide the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The manager of the docks plans to acquire some new line. He needs 5 feet of line for each foot of dock. At the moment, there are [BLANK] feet of dock, and he currently has [BLANK] feet of new line. How many feet of line must he purchase in total? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The dock caretaker intends to buy some new line. For every foot of dock, he wants 5 feet of line. Right now, there is [BLANK] feet of dock, and he has [BLANK] feet of new line on hand. How much line does he need to buy altogether? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The docks' caretaker is in need of purchasing fresh line. He requires 5 feet of line for each foot of the dock. Presently, there are [BLANK] feet of dock available, and he has [BLANK] feet of new line. What is the total length of line he needs to buy? Let's reason through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The supervisor of the docks must purchase some new line. He wants 5 feet of line for every foot of dock. Currently, there is [BLANK] feet of dock, and he has [BLANK] feet of new line. How many additional feet of line does he need to obtain? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Amelia, Ava, Lucas, and Zoey. Amelia asserted: \"If Ava is a knight then Lucas is a knight\". \"Amelia is a knight and Zoey is a knave\" - Ava. According to Lucas, \"Amelia is a knight if and only if Amelia is a knave\". Zoey noted, \"Amelia is a knave if and only if Ava is a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the population consists solely of knights and knaves. Knights always speak the truth, whereas knaves invariably lie. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight then [BLANK] is a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - stated [BLANK]. [BLANK] expressed, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar island setting, only knights and knaves reside. Knights are truthful, while knaves are deceitful. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] mentioned: \"If [BLANK] is a knight, then [BLANK] must be a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK] said. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] stated, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a remarkable island, there are only knights and knaves as its inhabitants. Knights always tell the truth, while knaves are known for lying. You meet 4 islanders: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declared: \"If [BLANK] is a knight, then [BLANK] is also a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - said [BLANK]. [BLANK] noted, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] pointed out, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Thus, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A distinctive island is home to knights and knaves exclusively. Knights are always honest, while knaves are perpetually dishonest. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] is a knight, then [BLANK] must be a knight.\" \"[BLANK] is a knight while [BLANK] is a knave\" - remarked [BLANK]. [BLANK] claimed, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] indicated, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Who is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On an extraordinary island, knights and knaves are the only inhabitants. Knights tell the truth, while knaves lie without exception. You meet 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is also a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - claimed [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there are only knights and knaves. Knights always speak the truth, whereas knaves perpetually lie. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then [BLANK] must be a knight.\" \"[BLANK] is a knight, while [BLANK] is a knave\" - stated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Now, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "This remarkable island is home exclusively to knights and knaves. Knights are truthful, while knaves always deceive. You meet 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declared: \"If [BLANK] is a knight, then it follows that [BLANK] is also a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - asserted [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] stated, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A peculiar island is populated solely by knights and knaves. Knights always tell the truth, whereas knaves consistently lie. You encounter four inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] is a knight, then [BLANK] will also be a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - said [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] observed, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Who, then, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a distinct island, only knights and knaves reside. Knights are always honest, while knaves are always dishonest. You meet four people: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] happens to be a knight, then [BLANK] is also a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - claimed [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] indicated, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A one-of-a-kind island is inhabited by only knights and knaves. Knights always speak truthfully, while knaves always lie. You encounter four individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] said: \"If [BLANK] is a knight, then it must be true that [BLANK] is also a knight.\" \"[BLANK] is a knight while [BLANK] is a knave\" - remarked [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] mentioned, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who are the knights and who are the knaves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there are only knights and knaves. Knights always speak the truth while knaves always deceive. You encounter four residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then [BLANK] must be a knight.\" '[BLANK] is a knight and [BLANK] is a knave,' stated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "This peculiar island is home to only knights and knaves. Knights always tell the truth, while knaves consistently lie. You meet four individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is indeed a knight, then [BLANK] is also a knight.\" '[BLANK] is a knight and [BLANK] is a knave,' declared [BLANK]. As per [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] indicated, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Inhabitants of a remarkable island consist solely of knights and knaves. Knights speak the truth, and knaves are always deceitful. You encounter four individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] happens to be a knight, then [BLANK] is also a knight.\" '[BLANK] is a knight while [BLANK] is a knave,' said [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] pointed out, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A fascinating island is populated only by knights and knaves. Knights always tell the truth, whereas knaves always lie. You come across four inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarked: \"If [BLANK] is a knight, then it follows that [BLANK] is a knight too.\" '[BLANK] is a knight and [BLANK] is a knave,' mentioned [BLANK]. By [BLANK]'s account, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] observed, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a unique island, only knights and knaves reside. Knights always tell the truth while knaves always lie. You encounter four individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] proclaimed: \"If [BLANK] is a knight, then [BLANK] must also be a knight.\" '[BLANK] is a knight and [BLANK] is a knave,' asserted [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the only residents are knights and knaves. Knights always speak the truth, while knaves always deceive. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then [BLANK] is a knight.\" \"[BLANK] is a knight and [BLANK] is a knave,\" stated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On a peculiar island, only knights and knaves reside. Knights tell the truth at all times, and knaves lie consistently. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] is a knight, then [BLANK] must also be a knight.\" \"[BLANK] is a knight and [BLANK] is a knave,\" declared [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] mentioned, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a distinctive island, the inhabitants consist solely of knights and knaves. Knights invariably tell the truth, while knaves are perpetually deceitful. You meet 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then it follows that [BLANK] is also a knight.\" \"[BLANK] is a knight while [BLANK] is a knave,\" asserted [BLANK]. As per [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] pointed out, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On an extraordinary island, only knights and knaves live. Knights always speak the truth, while knaves consistently lie. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight, then [BLANK] has to be a knight as well.\" \"[BLANK] is a knight and [BLANK] is a knave,\" said [BLANK]. [BLANK] mentioned, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] declared, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a remarkable island, its inhabitants are exclusively knights and knaves. Knights always tell the truth, whereas knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarked: \"If [BLANK] is a knight, then [BLANK] must also be a knight.\" \"[BLANK] is a knight and [BLANK] is a knave,\" indicated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there are only knights and knaves. Knights always speak the truth, while knaves are always deceitful. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then [BLANK] must be a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - said [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Determine who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar island community, only knights and knaves reside. Knights tell the truth at all times, while knaves lie consistently. You meet four individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] is a knight, then [BLANK] is also a knight.\" \"[BLANK] is a knight, and [BLANK] is a knave\" - declared [BLANK]. [BLANK] mentioned, \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] observed, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a distinctive island populated solely by knights and knaves. Knights are always truthful, whereas knaves are perpetually dishonest. You encounter four inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight, then [BLANK] is a knight as well.\" \"[BLANK] is a knight and [BLANK] is a knave\" - claimed [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] pointed out, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a special island, the only inhabitants are knights and knaves. Knights always provide truthful statements, while knaves are known for their lies. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then it follows that [BLANK] is also a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - stated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A unique island is home to only knights and knaves. Knights are always honest, while knaves are always deceitful. You meet four residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] is a knight, then it must be true that [BLANK] is a knight.\" \"[BLANK] is a knight and [BLANK] is a knave\" - said [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave.\" [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight.\" Determine who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted: \"If [BLANK] is a knight then [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] noted, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the only residents are knights and knaves. Knights always speak the truth, while knaves consistently lie. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then [BLANK] must also be a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - stated [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] remarked, \"[BLANK] is a knave if and only if [BLANK] is a knight\". Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A certain island is home only to knights and knaves. Knights tell the truth always, whereas knaves always lie. You come across 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated: \"If [BLANK] happens to be a knight, then [BLANK] is also a knight\". \"[BLANK] is a knight while [BLANK] is a knave\" - declared [BLANK]. Based on [BLANK]'s words, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] observed, \"[BLANK] is a knave if and only if [BLANK] is a knight\". Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a remarkable island, there are only knights and knaves. Knights always tell the truth, while knaves always deceive. You meet 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is indeed a knight, then [BLANK] is a knight as well\". \"[BLANK] is a knight and [BLANK] is definitely a knave\" - asserted [BLANK]. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] mentioned, \"[BLANK] is a knave if and only if [BLANK] is a knight\". Hence, who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A peculiar island is exclusively populated by knights and knaves. Knights always tell the truth, while knaves always tell lies. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] insisted: \"If [BLANK] is a knight, then it follows that [BLANK] is a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - asserted [BLANK]. From [BLANK]'s perspective, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] stated, \"[BLANK] is a knave if and only if [BLANK] is a knight\". Thus, who can be classified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a distinctive island community, the only people are knights and knaves. Knights always speak the truth, while knaves consistently lie. You come across 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed: \"If [BLANK] is a knight, then it means [BLANK] is also a knight\". \"[BLANK] is a knight and [BLANK] is a knave\" - [BLANK] stated. According to [BLANK], \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] commented, \"[BLANK] is a knave if and only if [BLANK] is a knight\". So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

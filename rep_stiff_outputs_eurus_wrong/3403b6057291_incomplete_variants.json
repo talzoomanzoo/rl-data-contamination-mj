@@ -1,0 +1,210 @@
+{
+  "original_question": "For a real number \\(x,\\) find the maximum value of\n\\[\n\\frac{x^4}{x^8 + 2x^6 + 4x^4 + 8x^2 + 16}.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the highest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the greatest possible value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the utmost value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the peak value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ascertain the maximum achievable value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the highest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Identify the peak value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the maximum potential of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the greatest possible value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assess the upper limit of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest possible value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Identify the peak value for \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the greatest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the highest value achievable for \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ascertain the maximum achievable value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the highest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Identify the greatest possible value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the maximum achievable value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the most significant value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Seek the utmost value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For a real number \\(x,\\) find the maximum value of\n\\[\n\\frac{x^4}{[BLANK]}.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the highest value of \\( \\frac{x^4}{[BLANK]} \\) for a real number \\( x \\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate the maximum of \\( \\frac{x^4}{[BLANK]} \\) where \\( x \\) is a real number.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the largest value of \\( \\frac{x^4}{[BLANK]} \\) for any real number \\( x \\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the peak value of \\( \\frac{x^4}{[BLANK]} \\) given that \\( x \\) is a real number.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Establish the greatest value of \\( \\frac{x^4}{[BLANK]} \\) for a real-valued \\( x \\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the highest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Identify the greatest value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the maximum value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the peak value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Establish the maximum possible value of \\[ \\frac{x^4}{[BLANK]}. \\]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Hannah needs to drink 100 ml of water for every 200 calories she burns. She spends 2 hours doing aerobics, which burns 500 calories/hour, and 1 hour running, which burns 600 calories/hour. How many ml of water does she need to drink? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Jacob needs to drink 90 ml of water for every [BLANK]. He spends 1 hour doing weightlifting, which burns 350 calories/hour, and 2 hours jogging, which burns 650 calories/hour. How many ml of water does he need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jacob must consume 90 ml of water for each [BLANK]. He dedicates 1 hour to weightlifting, burning 350 calories per hour, and 2 hours to jogging, which burns 650 calories per hour. What is the total ml of water he should drink? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jacob is required to drink 90 ml of water for every [BLANK]. He engages in weightlifting for 1 hour, which results in a calorie burn of 350 calories/hour, and spends 2 hours jogging, burning 650 calories/hour. How many ml of water must he consume? Let's consider this carefully and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jacob has to drink 90 ml of water for each [BLANK]. He works out by weightlifting for 1 hour, burning 350 calories per hour, and then jogs for 2 hours, which burns 650 calories per hour. How much water does he need to drink? Let\u2019s proceed step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jacob needs to ingest 90 ml of water for every [BLANK]. He spends 1 hour lifting weights, which leads to a calorie expenditure of 350 calories/hour, and 2 hours running, which burns 650 calories/hour. What quantity of water should he drink? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jacob is supposed to drink 90 ml of water for each [BLANK]. He spends 1 hour on weight training, burning 350 calories each hour, and 2 hours on jogging, which burns 650 calories each hour. How much water does he need to consume? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam needs to drink 150 ml of water for every [BLANK]. He spends 3 hours doing swimming, which burns 450 calories/hour, and 30 minutes cycling, which burns 500 calories/hour. How many ml of water does he need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam requires 150 ml of water for each [BLANK]. He swims for 3 hours, burning 450 calories per hour, and cycles for 30 minutes, which burns 500 calories per hour. How much water does he need to consume? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam must drink 150 ml of water for every single [BLANK]. He engages in swimming for 3 hours, expending 450 calories for each hour, and he cycles for 30 minutes, burning 500 calories each hour. How many ml of water should he drink? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam ought to drink 150 ml of water corresponding to each [BLANK]. He dedicates 3 hours to swimming, which uses up 450 calories per hour, along with 30 minutes of cycling, burning 500 calories per hour. What is the total ml of water he needs to drink? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam has to consume 150 ml of water for every [BLANK]. He swims for a duration of 3 hours, which burns 450 calories each hour, and he spends 30 minutes cycling, burning 500 calories per hour. How much water is required for him to drink? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam needs to intake 150 ml of water for each [BLANK]. He spends 3 hours swimming, which results in a calorie burn of 450 calories per hour, and he cycles for 30 minutes, burning 500 calories per hour. How many ml of water must he drink? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Noah needs to drink 130 ml of water for every [BLANK]. He spends 2 hours doing cycling, which burns 600 calories/hour, and 1.5 hours rollerblading, which burns 530 calories/hour. How many ml of water does he need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah is required to consume 130 ml of water for each [BLANK]. He cycles for 2 hours, burning 600 calories per hour, and rollerblades for 1.5 hours, burning 530 calories per hour. What is the total amount of water he needs to drink? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For every [BLANK], Noah must drink 130 ml of water. He engages in cycling for 2 hours, which results in a calorie burn of 600 calories/hour, and spends 1.5 hours rollerblading, burning 530 calories/hour. How much water should he drink? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah's water consumption should be 130 ml for each [BLANK]. He cycles for a duration of 2 hours, burning 600 calories every hour, and rollerblades for 1.5 hours, burning 530 calories each hour. What quantity of water does he need to consume? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each [BLANK], Noah needs to drink 130 ml of water. He cycles for 2 hours, which burns calories at a rate of 600 per hour, and rollerblades for 1.5 hours, with a burn rate of 530 calories per hour. How many milliliters of water does he require? Let's evaluate this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah must drink 130 ml of water for every [BLANK]. He participates in cycling for 2 hours, which burns 600 calories per hour, followed by 1.5 hours of rollerblading, burning 530 calories per hour. How much water does he need to drink? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Emma needs to drink 110 ml of water for every [BLANK]. She spends 2.5 hours doing kickboxing, which burns 520 calories/hour, and 1 hour dancing, which burns 580 calories/hour. How many ml of water does she need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma has to consume 110 ml of water for each [BLANK]. She engages in kickboxing for 2.5 hours, burning 520 calories per hour, and dances for 1 hour, which burns 580 calories per hour. How much water does she need to drink? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma is required to drink 110 ml of water for every [BLANK]. She participates in kickboxing for 2.5 hours, which results in a calorie burn of 520 calories per hour, and spends 1 hour dancing, burning 580 calories per hour. What is the amount of water she should drink? Let's analyze it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma must hydrate with 110 ml of water for each [BLANK]. She dedicates 2.5 hours to kickboxing, burning 520 calories each hour, and 1 hour to dancing, which burns 580 calories each hour. How many ml of water should she drink? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma needs to ingest 110 ml of water for every [BLANK]. She spends 2.5 hours kickboxing, which burns calories at a rate of 520 per hour, and 1 hour dancing, which burns 580 calories per hour. How much water is necessary for her to drink? Let's think this through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is supposed to drink 110 ml of water for each [BLANK]. She engages in kickboxing for 2.5 hours, which results in a calorie expenditure of 520 calories per hour, and spends 1 hour dancing, burning 580 calories each hour. How many ml of water does she require? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sophie needs to drink 120 ml of water for every [BLANK]. She spends 1.5 hours doing yoga, which burns 400 calories/hour, and 45 minutes hiking, which burns 550 calories/hour. How many ml of water does she need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophie must consume 120 ml of water for each [BLANK]. She dedicates 1.5 hours to yoga, burning 400 calories per hour, and 45 minutes to hiking, which burns 550 calories per hour. What amount of water does she need to drink? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie is required to intake 120 ml of water for every [BLANK]. She engages in yoga for 1.5 hours, burning 400 calories every hour, and spends 45 minutes hiking, burning 550 calories each hour. How much water is necessary for her to drink? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophie has to drink 120 ml of water for each [BLANK]. She spends 1.5 hours practicing yoga, which results in a burn of 400 calories per hour, and hikes for 45 minutes, burning 550 calories per hour. How many ml of water should she consume? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophie requires 120 ml of water for every [BLANK]. She spends 1.5 hours on yoga, burning 400 calories per hour, and hikes for 45 minutes, where she burns 550 calories per hour. What is the total amount of water she needs to drink? Let's go through the steps and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie needs to drink 120 ml of water for each [BLANK]. She engages in yoga for 1.5 hours, which burns 400 calories per hour, and spends 45 minutes hiking, burning 550 calories per hour. How much water does she require to drink? Let's think it through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Hannah needs to drink 100 ml of water for every [BLANK]. She spends 2 hours doing aerobics, which burns 500 calories/hour, and 1 hour running, which burns 600 calories/hour. How many ml of water does she need to drink? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Hannah must consume 100 ml of water for each [BLANK]. She engages in 2 hours of aerobics, burning 500 calories per hour, and runs for 1 hour, which burns 600 calories per hour. How much water does she need to consume? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Hannah is required to drink 100 ml of water for every single [BLANK]. She participates in aerobics for 2 hours, which results in a calorie burn of 500 calories per hour, and she runs for 1 hour, burning 600 calories in that time. What is the total amount of water she needs to drink? We will consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Hannah has to intake 100 ml of water for each [BLANK]. She dedicates 2 hours to aerobics, which burns 500 calories each hour, and spends 1 hour running, burning 600 calories during that period. How much water is necessary for her to drink? Let\u2019s evaluate this step by step and reveal the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Hannah's requirement is to drink 100 ml of water for every [BLANK]. She does 2 hours of aerobics, burning 500 calories per hour, and runs for 1 hour, which results in a burn of 600 calories. How many ml of water will she need to drink? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Hannah needs to hydrate with 100 ml of water for each [BLANK]. She partakes in 2 hours of aerobics that burns 500 calories per hour, and she runs for 1 hour, which burns 600 calories. What quantity of water does she require to drink? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

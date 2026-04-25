@@ -1,0 +1,62 @@
+{
+  "original_question": "Given that ${(1-2x)^{2016}}=a_{0}+a_{1}(x-2)+a_{2}(x-2)^{2}+\\cdots+a_{2015}(x-2)^{2015}+a_{2016}(x-2)^{2016}$ $(x\\in\\mathbb{R})$, find the value of $a_{1}-2a_{2}+3a_{3}-4a_{4}+\\cdots+2015a_{2015}-2016a_{2016}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the coefficients of the polynomial expansion\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given that ${(1-2x)^{2016}}=a_{0}+a_{1}(x-2)+a_{2}(x-2)^{2}+\\cdots+a_{2015}(x-2)^{2015}+a_{2016}(x-2)^{2016}$ $(x\\in\\mathbb{R})$, find the value of $a_{1}-2a_{2}+3a_{3}-4a_{4}+\\cdots+2015a_{2015}-2016a_{2016}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given that ${(1-2x)^{2016}}=a_{0}+a_{1}(x-2)+a_{2}(x-2)^{2}+\\cdots+a_{2015}(x-2)^{2015}+a_{2016}(x-2)^{2016}$ $(x\\in\\mathbb{R})$, find the value of $a_{1}-2a_{2}+3a_{3}-4a_{4}+\\cdots+2015a_{2015}-2016a_{2016}$, where the coefficients of the polynomial expansion are [BLANK]. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"Given that ${(1-3x)^{2018}}=b_{0}+b_{1}(x-3)+b_{2}(x-3)^{2}+\\cdots+b_{2017}(x-3)^{2017}+b_{2018}(x-3)^{2018}$ $(x\\\\in\\\\mathbb{R})$, find the value of $b_{1}-3b_{2}+4b_{3}-5b_{4}+\\cdots+2016b_{2016}-2018b_{2018}$.\",",
+      "incomplete_question": "\"Given that ${(1-3x)^{2018}}=b_{0}+b_{1}(x-3)+b_{2}(x-3)^{2}+\\cdots+b_{2017}(x-3)^{2017}+b_{2018}(x-3)^{2018}$ $(x\\\\in\\\\mathbb{R})$, find the value of $b_{1}-3b_{2}+4b_{3}-5b_{4}+\\cdots+2016b_{2016}-2018[BLANK]$.\"",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"Given that ${(1-4x)^{2020}}=c_{0}+c_{1}(x-4)+c_{2}(x-4)^{2}+\\cdots+c_{2019}(x-4)^{2019}+c_{2020}(x-4)^{2020}$ $(x\\\\in\\\\mathbb{R})$, find the value of $c_{1}-4c_{2}+5c_{3}-6c_{4}+\\cdots+2017c_{2017}-2020c_{2020}$.\",",
+      "incomplete_question": "\"Given that ${(1-4x)^{2020}}=c_{0}+[BLANK](x-4)+[BLANK](x-4)^{2}+\\cdots+[BLANK](x-4)^{2019}+[BLANK](x-4)^{2020}$ $(x\\\\in\\\\mathbb{R})$, find the value of $[BLANK]-4[BLANK]+5[BLANK]-6[BLANK]+\\cdots+2017[BLANK]-2020[BLANK]$.\"",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"Given that ${(1-5x)^{2022}}=d_{0}+d_{1}(x-5)+d_{2}(x-5)^{2}+\\cdots+d_{2021}(x-5)^{2021}+d_{2022}(x-5)^{2022}$ $(x\\\\in\\\\mathbb{R})$, find the value of $d_{1}-5d_{2}+6d_{3}-7d_{4}+\\cdots+2018d_{2018}-2022d_{2022}$.\",",
+      "incomplete_question": "\"Given that ${(1-5x)^{2022}}=d_{0}+d_{1}(x-5)+d_{2}(x-5)^{2}+\\cdots+d_{2021}(x-5)^{2021}+d_{2022}(x-5)^{2022}$ $(x\\\\in\\\\mathbb{R})$, find the value of $[BLANK]-5[BLANK]+6[BLANK]-7[BLANK]+\\cdots+2018[BLANK]-2022[BLANK]$.\"",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"Given that ${(1-6x)^{2024}}=e_{0}+e_{1}(x-6)+e_{2}(x-6)^{2}+\\cdots+e_{2023}(x-6)^{2023}+e_{2024}(x-6)^{2024}$ $(x\\\\in\\\\mathbb{R})$, find the value of $e_{1}-6e_{2}+7e_{3}-8e_{4}+\\cdots+2019e_{2019}-2024e_{2024}$.\",",
+      "incomplete_question": "\"Given that ${(1-6x)^{2024}}=e_{0}+e_{1}(x-6)+e_{2}(x-6)^{2}+\\cdots+e_{2023}(x-6)^{2023}+e_{2024}(x-6)^{2024}$ $(x\\\\in\\\\mathbb{R})$, find the value of $[BLANK]-6[BLANK]+7[BLANK]-8[BLANK]+\\cdots+2019[BLANK]-2024[BLANK]$.\"",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"Given that ${(1-7x)^{2026}}=f_{0}+f_{1}(x-7)+f_{2}(x-7)^{2}+\\cdots+f_{2025}(x-7)^{2025}+f_{2026}(x-7)^{2026}$ $(x\\\\in\\\\mathbb{R})$, find the value of $f_{1}-7f_{2}+8f_{3}-9f_{4}+\\cdots+2020f_{2020}-2026f_{2026}$.\"",
+      "incomplete_question": "\"Given that ${(1-7x)^{2026}}=f_{0}+f_{1}(x-7)+f_{2}(x-7)^{2}+\\cdots+f_{2025}(x-7)^{2025}+f_{2026}(x-7)^{2026}$ $(x\\\\in\\\\mathbb{R})$, find the value of $f_{1}-7f_{2}+8f_{3}-9f_{4}+\\cdots+2020f_{2020}-2026[BLANK]$.\"",
+      "info_removed": "\"the coefficients of the polynomial expansion\""
+    }
+  ],
+  "num_valid_similars": 5
+}

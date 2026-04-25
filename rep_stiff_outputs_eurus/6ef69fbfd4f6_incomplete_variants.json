@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that Jane bought muffins and bagels at a cost of 50 cents and 75 cents respectively, and her total cost for the week was a whole number of dollars, calculate the number of bagels she bought.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that Mark bought sandwiches and wraps at a cost of 45 cents and 85 cents respectively, and his total cost for the week was [BLANK], calculate the number of wraps he bought.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Knowing that Mark purchased sandwiches for 45 cents each and wraps for 85 cents each, if his total expenditure for the week was [BLANK], determine how many wraps he acquired.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If Mark spent 45 cents on each sandwich and 85 cents on each wrap, and his total spending for the week amounted to [BLANK], find out the quantity of wraps he bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the cost of sandwiches is 45 cents each and wraps are 85 cents each for Mark, and his overall expense for the week came to [BLANK], calculate the number of wraps he purchased.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With sandwiches costing 45 cents and wraps priced at 85 cents, if Mark's total cost for the week was [BLANK], figure out how many wraps he obtained.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming Mark bought sandwiches at 45 cents and wraps at 85 cents, and his total weekly expense was [BLANK], determine the number of wraps he has.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that Lisa bought pastries and croissants at a cost of 40 cents and 100 cents respectively, and her total cost for the week was [BLANK], calculate the number of croissants she bought.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Knowing that Lisa purchased pastries for 40 cents each and croissants for 100 cents each, if her overall expenditure for the week was [BLANK], determine how many croissants she acquired.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If Lisa's expenditure consisted of pastries priced at 40 cents and croissants at 100 cents, and her total spending for the week amounted to [BLANK], find out the quantity of croissants she bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the cost of pastries was 40 cents and croissants were 100 cents each for Lisa, and her total weekly cost reached [BLANK], calculate the number of croissants she purchased.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming Lisa spent 40 cents on each pastry and 100 cents on each croissant, and her total weekly spending equaled [BLANK], figure out how many croissants she bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With pastries costing 40 cents and croissants costing 100 cents each, if Lisa's total expenditure for the week was [BLANK], calculate the amount of croissants she obtained.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that Emily bought cookies and donuts at a cost of 60 cents and 90 cents respectively, and her total cost for the week was [BLANK], calculate the number of donuts she bought.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If Emily purchased cookies for 60 cents each and donuts for 90 cents each, and her weekly total expenditure was [BLANK], determine the quantity of donuts she acquired.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Supposing Emily's cookies cost 60 cents and donuts cost 90 cents, and her overall weekly spending amounted to [BLANK], find out how many donuts she purchased.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the price of cookies Emily bought was 60 cents and donuts were 90 cents, and her total expenses for the week were [BLANK], calculate how many donuts she got.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Considering that Emily spent 60 cents on cookies and 90 cents on donuts, with her total weekly cost being [BLANK], ascertain the number of donuts she bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With cookies priced at 60 cents each and donuts at 90 cents each, if Emily\u2019s total cost for the week was [BLANK], how many donuts did she purchase?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that Sarah bought chips and pretzels at a cost of 55 cents and 65 cents respectively, and her total cost for the week was [BLANK], calculate the number of pretzels she bought.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If Sarah purchased chips at 55 cents and pretzels at 65 cents each, and her total expenditure for the week was [BLANK], determine how many pretzels she acquired.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah spent 55 cents on chips and 65 cents on pretzels; if her overall weekly expense amounted to [BLANK], find the quantity of pretzels she bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Considering that Sarah paid 55 cents for chips and 65 cents for pretzels, and her total spending for the week was [BLANK], calculate how many pretzels she purchased.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With Sarah's chip purchase costing 55 cents and her pretzel purchase costing 65 cents, if her total cost for the week equaled [BLANK], figure out the number of pretzels she obtained.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given that Sarah's chips cost 55 cents and her pretzels were priced at 65 cents, and her total for the week was [BLANK], compute the number of pretzels she bought.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that Tom bought tacos and burritos at a cost of 70 cents and 80 cents respectively, and his total cost for the week was [BLANK], calculate the number of burritos he bought.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If Tom purchased tacos for 70 cents each and burritos for 80 cents each, and spent a total of [BLANK] during the week, determine how many burritos he acquired.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming Tom's tacos cost 70 cents and his burritos cost 80 cents, and he spent a total of [BLANK] this week, find out the quantity of burritos he bought.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom's tacos are priced at 70 cents and his burritos at 80 cents; if his weekly expenditure was [BLANK], how many burritos did he purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With tacos costing 70 cents each and burritos at 80 cents, if Tom's total expenditure for the week was [BLANK], calculate the number of burritos he has.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given that the price of tacos is 70 cents and that of burritos is 80 cents, if Tom's total spending for the week amounted to [BLANK], figure out how many burritos he bought.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that Jane bought muffins and bagels at a cost of 50 cents and 75 cents respectively, and her total cost for the week was [BLANK], calculate the number of bagels she bought. Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming Jane purchased muffins at 50 cents each and bagels at 75 cents each, with her total expenditure for the week being [BLANK], determine how many bagels she acquired. Provide the solution in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If Jane spent 50 cents on each muffin and 75 cents on each bagel, and her overall weekly spending amounted to [BLANK], find out the quantity of bagels she bought. Express your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that the price of muffins is 50 cents and bagels are 75 cents, and Jane's total expense for the week is [BLANK], calculate the number of bagels she purchased. Please format your answer in LaTex: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With muffins costing 50 cents each and bagels priced at 75 cents, if Jane's total cost for the week equals [BLANK], compute how many bagels she purchased. Present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Considering Jane's purchases of muffins for 50 cents and bagels for 75 cents, where her total bill for the week is [BLANK], find the number of bagels she bought. Format your answer in LaTex: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

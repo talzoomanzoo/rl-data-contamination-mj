@@ -1,0 +1,62 @@
+{
+  "original_question": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs $0.15. How much does Gary spend on water for laundry in a year? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the cost per unit of water",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs $0.15. How much does Gary spend on water for laundry in a year? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs [BLANK]. How much does Gary spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lisa does laundry three times a week. Each load of laundry uses 15 gallons of water, and a gallon of water costs $0.20. How much does Lisa spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Lisa does laundry three times a week. Each load of laundry uses 15 gallons of water, and a gallon of water costs [BLANK]. How much does Lisa spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Mark does laundry once a week. Each load of laundry uses 25 gallons of water, and a gallon of water costs $0.10. How much does Mark spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mark does laundry once a week. Each load of laundry uses 25 gallons of water, and a gallon of water costs [BLANK]. How much does Mark spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Jenna does laundry four times a week. Each load of laundry uses 10 gallons of water, and a gallon of water costs $0.12. How much does Jenna spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Jenna does laundry four times a week. Each load of laundry uses 10 gallons of water, and a gallon of water costs [BLANK]. How much does Jenna spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Tom does laundry five times a week. Each load of laundry uses 18 gallons of water, and a gallon of water costs $0.25. How much does Tom spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Tom does laundry five times a week. Each load of laundry uses 18 gallons of water, and a gallon of water costs [BLANK]. How much does Tom spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Samantha does laundry twice a week. Each load of laundry uses 30 gallons of water, and a gallon of water costs $0.18. How much does Samantha spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Samantha does laundry twice a week. Each load of laundry uses 30 gallons of water, and a gallon of water costs [BLANK]. How much does Samantha spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the cost per unit of water"
+    }
+  ],
+  "num_valid_similars": 5
+}

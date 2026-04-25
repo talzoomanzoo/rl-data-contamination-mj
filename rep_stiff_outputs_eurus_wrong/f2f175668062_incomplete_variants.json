@@ -1,0 +1,210 @@
+{
+  "original_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 1:3. If the total number of electric wires needed to connect the electricity in the neighborhood is 45, calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 1:4. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a particular neighborhood, the relationship between the electric poles and the electric wires required for electricity supply is 1:4. Given that the total count of electric wires necessary for connecting the electricity in the neighborhood is [BLANK], determine the total number of electric poles that an electric company needs to provide electricity in that area. Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The proportion of electric poles to electric wires required for electricity distribution in a certain neighborhood is 1:4. If the overall quantity of electric wires needed to establish electricity in the neighborhood is [BLANK], find out how many electric poles the electric company must supply to ensure electricity in the neighborhood. Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the context of a specific neighborhood, the ratio of electric poles to electric wires necessary for electricity provision is 1:4. When the total number of electric wires required to connect electricity in the neighborhood is [BLANK], calculate how many electric poles are needed by the electric company to deliver electricity there. Let's work through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The electric poles and electric wires needed to provide electricity in a certain neighborhood have a ratio of 1:4. If the total number of electric wires required for connecting electricity in the neighborhood is [BLANK], compute the total number of electric poles that an electric company will need to supply electricity in the area. Let's discuss this step by step and finalize with the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For supplying electricity in a particular neighborhood, the ratio of electric poles to electric wires is established at 1:4. If the total number of electric wires necessary for the neighborhood's electricity connection is [BLANK], determine the total number of electric poles that must be supplied by the electric company to facilitate electricity. Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 2:5. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a certain neighborhood, the relationship between the number of electric poles and the quantity of electric wires necessary for electricity supply is 2:5. Given that the total count of electric wires required for the neighborhood is [BLANK], determine how many electric poles an electric company needs to provide electricity in that area. Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The proportion of electric poles to electric wires necessary for connecting and supplying electricity in a specific neighborhood is 2:5. If the entire quantity of electric wires needed for this neighborhood is [BLANK], find the total number of electric poles that an electric company must install to ensure electricity supply in the area. Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a particular neighborhood, the ratio of electric poles to the electric wires required for electricity connection is 2:5. If the total number of electric wires needed in the neighborhood is [BLANK], calculate how many electric poles the electric company needs to provide electricity in that neighborhood. Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The comparison of electric poles to electric wires essential for connecting and supplying electricity in a certain neighborhood is 2:5. Assuming that the complete number of electric wires necessary for the neighborhood is [BLANK], figure out how many electric poles are required by an electric company to supply electricity in that locality. Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The relationship between electric poles and electric wires needed to establish and supply electricity in a specific neighborhood is set at 2:5. If the overall number of electric wires required for this neighborhood is [BLANK], calculate the number of electric poles that the electric company must have to supply electricity in the area. Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 4:9. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific neighborhood, the relationship between the electric poles and the electric wires necessary for electricity supply is 4:9. If the overall count of electric wires required for this neighborhood is [BLANK], determine how many electric poles the electric company must provide to ensure electricity supply in the area. Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The proportion of electric poles to electric wires needed for electricity distribution in a certain area is 4 to 9. Given that the total amount of electric wires necessary to establish electricity in the area is [BLANK], find out the total quantity of electric poles that the electric company needs to supply electricity in that locality. We will proceed step by step and present the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a particular neighborhood, the ratio of electric poles to electric wires essential for supplying electricity stands at 4:9. If the complete number of electric wires needed to provide electricity in this neighborhood amounts to [BLANK], calculate how many electric poles the electric company is required to supply for electricity in the neighborhood. Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The ratio of the required electric poles to the electric wires for electricity supply in a given neighborhood is 4:9. If the total number of electric wires necessary for connecting electricity in that neighborhood is [BLANK], determine how many electric poles are needed by the electric company to provide electricity in that area. We will think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a certain area, the ratio between electric poles and electric wires required for electricity provision is 4:9. If the total quantity of electric wires required to connect electricity in this neighborhood is [BLANK], calculate the necessary number of electric poles that the electric company should provide for electricity supply in the neighborhood. Let's reason through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 1:3. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a particular neighborhood, the relationship between the electric poles and the electric wires necessary for supplying electricity is 1:3. Given that the total count of electric wires required for the electricity connection in the neighborhood is [BLANK], determine the total number of electric poles that an electric company needs to provide the electricity in that area. Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The proportion of electric poles to electric wires essential for connecting and supplying electricity in a certain neighborhood is 1:3. If the total number of electric wires needed for electricity in the neighborhood is [BLANK], find out how many electric poles are required by the electric company to supply electricity in that neighborhood. Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a specific neighborhood, the ratio of electric poles to electric wires required for electricity connection and supply is 1:3. If the overall number of electric wires necessary to connect the electricity in the neighborhood is [BLANK], calculate how many electric poles the electric company must have to supply electricity in the area. Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The relationship of electric poles to electric wires needed for electricity provision in a certain neighborhood is 1:3. If the total quantity of electric wires required to connect the electricity in the neighborhood is [BLANK], compute the total number of electric poles that an electric company should use to supply electricity in that neighborhood. Let's work through this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The ratio of electric poles compared to electric wires needed for supplying electricity in a given neighborhood is 1:3. If the total number of electric wires required to connect electricity in the neighborhood is [BLANK], determine the total number of electric poles that an electric company will need to supply electricity in that area. Let's carefully consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 3:7. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a certain neighborhood, the relationship between the number of electric poles and the electric wires necessary for electricity supply is 3:7. Given that the total count of electric wires required for the neighborhood is [BLANK], determine how many electric poles the electric company must provide to ensure electricity supply. Let's proceed step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The proportion of electric poles to electric wires required for electricity distribution in a specific neighborhood is 3:7. If the total number of electric wires needed in the neighborhood amounts to [BLANK], find out how many electric poles the electric company needs to supply the area with electricity. Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a particular neighborhood, the ratio of electric poles to electric wires used for electricity provision is 3:7. Assuming the total quantity of electric wires necessary for connecting the electricity in the neighborhood is [BLANK], compute how many electric poles the electric company should install to facilitate electricity supply. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a certain neighborhood, the ratio of the electric poles to the electric wires required for electricity connection is 3:7. If the total number of electric wires required for this neighborhood is [BLANK], determine how many electric poles are needed by the electric company to supply electricity in the area. Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The ratio of electric poles compared to electric wires needed to provide electricity in a certain neighborhood stands at 3:7. If the total quantity of electric wires needed in the neighborhood is [BLANK], calculate the number of electric poles that the electric company will require for electricity supply in that neighborhood. Let's tackle this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The ratio of the electric poles and electric wires needed to connect and supply the electricity in a certain neighborhood is 5:8. If the total number of electric wires needed to connect the electricity in the neighborhood is [BLANK], calculate the total number of electric poles required by an electric company to supply the electricity in the neighborhood. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a particular neighborhood, the relationship between the number of electric poles and the electric wires necessary for electrical connection is 5:8. Given that the total count of electric wires required for this neighborhood is [BLANK], determine how many electric poles the electric company needs to provide electricity there. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For a certain neighborhood, the proportion of electric poles to electric wires required for electricity supply is 5:8. If the total quantity of electric wires necessary to establish electricity in the neighborhood amounts to [BLANK], find out how many electric poles are needed by the electric company to ensure electricity supply in that area. Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The proportion of electric poles to the electric wires essential for connecting and delivering electricity in a specific neighborhood stands at 5:8. If the total number of electric wires required for the neighborhood is [BLANK], calculate how many electric poles the electric company must have to provide electricity in that neighborhood. We'll go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a certain area, the ratio of electric poles to the electric wires required for electricity distribution is 5:8. Suppose the total number of electric wires necessary to connect the electricity in that area is [BLANK], compute the total number of electric poles the electric company should have to supply electricity in the neighborhood. Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The ratio between the electric poles and the electric wires needed for electricity supply in a particular neighborhood is 5:8. If the overall number of electric wires needed in that neighborhood is [BLANK], figure out how many electric poles the electric company needs to provide electricity there. Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

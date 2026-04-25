@@ -1,0 +1,62 @@
+{
+  "original_question": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are 7 rows each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the arrangement of children in rows",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are 7 rows each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are [BLANK] each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "For the community sports day, children are to perform mass drills in the presence of the Mayor of the town. They stand 6 in a row and there are 9 rows each for 4 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "For the community sports day, children are to perform mass drills in the presence of the Mayor of the town. They stand 6 in a row and there are [BLANK] each for 4 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "For the annual school festival, children are to perform mass drills in the presence of the District Leader. They stand 10 in a row and there are 3 rows each for 6 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "For the annual school festival, children are to perform mass drills in the presence of the District Leader. They stand 10 in a row and there are [BLANK] each for 6 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "For the regional music event, children are to perform mass drills in the presence of the State Governor. They stand 5 in a row and there are 12 rows each for 2 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "For the regional music event, children are to perform mass drills in the presence of the State Governor. They stand 5 in a row and there are [BLANK] each for 2 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "For the local science fair, children are to perform mass drills in the presence of the City Council. They stand 9 in a row and there are 8 rows each for 3 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "For the local science fair, children are to perform mass drills in the presence of the City Council. They stand 9 in a row and there are [BLANK] each for 3 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "For the winter celebration, children are to perform mass drills in the presence of the Community Leader. They stand 7 in a row and there are 10 rows each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "For the winter celebration, children are to perform mass drills in the presence of the Community Leader. They stand 7 in a row and there are [BLANK] each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the arrangement of children in rows"
+    }
+  ],
+  "num_valid_similars": 5
+}

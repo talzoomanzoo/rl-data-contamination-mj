@@ -1,0 +1,210 @@
+{
+  "original_question": "Given the system of inequalities \\\\( \\begin{cases} x^{2}-x-2 > 0 \\\\\\\\ 2x^{2}+(5+2k)x+5k < 0\\\\end{cases} \\\\) only contains the integer solution \\\\(-2\\\\), find the range of values for \\\\(k\\\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given the system of inequalities \\\\( \\begin{cases} x^{2}-x-2 > 0 \\\\\\\\ 2x^{2}+(5+2k)x+5k < 0\\\\end{cases} \\\\) only contains the integer solution \\\\([BLANK]\\\\), find the range of values for \\\\(k\\\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For the system of inequalities \\( \\begin{cases} x^{2}-x-2 > 0 \\\\ 2x^{2}+(5+2k)x+5k < 0\\end{cases} \\) to have only the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the case of the inequalities \\( \\begin{cases} x^{2}-x-2 > 0 \\\\ 2x^{2}+(5+2k)x+5k < 0\\end{cases} \\) yielding just the integer solution \\([BLANK]\\), identify the range of \\(k\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "When the system of inequalities \\( \\begin{cases} x^{2}-x-2 > 0 \\\\ 2x^{2}+(5+2k)x+5k < 0\\end{cases} \\) results in the sole integer solution \\([BLANK]\\), find the values that \\(k\\) can take.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the inequalities \\( \\begin{cases} x^{2}-x-2 > 0 \\\\ 2x^{2}+(5+2k)x+5k < 0\\end{cases} \\) which only allow for the integer solution \\([BLANK]\\), ascertain the range for \\(k\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Considering the system of inequalities \\( \\begin{cases} x^{2}-x-2 > 0 \\\\ 2x^{2}+(5+2k)x+5k < 0\\end{cases} \\) that has exclusively the integer solution \\([BLANK]\\), find the possible values of \\(k\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given the system of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) only contains the integer solution \\([BLANK]\\), find the range of values for \\(k\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) that has solely the integer solution \\([BLANK]\\); determine the range of possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) which has solely the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) which yields the sole integer solution \\([BLANK]\\); determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) which yields the sole integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-x-1 > 0 \\\\\\ 6x^{2}+(1+7k)x+3k < 0\\end{cases} \\) that has only the integer solution \\([BLANK]\\). Determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given the system of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) only contains the integer solution [BLANK], find the range of values for \\(k\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) that has only the integer solution [BLANK], determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) which has solely the integer solution [BLANK], determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) that exclusively has the integer solution [BLANK], determine the interval of values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) which exclusively has the integer solution [BLANK], determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the following set of inequalities \\( \\begin{cases} x^{2}-4x-5 > 0 \\\\\\ 4x^{2}+(3+5k)x+6k < 0\\end{cases} \\) which yields only the integer solution [BLANK], determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given the system of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) only contains the integer solution \\([BLANK]\\), find the range of values for \\(k\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) which exclusively has the integer solution \\([BLANK]\\). Determine the interval of possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the following set of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) which has only the whole number solution \\([BLANK]\\); determine the possible values of \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the following set of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) that has just the integer solution \\([BLANK]\\). Determine the interval of values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the following set of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) which has the sole integer solution \\([BLANK]\\). Determine the allowable values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-5x-6 > 0 \\\\\\ 5x^{2}+(2+6k)x+9k < 0\\end{cases} \\) which has the sole integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given the system of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) only contains the integer solution \\([BLANK]\\), find the range of values for \\(k\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) that has exclusively the integer solution \\([BLANK]\\); determine the possible values of \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the system of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) has solely the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) that has the sole integer solution \\([BLANK]\\). Determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) which has the sole integer solution \\([BLANK]\\); determine the range of possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-3x-4 > 0 \\\\\\ 3x^{2}+(4+3k)x+7k < 0\\end{cases} \\) which exclusively has the whole number solution \\([BLANK]\\). Determine the interval of possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given the system of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) only contains the integer solution \\([BLANK]\\), find the range of values for \\(k\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) which has only the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) which has exclusively the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) which exclusively has the integer solution \\([BLANK]\\), determine the possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) which has solely the integer solution \\([BLANK]\\); determine the allowable values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set of inequalities \\( \\begin{cases} x^{2}-2x-3 > 0 \\\\\\ x^{2}+(3+4k)x+8k < 0\\end{cases} \\) that exclusively yields the integer solution \\([BLANK]\\). Determine the interval of possible values for \\(k\\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

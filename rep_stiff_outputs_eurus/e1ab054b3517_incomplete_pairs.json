@@ -1,0 +1,62 @@
+{
+  "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(1,-2,-3)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific function parameters\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(1,-2,-3)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.\\n\\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the specific function parameters\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(4,-5,-6)$.",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "info_removed": "\"the specific function parameters\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(2,-3,-7)$.",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "info_removed": "\"the specific function parameters\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(3,-1,-8)$.",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "info_removed": "\"the specific function parameters\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(5,-4,-9)$.",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "info_removed": "\"the specific function parameters\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(6,-2,-10)$.",
+      "incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "info_removed": "\"the specific function parameters\""
+    }
+  ],
+  "num_valid_similars": 5
+}

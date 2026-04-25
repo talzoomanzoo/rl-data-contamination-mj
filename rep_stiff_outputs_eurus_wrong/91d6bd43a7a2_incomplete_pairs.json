@@ -1,0 +1,62 @@
+{
+  "original_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the number of years vacationed\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was 23 years old. He is now 34. How many quilt blocks does he have in total? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each vacation he has been on. Every shirt is its own quilt block. Each row is made of blocks from a different year of vacations. He goes on four vacations a year and has been vacationing since he was [BLANK]. He is now 34. How many quilt blocks does he have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Alice is knitting a blanket out of colorful yarns. She has one ball of yarn from each festival she has attended. Each ball is its own section of the blanket. Each year, she attends three festivals and has been attending them since she was 25 years old. She is now 30. How many sections does she have in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Alice is knitting a blanket out of colorful yarns. She has one ball of yarn from each festival she has attended. Each ball is its own section of the blanket. Each year, she attends three festivals and has been attending them since she was [BLANK]. She is now 30. How many sections does she have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Mark is building a model out of old toy cars. He has one car from each collection he has started. Each car is its own piece of the model. Each season, he starts two new collections and has been collecting since he was 20 years old. He is now 27. How many pieces does he have in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mark is building a model out of old toy cars. He has one car from each collection he has started. Each car is its own piece of the model. Each season, he starts two new collections and has been collecting since he was [BLANK]. He is now 27. How many pieces does he have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sara is creating a scrapbook out of postcards. She has one postcard from each trip she has made. Each postcard is its own page in the scrapbook. She goes on five trips a year and has been traveling since she was 22 years old. She is now 29. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sara is creating a scrapbook out of postcards. She has one postcard from each trip she has made. Each postcard is its own page in the scrapbook. She goes on five trips a year and has been traveling since she was [BLANK]. She is now 29. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "David is painting a mural using different colors. He has one color from each art workshop he has attended. Each color is its own section of the mural. He attends four workshops each year and has been learning art since he was 24 years old. He is now 31. How many sections does he have in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "David is painting a mural using different colors. He has one color from each art workshop he has attended. Each color is its own section of the mural. He attends four workshops each year and has been learning art since he was [BLANK]. He is now 31. How many sections does he have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Emma is collecting stamps from various countries. She has one stamp from each trip she has taken. Each stamp is its own page in her collection book. She visits three new countries every year and has been collecting stamps since she was 21 years old. She is now 28. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma is collecting stamps from various countries. She has one stamp from each trip she has taken. Each stamp is its own page in her collection book. She visits three new countries every year and has been collecting stamps since she was [BLANK]. She is now 28. How many pages does she have in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the number of years vacationed\""
+    }
+  ],
+  "num_valid_similars": 5
+}

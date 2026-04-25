@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Henry, Victoria, Avery, and Emma. In Henry's words: \"Victoria is a knave\". Victoria asserted: \"If Henry is a knight then Avery is a knight\". Avery stated, \"Victoria is not a knight\". \"Avery is a knave and Henry is a knave,\" Emma claimed. So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants involved\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Henry, Victoria, Avery, and Emma. In Henry's words: \"Victoria is a knave\". Victoria asserted: \"If Henry is a knight then Avery is a knight\". Avery stated, \"Victoria is not a knight\". \"Avery is a knave and Henry is a knave,\" Emma claimed. So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. In [BLANK]'s words: '[BLANK] is a knave'. [BLANK] asserted: 'If [BLANK] is a knight then [BLANK] is a knight'. [BLANK] stated, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' [BLANK] claimed. So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a unique island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 5 residents: Jack, Mary, Luke, and Zoe. Jack states: \"Mary is a knave\". Mary claims: \"If Jack is a knight, then Luke is a knight\". Luke insists, \"Mary is not a knight\". \"Luke is a knave and Jack is a knave,\" Zoe asserts. Who is a knight and who is a knave?",
+      "incomplete_question": "On a unique island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 5 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states: '[BLANK] is a knave'. [BLANK] claims: 'If [BLANK] is a knight, then [BLANK] is a knight'. [BLANK] insists, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' [BLANK] asserts. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a peculiar village, inhabitants are either knights or knaves. Knights always tell the truth, and knaves always lie. You meet 3 villagers: Tom, Rachel, and Simon. Tom remarks: \"Rachel is a knave\". Rachel declares: \"If Tom is a knight, then Simon is a knight\". Simon states, \"Rachel is not a knight\". \"Simon is a knave and Tom is a knave,\" another villager claims. Who is a knight and who is a knave?",
+      "incomplete_question": "In a peculiar village, inhabitants are either knights or knaves. Knights always tell the truth, and knaves always lie. You meet 3 villagers: [BLANK], [BLANK], and [BLANK]. [BLANK] remarks: '[BLANK] is a knave'. [BLANK] declares: 'If [BLANK] is a knight, then [BLANK] is a knight'. [BLANK] states, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' another villager claims. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "On a mysterious island, individuals are either knights or knaves. Knights always tell the truth, while knaves always lie. You come across 6 citizens: Alex, Sophia, Ryan, and Lily. Alex proclaims: \"Sophia is a knave\". Sophia asserts: \"If Alex is a knight, then Ryan is a knight\". Ryan exclaims, \"Sophia is not a knight\". \"Ryan is a knave and Alex is a knave,\" Lily claims. Who is a knight and who is a knave?",
+      "incomplete_question": "On a mysterious island, individuals are either knights or knaves. Knights always tell the truth, while knaves always lie. You come across 6 citizens: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] proclaims: '[BLANK] is a knave'. [BLANK] asserts: 'If [BLANK] is a knight, then [BLANK] is a knight'. [BLANK] exclaims, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' [BLANK] claims. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "On a strange island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: Charles, Olivia, Ethan, and Mia. Charles states: \"Olivia is a knave\". Olivia asserts: \"If Charles is a knight, then Ethan is a knight\". Ethan claims, \"Olivia is not a knight\". \"Ethan is a knave and Charles is a knave,\" Mia declares. Who is a knight and who is a knave?",
+      "incomplete_question": "On a strange island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states: '[BLANK] is a knave'. [BLANK] asserts: 'If [BLANK] is a knight, then [BLANK] is a knight'. [BLANK] claims, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' [BLANK] declares. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In an unusual town, there are only knights and knaves. Knights always tell the truth, whereas knaves always lie. You meet 5 locals: Daniel, Chloe, Leo, and Grace. Daniel says: \"Chloe is a knave\". Chloe states: \"If Daniel is a knight, then Leo is a knight\". Leo insists, \"Chloe is not a knight\". \"Leo is a knave and Daniel is a knave,\" Grace claims. Who is a knight and who is a knave?",
+      "incomplete_question": "In an unusual town, there are only knights and knaves. Knights always tell the truth, whereas knaves always lie. You meet 5 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] says: '[BLANK] is a knave'. [BLANK] states: 'If [BLANK] is a knight, then [BLANK] is a knight'. [BLANK] insists, '[BLANK] is not a knight'. '[BLANK] is a knave and [BLANK] is a knave,' [BLANK] claims. Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants involved\""
+    }
+  ],
+  "num_valid_similars": 5
+}

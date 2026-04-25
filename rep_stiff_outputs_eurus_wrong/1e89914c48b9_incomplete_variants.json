@@ -1,0 +1,210 @@
+{
+  "original_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g(2) = 56$, find $g(x)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assume that $f(x)$ and $g(x)$ are polynomials that are not zero, satisfying the equation $f(g(x)) = f(x)g(x)$. Given that $g([BLANK]) = [BLANK]$, determine the polynomial $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials that are both non-zero such that the relationship $f(g(x)) = f(x)g(x)$ holds. If it is true that $g([BLANK]) = [BLANK]$, find the expression for $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the non-zero polynomials $f(x)$ and $g(x)$ which fulfill the equation $f(g(x)) = f(x)g(x)$. If $g([BLANK]) = [BLANK]$, identify the polynomial $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)$ and $g(x)$ represent non-zero polynomials that satisfy the equation $f(g(x)) = f(x)g(x)$. Given that $g([BLANK]) = [BLANK]$, discover the function $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assume $f(x)$ and $g(x)$ are two non-zero polynomials such that $f(g(x)) = f(x)g(x)$ is valid. If it is the case that $g([BLANK]) = [BLANK]$, ascertain the form of $g(x)$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider nonzero polynomials $f(x)$ and $g(x)$ where it holds that $f(g(x)) = f(x)g(x)$. If $g([BLANK]) = [BLANK]$, determine $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ represent nonzero polynomials such that the equation $f(g(x)) = f(x)g(x)$ is satisfied. Given that $g([BLANK]) = [BLANK]$, find the expression for $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume $f(x)$ and $g(x)$ are nonzero polynomials fulfilling the condition $f(g(x)) = f(x)g(x)$. If it is true that $g([BLANK]) = [BLANK]$, identify $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Suppose $f(x)$ and $g(x)$ are polynomials that are nonzero with the relationship $f(g(x)) = f(x)g(x)$. If $g([BLANK]) = [BLANK]$, compute $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let nonzero polynomials $f(x)$ and $g(x)$ be defined such that $f(g(x)) = f(x)g(x)$. If it follows that $g([BLANK]) = [BLANK]$, find the form of $g(x)$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assume $f(x)$ and $g(x)$ are polynomials that are not zero, satisfying the equation $f(g(x)) = f(x)g(x)$. Given that $g([BLANK]) = [BLANK]$, determine the form of $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider nonzero polynomials $f(x)$ and $g(x)$ such that the relationship $f(g(x)) = f(x)g(x)$ holds. If it is known that $g([BLANK]) = [BLANK]$, find the expression for $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $f(x)$ and $g(x)$ represent nonzero polynomials that fulfill the condition $f(g(x)) = f(x)g(x)$. If $g([BLANK]) = [BLANK]$ is true, identify $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Suppose $f(x)$ and $g(x)$ are nonzero polynomials satisfying the equation $f(g(x)) = f(x)g(x)$. If $g([BLANK]) = [BLANK]$, what is $g(x)$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials that are nonzero, such that $f(g(x)) = f(x)g(x)$ is satisfied. If it holds that $g([BLANK]) = [BLANK]$, find out what $g(x)$ is.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assume $f(x)$ and $g(x)$ are polynomials that are not zero, satisfying the equation \\[ f(g(x)) = f(x)g(x). \\] Given that $g([BLANK]) = [BLANK]$, determine the form of $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials that are nonzero, where it holds that \\[ f(g(x)) = f(x)g(x). \\] If it is known that $g([BLANK]) = [BLANK]$, identify $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider $f(x)$ and $g(x)$ as nonzero polynomials such that \\[ f(g(x)) = f(x)g(x). \\] If $g([BLANK]) = [BLANK]$, what is the expression for $g(x)$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Take $f(x)$ and $g(x)$ to be nonzero polynomials satisfying the condition \\[ f(g(x)) = f(x)g(x). \\] If $g([BLANK]) = [BLANK]$, find the polynomial $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(x)$ and $g(x)$ represent nonzero polynomials such that \\[ f(g(x)) = f(x)g(x). \\] Assuming $g([BLANK]) = [BLANK]$, what is the solution for $g(x)$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider nonzero polynomials $f(x)$ and $g(x)$ satisfying the equation \\[ f(g(x)) = f(x)g(x). \\] Given that $g([BLANK]) = [BLANK]$, determine $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials that are not zero, and they fulfill the condition \\[ f(g(x)) = f(x)g(x). \\] If it is known that $g([BLANK]) = [BLANK]$, compute $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume $f(x)$ and $g(x)$ are non-zero polynomials such that \\[ f(g(x)) = f(x)g(x). \\] If $g([BLANK]) = [BLANK]$, find the expression for $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let nonzero polynomials $f(x)$ and $g(x)$ exist with the property \\[ f(g(x)) = f(x)g(x). \\] Given that $g([BLANK]) = [BLANK]$, ascertain $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take $f(x)$ and $g(x)$ as nonzero polynomials that meet the requirement \\[ f(g(x)) = f(x)g(x). \\] If $g([BLANK]) = [BLANK]$, identify $g(x)$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider nonzero polynomials $f(x)$ and $g(x)$ satisfying the equation $f(g(x)) = f(x)g(x)$. If it holds that $g([BLANK]) = [BLANK]$, determine the expression for $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials that are not zero, with the property that $f(g(x)) = f(x)g(x)$. Given that $g([BLANK]) = [BLANK]$, find the form of $g(x)$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume $f(x)$ and $g(x)$ are nonzero polynomial functions such that $f(g(x)) = f(x)g(x)$. If we know that $g([BLANK]) = [BLANK]$, what is the function $g(x)$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let us define $f(x)$ and $g(x)$ as polynomials that are not zero, obeying the relationship $f(g(x)) = f(x)g(x)$. If it is true that $g([BLANK]) = [BLANK]$, what can we conclude about $g(x)$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Suppose $f(x)$ and $g(x)$ represent nonzero polynomials for which the equation $f(g(x)) = f(x)g(x)$ is valid. If it is given that $g([BLANK]) = [BLANK]$, identify $g(x)$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

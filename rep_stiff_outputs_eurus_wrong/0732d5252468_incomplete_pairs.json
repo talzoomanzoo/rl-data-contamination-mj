@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Victoria, Oliver, and Scarlett. \"Victoria is a knave,\" Abigail mentioned. Victoria noted, \"Oliver is a knave\". In Oliver's words: \"Scarlett is a knight\". Scarlett remarked, \"If Victoria is a knave then Oliver is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Victoria, Oliver, and Scarlett. \"Victoria is a knave,\" Abigail mentioned. Victoria noted, \"Oliver is a knave\". In Oliver's words: \"Scarlett is a knight\". Scarlett remarked, \"If Victoria is a knave then Oliver is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] mentioned. [BLANK] noted, \"[BLANK] is a knave\". In [BLANK]'s words: \"[BLANK] is a knight\". [BLANK] remarked, \"If [BLANK] is a knave then [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a distant planet, there are two types of beings: truth-tellers and liars. Truth-tellers always speak the truth, while liars always lie. You encounter 5 beings: John, Emily, Michael, and Hannah. John states, \"Emily is a liar.\" Emily claims, \"Michael is a liar.\" According to Michael, \"Hannah is a truth-teller.\" Hannah says, \"If Emily is a liar, then Michael is a truth-teller.\" Determine who is a truth-teller and who is a liar.",
+      "incomplete_question": "On a distant planet, there are two types of beings: truth-tellers and liars. Truth-tellers always speak the truth, while liars always lie. You encounter 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is a liar.\" [BLANK] claims, \"[BLANK] is a liar.\" According to [BLANK], \"[BLANK] is a truth-teller.\" [BLANK] says, \"If [BLANK] is a liar, then [BLANK] is a truth-teller.\" Determine who is a truth-teller and who is a liar.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a mystical forest, there exist two types of creatures: sages and deceivers. Sages always tell the truth, and deceivers always lie. You come across 6 creatures: Alex, Zoe, Liam, and Mia. Alex asserts, \"Zoe is a deceiver.\" Zoe proclaims, \"Liam is a deceiver.\" Liam states, \"Mia is a sage.\" Mia comments, \"If Zoe is a deceiver, then Liam is a sage.\" Identify which creatures are sages and which are deceivers.",
+      "incomplete_question": "In a mystical forest, there exist two types of creatures: sages and deceivers. Sages always tell the truth, and deceivers always lie. You come across 6 creatures: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, \"[BLANK] is a deceiver.\" [BLANK] proclaims, \"[BLANK] is a deceiver.\" [BLANK] states, \"[BLANK] is a sage.\" [BLANK] comments, \"If [BLANK] is a deceiver, then [BLANK] is a sage.\" Identify which creatures are sages and which are deceivers.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A curious world has inhabitants that are either honest people or dishonest people. Honest people always tell the truth, while dishonest people always lie. You meet 4 inhabitants: Tom, Sarah, Jake, and Lily. Tom declares, \"Sarah is dishonest.\" Sarah replies, \"Jake is dishonest.\" Jake states, \"Lily is honest.\" Lily mentions, \"If Sarah is dishonest, then Jake is honest.\" Figure out who is honest and who is dishonest.",
+      "incomplete_question": "A curious world has inhabitants that are either honest people or dishonest people. Honest people always tell the truth, while dishonest people always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declares, \"[BLANK] is dishonest.\" [BLANK] replies, \"[BLANK] is dishonest.\" [BLANK] states, \"[BLANK] is honest.\" [BLANK] mentions, \"If [BLANK] is dishonest, then [BLANK] is honest.\" Figure out who is honest and who is dishonest.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "On a remote island, the locals are either truth-speakers or false-speakers. Truth-speakers always state the truth, and false-speakers always lie. You run into 5 locals: Noah, Emma, Ethan, and Grace. Noah claims, \"Emma is a false-speaker.\" Emma says, \"Ethan is a false-speaker.\" Ethan tells you, \"Grace is a truth-speaker.\" Grace asserts, \"If Emma is a false-speaker, then Ethan is a truth-speaker.\" Determine who speaks the truth and who lies.",
+      "incomplete_question": "On a remote island, the locals are either truth-speakers or false-speakers. Truth-speakers always state the truth, and false-speakers always lie. You run into 5 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, \"[BLANK] is a false-speaker.\" [BLANK] says, \"[BLANK] is a false-speaker.\" [BLANK] tells you, \"[BLANK] is a truth-speaker.\" [BLANK] asserts, \"If [BLANK] is a false-speaker, then [BLANK] is a truth-speaker.\" Determine who speaks the truth and who lies.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In an enchanted city, the residents are classified as either verifiers or deceivers. Verifiers always tell the truth, while deceivers always lie. You encounter 4 residents: Sam, Ava, Ryan, and Chloe. Sam declares, \"Ava is a deceiver.\" Ava responds, \"Ryan is a deceiver.\" Ryan remarks, \"Chloe is a verifier.\" Chloe states, \"If Ava is a deceiver, then Ryan is a verifier.\" Ascertain who is a verifier and who is a deceiver.",
+      "incomplete_question": "In an enchanted city, the residents are classified as either verifiers or deceivers. Verifiers always tell the truth, while deceivers always lie. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declares, \"[BLANK] is a deceiver.\" [BLANK] responds, \"[BLANK] is a deceiver.\" [BLANK] remarks, \"[BLANK] is a verifier.\" [BLANK] states, \"If [BLANK] is a deceiver, then [BLANK] is a verifier.\" Ascertain who is a verifier and who is a deceiver.",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

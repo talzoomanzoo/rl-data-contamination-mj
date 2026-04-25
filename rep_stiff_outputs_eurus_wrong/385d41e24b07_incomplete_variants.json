@@ -1,0 +1,210 @@
+{
+  "original_question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Liam wants to buy a bed frame and a mattress and has received two offers. Sleep Haven's offer includes a [BLANK] advance payment and 7 monthly installments of $400 each. Comfort Zone's offer includes a [BLANK] advance payment and 8 monthly installments of $300 each. What is the cost difference between the two offers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam is interested in purchasing a bed frame along with a mattress and has two proposals to consider. Sleep Haven's deal requires a [BLANK] upfront payment and 7 monthly payments of $400. Comfort Zone's deal necessitates a [BLANK] upfront payment and 8 monthly payments of $300. Calculate the difference in cost between the two offers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam intends to acquire a bed frame and a mattress and has two different offers available. Sleep Haven proposes a [BLANK] initial payment followed by 7 monthly payments of $400 each. Comfort Zone offers a [BLANK] initial payment along with 8 monthly payments of $300 each. What is the cost discrepancy between these two proposals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam is looking to buy a bed frame and mattress and has received two different offers. The offer from Sleep Haven features a [BLANK] initial payment and then 7 monthly installments of $400. In contrast, Comfort Zone's offer consists of a [BLANK] initial payment and 8 monthly installments of $300. Determine the difference in price between the two offers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam plans to purchase a bed frame and a mattress and has two offers to evaluate. Sleep Haven's offer includes a [BLANK] deposit and 7 monthly payments of $400 each. Meanwhile, Comfort Zone's offer consists of a [BLANK] deposit and 8 monthly payments of $300 each. What is the difference in total cost between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam wishes to buy a bed frame along with a mattress and has two offers at hand. Sleep Haven proposes a [BLANK] advance fee and 7 monthly payments of $400. On the other hand, Comfort Zone proposes a [BLANK] advance fee and 8 monthly payments of $300. What is the difference in cost between the two offers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophie wants to buy a desk and a chair and has received two offers. Office Supplies' offer includes a [BLANK] advance payment and 4 monthly installments of $450 each. Work Comfort's offer includes a [BLANK] advance payment and 6 monthly installments of $350 each. What is the cost difference between the two offers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophie is looking to purchase a desk and a chair and has two proposals. Office Supplies' proposal requires a [BLANK] upfront payment and 4 monthly payments of $450 each. Work Comfort's proposal requires a [BLANK] upfront payment and 6 monthly payments of $350 each. What is the difference in cost between the two proposals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie intends to buy a desk and a chair and has two offers to consider. Office Supplies' offer demands a [BLANK] initial payment and 4 monthly payments of $450. Work Comfort's offer demands a [BLANK] initial payment and 6 monthly payments of $350. How much does the cost differ between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophie wishes to acquire a desk and a chair and has received two competing offers. Office Supplies' deal includes a [BLANK] down payment and 4 monthly payments of $450. Work Comfort's deal includes a [BLANK] down payment and 6 monthly payments of $350. What is the difference in the total price of the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophie wants to get a desk and a chair and has two different offers. Office Supplies' offer features a [BLANK] advance amount and 4 monthly installments of $450. Work Comfort's offer features a [BLANK] advance amount and 6 monthly installments of $350. What is the variation in cost between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie is planning to purchase a desk and a chair and has two different proposals to review. Office Supplies' proposal includes a [BLANK] initial fee and 4 monthly payments of $450. Work Comfort's proposal includes a [BLANK] initial fee and 6 monthly payments of $350. What is the cost discrepancy between the two proposals?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mia wants to buy a refrigerator and a dishwasher and has received two offers. Appliance Central's offer includes a [BLANK] advance payment and 3 monthly installments of $600 each. Kitchen Essentials' offer includes a [BLANK] advance payment and 10 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia is looking to purchase a refrigerator and a dishwasher and has two proposals to consider. Appliance Central's proposal requires a [BLANK] upfront payment and 3 monthly payments of $600. Kitchen Essentials' proposal asks for a [BLANK] upfront payment and 10 monthly payments of $250. What is the difference in total cost between these two proposals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mia is interested in buying a refrigerator along with a dishwasher and has received two different offers. The offer from Appliance Central consists of a [BLANK] initial payment and 3 monthly payments of $600 each. The offer from Kitchen Essentials includes a [BLANK] initial payment and 10 monthly payments of $250. How much does the total cost differ between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia intends to acquire a refrigerator and a dishwasher and has two competing offers. Appliance Central's offer features a [BLANK] down payment and 3 monthly installments of $600. Kitchen Essentials' offer entails a [BLANK] down payment and 10 monthly installments of $250. What is the cost disparity between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mia plans to buy a refrigerator and a dishwasher, having received two offers. Appliance Central's offer includes a [BLANK] advance payment plus 3 monthly payments of $600. Kitchen Essentials' offer consists of a [BLANK] advance payment followed by 10 monthly payments of $250. What is the difference in cost between these two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mia wishes to purchase a refrigerator and a dishwasher and has two offers to evaluate. The offer from Appliance Central requires a [BLANK] advance payment and includes 3 monthly payments of $600. The offer from Kitchen Essentials specifies a [BLANK] advance payment and 10 monthly payments of $250. What is the cost difference between the two offers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jake wants to buy a television and a sound system and has received two offers. Tech City\u2019s offer includes a [BLANK] advance payment and 5 monthly installments of $500 each. Media Hub's offer includes a [BLANK] advance payment and 12 monthly installments of $225 each. What is the cost difference between the two offers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake is looking to purchase a television and a sound system and has two proposals to consider. Tech City\u2019s proposal requires a [BLANK] initial payment and 5 monthly payments of $500. Media Hub's proposal asks for a [BLANK] initial payment and 12 monthly payments of $225. How much more does one offer cost compared to the other?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake intends to buy a television and a sound system and has received two different offers. The offer from Tech City necessitates a [BLANK] upfront payment followed by 5 monthly payments of $500. Media Hub's offer requires a [BLANK] upfront payment along with 12 monthly payments of $225. What is the price difference between these two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake wants to acquire a television and a sound system and has two different offers available. Tech City\u2019s deal includes a [BLANK] down payment and 5 monthly installments of $500 each. Meanwhile, Media Hub's deal features a [BLANK] down payment and 12 monthly installments of $225 each. What is the difference in cost between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake is interested in buying a television and a sound system and has two offers on the table. The first offer from Tech City has a [BLANK] advance cost and 5 monthly payments of $500. The second offer from Media Hub has a [BLANK] advance cost and 12 monthly payments of $225. What is the cost variance between these offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake is planning to purchase a television and a sound system and has two offers to review. The offer from Tech City includes a [BLANK] initial fee along with 5 monthly installments of $500. On the other hand, Media Hub's offer consists of a [BLANK] initial fee and 12 monthly installments of $225. How much does one offer differ in price from the other?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Ella wants to buy a dining table and a chair and has received two offers. Home Styles' offer includes a [BLANK] advance payment and 5 monthly installments of $300 each. Furniture World' offer includes a [BLANK] advance payment and 10 monthly installments of $200 each. What is the cost difference between the two offers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ella is considering purchasing a dining table and a chair and has two proposals to evaluate. Home Styles' proposal requires a [BLANK] initial payment and 5 monthly payments of $300. Furniture World's proposal asks for a [BLANK] initial payment and 10 monthly payments of $200. What is the difference in total cost between the two proposals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ella intends to acquire a dining table and a chair and has received two competing quotes. Home Styles' quote specifies a [BLANK] upfront payment and 5 monthly installments of $300 each. Furniture World' quote specifies a [BLANK] upfront payment and 10 monthly installments of $200 each. How much more does one quote cost compared to the other?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ella aims to buy a dining table and a chair and has two offers to consider. Home Styles' offer consists of a [BLANK] down payment and 5 monthly payments of $300. Furniture World' offer consists of a [BLANK] down payment and 10 monthly payments of $200. What is the cost discrepancy between the two offers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella plans to purchase a dining table and a chair and has received two distinct proposals. Home Styles' proposal includes a [BLANK] advance payment and 5 installments of $300 each month. Furniture World' proposal includes a [BLANK] advance payment and 10 installments of $200 each month. What is the financial difference between the two proposals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ella wishes to buy a dining table and a chair and has two different offers on the table. Home Styles' offer features a [BLANK] initial payment and 5 monthly payments of $300. Furniture World' offer features a [BLANK] initial payment and 10 monthly payments of $200. What is the variation in cost between the two offers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a [BLANK] advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a [BLANK] advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Robert is looking to purchase a bookshelf and a sofa and has two proposals to consider. Furniture United's proposal requests a [BLANK] down payment along with 6 monthly payments of $350. Cozy Homes' proposal asks for a [BLANK] down payment and 9 monthly payments of $250. What is the difference in total cost between the two proposals? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Robert intends to acquire a bookshelf and a sofa and has received two competing offers. Furniture United's offer entails a [BLANK] initial payment followed by 6 monthly installments of $350 each. Cozy Homes' offer requires a [BLANK] initial payment and consists of 9 monthly installments of $250. What is the cost disparity between the two offers? We'll examine it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Robert wishes to buy a bookshelf and a sofa and has two offers on the table. The offer from Furniture United includes a [BLANK] upfront payment and 6 monthly payments of $350 each. The offer from Cozy Homes includes a [BLANK] upfront payment with 9 monthly payments of $250. What is the difference in price between the two offers? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Robert is planning to purchase a bookshelf and a sofa and has two different offers to evaluate. Furniture United's offer consists of a [BLANK] advance payment and 6 payments of $350 each month. Cozy Homes' offer features a [BLANK] advance payment and 9 monthly payments of $250. How much does the cost differ between the two offers? We'll break it down step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Robert aims to buy a bookshelf and a sofa and has received two offers to choose from. The proposal from Furniture United requires a [BLANK] initial payment and 6 monthly payments of $350. The proposal from Cozy Homes involves a [BLANK] initial payment and 9 monthly payments of $250. What is the difference in total cost between these two offers? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

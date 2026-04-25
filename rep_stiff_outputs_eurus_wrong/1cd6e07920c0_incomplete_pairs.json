@@ -1,0 +1,62 @@
+{
+  "original_question": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the percentage increase of green cards\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "In a set of magicians cards, there are 15 red cards, and 60% more green cards. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "In a set of magicians cards, there are 15 red cards, and [BLANK]. Yellow cards are as many, as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "In a set of magician cards, there are 20 red cards, and 50% more green cards. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "In a set of magician cards, there are 20 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a set of magician cards, there are 25 red cards, and 80% more green cards. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "In a set of magician cards, there are 25 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "In a set of magician cards, there are 30 red cards, and 100% more green cards. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "In a set of magician cards, there are 30 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "In a set of magician cards, there are 10 red cards, and 120% more green cards. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "In a set of magician cards, there are 10 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In a set of magician cards, there are 18 red cards, and 70% more green cards. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "In a set of magician cards, there are 18 red cards, and [BLANK]. Yellow cards are as many as the sum of red and green cards. How many cards of all mentioned colors are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage increase of green cards\""
+    }
+  ],
+  "num_valid_similars": 5
+}

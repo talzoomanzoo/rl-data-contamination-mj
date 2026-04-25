@@ -1,0 +1,210 @@
+{
+  "original_question": "Alice has a deck of  $36$  cards,  $4$  suits of  $9$  cards each. She picks any  $18$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?\n\nMikhail Evdokimov\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $5$  suits of  $8$  cards each. She picks any  $20$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a total of $[BLANK]$ cards, consisting of $5$ suits with $8$ cards in each. She selects $20$ cards for herself and hands the remaining cards to Bob. During each round, Alice chooses one of her cards and places it face-up on the table, followed by Bob who also selects and places one of his cards face-up. If the cards match in suit or value, Bob scores a point. What is the highest number of points Bob can secure no matter how Alice plays?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice has $[BLANK]$ cards in her possession, divided into $5$ suits with $8$ cards per suit. She draws $20$ cards for herself and passes the rest to Bob. In each turn, Alice takes one of her cards and places it face-up on the table, then Bob does the same with one of his cards. If their chosen cards share either the same suit or value, Bob earns a point. What is the maximum number of points Bob can ensure, regardless of Alice\u2019s choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice owns $[BLANK]$ cards, organized into $5$ different suits, each containing $8$ cards. She randomly selects $20$ cards for herself, giving the leftover cards to Bob. Each turn, Alice reveals one of her cards face-up on the table, after which Bob reveals one of his own. Bob will score a point if the two cards are of the same suit or value. What is the maximum number of points Bob can guarantee irrespective of Alice's moves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice has a collection of $[BLANK]$ cards, comprising $5$ suits, with each suit having $8$ cards. She randomly chooses $20$ cards for herself and gives the remaining cards to Bob. On each turn, Alice lays down one of her cards face-up, followed by Bob who does the same with one of his cards. If the two cards match in suit or value, Bob gains a point. What is the maximum number of points Bob can guarantee no matter how Alice plays her cards?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice is in possession of $[BLANK]$ cards, organized into $5$ suits, with $8$ cards in each suit. She decides to take $20$ cards for herself and gives the remainder to Bob. In each round, Alice places one of her cards face-up on the table, and then Bob places one of his cards face-up as well. If their cards share either the same suit or value, Bob earns a point. What is the highest number of points Bob can assure himself, regardless of Alice's decisions?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $4$  suits of  $9$  cards each. She picks any  $18$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a collection of $[BLANK]$ cards, consisting of $4$ suits with $9$ cards in each. She selects $18$ cards for herself and hands the remainder to Bob. During each round, Alice chooses one of her cards and places it face-up on the table, followed by Bob, who also selects one of his cards to place face-up. If the two cards share either the same suit or the same value, Bob scores a point. What is the highest number of points he can ensure, no matter what Alice does?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice owns a set of $[BLANK]$ cards, divided into $4$ suits containing $9$ cards each. She takes $18$ cards for herself and gives the leftover cards to Bob. On each turn, Alice picks a card from her hand and puts it face-up on the table, after which Bob does the same with one of his cards. Bob earns a point if the two cards match in either suit or value. What is the maximum score he can secure regardless of Alice's choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice has a total of $[BLANK]$ cards in her possession, arranged into $4$ suits of $9$ cards per suit. She draws $18$ cards for herself and passes the remaining cards to Bob. In every round, Alice lays down one of her cards face-up on the table, and Bob follows by doing the same with one of his cards. If their cards are of the same suit or value, Bob receives a point. What is the utmost number of points he can guarantee, irrespective of Alice's selections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice holds a deck of $[BLANK]$ cards, which includes $4$ suits, each containing $9$ cards. She chooses $18$ cards to keep and gives the rest to Bob. Each turn, Alice lays one of her cards face-up on the table, and then Bob lays down one of his cards face-up as well. If the cards match in suit or value, Bob scores a point. What is the maximum number of points he can guarantee, regardless of how Alice plays?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice has a total of $[BLANK]$ cards, comprised of $4$ different suits with $9$ cards in each suit. She selects $18$ cards for herself and hands the rest over to Bob. During each turn, Alice places one of her cards face-up on the table, followed by Bob, who does the same with one of his cards. Bob scores a point if the two cards share either the same suit or the same value. What is the highest number of points he can assure himself of, regardless of Alice's moves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $4$  suits of  $6$  cards each. She picks any  $12$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a total of $[BLANK]$ cards, consisting of $4$ suits with $6$ cards in each. She selects $12$ cards for herself and passes the remainder to Bob. During each round, Alice chooses one of her cards and places it face-up on the table, followed by Bob who does the same with his cards. If their selected cards share either the same suit or the same value, Bob scores a point. What is the highest number of points he can secure no matter what Alice decides?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice has a collection of $[BLANK]$ cards, divided into $4$ suits, each containing $6$ cards. She chooses $12$ cards for herself and gives the leftover cards to Bob. On each turn, Alice selects one of her cards and places it face-up on the table, and then Bob does likewise with one of his cards. Bob scores a point if the cards they lay down are of the same suit or have the same value. What is the maximum score he can ensure regardless of Alice's choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice owns a set of $[BLANK]$ cards, arranged into $4$ suits, each having $6$ cards. She takes $12$ cards for herself and hands the remaining cards to Bob. In each round, Alice lays down a card face-up from her selection, after which Bob also lays down one of his cards face-up. If the two cards match in suit or value, Bob receives a point. What is the maximum number of points he can guarantee, irrespective of Alice's selections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice has a total of $[BLANK]$ cards, with $4$ distinct suits containing $6$ cards each. She draws $12$ cards for herself and gives the remaining cards to Bob. Each turn, Alice places one of her cards face-up on the table, followed by Bob who does the same with his own card. Bob earns a point if their cards are of the same suit or value. How many points can he guarantee to score no matter how Alice plays?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice holds $[BLANK]$ cards, consisting of $4$ suits with $6$ cards in each suit. She picks out $12$ cards for herself and transfers the rest to Bob. On every turn, Alice reveals one of her cards face-up on the table, and then Bob follows by revealing one of his cards. If the cards are either of the same suit or the same value, Bob earns a point. What is the maximum number of points he can assure himself of, regardless of Alice's moves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $9$  suits of  $6$  cards each. She picks any  $27$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a collection of $[BLANK]$ cards, consisting of $9$ suits, each with $6$ cards. She selects $27$ cards for herself and hands the remaining cards over to Bob. During each turn, Alice chooses one of her cards and places it face-up on the table, and then Bob does the same with one of his cards. If the two cards share the same suit or have the same number, Bob earns a point. What is the highest number of points he can ensure regardless of Alice's choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice owns a set of $[BLANK]$ cards, divided into $9$ different suits with $6$ cards in each. She takes any $27$ cards and gives the leftover cards to Bob. On each turn, Alice lays down one of her cards face-up on the table, followed by Bob laying down one of his cards face-up. If the cards match in suit or value, Bob scores a point. What is the maximum amount of points he can secure no matter what Alice does?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice has a total of $[BLANK]$ cards, which are organized into $9$ suits, each containing $6$ cards. She randomly picks $27$ cards for herself and passes the rest to Bob. Each turn, Alice places one of her cards face-up on the table, and then Bob places one of his cards face-up as well. If the two cards either have the same suit or the same value, Bob receives a point. What is the greatest number of points he can guarantee, irrespective of Alice's selections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice is in possession of $[BLANK]$ cards, categorized into $9$ suits with $6$ cards in every suit. She chooses $27$ cards for herself and gives the remainder to Bob. During each turn, Alice reveals one of her cards face-up on the table, and Bob follows suit with one of his own cards. If the cards match either in suit or in value, Bob scores a point. What is the maximum number of points he can assure no matter how Alice plays?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice has a total of $[BLANK]$ cards, comprised of $9$ suits with $6$ cards in each suit. She selects $27$ cards for herself and transfers the remaining cards to Bob. On her turn, Alice lays a card face-up on the table, and Bob does the same with one of his cards. If the two cards are of the same suit or share the same value, Bob gains a point. What is the maximum number of points he can guarantee, irrespective of Alice's decisions?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $6$  suits of  $8$  cards each. She picks any  $24$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a collection of $[BLANK]$ cards, consisting of $6$ suits with $8$ cards in each suit. She selects $24$ cards for herself and hands the remaining ones to Bob. During each turn, Alice chooses one of her cards and places it face-up on the table, followed by Bob who does the same with one of his cards. If the two cards share either the same suit or the same value, Bob earns a point. What is the highest number of points he can secure, irrespective of Alice's choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice owns a set of $[BLANK]$ cards, organized into $6$ suits, each containing $8$ cards. She takes $24$ cards for herself and gives the leftover cards to Bob. On each turn, Alice places one of her cards face-up on the table, and then Bob also places one of his cards face-up. If the cards have the same suit or the same value, Bob scores a point. How many points can he ensure to score no matter what Alice does?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice has a total of $[BLANK]$ cards, arranged in $6$ suits of $8$ cards each. She selects $24$ cards for herself and passes the rest to Bob. Each turn, Alice lays one of her cards face-up on the table, and subsequently, Bob does the same with one of his cards. Bob receives a point if the two cards are of the same suit or the same value. What is the maximum number of points he can guarantee, regardless of Alice's moves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice possesses $[BLANK]$ cards in total, divided into $6$ different suits, each containing $8$ cards. She chooses $24$ cards for herself and gives the remaining cards to Bob. On every turn, Alice puts one of her cards face-up on the table, then Bob follows by placing one of his cards face-up. Bob scores a point if the two cards match in suit or value. What is the highest number of points he can assure himself of, regardless of Alice's selections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice has $[BLANK]$ cards in her deck, which consists of $6$ suits, each having $8$ cards. She keeps $24$ cards for herself and transfers the rest to Bob. During her turn, Alice lays down one of her cards face-up on the table, followed by Bob who does the same with his card. If the two cards are of the same suit or value, Bob earns a point. What is the maximum number of points he can guarantee, no matter what Alice does?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Alice has a deck of  $[BLANK]$  cards,  $3$  suits of  $10$  cards each. She picks any  $15$  cards and gives the rest to Bob. Now each turn Alice picks any of her cards and lays it face-up onto the table, then Bob similarly picks any of his cards and lays it face-up onto the table. If this pair of cards has the same suit or the same value, Bob gains a point. What is the maximum number of points he can guarantee regardless of Alice\u2019s actions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice possesses a collection of $[BLANK]$ cards, divided into $3$ suits with $10$ cards in each. She selects any $15$ cards and hands the remainder to Bob. During each round, Alice chooses one of her cards and places it face-up on the table, followed by Bob who also selects one of his cards to lay face-up. If the two cards match in suit or rank, Bob scores a point. What is the highest number of points he can ensure, no matter what Alice does?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice owns a set of $[BLANK]$ cards, comprising $3$ suits, each containing $10$ cards. She draws any $15$ cards and passes the leftover cards to Bob. In each round, Alice takes one of her cards and puts it face-up on the table, then Bob does the same with one of his cards. If their cards share the same suit or value, Bob earns a point. What is the maximum score he can secure irrespective of Alice\u2019s choices?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice has a total of $[BLANK]$ cards, which are organized into $3$ suits of $10$ cards each. She chooses $15$ cards at random and gives the remaining cards to Bob. On each turn, Alice places one of her cards face-up on the table, followed by Bob who also lays down one of his cards face-up. If the cards match in suit or value, Bob receives a point. How many points can he guarantee to earn regardless of Alice's selection?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice is in possession of $[BLANK]$ cards, consisting of $3$ suits where each suit has $10$ cards. She selects any $15$ cards and transfers the rest to Bob. Each turn, Alice reveals one of her cards face-up on the table, and Bob follows suit with one of his cards. If their cards have the same suit or the same number, Bob gets a point. What is the maximum number of points he can assure he will score no matter what Alice decides?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice holds a deck containing $[BLANK]$ cards, split into $3$ suits, each containing $10$ cards. She randomly picks $15$ cards and gives the remaining cards to Bob. In every round, Alice lays a card face-up on the table, and Bob does the same with one of his cards. If the cards are of the same suit or rank, Bob scores a point. What is the maximum number of points he can guarantee, regardless of Alice's moves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

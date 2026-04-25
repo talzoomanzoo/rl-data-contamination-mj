@@ -1,0 +1,210 @@
+{
+  "original_question": "A large cube with a side length of $n$ units is painted blue on all six sides and then is cut into $n^3$ smaller unit cubes. We are told that exactly one-third of the total number of faces of all these unit cubes are blue. Determine the value of $n$.\nA) 2\nB) 3\nC) 4\nD) 5\nE) 6\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A large cube with a side length of $n$ units is painted blue on all six sides and then is cut into [BLANK]. We are told that exactly one-third of the total number of faces of all these unit cubes are blue. Determine the value of $n$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sizable cube with a side measurement of $n$ units is coated blue on every face and subsequently sliced into [BLANK]. It is given that precisely one-third of the complete count of faces of these unit cubes are blue. Find the value of $n$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A big cube that has a side length of $n$ units is entirely painted blue on its six surfaces and then divided into [BLANK]. We know that exactly one-third of the total number of faces of these smaller cubes are blue. Calculate the value of $n$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An enormous cube with a side length of $n$ units is painted blue on all six sides and afterward cut into [BLANK]. It has been stated that one-third of the total faces of these unit cubes are blue. Determine the value of $n$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A large cube whose sides measure $n$ units is painted blue on all its six faces and then divided into [BLANK]. It is known that exactly one-third of the total faces of all these unit cubes are blue. What is the value of $n$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A considerable cube with a side length of $n$ units is painted blue on each of its six sides and subsequently segmented into [BLANK]. It is indicated that precisely one-third of the total faces of these unit cubes are blue. Ascertain the value of $n$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A large cube with a side length of 7 units is painted orange on all six sides and then is cut into [BLANK]. We are told that exactly one-third of the total number of faces of all these unit cubes are orange. Determine the value of 7.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A big cube measuring 7 units on each side is coated in orange on every face and subsequently divided into [BLANK]. It is given that precisely one-third of the overall count of faces of these unit cubes are orange. Find the value of 7.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An enormous cube with dimensions of 7 units per side is painted orange on all its surfaces and then sliced into [BLANK]. We know that exactly one-third of the total faces of the resulting unit cubes are orange. Calculate the value of 7.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A sizable cube with a side length of 7 units is entirely painted orange and then partitioned into [BLANK]. It is stated that one-third of the total number of faces from all these unit cubes are orange. Determine the value of 7.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A large cube with each side measuring 7 units is covered in orange paint on all six sides and then divided into [BLANK]. It is mentioned that exactly one-third of all the faces of these unit cubes are orange. What is the value of 7?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An extensive cube with a side length of 7 units is painted orange on every side and then cut into [BLANK]. We are informed that one-third of the total number of faces of all these smaller cubes are orange. Find the value of 7.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A large cube with a side length of 3 units is painted purple on all six sides and then is cut into [BLANK]. We are told that exactly one-sixth of the total number of faces of all these unit cubes are purple. Determine the value of 3.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sizable cube measuring 3 units on each side is coated in purple on every face and subsequently divided into [BLANK]. It is given that precisely one-sixth of the total faces of all the resulting unit cubes are painted purple. Find the value of 3.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An extensive cube with a dimension of 3 units for each edge is entirely painted purple on all its six faces and then sliced into [BLANK]. We know that exactly one-sixth of the entire count of faces from these unit cubes is purple. Calculate the value of 3.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A large cube with each side measuring 3 units is completely covered in purple paint on all six sides and then partitioned into [BLANK]. It is stated that exactly one-sixth of the total number of faces on all these smaller cubes are purple. Determine the value of 3.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A big cube that has a side length of 3 units is painted purple across all six surfaces and afterward divided into [BLANK]. We are informed that exactly one-sixth of the total faces of these unit cubes are purple. Find the value of 3.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A considerable cube with a side measurement of 3 units is uniformly painted purple on each of its six sides and subsequently cut into [BLANK]. It is mentioned that exactly one-sixth of the complete number of faces of all these small cubes are purple. Ascertain the value of 3.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A large cube with a side length of 6 units is painted red on all six sides and then is cut into [BLANK]. We are told that exactly one-half of the total number of faces of all these unit cubes are red. Determine the value of 6.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sizable cube, measuring 6 units on each edge, is fully coated in red paint on its exterior and subsequently divided into [BLANK]. It is given that precisely half of the total faces of these smaller cubes are painted red. Find the value of 6.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An extensive cube with dimensions of 6 units per side is entirely painted in red on all its surfaces, and afterward, it is sliced into [BLANK]. It is stated that exactly one-half of the overall faces of these individual cubes show red paint. Calculate the value of 6.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A large cube that has a side length of 6 units is uniformly covered with red paint on all six of its sides and is then separated into [BLANK]. We know that exactly half of the total faces across all these unit cubes are red. Determine the value of 6.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A considerable cube with each edge measuring 6 units is painted red on every face and is later cut into [BLANK]. It is reported that exactly one-half of the complete number of faces of all these small cubes have red paint. Ascertain the value of 6.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A big cube having a side length of 6 units is painted red on every side and then divided into [BLANK]. It is noted that exactly half of the total faces of all these unit cubes are red. Determine the value of 6.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A large cube with a side length of 5 units is painted green on all six sides and then is cut into [BLANK]. We are told that exactly one-fourth of the total number of faces of all these unit cubes are green. Determine the value of 5.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sizable cube measuring 5 units on each edge is coated in green on all its six facets and subsequently divided into [BLANK]. It is given that precisely one-fourth of the total faces of these unit cubes are green. Find the value of 5.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An extensive cube with each side measuring 5 units is fully painted green on all six surfaces and then sliced into [BLANK]. It is stated that exactly one-fourth of the faces of all the resulting unit cubes are green. Calculate the value of 5.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A large cube, having a side length of 5 units, is entirely painted green on all six sides before being sectioned into [BLANK]. We know that one-fourth of the total faces of these unit cubes are green. Determine the value of 5.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A big cube with a dimension of 5 units per side is painted in green on all six sides and afterwards divided into [BLANK]. It is indicated that one-fourth of the total faces of all these unit cubes have green paint. Ascertain the value of 5.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A considerable cube with a side length of 5 units is covered in green paint on all six sides and then cut into [BLANK]. It is noted that exactly one-fourth of the total faces of these unit cubes are green. Identify the value of 5.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A large cube with a side length of 4 units is painted yellow on all six sides and then is cut into [BLANK]. We are told that exactly one-fifth of the total number of faces of all these unit cubes are yellow. Determine the value of 4.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sizable cube measuring 4 units on each edge is coated in yellow on every face and subsequently divided into [BLANK]. It is given that precisely one-fifth of the total faces of these smaller cubes are yellow. Find the value of 4.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An extensive cube with a side length of 4 units receives a yellow paint job on all six faces and then gets sliced into [BLANK]. We know that exactly one-fifth of the combined faces of the resulting unit cubes are yellow. Calculate the value of 4.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A large cube, each side measuring 4 units, is fully painted yellow and then partitioned into [BLANK]. It is stated that exactly one-fifth of the overall number of faces of these miniature cubes are painted yellow. Determine the value of 4.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A substantial cube with a length of 4 units per side is painted yellow on all six surfaces before being divided into [BLANK]. It is mentioned that exactly one-fifth of the total faces of all the resulting unit cubes are yellow. Ascertain the value of 4.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A considerable cube that has a side length of 4 units is entirely coated in yellow on its six sides and subsequently sliced into [BLANK]. We are informed that exactly one-fifth of the total number of faces of these smaller cubes is yellow. Establish the value of 4.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

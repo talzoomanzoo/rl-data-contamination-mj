@@ -1,0 +1,62 @@
+{
+  "original_question": "Given that exactly two of the nine squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the total number of squares",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given that exactly two of the nine squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given that exactly two of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given that exactly three of the twelve squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "incomplete_question": "Given that exactly three of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given that exactly four of the ten squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "incomplete_question": "Given that exactly four of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given that exactly two of the eight squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "incomplete_question": "Given that exactly two of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given that exactly five of the fifteen squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "incomplete_question": "Given that exactly five of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given that exactly one of the six squares is shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "incomplete_question": "Given that exactly one of the [BLANK] squares is shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "info_removed": "the total number of squares"
+    }
+  ],
+  "num_valid_similars": 5
+}

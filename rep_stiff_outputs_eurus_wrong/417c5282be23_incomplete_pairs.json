@@ -1,0 +1,62 @@
+{
+  "original_question": "Determine the count of positive integers less than 150 that satisfy the congruence $x + 20 \\equiv 70 \\pmod{45}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the upper limit for positive integers\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Determine the count of positive integers less than 150 that satisfy the congruence $x + 20 \\equiv 70 \\pmod{45}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 20 \\equiv 70 \\pmod{45}$. Present the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the upper limit for positive integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Determine the count of positive integers less than 200 that satisfy the congruence $x + 15 \\equiv 55 \\pmod{60}$.",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 15 \\equiv 55 \\pmod{60}$.",
+      "info_removed": "\"the upper limit for positive integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Determine the count of positive integers less than 180 that satisfy the congruence $x + 10 \\equiv 40 \\pmod{50}$.",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 10 \\equiv 40 \\pmod{50}$.",
+      "info_removed": "\"the upper limit for positive integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Determine the count of positive integers less than 120 that satisfy the congruence $x + 25 \\equiv 90 \\pmod{30}$.",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 25 \\equiv 90 \\pmod{30}$.",
+      "info_removed": "\"the upper limit for positive integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Determine the count of positive integers less than 160 that satisfy the congruence $x + 5 \\equiv 25 \\pmod{35}$.",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 5 \\equiv 25 \\pmod{35}$.",
+      "info_removed": "\"the upper limit for positive integers\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Determine the count of positive integers less than 140 that satisfy the congruence $x + 30 \\equiv 100 \\pmod{40}$.",
+      "incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 30 \\equiv 100 \\pmod{40}$.",
+      "info_removed": "\"the upper limit for positive integers\""
+    }
+  ],
+  "num_valid_similars": 5
+}

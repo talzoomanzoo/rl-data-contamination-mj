@@ -1,0 +1,62 @@
+{
+  "original_question": "A large cube with a side length of $n$ units is painted blue on all six sides and then is cut into $n^3$ smaller unit cubes. We are told that exactly one-third of the total number of faces of all these unit cubes are blue. Determine the value of $n$.\nA) 2\nB) 3\nC) 4\nD) 5\nE) 6\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the total number of smaller unit cubes\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A large cube with a side length of $n$ units is painted blue on all six sides and then is cut into $n^3$ smaller unit cubes. We are told that exactly one-third of the total number of faces of all these unit cubes are blue. Determine the value of $n$.\nA) 2\nB) 3\nC) 4\nD) 5\nE) 6\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "A large cube with a side length of $n$ units is painted blue on all six sides and then is cut into [BLANK]. We are told that exactly one-third of the total number of faces of all these unit cubes are blue. Determine the value of $n$.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A large cube with a side length of 6 units is painted red on all six sides and then is cut into 6^3 smaller unit cubes. We are told that exactly one-half of the total number of faces of all these unit cubes are red. Determine the value of 6.",
+      "incomplete_question": "A large cube with a side length of 6 units is painted red on all six sides and then is cut into [BLANK]. We are told that exactly one-half of the total number of faces of all these unit cubes are red. Determine the value of 6.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A large cube with a side length of 5 units is painted green on all six sides and then is cut into 5^3 smaller unit cubes. We are told that exactly one-fourth of the total number of faces of all these unit cubes are green. Determine the value of 5.",
+      "incomplete_question": "A large cube with a side length of 5 units is painted green on all six sides and then is cut into [BLANK]. We are told that exactly one-fourth of the total number of faces of all these unit cubes are green. Determine the value of 5.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A large cube with a side length of 4 units is painted yellow on all six sides and then is cut into 4^3 smaller unit cubes. We are told that exactly one-fifth of the total number of faces of all these unit cubes are yellow. Determine the value of 4.",
+      "incomplete_question": "A large cube with a side length of 4 units is painted yellow on all six sides and then is cut into [BLANK]. We are told that exactly one-fifth of the total number of faces of all these unit cubes are yellow. Determine the value of 4.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A large cube with a side length of 3 units is painted purple on all six sides and then is cut into 3^3 smaller unit cubes. We are told that exactly one-sixth of the total number of faces of all these unit cubes are purple. Determine the value of 3.",
+      "incomplete_question": "A large cube with a side length of 3 units is painted purple on all six sides and then is cut into [BLANK]. We are told that exactly one-sixth of the total number of faces of all these unit cubes are purple. Determine the value of 3.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A large cube with a side length of 7 units is painted orange on all six sides and then is cut into 7^3 smaller unit cubes. We are told that exactly one-third of the total number of faces of all these unit cubes are orange. Determine the value of 7.",
+      "incomplete_question": "A large cube with a side length of 7 units is painted orange on all six sides and then is cut into [BLANK]. We are told that exactly one-third of the total number of faces of all these unit cubes are orange. Determine the value of 7.",
+      "info_removed": "\"the total number of smaller unit cubes\""
+    }
+  ],
+  "num_valid_similars": 5
+}

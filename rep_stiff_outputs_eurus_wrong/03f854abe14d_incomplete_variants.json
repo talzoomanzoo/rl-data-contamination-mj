@@ -1,0 +1,210 @@
+{
+  "original_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is $\\alpha$. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $\\beta$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $R$. Find the volume of the pyramid.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle \\beta with the plane of the base. The radius of the sphere circumscribed around the pyramid is R. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The pyramid has a rectangular base, where the intersection angle of the diagonals is [BLANK]. One lateral edge stands perpendicular to the base's plane, while the longest edge forms an angle \beta with the base's plane. The radius of the sphere that circumscribes the pyramid is R. Determine the volume of the pyramid.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the pyramid, the base is shaped like a rectangle, and the angle formed by the diagonals measures [BLANK]. A lateral edge is perpendicular to the base's plane, and the longest edge creates an angle \beta with the plane of the base. The radius of the circumscribing sphere around the pyramid is R. Calculate the volume of the pyramid.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The pyramid features a rectangular base, where the angle between its diagonals is [BLANK]. One edge that is lateral is vertical to the plane of the base, and the longest edge makes an angle \beta with respect to the base's plane. The radius of the circumscribed sphere around the pyramid is R. Find the volume of the pyramid.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "This pyramid has a base that is a rectangle, with the angle between the diagonals being [BLANK]. One of the lateral edges is perpendicular to the base's plane, and the longest edge forms an angle \beta with the plane of the base. The radius of the sphere that is circumscribed around the pyramid is R. Find the volume of the pyramid.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Within the pyramid, the base is rectangular, and the angle formed between the diagonals is [BLANK]. A lateral edge extends perpendicularly from the base's plane, while the longest edge meets the base's plane at an angle \beta. The radius of the circumscribed sphere surrounding the pyramid is R. Calculate the volume of the pyramid.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $55^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $7$. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The foundation of the pyramid is a rectangular shape, where the angle formed by the diagonals is [BLANK]. One lateral edge stands perpendicular to the base's plane, while the longest edge forms a $55^{\\circ}$ angle with the base plane. The radius of the circumscribing sphere around the pyramid is $7$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "The foundation of the pyramid is a rectangular shape, where the intersection angle of the diagonals is [BLANK]. A lateral edge is vertical to the base plane, and the longest edge forms an angle of $55^{\\circ}$ with the base plane. The radius of the sphere that circumscribes the pyramid measures $7$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $55^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $7$Find the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "The bottom of the pyramid is shaped like a rectangle, where the angle formed by the diagonals is [BLANK]. One of the side edges stands upright to the base's plane, while the longest edge forms an angle of $55^{\\circ}$ with the base's plane. The radius of the sphere that surrounds the pyramid is $7$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "The pyramid has a rectangular base, where the angle formed by the diagonals is [BLANK]. One of the lateral edges is at a right angle to the base's plane, and the longest edge creates an angle of $55^{\\circ}$ with the base's plane. The radius of the circumscribed sphere around the pyramid is $7$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $50^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $8$. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The base of the pyramid is a rectangular shape, where the angle formed by the diagonals is [BLANK]. One of the lateral edges stands perpendicular to the base's plane, and the longest edge creates an angle of $50^{\\circ}$ with the base's plane. The radius of the sphere that circumscribes the pyramid measures $8$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "The foundation of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One of the slant edges is at a right angle to the base's plane, while the longest edge forms an angle of $50^{\\circ}$ with the base's plane. The radius of the sphere that encloses the pyramid is $8$. Calculate the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $50^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $8$Find the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "The base of the pyramid forms a rectangle, where the angle formed by the diagonals is [BLANK]. A lateral edge stands perpendicular to the base's plane, and the longest edge creates an angle of $50^{\\circ}$ with the base's plane. The radius of the sphere that circumscribes the pyramid is $8$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "The base of the pyramid is a rectangular shape, where the angle formed by the diagonals is [BLANK]. One of the lateral edges is at a right angle to the base plane, and the longest edge forms an angle of $50^{\\circ}$ with respect to the base plane. The radius of the sphere that circumscribes the pyramid is $8$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $45^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $6$. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The foundation of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge stands perpendicular to the base's plane, and the longest edge forms a $45^{\\circ}$ angle with the base's plane. The radius of the sphere that circumscribes the pyramid is $6$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "The base of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge is at a right angle to the base's plane, while the longest edge forms a $45^{\\circ}$ angle with the base's plane. The radius of the sphere that is circumscribed around the pyramid measures $6$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $45^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $6$Find the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "The foundation of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge is vertical to the base's plane, while the longest edge creates a $45^{\\circ}$ angle with the base's plane. The radius of the circumscribed sphere around the pyramid is $6$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "The foundation of the pyramid is a rectangular shape, where the angle formed by the diagonals measures [BLANK]. A lateral edge is vertical to the base's surface, while the longest edge forms a $45^{\\circ}$ angle with the base plane. The radius of the sphere that encompasses the pyramid is $6$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $60^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $10$. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The base of the pyramid is rectangular, where the angle formed by the diagonals is [BLANK]. One lateral edge is orthogonal to the base's plane, and the longest edge forms a $60^{\\circ}$ angle with the base's plane. The radius of the sphere that circumscribes the pyramid is $10$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "The foundation of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge is at a right angle to the base's plane, while the longest edge forms a $60^{\\circ}$ angle with the base's plane. The radius of the sphere that circumscribes the pyramid is $10$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $60^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $10$Find the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "The base of the pyramid is shaped like a rectangle, where the angle formed by the diagonals is [BLANK]. A lateral edge is vertical to the base's plane, while the longest edge forms a $60^{\\circ}$ angle with the base's plane. The radius of the sphere that circumscribes the pyramid is $10$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "The foundation of the pyramid is a rectangular shape, where the angle formed by the diagonals is [BLANK]. One lateral edge is at a right angle to the base's plane, and the longest edge forms a $60^{\\circ}$ angle with the base's plane. The radius of the circumscribing sphere around the pyramid is $10$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $65^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $9$. Find the volume of the pyramid.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The base of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One of the lateral edges is orthogonal to the base's plane, and the longest edge forms an angle of $65^{\\circ}$ with the base's plane. The radius of the sphere that circumscribes the pyramid is $9$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "The base of the pyramid is shaped as a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge is vertical to the base's plane, while the longest edge creates an angle of $65^{\\circ}$ with the base's plane. The radius of the circumscribing sphere around the pyramid measures $9$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". The base of the pyramid is a rectangle, in which the angle between the diagonals is [BLANK]. One of the lateral edges is perpendicular to the plane of the base, and the longest edge makes an angle $65^{\\circ}$ with the plane of the base. The radius of the sphere circumscribed around the pyramid is $9$Find the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "The foundation of the pyramid is a rectangle, where the angle formed by the diagonals is [BLANK]. One lateral edge is at a right angle to the base's plane, while the longest edge forms an angle of $65^{\\circ}$ with the plane of the base. The radius of the circumscribed sphere around the pyramid measures $9$. Calculate the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "The base of the pyramid is a rectangle, where the angle formed by the diagonals measures [BLANK]. One lateral edge is vertical to the base's plane, while the longest edge forms a $65^{\\circ}$ angle with the base's plane. The radius of the sphere that circumscribes the pyramid is $9$. Determine the volume of the pyramid.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

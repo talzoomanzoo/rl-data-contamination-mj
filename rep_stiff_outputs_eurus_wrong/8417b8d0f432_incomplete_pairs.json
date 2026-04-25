@@ -1,0 +1,62 @@
+{
+  "original_question": "Cody and Trevor had 12 sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total number of sandwiches",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Cody and Trevor had 12 sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Cody and Trevor had [BLANK] sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam and Noah had 18 apples. Liam ate a fifth of the apples, and Noah ate a third of the apples. How many apples are left? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam and Noah had 18 apples. Liam ate a fifth of the apples, and Noah ate a third of the apples. How many apples are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma and Olivia had 24 cookies. Emma ate a quarter of the cookies, and Olivia ate a half of the cookies. How many cookies are left? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma and Olivia had [BLANK] cookies. Emma ate a quarter of the cookies, and Olivia ate a half of the cookies. How many cookies are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sophia and Mia had 30 cupcakes. Sophia ate a sixth of the cupcakes, and Mia ate a fifth of the cupcakes. How many cupcakes are left? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia and Mia had [BLANK] cupcakes. Sophia ate a sixth of the cupcakes, and Mia ate a fifth of the cupcakes. How many cupcakes are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "James and Ethan had 36 oranges. James ate a half of the oranges, and Ethan ate a quarter of the oranges. How many oranges are left? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James and Ethan had [BLANK] oranges. James ate a half of the oranges, and Ethan ate a quarter of the oranges. How many oranges are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Isabella and Charlotte had 40 muffins. Isabella ate a third of the muffins, and Charlotte ate a sixth of the muffins. How many muffins are left? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Isabella and Charlotte had [BLANK] muffins. Isabella ate a third of the muffins, and Charlotte ate a sixth of the muffins. How many muffins are left? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of sandwiches"
+    }
+  ],
+  "num_valid_similars": 4
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 4, or 5 total dots and/or dashes?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the maximum length of sequences\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 4, or 5 total dots and/or dashes?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 4, or [BLANK] total dots and/or dashes? Present the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the maximum length of sequences\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 4, or 6 total dots and/or dashes?",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 4, or [BLANK] total dots and/or dashes?",
+      "info_removed": "\"the maximum length of sequences\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, 5, or 7 total dots and/or dashes?",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 3, [BLANK], or 7 total dots and/or dashes?",
+      "info_removed": "\"the maximum length of sequences\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 2, 3, 4, 5, or 6 total dots and/or dashes?",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of [BLANK], 3, 4, 5, or 6 total dots and/or dashes?",
+      "info_removed": "\"the maximum length of sequences\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 3, 4, 5, or 8 total dots and/or dashes?",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 3, 4, 5, or [BLANK] total dots and/or dashes?",
+      "info_removed": "\"the maximum length of sequences\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 4, 5, or 9 total dots and/or dashes?",
+      "incomplete_question": "In Morse code, each symbol is represented by a sequence of dashes and dots. How many distinct symbols can be represented using sequences of 1, 2, 4, 5, or [BLANK] total dots and/or dashes?",
+      "info_removed": "\"the maximum length of sequences\""
+    }
+  ],
+  "num_valid_similars": 5
+}

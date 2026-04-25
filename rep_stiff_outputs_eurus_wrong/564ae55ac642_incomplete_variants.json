@@ -1,0 +1,210 @@
+{
+  "original_question": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys 36 red tulips and 24 blue tulips, how many rows of flowers will he plant? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam is planting peonies. He can fit 8 white peonies in a row and 6 red peonies in a row. If Liam buys [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he plant?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam is putting in peonies. He has space for 8 white peonies per row and 6 red peonies per row. If Liam purchases [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he be planting?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam is cultivating peonies. He can arrange 8 white peonies in each row and 6 red peonies in each row. If Liam acquires [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam is sowing peonies. He can accommodate 8 white peonies in one row and 6 red peonies in another row. If Liam gets [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he establish?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam is growing peonies. He has room for 8 white peonies in a single row and 6 red peonies in a single row. If Liam buys [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he set up?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam is planting peonies. He can fit 8 white peonies in one row and 6 red peonies in another. If Liam purchases [BLANK] white peonies and [BLANK] red peonies, how many rows of flowers will he end up planting?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia is planting sunflowers. She can fit 4 orange sunflowers in a row and 12 purple sunflowers in a row. If Sophia buys [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she plant?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia is growing sunflowers. She can arrange 4 orange sunflowers in one row and 12 purple sunflowers in another row. If Sophia purchases [BLANK] orange sunflowers and [BLANK] purple sunflowers, what is the total number of rows of flowers she will create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia is putting in sunflowers. She has space for 4 orange sunflowers per row and 12 purple sunflowers per row. If Sophia acquires [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she end up planting?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia is cultivating sunflowers. She can place 4 orange sunflowers in each row and 12 purple sunflowers in each row. If Sophia obtains [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she set out?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia is sowing sunflowers. She can fit 4 orange sunflowers along a row and 12 purple sunflowers along a row. If Sophia gets [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she organize?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia is planting sunflowers. She can accommodate 4 orange sunflowers per row and 12 purple sunflowers per row. If Sophia acquires [BLANK] orange sunflowers and [BLANK] purple sunflowers, how many rows of flowers will she be planting?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael is planting roses. He can fit 7 pink roses in a row and 9 yellow roses in a row. If Michael buys [BLANK] pink roses and [BLANK] yellow roses, how many rows of flowers will he plant?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael is cultivating roses. He can arrange 7 pink roses in a line and 9 yellow roses in a line. If Michael purchases [BLANK] pink roses and [BLANK] yellow roses, how many lines of flowers will he create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael is growing roses. He has the capacity to place 7 pink roses in a row and 9 yellow roses in a row. If Michael acquires [BLANK] pink roses and [BLANK] yellow roses, how many rows of blooms will he establish?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael is sowing roses. He is able to fit 7 pink roses in a single row and 9 yellow roses in a single row. If Michael gets [BLANK] pink roses and [BLANK] yellow roses, how many rows of flowers will he arrange?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael is planting roses. He can line up 7 pink roses in one row and 9 yellow roses in another. If Michael collects [BLANK] pink roses and [BLANK] yellow roses, how many rows of flowers will he create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael is putting in roses. He can accommodate 7 pink roses per row and 9 yellow roses per row. If Michael secures [BLANK] pink roses and [BLANK] yellow roses, how many rows of flowers will he plant?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Jackson is planting tulips. He can fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson buys [BLANK] red tulips and [BLANK] blue tulips, how many rows of flowers will he plant? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jackson is putting in tulips. He is able to place 6 red tulips in one row and 8 blue tulips in one row. If Jackson purchases [BLANK] red tulips and [BLANK] blue tulips, what will be the number of rows of flowers he will plant? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jackson is sowing tulips. He can arrange 6 red tulips in a single row and 8 blue tulips in another row. If Jackson acquires [BLANK] red tulips and [BLANK] blue tulips, how many rows of flowers will he end up planting? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jackson is cultivating tulips. He has the capacity to fit 6 red tulips in a row and 8 blue tulips in a row. If Jackson gets [BLANK] red tulips and [BLANK] blue tulips, how many rows of flowers will he create? Let's think through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jackson is growing tulips. He can accommodate 6 red tulips in one row and 8 blue tulips in another row. If Jackson collects [BLANK] red tulips and [BLANK] blue tulips, how many rows of flowers will he plant? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jackson is planting tulip flowers. He can line up 6 red tulips in a row and 8 blue tulips in a row. If Jackson purchases [BLANK] red tulips and [BLANK] blue tulips, what is the total number of rows of flowers he will plant? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ava is planting lilies. She can fit 10 pink lilies in a row and 5 purple lilies in a row. If Ava buys [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she plant?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ava is putting in lily plants. She can accommodate 10 pink lilies per row and 5 purple lilies per row. If Ava purchases [BLANK] pink lilies and [BLANK] purple lilies, what is the total number of rows of flowers she will plant?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ava is cultivating lilies. She can arrange 10 pink lilies in each row and 5 purple lilies in every row. If Ava acquires [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she be planting?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ava is growing lilies. She can place 10 pink lilies in one row and 5 purple lilies in another row. If Ava gets [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she end up planting?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ava is setting out lilies. She has room for 10 pink lilies in a single row and 5 purple lilies in a row. If Ava obtains [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ava is sowing lilies. She is able to fit 10 pink lilies in a row and 5 purple lilies in a row. If Ava collects [BLANK] pink lilies and [BLANK] purple lilies, how many rows of flowers will she be able to plant?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily is planting daisies. She can fit 5 yellow daisies in a row and 10 white daisies in a row. If Emily buys [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she plant?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily is cultivating daisies. She can arrange 5 yellow daisies in a single row and 10 white daisies in one row. If Emily purchases [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily is setting up daisies. She can place 5 yellow daisies in a row and 10 white daisies in a row. If Emily acquires [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she establish?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily is growing daisies. She can house 5 yellow daisies in a row and 10 white daisies in a row. If Emily obtains [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she form?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily is arranging daisies. She can fit 5 yellow daisies in a row and 10 white daisies in one row. If Emily gets [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she set up?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily is planning to plant daisies. She can accommodate 5 yellow daisies in a row and 10 white daisies in a row. If Emily buys [BLANK] yellow daisies and [BLANK] white daisies, how many rows of flowers will she plant?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

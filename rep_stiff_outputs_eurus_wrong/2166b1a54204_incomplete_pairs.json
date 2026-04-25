@@ -1,0 +1,62 @@
+{
+  "original_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made 32 ounces of sauce. How many tomatoes did Freda use? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the volume of sauce produced\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made 32 ounces of sauce. How many tomatoes did Freda use? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made [BLANK]. How many tomatoes did Freda use? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the volume of sauce produced\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "When Lisa cooks canned peaches into dessert, they lose one-third of their volume. Each 12 ounce can of peaches that she uses contains four peaches. Lisa's last batch of peach dessert made 24 ounces of dessert. How many peaches did Lisa use?",
+      "incomplete_question": "When Lisa cooks canned peaches into dessert, they lose one-third of their volume. Each 12 ounce can of peaches that she uses contains four peaches. Lisa's last batch of peach dessert made [BLANK]. How many peaches did Lisa use?",
+      "info_removed": "\"the volume of sauce produced\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "When Mark cooks canned coconut into curry, they lose two-fifths of their volume. Each 20 ounce can of coconut that he uses contains six coconuts. Mark's last batch of coconut curry made 40 ounces of curry. How many coconuts did Mark use?",
+      "incomplete_question": "When Mark cooks canned coconut into curry, they lose two-fifths of their volume. Each 20 ounce can of coconut that he uses contains six coconuts. Mark's last batch of coconut curry made [BLANK]. How many coconuts did Mark use?",
+      "info_removed": "\"the volume of sauce produced\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "When Sarah cooks canned beans into chili, they lose one-fourth of their volume. Each 14 ounce can of beans that she uses contains five beans. Sarah's last batch of chili made 28 ounces of chili. How many beans did Sarah use?",
+      "incomplete_question": "When Sarah cooks canned beans into chili, they lose one-fourth of their volume. Each 14 ounce can of beans that she uses contains five beans. Sarah's last batch of chili made [BLANK]. How many beans did Sarah use?",
+      "info_removed": "\"the volume of sauce produced\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "When Kevin cooks canned corn into soup, they lose one-half of their volume. Each 18 ounce can of corn that he uses contains two ears of corn. Kevin's last batch of corn soup made 36 ounces of soup. How many ears of corn did Kevin use?",
+      "incomplete_question": "When Kevin cooks canned corn into soup, they lose one-half of their volume. Each 18 ounce can of corn that he uses contains two ears of corn. Kevin's last batch of corn soup made [BLANK]. How many ears of corn did Kevin use?",
+      "info_removed": "\"the volume of sauce produced\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "When Emily cooks canned pumpkin into pie, they lose one-third of their volume. Each 15 ounce can of pumpkin that she uses contains three pumpkins. Emily's last batch of pumpkin pie made 30 ounces of pie. How many pumpkins did Emily use?",
+      "incomplete_question": "When Emily cooks canned pumpkin into pie, they lose one-third of their volume. Each 15 ounce can of pumpkin that she uses contains three pumpkins. Emily's last batch of pumpkin pie made [BLANK]. How many pumpkins did Emily use?",
+      "info_removed": "\"the volume of sauce produced\""
+    }
+  ],
+  "num_valid_similars": 5
+}

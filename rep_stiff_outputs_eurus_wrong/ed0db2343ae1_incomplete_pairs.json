@@ -1,0 +1,62 @@
+{
+  "original_question": "Frederick is making popsicles to sell and to save money he is making his own popsicle sticks. He can get 200 sticks from a 2 x 4 piece of wood and 400 sticks from a 2 x 8 piece of wood. He has $24 to buy wood for sticks. A 2 x 4 costs $4. A 2 x 8 costs $6. What is the most popsicle sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the total cost of wood\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Frederick is making popsicles to sell and to save money he is making his own popsicle sticks. He can get 200 sticks from a 2 x 4 piece of wood and 400 sticks from a 2 x 8 piece of wood. He has $24 to buy wood for sticks. A 2 x 4 costs $4. A 2 x 8 costs $6. What is the most popsicle sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Frederick is making popsicles to sell and to save money he is making his own popsicle sticks. He can get 200 sticks from a 2 x 4 piece of wood and 400 sticks from a 2 x 8 piece of wood. He has $24 to buy wood for sticks. A 2 x 4 costs $4. A 2 x 8 costs $6. What is the most popsicle sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Sophia is making bookmarks to sell and to save money she is making her own bookmark sticks. She can get 150 sticks from a 1 x 3 piece of wood and 350 sticks from a 1 x 6 piece of wood. She has $30 to buy wood for sticks. A 1 x 3 costs $5. A 1 x 6 costs $7. What is the most bookmark sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia is making bookmarks to sell and to save money she is making her own bookmark sticks. She can get 150 sticks from a 1 x 3 piece of wood and 350 sticks from a 1 x 6 piece of wood. She has $30 to buy wood for sticks. A 1 x 3 costs $5. A 1 x 6 costs $7. What is the most bookmark sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Daniel is creating toy swords to sell and to save money he is making his own sword sticks. He can get 100 sticks from a 1 x 5 piece of wood and 250 sticks from a 1 x 10 piece of wood. He has $20 to buy wood for sticks. A 1 x 5 costs $3. A 1 x 10 costs $5. What is the most sword sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Daniel is creating toy swords to sell and to save money he is making his own sword sticks. He can get 100 sticks from a 1 x 5 piece of wood and 250 sticks from a 1 x 10 piece of wood. He has $20 to buy wood for sticks. A 1 x 5 costs $3. A 1 x 10 costs $5. What is the most sword sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Maria is crafting picture frames to sell and to save money she is making her own frame sticks. She can get 300 sticks from a 3 x 4 piece of wood and 600 sticks from a 3 x 8 piece of wood. She has $36 to buy wood for sticks. A 3 x 4 costs $6. A 3 x 8 costs $8. What is the most frame sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Maria is crafting picture frames to sell and to save money she is making her own frame sticks. She can get 300 sticks from a 3 x 4 piece of wood and 600 sticks from a 3 x 8 piece of wood. She has $36 to buy wood for sticks. A 3 x 4 costs $6. A 3 x 8 costs $8. What is the most frame sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "James is building model airplanes to sell and to save money he is making his own airplane sticks. He can get 250 sticks from a 2 x 6 piece of wood and 500 sticks from a 2 x 12 piece of wood. He has $32 to buy wood for sticks. A 2 x 6 costs $5. A 2 x 12 costs $7. What is the most airplane sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James is building model airplanes to sell and to save money he is making his own airplane sticks. He can get 250 sticks from a 2 x 6 piece of wood and 500 sticks from a 2 x 12 piece of wood. He has $32 to buy wood for sticks. A 2 x 6 costs $5. A 2 x 12 costs $7. What is the most airplane sticks he can make if he buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ella is designing greeting cards to sell and to save money she is making her own card sticks. She can get 175 sticks from a 1 x 4 piece of wood and 350 sticks from a 1 x 8 piece of wood. She has $28 to buy wood for sticks. A 1 x 4 costs $4. A 1 x 8 costs $6. What is the most card sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ella is designing greeting cards to sell and to save money she is making her own card sticks. She can get 175 sticks from a 1 x 4 piece of wood and 350 sticks from a 1 x 8 piece of wood. She has $28 to buy wood for sticks. A 1 x 4 costs $4. A 1 x 8 costs $6. What is the most card sticks she can make if she buys the cheapest lumber? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total cost of wood\""
+    }
+  ],
+  "num_valid_similars": 0
+}

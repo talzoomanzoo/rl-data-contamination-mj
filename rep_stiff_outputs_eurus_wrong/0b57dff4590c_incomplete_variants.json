@@ -1,0 +1,210 @@
+{
+  "original_question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discount from the original price. What was the original price of the book? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Liam got a premium backpack for $45.60, after receiving a [BLANK] discount on its original price. What was the original price of the backpack?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam purchased a high-quality backpack for $45.60, after obtaining a [BLANK] reduction from the original cost. What was the original cost of the backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam acquired a superior backpack for $45.60, following a [BLANK] markdown on its initial price. What was the initial price of the backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam bought an upscale backpack for $45.60, after applying a [BLANK] discount to its starting price. What was the starting price of the backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam received a premium backpack for $45.60, having received a [BLANK] price cut from its original amount. What was the original amount of the backpack?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam got a top-tier backpack for $45.60, once a [BLANK] discount was taken off its listed price. What was the listed price of the backpack?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily purchased a popular cookbook for $24.00, which was sold at a [BLANK] discount from its original price. What was the original price of the cookbook?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily bought a well-known cookbook for $24.00, which had a [BLANK] discount applied to its original price. What was the initial price of the cookbook?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily acquired a famous cookbook for $24.00, which was offered at a [BLANK] discount off its original price. What was the cookbook's original price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily paid $24.00 for a renowned cookbook, which came with a [BLANK] discount from its initial price. What was the cookbook's original cost?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily grabbed a celebrated cookbook for $24.00, which had a [BLANK] discount from its previous price. What was the cookbook's original value?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily picked up a popular cookbook for $24.00, which was available at a [BLANK] discount from its standard price. What was the original cost of the cookbook?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Jason found a trending video game for $34.50, enjoying a [BLANK] discount from its original price. What was the original price of the video game?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jason discovered a popular video game priced at $34.50, after receiving a [BLANK] reduction from its original cost. What was the initial price of the video game?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jason came across a trending video game that costs $34.50, benefiting from a [BLANK] markdown from its initial price. What was the original price of the video game?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jason found a popular video game for $34.50, having a [BLANK] discount applied to its starting price. What was the original price of the video game?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jason encountered a sought-after video game priced at $34.50, having received a [BLANK] price cut from its original amount. What was the original price of the video game?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jason located a trending video game available for $34.50, after a [BLANK] discount was applied to its initial price. What was the original price of the video game?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia bought a stylish pair of shoes for $50.40, benefiting from a [BLANK] discount from the original price. What was the original price of the shoes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia purchased a fashionable pair of shoes for $50.40, having received a [BLANK] discount from the initial price. What was the initial price of the shoes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia acquired a trendy pair of shoes for $50.40, taking advantage of a [BLANK] discount off the original cost. What was the original cost of the shoes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia obtained a chic pair of shoes for $50.40, enjoying a [BLANK] discount from the starting price. What was the starting price of the shoes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia secured a stylish pair of shoes for $50.40, benefiting from a [BLANK] discount from the full price. What was the full price of the shoes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia got a fashionable pair of shoes for $50.40, with a [BLANK] discount applied to the original amount. What was the original amount of the shoes?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mia acquired a high-quality watch for $68.25, which included a [BLANK] discount off its original price. What was the original price of the watch?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia purchased an excellent watch for $68.25, which had a [BLANK] discount applied to its initial price. What was the initial price of the watch?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mia got a premium watch for $68.25, which featured a [BLANK] discount from its original price. What is the original price of the watch?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia acquired a top-notch watch priced at $68.25, which included a [BLANK] discount from the original cost. What was the original cost of the watch?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mia bought a high-end watch for $68.25, which had a [BLANK] discount off its starting price. What is the starting price of the watch?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mia secured a quality watch for $68.25, which had a [BLANK] discount from its former price. What was the former price of the watch?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Kyle bought last year's best-selling book for $19.50. This is with a [BLANK] discount from the original price. What was the original price of the book? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Kyle purchased the previous year's top-selling book for $19.50. This price reflects a [BLANK] discount from the initial price. What was the book's original price? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Kyle acquired last year's most popular book for $19.50. This amount includes a [BLANK] discount off of the original price. What is the original cost of the book? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Kyle obtained the best-selling book from last year for $19.50. This is after a [BLANK] discount from the book's original price. What was the book's original price? Let\u2019s work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Kyle secured last year's leading book for $19.50. This price is after applying a [BLANK] discount from the book's original cost. What was the original price of the book? Let's break this down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Kyle got last year's best-selling book for $19.50. This reflects a [BLANK] discount from the book's initial price. What was the original price of the book? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

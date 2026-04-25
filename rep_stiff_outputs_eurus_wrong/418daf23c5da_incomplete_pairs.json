@@ -1,0 +1,62 @@
+{
+  "original_question": "Each class in a school has 20 students. There are 3 classes. The school as a whole is 50% boys and 50% girls. The first class has 15 girls. The second class has 12 girls. How many boys are in the third class? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the gender distribution of students\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Each class in a school has 20 students. There are 3 classes. The school as a whole is 50% boys and 50% girls. The first class has 15 girls. The second class has 12 girls. How many boys are in the third class? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Each class in a school has 20 students. There are 3 classes. The first class has 15 girls. The second class has 12 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Each class in a school has 25 students. There are 4 classes. The school as a whole is 60% boys and 40% girls. The first class has 10 girls. The second class has 15 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Each class in a school has 25 students. There are 4 classes. The first class has 10 girls. The second class has 15 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Each class in a school has 30 students. There are 5 classes. The school as a whole is 70% boys and 30% girls. The first class has 18 girls. The second class has 9 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Each class in a school has 30 students. There are 5 classes. The first class has 18 girls. The second class has 9 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Each class in a school has 22 students. There are 3 classes. The school as a whole is 55% boys and 45% girls. The first class has 11 girls. The second class has 8 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Each class in a school has 22 students. There are 3 classes. The first class has 11 girls. The second class has 8 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Each class in a school has 18 students. There are 6 classes. The school as a whole is 40% boys and 60% girls. The first class has 7 girls. The second class has 10 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Each class in a school has 18 students. There are 6 classes. The first class has 7 girls. The second class has 10 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Each class in a school has 15 students. There are 4 classes. The school as a whole is 80% boys and 20% girls. The first class has 6 girls. The second class has 2 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Each class in a school has 15 students. There are 4 classes. The first class has 6 girls. The second class has 2 girls. How many boys are in the third class? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the gender distribution of students\""
+    }
+  ],
+  "num_valid_similars": 0
+}

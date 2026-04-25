@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Elizabeth, Emma, Zoey, and Sebastian. \"Emma is not a knight\" - Elizabeth. In Emma's words: \"If Zoey is a knave then Sebastian is a knight\". \"Elizabeth is a knight if and only if Emma is a knight,\" Zoey claimed. In a statement by Sebastian: \"Zoey is a knave or Zoey is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Elizabeth, Emma, Zoey, and Sebastian. \"Emma is not a knight\" - Elizabeth. In Emma's words: \"If Zoey is a knave then Sebastian is a knight\". \"Elizabeth is a knight if and only if Emma is a knight,\" Zoey claimed. In a statement by Sebastian: \"Zoey is a knave or Zoey is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is not a knight\" - [BLANK]. In [BLANK]'s words: \"If [BLANK] is a knave then [BLANK] is a knight\". \"[BLANK] is a knight if and only if [BLANK] is a knight,\" [BLANK] claimed. In a statement by [BLANK]: \"[BLANK] is a knave or [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a mysterious island, there are only knights and knaves. Knights always tell the truth while knaves always lie. You encounter 5 inhabitants: Alice, Brian, Clara, David, and Fiona. Alice states, \"Brian is not a knight.\" Brian claims, \"If Clara is a knave, then David is a knight.\" Clara asserts, \"Alice is a knight if and only if Brian is a knight.\" Lastly, David says, \"Fiona is a knave or Fiona is a knight.\" Who among them is a knight and who is a knave?",
+      "incomplete_question": "On a mysterious island, there are only knights and knaves. Knights always tell the truth while knaves always lie. You encounter 5 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is not a knight.\" [BLANK] claims, \"If [BLANK] is a knave, then [BLANK] is a knight.\" [BLANK] asserts, \"[BLANK] is a knight if and only if [BLANK] is a knight.\" Lastly, [BLANK] says, \"[BLANK] is a knave or [BLANK] is a knight.\" Who among them is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a peculiar land, only knights and knaves reside. Knights always speak the truth whereas knaves always lie. You meet 6 inhabitants: Grace, Henry, Isla, Jack, Kevin, and Lily. Grace claims, \"Henry is not a knight.\" Henry says, \"If Isla is a knave, then Jack is a knight.\" Isla exclaims, \"Grace is a knight if and only if Henry is a knight.\" Finally, Jack states, \"Kevin is a knave or Kevin is a knight.\" Determine who is a knight and who is a knave.",
+      "incomplete_question": "In a peculiar land, only knights and knaves reside. Knights always speak the truth whereas knaves always lie. You meet 6 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, \"[BLANK] is not a knight.\" [BLANK] says, \"If [BLANK] is a knave, then [BLANK] is a knight.\" [BLANK] exclaims, \"[BLANK] is a knight if and only if [BLANK] is a knight.\" Finally, [BLANK] states, \"[BLANK] is a knave or [BLANK] is a knight.\" Determine who is a knight and who is a knave.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "In a unique village, the inhabitants are either knights or knaves. Knights tell the truth and knaves always deceive. You find 3 inhabitants: Mia, Noah, and Olivia. Mia states, \"Noah is not a knight.\" Noah claims, \"If Olivia is a knave, then Mia is a knight.\" Olivia asserts, \"Mia is a knight if and only if Noah is a knight.\" Who is a knight and who is a knave among them?",
+      "incomplete_question": "In a unique village, the inhabitants are either knights or knaves. Knights tell the truth and knaves always deceive. You find 3 inhabitants: [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is not a knight.\" [BLANK] claims, \"If [BLANK] is a knave, then [BLANK] is a knight.\" [BLANK] asserts, \"[BLANK] is a knight if and only if [BLANK] is a knight.\" Who is a knight and who is a knave among them?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "On an enigmatic island, the population consists solely of knights and knaves. Knights tell the truth whereas knaves always lie. You encounter 2 inhabitants: Paul and Quinn. Paul declares, \"Quinn is not a knight.\" Quinn says, \"If Paul is a knave, then I am a knight.\" Determine who is a knight and who is a knave in this scenario.",
+      "incomplete_question": "On an enigmatic island, the population consists solely of knights and knaves. Knights tell the truth whereas knaves always lie. You encounter 2 inhabitants: [BLANK] and [BLANK]. [BLANK] declares, \"[BLANK] is not a knight.\" [BLANK] says, \"If [BLANK] is a knave, then I am a knight.\" Determine who is a knight and who is a knave in this scenario.",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In a strange realm, all inhabitants are either knights or knaves. Knights always tell the truth and knaves always lie. You come across 7 inhabitants: Ryan, Sarah, Tom, Uma, Victor, Wanda, and Xavier. Ryan states, \"Sarah is not a knight.\" Sarah claims, \"If Tom is a knave, then Uma is a knight.\" Tom asserts, \"Ryan is a knight if and only if Sarah is a knight.\" Lastly, Uma mentions, \"Victor is a knave or Victor is a knight.\" Who is a knight and who is a knave?",
+      "incomplete_question": "In a strange realm, all inhabitants are either knights or knaves. Knights always tell the truth and knaves always lie. You come across 7 inhabitants: [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is not a knight.\" [BLANK] claims, \"If [BLANK] is a knave, then [BLANK] is a knight.\" [BLANK] asserts, \"[BLANK] is a knight if and only if [BLANK] is a knight.\" Lastly, [BLANK] mentions, \"[BLANK] is a knave or [BLANK] is a knight.\" Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

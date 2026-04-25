@@ -1,0 +1,210 @@
+{
+  "original_question": "A class of 48 students went on a spring outing to row boats at West Lake in Hangzhou. Each small boat can accommodate 3 people and costs 16 yuan to rent, while each large boat can accommodate 5 people and costs 24 yuan to rent. Calculate the minimum amount of rental fee the class has to spend.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A group of [BLANK] students went on a summer trip to hike at Green Valley. Each small van can accommodate 5 people and costs 18 yuan to rent, while each large van can accommodate 8 people and costs 28 yuan to rent. Calculate the minimum amount of rental fee the group has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A total of [BLANK] learners traveled to Green Valley for a summer hiking excursion. Each small van holds 5 individuals and has a rental fee of 18 yuan, whereas each large van can fit 8 people and costs 28 yuan to rent. Determine the least rental cost the group will incur.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A collection of [BLANK] pupils set out on a summer journey to hike in Green Valley. Each small van can carry 5 passengers and is priced at 18 yuan for rental, while a large van accommodates 8 travelers and costs 28 yuan to hire. Find the minimum rental expense the group must pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A number of [BLANK] scholars went on a summer expedition to hike at Green Valley. Each small van has a capacity of 5 people and costs 18 yuan for rental, while each large van can hold 8 individuals and rents for 28 yuan. Calculate the smallest rental fee the group will have to cover.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An assembly of [BLANK] students embarked on a summer adventure to hike at Green Valley. Each small van can fit 5 people and has a rental charge of 18 yuan, while a large van accommodates 8 individuals and costs 28 yuan to rent. Compute the minimum amount the group needs to allocate for rental fees.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A group consisting of [BLANK] students took a summer trip to hike in Green Valley. Each small van can host 5 individuals and incurs a rental fee of 18 yuan, while each large van can carry 8 people and costs 28 yuan to lease. Assess the minimum rental cost the group is required to spend.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A class of [BLANK] students went on a winter outing to ski at the Snowy Mountains. Each small ski lift can accommodate 4 people and costs 20 yuan to rent, while each large ski lift can accommodate 6 people and costs 30 yuan to rent. Calculate the minimum amount of rental fee the class has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of [BLANK] students took a winter trip to ski at the Snowy Mountains. Each small ski lift holds 4 people and has a rental fee of 20 yuan, while each large ski lift can carry 6 people and costs 30 yuan to rent. Determine the least total rental cost that the class must pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During a winter excursion to ski at the Snowy Mountains, a class of [BLANK] students participated. Each small ski lift can hold 4 individuals and is rented for 20 yuan, whereas each large ski lift accommodates 6 individuals and costs 30 yuan. Find the minimum rental expense that the class needs to cover.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A class consisting of [BLANK] students went skiing at the Snowy Mountains during winter. The small ski lift can fit 4 people and is rented for 20 yuan, while the large ski lift allows for 6 people and has a rental fee of 30 yuan. Calculate the lowest rental fee the class has to incur.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a winter outing to ski at the Snowy Mountains, a class of [BLANK] students attended. The small ski lift supports 4 passengers and costs 20 yuan to hire, while the large ski lift has a capacity of 6 passengers and costs 30 yuan to rent. Assess the smallest rental charge that the class will need to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A winter skiing trip at the Snowy Mountains involved a class of [BLANK] students. Each small ski lift can accommodate 4 people and has a rental charge of 20 yuan, while a large ski lift accommodates 6 people and costs 30 yuan to rent. Calculate the minimal rental fee that the class must spend.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A class of [BLANK] students went on a spring outing to row boats at West Lake in Hangzhou. Each small boat can accommodate 3 people and costs 16 yuan to rent, while each large boat can accommodate 5 people and costs 24 yuan to rent. Calculate the minimum amount of rental fee the class has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of [BLANK] learners embarked on a spring trip to paddle boats at West Lake in Hangzhou. Each small boat holds 3 individuals and has a rental fee of 16 yuan, whereas each large boat can fit 5 individuals and costs 24 yuan to rent. Determine the lowest rental fee that the group must pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A total of [BLANK] pupils participated in a spring excursion to row boats at West Lake in Hangzhou. Every small boat can take 3 persons and is priced at 16 yuan, while a large boat can accommodate 5 persons and rents for 24 yuan. Find out the least amount the class needs to pay for boat rentals.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "During a spring outing, a class comprising [BLANK] students went to West Lake in Hangzhou to enjoy rowing boats. Each small boat can seat 3 people and costs 16 yuan for rental, while a large boat can hold 5 people and has a rental price of 24 yuan. Calculate the minimum total rental cost for the class.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a spring outing, a group of [BLANK] students ventured to West Lake in Hangzhou for a boat rowing experience. A small boat has a capacity of 3 people and costs 16 yuan to rent, while a large boat accommodates 5 people and charges 24 yuan for rental. Compute the minimum rental fee the group is required to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For their spring outing, a class of [BLANK] students decided to go row boating at West Lake in Hangzhou. Each small boat can fit 3 people and has a rental cost of 16 yuan, while each large boat can take 5 people and costs 24 yuan to rent. Assess the minimum total rental fee the class will incur.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A team of [BLANK] students went on a beach day at Sunny Cove. Each small kayak can accommodate 3 people and costs 15 yuan to rent, while each large kayak can accommodate 5 people and costs 25 yuan to rent. Calculate the minimum amount of rental fee the team has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of [BLANK] pupils enjoyed a day at the beach at Sunny Cove. Each small kayak holds 3 individuals and has a rental price of 15 yuan, while each large kayak can fit 5 individuals and costs 25 yuan to rent. Determine the least amount of rental fees the group needs to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A party of [BLANK] learners went to Sunny Cove for a beach outing. Each small kayak accommodates 3 persons and is rented for 15 yuan, whereas each large kayak fits 5 persons and has a rental fee of 25 yuan. Find the minimum rental cost the party must incur.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A squad of [BLANK] students spent a day at Sunny Cove's beach. Each small kayak can carry 3 people and costs 15 yuan to lease, while each large kayak can hold 5 people and is priced at 25 yuan for rental. Calculate the smallest rental fee the squad will need to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A collection of [BLANK] students had a beach day at Sunny Cove. Each small kayak can fit 3 individuals and costs 15 yuan to rent, while each large kayak can accommodate 5 individuals and is rented for 25 yuan. Compute the minimum rental expense the collection must cover.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A team consisting of [BLANK] students visited Sunny Cove for a beach day. Each small kayak is designed for 3 people and requires a rental fee of 15 yuan, while each large kayak accommodates 5 people and costs 25 yuan to rent. Assess the minimum total rental fee the team has to pay.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A group of [BLANK] students went on a cultural trip to the Old Town. Each small bus can accommodate 6 people and costs 22 yuan to rent, while each large bus can accommodate 10 people and costs 32 yuan to rent. Calculate the minimum amount of rental fee the group has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A total of [BLANK] students embarked on a cultural journey to the Old Town. Each minibus holds 6 individuals and has a rental cost of 22 yuan, whereas each coach can fit 10 individuals and costs 32 yuan to hire. Determine the least rental fee the group needs to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are [BLANK] students who participated in a cultural excursion to the Old Town. A small bus can carry 6 passengers and is rented for 22 yuan, while a large bus has a capacity of 10 passengers and costs 32 yuan to rent. Find out the minimum rental expense the group must incur.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A group consisting of [BLANK] students traveled to the Old Town for a cultural experience. Each small bus can hold up to 6 people and charges 22 yuan for rental, while each larger bus accommodates 10 people and rentals for 32 yuan. Calculate the lowest rental fee the group is required to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A collective of [BLANK] students visited the Old Town as part of a cultural trip. Each smaller bus can seat 6 individuals and requires a rental fee of 22 yuan, while larger buses, which can seat 10, cost 32 yuan to rent. Assess the minimum rental cost that the group must cover.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An assembly of [BLANK] students journeyed to the Old Town for a cultural outing. Each small bus, which can transport 6 people, has a rental price of 22 yuan, while a large bus, accommodating 10 individuals, rents for 32 yuan. Calculate the minimum rental charge the group has to incur.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A school of [BLANK] students went on a fall excursion to camp at Blue Lake. Each small tent can accommodate 2 people and costs 12 yuan to rent, while each large tent can accommodate 4 people and costs 20 yuan to rent. Calculate the minimum amount of rental fee the school has to spend.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of [BLANK] students embarked on a fall trip to camp at Blue Lake. Each small tent can hold 2 individuals and has a rental fee of 12 yuan, while each large tent can house 4 individuals and costs 20 yuan to rent. Determine the lowest total rental fee the school needs to pay.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A total of [BLANK] students from a school went on a fall adventure to camp at Blue Lake. Each small tent accommodates 2 people and is rented for 12 yuan, whereas each large tent can fit 4 people and costs 20 yuan to rent. Find out the minimum rental fee the school must incur.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A school organized a fall outing for [BLANK] students to camp at Blue Lake. Small tents, which can hold 2 people, are available for a rental fee of 12 yuan, and large tents, which accommodate 4 people, cost 20 yuan to rent. Calculate the least amount of rental expense the school will have.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A group consisting of [BLANK] students from a school participated in a fall excursion to camp at Blue Lake. Each small tent, which fits 2 people, costs 12 yuan for rental, while each large tent, which can fit 4 people, is available for 20 yuan. Compute the minimum rental cost the school will need to cover.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A school group made up of [BLANK] students attended a fall camping trip at Blue Lake. Small tents, which can accommodate 2 persons, are rented for 12 yuan, while large tents, which hold 4 persons, cost 20 yuan each. Determine the minimum total amount the school has to pay for the tent rentals.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

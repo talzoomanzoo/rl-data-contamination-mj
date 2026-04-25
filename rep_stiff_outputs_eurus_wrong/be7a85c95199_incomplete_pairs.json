@@ -1,0 +1,62 @@
+{
+  "original_question": "Jean is two years older than Mark.  Two years ago Mark was 5 years older than half Jan's age.  If Jan is 30 how old is Jean? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the age of one of the individuals\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Jean is two years older than Mark.  Two years ago Mark was 5 years older than half Jan's age.  If Jan is 30 how old is Jean? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Jean is two years older than Mark. Two years ago Mark was 5 years older than half Jan's age. If Jan is 30 how old is Jean? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the age of one of the individuals\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lisa is three years older than Tom. Three years ago, Tom was 4 years older than half Anna's age. If Anna is 28, how old is Lisa?",
+      "incomplete_question": "Lisa is three years older than Tom. Three years ago, Tom was 4 years older than half Anna's age. If Anna is 28, how old is Lisa?",
+      "info_removed": "\"the age of one of the individuals\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma is five years older than Lucas. Four years ago, Lucas was 3 years older than half Mia's age. If Mia is 26, how old is Emma?",
+      "incomplete_question": "Emma is five years older than Lucas. Four years ago, Lucas was 3 years older than half Mia's age. If Mia is 26, how old is Emma?",
+      "info_removed": "\"the age of one of the individuals\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Rachel is four years older than Sam. Five years ago, Sam was 6 years older than half Leah's age. If Leah is 34, how old is Rachel?",
+      "incomplete_question": "Rachel is four years older than Sam. Five years ago, Sam was 6 years older than half Leah's age. If Leah is 34, how old is Rachel?",
+      "info_removed": "\"the age of one of the individuals\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophie is one year older than Jake. One year ago, Jake was 2 years older than half Zoe's age. If Zoe is 22, how old is Sophie?",
+      "incomplete_question": "Sophie is one year older than Jake. One year ago, Jake was 2 years older than half Zoe's age. If Zoe is 22, how old is Sophie?",
+      "info_removed": "\"the age of one of the individuals\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Chloe is six years older than Noah. Six years ago, Noah was 7 years older than half Ava's age. If Ava is 32, how old is Chloe?",
+      "incomplete_question": "Chloe is six years older than Noah. Six years ago, Noah was 7 years older than half Ava's age. If Ava is 32, how old is Chloe?",
+      "info_removed": "\"the age of one of the individuals\""
+    }
+  ],
+  "num_valid_similars": 0
+}

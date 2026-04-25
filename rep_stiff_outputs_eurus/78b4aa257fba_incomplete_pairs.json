@@ -1,0 +1,62 @@
+{
+  "original_question": "The product (8)(888...8) where the second factor has k digits is an integer whose digits have a sum of 1000. Find k.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the sum of the digits of the product\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "The product (8)(888...8) where the second factor has k digits is an integer whose digits have a sum of 1000. Find k.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "The product (8)(888...8) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "The product (7)(777...7) where the second factor has k digits is an integer whose digits have a sum of 700. Find k.",
+      "incomplete_question": "The product (7)(777...7) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "The product (6)(666...6) where the second factor has k digits is an integer whose digits have a sum of 600. Find k.",
+      "incomplete_question": "The product (6)(666...6) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "The product (9)(999...9) where the second factor has k digits is an integer whose digits have a sum of 900. Find k.",
+      "incomplete_question": "The product (9)(999...9) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "The product (5)(555...5) where the second factor has k digits is an integer whose digits have a sum of 500. Find k.",
+      "incomplete_question": "The product (5)(555...5) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "The product (4)(444...4) where the second factor has k digits is an integer whose digits have a sum of 400. Find k.",
+      "incomplete_question": "The product (4)(444...4) where the second factor has k digits is an integer whose digits have a sum of [BLANK]. Find k.",
+      "info_removed": "\"the sum of the digits of the product\""
+    }
+  ],
+  "num_valid_similars": 5
+}

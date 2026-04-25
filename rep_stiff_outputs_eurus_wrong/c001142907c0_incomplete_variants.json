@@ -1,0 +1,210 @@
+{
+  "original_question": "Lucy has $25$ dollars and $50$ cents. She wants to buy as many notebooks as she can with her money. Each notebook costs $2$ dollars and $40$ cents. How many notebooks can she buy?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Lucy has [BLANK]. She wants to buy as many notebooks as she can with her money. Each notebook costs $2$ dollars and $40$ cents. How many notebooks can she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lucy possesses [BLANK]. She aims to purchase the maximum number of notebooks possible with her funds. Each notebook is priced at $2$ dollars and $40$ cents. How many notebooks can she acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lucy has [BLANK]. She wishes to acquire as many notebooks as her money allows. The cost of each notebook is $2$ dollars and $40$ cents. What is the total number of notebooks she can buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lucy owns [BLANK]. Her goal is to buy the highest quantity of notebooks she can afford. Each notebook costs $2$ dollars and $40$ cents. How many notebooks may she purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lucy has [BLANK]. She intends to buy as many notebooks as her budget will permit. The price for each notebook is $2$ dollars and $40$ cents. How many notebooks can she obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lucy possesses [BLANK]. She wants to maximize the number of notebooks she can purchase with her money. Every notebook is $2$ dollars and $40$ cents. How many notebooks can she buy?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James has [BLANK]. He wants to buy as many markers as he can with his money. Each marker costs $4$ dollars and $50$ cents. How many markers can he buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James possesses [BLANK]. He aims to purchase the maximum number of markers possible with his funds. Each marker is priced at $4$ dollars and $50$ cents. How many markers can he acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James holds [BLANK]. He wishes to buy as many markers as his money allows. The cost of each marker is $4$ dollars and $50$ cents. How many markers is he able to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James has [BLANK]. He intends to acquire as many markers as he can afford with his money. Each marker costs $4$ dollars and $50$ cents. How many markers can he get?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James currently has [BLANK]. His goal is to purchase the highest number of markers possible with his cash. Each marker is valued at $4$ dollars and $50$ cents. How many markers can he purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James owns [BLANK]. He seeks to buy as many markers as he can with what he has. Each marker is priced at $4$ dollars and $50$ cents. How many markers can he obtain?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emma has [BLANK]. She wants to buy as many pencils as she can with her money. Each pencil costs $3$ dollars and $15$ cents. How many pencils can she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma possesses [BLANK]. She aims to purchase the maximum number of pencils possible with her funds. Each pencil is priced at $3$ dollars and $15$ cents. How many pencils can she acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma holds [BLANK]. She wishes to buy as many pencils as her money allows. The cost of each pencil is $3$ dollars and $15$ cents. What is the maximum number of pencils she can obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma has [BLANK]. She intends to use her money to buy the highest number of pencils feasible. The price for one pencil is $3$ dollars and $15$ cents. How many pencils can she purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma is in possession of [BLANK]. She desires to spend her money on as many pencils as she can. Each pencil costs $3$ dollars and $15$ cents. How many pencils can she get?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma owns [BLANK]. She wants to maximize the number of pencils she can buy with her available cash. Each pencil is $3$ dollars and $15$ cents. How many pencils can she afford?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia has [BLANK]. She wants to buy as many erasers as she can with her money. Each eraser costs $1$ dollar and $80$ cents. How many erasers can she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia possesses [BLANK]. She aims to purchase the maximum number of erasers possible with her funds. Each eraser is priced at $1$ dollar and $80$ cents. How many erasers can she acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia holds [BLANK]. She wishes to buy the greatest number of erasers with her available money. The cost of each eraser is $1$ dollar and $80$ cents. How many erasers is she able to purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia owns [BLANK]. She intends to buy as many erasers as she can afford with her money. Each eraser is priced at $1$ dollar and $80$ cents. How many erasers can she obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia has [BLANK]. Her goal is to buy the highest quantity of erasers with her money. Each eraser costs $1$ dollar and $80$ cents. How many erasers is she able to get?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia possesses [BLANK]. She wants to acquire as many erasers as her money allows. Each eraser is $1$ dollar and $80$ cents. How many erasers can she buy?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Olivia has [BLANK]. She wants to buy as many art supplies as she can with her money. Each art supply costs $5$ dollars and $25$ cents. How many art supplies can she buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Olivia possesses [BLANK]. She aims to purchase the maximum number of art supplies possible with her funds. The cost of each art supply is $5$ dollars and $25$ cents. How many art supplies is she able to acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia holds [BLANK]. She wishes to acquire as many art supplies as her money allows. Each piece of art supply is priced at $5$ dollars and $25$ cents. What is the total number of art supplies she can buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia has [BLANK]. She is looking to get as many art supplies as she can with her available money. The price for each art supply is $5$ dollars and $25$ cents. How many art supplies can she purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Olivia carries [BLANK]. She intends to buy the highest quantity of art supplies she can afford. Each art supply is $5$ dollars and $25$ cents. How many art supplies can she obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Olivia is in possession of [BLANK]. She wants to spend her money on as many art supplies as she can. Each art supply costs $5$ dollars and $25$ cents. How many art supplies can she manage to buy?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Michael has [BLANK]. He wants to buy as many sketchbooks as he can with his money. Each sketchbook costs $2$ dollars and $90$ cents. How many sketchbooks can he buy?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael possesses [BLANK]. He aims to purchase the maximum number of sketchbooks possible with his funds. Each sketchbook is priced at $2$ dollars and $90$ cents. How many sketchbooks can he acquire?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael has [BLANK]. He intends to buy as many sketchbooks as his budget allows. The cost of each sketchbook is $2$ dollars and $90$ cents. How many sketchbooks can he obtain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael owns [BLANK]. He wishes to buy as many sketchbooks as he can afford with his money. Each sketchbook is available for $2$ dollars and $90$ cents. How many sketchbooks can he purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael currently has [BLANK]. He is looking to buy as many sketchbooks as possible with his available money. Each sketchbook costs $2$ dollars and $90$ cents. How many sketchbooks is he able to buy?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael is in possession of [BLANK]. He wants to acquire as many sketchbooks as his money will allow. Each sketchbook's price is $2$ dollars and $90$ cents. How many sketchbooks can he secure?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

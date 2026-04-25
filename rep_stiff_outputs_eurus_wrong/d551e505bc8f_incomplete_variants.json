@@ -1,0 +1,210 @@
+{
+  "original_question": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are 7 rows each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For the winter celebration, children are to perform mass drills in the presence of the Community Leader. They stand 7 in a row and there are [BLANK] each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "During the winter festivities, students are set to execute mass drills before the Community Leader. They line up 7 in a row, and there are [BLANK] from 5 distinct Schools. What is the total number of children participating in the drill? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the winter celebration, kids will showcase mass drills in front of the Community Leader. They are arranged 7 in a row, and there are [BLANK] from 5 separate Schools. How many children could participate in the drill? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the winter event, youngsters are going to perform mass drills in the presence of the Community Leader. They stand 7 in a row, with [BLANK] each from 5 different Schools. How many children are there in total for the drill? Let\u2019s think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "During the winter gathering, children will carry out mass drills in front of the Community Leader. They are positioned 7 in a row, and there are [BLANK] for 5 different Schools. What is the total number of children in the drill? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For the winter celebration, children are set to undertake mass drills in the presence of the Community Leader. They are positioned 7 in a row, and there are [BLANK] from 5 various Schools. How many children can be involved in the drill? Let\u2019s think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For the annual school festival, children are to perform mass drills in the presence of the District Leader. They stand 10 in a row and there are [BLANK] each for 6 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "During the yearly school festival, students will execute mass drills in front of the District Leader. They line up 10 in a row and there are [BLANK] for 6 different Schools. What is the total number of children participating in the drill? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the annual school festival, kids are set to perform mass drills in the presence of the District Leader. They are arranged 10 in a row and there are [BLANK] for 6 separate Schools. How many children can take part in the drill? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the yearly school festival, youngsters will carry out mass drills in front of the District Leader. They are positioned 10 in a row and there are [BLANK] across 6 different Schools. How many children could be involved in the drill? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "During the annual school festival, children are scheduled to perform mass drills before the District Leader. They stand 10 in a row and there are [BLANK] for 6 distinct Schools. What is the total count of children in the drill? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At the annual school festival, students are to perform mass drills in the presence of the District Leader. They are arranged in rows of 10 and there are [BLANK] for 6 various Schools. How many children can participate in the drill? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For the local science fair, children are to perform mass drills in the presence of the City Council. They stand 9 in a row and there are [BLANK] each for 3 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "At the community science fair, kids will conduct mass drills in front of the City Council. They line up 9 across and there are [BLANK] from 3 different Schools. What is the total number of children participating in the drill? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During the local science fair, students are set to execute mass drills before the City Council. They are arranged 9 in a line and there are [BLANK] from 3 various Schools. How many children can be involved in the drill? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the upcoming science fair in the community, youngsters will perform mass drills in front of the City Council. They are positioned 9 in a row and there are [BLANK] representing 3 distinct Schools. What is the number of children that can participate in the drill? Let's explore this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At the local science fair, youngsters are scheduled to carry out mass drills in the presence of the City Council. They stand in a row of 9 and there are [BLANK] from 3 different Schools. How many children can take part in the drill? Let's work through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For the community science fair, children will showcase mass drills in view of the City Council. They form a line of 9 and there are [BLANK] from 3 separate Schools. What is the total number of children in the drill? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For the regional music event, children are to perform mass drills in the presence of the State Governor. They stand 5 in a row and there are [BLANK] each for 2 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "At the local music festival, students will showcase mass drills in front of the State Governor. They line up 5 across, and there are [BLANK] from 2 separate Schools. What is the total number of children participating in the drill? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During the regional music competition, kids are set to perform mass drills in view of the State Governor. They are arranged 5 in a line, with [BLANK] from 2 different Schools. How many children are involved in the drill? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the state music event, children will execute mass drills in front of the State Governor. They are positioned 5 in a row, and there are [BLANK] from 2 distinct Schools. What is the total number of children in the drill? Let's think it through step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At the regional music show, kids will perform mass drills in front of the State Governor. They form a line of 5, with [BLANK] representing 2 different Schools. How many children could participate in the drill? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For the regional music gathering, children are to perform mass drills in the presence of the State Governor. They are arranged in rows of 5, and there are [BLANK] from 2 various Schools. How many children will be in the drill? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For the community sports day, children are to perform mass drills in the presence of the Mayor of the town. They stand 6 in a row and there are [BLANK] each for 4 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "During the community sports event, kids are set to carry out mass exercises in front of the town's Mayor. They line up 6 in a row, and there are [BLANK] from 4 distinct schools. What is the total number of children in the drill? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On the day of the community sports activities, children will showcase mass drills in the presence of the Mayor. Arranged in rows of 6, there are [BLANK] from 4 different schools. How many children are participating in the drill? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the community sports day celebration, children will execute mass drills in front of the town's Mayor. They are positioned 6 in a row, with [BLANK] coming from 4 separate schools. How many children will take part in the drill? Let's think this through step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At the community sports day, children are to conduct mass drills in front of the Mayor of the town. They are organized 6 in a line, and there are [BLANK] representing 4 various schools. What is the total number of children involved in the drill? Let's approach this step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "During the town's community sports day, children will perform mass drills while the Mayor watches. They are arranged in rows of 6, and there are [BLANK] each from 4 different schools. How many children are participating in the drill? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For the children's day celebration, children are to perform mass drills in the presence of the President of the country. They stand 8 in a row and there are [BLANK] each for 5 different Schools. How many children can there be in the drill? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "During the celebration for Children's Day, students will execute mass drills before the President of the nation. They line up 8 in a row and there are [BLANK] for 5 distinct schools. What is the total number of children that could participate in the drill? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "As part of the Children's Day festivities, kids are set to perform mass drills in front of the country's President. They arrange themselves 8 in a line and there are [BLANK] from 5 various schools. How many children might take part in the drill? Let's consider this systematically and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the Children's Day event, children will showcase mass drills in the presence of the nation's President. They are positioned 8 per row and there are [BLANK] from 5 different educational institutions. How many children could be involved in the drill? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At the Children's Day celebration, youngsters are set to carry out mass drills in front of the President of the country. They stand 8 across in a row and there are [BLANK] for 5 separate schools. What is the total number of children that can be in the drill? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For the occasion of Children's Day, children will perform mass drills before the President of the country. They are organized 8 in a row and there are [BLANK] representing 5 different schools. How many children can be included in the drill? Let's evaluate this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Becca, Smendrick, and PJ have collections of Magic Cards.  There is a total of 341 cards.  Becca has 12 more than Smendrick, and Smendrick has 3 times the amount of cards that PJ has.  How many cards does Becca have? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alice, Bob, and Charlie have collections of comic books. There is a total of [BLANK] books. Alice has 9 more than Bob, and Bob has 2 times the amount of books that Charlie has. How many books does Alice have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice, Bob, and Charlie each own a number of comic books. Altogether, there are [BLANK] comic books. Alice possesses 9 more than Bob, while Bob has double the number of books that Charlie owns. How many comic books does Alice have? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The comic book collections of Alice, Bob, and Charlie total to [BLANK]. Alice has 9 more comic books than Bob, who in turn has twice as many books as Charlie. How many comic books belong to Alice? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice, Bob, and Charlie each have a set of comic books that together add up to [BLANK]. Alice has 9 more than Bob, and Bob's collection is twice that of Charlie's. How many comic books does Alice own? Let's go through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the realm of comic books, Alice, Bob, and Charlie have a combined total of [BLANK]. Alice's collection exceeds Bob's by 9, and Bob has twice the number of books that Charlie has. How many comic books does Alice have? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice, Bob, and Charlie are comic book collectors with a combined total of [BLANK] books. Alice has 9 more books than Bob, and Bob's collection is twice as large as Charlie's. How many books does Alice have? Let's consider it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Becca, Smendrick, and PJ have collections of Magic Cards. There is a total of [BLANK] cards. Becca has 12 more than Smendrick, and Smendrick has 3 times the amount of cards that PJ has. How many cards does Becca have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Becca, Smendrick, and PJ each have their own sets of Magic Cards, totaling [BLANK] cards. Becca possesses 12 cards more than Smendrick, who has three times as many cards as PJ. How many cards does Becca own? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are [BLANK] Magic Cards in total among Becca, Smendrick, and PJ. Becca has 12 cards above what Smendrick has, while Smendrick's count is three times that of PJ. What is the number of cards Becca has? We'll work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The total number of Magic Cards owned by Becca, Smendrick, and PJ is [BLANK]. Becca has 12 more than Smendrick, who has three times the number of cards as PJ. How many cards does Becca possess? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Among Becca, Smendrick, and PJ, the total collection of Magic Cards is [BLANK]. Becca has 12 additional cards compared to Smendrick, who holds three times as many cards as PJ. What is the count of cards that Becca has? We'll examine this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Becca, Smendrick, and PJ together own [BLANK] Magic Cards. Becca has 12 more cards than Smendrick, and Smendrick has three times the quantity of cards that PJ possesses. How many cards does Becca have? Let's approach this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Grace, Henry, and Ian have collections of board games. There is a total of [BLANK] games. Grace has 18 more than Henry, and Henry has 5 times the amount of games that Ian has. How many games does Grace have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Grace, Henry, and Ian each own some board games. Altogether, there are [BLANK] games. Grace possesses 18 more games than Henry does, and Henry has 5 times the number of games that Ian owns. How many games are in Grace's collection? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The board game collections of Grace, Henry, and Ian total up to [BLANK] games. Grace has 18 more games than Henry, while Henry holds 5 times the number of games that Ian has. What is the total number of games that Grace possesses? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Grace, Henry, and Ian together have [BLANK] board games. Grace's total is 18 greater than Henry's, and Henry has 5 times as many games as Ian. How many board games does Grace own? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the collections of board games owned by Grace, Henry, and Ian, there are [BLANK] games in total. Grace has 18 more than what Henry has, and Henry's total is 5 times that of Ian's. How many games does Grace have? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Grace, Henry, and Ian's board game collections combined equal [BLANK] games. Grace possesses 18 additional games compared to Henry, and Henry has 5 times the number of games that Ian has. How many board games does Grace own? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mia, Noah, and Olivia have collections of trading cards. There is a total of [BLANK] cards. Mia has 10 more than Noah, and Noah has 2 times the amount of cards that Olivia has. How many cards does Mia have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia, Noah, and Olivia possess a combined total of [BLANK] trading cards. Mia's collection exceeds Noah's by 10 cards, while Noah's count is double that of Olivia's cards. How many cards is Mia in possession of? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The total number of trading cards owned by Mia, Noah, and Olivia amounts to [BLANK]. Mia has 10 cards more than Noah, and Noah has twice the number of cards that Olivia has. Determine how many cards Mia owns. We will work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are [BLANK] trading cards collectively held by Mia, Noah, and Olivia. Mia holds 10 cards more than Noah, and Noah has two times the quantity of cards that Olivia possesses. What is the total number of cards Mia has? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mia, Noah, and Olivia together have a total of [BLANK] trading cards. Mia's count is 10 more than that of Noah, who has twice as many cards as Olivia. How many cards does Mia possess? Let\u2019s think this through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The number of trading cards that Mia, Noah, and Olivia have in total is [BLANK]. Mia has 10 cards greater than Noah, while Noah's collection is twice the size of Olivia's. How many cards are there with Mia? We will discuss this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Diana, Ethan, and Frank have collections of video games. There is a total of [BLANK] games. Diana has 15 more than Ethan, and Ethan has 4 times the amount of games that Frank has. How many games does Diana have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Diana, Ethan, and Frank each own a number of video games. Altogether, there are [BLANK] games. Diana possesses 15 more games than Ethan, while Ethan has four times the number of games that Frank owns. How many games does Diana possess? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Diana, Ethan, and Frank have a combined total of video games amounting to [BLANK]. Diana has 15 more than Ethan does, and Ethan has four times as many games as Frank. How many video games does Diana have? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The collections of video games owned by Diana, Ethan, and Frank sum up to [BLANK]. Diana has 15 more than Ethan's total, and Ethan's collection is four times that of Frank's. How many games are in Diana's collection? Let's break this down step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Diana, Ethan, and Frank together own a total of [BLANK] video games. Diana has 15 more than what Ethan has, and Ethan's collection is four times larger than Frank's. How many games does Diana own? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The total number of video games owned by Diana, Ethan, and Frank is [BLANK]. Diana has 15 more than Ethan, and Ethan's total is four times that of Frank's games. How many games are there in Diana's collection? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jasmine, Kevin, and Liam have collections of action figures. There is a total of [BLANK] figures. Jasmine has 20 more than Kevin, and Kevin has 6 times the amount of figures that Liam has. How many figures does Jasmine have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jasmine, Kevin, and Liam each own a number of action figures. The combined total is [BLANK] figures. Jasmine possesses 20 more than what Kevin has, while Kevin owns 6 times the number of figures that Liam possesses. How many figures does Jasmine have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are collections of action figures belonging to Jasmine, Kevin, and Liam. Altogether, there are [BLANK] action figures. Jasmine has 20 more than Kevin, who has 6 times as many figures as Liam. How many figures does Jasmine own? We will work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jasmine, Kevin, and Liam each have their own sets of action figures. The total number of figures is [BLANK]. Jasmine has 20 more figures than Kevin, and Kevin has six times the number of figures that Liam has. What is the number of figures Jasmine has? Let's break it down step by step and provide the ultimate answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The action figure collections of Jasmine, Kevin, and Liam amount to a total of [BLANK] figures. Jasmine possesses 20 more than Kevin does, and Kevin has 6 times the number of figures that Liam has. How many action figures are in Jasmine's collection? We will reason through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the collections of action figures owned by Jasmine, Kevin, and Liam, there are [BLANK] figures in total. Jasmine has 20 more than Kevin, and Kevin's collection is 6 times larger than Liam's. How many figures does Jasmine possess? Let's think it through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

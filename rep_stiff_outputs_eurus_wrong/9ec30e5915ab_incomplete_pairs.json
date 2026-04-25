@@ -1,0 +1,62 @@
+{
+  "original_question": "Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the size of Timothy's locker\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Timothy's locker is 24 cubic inches. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Timothy's locker is [BLANK]. Zack's locker is half as big as Timothy's locker. Peter's locker is 1/4 as big as Zack's locker. How big is Peter's locker in cubic inches? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the size of Timothy's locker\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Sophia's locker is 36 cubic inches. Liam's locker is half as big as Sophia's locker. Noah's locker is 1/4 as big as Liam's locker. How big is Noah's locker in cubic inches?",
+      "incomplete_question": "Sophia's locker is 36 cubic inches. Liam's locker is half as big as Sophia's locker. Noah's locker is 1/4 as big as Liam's locker. How big is Noah's locker in cubic inches?",
+      "info_removed": "\"the size of Timothy's locker\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma's locker is 40 cubic inches. Oliver's locker is half as big as Emma's locker. Ava's locker is 1/4 as big as Oliver's locker. How big is Ava's locker in cubic inches?",
+      "incomplete_question": "Emma's locker is 40 cubic inches. Oliver's locker is half as big as Emma's locker. Ava's locker is 1/4 as big as Oliver's locker. How big is Ava's locker in cubic inches?",
+      "info_removed": "\"the size of Timothy's locker\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Mason's locker is 30 cubic inches. Lucas's locker is half as big as Mason's locker. Mia's locker is 1/4 as big as Lucas's locker. How big is Mia's locker in cubic inches?",
+      "incomplete_question": "Mason's locker is 30 cubic inches. Lucas's locker is half as big as Mason's locker. Mia's locker is 1/4 as big as Lucas's locker. How big is Mia's locker in cubic inches?",
+      "info_removed": "\"the size of Timothy's locker\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Isabella's locker is 50 cubic inches. Elijah's locker is half as big as Isabella's locker. Charlotte's locker is 1/4 as big as Elijah's locker. How big is Charlotte's locker in cubic inches?",
+      "incomplete_question": "Isabella's locker is 50 cubic inches. Elijah's locker is half as big as Isabella's locker. Charlotte's locker is 1/4 as big as Elijah's locker. How big is Charlotte's locker in cubic inches?",
+      "info_removed": "\"the size of Timothy's locker\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "James's locker is 18 cubic inches. Benjamin's locker is half as big as James's locker. Grace's locker is 1/4 as big as Benjamin's locker. How big is Grace's locker in cubic inches?",
+      "incomplete_question": "James's locker is 18 cubic inches. Benjamin's locker is half as big as James's locker. Grace's locker is 1/4 as big as Benjamin's locker. How big is Grace's locker in cubic inches?",
+      "info_removed": "\"the size of Timothy's locker\""
+    }
+  ],
+  "num_valid_similars": 0
+}

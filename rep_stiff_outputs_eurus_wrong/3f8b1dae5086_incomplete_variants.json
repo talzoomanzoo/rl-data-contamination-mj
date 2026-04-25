@@ -1,0 +1,210 @@
+{
+  "original_question": "Henry needs to assemble some toys, specifically 57 cars and 73 motorcycles. Henry knows that to assemble all the toys he will need 4 wheels for each car and 2 wheels for each motorcycle. How many wheels will be left if he has a box with 650 wheels in it? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Olivia needs to assemble some toys, specifically [BLANK]. Olivia knows that to assemble all the toys she will need 3 wheels for each car and 5 wheels for each motorcycle. How many wheels will be left if she has a box with 600 wheels in it?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Olivia is required to put together a number of toys, namely [BLANK]. She understands that to complete the assembly of all the toys, 3 wheels are necessary for each car and 5 wheels are required for each motorcycle. If she possesses a box containing 600 wheels, how many wheels will remain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia has to construct some toys, which are [BLANK]. She is aware that assembling all the toys requires 3 wheels per car and 5 wheels per motorcycle. Given that she has a box with 600 wheels, how many wheels will she have left?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia must create several toys, particularly [BLANK]. She knows that to put together all the toys, 3 wheels are needed for every car and 5 wheels for each motorcycle. If her box contains 600 wheels, how many wheels will still be available?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Olivia needs to build a variety of toys, specifically [BLANK]. She realizes that to finish assembling all the toys, she needs 3 wheels for each car and 5 wheels for each motorcycle. How many wheels will be remaining if she has 600 wheels in a box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Olivia is tasked with assembling some toys, namely [BLANK]. She knows that to fully assemble all the toys, 3 wheels are required for each car and 5 wheels for each motorcycle. If she has a box with 600 wheels, how many wheels will be leftover?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "James needs to assemble some toys, specifically [BLANK]. James knows that to assemble all the toys he will need 6 wheels for each car and 3 wheels for each motorcycle. How many wheels will be left if he has a box with 750 wheels in it?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James has to put together a few toys, namely [BLANK]. He understands that to complete all the toys, he will require 6 wheels for every car and 3 wheels for each motorcycle. How many wheels will remain if he possesses a box containing 750 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James is tasked with constructing some toys, specifically [BLANK]. He knows that to finish all the toys, he will need 6 wheels for each car and 3 wheels for every motorcycle. How many wheels will be left if he has a total of 750 wheels in a box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James must create a selection of toys, particularly [BLANK]. He realizes that to assemble all the toys, he needs 6 wheels for each car and 3 wheels for each motorcycle. How many wheels will still be available if he has a box with 750 wheels inside?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James is required to build some toys, especially [BLANK]. He is aware that to put together all the toys, he will need 6 wheels per car and 3 wheels per motorcycle. How many wheels will be remaining if he has a box filled with 750 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James is going to construct some toys, namely [BLANK]. He knows that to put together all the toys, he will need 6 wheels for every car and 3 wheels for each motorcycle. How many wheels will be left over if he has a box that contains 750 wheels?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Henry needs to assemble some toys, specifically [BLANK]. Henry knows that to assemble all the toys he will need 4 wheels for each car and 2 wheels for each motorcycle. How many wheels will be left if he has a box with 650 wheels in it? Let's think step by step and output the final answer after \"####\".",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Henry is tasked with putting together a few toys, namely [BLANK]. He understands that to complete each car, 4 wheels are required, whereas each motorcycle needs 2 wheels. If he starts with a total of 650 wheels, how many wheels will remain? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Henry has the job of constructing some toys, particularly [BLANK]. He knows that each car requires 4 wheels and each motorcycle needs 2 wheels for assembly. Given he has a stock of 650 wheels, what will be the leftover amount? Let's break it down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Henry must build a number of toys, specifically [BLANK]. He realizes that to put together every car, he needs 4 wheels, while each motorcycle requires 2 wheels. If he has a collection of 650 wheels, how many wheels will be left over? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Henry is required to create several toys, particularly [BLANK]. He is aware that assembling each car takes 4 wheels, and each motorcycle requires 2 wheels. If he possesses 650 wheels in total, how many wheels will be remaining afterward? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Henry needs to create some toys, specifically [BLANK]. He knows that for each car that he assembles, 4 wheels are necessary, while 2 wheels are needed for each motorcycle. If he has 650 wheels available, how many wheels will still be there? Let's think through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah needs to assemble some toys, specifically [BLANK]. Noah knows that to assemble all the toys he will need 4 wheels for each car and 4 wheels for each motorcycle. How many wheels will be left if he has a box with 400 wheels in it?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah is tasked with putting together a few toys, namely [BLANK]. He understands that to complete the assembly of all the toys, he requires 4 wheels for every car and 4 wheels for every motorcycle. What will be the remaining number of wheels if he starts with a box containing 400 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah has to build some toys, particularly [BLANK]. He is aware that each car needs 4 wheels and each motorcycle requires 4 wheels for assembly. How many wheels will remain if he has 400 wheels in a box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah is responsible for constructing several toys, specifically [BLANK]. He knows that assembling all the toys necessitates 4 wheels per car and 4 wheels per motorcycle. How many wheels will he have left if he possesses a box with 400 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah must put together a selection of toys, especially [BLANK]. He realizes that to assemble every toy, he will need 4 wheels for each car and 4 wheels for each motorcycle. If he has a box containing 400 wheels, how many will be left over?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah needs to create various toys, namely [BLANK]. He understands that for every car, he will use 4 wheels, and for every motorcycle, he will also need 4 wheels. If he starts with a total of 400 wheels in a box, how many will he have remaining?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam needs to assemble some toys, specifically [BLANK]. Liam knows that to assemble all the toys he will need 4 wheels for each car and 3 wheels for each motorcycle. How many wheels will be left if he has a box with 500 wheels in it?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam is tasked with putting together certain toys, namely [BLANK]. He understands that to put together all the toys, he will require 4 wheels per car and 3 wheels per motorcycle. What will be the remaining number of wheels if he possesses a box containing 500 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam has to construct various toys, particularly [BLANK]. He realizes that assembling all the toys will necessitate 4 wheels for each car and 3 wheels for each motorcycle. How many wheels will remain if he has a total of 500 wheels in a box?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam's job is to create some toys, specifically [BLANK]. He knows that to complete all the toys, he will need 4 wheels for each car and 3 wheels for each motorcycle. How many wheels will still be available if he has a box filled with 500 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam is required to build certain toys, namely [BLANK]. He is aware that to build all the toys, he must have 4 wheels for every car and 3 wheels for every motorcycle. What will be the leftover number of wheels if he starts with a box of 500 wheels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam has the responsibility of assembling some toys, particularly [BLANK]. He is informed that to fully assemble all the toys, he needs 4 wheels for each car and 3 wheels for each motorcycle. How many wheels will be left over if he has a box containing 500 wheels?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma needs to assemble some toys, specifically [BLANK]. Emma knows that to assemble all the toys she will need 5 wheels for each car and 2 wheels for each motorcycle. How many wheels will be left if she has a box with 700 wheels in it?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma has to put together a few toys, namely [BLANK]. She understands that to complete all the toys, she requires 5 wheels for every car and 2 wheels for each motorcycle. If she starts with a box containing 700 wheels, how many wheels will remain?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma is tasked with constructing certain toys, particularly [BLANK]. She realizes that to build all the toys, she needs 5 wheels for each car and 2 wheels per motorcycle. Given that she has a total of 700 wheels in a box, how many wheels will be left over?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma's job is to create some toys, specifically [BLANK]. She is aware that assembling all the toys requires 5 wheels for every car and 2 wheels for each motorcycle. If there are 700 wheels in her box, how many wheels will still be available?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma needs to build a few toys, especially [BLANK]. She knows that to put together all the toys, she will need 5 wheels for each car and 2 wheels for each motorcycle. If she has a total of 700 wheels in a box, how many wheels will be remaining?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is responsible for gathering some toys, particularly [BLANK]. She knows that to complete all the toys, she needs 5 wheels for every car and 2 wheels for each motorcycle. If her box contains 700 wheels, how many wheels will she have left?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

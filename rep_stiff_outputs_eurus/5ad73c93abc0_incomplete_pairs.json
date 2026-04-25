@@ -1,0 +1,62 @@
+{
+  "original_question": "A real number $x$ satisfies $\\sqrt[20]{x^{\\log_{2026}x}}=26x$. What is the number of positive divisors of the product of all possible positive values of $x$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific logarithmic base used\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A real number $x$ satisfies $\\sqrt[20]{x^{\\log_{2026}x}}=26x$. What is the number of positive divisors of the product of all possible positive values of $x$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[20]{x^{\\log_{[BLANK]}x}}=26x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A real number $x$ satisfies $\\sqrt[15]{x^{\\log_{2025}x}}=25x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[15]{x^{\\log_{[BLANK]}x}}=25x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A real number $x$ satisfies $\\sqrt[25]{x^{\\log_{2024}x}}=24x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[25]{x^{\\log_{[BLANK]}x}}=24x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A real number $x$ satisfies $\\sqrt[30]{x^{\\log_{2023}x}}=23x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[30]{x^{\\log_{[BLANK]}x}}=23x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A real number $x$ satisfies $\\sqrt[10]{x^{\\log_{2022}x}}=22x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[10]{x^{\\log_{[BLANK]}x}}=22x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A real number $x$ satisfies $\\sqrt[12]{x^{\\log_{2021}x}}=21x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "incomplete_question": "A real number $x$ satisfies $\\sqrt[12]{x^{\\log_{[BLANK]}x}}=21x$. What is the number of positive divisors of the product of all possible positive values of $x$?",
+      "info_removed": "\"the specific logarithmic base used\""
+    }
+  ],
+  "num_valid_similars": 5
+}

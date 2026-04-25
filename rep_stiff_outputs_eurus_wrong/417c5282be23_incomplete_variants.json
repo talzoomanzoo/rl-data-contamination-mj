@@ -1,0 +1,205 @@
+{
+  "original_question": "Determine the count of positive integers less than 150 that satisfy the congruence $x + 20 \\equiv 70 \\pmod{45}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 20 \\equiv 70 \\pmod{45}$. Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and meet the condition $x + 20 \\equiv 70 \\pmod{45}$. Provide your solution in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate how many positive integers exist that are less than [BLANK] and fulfill the equation $x + 20 \\equiv 70 \\pmod{45}$. Show your result in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the total of positive integers that are under [BLANK] and satisfy the congruence relation $x + 20 \\equiv 70 \\pmod{45}$. Display your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the quantity of positive numbers that are lesser than [BLANK] and comply with $x + 20 \\equiv 70 \\pmod{45}$. Present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Establish the number of positive integers that are below [BLANK] that adhere to the congruence $x + 20 \\equiv 70 \\pmod{45}$. Format your answer in LaTex as follows: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 30 \\equiv 100 \\pmod{40}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers that are less than [BLANK] and fulfill the condition $x + 30 \\equiv 100 \\pmod{40}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate how many positive integers under [BLANK] meet the requirement $x + 30 \\equiv 100 \\pmod{40}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the total of positive integers that are smaller than [BLANK] which satisfy the equation $x + 30 \\equiv 100 \\pmod{40}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the quantity of positive integers that are lower than [BLANK] and adhere to the relation $x + 30 \\equiv 100 \\pmod{40}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Evaluate the number of positive integers that fall below [BLANK] and comply with the congruence $x + 30 \\equiv 100 \\pmod{40}$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 25 \\equiv 90 \\pmod{30}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers that are less than [BLANK] and meet the condition $x + 25 \\equiv 90 \\pmod{30}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Calculate how many positive integers are under [BLANK] that fulfill the equation $x + 25 \\equiv 90 \\pmod{30}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Identify the total of positive integers smaller than [BLANK] that satisfy the relation $x + 25 \\equiv 90 \\pmod{30}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ascertain the quantity of positive integers that are less than [BLANK] and adhere to the congruence $x + 25 \\equiv 90 \\pmod{30}$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Count the positive integers that are less than [BLANK] which conform to the equation $x + 25 \\equiv 90 \\pmod{30}$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 10 \\equiv 40 \\pmod{50}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers smaller than [BLANK] that fulfill the equation $x + 10 \\equiv 40 \\pmod{50}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Find the number of positive whole numbers smaller than [BLANK] that fulfill the condition $x + 10 \\equiv 40 \\pmod{50}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and meet the condition $x + 10 \\equiv 40 \\pmod{50}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and fulfill the condition $x + 10 \\equiv 40 \\pmod{50}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] which fulfill the condition $x + 10 \\equiv 40 \\pmod{50}$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 5 \\equiv 25 \\pmod{35}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and fulfill the condition $x + 5 \\equiv 25 \\pmod{35}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and meet the condition $x + 5 \\equiv 25 \\pmod{35}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] which fulfill the equation $x + 5 \\equiv 25 \\pmod{35}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Find the number of positive whole numbers that are less than [BLANK] and meet the condition $x + 5 \\equiv 25 \\pmod{35}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Find the number of positive whole numbers below [BLANK] that fulfill the equation $x + 5 \\equiv 25 \\pmod{35}$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Determine the count of positive integers less than [BLANK] that satisfy the congruence $x + 15 \\equiv 55 \\pmod{60}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] and fulfill the condition $x + 15 \\equiv 55 \\pmod{60}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] which fulfill the equation $x + 15 \\equiv 55 \\pmod{60}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the number of positive whole numbers that are smaller than [BLANK] which fulfill the condition $x + 15 \\equiv 55 \\pmod{60}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Find the number of positive whole numbers smaller than [BLANK] that fulfill the condition $x + 15 \\equiv 55 \\pmod{60}$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

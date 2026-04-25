@@ -1,0 +1,165 @@
+{
+  "original_question": "Define $M-N=\\{x|x\\in M \\text{ and } x\\notin N\\}$. If $M=\\{1,3,5,7,9\\}$ and $N=\\{2,3,5\\}$, then $M-N=$ \\_\\_\\_\\_\\_\\_.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, we find that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, we find that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". \"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. Given that $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, it follows that $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$. If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Define $M-N=\\\\{x|x\\\\in M \\\\text{ and } x\\\\notin N\\\\}$If $M=\\\\{[BLANK]\\\\}$ and $N=\\\\{[BLANK]\\\\}$, then $M-N=$ \\\\_\\_\\_\\\\_.\"",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Define $M-N=\\{x|x\\in M \\text{ and } x\\notin N\\}$. If $M=\\{[BLANK]\\}$ and $N=\\{[BLANK]\\}$, then $M-N=$ \\_\\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $M-N=\\{x|x\\in M \\text{ and } x\\notin N\\}$. If $M=\\{[BLANK]\\}$ and $N=\\{[BLANK]\\}$, then $M-N=$ \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let $M-N=\\{x|x\\in M \\text{ and } x\\notin N\\}$. Given that $M=\\{[BLANK]\\}$ and $N=\\{[BLANK]\\}$, it follows that $M-N=$ \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Define $M-N=\\{x|x\\in M \\text{ and } x\\notin N\\}$If $M=\\{[BLANK]\\}$ and $N=\\{[BLANK]\\}$, then $M-N=$ \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

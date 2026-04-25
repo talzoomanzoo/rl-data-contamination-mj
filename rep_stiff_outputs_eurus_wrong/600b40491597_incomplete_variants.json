@@ -1,0 +1,210 @@
+{
+  "original_question": "A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A bag of flour is divided into [BLANK] portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bag of flour is separated into [BLANK] sections of 2 kilograms each. What is the total weight of flour (in kilograms) in three bags before it was separated into sections? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bag of flour is split into [BLANK] parts, each weighing 2 kilograms. How much flour (in kilograms) was there in three bags altogether, prior to being split into parts? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bag of flour is allocated into [BLANK] pieces, with each piece weighing 2 kilograms. What is the total amount of flour (in kilograms) contained in three bags before the allocation into pieces? Let's work through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bag of flour is distributed into [BLANK] servings of 2 kilograms each. How many kilograms of flour were in three bags originally, before the distribution into servings? Let's process this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bag of flour is portioned into [BLANK] units, each unit being 2 kilograms. How much flour (in kilograms) was contained in three bags prior to the portioning? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A container of sugar is divided into [BLANK] portions of 1.5 kilograms each. How much sugar (in kilograms) was in two containers in total, before it was divided into portions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sugar container is split into [BLANK] sections, each weighing 1.5 kilograms. What is the total weight (in kilograms) of sugar in two containers before it was split into sections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A jar of sugar is separated into [BLANK] parts, each part being 1.5 kilograms. How many kilograms of sugar were in two jars in total, prior to being separated into parts?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A container holds sugar that is divided into [BLANK] units, with each unit weighing 1.5 kilograms. What is the total amount of sugar (in kilograms) present in two containers before the division into units?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A container filled with sugar is partitioned into [BLANK] servings of 1.5 kilograms each. How much sugar (in kilograms) was contained in two containers altogether, before the servings were created?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A sugar container is split into [BLANK] chunks, each chunk measuring 1.5 kilograms. What amount of sugar (in kilograms) was present in two containers combined, before the chunks were formed?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A bag of rice is divided into [BLANK] portions of 3 kilograms each. How much rice (in kilograms) was in four bags in total, before it was divided into portions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sack of rice is separated into [BLANK] sections, each weighing 3 kilograms. What is the total weight of rice (in kilograms) in four sacks before it was separated into sections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A container of rice is split into [BLANK] servings, with each serving being 3 kilograms. How many kilograms of rice were there in four containers altogether, prior to being split into servings?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A package of rice is allocated into [BLANK] units of 3 kilograms each. What was the total amount of rice (in kilograms) present in four packages before it was allocated into units?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bundle of rice is portioned into [BLANK] segments, where each segment weighs 3 kilograms. How many kilograms of rice were contained in four bundles in total, before it was portioned?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A box of rice is distributed into [BLANK] divisions, with each division having a weight of 3 kilograms. What is the total weight of rice (in kilograms) in four boxes before it was distributed into divisions?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A crate of apples is divided into [BLANK] portions of 2.5 kilograms each. How much apples (in kilograms) was in three crates in total, before it was divided into portions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A box containing apples is separated into [BLANK] sections, with each section weighing 2.5 kilograms. What is the total weight of apples (in kilograms) in three boxes prior to being divided into sections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An assortment of apples is split into [BLANK] units, where each unit weighs 2.5 kilograms. How many kilograms of apples were there in three assortments altogether, before they were split into units?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A shipment of apples is allocated into [BLANK] servings, each serving weighing 2.5 kilograms. What is the total mass of apples (in kilograms) in three shipments before they were allocated into servings?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A batch of apples is partitioned into [BLANK] parts, with each part having a weight of 2.5 kilograms. How many kilograms of apples were present in three batches in total, before the partitioning occurred?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A collection of apples is distributed into [BLANK] shares of 2.5 kilograms per share. How many kilograms of apples existed in three collections combined, prior to the distribution?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A box of oranges is divided into [BLANK] portions of 4 kilograms each. How much oranges (in kilograms) was in five boxes in total, before it was divided into portions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container filled with oranges is split into [BLANK] sections, each weighing 4 kilograms. What is the total weight of oranges (in kilograms) in five containers before they were divided into sections?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A crate of oranges is partitioned into [BLANK] servings, each having a weight of 4 kilograms. How many kilograms of oranges were there in five crates altogether, prior to the partitioning?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An assortment of oranges is separated into [BLANK] units, with each unit weighing 4 kilograms. What is the total weight of oranges (in kilograms) in five assortments before they were separated into units?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A shipment of oranges is allocated into [BLANK] segments of 4 kilograms each. What is the total mass of oranges (in kilograms) present in five shipments before the allocation?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A batch of oranges is distributed into [BLANK] shares, with each share equaling 4 kilograms. How many kilograms of oranges were in five batches in total, before the distribution occurred?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A barrel of honey is divided into [BLANK] portions of 3.5 kilograms each. How much honey (in kilograms) was in six barrels in total, before it was divided into portions?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A barrel filled with honey is separated into [BLANK] segments, each weighing 3.5 kilograms. What is the total weight of honey (in kilograms) in six barrels before being divided into these segments?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A single barrel containing honey is split into [BLANK] parts, with each part weighing 3.5 kilograms. How much honey (in kilograms) was present in six barrels altogether, prior to being split into parts?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A barrel of honey is partitioned into [BLANK] sections, where each section has a mass of 3.5 kilograms. What is the total amount of honey (in kilograms) in six barrels initially, before the sections were created?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A barrel of honey gets divided into [BLANK] units, each unit comprising 3.5 kilograms. How many kilograms of honey were there in six barrels in total, before the units were formed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A barrel of honey is segmented into [BLANK] pieces, with each piece weighing 3.5 kilograms. How much honey (in kilograms) existed in six barrels combined, before the pieces were made?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

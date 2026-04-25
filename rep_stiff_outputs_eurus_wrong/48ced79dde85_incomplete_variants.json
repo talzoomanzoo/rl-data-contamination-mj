@@ -1,0 +1,210 @@
+{
+  "original_question": "In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(P\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Find the distance from the midpoint of edge \\(A A_1\\) to plane \\(P\\), given that the edge length of the cube is 2.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"In cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), where \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) are parallel edges, plane \\(T\\) passes through point \\(Z\\) and the midpoints of edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\). Find the distance from the midpoint of edge \\(W W_1\\) to plane \\(T\\), given that the edge length of the cube is [BLANK].\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), with edges \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) being parallel, plane \\(T\\) intersects point \\(Z\\) and the midpoints of the edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\). Determine the distance from the midpoint of edge \\(W W_1\\) to plane \\(T\\), given that the length of the edges of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), with edges \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) being parallel, plane \\(T\\) intersects point \\(Z\\) as well as the midpoints of edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\). Determine the distance from the midpoint of the edge \\(W W_1\\) to plane \\(T\\), knowing that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), where \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) are parallel edges, plane \\(T\\) passes through point \\(Z\\) and the midpoints of edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\)Find the distance from the midpoint of edge \\(W W_1\\) to plane \\(T\\), given that the edge length of the cube is [BLANK].\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), where the edges \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) are all parallel, plane \\(T\\) intersects at point \\(Z\\) and the midpoints of the edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\). Determine the distance from the midpoint of edge \\(W W_1\\) to plane \\(T\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the cube \\(WXYZ W_1 X_1 Y_1 Z_1\\), with edges \\(W W_1\\), \\(X X_1\\), \\(Y Y_1\\), and \\(Z Z_1\\) being parallel, plane \\(T\\) intersects at point \\(Z\\) and also at the midpoints of the edges \\(W_1 Z_1\\) and \\(Y_1 Z_1\\). Determine the distance from the midpoint of the edge \\(W W_1\\) to plane \\(T\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"In cube \\(QRST Q_1 R_1 S_1 T_1\\), where \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) are parallel edges, plane \\(S\\) passes through point \\(T\\) and the midpoints of edges \\(Q_1 T_1\\) and \\(S_1 T_1\\). Find the distance from the midpoint of edge \\(Q Q_1\\) to plane \\(S\\), given that the edge length of the cube is [BLANK].\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the cube \\(QRST Q_1 R_1 S_1 T_1\\), with \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) as edges that run parallel, plane \\(S\\) intersects point \\(T\\) along with the midpoints of the edges \\(Q_1 T_1\\) and \\(S_1 T_1\\). Determine the distance from the midpoint of edge \\(Q Q_1\\) to plane \\(S\\), assuming the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the cube \\(QRST Q_1 R_1 S_1 T_1\\), with edges \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) being parallel, the plane \\(S\\) intersects point \\(T\\) as well as the midpoints of the edges \\(Q_1 T_1\\) and \\(S_1 T_1\\). Calculate the distance from the midpoint of edge \\(Q Q_1\\) to plane \\(S\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In cube \\(QRST Q_1 R_1 S_1 T_1\\), where \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) are parallel edges, plane \\(S\\) passes through point \\(T\\) and the midpoints of edges \\(Q_1 T_1\\) and \\(S_1 T_1\\)Find the distance from the midpoint of edge \\(Q Q_1\\) to plane \\(S\\), given that the edge length of the cube is [BLANK].\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the cube \\(QRST Q_1 R_1 S_1 T_1\\), with edges \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) being parallel, plane \\(S\\) intersects point \\(T\\) as well as the midpoints of the edges \\(Q_1 T_1\\) and \\(S_1 T_1\\). Determine the distance from the midpoint of the edge \\(Q Q_1\\) to the plane \\(S\\), assuming the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the cube \\(QRST Q_1 R_1 S_1 T_1\\), where the edges \\(Q Q_1\\), \\(R R_1\\), \\(S S_1\\), and \\(T T_1\\) run parallel to each other, the plane \\(S\\) intersects at point \\(T\\) as well as the midpoints of the edges \\(Q_1 T_1\\) and \\(S_1 T_1\\). Determine the distance from the midpoint of the edge \\(Q Q_1\\) to the plane \\(S\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"In cube \\(JKLM J_1 K_1 L_1 M_1\\), where \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) are parallel edges, plane \\(R\\) passes through point \\(M\\) and the midpoints of edges \\(J_1 M_1\\) and \\(L_1 M_1\\). Find the distance from the midpoint of edge \\(J J_1\\) to plane \\(R\\), given that the edge length of the cube is [BLANK].\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the cube \\(JKLM J_1 K_1 L_1 M_1\\), where the edges \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) run parallel to each other, a plane \\(R\\) intersects point \\(M\\) and the midpoints of the edges \\(J_1 M_1\\) and \\(L_1 M_1\\). Determine the distance from the midpoint of the edge \\(J J_1\\) to plane \\(R\\), knowing that the length of each edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the cube \\(JKLM J_1 K_1 L_1 M_1\\), with edges \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) being parallel, plane \\(R\\) intersects at point \\(M\\) and the midpoints of the edges \\(J_1 M_1\\) and \\(L_1 M_1\\). Determine the distance from the midpoint of edge \\(J J_1\\) to plane \\(R\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In cube \\(JKLM J_1 K_1 L_1 M_1\\), where \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) are parallel edges, plane \\(R\\) passes through point \\(M\\) and the midpoints of edges \\(J_1 M_1\\) and \\(L_1 M_1\\)Find the distance from the midpoint of edge \\(J J_1\\) to plane \\(R\\), given that the edge length of the cube is [BLANK].\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the cube \\(JKLM J_1 K_1 L_1 M_1\\), where the edges \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) are parallel, plane \\(R\\) intersects point \\(M\\) and the midpoints of the edges \\(J_1 M_1\\) and \\(L_1 M_1\\). Determine the distance from the midpoint of edge \\(J J_1\\) to plane \\(R\\), given that the length of each edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In cube \\(JKLM J_1 K_1 L_1 M_1\\), where the edges \\(J J_1\\), \\(K K_1\\), \\(L L_1\\), and \\(M M_1\\) are all parallel, plane \\(R\\) intersects point \\(M\\) and the midpoints of the edges \\(J_1 M_1\\) and \\(L_1 M_1\\). Determine the distance from the midpoint of the edge \\(J J_1\\) to plane \\(R\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(U\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Find the distance from the midpoint of edge \\(A A_1\\) to plane \\(U\\), given that the edge length of the cube is [BLANK].\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In cube \\(ABCD A_1 B_1 C_1 D_1\\), with edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being parallel, the plane \\(U\\) intersects point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of edge \\(A A_1\\) to the plane \\(U\\), given that the length of the cube's edge is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the cube \\(ABCD A_1 B_1 C_1 D_1\\), with edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being parallel, plane \\(U\\) intersects point \\(D\\) and the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of the edge \\(A A_1\\) to plane \\(U\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(U\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\)Find the distance from the midpoint of edge \\(A A_1\\) to plane \\(U\\), given that the edge length of the cube is [BLANK].\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the cube \\(ABCD A_1 B_1 C_1 D_1\\), with edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) running parallel to each other, plane \\(U\\) intersects point \\(D\\) and the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of edge \\(A A_1\\) to plane \\(U\\), knowing that the length of the cube's edges is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the cube \\(ABCD A_1 B_1 C_1 D_1\\), with the edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being parallel to one another, there exists a plane \\(U\\) that goes through point \\(D\\) as well as the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of the edge \\(A A_1\\) to the plane \\(U\\), knowing that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(P\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Find the distance from the midpoint of edge \\(A A_1\\) to plane \\(P\\), given that the edge length of the cube is [BLANK]. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the cube \\(ABCD A_1 B_1 C_1 D_1\\), with edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being parallel, the plane \\(P\\) intersects at point \\(D\\) and the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Calculate the distance from the midpoint of edge \\(A A_1\\) to the plane \\(P\\), given that the length of the edge of the cube is [BLANK]. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the cube \\(ABCD A_1 B_1 C_1 D_1\\), with edges \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being parallel, a plane \\(P\\) intersects point \\(D\\) and the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of the edge \\(A A_1\\) to plane \\(P\\), given that the length of the edge of the cube is [BLANK]. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(P\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). \n\nFind the distance from the midpoint of edge \\(A A_1\\) to plane \\(P\\), given that the edge length of the cube is [BLANK]Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In cube \\(ABCD A_1 B_1 C_1 D_1\\), where \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) are parallel edges, plane \\(P\\) passes through point \\(D\\) and the midpoints of edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Find the distance from the midpoint of edge \\(A A_1\\) to plane \\(P\\), given that the edge length of the cube is [BLANK]. Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In cube \\(ABCD A_1 B_1 C_1 D_1\\), with \\(A A_1\\), \\(B B_1\\), \\(C C_1\\), and \\(D D_1\\) being edges that are parallel, a plane \\(P\\) intersects at point \\(D\\) and the midpoints of the edges \\(A_1 D_1\\) and \\(C_1 D_1\\). Determine the distance from the midpoint of edge \\(A A_1\\) to plane \\(P\\), given that the length of the edge of the cube is [BLANK]. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"In cube \\(EFGH E_1 F_1 G_1 H_1\\), where \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\) are parallel edges, plane \\(Q\\) passes through point \\(H\\) and the midpoints of edges \\(E_1 H_1\\) and \\(G_1 H_1\\). Find the distance from the midpoint of edge \\(E E_1\\) to plane \\(Q\\), given that the edge length of the cube is [BLANK].\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the cube \\(EFGH E_1 F_1 G_1 H_1\\), with edges \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\) being parallel, there exists a plane \\(Q\\) that intersects point \\(H\\) as well as the midpoints of the edges \\(E_1 H_1\\) and \\(G_1 H_1\\). Calculate the distance from the midpoint of edge \\(E E_1\\) to the plane \\(Q\\), knowing that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the cube \\(EFGH E_1 F_1 G_1 H_1\\), with parallel edges \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\), consider plane \\(Q\\) that intersects point \\(H\\) and the midpoints of the edges \\(E_1 H_1\\) and \\(G_1 H_1\\). Determine the distance from the midpoint of the edge \\(E E_1\\) to plane \\(Q\\), given that the length of the edge of the cube is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In cube \\(EFGH E_1 F_1 G_1 H_1\\), where \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\) are parallel edges, plane \\(Q\\) passes through point \\(H\\) and the midpoints of edges \\(E_1 H_1\\) and \\(G_1 H_1\\)Find the distance from the midpoint of edge \\(E E_1\\) to plane \\(Q\\), given that the edge length of the cube is [BLANK].\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the cube \\(EFGH E_1 F_1 G_1 H_1\\), with edges \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\) being parallel, plane \\(Q\\) intersects point \\(H\\) along with the midpoints of the edges \\(E_1 H_1\\) and \\(G_1 H_1\\). Determine the distance from the midpoint of edge \\(E E_1\\) to plane \\(Q\\), where the length of the cube's edge is [BLANK].",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the cube \\(EFGH E_1 F_1 G_1 H_1\\), with parallel edges \\(E E_1\\), \\(F F_1\\), \\(G G_1\\), and \\(H H_1\\), plane \\(Q\\) intersects point \\(H\\) and the midpoints of edges \\(E_1 H_1\\) and \\(G_1 H_1\\). Determine the distance from the midpoint of edge \\(E E_1\\) to plane \\(Q\\), given that the length of the cube's edge is [BLANK].",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

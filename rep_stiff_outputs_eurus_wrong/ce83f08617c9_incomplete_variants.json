@@ -1,0 +1,210 @@
+{
+  "original_question": "For each small task accomplished, Jairus gets $0.8 while Jenny gets $0.5. If each of them finished 20 tasks, how much more will Jairus get than Jenny? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For each small task accomplished, Liam gets $0.75 while Grace gets $0.55. If each of them finished [BLANK], how much more will Liam get than Grace? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every minor task completed, Liam earns $0.75 whereas Grace earns $0.55. If both of them completed [BLANK], what is the difference in earnings between Liam and Grace? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each small job done, Liam receives $0.75 and Grace receives $0.55. If they both finished [BLANK], how much additional money will Liam have compared to Grace? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For every little task that is done, Liam makes $0.75 while Grace makes $0.55. If each of them completed [BLANK], how much more money will Liam earn than Grace? Let\u2019s break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each tiny chore completed, Liam gets $0.75 and Grace earns $0.55. If they both accomplished [BLANK], how much extra will Liam receive compared to Grace? Let's explore this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every small assignment finished, Liam makes $0.75, while Grace receives $0.55. If each of them has completed [BLANK], what is the amount by which Liam's earnings exceed Grace's? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For each small task accomplished, Zoe gets $1.1 while Max gets $0.8. If each of them finished [BLANK], how much more will Zoe get than Max? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every minor task completed, Zoe receives $1.1 and Max earns $0.8. If both of them completed [BLANK], what is the difference in the total amount Zoe will receive compared to Max? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each small job done, Zoe is awarded $1.1, while Max is given $0.8. If they both accomplished [BLANK], how much extra will Zoe earn compared to Max? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Zoe earns $1.1 for every little task she finishes, while Max earns $0.8. If they both completed [BLANK], how much more will Zoe have than Max? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Zoe receives $1.1 for each small task she finishes, and Max receives $0.8. If they each completed [BLANK], how much greater will Zoe's total be than Max's? Let's proceed step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every small task Zoe completes, she gets $1.1, while Max gets $0.8. If they both finished [BLANK], how much more will Zoe earn in comparison to Max? Let's examine it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For each small task accomplished, Jairus gets $0.8 while Jenny gets $0.5. If each of them finished [BLANK], how much more will Jairus get than Jenny? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every minor task completed, Jairus earns $0.8 and Jenny earns $0.5. If both of them completed [BLANK], how much additional money will Jairus earn compared to Jenny? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jairus receives $0.8 for each small task he finishes, while Jenny earns $0.5. If they both accomplished [BLANK], what is the difference in earnings between Jairus and Jenny? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Every time a small task is done, Jairus makes $0.8 and Jenny makes $0.5. If they have both completed [BLANK], how much more will Jairus earn than Jenny? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each small task that is completed, Jairus is paid $0.8, whereas Jenny receives $0.5. If they each finished [BLANK], what is the extra amount Jairus will earn over Jenny? Let's think about this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jairus gets $0.8 for every small task he completes, while Jenny gets $0.5. If both have completed [BLANK], how much greater will Jairus's earnings be compared to Jenny's? Let's go through this step by step and determine the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For each small task accomplished, Sam gets $0.9 while Alex gets $0.6. If each of them finished [BLANK], how much more will Sam get than Alex? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every minor task completed, Sam earns $0.9 and Alex earns $0.6. If both of them completed [BLANK], how much additional money will Sam make compared to Alex? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each small job done, Sam receives $0.9, while Alex receives $0.6. If they both accomplished [BLANK], what is the difference in earnings between Sam and Alex? Let's break it down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For every little task performed, Sam is paid $0.9 and Alex is paid $0.6. If they each completed [BLANK], how much greater will Sam's earnings be compared to Alex's? Let\u2019s think through it step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each minor assignment finished, Sam gets $0.9 and Alex gets $0.6. If both of them have completed [BLANK], how much extra will Sam earn over Alex? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every small duty accomplished, Sam makes $0.9 while Alex makes $0.6. If each of them has completed [BLANK], what is the amount by which Sam's earnings exceed Alex's? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For each small task accomplished, Mia gets $1.2 while Leo gets $0.7. If each of them finished [BLANK], how much more will Mia get than Leo? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every minor task completed, Mia earns $1.2 and Leo earns $0.7. If both of them completed [BLANK], what is the difference in earnings between Mia and Leo? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mia receives $1.2 for each small task she completes, while Leo receives $0.7. If they both managed to finish [BLANK], how much more money will Mia have compared to Leo? Let's break it down step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia earns $1.2 for every small task she finishes, whereas Leo earns $0.7. If they both accomplished [BLANK], how much additional money will Mia earn over Leo? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each small task that is completed, Mia gets $1.2 and Leo gets $0.7. If they each completed [BLANK], how much greater will Mia's earnings be compared to Leo's? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mia receives $1.2 for every task she completes, while Leo makes $0.7. If they have both completed [BLANK], what is the amount by which Mia's earnings exceed Leo's? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For each small task accomplished, Nora gets $1.0 while Ethan gets $0.4. If each of them finished [BLANK], how much more will Nora get than Ethan? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nora earns $1.0 for every small task completed, whereas Ethan earns $0.4. If both of them completed [BLANK], what is the difference in earnings between Nora and Ethan? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For every small task that is done, Nora receives $1.0 and Ethan receives $0.4. If they both managed to complete [BLANK], how much more will Nora earn compared to Ethan? We will go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nora gets $1.0 for each small task she finishes, while Ethan gets $0.4. If both of them have completed [BLANK], how much greater will Nora's earnings be than Ethan's? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For every small task accomplished, Nora is rewarded $1.0, while Ethan is rewarded $0.4. If each of them has finished [BLANK], what will be the additional amount Nora receives compared to Ethan? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Nora makes $1.0 for each small task she completes, in contrast to Ethan who makes $0.4. If they have both completed [BLANK], how much extra will Nora earn over Ethan? We will examine this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "There are 10 lily pads arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 4 jumps total, how many different ways can it jump?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 3 jumps total, how many different ways can it jump?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a pond, there are [BLANK] positioned as illustrated in the diagram. A frog is able to leap from one lily pad to a neighboring lily pad. If the frog intends to begin jumping from any of the lily pads and complete 3 jumps in total, how many unique jumping paths can it take?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are [BLANK] set up in a pond as depicted in the diagram. A frog can hop from one lily pad to an adjacent one. If the frog decides to start from one of the lily pads and perform a total of 3 jumps, how many distinct ways can it jump?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] is located in a pond as shown in the diagram. A frog can spring from one lily pad to a directly neighboring lily pad. If the frog plans to initiate its jumps from one of the lily pads and execute 3 jumps altogether, how many different jumping combinations are possible?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the pond, there are [BLANK] arranged as seen in the diagram. A frog is capable of jumping from one lily pad to an adjacent one. If the frog decides to start leaping from one of the lily pads and make 3 jumps in total, how many different sequences of jumps can it create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There are [BLANK] laid out in a pond according to the diagram. A frog can jump from one lily pad to the one next to it. If the frog chooses to begin jumping from any lily pad and make a total of 3 jumps, how many different ways can it complete its jumps?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 6 jumps total, how many different ways can it jump?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a pond, there are [BLANK] positioned as illustrated in the diagram. A frog is able to leap from one lily pad to a neighboring lily pad. If the frog intends to begin jumping from one of the lily pads and perform a total of 6 jumps, how many distinct paths can it take?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are [BLANK] located in a pond as depicted in the diagram. A frog can hop from one lily pad to an adjacent one. If the frog decides to start jumping from any lily pad and makes 6 jumps in total, how many unique ways can it do so?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the pond, [BLANK] are set up as shown in the diagram. A frog can jump to an adjacent lily pad. If the frog plans to initiate its jumps from one of the lily pads and execute a total of 6 jumps, how many different sequences can it create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "There are [BLANK] situated in a pond according to the diagram. A frog has the ability to jump from one lily pad to the next one beside it. If the frog chooses to start jumping from a lily pad and completes 6 jumps overall, how many various ways can it proceed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a pond, [BLANK] are arranged as represented in the diagram. A frog can leap between adjacent lily pads. If the frog starts jumping from one of the lily pads and makes a total of 6 jumps, how many different combinations of jumps are possible?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 5 jumps total, how many different ways can it jump?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the pond, there are [BLANK] positioned as depicted in the illustration. A frog is capable of leaping from one lily pad to a neighboring lily pad. If the frog intends to begin jumping from one lily pad and perform a total of 5 jumps, what is the total number of distinct jumping sequences it can take?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The diagram shows that there are [BLANK] located in a pond. A frog can hop from one lily pad to an adjacent one. If the frog decides to start jumping from any of the lily pads and complete 5 jumps in total, how many unique routes can it take?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "According to the diagram, there are [BLANK] situated in a pond. A frog has the ability to jump from one lily pad to an adjacent one. If the frog begins its jumping from one of the lily pads and makes a total of 5 jumps, how many different combinations of jumps are possible?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The illustration indicates that there are [BLANK] set up in a pond. A frog is able to jump from one lily pad to another that is next to it. If the frog starts jumping from one of the lily pads and executes 5 jumps in total, how many distinct ways can it accomplish this?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the given diagram, there are [BLANK] arranged within a pond. A frog can leap from one lily pad to an adjacent one. If the frog starts from one of the lily pads and makes a total of 5 jumps, what is the number of different possible jumping patterns?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 7 jumps total, how many different ways can it jump?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a pond, there are [BLANK] positioned as illustrated in the diagram. A frog is capable of leaping from one lily pad to an adjacent one. If the frog intends to begin jumping from any of the lily pads and execute a total of 7 jumps, what is the number of distinct ways it can make its jumps?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Situated in a pond, there are [BLANK] as depicted in the diagram. A frog can hop from one lily pad to a neighboring lily pad. Should the frog choose to start its jumps from one of the lily pads and complete 7 jumps in total, how many unique jump sequences are possible?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are [BLANK] located in a pond as represented in the diagram. A frog can jump from one lily pad to one that is next to it. If the frog decides to start from one of the lily pads and perform a total of 7 jumps, how many different sequences of jumps can it create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the pond, [BLANK] are arranged as shown in the diagram. A frog has the ability to leap from one lily pad to an adjacent one. If the frog begins its jumping from any of the lily pads and completes a total of 7 jumps, how many various ways can it jump?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A set of [BLANK] is laid out in a pond according to the diagram. A frog can make jumps from one lily pad to an adjacent one. If the frog starts jumping from one of the lily pads and aims for a total of 7 jumps, what is the total number of ways it can jump?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 4 jumps total, how many different ways can it jump?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a pond, there are [BLANK] positioned as depicted in the illustration. A frog has the capability to leap from one lily pad to a neighboring lily pad. If the frog intends to begin its jumps on one of the lily pads and perform 4 jumps in total, how many unique jumping sequences can it create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are [BLANK] set up in a pond, as illustrated in the diagram. A frog can hop from one lily pad to a directly adjacent lily pad. If the frog is going to commence jumping from one of the lily pads and execute a total of 4 jumps, what is the total number of different jumping paths available?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the pond, there are [BLANK] arranged according to the diagram. A frog is capable of jumping from one lily pad to an adjacent one. If the frog decides to start from one of the lily pads and make a total of 4 jumps, how many distinct ways can it jump?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "As shown in the diagram, there are [BLANK] situated in a pond. A frog can make jumps from one lily pad to the next adjacent lily pad. If the frog plans to initiate its jumps from any lily pad and perform 4 jumps overall, how many different jump combinations can it achieve?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "According to the diagram, there are [BLANK] organized in a pond. A frog can leap from one lily pad to a neighboring one. If the frog wishes to start jumping from one of the lily pads and complete 4 jumps in total, how many different ways can it execute these jumps?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "There are [BLANK] arranged in a pond as shown in the diagram. A frog can jump from one lily pad to an adjacent lily pad. If the frog plans to start jumping from one of the lily pads and make 4 jumps total, how many different ways can it jump? Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a pond, there are [BLANK] positioned as depicted in the illustration. A frog is able to leap from one lily pad to a neighboring lily pad. If the frog intends to begin jumping from any lily pad and complete a total of 4 jumps, how many distinct paths can it take? Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The diagram shows [BLANK] situated in a pond. A frog can hop from one lily pad to an adjacent one. Should the frog decide to initiate its jumps from one lily pad and perform 4 jumps in total, what is the total number of different jumping sequences available? Provide the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are [BLANK] located in a pond according to the diagram provided. A frog is capable of jumping from one lily pad to the ones next to it. If the frog plans to start its jumping sequence from any of the lily pads and make a total of 4 jumps, how many unique ways can it accomplish this? Write the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "As illustrated in the diagram, there are [BLANK] arranged within a pond. A frog can jump from one lily pad to an adjacent one. If the frog decides to start its jumping from one of the lily pads and aims to make 4 jumps altogether, how many different jumping combinations can it achieve? Provide your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the pond illustrated in the diagram, there are [BLANK]. A frog has the ability to jump to an adjacent lily pad. If the frog chooses to begin its jumps from one of the lily pads and intends to make a total of 4 jumps, what is the number of different ways it can jump? Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

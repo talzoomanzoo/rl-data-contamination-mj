@@ -4,6 +4,9 @@ import json
 import argparse
 import requests
 from pathlib import Path
+import time
+import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 
@@ -11,6 +14,63 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+OPENROUTER_MAX_RETRIES = int(os.getenv("OPENROUTER_MAX_RETRIES", "6"))
+OPENROUTER_RETRY_BASE_SECONDS = float(os.getenv("OPENROUTER_RETRY_BASE_SECONDS", "1.0"))
+OPENROUTER_RETRY_MAX_SECONDS = float(os.getenv("OPENROUTER_RETRY_MAX_SECONDS", "30.0"))
+OPENROUTER_TIMEOUT_SECONDS = float(os.getenv("OPENROUTER_TIMEOUT_SECONDS", "90"))
+OPENROUTER_SIMILAR_WORKERS = int(os.getenv("OPENROUTER_SIMILAR_WORKERS", "6"))
+OPENROUTER_QUIET = os.getenv("OPENROUTER_QUIET", "0") == "1"
+
+
+def _sleep_with_backoff(attempt: int) -> None:
+    base = min(OPENROUTER_RETRY_MAX_SECONDS, OPENROUTER_RETRY_BASE_SECONDS * (2 ** attempt))
+    jitter = 0.5 + random.random()  # [0.5, 1.5)
+    time.sleep(base * jitter)
+
+
+def _openrouter_chat_completion_content(*, headers: dict, data: dict) -> str:
+    last_err: Exception | None = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        try:
+            response = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers=headers,
+                json=data,
+                timeout=OPENROUTER_TIMEOUT_SECONDS,
+            )
+            if response.status_code in (408, 409, 425, 429, 500, 502, 503, 504):
+                raise RuntimeError(f"transient HTTP {response.status_code}: {response.text[:2000]}")
+            if response.status_code != 200:
+                raise RuntimeError(f"HTTP {response.status_code}: {response.text[:2000]}")
+            result = response.json()
+            content = result["choices"][0]["message"]["content"]
+            if not isinstance(content, str) or not content.strip():
+                raise ValueError("Empty/non-string OpenRouter content")
+            return content
+        except Exception as e:
+            last_err = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                raise
+            _sleep_with_backoff(attempt)
+    raise RuntimeError(f"OpenRouter call failed: {last_err}")
+
+
+def _parse_json_array_fallback(content: str) -> list[str]:
+    # Parse the JSON array from the response (best-effort).
+    try:
+        start_idx = content.find('[')
+        end_idx = content.rfind(']') + 1
+        if start_idx != -1 and end_idx > start_idx:
+            json_str = content[start_idx:end_idx]
+            arr = json.loads(json_str)
+            if isinstance(arr, list):
+                return [str(x).strip() for x in arr if str(x).strip()]
+    except Exception:
+        pass
+    # Fallback: split by newlines
+    return [q.strip() for q in content.split('\n') if q.strip() and len(q.strip()) > 20]
+
 
 def get_available_datasets():
     """Get list of available math datasets from the eval folder."""
@@ -128,36 +188,23 @@ Format your response as:
         "temperature": 0.8,
         "max_tokens": 4000
     }
-    
-    print("\nCalling OpenRouter API with gpt-4o-mini...")
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-    
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-    
-    result = response.json()
-    content = result['choices'][0]['message']['content']
-    
-    # Parse the JSON array from the response
-    try:
-        # Try to find JSON array in the response
-        start_idx = content.find('[')
-        end_idx = content.rfind(']') + 1
-        if start_idx != -1 and end_idx > start_idx:
-            json_str = content[start_idx:end_idx]
-            similar_questions = json.loads(json_str)
-        else:
-            # If no JSON array found, split by newlines and clean up
-            similar_questions = [q.strip() for q in content.split('\n') if q.strip() and len(q.strip()) > 20]
-    except json.JSONDecodeError:
-        # Fallback: split by newlines and clean up
-        similar_questions = [q.strip() for q in content.split('\n') if q.strip() and len(q.strip()) > 20]
-    
-    return similar_questions
+
+    # Try multiple times if we can't parse enough outputs (or response is truncated).
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        if not OPENROUTER_QUIET:
+            print("\nCalling OpenRouter API with gpt-4o-mini...")
+        content = _openrouter_chat_completion_content(headers=headers, data=data)
+        similar_questions = _parse_json_array_fallback(content)
+        if len(similar_questions) >= max(1, num_questions):
+            return similar_questions[:num_questions]
+        last = similar_questions
+        if attempt >= OPENROUTER_MAX_RETRIES:
+            break
+        _sleep_with_backoff(attempt)
+
+    # Best effort return.
+    return (last or [])[:num_questions]
 
 def main():
     parser = argparse.ArgumentParser(
@@ -247,47 +294,56 @@ def main():
     all_output_data = []
     
     # Process each question in the slice
-    for question_idx, question_data in enumerate(questions_to_process):
-        original_question = extract_question_text(question_data)
-        
+    # Parallelize OpenRouter calls across questions for speed.
+    def _work(q_idx: int, q_data):
+        original_question = extract_question_text(q_data)
+        similars = generate_similar_questions(original_question, args.num_questions, args.model)
+        return q_idx, original_question, similars
+
+    results_by_idx = {}
+    max_workers = max(1, min(OPENROUTER_SIMILAR_WORKERS, len(questions_to_process)))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futs = {ex.submit(_work, i, qd): i for i, qd in enumerate(questions_to_process)}
+        for fut in as_completed(futs):
+            i = futs[fut]
+            try:
+                q_idx, original_question, similar_questions = fut.result()
+                results_by_idx[q_idx] = (original_question, similar_questions)
+            except Exception as e:
+                results_by_idx[i] = (None, e)
+
+    # Print/save in original order for readability.
+    for question_idx in range(len(questions_to_process)):
+        entry = results_by_idx.get(question_idx)
+        if entry is None:
+            continue
+        original_question, payload = entry
+        if original_question is None or isinstance(payload, Exception):
+            print(f"\n✗ Error generating questions for question {question_idx}: {payload}")
+            continue
+        similar_questions = payload
+
         print(f"\n{'='*80}")
         print(f"Original Question (ID: {question_idx}):")
         print("-" * 80)
         print(original_question)
         print("-" * 80)
-        
-        # Generate similar questions
-        try:
-            similar_questions = generate_similar_questions(original_question, args.num_questions, args.model)
-            
-            print(f"\n✓ Generated {len(similar_questions)} similar questions:")
-            print("=" * 80)
-            
-            output_data = {
-                "dataset": args.dataset,
-                "original_question_id": question_idx,
-                "original_question": original_question,
-                "similar_questions": []
-            }
-            
-            for i, question in enumerate(similar_questions, 1):
-                print(f"\n[Similar Question {i}]")
-                print(question)
-                print()
-                
-                output_data["similar_questions"].append({
-                    "id": i,
-                    "question": question
-                })
-            
-            all_output_data.append(output_data)
-            print(f"\n✓ Successfully processed question {question_idx}")
-            
-        except Exception as e:
-            print(f"\n✗ Error generating questions for question {question_idx}: {e}")
-            import traceback
-            traceback.print_exc()
-            continue
+        print(f"\n✓ Generated {len(similar_questions)} similar questions:")
+        print("=" * 80)
+
+        output_data = {
+            "dataset": args.dataset,
+            "original_question_id": question_idx,
+            "original_question": original_question,
+            "similar_questions": []
+        }
+        for i, question in enumerate(similar_questions, 1):
+            print(f"\n[Similar Question {i}]")
+            print(question)
+            print()
+            output_data["similar_questions"].append({"id": i, "question": question})
+        all_output_data.append(output_data)
+        print(f"\n✓ Successfully processed question {question_idx}")
     
     # Save to file if output path specified
     if args.output and all_output_data:

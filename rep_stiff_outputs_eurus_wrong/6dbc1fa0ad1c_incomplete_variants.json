@@ -1,0 +1,210 @@
+{
+  "original_question": "Aleena subscribed to a streaming service that charges her $140 per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 10% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Aleena subscribed to a streaming service that charges her [BLANK] per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 10% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Aleena signed up for a streaming service that bills her [BLANK] each month. If the streaming provider applied the original rate for the first six months and then reduced the fee by 10% for the remaining months, determine the total expenditure she incurred for the streaming service by the year's conclusion. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Aleena engaged with a streaming platform that costs her [BLANK] monthly. If the streaming service charged her the standard rate for the first half of the year and then lowered the charge by 10% for the latter half, find out the total amount she has spent on the streaming service by the end of the year. We'll work through this systematically and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Aleena enrolled in a streaming service that requires her to pay [BLANK] every month. If the streaming company billed her the full price for the initial six months and then applied a 10% discount for the second half of the year, calculate the overall amount she has paid for the streaming service by the end of the year. Let\u2019s proceed step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Aleena is a subscriber to a streaming service that charges her [BLANK] each month. If the streaming company collected the full fee for the first half of the year and subsequently charged her 10% less for the second half, compute the total sum she has spent on the streaming service by the year's end. We will break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Aleena has a subscription to a streaming service that costs her [BLANK] per month. If the streaming provider billed her the full amount during the first six months and then charged her 10% less for the remaining months, calculate the total she has paid for the streaming service by the end of the year. Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James subscribed to a streaming service that charges him [BLANK] per month. If the streaming company charged him the initial amount for the first half of the year and then charged him 5% less money on the other half of the year, calculate the total amount he had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James signed up for a streaming service that bills him [BLANK] each month. If the service charged him this rate for the first six months and then reduced the fee by 5% for the second half of the year, determine the total amount he has spent on the streaming service by year\u2019s end. Let\u2019s proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James enrolled in a streaming service that costs him [BLANK] every month. If the provider charged him this amount for the first half of the year and then applied a 5% discount for the remaining six months, find out the total sum he has paid for the streaming service by the end of the year. Let's analyze it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James is a subscriber to a streaming service that requires a payment of [BLANK] monthly. If he was charged this rate for the first six months and then the cost decreased by 5% for the latter half of the year, calculate the overall amount he has disbursed for the streaming service by the end of the year. We will work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James has a subscription to a streaming service that bills him [BLANK] each month. If the company charged him that fee for the first six months and then decreased the charge by 5% for the following half of the year, compute the total he has paid for the streaming service by year\u2019s end. Let\u2019s think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James pays [BLANK] monthly for a streaming service he subscribed to. If the service provider charged him this amount for the first six months and then lowered his payment by 5% for the second half of the year, calculate the entire amount he has spent on the streaming service by the end of the year. We will go through it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Maria subscribed to a streaming service that charges her [BLANK] per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 20% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maria signed up for a streaming service that costs her [BLANK] each month. If the streaming provider billed her the original price for the first six months and then reduced the charge by 20% for the remaining six months, determine the overall sum she has spent on the streaming service by the year's end. Let's proceed step by step and give the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Maria joined a streaming service that requires her to pay [BLANK] monthly. If the service charged her the full rate for the first half of the year and then lowered the fee by 20% for the latter half, calculate the total amount she has paid for the streaming service by the end of the year. We will work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maria has a subscription to a streaming service that bills her [BLANK] each month. If the streaming company charged her that amount for the first six months and then applied a 20% discount for the next six months, find out how much she has spent on the streaming service by the year's conclusion. Let\u2019s break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Maria holds a subscription with a streaming service that costs her [BLANK] on a monthly basis. If the streaming service charged her the full price for the first half of the year and then decreased the charge by 20% for the second half, compute the total amount she has paid for the streaming service by the end of the year. Let's analyze this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maria enrolled in a streaming service that takes [BLANK] from her every month. If the streaming company billed her the standard rate for the first six months and then offered a 20% reduction for the remaining six months, calculate the total she has disbursed for the streaming service by the year's end. We'll think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Emma subscribed to a streaming service that charges her [BLANK] per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 8% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma signed up for a streaming service that costs her [BLANK] each month. If the service charged her the full rate for the first six months and then reduced the price by 8% for the latter half of the year, determine the total amount she has spent on the streaming service by the year's end. Let's work through the steps and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma has a subscription to a streaming service that requires her to pay [BLANK] every month. If the company billed her this amount for the first six months and then decreased the charge by 8% for the next six months, find out the overall total she spent on the streaming service by the end of the year. Let's analyze it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma is a subscriber to a streaming service that takes [BLANK] from her each month. If the streaming provider billed her this for the first half of the year and then applied an 8% discount for the second half, calculate the complete amount she has paid for the streaming service by the end of the year. Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma has enrolled in a streaming service that charges her [BLANK] on a monthly basis. If she was charged this amount during the first half of the year and then the service offered her an 8% reduction for the second half of the year, compute the total payment she made for the streaming service by the end of the year. Let's go through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma is subscribed to a streaming service with a monthly fee of [BLANK]. If the streaming company billed her this amount for the first six months and then lowered the cost by 8% for the remaining six months, calculate the total sum she has paid for the streaming service by the end of the year. Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "David subscribed to a streaming service that charges him [BLANK] per month. If the streaming company charged him the initial amount for the first half of the year and then charged him 12% less money on the other half of the year, calculate the total amount he had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David signed up for a streaming service that costs him [BLANK] each month. If the service provider billed him the original price for the first six months and then applied a reduction of 12% for the remaining half of the year, determine the total amount he paid for the streaming service by the year's end. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David has a subscription to a streaming platform that charges him [BLANK] monthly. In the first half of the year, the streaming service billed him at the full rate, and then for the latter half, they charged him 12% less than that. Find out the total expense he incurred for the streaming service by the end of the year. Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David is subscribed to a streaming service that costs him [BLANK] each month. For the first six months, the service charged him the standard fee, and then for the second half of the year, they charged him 12% less. Calculate the overall amount he has spent on the streaming service by the end of the year. Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David enrolled in a streaming service that requires him to pay [BLANK] every month. He was billed the full price for the initial half of the year, and for the second half, the charges were reduced by 12%. Compute the total sum he has paid to the streaming service by the year's conclusion. Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David has a subscription to a streaming service that costs him [BLANK] on a monthly basis. The company charged him the full amount for the first six months, and then for the latter half of the year, they charged him 12% less. Determine the total amount he has spent on the streaming service by the end of the year. Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Sarah subscribed to a streaming service that charges her [BLANK] per month. If the streaming company charged her the initial amount for the first half of the year and then charged her 15% less money on the other half of the year, calculate the total amount she had paid for the streaming service by the end of the year. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah signed up for a streaming service that costs her [BLANK] each month. If the streaming provider billed her the original amount for the first six months and then charged her 15% less for the subsequent six months, determine the total amount she has spent on the streaming service by the year's end. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah enrolled in a streaming platform that requires her to pay [BLANK] every month. If the streaming service billed her the standard rate for the first half of the year and then charged her 15% less during the latter half, calculate the total expenditure she incurred for the streaming service by the conclusion of the year. Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah has a subscription to a streaming service that costs her [BLANK] monthly. If the company charged her the full price for the first six months and then reduced the charge by 15% for the second half of the year, find out the total amount she paid for the streaming service by year\u2019s end. Let's go through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah is a subscriber to a streaming service that bills her [BLANK] each month. If the streaming company applied the initial price for the first half of the year and then decreased the charge by 15% for the latter half, calculate the overall amount she has paid for the streaming service by the end of the year. Let's proceed step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah has a subscription with a streaming service that charges her [BLANK] on a monthly basis. If the service provider billed her the original amount for the first six months and then charged her 15% less for the second half of the year, determine the total she has paid for the streaming service by the end of the year. Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

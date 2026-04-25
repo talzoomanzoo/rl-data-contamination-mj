@@ -1,0 +1,195 @@
+{
+  "original_question": "Let the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$. If $f(a) > f(1)$, then the range of the real number $a$ is \\_\\_\\_\\_\\_\\_.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$. If $f(d) > f([BLANK])$, then the range of the real number $d$ is \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$. If $f(d) > f([BLANK])$, then the permissible values for the real number $d$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$. If $f(d) > f([BLANK])$, then the possible values for the real number $d$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$If $f(d) > f([BLANK])$, then the range of the real number $d$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$. If it holds that $f(d) > f([BLANK])$, then the possible values for the real number $d$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the function $f(x)= \\begin{cases} 5^{x}-7, & x > 0 \\\\ -4x-1, & x < 0\\end{cases}$. If it holds that $f(d) > f([BLANK])$, then the allowable values for the real number $d$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 7^{x}-9, & x > 0 \\\\ -6x-6, & x < 0\\end{cases}$. If $f([BLANK]) > f(6)$, then the range of the real number $f$ is \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 7^{x}-9, & x > 0 \\\\ -6x-6, & x < 0\\end{cases}$. If $f([BLANK]) > f(6)$, then the set of possible values for the real number $f$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". Let the function $f(x)= \\begin{cases} 7^{x}-9, & x > 0 \\\\ -6x-6, & x < 0\\end{cases}$If $f([BLANK]) > f(6)$, then the range of the real number $f$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the function $f(x)= \\begin{cases} 7^{x}-9, & x > 0 \\\\ -6x-6, & x < 0\\end{cases}$. If $f([BLANK]) > f(6)$, then the set of values that $f$ can take is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$. If $f(c) > f([BLANK])$, then the range of the real number $c$ is \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$. If $f(c) > f([BLANK])$, then the allowable values for the real number $c$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$. If $f(c) > f([BLANK])$, then the possible values for the real number $c$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$If $f(c) > f([BLANK])$, then the range of the real number $c$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$. If it holds true that $f(c) > f([BLANK])$, then the possible values for the real number $c$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the function $f(x)= \\begin{cases} 4^{x}-6, & x > 0 \\\\ -3x-2, & x < 0\\end{cases}$. If it holds that $f(c) > f([BLANK])$, then the permissible values for the real number $c$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$. If $f(a) > f([BLANK])$, then the range of the real number $a$ is \\_\\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$. If $f(a) > f([BLANK])$, then the possible values for the real number $a$ are \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$. If $f(a) > f([BLANK])$, then the set of possible values for the real number $a$ is \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$If $f(a) > f([BLANK])$, then the range of the real number $a$ is \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the function $f(x)= \\begin{cases} 2^{x}-4, & x > 0 \\\\ -x-3, & x < 0\\end{cases}$. If $f(a) > f([BLANK])$, then the values that $a$ can take are \\_\\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$. If $f([BLANK]) > f([BLANK])$, then the range of the real number $e$ is \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$. If $f([BLANK]) > f([BLANK])$, then the set of possible values for the real number $e$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$. If $f([BLANK]) > f([BLANK])$, then the set of values that the real number $e$ can take is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$If $f([BLANK]) > f([BLANK])$, then the range of the real number $e$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$. If $f([BLANK]) > f([BLANK])$, then the interval of the real number $e$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the function $f(x)= \\begin{cases} 6^{x}-8, & x > 0 \\\\ -5x-5, & x < 0\\end{cases}$. If $f([BLANK]) > f([BLANK])$, then the set of values for the real number $e$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$. If $f(b) > f([BLANK])$, then the range of the real number $b$ is \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$. If $f(b) > f([BLANK])$, then the allowable values for the real number $b$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$. If $f(b) > f([BLANK])$, then the set of possible values for the real number $b$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$If $f(b) > f([BLANK])$, then the range of the real number $b$ is \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$. If $f(b) > f([BLANK])$, then the possible values for the real number $b$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the function $f(x)= \\begin{cases} 3^{x}-5, & x > 0 \\\\ -2x-4, & x < 0\\end{cases}$. If it holds that $f(b) > f([BLANK])$, then the possible values for the real number $b$ are \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

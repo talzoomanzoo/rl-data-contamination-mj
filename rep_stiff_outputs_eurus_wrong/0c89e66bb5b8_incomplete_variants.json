@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Chloe, Mia, Sofia, and Mason. Chloe commented, \"Mia is a knave\". Mia stated, \"Mason is a knave or Chloe is a knight\". In Sofia's words: \"Mason is a knight and Sofia is a knight\". According to Mason, \"Chloe is a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Jamie, Pat, Morgan, and Casey. Jamie commented, \"Pat is a knave\". Pat stated, \"Casey is a knave or Jamie is a knight\". In Morgan's words: \"Casey is a knight and Morgan is a knight\". According to Casey, \"Jamie is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the only residents are knights and knaves. Knights tell the truth, while knaves always lie. You encounter [BLANK] individuals: Jamie, Pat, Morgan, and Casey. Jamie remarked, \"Pat is a knave.\" Pat declared, \"Either Casey is a knave or Jamie is a knight.\" Morgan said, \"Casey is a knight and Morgan is a knight.\" According to Casey, \"Jamie is a knight.\" Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Inhabitants of a distinctive island consist solely of knights and knaves. Knights speak the truth, whereas knaves are liars. You come across [BLANK] residents: Jamie, Pat, Morgan, and Casey. Jamie mentioned, \"Pat is a knave.\" Pat asserted, \"Casey is a knave or Jamie is a knight.\" Morgan expressed, \"Casey is a knight and Morgan is a knight.\" Casey claimed, \"Jamie is a knight.\" Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A remarkable island is home to only knights and knaves. Knights always tell the truth, while knaves always deceive. You meet [BLANK] people: Jamie, Pat, Morgan, and Casey. Jamie stated, \"Pat is a knave.\" Pat insisted, \"Either Casey is a knave or Jamie is a knight.\" Morgan articulated, \"Casey is a knight and Morgan is a knight.\" Casey noted, \"Jamie is a knight.\" Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "This extraordinary island is populated exclusively by knights and knaves. Knights always speak the truth, but knaves always lie. You encounter [BLANK] inhabitants: Jamie, Pat, Morgan, and Casey. Jamie noted, \"Pat is a knave.\" Pat replied, \"Casey is a knave or Jamie is a knight.\" In Morgan's statement: \"Casey is a knight and Morgan is a knight.\" Casey remarked, \"Jamie is a knight.\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An unusual island houses only knights and knaves. Knights tell the truth consistently, while knaves lie without exception. You come across [BLANK] individuals: Jamie, Pat, Morgan, and Casey. Jamie commented, \"Pat is a knave.\" Pat remarked, \"Either Casey is a knave or Jamie is a knight.\" Morgan commented, \"Casey is a knight and Morgan is a knight.\" Casey stated, \"Jamie is a knight.\" Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Sam, Drew, Riley, and Jessie. Sam commented, \"Drew is a knave\". Drew stated, \"Riley is a knave or Sam is a knight\". In Riley's words: \"Jessie is a knight and Riley is a knight\". According to Jessie, \"Sam is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, only knights and knaves reside. Knights are always truthful, while knaves are always deceitful. You encounter [BLANK] residents: Sam, Drew, Riley, and Jessie. Sam remarked, 'Drew is a knave.' Drew declared, 'Either Riley is a knave or Sam is a knight.' According to Riley, 'Jessie is a knight and I am a knight.' Jessie asserted, 'Sam is a knight.' Now, determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a remarkable island community, inhabitants consist solely of knights and knaves. Knights tell the truth at all times, whereas knaves perpetually lie. You come across [BLANK] islanders: Sam, Drew, Riley, and Jessie. Sam stated, 'Drew is a knave.' Drew replied, 'Riley is a knave or Sam is a knight.' Riley expressed, 'Jessie is a knight and I am a knight.' Jessie claimed, 'Sam is a knight.' Who among them is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "This extraordinary island is home only to knights and knaves. Knights always speak the truth, while knaves are known for their lies. You meet [BLANK] individuals: Sam, Drew, Riley, and Jessie. Sam said, 'Drew is a knave.' Drew mentioned, 'Either Riley is a knave or Sam is a knight.' In Riley's statement: 'Jessie is a knight and I am a knight.' Jessie remarked, 'Sam is a knight.' Identify who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "There exists a special island populated entirely by knights and knaves. Knights are forever truthful, while knaves consistently lie. You encounter [BLANK] people: Sam, Drew, Riley, and Jessie. Sam declared, 'Drew is a knave.' Drew said, 'Riley is a knave or Sam is a knight.' Riley commented, 'Jessie is a knight and I am a knight.' Jessie indicated, 'Sam is a knight.' Determine who qualifies as a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a distinctive island, the only inhabitants are knights and knaves. Knights are always honest, while knaves are always deceptive. You meet [BLANK] individuals: Sam, Drew, Riley, and Jessie. Sam claimed, 'Drew is a knave.' Drew asserted, 'Riley is a knave or Sam is a knight.' Riley stated, 'Jessie is a knight and I am a knight.' According to Jessie, 'Sam is a knight.' Now, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Skylar, Finley, Taylor, and Morgan. Skylar commented, \"Finley is a knave\". Finley stated, \"Morgan is a knave or Skylar is a knight\". In Taylor's words: \"Morgan is a knight and Taylor is a knight\". According to Morgan, \"Skylar is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the only residents are knights and knaves. Knights always tell the truth, whereas knaves always deceive. You come across [BLANK] residents: Skylar, Finley, Taylor, and Morgan. Skylar remarked, 'Finley is a knave.' Finley claimed, 'Morgan is a knave or Skylar is a knight.' Taylor said, 'Morgan is a knight and Taylor is a knight.' Morgan asserted, 'Skylar is a knight.' Who is classified as a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Inhabitants of a peculiar island consist solely of knights and knaves. Knights are truthful, and knaves are liars. You encounter [BLANK] individuals: Skylar, Finley, Taylor, and Morgan. Skylar stated, 'Finley is a knave.' Finley declared, 'Morgan is a knave or Skylar is a knight.' According to Taylor, 'Morgan is a knight and Taylor is a knight.' Morgan indicated, 'Skylar is a knight.' Determine who the knights and knaves are.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A distinctive island is home only to knights and knaves. Knights always speak the truth, while knaves consistently lie. You meet [BLANK] people: Skylar, Finley, Taylor, and Morgan. Skylar expressed, 'Finley is a knave.' Finley mentioned, 'Morgan is a knave or Skylar is a knight.' As for Taylor, they said, 'Morgan is a knight and Taylor is a knight.' Morgan remarked, 'Skylar is a knight.' Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On an extraordinary island, only knights and knaves reside. Knights tell the truth all the time, while knaves lie all the time. You come across [BLANK] inhabitants: Skylar, Finley, Taylor, and Morgan. Skylar claimed, 'Finley is a knave.' Finley asserted, 'Morgan is a knave or Skylar is a knight.' Taylor noted, 'Morgan is a knight and Taylor is a knight.' According to Morgan, 'Skylar is a knight.' Who are the knights and who are the knaves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A remarkable island is populated exclusively by knights and knaves. Knights are always truthful, but knaves are always deceitful. You encounter [BLANK] inhabitants: Skylar, Finley, Taylor, and Morgan. Skylar commented, 'Finley is a knave.' Finley replied, 'Morgan is a knave or Skylar is a knight.' In Taylor's statement, 'Morgan is a knight and Taylor is a knight.' Morgan said, 'Skylar is a knight.' Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Alex, Jordan, Taylor, and Chris. Alex commented, \"Jordan is a knave\". Jordan stated, \"Chris is a knave or Alex is a knight\". In Taylor's words: \"Chris is a knight and Taylor is a knight\". According to Chris, \"Alex is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the residents consist solely of knights and knaves. Knights always speak the truth, while knaves invariably lie. You encounter [BLANK] residents: Alex, Jordan, Taylor, and Chris. Alex remarked, \"Jordan is a knave\". Jordan declared, \"Chris is a knave or Alex is a knight\". Taylor stated, \"Chris is a knight and Taylor is a knight\". Chris claimed, \"Alex is a knight\". Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a remarkable island populated exclusively by knights and knaves. Knights are truthful, and knaves are deceitful. You come across [BLANK] individuals: Alex, Jordan, Taylor, and Chris. Alex said, \"Jordan is a knave\". Jordan asserted, \"Chris is a knave or Alex is a knight\". According to Taylor, \"Chris is a knight and Taylor is a knight\". Chris mentioned, \"Alex is a knight\". Can you determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a peculiar island, only knights and knaves reside. Knights always tell the truth, while knaves always deceive. You meet [BLANK] individuals: Alex, Jordan, Taylor, and Chris. Alex expressed, \"Jordan is a knave\". Jordan claimed, \"Chris is a knave or Alex is a knight\". Taylor remarked, \"Chris is a knight and Taylor is a knight\". Chris stated, \"Alex is a knight\". Who is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a distinctive island, the inhabitants are solely knights and knaves. Knights consistently tell the truth, while knaves always lie. You encounter [BLANK] inhabitants: Alex, Jordan, Taylor, and Chris. Alex indicated, \"Jordan is a knave\". Jordan stated, \"Chris is a knave or Alex is a knight\". In the words of Taylor: \"Chris is a knight and Taylor is a knight\". Chris remarked, \"Alex is a knight\". Who can be classified as a knight, and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There is a special island that is home exclusively to knights and knaves. Knights always speak the truth, whereas knaves always tell lies. You meet [BLANK] people: Alex, Jordan, Taylor, and Chris. Alex claimed, \"Jordan is a knave\". Jordan stated, \"Chris is a knave or Alex is a knight\". Taylor expressed, \"Chris is a knight and Taylor is a knight\". Chris said, \"Alex is a knight\". Who qualifies as a knight, and who qualifies as a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Robin, Avery, Quinn, and Taylor. Robin commented, \"Avery is a knave\". Avery stated, \"Quinn is a knave or Robin is a knight\". In Quinn's words: \"Taylor is a knight and Quinn is a knight\". According to Taylor, \"Robin is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the population consists solely of knights and knaves. Knights always speak truthfully, while knaves are known to lie. You encounter [BLANK] residents: Robin, Avery, Quinn, and Taylor. Robin declared, \"Avery is a knave\". Avery remarked, \"Quinn is a knave or Robin is a knight\". Quinn said, \"Taylor is a knight and I am a knight\". Taylor claimed, \"Robin is a knight\". Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a peculiar island where only knights and knaves reside. Knights tell the truth, in contrast to knaves who always deceive. You come across [BLANK] individuals: Robin, Avery, Quinn, and Taylor. Robin asserted, \"Avery is a knave\". Avery indicated, \"Quinn is a knave or Robin is a knight\". In Quinn's statement: \"Taylor is a knight and I am a knight\". Taylor expressed, \"Robin is a knight\". Identify who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A remarkable island is home to only knights and knaves. Knights are truthful, while knaves are liars. You meet [BLANK] people: Robin, Avery, Quinn, and Taylor. Robin said, \"Avery is a knave\". Avery claimed, \"Quinn is a knave or Robin is a knight\". Quinn mentioned, \"Taylor is a knight and I am a knight\". According to Taylor, \"Robin is a knight\". Determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a distinctive island, the inhabitants are exclusively knights and knaves. Knights always tell the truth, whereas knaves are perpetual liars. You encounter [BLANK] characters: Robin, Avery, Quinn, and Taylor. Robin stated, \"Avery is a knave\". Avery claimed, \"Quinn is a knave or Robin is a knight\". Quinn said, \"Taylor is a knight and I am a knight\". Taylor asserted, \"Robin is a knight\". Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a special island setting, the only residents are knights and knaves. Knights are truthful, while knaves always lie. You meet [BLANK] characters: Robin, Avery, Quinn, and Taylor. Robin remarked, \"Avery is a knave\". Avery expressed, \"Quinn is a knave or Robin is a knight\". Quinn declared, \"Taylor is a knight and I am a knight\". Taylor stated, \"Robin is a knight\". Who qualifies as a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Chloe, Mia, Sofia, and Mason. Chloe commented, \"Mia is a knave\". Mia stated, \"Mason is a knave or Chloe is a knight\". In Sofia's words: \"Mason is a knight and Sofia is a knight\". According to Mason, \"Chloe is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the population consists solely of knights and knaves. Knights are truthful, while knaves are deceitful. You encounter [BLANK] individuals: Chloe, Mia, Sofia, and Mason. Chloe remarked, \"Mia is a knave.\" Mia claimed, \"Mason is either a knave or Chloe is a knight.\" Sofia expressed, \"Mason is a knight and I, Sofia, am a knight.\" Mason asserted, \"Chloe is a knight.\" Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a distinct island where only knights and knaves reside. Knights always speak the truth, whereas knaves are perpetual liars. You come across [BLANK] residents: Chloe, Mia, Sofia, and Mason. Chloe said, \"Mia is a knave.\" Mia declared, \"Mason is a knave or Chloe is a knight.\" According to Sofia, \"Mason is a knight and I, Sofia, am also a knight.\" Mason stated, \"Chloe is a knight.\" Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A peculiar island is home to only knights and knaves. Knights consistently tell the truth, while knaves always deceive. You meet [BLANK] people: Chloe, Mia, Sofia, and Mason. Chloe asserted, \"Mia is a knave.\" Mia mentioned, \"Either Mason is a knave or Chloe is a knight.\" In Sofia's statement: \"Mason is a knight, and I am Sofia, a knight as well.\" Mason commented, \"Chloe is a knight.\" Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On an extraordinary island, the inhabitants are exclusively knights and knaves. Knights are truthful, and knaves are known to lie. You encounter [BLANK] characters: Chloe, Mia, Sofia, and Mason. Chloe indicated, \"Mia is a knave.\" Mia remarked, \"Mason is either a knave or Chloe is a knight.\" In Sofia's declaration: \"Mason is a knight, and I am Sofia, a knight too.\" Mason professed, \"Chloe is a knight.\" Who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a remarkable island, only knights and knaves dwell. Knights are truthful, while knaves are always dishonest. You meet [BLANK] citizens: Chloe, Mia, Sofia, and Mason. Chloe declared, \"Mia is a knave.\" Mia opined, \"Mason is a knave or Chloe is a knight.\" Sofia stated, \"Mason is a knight, and I am Sofia, a knight.\" Mason claimed, \"Chloe is a knight.\" Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Lloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total hours worked",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Lloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Lloyd earns $10 an hour on Math tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lydia earns $15 an hour on Science tutoring. She tutored 6 hours for the first week and 7 hours for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Lydia earns $15 an hour on Science tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Mark earns $12 an hour on English tutoring. He tutored 4 hours for the first week and 9 hours for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mark earns $12 an hour on English tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Nina earns $20 an hour on History tutoring. She tutored 3 hours for the first week and 10 hours for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Nina earns $20 an hour on History tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Oliver earns $14 an hour on Physics tutoring. He tutored 8 hours for the first week and 5 hours for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Oliver earns $14 an hour on Physics tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sophia earns $18 an hour on Computer Science tutoring. She tutored 7 hours for the first week and 6 hours for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia earns $18 an hour on Computer Science tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total hours worked"
+    }
+  ],
+  "num_valid_similars": 5
+}

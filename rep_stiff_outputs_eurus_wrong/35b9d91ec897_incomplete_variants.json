@@ -1,0 +1,210 @@
+{
+  "original_question": "For numbers from 1 to 1992, calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting 1992 numbers, and so on, until 1992 single-digit numbers are obtained. How many 1s, 9s, and 0s are there among these numbers?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 6s, 4s, and 8s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Calculate the sum of the digits for each number ranging from 1 to [BLANK], then find the sum of the digits of the resulting [BLANK] sums, and continue this process until [BLANK] single-digit results are achieved. How many 6s, 4s, and 8s can be found among these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From the numbers 1 to [BLANK], find the sum of the digits of every number, then sum the digits of these resulting [BLANK] totals, continuing until you achieve [BLANK] single-digit figures. What is the count of 6s, 4s, and 8s present in these figures?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Starting with numbers from 1 to [BLANK], compute the digit sum of each number, then proceed to calculate the digit sum of the [BLANK] resulting sums, repeating this until you have [BLANK] single-digit numbers. How many 6s, 4s, and 8s appear among these numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For the range of numbers from 1 to [BLANK], determine the sum of the digits for each number, then calculate the digit sum of the resulting [BLANK] totals, and repeat this process until [BLANK] single-digit outcomes are reached. Among these outcomes, how many 6s, 4s, and 8s exist?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set of numbers from 1 to [BLANK], where you first calculate the digit sums of each individual number, then find the digit sums of these [BLANK] resulting values, continuing until you obtain [BLANK] single-digit numbers. What is the quantity of 6s, 4s, and 8s in these numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 2s, 5s, and 3s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the total of the digits for every number from 1 to [BLANK], then find the total of the digits of the resulting [BLANK] totals, and continue this process until [BLANK] single-digit totals are achieved. How many 2s, 5s, and 3s can be found within these totals?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From the range of numbers starting at 1 up to [BLANK], compute the digit sum for each number, afterward compute the digit sum of the resulting [BLANK] sums, and repeat this until [BLANK] single-digit results are reached. What is the count of 2s, 5s, and 3s in these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the integers ranging from 1 to [BLANK], add the digits of each integer, then sum the digits of the resulting [BLANK] sums, continuing this until you derive [BLANK] single-digit integers. How many instances of 2s, 5s, and 3s exist among these integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the digit sum for each number from 1 through [BLANK], then take the digit sum of the resulting [BLANK] totals, and repeat this process until [BLANK] single-digit integers are produced. What is the quantity of 2s, 5s, and 3s present in these integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For all numbers between 1 and [BLANK], find the sum of their digits, then compute the sum of the digits of the resulting [BLANK] sums, and repeat this until you obtain [BLANK] single-digit results. How many 2s, 5s, and 3s can be identified among these results?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 8s, 1s, and 2s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For integers ranging from 1 to [BLANK], find the total of the digits of each integer, then determine the total of the digits of the resulting [BLANK] integers, continuing this process until [BLANK] single-digit integers are achieved. How many 8s, 1s, and 2s exist among these integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From the numbers 1 up to [BLANK], compute the sum of the digits for each number, then find the sum of the digits of the resulting [BLANK] numbers, and repeat this until [BLANK] single-digit numbers are reached. How many 8s, 1s, and 2s can be found in this set of numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the range of numbers beginning at 1 and ending at [BLANK]. Calculate the digit sum for each of these numbers, then calculate the digit sum of the resulting [BLANK] numbers, continuing this until [BLANK] single-digit numbers are produced. What is the count of 8s, 1s, and 2s among these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For the set of numbers starting from 1 to [BLANK], determine the sum of the digits for each number, then derive the sum of the digits from the resulting [BLANK] numbers, and proceed in this manner until [BLANK] single-digit results are obtained. How many 8s, 1s, and 2s are present in these numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Within the range of numbers from 1 to [BLANK], calculate the digit sums for each number, then calculate the digit sums of the resulting [BLANK] numbers, and repeat this process until [BLANK] single-digit numbers are formed. How many 8s, 1s, and 2s can be found in these numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 3s, 0s, and 9s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Calculate the sum of the digits for each number ranging from 1 to [BLANK], then find the sum of the digits for the resulting [BLANK] totals continuously, until [BLANK] single-digit results are achieved. How many 3s, 0s, and 9s are present among these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From the numbers 1 to [BLANK], determine the digit sum for every number, then compute the digit sum of the resulting [BLANK] sums repeatedly, until you end up with [BLANK] single-digit figures. What is the count of 3s, 0s, and 9s in these figures?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the range of numbers starting at 1 up to [BLANK], find the digit sum for each number, then sum the digits of the resulting [BLANK] values successively, until [BLANK] single-digit outcomes are reached. How many occurrences of 3s, 0s, and 9s exist among these outcomes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Begin with numbers from 1 through [BLANK], calculate the digit sum for each, then sum the digits of the resulting [BLANK] outcomes repeatedly, until [BLANK] single-digit numbers are produced. How many 3s, 0s, and 9s can be found among these numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every number in the range from 1 to [BLANK], compute the sum of its digits, then take the digit sum of the resulting [BLANK] sums iteratively, until you arrive at [BLANK] single-digit numbers. What is the number of 3s, 0s, and 9s among those numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 4s, 7s, and 6s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the integers ranging from 1 to [BLANK]. Determine the digit sum for each of these integers, then find the digit sum of the resulting [BLANK] sums, and repeat this process until [BLANK] single-digit results are achieved. What is the count of 4s, 7s, and 6s within these outcomes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Take the numbers from 1 to [BLANK], compute the sum of the digits for each of these numbers, then calculate the digit sums of the resulting [BLANK] totals, and continue this until you reach [BLANK] single-digit values. How many times do the digits 4, 7, and 6 appear in these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the range of integers from 1 to [BLANK], find the digit sum for each integer, subsequently compute the digit sums of the resulting [BLANK] values, and continue this process until [BLANK] single-digit numbers are derived. How many occurrences of the digits 4, 7, and 6 are present in these numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "From the set of numbers starting at 1 up to [BLANK], calculate the sum of the digits for each individual number, then sum the digits of the resulting [BLANK] numbers, and repeat until you obtain [BLANK] single-digit figures. What is the total number of 4s, 7s, and 6s in these figures?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Examine the numbers from 1 to [BLANK], and find the digit sum for each number. Next, compute the digit sums of the resulting [BLANK] sums and continue this process until you arrive at [BLANK] single-digit numbers. How many instances of the digits 4, 7, and 6 can be found among these numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For numbers from 1 to [BLANK], calculate the sum of the digits of each number, then calculate the sum of the digits of the resulting [BLANK] numbers, and so on, until [BLANK] single-digit numbers are obtained. How many 1s, 9s, and 0s are there among these numbers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Starting with the integers ranging from 1 to [BLANK], find the total of the digits for each integer, then find the total of the digits from the resulting [BLANK] totals, and repeat this process until [BLANK] single-digit values are reached. How many 1s, 9s, and 0s can be found within these values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Take all whole numbers from 1 to [BLANK], determine the sum of the digits for each number, then sum the digits of the resulting [BLANK] sums, continuing this until you arrive at [BLANK] single-digit results. How many occurrences of 1, 9, and 0 exist among these results?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For the integers that span from 1 to [BLANK], compute the digit sum for each number, then proceed to calculate the digit sum of the resulting [BLANK] sums, and repeat this until you achieve [BLANK] single-digit outcomes. What is the count of 1s, 9s, and 0s in these outcomes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the numbers between 1 and [BLANK], compute the digit sum for each one, then find the sum of the digits of the resulting [BLANK] sums, and continue this process until [BLANK] single-digit figures are produced. What is the tally of 1s, 9s, and 0s present among these figures?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "From the set of numbers ranging from 1 to [BLANK], calculate the sum of the digits for every number, then determine the digit sum of the resulting [BLANK] sums, and keep going until you have [BLANK] single-digit numbers. How many 1s, 9s, and 0s are contained in these numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

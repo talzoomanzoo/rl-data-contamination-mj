@@ -1,0 +1,62 @@
+{
+  "original_question": "Rectangle ABCD has AB = 6 and BC = 3. Point M is chosen on side AB so that \u2220AMD = \u2220CMD. Calculate the degree measure of \u2220AMD.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the lengths of the sides of the rectangle\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Rectangle ABCD has AB = 6 and BC = 3. Point M is chosen on side AB so that \u2220AMD = \u2220CMD. Calculate the degree measure of \u2220AMD.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Rectangle ABCD has AB = [BLANK] and BC = [BLANK]. Point M is chosen on side AB so that \u2220AMD = \u2220CMD. Calculate the degree measure of \u2220AMD.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Rectangle EFGH has EF = 8 and FG = 4. Point N is chosen on side EF so that \u2220ENG = \u2220FNH. Calculate the degree measure of \u2220ENG.",
+      "incomplete_question": "Rectangle EFGH has EF = [BLANK] and FG = [BLANK]. Point N is chosen on side EF so that \u2220ENG = \u2220FNH. Calculate the degree measure of \u2220ENG.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Rectangle IJKL has IJ = 10 and JK = 5. Point O is chosen on side IJ so that \u2220OJL = \u2220KOL. Calculate the degree measure of \u2220OJL.",
+      "incomplete_question": "Rectangle IJKL has IJ = [BLANK] and JK = [BLANK]. Point O is chosen on side IJ so that \u2220OJL = \u2220KOL. Calculate the degree measure of \u2220OJL.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Rectangle MNOP has MN = 4 and NO = 2. Point P is chosen on side MN so that \u2220MPN = \u2220NPO. Calculate the degree measure of \u2220MPN.",
+      "incomplete_question": "Rectangle MNOP has MN = [BLANK] and NO = [BLANK]. Point P is chosen on side MN so that \u2220MPN = \u2220NPO. Calculate the degree measure of \u2220MPN.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Rectangle QRST has QR = 12 and RS = 6. Point Q is chosen on side QR so that \u2220QRS = \u2220SQT. Calculate the degree measure of \u2220QRS.",
+      "incomplete_question": "Rectangle QRST has QR = [BLANK] and RS = [BLANK]. Point Q is chosen on side QR so that \u2220QRS = \u2220SQT. Calculate the degree measure of \u2220QRS.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Rectangle UVWX has UV = 7 and VW = 3. Point Y is chosen on side UV so that \u2220UYX = \u2220WXY. Calculate the degree measure of \u2220UYX.",
+      "incomplete_question": "Rectangle UVWX has UV = [BLANK] and VW = [BLANK]. Point Y is chosen on side UV so that \u2220UYX = \u2220WXY. Calculate the degree measure of \u2220UYX.",
+      "info_removed": "\"the lengths of the sides of the rectangle\""
+    }
+  ],
+  "num_valid_similars": 5
+}

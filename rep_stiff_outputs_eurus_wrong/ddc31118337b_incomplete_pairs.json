@@ -1,0 +1,62 @@
+{
+  "original_question": "Regina wrote 9 novels last year. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of novels written last year",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Regina wrote 9 novels last year. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Regina wrote [BLANK]. If this is 3 quarters of the number of novels she has written this year, how many novels has she written this year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of novels written last year"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Alex wrote 12 poems last year. If this is 4 quarters of the number of poems he has written this year, how many poems has he written this year?",
+      "incomplete_question": "Alex wrote 12 poems last year. If this is 4 quarters of the number of poems he has written this year, how many poems has he written this year?",
+      "info_removed": "the number of novels written last year"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Samantha painted 15 landscapes last year. If this is 5 quarters of the number of landscapes she has painted this year, how many landscapes has she painted this year?",
+      "incomplete_question": "Samantha painted [BLANK] landscapes last year. If this is 5 quarters of the number of landscapes she has painted this year, how many landscapes has she painted this year?",
+      "info_removed": "the number of novels written last year"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Jordan completed 6 art projects last year. If this is 2 quarters of the number of art projects he has completed this year, how many art projects has he completed this year?",
+      "incomplete_question": "Jordan completed [BLANK] art projects last year. If this is 2 quarters of the number of art projects he has completed this year, how many art projects has he completed this year?",
+      "info_removed": "the number of novels written last year"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Liam composed 18 songs last year. If this is 6 quarters of the number of songs he has composed this year, how many songs has he composed this year?",
+      "incomplete_question": "Liam composed [BLANK] songs last year. If this is 6 quarters of the number of songs he has composed this year, how many songs has he composed this year?",
+      "info_removed": "the number of novels written last year"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ella wrote 10 short stories last year. If this is 2 quarters of the number of short stories she has written this year, how many short stories has she written this year?",
+      "incomplete_question": "Ella wrote [BLANK] short stories last year. If this is 2 quarters of the number of short stories she has written this year, how many short stories has she written this year?",
+      "info_removed": "the number of novels written last year"
+    }
+  ],
+  "num_valid_similars": 4
+}

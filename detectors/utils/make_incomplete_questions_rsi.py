@@ -5,6 +5,9 @@ import argparse
 import requests
 import re
 from pathlib import Path
+import time
+import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 
@@ -12,6 +15,108 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
     raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+OPENROUTER_MAX_RETRIES = int(os.getenv("OPENROUTER_MAX_RETRIES", "6"))
+OPENROUTER_RETRY_BASE_SECONDS = float(os.getenv("OPENROUTER_RETRY_BASE_SECONDS", "1.0"))
+OPENROUTER_RETRY_MAX_SECONDS = float(os.getenv("OPENROUTER_RETRY_MAX_SECONDS", "30.0"))
+OPENROUTER_TIMEOUT_SECONDS = float(os.getenv("OPENROUTER_TIMEOUT_SECONDS", "90"))
+OPENROUTER_PARAPHRASE_WORKERS = int(os.getenv("OPENROUTER_PARAPHRASE_WORKERS", "8"))
+
+
+def _sleep_with_backoff(attempt: int) -> None:
+    # Exponential backoff with jitter
+    base = min(OPENROUTER_RETRY_MAX_SECONDS, OPENROUTER_RETRY_BASE_SECONDS * (2 ** attempt))
+    jitter = 0.5 + random.random()  # in [0.5, 1.5)
+    time.sleep(base * jitter)
+
+
+def _openrouter_chat_completion_content(*, headers: dict, data: dict) -> str:
+    """
+    Call OpenRouter chat/completions with retries.
+    Retries transient HTTP errors, network errors, and partial/malformed JSON.
+    Returns the assistant message content.
+    """
+    last_err: Exception | None = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        try:
+            response = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers=headers,
+                json=data,
+                timeout=OPENROUTER_TIMEOUT_SECONDS,
+            )
+
+            # Retry common transient statuses
+            if response.status_code in (408, 409, 425, 429, 500, 502, 503, 504):
+                raise RuntimeError(f"transient HTTP {response.status_code}: {response.text[:2000]}")
+
+            if response.status_code != 200:
+                raise RuntimeError(f"HTTP {response.status_code}: {response.text[:2000]}")
+
+            # JSON decoding can fail if response ended prematurely; treat as retryable.
+            result = response.json()
+            content = result["choices"][0]["message"]["content"]
+            if not isinstance(content, str) or not content.strip():
+                raise ValueError("Empty/non-string OpenRouter content")
+            return content
+        except Exception as e:
+            last_err = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                raise
+            _sleep_with_backoff(attempt)
+    # Unreachable, but keeps type-checkers happy.
+    raise RuntimeError(f"OpenRouter call failed: {last_err}")
+
+
+def _is_blank_preserved(text: str) -> bool:
+    return "[BLANK]" in text or "[blank]" in text.lower()
+
+
+def _generate_paraphrases_parallel(
+    incomplete_question: str,
+    *,
+    model: str,
+    target_new: int,
+    existing: set[str],
+    max_workers: int,
+) -> list[str]:
+    """
+    Generate up to `target_new` unique paraphrases concurrently.
+    Each worker call has its own OpenRouter retries.
+    """
+    if target_new <= 0:
+        return []
+
+    # Oversample to counter duplicates / low-quality outputs.
+    submit_n = max(target_new, min(target_new * 3, 30))
+    out: list[str] = []
+
+    max_workers = max(1, min(max_workers, submit_n))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = [
+            ex.submit(generate_paraphrase_variant, incomplete_question, model)
+            for _ in range(submit_n)
+        ]
+        for fut in as_completed(futures):
+            try:
+                v = fut.result()
+            except Exception as e:
+                # Keep going; transient errors should already be retried internally.
+                continue
+            if not v:
+                continue
+            v = v.strip()
+            if not v or v == incomplete_question:
+                continue
+            if not _is_blank_preserved(v):
+                continue
+            if v in existing:
+                continue
+            existing.add(v)
+            out.append(v)
+            if len(out) >= target_new:
+                break
+    return out
 
 def load_incomplete_questions(input_file):
     """Load incomplete questions from a JSON or JSONL file."""
@@ -157,18 +262,8 @@ Output ONLY the paraphrased version with [BLANK] in the same position. Do not in
         "temperature": 0.7,
         "max_tokens": 2000
     }
-    
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-    
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-    
-    result = response.json()
-    paraphrased = result['choices'][0]['message']['content'].strip()
+
+    paraphrased = _openrouter_chat_completion_content(headers=headers, data=data).strip()
     
     # Clean up the response (remove quotes if present)
     if paraphrased.startswith('"') and paraphrased.endswith('"'):
@@ -226,17 +321,7 @@ Output ONLY a JSON array of {num_variants} strings with the paraphrased versions
         "max_tokens": 2000
     }
 
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=data
-    )
-
-    if response.status_code != 200:
-        raise Exception(f"API request failed with status {response.status_code}: {response.text}")
-
-    result = response.json()
-    content = result['choices'][0]['message']['content']
+    content = _openrouter_chat_completion_content(headers=headers, data=data)
 
     try:
         start_idx = content.find('[')
@@ -247,7 +332,24 @@ Output ONLY a JSON array of {num_variants} strings with the paraphrased versions
         else:
             raise json.JSONDecodeError("No JSON array found", content, 0)
     except json.JSONDecodeError as e:
-        raise ValueError(f"Failed to parse JSON array from batch response: {e}")
+        # Treat parse failures as transient by retrying the whole call a few times.
+        last = e
+        for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                raise ValueError(f"Failed to parse JSON array from batch response after retries: {last}")
+            _sleep_with_backoff(attempt)
+            content = _openrouter_chat_completion_content(headers=headers, data=data)
+            try:
+                start_idx = content.find('[')
+                end_idx = content.rfind(']') + 1
+                if start_idx != -1 and end_idx > start_idx:
+                    json_str = content[start_idx:end_idx]
+                    variants = json.loads(json_str)
+                    break
+                raise json.JSONDecodeError("No JSON array found", content, 0)
+            except json.JSONDecodeError as e2:
+                last = e2
+                continue
 
     if not isinstance(variants, list):
         raise ValueError("Batch response is not a JSON array")
@@ -272,15 +374,18 @@ def generate_incomplete_variants(incomplete_question, num_variants=5, model="ope
     
     # Strategy 1: Paraphrase using LLM (generate multiple)
     num_llm_variants = max(2, num_variants // 2)  # Use LLM for at least half
-    
-    for i in range(num_llm_variants):
-        try:
-            variant = generate_paraphrase_variant(incomplete_question, model)
-            if variant and variant != incomplete_question:
-                variants.append(variant)
-                strategies.append("paraphrase_llm")
-        except Exception as e:
-            print(f"Warning: Failed to generate LLM paraphrase variant {i+1}: {e}")
+
+    existing = set()
+    llm_variants = _generate_paraphrases_parallel(
+        incomplete_question,
+        model=model,
+        target_new=num_llm_variants,
+        existing=existing,
+        max_workers=OPENROUTER_PARAPHRASE_WORKERS,
+    )
+    for v in llm_variants:
+        variants.append(v)
+        strategies.append("paraphrase_llm")
     
     # Strategy 2: Clause reordering
     try:
@@ -309,16 +414,20 @@ def generate_incomplete_variants(incomplete_question, num_variants=5, model="ope
     except Exception as e:
         print(f"Warning: Failed to apply formatting changes: {e}")
     
-    # If we need more variants, generate additional LLM paraphrases
-    while len(variants) < num_variants:
-        try:
-            variant = generate_paraphrase_variant(incomplete_question, model)
-            if variant and variant != incomplete_question and variant not in variants:
-                variants.append(variant)
-                strategies.append("paraphrase_llm")
-        except Exception as e:
-            print(f"Warning: Failed to generate additional LLM variant: {e}")
-            break
+    # If we need more variants, generate additional LLM paraphrases.
+    # Don't give up on the first transient failure; keep trying up to a limit.
+    remaining = num_variants - len(variants)
+    if remaining > 0:
+        more = _generate_paraphrases_parallel(
+            incomplete_question,
+            model=model,
+            target_new=remaining,
+            existing=existing,
+            max_workers=OPENROUTER_PARAPHRASE_WORKERS,
+        )
+        for v in more:
+            variants.append(v)
+            strategies.append("paraphrase_llm")
     
     # Ensure we have at least the original if no variants were generated
     if not variants:

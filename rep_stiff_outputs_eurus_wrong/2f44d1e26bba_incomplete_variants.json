@@ -1,0 +1,210 @@
+{
+  "original_question": "James hires a horse-drawn carriage from 5 PM to 9 PM.  He gets 1 hour free.  The first paid hour is $15 and each hour after that is twice the cost.  How much did he pay? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Olivia hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $25 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Olivia rents a horse-drawn carriage from [BLANK]. She receives the first hour at no charge. The cost for the initial paid hour is $25, and every subsequent hour costs double that amount. What is her total payment? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia obtains a horse-drawn carriage from [BLANK]. The first hour is complimentary. The charge for the first hour after the free one is $25, and each additional hour is priced at twice that. How much did she end up spending? Let's break it down step by step and present the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia secures a horse-drawn carriage from [BLANK]. She is allowed one hour free of charge. The fee for the first hour thereafter is $25, and every hour beyond that is charged at double the initial rate. How much does she owe? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Olivia arranges for a horse-drawn carriage from [BLANK]. She enjoys one hour free. The cost for the first hour she pays is $25, and any hour after that costs twice as much. What is the total amount she paid? Let's go through it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Olivia hires a horse-drawn carriage from [BLANK]. She gets one hour at no cost. The first hour that requires payment is $25, and each additional hour is charged at twice that rate. How much did she ultimately pay? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $10 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael rents a horse-drawn carriage from [BLANK]. He receives 1 hour at no charge. The initial hour that he pays for costs $10, and subsequent hours are double that price. What is the total cost he incurred? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael obtains a horse-drawn carriage from [BLANK]. He enjoys 1 hour for free. The charge for the first hour is $10, and each additional hour is priced at twice that amount. How much did he ultimately spend? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael engages a horse-drawn carriage from [BLANK]. He has 1 hour complimentary. The fee for the first hour is $10, while every hour following that costs twice the initial fee. What is the amount he paid in total? Let's go through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael secures a horse-drawn carriage from [BLANK]. He gets 1 free hour. The cost for the first paid hour is $10, and each hour beyond that is twice the fee. How much did he end up paying? Let's examine it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael arranges for a horse-drawn carriage from [BLANK]. He is allowed 1 hour at no cost. The price for the first hour he pays is $10, and every hour that follows is priced at double that. How much did he pay overall? Let's consider it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Emma hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $18 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma rents a horse-drawn carriage from [BLANK]. She receives 1 hour at no cost. The initial hour that she pays for costs $18, and every subsequent hour is double that price. What is her total payment? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma engages a horse-drawn carriage from [BLANK]. She is granted 1 hour free of charge. The first hour she pays for is priced at $18, and each additional hour costs twice that amount. How much does she owe in total? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma books a horse-drawn carriage from [BLANK]. She gets the first hour for free. The cost for the first paid hour is $18, and every hour that follows is twice that price. How much has she spent? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma obtains a horse-drawn carriage from [BLANK]. She has 1 hour complimentary. The charge for the first paid hour is $18, and every hour thereafter is twice that fee. What is the total amount she paid? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma secures a horse-drawn carriage from [BLANK]. She enjoys 1 hour free. The cost for the first hour she pays is $18, and each following hour is twice that cost. How much did she end up paying? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "James hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $15 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James rents a carriage pulled by a horse from [BLANK]. He receives one hour at no charge. The cost for the first additional hour is $15, and every subsequent hour costs double that amount. What was his total expense? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James books a horse-drawn carriage from [BLANK]. He enjoys one complimentary hour. The fee for the first paid hour is $15, while each hour that follows is priced at twice that rate. How much did he end up spending? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James secures a horse-drawn carriage service from [BLANK]. He gets the first hour free of charge. The price for the first hour he pays is $15, and every hour thereafter costs twice as much. What is the total amount he paid? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James acquires a horse-drawn carriage from [BLANK]. He has one hour at no cost. The charge for the first hour after that is $15, and each additional hour is double that price. How much was his total payment? Let's consider it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James engages a horse-drawn carriage from [BLANK]. He is given one hour for free. The fee for the initial hour he must pay is $15, and every hour following that costs twice as much. What did he pay in total? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Samantha hires a horse-drawn carriage from [BLANK]. She gets 1 hour free. The first paid hour is $20 and each hour after that is twice the cost. How much did she pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Samantha rents a horse-drawn carriage for [BLANK]. She receives 1 hour at no charge. The cost for the first paid hour is $20, and each additional hour costs double that amount. What is the total amount she paid? Let's reason through this and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha takes a horse-drawn carriage from [BLANK]. She gets the first hour for free. The charge for the initial paid hour is $20, and each subsequent hour is priced at twice that. How much did she end up paying? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Samantha borrows a horse-drawn carriage from [BLANK]. She has 1 hour for free. The cost of the first hour she pays is $20, and every hour following that is double the price. What total does she owe? Let's work through this logically and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha obtains a horse-drawn carriage at [BLANK]. She is entitled to 1 hour free of charge. The fee for the first hour she pays is $20, and each hour beyond that is charged at twice the rate. How much has she spent? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Samantha acquires a horse-drawn carriage from [BLANK]. She has 1 hour for free. The initial paid hour costs $20, and every additional hour is twice that amount. How much does she need to pay? Let's think this through and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam hires a horse-drawn carriage from [BLANK]. He gets 1 hour free. The first paid hour is $30 and each hour after that is twice the cost. How much did he pay? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam rents a carriage pulled by a horse from [BLANK]. He receives the first hour at no charge. The cost for the initial hour after the free one is $30, and each subsequent hour costs double that amount. What was his total payment? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam obtains a horse-drawn carriage rental from [BLANK]. He enjoys one hour free of charge. The price for the first additional hour is $30, with each hour that follows costing twice that amount. How much did he end up paying? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam engages a horse-drawn carriage service from [BLANK]. He is granted one hour for free. The charge for the first hour thereafter is $30, and every hour that follows is priced at double that. What total amount did he spend? We will compute this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam secures a horse-drawn carriage from [BLANK]. He benefits from one hour free of charge. The fee for the first hour he pays is $30, and each additional hour costs twice that. How much was his total charge? Let's reason through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam takes a horse-drawn carriage on hire from [BLANK]. He receives the first hour complimentary. The cost for the first paid hour is $30, and each hour that follows costs double this price. What total did he pay? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

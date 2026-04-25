@@ -1,0 +1,210 @@
+{
+  "original_question": "A square and an equilateral triangle have the same perimeter. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An equilateral triangle and a square possess [BLANK]. Define $A$ as the area of the circumscribed circle of the square and $B$ as the area of the circumscribed circle of the triangle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A square and an equilateral triangle share [BLANK]. Let $A$ represent the area of the circle that circumscribes the square, while $B$ denotes the area of the circle that circumscribes the triangle. Determine the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A square along with an equilateral triangle has [BLANK]. Assign $A$ to be the area of the circle circumscribed around the square and $B$ to be the area of the circle circumscribed around the triangle. Find the ratio $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An equilateral triangle is combined with a square which has [BLANK]. Let $A$ symbolize the area of the circle encircling the square, and $B$ the area of the circle encircling the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A square and an equilateral triangle exhibit [BLANK]. Let $A$ denote the area of the circle that is circumscribed about the square, and $B$ the area of the circle that is circumscribed around the triangle. Find the expression for $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A square and an equilateral triangle possess [BLANK]. Let $A$ represent the area of the circle that circumscribes the square and $B$ denote the area of the circle that circumscribes the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An equilateral triangle and a square share [BLANK]. Define $A$ as the area of the circle that is circumscribed about the square, and $B$ as the area of the circle circumscribed around the triangle. Determine $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists [BLANK] between a square and an equilateral triangle. Let $A$ indicate the area of the circle circumscribing the square, while $B$ signifies the area of the circle that circumscribes the triangle. Find $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A square and an equilateral triangle exhibit [BLANK]. Let $A$ be the area of the circle that circumscribes the square, and let $B$ be the area of the circle that circumscribes the triangle. Find the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The relationship holds that a square and an equilateral triangle have [BLANK]. Assign $A$ to be the area of the circle circumscribed around the square and $B$ to be the area of the circle circumscribed around the triangle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An equilateral triangle and a square possess [BLANK]. Define $A$ as the area of the circle that circumscribes the square and $B$ as the area of the circle that circumscribes the triangle. Determine the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A square and an equilateral triangle share [BLANK]. Let $A$ represent the area of the circumscribed circle around the square and $B$ denote the area of the circumscribed circle around the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists [BLANK] between a square and an equilateral triangle. Let $A$ be the area of the circle circumscribed about the square and let $B$ be the area of the circle circumscribed about the triangle. Find the ratio $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A square and an equilateral triangle have a common property denoted as [BLANK]. Let $A$ stand for the area of the circle that is circumscribed around the square, while $B$ is the area of the circumscribed circle around the triangle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An equilateral triangle and a square exhibit [BLANK]. Define $A$ as the area of the circle that circumvents the square and $B$ as the area of the circle that circumvents the triangle. Assess the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A square and an equilateral triangle possess [BLANK]. Denote $A$ as the area of the circle that circumscribes the square and $B$ as the area of the circle that circumscribes the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a square and an equilateral triangle that have [BLANK]. Let $A$ represent the area of the circumscribing circle of the square, while $B$ signifies the area of the circumscribing circle of the triangle. Determine $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A square and an equilateral triangle are characterized by [BLANK]. Let $A$ indicate the area of the circle circumscribing the square and $B$ indicate the area of the circle circumscribing the triangle. Find the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An equilateral triangle and a square share [BLANK]. Define $A$ as the area of the square's circumscribed circle and $B$ as the area of the triangle's circumscribed circle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A square alongside an equilateral triangle exhibits [BLANK]. Let $A$ denote the area of the circle that circumscribes the square and $B$ denote the area of the circle that circumscribes the triangle. Find the ratio $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A square and an equilateral triangle possess [BLANK]. Define $A$ as the area of the circle that circumscribes the square, and $B$ as the area of the circle that circumscribes the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An equilateral triangle and a square each have [BLANK]. Let $A$ denote the area of the circle circumscribed around the square, while $B$ represents the area of the circle circumscribed about the triangle. Determine the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that a square and an equilateral triangle share [BLANK], let $A$ be the area of the circumcircle of the square and $B$ be the area of the circumcircle of the triangle. Find the ratio $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A square along with an equilateral triangle has [BLANK]. Let $A$ refer to the area of the circle circumscribing the square and $B$ to the area of the circle that circumscribes the triangle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A square and an equilateral triangle are associated with [BLANK]. Define $A$ as the area of the circle that surrounds the square and $B$ as the area of the circle that surrounds the triangle. Find the quotient $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A square and an equilateral triangle have [BLANK]. Let $A$ be the area of the circle circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A square and an equilateral triangle possess [BLANK]. Denote $A$ as the area of the circle circumscribing the square and $B$ as the area of the circle circumscribing the triangle. Compute $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An equilateral triangle and a square have [BLANK]. Let $A$ represent the area of the circle that circumscribes the square, while $B$ denotes the area of the circle that circumscribes the triangle. Determine $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a square and an equilateral triangle that both have [BLANK]. Define $A$ to be the area of the circumscribed circle around the square, and $B$ to be the area of the circumscribed circle around the triangle. Find the value of $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A square along with an equilateral triangle features [BLANK]. Let $A$ stand for the area of the circle circumscribed around the square, and $B$ for the area of the circle circumscribed around the triangle. Calculate $A/B$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An equilateral triangle and a square show [BLANK]. Let $A$ be the area of the circle that is circumscribed about the square and $B$ the area of the circle circumscribed around the triangle. Find $A/B$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

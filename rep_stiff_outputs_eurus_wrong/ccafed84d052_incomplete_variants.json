@@ -1,0 +1,210 @@
+{
+  "original_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = 2n^2 - n$. What is the greatest possible value of the greatest common divisor of $3H_n$ and $n+1$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $3H_n$ and $n+5$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the $n$th hexagonal number $H_n$ is given by $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor of $3H_n$ and $n+5$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $n$, the hexagonal number denoted as $H_n$ is defined by the equation $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $3H_n$ and $n+5$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For all integers $n$ that are positive, the hexagonal number $H_n$ is expressed as $H_n = [BLANK]$. What is the largest possible value of the greatest common divisor of $3H_n$ and $n+5$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For any positive integer $n$, the definition of the $n$th hexagonal number $H_n$ is provided as $H_n = [BLANK]$. What is the greatest possible value for the greatest common divisor of $3H_n$ and $n+5$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For all values of $n$ that are positive integers, the $n$th hexagonal number $H_n$ can be described by $H_n = [BLANK]$. What is the greatest possible value of the gcd of $3H_n$ and $n+5$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the $n$th hexagonal number $H_n$ is expressed as $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For all integers $n$ greater than zero, the $n$th hexagonal number $H_n$ is represented by $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For each positive integer $n$, the $n$th hexagonal number $H_n$ can be defined as $H_n = [BLANK]$. What is the largest possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For any positive integer $n$, the $n$th hexagonal number $H_n$ is given by $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is calculated as $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor of $4H_n$ and $n+2$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the $n$th hexagonal number $H_n$ is expressed as $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For all integers $n$ that are positive, the formula for the $n$th hexagonal number $H_n$ is given by $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For any positive integer $n$, the $n$th hexagonal number $H_n$ is represented as $H_n = [BLANK]$. What is the largest possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $n$, the hexagonal number denoted as $H_n$ is defined by the equation $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For positive integers $n$, the $n$th hexagonal number $H_n$ can be calculated using $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $6H_n$ and $n+6$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $5H_n$ and $n+4$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the hexagonal number denoted as $H_n$ is defined by the equation $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor of $5H_n$ and $n+4$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For all integers $n$ greater than zero, the $n$th hexagonal number, represented as $H_n$, is given by the formula $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $5H_n$ and $n+4$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For any positive integer $n$, the hexagonal number $H_n$ can be expressed as $H_n = [BLANK]$. What is the largest possible value for the greatest common divisor of $5H_n$ and $n+4$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $n$, the definition of the $n$th hexagonal number $H_n$ is $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $5H_n$ and $n+4$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For positive integers $n$, the $n$th hexagonal number, denoted as $H_n$, is characterized by the expression $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $5H_n$ and $n+4$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $3H_n$ and $n+1$? Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the $n$th hexagonal number $H_n$ is given by the formula $H_n = [BLANK]$. What is the maximum possible value of the greatest common divisor between $3H_n$ and $n+1$? Provide your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For all integers $n$ greater than zero, the hexagonal number at position $n$, denoted as $H_n$, can be expressed as $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $3H_n$ and $n+1$? Format your answer in LaTex as: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For any positive integer $n$, the hexagonal number represented by $H_n$ is defined by the equation $H_n = [BLANK]$. What is the largest value that the greatest common divisor of $3H_n$ and $n+1$ can attain? Please present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $n$, the $n$th hexagonal number, denoted $H_n$, is characterized as $H_n = [BLANK]$. What is the greatest potential value of the greatest common divisor of $3H_n$ and $n+1$? Submit your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For all integers $n$ that are positive, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest conceivable value of the greatest common divisor between $3H_n$ and $n+1$? Present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For all positive integers $n$, the $n$th hexagonal number $H_n$ is defined as $H_n = [BLANK]$. What is the greatest possible value of the greatest common divisor of $2H_n$ and $n+3$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, the $n$th hexagonal number $H_n$ is given by $H_n = [BLANK]$. What is the maximum value of the greatest common divisor of $2H_n$ and $n+3$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $n$, the hexagonal number $H_n$ is expressed as $H_n = [BLANK]$. What is the largest possible value of the greatest common divisor of $2H_n$ and $n+3$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For all integers $n$ that are positive, the $n$th hexagonal number $H_n$ can be defined as $H_n = [BLANK]$. What is the highest possible value of the greatest common divisor of $2H_n$ and $n+3$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For any positive integer $n$, the $n$th hexagonal number, denoted $H_n$, is represented by $H_n = [BLANK]$. What is the greatest possible value for the greatest common divisor of $2H_n$ and $n+3$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For all positive integers $n$, the hexagonal number $H_n$ at position $n$ is defined by $H_n = [BLANK]$. What is the largest possible value for the greatest common divisor of $2H_n$ and $n+3$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

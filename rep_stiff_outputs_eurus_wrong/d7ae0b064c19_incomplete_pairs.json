@@ -1,0 +1,62 @@
+{
+  "original_question": "Gunther, the gorilla, had 48 bananas hidden under a fern branch.  When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile.  The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas.  On the third day, Gunther added another 6 bananas to his pile and began counting bananas.  How many bananas did Gunther find were in the pile? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the initial quantity of bananas\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Gunther, the gorilla, had 48 bananas hidden under a fern branch.  When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile.  The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas.  On the third day, Gunther added another 6 bananas to his pile and began counting bananas.  How many bananas did Gunther find were in the pile? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Gunther, the gorilla, had [BLANK] bananas hidden under a fern branch. When Gunther wasn't looking, Arnold, the chimpanzee, stole half of the bananas from the pile. The next day, Gunther added another 25 bananas to his pile, but later that evening, Arnold stole another 12 of the bananas. On the third day, Gunther added another 6 bananas to his pile and began counting bananas. How many bananas did Gunther find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lila, the lemur, had 36 mangoes hidden under a tree stump. When Lila wasn't looking, Benny, the monkey, stole half of the mangoes from the pile. The next day, Lila added another 15 mangoes to her pile, but later that evening, Benny stole another 8 of the mangoes. On the third day, Lila added another 4 mangoes to her pile and began counting mangoes. How many mangoes did Lila find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Lila, the lemur, had [BLANK] mangoes hidden under a tree stump. When Lila wasn't looking, Benny, the monkey, stole half of the mangoes from the pile. The next day, Lila added another 15 mangoes to her pile, but later that evening, Benny stole another 8 of the mangoes. On the third day, Lila added another 4 mangoes to her pile and began counting mangoes. How many mangoes did Lila find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sammy, the squirrel, had 54 acorns hidden in a hollow log. When Sammy wasn't looking, Kevin, the raccoon, stole half of the acorns from the pile. The next day, Sammy added another 20 acorns to his pile, but later that evening, Kevin stole another 10 of the acorns. On the third day, Sammy added another 5 acorns to his pile and began counting acorns. How many acorns did Sammy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sammy, the squirrel, had [BLANK] acorns hidden in a hollow log. When Sammy wasn't looking, Kevin, the raccoon, stole half of the acorns from the pile. The next day, Sammy added another 20 acorns to his pile, but later that evening, Kevin stole another 10 of the acorns. On the third day, Sammy added another 5 acorns to his pile and began counting acorns. How many acorns did Sammy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Daisy, the dog, had 42 bones buried in the backyard. When Daisy wasn't looking, Max, the cat, stole half of the bones from the pile. The next day, Daisy added another 18 bones to her pile, but later that evening, Max stole another 6 of the bones. On the third day, Daisy added another 3 bones to her pile and began counting bones. How many bones did Daisy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Daisy, the dog, had [BLANK] bones buried in the backyard. When Daisy wasn't looking, Max, the cat, stole half of the bones from the pile. The next day, Daisy added another 18 bones to her pile, but later that evening, Max stole another 6 of the bones. On the third day, Daisy added another 3 bones to her pile and began counting bones. How many bones did Daisy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Freddy, the fox, had 60 berries stored in a bush. When Freddy wasn't looking, Charlie, the rabbit, stole half of the berries from the pile. The next day, Freddy added another 22 berries to his pile, but later that evening, Charlie stole another 14 of the berries. On the third day, Freddy added another 7 berries to his pile and began counting berries. How many berries did Freddy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Freddy, the fox, had [BLANK] berries stored in a bush. When Freddy wasn't looking, Charlie, the rabbit, stole half of the berries from the pile. The next day, Freddy added another 22 berries to his pile, but later that evening, Charlie stole another 14 of the berries. On the third day, Freddy added another 7 berries to his pile and began counting berries. How many berries did Freddy find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Tina, the turtle, had 30 seashells collected on the beach. When Tina wasn't looking, Leo, the seagull, stole half of the seashells from the pile. The next day, Tina added another 12 seashells to her pile, but later that evening, Leo stole another 4 of the seashells. On the third day, Tina added another 2 seashells to her pile and began counting seashells. How many seashells did Tina find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Tina, the turtle, had [BLANK] seashells collected on the beach. When Tina wasn't looking, Leo, the seagull, stole half of the seashells from the pile. The next day, Tina added another 12 seashells to her pile, but later that evening, Leo stole another 4 of the seashells. On the third day, Tina added another 2 seashells to her pile and began counting seashells. How many seashells did Tina find were in the pile? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial quantity of bananas\""
+    }
+  ],
+  "num_valid_similars": 5
+}

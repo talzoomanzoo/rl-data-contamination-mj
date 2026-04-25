@@ -1,0 +1,210 @@
+{
+  "original_question": "A bowling ball is a solid sphere with a diameter of 24 cm. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Alex has holes drilled that are 6 cm deep and have diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Sam has holes drilled that are 5 cm deep and have diameters of 1 cm, 1 cm, and 2 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is a solid sphere with a diameter measuring [BLANK]. To tailor a bowling ball for each player, three cylindrical cavities are created in the ball. Bowler Sam has these cavities drilled to a depth of 5 cm and with diameters of 1 cm, 1 cm, and 2 cm. Assuming the three cavities are right circular cylinders, calculate the volume in cubic centimeters of the modified bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball is a solid sphere that has a diameter of [BLANK]. To personalize a bowling ball for every bowler, three cylindrical openings are bored into the ball. Bowler Sam has openings that are 5 cm deep and have diameters measuring 1 cm, 1 cm, and 2 cm. Assuming the three openings are right circular cylinders, determine the volume in cubic centimeters of the adjusted bowling ball. Express your answer using \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is defined as a solid sphere with a diameter of [BLANK]. To fit a bowling ball specifically for each individual bowler, three cylindrical holes are made in the ball. Bowler Sam has these holes drilled to a depth of 5 cm, with diameters of 1 cm, 1 cm, and 2 cm. Assuming these holes are right circular cylinders, find the total volume in cubic centimeters of the customized bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bowling ball consists of a solid sphere with a diameter of [BLANK]. To create a custom fit for each bowler, three cylindrical holes are drilled into the sphere. Bowler Sam has holes that are 5 cm deep and have diameters of 1 cm, 1 cm, and 2 cm. Assuming the holes are right circular cylinders, calculate the volume in cubic centimeters of the fitted bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball is characterized as a solid sphere with a diameter of [BLANK]. For a custom fit for each bowler, three cylindrical holes are carved into the ball. Bowler Sam has these holes drilled to a depth of 5 cm, with diameters of 1 cm, 1 cm, and 2 cm. Assuming these holes are right circular cylinders, find the cubic centimeters of volume in the adjusted bowling ball. Express your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Taylor has holes drilled that are 8 cm deep and have diameters of 1.8 cm, 1.8 cm, and 2.8 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is shaped like a solid sphere with a diameter of [BLANK]. To personalize a bowling ball for each player, three cylindrical holes are created in the ball. Bowler Taylor has holes that are 8 cm deep with diameters measuring 1.8 cm, 1.8 cm, and 2.8 cm. Given that the three holes are right circular cylinders, calculate the volume in cubic centimeters of the customized bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball is a solid sphere featuring a diameter of [BLANK]. To tailor a bowling ball for individual bowlers, three cylindrical holes are bored into the ball. Bowler Taylor has these holes drilled to a depth of 8 cm, with diameters of 1.8 cm, 1.8 cm, and 2.8 cm. Assuming the three holes are right circular cylinders, determine the volume in cubic centimeters of the fitted bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is characterized as a solid sphere with a diameter of [BLANK]. To adjust a bowling ball for each bowler, three cylindrical openings are made in the ball. Bowler Taylor has these holes that are 8 cm deep and have diameters of 1.8 cm, 1.8 cm, and 2.8 cm. If the three holes are right circular cylinders, find the volume in cubic centimeters of the adapted bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bowling ball, which is a solid sphere, has a diameter of [BLANK]. To customize a bowling ball for each individual bowler, three cylindrical holes are drilled into the sphere. Bowler Taylor has holes that are 8 cm deep, with diameters of 1.8 cm, 1.8 cm, and 2.8 cm. Assuming these holes are right circular cylinders, calculate the volume in cubic centimeters of the modified bowling ball. Express your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball is defined as a solid sphere that has a diameter of [BLANK]. To create a custom fit for every bowler, three cylindrical holes are carved into the ball. Bowler Taylor's holes are drilled to a depth of 8 cm with diameters measuring 1.8 cm, 1.8 cm, and 2.8 cm. Given that these holes are right circular cylinders, find the number of cubic centimeters in the volume of the adjusted bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Jordan has holes drilled that are 4 cm deep and have diameters of 1.2 cm, 1.2 cm, and 2.2 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is shaped as a solid sphere with a diameter of [BLANK]. For a personalized fit, three cylindrical holes are made in the ball. Bowler Jordan has three holes that are 4 cm in depth and have diameters of 1.2 cm, 1.2 cm, and 2.2 cm. If we consider the holes to be right circular cylinders, calculate the volume in cubic centimeters of the adjusted bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball takes the form of a solid sphere with a diameter measuring [BLANK]. To tailor the bowling ball for each individual bowler, three cylindrical holes are bored into it. Bowler Jordan's holes are 4 cm deep with diameters of 1.2 cm, 1.2 cm, and 2.2 cm. Assuming these holes are right circular cylinders, determine the volume in cubic centimeters of the customized bowling ball. Express your answer using \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is designed as a solid sphere with a diameter of [BLANK]. To fit the ball to each bowler's needs, three cylindrical holes are drilled inside. Bowler Jordan has holes that measure 4 cm deep and have diameters of 1.2 cm, 1.2 cm, and 2.2 cm. If we assume the holes are right circular cylinders, find the volume in cubic centimeters of the modified bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bowling ball consists of a solid sphere with a diameter of [BLANK]. In order to customize the fit for each bowler, three cylindrical holes are created in it. Bowler Jordan has drilled holes with a depth of 4 cm and diameters of 1.2 cm, 1.2 cm, and 2.2 cm. Assuming these holes are right circular cylinders, calculate the volume in cubic centimeters of the adapted bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball is a solid sphere that has a diameter of [BLANK]. To achieve a custom fit for bowlers, three cylindrical holes are made in the ball. Bowler Jordan's holes are each 4 cm deep and have diameters measuring 1.2 cm, 1.2 cm, and 2.2 cm. Assuming the three holes are right circular cylinders, find the volume, in cubic centimeters, of the fitted bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Jamie has holes drilled that are 7 cm deep and have diameters of 2 cm, 2 cm, and 3 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is a solid sphere with a diameter of [BLANK]. To tailor a bowling ball for each bowler, three cylindrical openings are created in the ball. Bowler Jamie has openings that are 7 cm in depth and have diameters of 2 cm, 2 cm, and 3 cm. Assuming the three openings are right circular cylinders, calculate the volume in cubic centimeters of the customized bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball is a complete sphere featuring a diameter of [BLANK]. To personalize a bowling ball for individual bowlers, three cylindrical holes are bored into the ball. Bowler Jamie has holes that are 7 cm deep with diameters measuring 2 cm, 2 cm, and 3 cm. Assuming these three holes are right circular cylinders, determine the total volume in cubic centimeters of the fitted bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is defined as a solid sphere having a diameter of [BLANK]. To adapt the bowling ball for each bowler, three cylindrical cavities are drilled into it. Bowler Jamie's cavities are 7 cm deep and have diameters of 2 cm, 2 cm, and 3 cm. Assuming the three cavities are right circular cylinders, find the volume in cubic centimeters of the fitted bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bowling ball constitutes a solid sphere with a diameter of [BLANK]. For the purpose of customizing a bowling ball for each player, three cylindrical holes are made in the ball. Bowler Jamie has holes that extend 7 cm deep with diameters of 2 cm, 2 cm, and 3 cm. Assuming these three holes are right circular cylinders, calculate the volume in cubic centimeters of the adjusted bowling ball. Deliver your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball is characterized as a solid sphere having a diameter of [BLANK]. To fit a bowling ball specifically for each bowler, three cylindrical holes are carved into the ball. Bowler Jamie's holes are 7 cm deep and feature diameters of 2 cm, 2 cm, and 3 cm. Assuming the three holes are right circular cylinders, determine the volume in cubic centimeters of the modified bowling ball. Express your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Casey has holes drilled that are 6 cm deep and have diameters of 1.5 cm, 2 cm, and 2.5 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is a solid sphere that has a diameter of [BLANK]. To tailor a bowling ball for every bowler, three cylindrical holes are bored into the ball. Bowler Casey has three holes that are 6 cm in depth, with diameters measuring 1.5 cm, 2 cm, and 2.5 cm. Assuming these three holes are right circular cylinders, calculate the volume in cubic centimeters of the modified bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball, which is a solid sphere, possesses a diameter of [BLANK]. To adapt a bowling ball for individual bowlers, three cylindrical openings are drilled into it. Bowler Casey's holes are 6 cm deep, with diameters of 1.5 cm, 2 cm, and 2.5 cm. Given that the three holes are right circular cylinders, determine the volume in cubic centimeters of the adjusted bowling ball. Express your answer using \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is represented as a solid sphere with a diameter of [BLANK]. In order to customize a bowling ball for each bowler, three cylindrical cavities are created in the ball. Bowler Casey has holes that extend 6 cm deep, with diameters of 1.5 cm, 2 cm, and 2.5 cm. Assuming these holes are right circular cylinders, find the volume in cubic centimeters of the adjusted bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The bowling ball is a solid sphere characterized by a diameter of [BLANK]. To personalize a bowling ball for different bowlers, three cylindrical holes are made in the ball. Bowler Casey has specified holes that are 6 cm deep, with diameters of 1.5 cm, 2 cm, and 2.5 cm. Assuming these holes are right circular cylinders, compute the number of cubic centimeters in the volume of the customized bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball, which is a solid sphere, has a diameter of [BLANK]. To fit a bowling ball specifically for each bowler, three cylindrical holes are drilled into its structure. Bowler Casey's holes are 6 cm deep and have diameters of 1.5 cm, 2 cm, and 2.5 cm. Given that the three holes are right circular cylinders, find the volume in cubic centimeters of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A bowling ball is a solid sphere with a diameter of [BLANK]. To custom fit a bowling ball for each bowler, three cylindrical holes are drilled into the ball. Bowler Alex has holes drilled that are 6 cm deep and have diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming the three holes are right circular cylinders, find the number of cubic centimeters in the volume of the fitted bowling ball. Express your answer in terms of \\(\\pi\\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A bowling ball is a spherical solid with a diameter of [BLANK]. To tailor the bowling ball for each individual bowler, three cylindrical openings are created in the ball. Bowler Alex has openings that measure 6 cm in depth and have diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming the three openings are right circular cylinders, determine the volume in cubic centimeters of the adjusted bowling ball. Provide your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A bowling ball is a solid sphere with a diameter measuring [BLANK]. To personalize the bowling ball for every bowler, three cylindrical holes are bored into the ball. Bowler Alex has holes that are 6 cm deep with diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming these holes are right circular cylinders, calculate the volume in cubic centimeters of the customized bowling ball. State your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A bowling ball is defined as a solid sphere with a diameter of [BLANK]. In order to fit the bowling ball to each bowler's needs, three cylindrical cavities are drilled into it. Bowler Alex has these cavities with a depth of 6 cm and diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming these cavities are right circular cylinders, find the cubic centimeters of volume for the fitted bowling ball. Express your answer using \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A bowling ball is categorized as a solid sphere that has a diameter of [BLANK]. To adapt the bowling ball for each bowler, three cylindrical holes are made in the ball. Bowler Alex has these holes drilled to a depth of 6 cm with diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming each of these holes is a right circular cylinder, compute the volume in cubic centimeters of the modified bowling ball. Present your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A bowling ball is recognized as a solid sphere with a diameter of [BLANK]. To customize the bowling ball for individual bowlers, three cylindrical holes are carved into it. Bowler Alex has these holes at a depth of 6 cm and with diameters of 1.5 cm, 1.5 cm, and 2.5 cm. Assuming the holes are right circular cylinders, determine the volume in cubic centimeters of the altered bowling ball. Express your answer in terms of \\(\\pi\\).",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

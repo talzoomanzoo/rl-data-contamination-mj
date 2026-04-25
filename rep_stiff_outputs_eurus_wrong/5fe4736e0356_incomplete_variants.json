@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Matthew, James, Samuel, and Sofia. Matthew expressed that James is a knight if and only if James is a knave. \"Samuel is a knight,\" James claimed. Samuel said that Sofia is not a knight. \"Samuel is a knight if and only if Sofia is a knight,\" Sofia declared. So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "On an enigmatic island populated only by knights and knaves, you come across [BLANK] individuals: Zoe and Ethan. Zoe expressed that Ethan is a knight if and only if Ethan is a knave. 'I am a knight,' Ethan claimed. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a mysterious island inhabited solely by knights and knaves, you encounter [BLANK] people: Zoe and Ethan. Zoe stated that Ethan is a knight if and only if he is a knave. 'I am a knight,' Ethan asserted. Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a puzzling island where only knights and knaves reside, you find [BLANK] characters: Zoe and Ethan. Zoe claimed that Ethan is a knight if and only if he happens to be a knave. 'I am a knight,' declared Ethan. So, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a strange island where only knights and knaves exist, you stumble upon [BLANK] persons: Zoe and Ethan. Zoe indicated that Ethan is a knight if and only if he is a knave. 'I am a knight,' Ethan professed. Who, then, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an island that is mysterious and inhabited by knights and knaves, you meet [BLANK] individuals: Zoe and Ethan. Zoe mentioned that Ethan is a knight if and only if he is a knave. 'I am a knight,' Ethan stated. Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On an island shrouded in mystery, where only knights and knaves dwell, you encounter [BLANK] figures: Zoe and Ethan. Zoe expressed that Ethan is a knight if and only if he is a knave. 'I am a knight,' claimed Ethan. So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "On a unique island inhabited only by knights and knaves, you encounter [BLANK] residents: Alex, Bella, Charlie, Dana, and Ethan. Alex stated that Bella is a knight if and only if Bella is a knave. 'Charlie is a knight,' Bella claimed. Charlie said that Dana is not a knight. 'Charlie is a knight if and only if Ethan is a knight,' Dana declared. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a distinct island where only knights and knaves reside, you meet [BLANK] inhabitants: Alex, Bella, Charlie, Dana, and Ethan. Alex asserted that Bella is a knight if and only if Bella is a knave. Bella asserted, 'Charlie is a knight.' Charlie remarked that Dana is not a knight. Dana stated, 'Charlie is a knight if and only if Ethan is a knight.' Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar island solely occupied by knights and knaves, you encounter [BLANK] individuals: Alex, Bella, Charlie, Dana, and Ethan. Alex claimed that Bella is a knight if and only if she is a knave. Bella stated, 'Charlie is a knight.' Charlie pointed out that Dana is not a knight. Dana said, 'Charlie is a knight if and only if Ethan is a knight.' So, who qualifies as a knight, and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On an unusual island populated exclusively by knights and knaves, you come across [BLANK] people: Alex, Bella, Charlie, Dana, and Ethan. Alex mentioned that Bella is a knight if and only if she is a knave. Bella remarked, 'Charlie is a knight.' Charlie indicated that Dana is not a knight. Dana announced, 'Charlie is a knight if and only if Ethan is a knight.' Who then is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a singular island where knights and knaves are the only inhabitants, you find [BLANK] residents: Alex, Bella, Charlie, Dana, and Ethan. Alex communicated that Bella is a knight if and only if she is a knave. Bella declared, 'Charlie is a knight.' Charlie suggested that Dana is not a knight. Dana professed, 'Charlie is a knight if and only if Ethan is a knight.' Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a distinctive island, home only to knights and knaves, you meet [BLANK] locals: Alex, Bella, Charlie, Dana, and Ethan. Alex expressed that Bella is a knight if and only if she is a knave. Bella stated, 'Charlie is a knight.' Charlie conveyed that Dana is not a knight. Dana exclaimed, 'Charlie is a knight if and only if Ethan is a knight.' So, who is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Matthew, James, Samuel, and Sofia. Matthew expressed that James is a knight if and only if James is a knave. \"Samuel is a knight,\" James claimed. Samuel said that Sofia is not a knight. \"Samuel is a knight if and only if Sofia is a knight,\" Sofia declared. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the residents are solely knights and knaves. Knights tell the truth at all times, while knaves are always deceitful. You encounter [BLANK] residents: Matthew, James, Samuel, and Sofia. Matthew stated that James is a knight if and only if he is a knave. James asserted, 'Samuel is a knight.' Samuel mentioned that Sofia is not a knight. Sofia proclaimed, 'Samuel is a knight if and only if Sofia is a knight.' So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a distinctive island that is home only to knights and knaves. Knights are always truthful, whereas knaves are perpetually dishonest. You meet [BLANK] people: Matthew, James, Samuel, and Sofia. Matthew remarked that James is a knight if and only if he is a knave. James stated, 'Samuel is a knight.' Samuel indicated that Sofia is not a knight. Sofia announced, 'Samuel is a knight if and only if Sofia is a knight.' Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A remarkable island is populated exclusively by knights and knaves. Knights always speak the truth, while knaves are forever lying. You come across [BLANK] inhabitants: Matthew, James, Samuel, and Sofia. Matthew claimed that James is a knight if and only if he is a knave. James asserted, 'Samuel is a knight.' Samuel declared that Sofia is not a knight. Sofia stated, 'Samuel is a knight if and only if Sofia is a knight.' Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a peculiar island, the only inhabitants are knights and knaves. Knights consistently tell the truth, whereas knaves consistently lie. You encounter [BLANK] individuals: Matthew, James, Samuel, and Sofia. Matthew expressed that James is a knight if and only if he is a knave. James professed, 'Samuel is a knight.' Samuel claimed that Sofia is not a knight. Sofia stated, 'Samuel is a knight if and only if Sofia is a knight.' So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "This special island is solely inhabited by knights and knaves. Knights always tell the truth, while knaves always deceive. You meet [BLANK] individuals: Matthew, James, Samuel, and Sofia. Matthew indicated that James is a knight if and only if he is a knave. James remarked, 'Samuel is a knight.' Samuel said that Sofia is not a knight. Sofia declared, 'Samuel is a knight if and only if Sofia is a knight.' Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "On a mysterious island populated only by knights and knaves, you encounter [BLANK] residents: Mia, Lucas, and Harper. Mia claimed that Lucas is a knight if and only if Lucas is a knave. 'Harper is a knight,' Lucas indicated. Harper stated that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia announced. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On an enigmatic island inhabited solely by knights and knaves, you meet [BLANK] individuals: Mia, Lucas, and Harper. Mia asserted that Lucas is a knight if and only if Lucas is a knave. 'Harper is a knight,' Lucas remarked. Harper claimed that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia declared. Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a puzzling land where only knights and knaves exist, you run into [BLANK] people: Mia, Lucas, and Harper. Mia stated that Lucas is a knight if and only if Lucas is a knave. 'Harper is a knight,' Lucas mentioned. Harper said that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia proclaimed. So, who holds the titles of knight and knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a strange island where knights and knaves are the only inhabitants, you encounter [BLANK] characters: Mia, Lucas, and Harper. Mia claimed that Lucas is a knight if and only if he is a knave. 'Harper is a knight,' Lucas asserted. Harper claimed that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia stated. Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a mysterious realm filled exclusively with knights and knaves, you come across [BLANK] residents: Mia, Lucas, and Harper. Mia declared that Lucas is a knight if and only if he is a knave. 'Harper is a knight,' Lucas stated. Harper mentioned that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia expressed. Hence, who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On an island shrouded in mystery, where knights and knaves dwell, you find [BLANK] inhabitants: Mia, Lucas, and Harper. Mia insisted that Lucas is a knight if and only if he is a knave. 'Harper is a knight,' Lucas declared. Harper remarked that Mia is not a knight. 'Harper is a knight if and only if Mia is a knight,' Mia claimed. As a result, who is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In a strange domain inhabited exclusively by knights and knaves, you meet [BLANK] inhabitants: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia asserted that Jacob is a knight if and only if Jacob is a knave. 'Amelia is a knight,' Jacob declared. Amelia said that William is not a knight. 'Amelia is a knight if and only if Aiden is a knight,' William claimed. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a peculiar realm populated solely by knights and knaves, you encounter [BLANK] residents: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia stated that Jacob is a knight if and only if he is a knave. Jacob remarked, 'Amelia is a knight.' Amelia asserted that William is not a knight. William declared, 'Amelia is a knight if and only if Aiden is a knight.' So, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Within an unusual territory filled entirely with knights and knaves, you come across [BLANK] individuals: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia claimed that Jacob is a knight if and only if he happens to be a knave. Jacob professed, 'Amelia is indeed a knight.' Amelia contended that William is not a knight. William stated, 'Amelia is a knight if and only if Aiden is also a knight.' Thus, can you determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an odd domain where only knights and knaves reside, you meet [BLANK] characters: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia mentioned that Jacob is a knight if and only if he is a knave. Jacob stated, 'Amelia is a knight.' Amelia indicated that William is not a knight. William asserted, 'Amelia is a knight if and only if Aiden is a knight.' Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a bizarre land that is home to only knights and knaves, you encounter [BLANK] people: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia noted that Jacob is a knight if and only if he is a knave. Jacob announced, 'Amelia is a knight.' Amelia claimed that William is not a knight. William mentioned, 'Amelia is a knight if and only if Aiden is a knight.' So, who can be identified as a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a strange world inhabited purely by knights and knaves, you meet [BLANK] citizens: Sophia, Jacob, Amelia, William, Aiden, Grace, and Jack. Sophia declared that Jacob is a knight if and only if he is a knave. Jacob insisted, 'Amelia is a knight.' Amelia remarked that William is not a knight. William indicated, 'Amelia is a knight if and only if Aiden is a knight.' Consequently, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a peculiar land inhabited solely by knights and knaves, you meet [BLANK] individuals: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia remarked that Noah is a knight if and only if Noah is a knave. 'Liam is a knight,' Noah stated. Liam claimed that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma asserted. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a strange realm populated only by knights and knaves, you encounter [BLANK] people: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia said that Noah is a knight if and only if he is a knave. 'Liam is a knight,' Noah declared. Liam stated that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma claimed. Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In an unusual land where only knights and knaves reside, you come across [BLANK] characters: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia noted that Noah is a knight if and only if he is also a knave. 'Liam is a knight,' Noah affirmed. Liam asserted that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma contended. So, who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a fantastical place filled exclusively with knights and knaves, you meet [BLANK] persons: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia stated that Noah is a knight if and only if he is a knave. 'Liam is a knight,' Noah expressed. Liam mentioned that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma remarked. Thus, who is a knight, and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a unique world inhabited only by knights and knaves, you find [BLANK] individuals: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia commented that Noah is a knight if and only if he is a knave. 'Liam is a knight,' Noah mentioned. Liam indicated that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma noted. Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a curious land where only knights and knaves dwell, you encounter [BLANK] figures: Olivia, Noah, Liam, Emma, Ava, and Mason. Olivia claimed that Noah is a knight if and only if he is a knave. 'Liam is a knight,' Noah asserted. Liam pointed out that Emma is not a knight. 'Liam is a knight if and only if Mason is a knight,' Emma stated. So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

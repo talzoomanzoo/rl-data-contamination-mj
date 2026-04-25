@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Lucas, Jacob, Alexander, and Emma. Lucas told you that Alexander is a knight or Lucas is a knight. According to Jacob, \"Emma is not a knight\". Alexander noted, \"Emma is a knave and Lucas is a knight\". Emma was heard saying, \"Alexander is a knight and Lucas is a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Sarah, Thomas, Michael, and Lily. Sarah told you that [BLANK]. According to Thomas, '[BLANK]'. Michael noted, '[BLANK]'. Lily was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there are only knights and knaves. Knights are truthful, while knaves are deceitful. You encounter four residents: Sarah, Thomas, Michael, and Lily. Sarah claimed that [BLANK]. Thomas stated, '[BLANK]'. Michael remarked, '[BLANK]'. Lily was reported to have said, '[BLANK]'. Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a remarkable island community, the only inhabitants are knights who always speak the truth and knaves who always lie. You come across four individuals: Sarah, Thomas, Michael, and Lily. Sarah asserts that [BLANK]. According to Thomas, '[BLANK]'. Michael expressed, '[BLANK]'. Lily was overheard saying, '[BLANK]'. Therefore, who belongs to which group: knight or knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A fascinating island is home solely to knights, who tell the truth, and knaves, who lie consistently. You meet four people: Sarah, Thomas, Michael, and Lily. Sarah indicated that [BLANK]. Thomas mentioned, '[BLANK]'. Michael commented, '[BLANK]'. Lily was heard to declare, '[BLANK]'. So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On an extraordinary island, the only residents are knights, who are always truthful, and knaves, who always deceive. You encounter four inhabitants: Sarah, Thomas, Michael, and Lily. Sarah expressed that [BLANK]. Thomas claimed, '[BLANK]'. Michael pointed out, '[BLANK]'. Lily was said to have remarked, '[BLANK]'. Hence, who can be classified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a peculiar island society, only knights and knaves reside. Knights consistently tell the truth, while knaves are perpetual liars. You meet four locals: Sarah, Thomas, Michael, and Lily. Sarah reported that [BLANK]. Thomas asserted, '[BLANK]'. Michael indicated, '[BLANK]'. Lily was heard to say, '[BLANK]'. So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Lucas, Jacob, Alexander, and Emma. Lucas told you that [BLANK]. According to Jacob, '[BLANK]'. Alexander noted, '[BLANK]'. Emma was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the residents are solely knights and knaves. Knights always speak the truth, while knaves always deceive. You encounter 4 residents: Lucas, Jacob, Alexander, and Emma. Lucas mentioned that [BLANK]. Jacob stated, '[BLANK]'. Alexander remarked, '[BLANK]'. Emma was heard expressing, '[BLANK]'. Therefore, who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Inhabitants of a distinct island consist only of knights and knaves. Knights consistently tell the truth, while knaves always lie. You come across 4 individuals: Lucas, Jacob, Alexander, and Emma. Lucas claimed that [BLANK]. Jacob remarked, '[BLANK]'. Alexander indicated, '[BLANK]'. Emma was reported saying, '[BLANK]'. Hence, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a remarkable island where the only inhabitants are knights and knaves. Knights are truthful at all times, and knaves always provide falsehoods. You meet 4 persons: Lucas, Jacob, Alexander, and Emma. Lucas asserted that [BLANK]. Jacob commented, '[BLANK]'. Alexander observed, '[BLANK]'. Emma expressed, '[BLANK]'. Thus, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A peculiar island is home exclusively to knights and knaves. Knights always tell the truth, whereas knaves always lie. You encounter 4 people: Lucas, Jacob, Alexander, and Emma. Lucas declared that [BLANK]. Jacob expressed, '[BLANK]'. Alexander noted, '[BLANK]'. Emma was heard claiming, '[BLANK]'. So, who is the knight and who is the knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a special island, the only inhabitants are knights and knaves. Knights always tell the truth, while knaves consistently lie. You meet 4 individuals: Lucas, Jacob, Alexander, and Emma. Lucas reported that [BLANK]. Jacob noted, '[BLANK]'. Alexander stated, '[BLANK]'. Emma was heard saying, '[BLANK]'. Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Ava, Liam, Isabella, and Mason. Ava told you that [BLANK]. According to Liam, '[BLANK]'. Isabella noted, '[BLANK]'. Mason was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the only residents are knights and knaves. Knights always speak the truth while knaves consistently lie. You encounter four residents: Ava, Liam, Isabella, and Mason. Ava claimed that [BLANK]. Liam stated, '[BLANK]'. Isabella remarked, '[BLANK]'. Mason was heard expressing, '[BLANK]'. Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a remarkable island populated solely by knights and knaves. Knights are truthful at all times, while knaves are perpetually deceitful. You come across four individuals: Ava, Liam, Isabella, and Mason. Ava asserted that [BLANK]. Liam declared, '[BLANK]'. Isabella commented, '[BLANK]'. Mason was quoted saying, '[BLANK]'. Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On an extraordinary island, the inhabitants are exclusively knights and knaves. Knights always tell the truth, whereas knaves always deceive. You meet four people: Ava, Liam, Isabella, and Mason. Ava mentioned that [BLANK]. According to Liam, '[BLANK]'. Isabella pointed out, '[BLANK]'. Mason expressed, '[BLANK]'. Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a distinctive island setting, only knights and knaves reside. Knights tell the truth consistently, while knaves lie without exception. You encounter four inhabitants: Ava, Liam, Isabella, and Mason. Ava indicated that [BLANK]. Liam remarked, '[BLANK]'. Isabella stated, '[BLANK]'. Mason was noted saying, '[BLANK]'. Who can be categorized as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A unique island is home to only knights and knaves. Knights always speak truthfully, while knaves are always dishonest. You come across four islanders: Ava, Liam, Isabella, and Mason. Ava stated that [BLANK]. Liam asserted, '[BLANK]'. Isabella mentioned, '[BLANK]'. Mason was heard declaring, '[BLANK]'. Who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Oliver, Emma, Ethan, and Chloe. Oliver told you that [BLANK]. According to Emma, '[BLANK]'. Ethan noted, '[BLANK]'. Chloe was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the residents are solely knights and knaves. Knights are truthful, while knaves are deceitful. You encounter 4 individuals: Oliver, Emma, Ethan, and Chloe. Oliver stated that [BLANK]. Emma remarked, '[BLANK]'. Ethan observed, '[BLANK]'. Chloe was heard claiming, '[BLANK]'. Therefore, who is categorized as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A distinctive island is home only to knights and knaves. Knights always speak the truth, and knaves are always dishonest. You come across 4 residents: Oliver, Emma, Ethan, and Chloe. Oliver declared that [BLANK]. According to Emma, '[BLANK]'. Ethan pointed out, '[BLANK]'. Chloe mentioned, '[BLANK]'. So, who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On an extraordinary island, the population consists solely of knights and knaves. Knights consistently tell the truth, while knaves invariably lie. You meet 4 inhabitants: Oliver, Emma, Ethan, and Chloe. Oliver expressed that [BLANK]. Emma stated, '[BLANK]'. Ethan claimed, '[BLANK]'. Chloe was reported to say, '[BLANK]'. Thus, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A remarkable island is inhabited exclusively by knights and knaves. Knights are truth-tellers, whereas knaves are liars. You encounter 4 people: Oliver, Emma, Ethan, and Chloe. Oliver indicated that [BLANK]. Emma said, '[BLANK]'. Ethan mentioned, '[BLANK]'. Chloe noted, '[BLANK]'. So, who represents a knight and who represents a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "This special island is populated only by knights and knaves. Knights always provide truthful statements, while knaves always deceive. You meet 4 characters: Oliver, Emma, Ethan, and Chloe. Oliver claimed that [BLANK]. Emma observed, '[BLANK]'. Ethan remarked, '[BLANK]'. Chloe was heard asserting, '[BLANK]'. Therefore, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Grace, James, Charlotte, and Benjamin. Grace told you that [BLANK]. According to James, '[BLANK]'. Charlotte noted, '[BLANK]'. Benjamin was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there are only knights and knaves. Knights are truth-tellers, while knaves are liars. You encounter four residents: Grace, James, Charlotte, and Benjamin. Grace claimed that [BLANK]. James remarked, '[BLANK]'. Charlotte mentioned, '[BLANK]'. Benjamin was reported to say, '[BLANK]'. Hence, can you determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar island community, the inhabitants are solely knights and knaves. Knights always speak the truth, and knaves always deceive. You come across four individuals: Grace, James, Charlotte, and Benjamin. Grace asserted that [BLANK]. James stated, '[BLANK]'. Charlotte expressed, '[BLANK]'. Benjamin was heard declaring, '[BLANK]'. Who, then, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A fascinating island is home to only knights and knaves, where knights are truthful and knaves are deceptive. You meet four people: Grace, James, Charlotte, and Benjamin. Grace indicated that [BLANK]. According to James, '[BLANK]'. Charlotte observed, '[BLANK]'. Benjamin was overheard saying, '[BLANK]'. So, can you identify who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "This unusual island is populated exclusively by knights and knaves. Knights always tell the truth, while knaves are always dishonest. You encounter four people: Grace, James, Charlotte, and Benjamin. Grace stated that [BLANK]. James commented, '[BLANK]'. Charlotte pointed out, '[BLANK]'. Benjamin was noted to say, '[BLANK]'. Who is therefore a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a singular island, only knights and knaves reside. Knights tell the truth at all times, and knaves lie consistently. You meet four inhabitants: Grace, James, Charlotte, and Benjamin. Grace revealed that [BLANK]. James expressed, '[BLANK]'. Charlotte mentioned, '[BLANK]'. Benjamin was reported to have said, '[BLANK]'. Who, then, qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Mia, Noah, Sophia, and Jack. Mia told you that [BLANK]. According to Noah, '[BLANK]'. Sophia noted, '[BLANK]'. Jack was heard saying, '[BLANK]'. So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, only knights and knaves reside. Knights are truthful while knaves are deceitful. You encounter four residents: Mia, Noah, Sophia, and Jack. Mia stated that [BLANK]. Noah claimed, '[BLANK]'. Sophia remarked, '[BLANK]'. Jack was overheard saying, '[BLANK]'. Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a peculiar island solely populated by knights and knaves. Knights always speak the truth, whereas knaves consistently lie. You come across four individuals: Mia, Noah, Sophia, and Jack. Mia expressed that [BLANK]. Noah asserted, '[BLANK]'. Sophia mentioned, '[BLANK]'. Jack declared, '[BLANK]'. Thus, can you determine who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A distinct island is home only to knights and knaves. Knights tell the truth, while knaves are known to lie. You meet four inhabitants: Mia, Noah, Sophia, and Jack. Mia indicated that [BLANK]. Noah stated, '[BLANK]'. Sophia observed, '[BLANK]'. Jack was reported to say, '[BLANK]'. Who then is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a special island that is inhabited exclusively by knights and knaves, knights are truthful and knaves are liars. You encounter four people: Mia, Noah, Sophia, and Jack. Mia claimed that [BLANK]. According to Noah, '[BLANK]'. Sophia pointed out, '[BLANK]'. Jack was heard saying, '[BLANK]'. So, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There is an extraordinary island where only knights and knaves live. Knights always tell the truth while knaves always deceive. You meet four characters: Mia, Noah, Sophia, and Jack. Mia revealed that [BLANK]. Noah remarked, '[BLANK]'. Sophia commented, '[BLANK]'. Jack was heard proclaiming, '[BLANK]'. Hence, who is identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

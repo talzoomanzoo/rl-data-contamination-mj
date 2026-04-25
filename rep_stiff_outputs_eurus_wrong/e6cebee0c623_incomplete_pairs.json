@@ -1,0 +1,62 @@
+{
+  "original_question": "A charity group decides to do a yard sale.  10 people donate 5 boxes of stuff each.  They also have 10 boxes of stuff already.  They can fit 2 boxes worth of stuff per table.  If they already own 15 tables, how many new tables do they need? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total number of boxes donated",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A charity group decides to do a yard sale.  10 people donate 5 boxes of stuff each.  They also have 10 boxes of stuff already.  They can fit 2 boxes worth of stuff per table.  If they already own 15 tables, how many new tables do they need? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 10 boxes of stuff already. They can fit 2 boxes worth of stuff per table. If they already own 15 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A charity group decides to do a yard sale.  12 people donate 4 boxes of stuff each.  They also have 8 boxes of stuff already.  If they can fit 3 boxes worth of stuff per table and they already own 10 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 8 boxes of stuff already. If they can fit 3 boxes worth of stuff per table and they already own 10 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A charity group decides to do a yard sale.  15 people donate 6 boxes of stuff each.  They also have 5 boxes of stuff already.  If they can fit 4 boxes worth of stuff per table and they already own 5 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 5 boxes of stuff already. If they can fit 4 boxes worth of stuff per table and they already own 5 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A charity group decides to do a yard sale.  8 people donate 7 boxes of stuff each.  They also have 12 boxes of stuff already.  If they can fit 1 box worth of stuff per table and they already own 20 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 12 boxes of stuff already. If they can fit 1 box worth of stuff per table and they already own 20 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A charity group decides to do a yard sale.  20 people donate 3 boxes of stuff each.  They also have 6 boxes of stuff already.  If they can fit 5 boxes worth of stuff per table and they already own 8 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 6 boxes of stuff already. If they can fit 5 boxes worth of stuff per table and they already own 8 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A charity group decides to do a yard sale.  14 people donate 2 boxes of stuff each.  They also have 10 boxes of stuff already.  If they can fit 3 boxes worth of stuff per table and they already own 12 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A charity group decides to do a yard sale. [BLANK] people donate [BLANK] boxes of stuff each. They also have 10 boxes of stuff already. If they can fit 3 boxes worth of stuff per table and they already own 12 tables, how many new tables do they need? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of boxes donated"
+    }
+  ],
+  "num_valid_similars": 5
+}

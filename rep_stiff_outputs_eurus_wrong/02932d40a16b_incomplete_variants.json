@@ -1,0 +1,210 @@
+{
+  "original_question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Oliver bought 15 balloons and Mia gave him 29 balloons. The other day his cousin popped [BLANK] of those balloons. How many balloons are left for Oliver? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver purchased 15 balloons and Mia gifted him 29 balloons. Recently, his cousin burst [BLANK] of those balloons. How many balloons does Oliver have remaining? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver acquired 15 balloons and received 29 balloons from Mia. The other day, his cousin popped [BLANK] of those balloons. What is the total number of balloons left for Oliver? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver obtained 15 balloons and was given 29 balloons by Mia. The other day, his cousin accidentally popped [BLANK] of those balloons. How many balloons remain with Oliver? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver got 15 balloons and Mia contributed an additional 29 balloons. The other day, his cousin popped [BLANK] of those balloons. How many balloons does Oliver still have? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver received 15 balloons and Mia donated 29 balloons to him. Recently, his cousin burst [BLANK] of those balloons. How many balloons are left for Oliver now? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Ava bought 34 marbles and Noah gave her 25 marbles. The other day her brother lost [BLANK] of those marbles. How many marbles are left for Ava? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ava purchased 34 marbles, and Noah gifted her 25 marbles. Recently, her brother misplaced [BLANK] of those marbles. How many marbles does Ava have remaining? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ava acquired 34 marbles, and Noah presented her with 25 marbles. The other day, her brother lost [BLANK] of those marbles. How many marbles are still with Ava? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ava secured 34 marbles, and Noah contributed 25 marbles to her collection. Not long ago, her brother mislaid [BLANK] of those marbles. How many marbles are left in Ava's possession? Let's work through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ava collected 34 marbles, and Noah handed her an additional 25 marbles. The other day, her brother lost [BLANK] of those marbles. How many marbles does Ava have left now? Let's break this down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ava has 34 marbles, and Noah donated 25 marbles to her. Recently, her brother lost [BLANK] of those marbles. How many marbles remain with Ava? Let's solve this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sophia bought 27 candies and Liam gave her 50 candies. The other day her friend ate [BLANK] of those candies. How many candies are left for Sophia? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia purchased 27 candies, and Liam gifted her 50 more. Recently, her friend consumed [BLANK] of those candies. How many candies does Sophia have remaining? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia acquired 27 candies, and Liam presented her with 50 candies. The other day, her friend devoured [BLANK] of those candies. What is the quantity of candies still with Sophia? Let's evaluate it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia received 27 candies and Liam handed her 50 candies. A few days ago, her friend ate [BLANK] of those candies. How many candies remain with Sophia? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia has 27 candies that she bought, and Liam contributed 50 candies to her collection. The other day, her friend consumed [BLANK] of those candies. How many candies does Sophia still possess? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia collected 27 candies, and Liam provided her with an additional 50 candies. Not long ago, her friend ate [BLANK] of those candies. How many candies are left for Sophia now? Let's work through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate [BLANK] of those cookies. How many cookies are left for Rachel? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Rachel purchased 23 cookies, and Janet gifted her 42 more. Recently, her brother consumed [BLANK] of those cookies. How many cookies does Rachel have remaining? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "After buying 23 cookies, Rachel received 42 cookies from Janet. The other day, her brother ate [BLANK] of those cookies. How many cookies are still available for Rachel? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rachel acquired 23 cookies, and Janet contributed 42 cookies to her collection. A few days ago, her brother ate [BLANK] of those cookies. What is the number of cookies left for Rachel? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Having bought 23 cookies, Rachel was given 42 cookies by Janet. Not long ago, her brother consumed [BLANK] of those cookies. How many cookies does Rachel still possess? Let's carefully consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rachel collected 23 cookies, and Janet handed her 42 cookies. The other day, her brother devoured [BLANK] of those cookies. What is the total number of cookies remaining for Rachel? Let's think it through step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Isabella bought 22 stickers and Ethan gave her 33 stickers. The other day her classmate took away [BLANK] of those stickers. How many stickers are left for Isabella? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Isabella purchased 22 stickers, and Ethan gifted her 33 more. Recently, a classmate of hers took [BLANK] of those stickers. How many stickers does Isabella have remaining? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Isabella acquired 22 stickers, and Ethan provided her with 33 stickers. A few days ago, one of her classmates removed [BLANK] of those stickers. What is the total number of stickers still with Isabella? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Isabella has 22 stickers that she bought, and Ethan contributed 33 stickers to her collection. The other day, a classmate took away [BLANK] of those stickers. How many stickers remain with Isabella? Let\u2019s work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Isabella received 22 stickers by purchase, while Ethan added 33 stickers to her stash. The other day, a fellow student took [BLANK] of those stickers. How many stickers does Isabella still possess? Let's go through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Isabella obtained 22 stickers, and Ethan handed her 33 stickers. Recently, one of her classmates took [BLANK] of those stickers. How many stickers are left for Isabella now? Let's think about it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily bought 18 cupcakes and Michael gave her 36 cupcakes. The other day her sister ate [BLANK] of those cupcakes. How many cupcakes are left for Emily? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily purchased 18 cupcakes, and Michael gifted her 36 more. Recently, her sister consumed [BLANK] of those cupcakes. How many cupcakes does Emily have remaining? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily acquired 18 cupcakes, and Michael provided her with 36 additional ones. The other day, her sister devoured [BLANK] of those cupcakes. How many cupcakes are still with Emily? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily received 18 cupcakes, and Michael contributed another 36 cupcakes to her collection. The other day, her sister ate [BLANK] of those cupcakes. How many cupcakes remain for Emily? Let's work through it step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily collected 18 cupcakes, and Michael handed her 36 more. A few days ago, her sister consumed [BLANK] of those cupcakes. How many cupcakes does Emily still possess? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily secured 18 cupcakes, while Michael donated 36 cupcakes to her. Recently, her sister had [BLANK] of those cupcakes. How many cupcakes are left for Emily now? Let's evaluate it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

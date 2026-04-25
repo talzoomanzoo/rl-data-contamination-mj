@@ -1,0 +1,210 @@
+{
+  "original_question": "Mrs. Cruz is looking for a house that will not go beyond her $400 000 budget. She saw a property that has a selling price of $350 000. On top of that, the buyer has to pay a brokerage fee which is 5% of the selling price, and also the transfer fee that is 12% of the selling price. How much more is the total price of the house than Mrs. Cruz's budget? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mrs. Garcia is looking for a house that will not go beyond her $600,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 3% of the [BLANK], and also the transfer fee that is 9% of the [BLANK]. How much more is the total price of the house than Mrs. Garcia's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mrs. Garcia is in search of a home that will stay within her $600,000 limit. She came across a property that features a [BLANK]. Additionally, the buyer must cover a brokerage cost that amounts to 3% of the [BLANK], as well as a transfer fee that is 9% of the [BLANK]. What is the difference between the total cost of the house and Mrs. Garcia's budget? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mrs. Garcia is on the lookout for a residence that will not exceed her $600,000 budget. She has found a property that has a [BLANK]. Furthermore, the buyer is responsible for a brokerage fee which is 3% of the [BLANK], along with a transfer fee that equals 9% of the [BLANK]. How much does the total cost of the house surpass Mrs. Garcia's budget? Let's explore this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mrs. Garcia intends to find a house that remains within her budget of $600,000. She has discovered a property that includes a [BLANK]. In addition, the buyer needs to pay a brokerage fee that is 3% of the [BLANK], plus a transfer fee that is 9% of the [BLANK]. How much is the total cost of the house over Mrs. Garcia's budget? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mrs. Garcia is searching for a property that will not exceed her budget of $600,000. She has identified a house that has a [BLANK]. On top of this, the buyer is required to pay a brokerage charge of 3% of the [BLANK], and also a transfer fee which is 9% of the [BLANK]. What is the amount by which the total price of the house exceeds Mrs. Garcia's budget? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mrs. Garcia is trying to find a house that will fit within her $600,000 financial plan. She spotted a property that has a [BLANK]. Additionally, the buyer must incur a brokerage fee which is 3% of the [BLANK], as well as a transfer fee which is 9% of the [BLANK]. How much more is the total amount for the house compared to Mrs. Garcia's budget? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Mrs. Johnson is looking for a house that will not go beyond her $450,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 6% of the [BLANK], and also the transfer fee that is 10% of the [BLANK]. How much more is the total price of the house than Mrs. Johnson's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mrs. Johnson is searching for a home that does not exceed her $450,000 limit. She came across a property that features a [BLANK]. Additionally, the purchaser must cover a brokerage fee of 6% of the [BLANK], as well as a transfer fee that amounts to 10% of the [BLANK]. What is the difference between the total cost of the house and Mrs. Johnson's budget? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mrs. Johnson wants to find a residence that will remain within her $450,000 financial limit. She discovered a property that has a [BLANK]. Moreover, the buyer is required to pay a brokerage fee which is 6% of the [BLANK], along with a transfer fee that is 10% of the [BLANK]. How much does the total cost of the house exceed Mrs. Johnson's budget? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mrs. Johnson is in search of a house that won't surpass her budget of $450,000. She found a property that includes a [BLANK]. In addition, the buyer has to pay a brokerage fee that is 6% of the [BLANK], and a transfer fee that is 10% of the [BLANK]. What is the total price of the house over Mrs. Johnson's budget? Let's go through the steps carefully and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mrs. Johnson aims to purchase a home that stays within her budget of $450,000. She encountered a property that contains a [BLANK]. On top of that, the buyer is responsible for a brokerage fee that equals 6% of the [BLANK], plus a transfer fee which is 10% of the [BLANK]. How much more does the overall price of the house exceed Mrs. Johnson's budget? Let's examine this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mrs. Johnson is interested in acquiring a house that will not go over her budget of $450,000. She has seen a property that possesses a [BLANK]. Furthermore, the buyer must pay a brokerage charge of 6% of the [BLANK], in addition to a transfer charge of 10% of the [BLANK]. What is the additional amount that the total price of the house is above Mrs. Johnson's budget? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Mrs. Cruz is looking for a house that will not go beyond her $400 000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 5% of the [BLANK], and also the transfer fee that is 12% of the [BLANK]. How much more is the total price of the house than Mrs. Cruz's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mrs. Cruz is searching for a home that will not exceed her $400,000 limit. She found a property that features a [BLANK]. Additionally, the purchaser must pay a brokerage charge amounting to 5% of the [BLANK], as well as a transfer fee of 12% of the [BLANK]. What is the additional amount that the total cost of the house surpasses Mrs. Cruz's budget? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mrs. Cruz is in the market for a house that will stay within her $400,000 financial ceiling. She came across a property that includes a [BLANK]. Furthermore, the buyer is required to cover a brokerage fee of 5% of the [BLANK], plus a transfer fee of 12% of the [BLANK]. How much does the overall price of the house exceed Mrs. Cruz's budget? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mrs. Cruz is on the lookout for a residence that will not surpass her budget of $400,000. She has seen a property that has a [BLANK]. On top of that, the buyer must pay a real estate commission which is 5% of the [BLANK], in addition to a transfer fee equating to 12% of the [BLANK]. What is the amount by which the total cost of the house exceeds Mrs. Cruz's budget? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mrs. Cruz is trying to find a house that will remain within her $400,000 budget limit. She discovered a property that features a [BLANK]. In addition, the buyer is obligated to pay a brokerage fee that amounts to 5% of the [BLANK], along with a transfer fee of 12% of the [BLANK]. How much does the total price of the house go beyond Mrs. Cruz's budget? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mrs. Cruz is aiming to purchase a house that will not exceed her budget of $400,000. She has found a property that has a [BLANK]. Additionally, the buyer needs to pay a commission fee which amounts to 5% of the [BLANK], and also a transfer fee of 12% of the [BLANK]. How much more does the total cost of the house exceed Mrs. Cruz's budget? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Ms. Taylor is looking for a house that will not go beyond her $500,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 7% of the [BLANK], and also the transfer fee that is 8% of the [BLANK]. How much more is the total price of the house than Ms. Taylor's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ms. Taylor is in search of a home that will not exceed her budget of $500,000. She came across a property that has a [BLANK]. Additionally, the purchaser must cover a brokerage fee of 7% of the [BLANK], as well as a transfer fee that amounts to 8% of the [BLANK]. How much does the total cost of the house surpass Ms. Taylor's budget? Let\u2019s analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ms. Taylor is aiming to find a residence that stays within her limit of $500,000. She found a property that has a [BLANK]. Furthermore, the buyer is responsible for a brokerage fee that is 7% of the [BLANK], along with a transfer fee of 8% of the [BLANK]. What is the difference between the total cost of the house and Ms. Taylor's budget? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ms. Taylor is on the lookout for a house that will not exceed her $500,000 budget. She discovered a property that has a [BLANK]. In addition, the buyer must pay a brokerage fee which is 7% of the [BLANK], plus a transfer fee that is 8% of the [BLANK]. How much does the overall price of the house exceed Ms. Taylor's budget? Let\u2019s consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ms. Taylor is trying to find a home that will not go over her budget of $500,000. She has seen a property that has a [BLANK]. On top of that, the buyer is required to pay a brokerage fee that equals 7% of the [BLANK], and also a transfer fee which is 8% of the [BLANK]. How much more does the total price of the house go beyond Ms. Taylor's budget? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ms. Taylor is seeking a house that fits within her budget of $500,000. She viewed a property that has a [BLANK]. Additionally, the buyer needs to pay a brokerage fee of 7% of the [BLANK], along with a transfer fee of 8% of the [BLANK]. By how much does the total cost of the house exceed Ms. Taylor's budget? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mr. Smith is looking for a house that will not go beyond his $300,000 budget. He saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 4% of the [BLANK], and also the transfer fee that is 15% of the [BLANK]. How much more is the total price of the house than Mr. Smith's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mr. Smith is searching for a home that does not exceed his budget of $300,000. He found a property that has a [BLANK]. Additionally, the buyer must pay a brokerage fee which amounts to 4% of the [BLANK], along with a transfer fee that is 15% of the [BLANK]. What is the difference between the total cost of the house and Mr. Smith's budget? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mr. Smith is in pursuit of a residence that will remain within his $300,000 limit. He discovered a property that has a [BLANK]. Moreover, the buyer is responsible for a brokerage fee that is 4% of the [BLANK], as well as a transfer fee that is 15% of the [BLANK]. How much does the total cost of the house exceed Mr. Smith's budget? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mr. Smith is aiming to find a house that stays under his $300,000 financial ceiling. He came across a property that has a [BLANK]. On top of that, the buyer needs to cover a brokerage fee, which is 4% of the [BLANK], and also a transfer fee that is 15% of the [BLANK]. What is the amount by which the total house price surpasses Mr. Smith's budget? Let\u2019s think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mr. Smith wants to purchase a home that does not go over his budget of $300,000. He found a property that has a [BLANK]. Furthermore, there is a brokerage fee of 4% of the [BLANK] that the buyer must pay, in addition to a transfer fee of 15% of the [BLANK]. How much more is the overall cost of the house compared to Mr. Smith's budget? Let\u2019s evaluate step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mr. Smith is on the lookout for a house that will not exceed his budget of $300,000. He has seen a property that has a [BLANK]. Additionally, the buyer is required to pay a brokerage fee equal to 4% of the [BLANK], plus a transfer fee that amounts to 15% of the [BLANK]. How much does the total price of the house exceed Mr. Smith's budget? Let's consider it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Mr. Brown is looking for a house that will not go beyond his $250,000 budget. He saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 5% of the [BLANK], and also the transfer fee that is 13% of the [BLANK]. How much more is the total price of the house than Mr. Brown's budget? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mr. Brown is in search of a home that will not exceed his budget of $250,000. He found a property that has a [BLANK]. Additionally, the buyer is required to pay a brokerage commission that amounts to 5% of the [BLANK], along with a transfer fee that is 13% of the [BLANK]. What is the difference between the total cost of the house and Mr. Brown's budget? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mr. Brown seeks a residence that will stay within his $250,000 financial limit. He discovered a property with a [BLANK]. Furthermore, the buyer must incur a brokerage charge that is 5% of the [BLANK], as well as a transfer fee that equals 13% of the [BLANK]. How much does the total price of the house surpass Mr. Brown's budget? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mr. Brown wants to find a house that will not surpass his budget of $250,000. He has come across a property that features a [BLANK]. In addition, the buyer must pay a brokerage fee equivalent to 5% of the [BLANK], along with a transfer fee that is 13% of the [BLANK]. How much is the total cost of the house over Mr. Brown's budget? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mr. Brown is searching for a house that will remain under his $250,000 budget. He has identified a property that contains a [BLANK]. On top of this, the buyer needs to pay a brokerage fee that constitutes 5% of the [BLANK], in addition to a transfer fee that is 13% of the [BLANK]. How much more does the total price of the house exceed Mr. Brown's budget? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mr. Brown is on the lookout for a house that will not go over his budget of $250,000. He has seen a property that has a [BLANK]. Moreover, the buyer is responsible for a brokerage fee that is 5% of the [BLANK], as well as a transfer fee that comes to 13% of the [BLANK]. What is the total price of the house in relation to Mr. Brown's budget? Let's work through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "For each positive integer $r$ less than $502,$ define\n\\[\nS_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r},\n\\]\nwhere $\\binom{10000}{n}$ is defined to be $0$ when $n>10000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{10000}{k}$ for which $0\\le k\\le 10000$ and $k-r$ is a multiple of $502.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{501}$ that are multiples of the prime number $503.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is defined to be $0$ when $n>15000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is a multiple of $501.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $509.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is less than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ equals $0$ if $n>15000.$ Thus, $S_r$ represents the total of all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is a multiple of $501.$ Determine the count of integers from the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $509.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $r$ that is smaller than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is considered to be $0$ when $n>15000.$ In other words, $S_r$ is the aggregate of all binomial coefficients of the type $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is an integer multiple of $501.$ Find how many integers from the list $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime $509.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is defined as $0$ when $n>15000.$ That means, $S_r$ is the summation of all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is a multiple of $501.$ Calculate the number of integers in the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $509.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is equal to $0$ for $n>15000.$ Therefore, $S_r$ sums all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is divisible by $501.$ Find the total number of integers in the series $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $509.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For each positive integer $r$ that is under [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is described as $0$ when $n>15000.$ This indicates that $S_r$ is the summation of all binomial coefficients of the type $\\binom{15000}{k}$ for values where $0\\le k\\le 15000$ and $k-r$ is a multiple of $501.$ Determine how many integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime $509.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ is defined to be $0$ when $n>8000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{8000}{k}$ for which $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $433.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is smaller than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ is regarded as $0$ if $n>8000.$ Thus, $S_r$ represents the total of all binomial coefficients like $\\binom{8000}{k}$ such that $0\\le k\\le 8000$ and $k-r$ is divisible by $432.$ Determine how many integers from the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $433.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ equals $0$ when $n>8000.$ This means $S_r$ is the sum of all binomial coefficients of the type $\\binom{8000}{k}$ for which $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Find the count of integers in the collection $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $433.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For every positive integer $r$ that is under [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwith $\\binom{8000}{n}$ defined to be $0$ when $n>8000.$ Consequently, $S_r$ signifies the sum of all binomial coefficients of the format $\\binom{8000}{k}$ where $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Calculate how many integers from the series $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $433.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we establish\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ is considered $0$ if $n>8000.$ Therefore, $S_r$ is the total of all binomial coefficients in the form $\\binom{8000}{k}$ such that $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Identify the number of integers in the set $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $433.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For each positive integer $r$ that is below [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ is set to $0$ when $n>8000.$ Thus, $S_r$ is the aggregation of all binomial coefficients in the style of $\\binom{8000}{k}$ where $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Determine how many integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $433.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ is defined to be $0$ when $n>11000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{11000}{k}$ for which $0\\le k\\le 11000$ and $k-r$ is a multiple of $278.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $281.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is less than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ equals $0$ if $n>11000.$ In other words, $S_r$ represents the sum of binomial coefficients of the type $\\binom{11000}{k}$ such that $0\\le k\\le 11000$ and $k-r$ is a multiple of $278.$ Determine how many integers in the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ are divisible by the prime number $281.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $r$ that is smaller than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ is considered to be $0$ when $n>11000.$ Therefore, $S_r$ signifies the total of all binomial coefficients of the form $\\binom{11000}{k}$ for which $0\\le k\\le 11000$ and $k-r$ is divisible by $278.$ Find the count of integers among $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $281.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Consider each positive integer $r$ that is less than [BLANK], and define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ is taken to be $0$ if $n>11000.$ This means that $S_r$ is the aggregate of all binomial coefficients of the kind $\\binom{11000}{k}$ for which $0\\le k\\le 11000$ and $k-r$ is a multiple of $278.$ Calculate how many integers in the series $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $281.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $r$ that is below [BLANK], we will define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwith $\\binom{11000}{n}$ being $0$ when $n>11000.$ Thus, $S_r$ denotes the sum of all binomial coefficients of the form $\\binom{11000}{k}$ such that $0\\le k\\le 11000$ and $k-r$ is a multiple of $278.$ Find out how many integers in the collection $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $281.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $r$ be any positive integer less than [BLANK]. We define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ is defined to be $0$ if $n>11000.$ Thus, $S_r$ is the summation of all binomial coefficients of the type $\\binom{11000}{k}$ with $0\\le k\\le 11000$ and $k-r$ being a multiple of $278.$ Determine the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $281.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nwhere $\\binom{12000}{n}$ is defined to be $0$ when $n>12000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{12000}{k}$ for which $0\\le k\\le 12000$ and $k-r$ is a multiple of $601.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $607.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is less than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nwhere $\\binom{12000}{n}$ equals $0$ when $n>12000.$ In this context, $S_r$ represents the total of all binomial coefficients of the type $\\binom{12000}{k}$ such that $0\\le k\\le 12000$ and $k-r$ is a multiple of $601.$ Determine how many integers from the collection $S_0,S_1,\\dots,S_{[BLANK]}$ are divisible by the prime number $607.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider each positive integer $r$ that is less than [BLANK], and define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nnoting that $\\binom{12000}{n}$ is defined as $0$ when $n>12000.$ Hence, $S_r$ denotes the sum of all binomial coefficients of the form $\\binom{12000}{k}$ for which $0\\le k\\le 12000$ and $k-r$ is a multiple of $601.$ Find the total count of integers in the series $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $607.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For each positive integer $r$ that is below [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nwhere $\\binom{12000}{n}$ is deemed $0$ if $n>12000.$ Consequently, $S_r$ signifies the sum of all binomial coefficients of the type $\\binom{12000}{k}$ such that $0\\le k\\le 12000$ and $k-r$ is divisible by $601.$ Calculate how many integers from the list $S_0,S_1,\\dots,S_{[BLANK]}$ are divisible by the prime number $607.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $r$ be any positive integer less than [BLANK], and define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nwith the understanding that $\\binom{12000}{n}$ is $0$ for $n>12000.$ Thus, $S_r$ is the aggregate of all binomial coefficients of the form $\\binom{12000}{k}$ where $0\\le k\\le 12000$ and $k-r$ is a multiple of $601.$ Determine the number of integers in the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $607.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $r$ that is less than [BLANK], the following is defined:\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{12000}{601n+r}, \\]\nwhere $\\binom{12000}{n}$ is assigned a value of $0$ when $n>12000.$ Thus, $S_r$ indicates the total of all binomial coefficients of the type $\\binom{12000}{k}$ for which $0\\le k\\le 12000$ and $k-r$ is a multiple of $601.$ Find how many integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $607.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwhere $\\binom{10000}{n}$ is defined to be $0$ when $n>10000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{10000}{k}$ for which $0\\le k\\le 10000$ and $k-r$ is a multiple of $502.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $503.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is smaller than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwhere $\binom{10000}{n}$ is considered to be $0$ when $n>10000.$ Thus, $S_r$ represents the total of all binomial coefficients expressed as $\binom{10000}{k}$ such that $0\\le k\\le 10000$ and $k-r$ is divisible by $502.$ Determine how many integers from the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ are divisible by the prime $503.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwhere $\binom{10000}{n}$ equals $0$ if $n>10000.$ This means that $S_r$ sums all binomial coefficients of the type $\binom{10000}{k}$ for which $0\\le k\\le 10000$ and where $k-r$ is a multiple of $502.$ Find the quantity of integers within the collection $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $503.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For every positive integer $r$ that is under [BLANK], we establish\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwith $\binom{10000}{n}$ defined as $0$ when $n>10000.$ Hence, $S_r$ is the cumulative sum of all binomial coefficients formatted as $\binom{10000}{k}$ for $0\\le k\\le 10000$ where $k-r$ is a multiple of $502.$ Calculate how many integers in the series $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime $503.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwhere $\binom{10000}{n}$ is considered to be $0$ when $n>10000.$ Therefore, $S_r$ denotes the sum of all binomial coefficients of the format $\binom{10000}{k}$ for which $0\\le k\\le 10000$ and $k-r$ is a multiple of $502.$ Determine the count of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $503.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $r$ that is below [BLANK], let\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{10000}{502n+r}, \\]\nwith $\binom{10000}{n}$ being defined as $0$ whenever $n>10000.$ Thus, $S_r$ accumulates all binomial coefficients of the kind $\binom{10000}{k}$ where $0\\le k\\le 10000$ and $k-r$ is divisible by $502.$ Find how many integers in the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $503.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For each positive integer $r$ less than [BLANK], define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is defined to be $0$ when $n>9000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $347.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $r$ that is smaller than [BLANK], let us define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is considered $0$ if $n>9000.$ Thus, $S_r$ represents the total of all binomial coefficients of the type $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Determine how many integers in the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ are divisible by the prime number $347.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is defined to be $0$ when $n>9000.$ Therefore, $S_r$ is the summation of all binomial coefficients of the form $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Find how many integers in the set $S_0,S_1,\\dots,S_{[BLANK]}$ are multiples of the prime number $347.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For every positive integer $r$ that is under [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ equals $0$ if $n>9000.$ Hence, $S_r$ is the total of all binomial coefficients of the type $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Calculate the number of integers in the series $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $347.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For each positive integer $r$ that is less than [BLANK], we establish\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is evaluated as $0$ when $n>9000.$ In this way, $S_r$ sums all binomial coefficients of the form $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Determine the count of integers within the sequence $S_0,S_1,\\dots,S_{[BLANK]}$ that are multiples of the prime number $347.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $r$ that is below [BLANK], we define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is regarded as $0$ when $n>9000.$ Consequently, $S_r$ signifies the summation of all binomial coefficients of the kind $\\binom{9000}{k}$ such that $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Identify the number of integers in the collection $S_0,S_1,\\dots,S_{[BLANK]}$ that are divisible by the prime number $347.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

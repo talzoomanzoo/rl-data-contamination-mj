@@ -1,0 +1,210 @@
+{
+  "original_question": "Given the infinite series $\\frac{1}{10} + \\frac{2}{10^2} + \\frac{3}{10^3} + \\dots$ whose $n$th term is $\\frac{n}{10^n}$, calculate the limiting sum.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the limit of the sum for the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Find the limiting value of the sum of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the final sum for the infinite series [BLANK] as it approaches its limit.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Evaluate the limiting total of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ascertain the sum at its limit for the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the limit of the sum of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Find the final value of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the total sum as the series approaches infinity for [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Evaluate the converging sum of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Compute the limit of the series as it extends infinitely, given [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Evaluate the limit of the infinite series [BLANK] to find the total sum.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the limiting value of the series that extends infinitely, [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find the final sum for the infinite series represented by [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the total limit of the series that continues indefinitely, [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assess the limiting sum of the infinite series denoted as [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the limit of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Find the convergent value of the series that extends infinitely, [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the sum that the infinite series [BLANK] approaches as it extends indefinitely.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Evaluate the limit of the series [BLANK] as it continues without end.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Compute the ultimate sum of the infinite series represented by [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the limit of the infinite series [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Find the converging sum of the series that extends infinitely [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the total sum as the series [BLANK] approaches infinity.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Evaluate the limiting value of the infinite series represented by [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ascertain the final sum of the series that is infinite [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given the infinite series [BLANK], calculate the limiting sum. Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Evaluate the infinite series [BLANK] and find its limiting sum. Express the result in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the limiting sum of the infinite series [BLANK]. Provide your answer using LaTex notation: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the limit of the sum for the infinite series [BLANK]. Present your solution in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the limiting value of the series that extends infinitely, [BLANK]. Report your answer in LaTex: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assess the infinite series [BLANK] to calculate its limiting sum. Format your answer in LaTex: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

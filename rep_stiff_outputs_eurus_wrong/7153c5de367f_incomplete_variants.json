@@ -1,0 +1,210 @@
+{
+  "original_question": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam can ride his bicycle at [BLANK] for 4 hours. After that, he rides at 6 miles per hour. How many miles can he ride in 9 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam is able to cycle at [BLANK] for a duration of 4 hours. Following this, he travels at a speed of 6 miles per hour. What is the total distance he can cover in 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 4 hours, Liam rides his bike at [BLANK]. Subsequently, he maintains a speed of 6 miles per hour. How far can he travel in 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam can pedal his bicycle at [BLANK] for a total of 4 hours. Afterward, he continues at a speed of 6 miles per hour. How many miles can he achieve in 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At a speed of [BLANK], Liam rides his bicycle for 4 hours. Later, he rides at 6 miles per hour. In total, how many miles can he cover in 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam rides his bike at [BLANK] for 4 hours initially. Then, he proceeds to ride at a pace of 6 miles per hour. What distance can he ride in 9 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Oliver can walk [BLANK] for 6 hours. After that, he walks 3 miles per hour. How many miles can he walk in 12 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver is able to walk [BLANK] for a duration of 6 hours. Following that, he moves at a speed of 3 miles per hour. What is the total distance he can cover in 12 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 6 hours, Oliver can walk [BLANK]. After this period, his walking speed is 3 miles per hour. Calculate how many miles he can travel in 12 hours.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver can manage to walk [BLANK] for a span of 6 hours. Subsequently, he continues at a pace of 3 miles per hour. How far can he go in 12 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a total of 6 hours, Oliver can walk [BLANK]. Then, he walks at a rate of 3 miles per hour. Determine the distance he can walk in 12 hours.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver is capable of walking [BLANK] over the course of 6 hours. Afterward, he maintains a speed of 3 miles per hour. How many miles can he cover in 12 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah can hike [BLANK] for 5 hours. After that, he hikes 7 miles per hour. How many miles can he hike in 10 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah is able to hike [BLANK] at a rate of 5 hours. Following this, he continues at a speed of 7 miles per hour. What is the total distance he can cover in 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah can travel [BLANK] for a duration of 5 hours. Afterward, he moves at a pace of 7 miles per hour. How far can he go in 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah has the capacity to hike [BLANK] over the course of 5 hours. Subsequently, he hikes at 7 miles per hour. What distance can he achieve in 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah can cover [BLANK] within 5 hours. Then, he increases his speed to 7 miles per hour. How many miles is he able to hike in a total of 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah is capable of hiking [BLANK] for a span of 5 hours. After that period, he hikes at 7 miles per hour. How many miles will he have traveled in 10 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma can swim [BLANK] for 2 hours. After that, she swims 4 miles per hour. How many miles can she swim in 5 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma is able to swim [BLANK] for a duration of 2 hours. Following this, she increases her speed to 4 miles per hour. What total distance will she cover in 5 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 2 hours, Emma can swim [BLANK]. Then, she swims at a rate of 4 miles per hour. In 5 hours, how many miles will she be able to swim?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma swims [BLANK] for 2 hours initially. Afterward, her speed is 4 miles per hour. How far can she swim in a total of 5 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Initially, Emma swims [BLANK] for 2 hours. After that, she swims at 4 miles per hour. What is the total distance she can swim in 5 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma can swim [BLANK] during the first 2 hours. Subsequently, she swims at a speed of 4 miles per hour. How many miles will she swim over the course of 5 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia can drive [BLANK] for 3 hours. After that, she drives 10 miles per hour. How many miles can she drive in 8 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia is capable of driving [BLANK] for a duration of 3 hours. Subsequently, she travels at a speed of 10 miles per hour. What is the total distance she can cover in 8 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 3 hours, Sophia can travel [BLANK]. Following that, her speed increases to 10 miles per hour. How far can she go in 8 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia has the ability to drive [BLANK] over a span of 3 hours. After this period, she accelerates to 10 miles per hour. How many miles will she manage to drive in 8 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the first 3 hours, Sophia can drive [BLANK]. Then, she continues at a pace of 10 miles per hour. What total distance can she achieve in 8 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia can travel [BLANK] during the first 3 hours. Afterward, her driving speed is 10 miles per hour. How many miles can she cover in a total of 8 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Rosie can run [BLANK] for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Rosie is able to run [BLANK] for a duration of 3 hours. Following that, she maintains a speed of 5 miles per hour. What total distance can she cover in 7 hours? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 3 hours, Rosie can run [BLANK]. Once that time has passed, she runs at a pace of 5 miles per hour. How many miles will she have run in a total of 7 hours? We will break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rosie can manage to run [BLANK] over the course of 3 hours. Subsequently, she runs at a rate of 5 miles per hour. In 7 hours, how many miles is she able to run? Let's consider this step by step and write down the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a duration of 3 hours, Rosie can run [BLANK]. After that, she continues at a speed of 5 miles per hour. What is the total distance she can run in 7 hours? We will think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rosie has the capability to run [BLANK] for 3 hours. Afterward, she runs at 5 miles per hour. How far can she run in a span of 7 hours? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

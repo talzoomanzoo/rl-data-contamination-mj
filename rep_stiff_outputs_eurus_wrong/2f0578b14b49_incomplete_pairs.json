@@ -1,0 +1,62 @@
+{
+  "original_question": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared $20 for this purchase. One crayon costs $2. How much change will she get? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the total amount prepared for purchase\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared $20 for this purchase. One crayon costs $2. How much change will she get? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared [BLANK]. One crayon costs $2. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Lucas wants to buy new markers. He needs them in 4 different colors and prepared $24 for this purchase. One marker costs $3. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Lucas wants to buy new markers. He needs them in 4 different colors and prepared [BLANK]. One marker costs $3. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma wants to buy new notebooks. She needs them in 6 different designs and prepared $30 for this purchase. One notebook costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma wants to buy new notebooks. She needs them in 6 different designs and prepared [BLANK]. One notebook costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Oliver wants to buy new stickers. He needs them in 3 different themes and prepared $15 for this purchase. One sticker pack costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Oliver wants to buy new stickers. He needs them in 3 different themes and prepared [BLANK]. One sticker pack costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophia wants to buy new paintbrushes. She needs them in 7 different sizes and prepared $35 for this purchase. One paintbrush costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia wants to buy new paintbrushes. She needs them in 7 different sizes and prepared [BLANK]. One paintbrush costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Noah wants to buy new colored pencils. He needs them in 8 different colors and prepared $40 for this purchase. One colored pencil costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Noah wants to buy new colored pencils. He needs them in 8 different colors and prepared [BLANK]. One colored pencil costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount prepared for purchase\""
+    }
+  ],
+  "num_valid_similars": 5
+}

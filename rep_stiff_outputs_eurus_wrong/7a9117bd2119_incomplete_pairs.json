@@ -1,0 +1,62 @@
+{
+  "original_question": "Charlie has boots that are five times the size of Sophie's. If Sophie wears size five boots, what is the average size of shoe worn by the two? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the size of Sophie's boots\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Charlie has boots that are five times the size of Sophie's. If Sophie wears size five boots, what is the average size of shoe worn by the two? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Charlie has boots that are five times the size of [BLANK]. If [BLANK] wears size five boots, what is the average size of shoe worn by the two? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the size of Sophie's boots\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam has shoes that are four times the size of Emma's. If Emma wears size seven shoes, what is the average size of shoe worn by the two?",
+      "incomplete_question": "Liam has shoes that are four times the size of Emma's. If Emma wears size seven shoes, what is the average size of shoe worn by the two?",
+      "info_removed": "\"the size of Sophie's boots\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Noah has sneakers that are six times the size of Ava's. If Ava wears size three sneakers, what is the average size of shoe worn by the two?",
+      "incomplete_question": "Noah has sneakers that are six times the size of Ava's. If Ava wears size three sneakers, what is the average size of shoe worn by the two?",
+      "info_removed": "\"the size of Sophie's boots\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Ethan has sandals that are eight times the size of Mia's. If Mia wears size four sandals, what is the average size of shoe worn by the two?",
+      "incomplete_question": "Ethan has sandals that are eight times the size of Mia's. If Mia wears size four sandals, what is the average size of shoe worn by the two?",
+      "info_removed": "\"the size of Sophie's boots\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Jacob has clogs that are seven times the size of Isabella's. If Isabella wears size six clogs, what is the average size of shoe worn by the two?",
+      "incomplete_question": "Jacob has clogs that are seven times the size of Isabella's. If Isabella wears size six clogs, what is the average size of shoe worn by the two?",
+      "info_removed": "\"the size of Sophie's boots\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Lucas has dress shoes that are three times the size of Zoe's. If Zoe wears size five dress shoes, what is the average size of shoe worn by the two?",
+      "incomplete_question": "Lucas has dress shoes that are three times the size of Zoe's. If Zoe wears size five dress shoes, what is the average size of shoe worn by the two?",
+      "info_removed": "\"the size of Sophie's boots\""
+    }
+  ],
+  "num_valid_similars": 0
+}

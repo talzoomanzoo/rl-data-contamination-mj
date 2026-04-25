@@ -1,0 +1,210 @@
+{
+  "original_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Sophia's first book sold 12 times as many copies as Liam's. If they sold [BLANK] copies combined, how many copies did Liam sell?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia's initial book had sales that were 12 times greater than Liam's. If their total sales amounted to [BLANK] copies, how many copies did Liam manage to sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The number of copies sold by Sophia's first book was 12 times that of Liam's. Given that their combined sales equaled [BLANK] copies, how many copies did Liam sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam's sales were outdone by Sophia's first book, which sold 12 times as many copies. If the total number of copies sold was [BLANK], how many did Liam sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia's first book achieved sales that were 12 times more than those of Liam. If the total copies sold were [BLANK], what was the number of copies sold by Liam?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sales of Sophia's initial book were 12 times the number of copies Liam sold. If they had a total of [BLANK] copies sold, how many copies correspond to Liam's sales?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Oliver's first album sold 15 times as many copies as Emma's. If they sold [BLANK] copies combined, how many copies did Emma sell?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver's debut album had sales that were 15 times greater than Emma's. If their total sales amounted to [BLANK] copies, what is the number of copies Emma sold?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The number of copies sold by Oliver's first album was 15 times that of Emma's. Given that the total sales reached [BLANK] copies, how many copies did Emma sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver's initial album achieved sales that were 15 times higher than those of Emma. If their combined sales totaled [BLANK] copies, how many copies were sold by Emma?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The sales of Oliver's first album were 15 times those of Emma. If the overall total reached [BLANK] copies, how many copies did Emma manage to sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver's first album's sales were 15 times the amount of Emma's. If they together sold [BLANK] copies, what is the count of copies that Emma sold?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophie's first painting sold 9 times as many prints as Jake's. If they sold [BLANK] prints combined, how many prints did Jake sell?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake sold fewer prints than Sophie, who sold 9 times the amount that Jake did. Together, they sold [BLANK] prints; how many did Jake sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie managed to sell 9 times the prints that Jake did. If their total sales amounted to [BLANK] prints, what is the number of prints Jake sold?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The number of prints sold by Sophie was 9 times greater than that sold by Jake. If their combined total was [BLANK] prints, how many prints did Jake sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With Sophie selling 9 times as many prints as Jake, their total sales reached [BLANK] prints. How many prints did Jake manage to sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie sold 9 times more prints than Jake. If the total number of prints they sold together is [BLANK], how many prints did Jake sell?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold [BLANK] copies combined, how many copies did Harald sell? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Marilyn's initial album achieved sales that were 10 times greater than those of Harald's. If the total number of copies they sold is [BLANK], how many copies did Harald sell? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The first record by Marilyn sold a quantity that was 10 times what Harald's record sold. Given that their combined sales amount to [BLANK], how many copies did Harald manage to sell? We'll work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Marilyn's debut album had sales that were 10 times greater than those of Harald's album. If the total sales count is [BLANK], how many copies did Harald sell? Let's break this down step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The first record released by Marilyn had sales 10 times those of Harald's record. If the combined total of their sales is [BLANK], how many copies did Harald sell? We'll examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Marilyn's first album sold 10 times the number of copies that Harald's album sold. If they collectively sold [BLANK] copies, how many did Harald sell? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Aiden's first film sold 8 times as many tickets as Mia's. If they sold [BLANK] tickets combined, how many tickets did Mia sell?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Aiden's initial movie had ticket sales that were 8 times greater than Mia's. If their total ticket sales amounted to [BLANK], how many tickets did Mia sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The number of tickets sold for Aiden's debut film was 8 times that of Mia's. Given that their total ticket sales equaled [BLANK], how many tickets did Mia sell?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Aiden's first movie achieved ticket sales 8 times higher than those of Mia. If the total tickets sold by both was [BLANK], what is the number of tickets Mia sold?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Aiden's inaugural film sold tickets at a rate 8 times that of Mia's. If the combined total of their ticket sales reached [BLANK], how many tickets were sold by Mia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Aiden's first film had ticket sales that were 8 times the amount Mia sold. If the total tickets sold between them added up to [BLANK], how many tickets did Mia sell?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ella's first podcast episode was downloaded 14 times as many times as Noah's. If they had [BLANK] downloads combined, how many downloads did Noah receive?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The number of downloads for Ella's initial podcast episode was 14 times greater than that of Noah's. Given that their total downloads amounted to [BLANK], how many downloads did Noah achieve?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ella's debut podcast episode received 14 times the downloads compared to Noah's episode. If their total downloads equaled [BLANK], what was the number of downloads for Noah?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The downloads for Ella's first podcast episode were 14 times the amount of Noah's downloads. If the combined total of their downloads is [BLANK], how many downloads did Noah have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella's first podcast episode was downloaded 14 times more than Noah's. If their total downloads reached [BLANK], how many downloads did Noah's episode receive?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ella's inaugural podcast episode was downloaded 14 times as much as Noah's episode. If the combined total downloads are [BLANK], how many downloads did Noah get?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

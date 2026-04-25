@@ -1,0 +1,27 @@
+{
+  "dataset": "sat",
+  "original_question_id": 0,
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!B!C & !A!CE & !AC!E & !BCE & A!C!D & A!CE & A!D!E & AB!D & ABC & ACD & ADE & BDE & CDE\"}\n",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "{\"n_sat\": 4, \"k\": 6, \"clause\": \"!A!B!C!D & !A!BCE & !AB!C!E & !BCD & AB!C!D & A!BC!E & ACD!E & A!D!E & ABCD & A!BDE & B!CDE & C!D!E\"}"
+    },
+    {
+      "id": 2,
+      "question": "{\"n_sat\": 2, \"k\": 7, \"clause\": \"!B!C & A!D!E & A!B!F & B!C!F & !A!C!E & AB!D!F & A!B!C!G & A!CDE & BCD!E & !D!E!F\"}"
+    },
+    {
+      "id": 3,
+      "question": "{\"n_sat\": 5, \"k\": 8, \"clause\": \"!A!B!D!E!F & A!C!D & !A!BCE & !A!BCD & AB!C!F & !B!C!D!E & ACD!E!F & !D!E & A!B!C!G & B!C!F!G\"}"
+    },
+    {
+      "id": 4,
+      "question": "{\"n_sat\": 3, \"k\": 5, \"clause\": \"!C!D!E & A!B!D & !A!B!C & AB!E & AC!D!E & !BCE & A!C!D & !A!C!E & B!D & A!E\"}"
+    },
+    {
+      "id": 5,
+      "question": "{\"n_sat\": 4, \"k\": 6, \"clause\": \"!A!B!C!E & !A!B!F & A!CDE & !A!B!C & AB!C!E & ABC!D & A!D!F & !CDE & B!C!D & A!B!F\"}"
+    }
+  ]
+}

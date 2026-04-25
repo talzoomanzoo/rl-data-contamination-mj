@@ -37,6 +37,8 @@ def _normalize_prompt_obj(obj):
 
 def get_user_content(prompt_obj):
     prompt_obj = _normalize_prompt_obj(prompt_obj)
+    if isinstance(prompt_obj, str):
+        return prompt_obj
     if isinstance(prompt_obj, Mapping):
         # Sometimes prompt is a single message dict.
         return prompt_obj.get("content") or prompt_obj.get("text") or prompt_obj.get("prompt")
@@ -248,8 +250,15 @@ def main():
                 pass
 
         for _, row in df.iterrows():
-            if 'prompt' in row and 'member' in row:
-                all_tasks.append(row.to_dict())
+            # Minimum required field is `prompt`. Some datasets (e.g. pure RL data dumps)
+            # do not provide `member` labels; default to non-member in that case so the
+            # generation pipeline can still run (evaluation metrics may be uninformative).
+            if 'prompt' not in row:
+                continue
+            d = row.to_dict()
+            d.setdefault("member", False)
+            d.setdefault("data_source", "unknown")
+            all_tasks.append(d)
     df_all = pd.DataFrame(all_tasks)
 
     print('df_all.keys()', df_all.keys())
@@ -385,7 +394,7 @@ def main():
                 for j in range(len(batch_tasks)):
                     first_pass_text = original_greedy_outputs[j].outputs[0].text
                     task = batch_tasks[j]
-                    original_prompt = task['prompt'].tolist() if isinstance(task['prompt'], np.ndarray) else task['prompt']
+                    original_prompt = _coerce_messages(task.get('prompt'))
                     critique_prompt = copy.deepcopy(original_prompt)
                     template_prompt_formatted = format_prompt(critique_prompt, args.prompt_template, tokenizer)
                     template_token_ids = tokenizer.encode(template_prompt_formatted)
@@ -418,7 +427,7 @@ def main():
                 batch_unfamiliar_prompts = []
                 UNFAMILIAR = "Answer using a technique you’d typically avoid or a deliberately unconventional line of reasoning."
                 for task in batch_tasks:
-                    original_prompt = task['prompt'].tolist() if isinstance(task['prompt'], np.ndarray) else task['prompt']
+                    original_prompt = _coerce_messages(task.get('prompt'))
                     prompt2 = copy.deepcopy(original_prompt)
                     user_content = get_user_content(original_prompt)
                     # Only append instruction, without first-pass answer
@@ -437,8 +446,9 @@ def main():
 
             for j in range(len(batch_tasks)):
                 task = batch_tasks[j]
+                original_prompt = _coerce_messages(task.get('prompt'))
                 final_item = {
-                    "original_user_content": get_user_content(task['prompt']),
+                    "original_user_content": get_user_content(original_prompt),
                     "ground_truth_label": 1 if task['member'] else 0,
                     "data_source": task['data_source'],
                 }

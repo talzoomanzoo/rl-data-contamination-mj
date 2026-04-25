@@ -1,0 +1,210 @@
+{
+  "original_question": "There are 30 students in Marissa\u2019s class. Each student started the year with 10 pencils. After two months, 1/5 of the total pencils in class were used. At the end of the year, only 1/3 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "There are 50 students in Jordan\u2019s class. Each student started the year with [BLANK]. After two months, 1/10 of the total pencils in class were used. At the end of the year, only 3/5 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Jordan's class, there are 50 students. At the beginning of the year, each student had [BLANK]. After two months, 1/10 of all the pencils in the class were consumed. By the end of the year, only 3/5 of the pencils that were left remained. How many pencils are still there? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jordan\u2019s class consists of 50 students. Each student began the year with [BLANK]. After two months, 1/10 of the entire amount of pencils in the class was used up. By the end of the year, just 3/5 of the leftover pencils were still present. What is the count of pencils that remain? Let\u2019s go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 50 students enrolled in Jordan's class. Every student started the year possessing [BLANK]. Two months later, 1/10 of the total pencils in the class had been utilized. At the year\u2019s conclusion, only 3/5 of the remaining pencils stayed. How many pencils are remaining? We should consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the classroom of Jordan, there are 50 students. Each student had [BLANK] at the start of the year. After a span of two months, 1/10 of the class's total pencils were used. By the end of the year, merely 3/5 of the pencils that were left remained. How many pencils do we have left? Let\u2019s think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jordan has a class of 50 students. Each student began the year with [BLANK]. After two months, 1/10 of the total number of pencils in the class had been used. By the year's end, only 3/5 of the pencils that were still available remained. How many pencils are there now? Let\u2019s examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "There are 30 students in Marissa\u2019s class. Each student started the year with [BLANK]. After two months, 1/5 of the total pencils in class were used. At the end of the year, only 1/3 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Marissa's class, there are 30 students. At the beginning of the year, each student had [BLANK]. After two months, one-fifth of all the pencils in the class were used. By the end of the year, only one-third of the leftover pencils remained. How many pencils are remaining? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Marissa's classroom consists of 30 students. Each student began the year with [BLANK]. After two months, 1/5 of the pencils in the class were consumed. At the conclusion of the year, just 1/3 of the pencils that were left were still available. What is the count of pencils remaining? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 30 students enrolled in Marissa\u2019s classroom. Every student commenced the year with [BLANK]. After two months, one-fifth of the total pencils in the classroom were utilized. At year\u2019s end, merely one-third of the remaining pencils were still there. How many pencils did we end up with? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the classroom of Marissa, there are 30 students. Each of these students had [BLANK] at the start of the year. Two months later, 1/5 of all the pencils available in the class had been used. By the end of the year, only 1/3 of the remaining pencils were still present. What is the number of pencils left? Let's consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Marissa has a class of 30 students. At the start of the academic year, every student possessed [BLANK]. After a period of two months, one-fifth of the pencils in the class were spent. By the end of the year, there was only one-third of the leftover pencils remaining. How many pencils are still there? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "There are 40 students in Jamie\u2019s class. Each student started the year with [BLANK]. After four months, 1/3 of the total pencils in class were used. At the end of the year, only 2/5 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Jamie's class, there are 40 students. At the beginning of the year, every student had [BLANK]. After four months, one-third of all the pencils in the class were consumed. By the end of the year, only two-fifths of the leftover pencils remained. How many pencils are still there? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jamie\u2019s classroom consists of 40 students. Each student began the year with [BLANK]. Over a period of four months, a third of the total pencils available in the class were utilized. Ultimately, at the year's conclusion, just two-fifths of the remaining pencils were present. What is the count of pencils that are left? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 40 students enrolled in Jamie's class. At the start of the year, each student possessed [BLANK]. After four months elapsed, one-third of the total pencils in the class had been used. By the end of the academic year, only two-fifths of the pencils that were left remained. How many pencils do we have left? Let\u2019s think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In Jamie's class, the total number of students is 40. Each student commenced the year with [BLANK]. After four months, one-third of the pencils owned by the class were used up. At the end of the year, merely two-fifths of the pencils that were still there were left. How many pencils remain? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jamie has a class of 40 students. Every student started the year with [BLANK]. After four months, one-third of the overall pencils in the class had been used. By the year's end, only two-fifths of the remaining pencils were still available. How many pencils are left over? Let\u2019s consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "There are 20 students in Taylor\u2019s class. Each student started the year with [BLANK]. After one month, 1/2 of the total pencils in class were used. At the end of the year, only 1/4 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Taylor's class, there are 20 students. Each student began the year with [BLANK]. After a month passed, half of the total pencils in the classroom were utilized. By the year's conclusion, only a quarter of the leftover pencils remained. What is the number of pencils still there? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are 20 students enrolled in Taylor's class. At the start of the year, every student had [BLANK]. After one month, one-half of the total number of pencils in the class was consumed. By the end of the year, merely a quarter of the remaining pencils was left. How many pencils do we have left? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Taylor's class consists of 20 students. Each student commenced the year with [BLANK]. After a period of one month, half of the total pencils present in class were used up. At the end of the year, only a fourth of the remaining pencils were still available. How many pencils are remaining? Let\u2019s go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In Taylor's classroom, there are 20 students. Each student started the year possessing [BLANK]. After a month, half of the pencils in total in the class were utilized. At year\u2019s end, just a quarter of the pencils that were left remained. What is the count of pencils left? Let\u2019s think about this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There are 20 pupils in Taylor's class. Every pupil began the year with [BLANK]. Following one month, 50% of the total pencils in the classroom had been used. By the end of the year, only 25% of the pencils that were left were remaining. How many pencils are still there? Let's reason through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "There are 35 students in Chris\u2019s class. Each student started the year with [BLANK]. After five months, 1/6 of the total pencils in class were used. At the end of the year, only 3/4 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Chris's class, there are 35 students. At the beginning of the year, each student had [BLANK]. After five months, one-sixth of all the pencils in the class were utilized. By the end of the year, only three-quarters of the pencils that were left remained. How many pencils are still there? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Chris's class consists of 35 students. Each student began the year with [BLANK]. After a period of five months, 1/6 of the entire supply of pencils in the class was consumed. At the year's conclusion, merely 3/4 of the pencils that were available were still present. What is the total number of pencils remaining? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 35 pupils in Chris\u2019s classroom. Each pupil started the year with [BLANK]. Over the course of five months, one-sixth of the total pencils in the classroom were spent. By the end of the school year, only 3/4 of the leftover pencils were still available. How many pencils do we have left? Let\u2019s proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In Chris's classroom, there are 35 students. Each student had [BLANK] at the start of the year. After five months, 1/6 of the overall pencils in the class had been used. By the end of the year, only 3/4 of the pencils that remained were still there. What is the number of pencils that are left? Let\u2019s evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Chris has a class of 35 students. At the beginning of the year, each student possessed [BLANK]. After five months, one-sixth of the total number of pencils in the class was utilized. When the year came to a close, only 3/4 of the remaining pencils were still present. How many pencils remain? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "There are 25 students in Alex\u2019s class. Each student started the year with [BLANK]. After three months, 1/4 of the total pencils in class were used. At the end of the year, only 1/2 of the remaining pencils were left. How many pencils were left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Alex's class, there are 25 students. At the beginning of the year, each student had [BLANK]. After three months, 1/4 of the total number of pencils in the classroom were utilized. By the end of the year, only 1/2 of the pencils that were still there remained. How many pencils are remaining? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alex's class consists of 25 students. Each student began the year with [BLANK]. After a period of three months, 1/4 of the pencils in total were consumed. At the conclusion of the year, just 1/2 of the pencils that were left over could be found. How many pencils do we have left? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 25 students in the class taught by Alex. Each student commenced the year with [BLANK]. Three months in, 1/4 of the overall pencils in the class had been used. By year's end, only 1/2 of the remaining pencils were still present. How many pencils remain? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In Alex\u2019s classroom, there are 25 students. Every student started the year holding [BLANK]. After three months, 1/4 of the total pencils in the classroom were expended. By the end of the year, merely 1/2 of what was leftover remained. What is the count of the pencils that are left? Let's proceed step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There are 25 students in the class of Alex. Each student had [BLANK] at the year's start. After three months, 1/4 of the total pencils in the class were depleted. By the end of the academic year, only 1/2 of the pencils that were still there were left. How many pencils are remaining? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that 30% of the watermelons were ready for harvest, so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the percentage of watermelons ready for harvest\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that 30% of the watermelons were ready for harvest, so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that [BLANK], so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A pumpkin farm produced 150 baby pumpkins. Oliver went to the farm after three months and found out that 25% of the pumpkins were ready for harvest, so he took them home. When he came back two weeks later, 2/5 of the remaining pumpkins were ready, so he harvested them. How many pumpkins were not ready to be harvested after the two weeks?",
+      "incomplete_question": "A pumpkin farm produced 150 baby pumpkins. Oliver went to the farm after three months and found out that [BLANK], so he took them home. When he came back two weeks later, 2/5 of the remaining pumpkins were ready, so he harvested them. How many pumpkins were not ready to be harvested after the two weeks?",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A tomato farm produced 200 baby tomatoes. Mia went to the farm after one month and found out that 40% of the tomatoes were ready for harvest, so she took them home. When she came back three weeks later, 1/2 of the remaining tomatoes were ready, so she harvested them. How many tomatoes were not ready to be harvested after the three weeks?",
+      "incomplete_question": "A tomato farm produced 200 baby tomatoes. Mia went to the farm after one month and found out that [BLANK], so she took them home. When she came back three weeks later, 1/2 of the remaining tomatoes were ready, so she harvested them. How many tomatoes were not ready to be harvested after the three weeks?",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A cucumber farm produced 80 baby cucumbers. Liam went to the farm after five weeks and found out that 50% of the cucumbers were ready for harvest, so he took them home. When he came back one week later, 1/3 of the remaining cucumbers were ready, so he harvested them. How many cucumbers were not ready to be harvested after the one week?",
+      "incomplete_question": "A cucumber farm produced 80 baby cucumbers. Liam went to the farm after five weeks and found out that [BLANK], so he took them home. When he came back one week later, 1/3 of the remaining cucumbers were ready, so he harvested them. How many cucumbers were not ready to be harvested after the one week?",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A pepper farm produced 90 baby peppers. Sarah went to the farm after four weeks and found out that 20% of the peppers were ready for harvest, so she took them home. When she came back two weeks later, 3/5 of the remaining peppers were ready, so she harvested them. How many peppers were not ready to be harvested after the two weeks?",
+      "incomplete_question": "A pepper farm produced 90 baby peppers. Sarah went to the farm after four weeks and found out that [BLANK], so she took them home. When she came back two weeks later, 3/5 of the remaining peppers were ready, so she harvested them. How many peppers were not ready to be harvested after the two weeks?",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A squash farm produced 110 baby squashes. Jack went to the farm after six weeks and found out that 35% of the squashes were ready for harvest, so he took them home. When he came back one month later, 4/7 of the remaining squashes were ready, so he harvested them. How many squashes were not ready to be harvested after the one month?",
+      "incomplete_question": "A squash farm produced 110 baby squashes. Jack went to the farm after six weeks and found out that [BLANK], so he took them home. When he came back one month later, 4/7 of the remaining squashes were ready, so he harvested them. How many squashes were not ready to be harvested after the one month?",
+      "info_removed": "\"the percentage of watermelons ready for harvest\""
+    }
+  ],
+  "num_valid_similars": 5
+}

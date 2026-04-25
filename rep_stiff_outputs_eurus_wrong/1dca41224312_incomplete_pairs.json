@@ -1,0 +1,62 @@
+{
+  "original_question": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received 20000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of new likes received recently",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received 20000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Fishio posted her selfie on Instagram. She received 2000 likes on the photo after 1 week. Three weeks later, the number of likes was 70 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Luna shared her travel photo on Instagram. She received 1500 likes on the photo after 1 week. Three weeks later, the number of likes was 60 times as many as the initial number of likes. If she received 18000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Luna shared her travel photo on Instagram. She received 1500 likes on the photo after 1 week. Three weeks later, the number of likes was 60 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Mark uploaded his cooking video on Instagram. He received 2500 likes on the video after 1 week. Three weeks later, the number of likes was 80 times as many as the initial number of likes. If he received 22000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mark uploaded his cooking video on Instagram. He received 2500 likes on the video after 1 week. Three weeks later, the number of likes was 80 times as many as the initial number of likes. If he received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Eva posted her art piece on Instagram. She received 3000 likes on the piece after 1 week. Three weeks later, the number of likes was 90 times as many as the initial number of likes. If she received 25000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Eva posted her art piece on Instagram. She received 3000 likes on the piece after 1 week. Three weeks later, the number of likes was 90 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Jake shared his workout routine on Instagram. He received 3500 likes on the routine after 1 week. Three weeks later, the number of likes was 75 times as many as the initial number of likes. If he received 24000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Jake shared his workout routine on Instagram. He received 3500 likes on the routine after 1 week. Three weeks later, the number of likes was 75 times as many as the initial number of likes. If he received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sophia released her music video on Instagram. She received 1800 likes on the video after 1 week. Three weeks later, the number of likes was 50 times as many as the initial number of likes. If she received 15000 more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia released her music video on Instagram. She received 1800 likes on the video after 1 week. Three weeks later, the number of likes was 50 times as many as the initial number of likes. If she received [BLANK] more new likes recently, how many Instagram likes are there? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of new likes received recently"
+    }
+  ],
+  "num_valid_similars": 5
+}

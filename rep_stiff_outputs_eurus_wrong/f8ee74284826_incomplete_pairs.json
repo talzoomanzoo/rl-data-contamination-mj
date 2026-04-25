@@ -1,0 +1,62 @@
+{
+  "original_question": "Bob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the distance between Bob and Tom",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Bob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Bob is [BLANK] ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the distance between Bob and Tom"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Alice is 90 miles ahead of Mark, driving 60 miles per hour. Mark is driving 75 miles per hour. How long will it take Mark to catch up with Alice?",
+      "incomplete_question": "Alice is [BLANK] ahead of Mark, driving 60 miles per hour. Mark is driving 75 miles per hour. How long will it take Mark to catch up with Alice?",
+      "info_removed": "the distance between Bob and Tom"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sara is 120 miles ahead of John, driving 65 miles per hour. John is driving 80 miles per hour. How long will it take John to catch up with Sara?",
+      "incomplete_question": "Sara is [BLANK] ahead of John, driving 65 miles per hour. John is driving 80 miles per hour. How long will it take John to catch up with Sara?",
+      "info_removed": "the distance between Bob and Tom"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Lisa is 45 miles ahead of Kevin, driving 50 miles per hour. Kevin is driving 65 miles per hour. How long will it take Kevin to catch up with Lisa?",
+      "incomplete_question": "Lisa is [BLANK] ahead of Kevin, driving 50 miles per hour. Kevin is driving 65 miles per hour. How long will it take Kevin to catch up with Lisa?",
+      "info_removed": "the distance between Bob and Tom"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Emily is 100 miles ahead of Jake, driving 70 miles per hour. Jake is driving 85 miles per hour. How long will it take Jake to catch up with Emily?",
+      "incomplete_question": "Emily is [BLANK] ahead of Jake, driving 70 miles per hour. Jake is driving 85 miles per hour. How long will it take Jake to catch up with Emily?",
+      "info_removed": "the distance between Bob and Tom"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Nina is 55 miles ahead of Oscar, driving 40 miles per hour. Oscar is driving 50 miles per hour. How long will it take Oscar to catch up with Nina?",
+      "incomplete_question": "Nina is [BLANK] ahead of Oscar, driving 40 miles per hour. Oscar is driving 50 miles per hour. How long will it take Oscar to catch up with Nina?",
+      "info_removed": "the distance between Bob and Tom"
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the speed of running",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Rosie can run 10 miles per hour for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Rosie can run [BLANK] for 3 hours. After that, she runs 5 miles per hour. How many miles can she run in 7 hours? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the speed of running"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam can ride his bicycle at 12 miles per hour for 4 hours. After that, he rides at 6 miles per hour. How many miles can he ride in 9 hours?",
+      "incomplete_question": "Liam can ride his bicycle at [BLANK] for 4 hours. After that, he rides at 6 miles per hour. How many miles can he ride in 9 hours?",
+      "info_removed": "the speed of running"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma can swim 8 miles per hour for 2 hours. After that, she swims 4 miles per hour. How many miles can she swim in 5 hours?",
+      "incomplete_question": "Emma can swim [BLANK] for 2 hours. After that, she swims 4 miles per hour. How many miles can she swim in 5 hours?",
+      "info_removed": "the speed of running"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Noah can hike 9 miles per hour for 5 hours. After that, he hikes 7 miles per hour. How many miles can he hike in 10 hours?",
+      "incomplete_question": "Noah can hike [BLANK] for 5 hours. After that, he hikes 7 miles per hour. How many miles can he hike in 10 hours?",
+      "info_removed": "the speed of running"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophia can drive 15 miles per hour for 3 hours. After that, she drives 10 miles per hour. How many miles can she drive in 8 hours?",
+      "incomplete_question": "Sophia can drive [BLANK] for 3 hours. After that, she drives 10 miles per hour. How many miles can she drive in 8 hours?",
+      "info_removed": "the speed of running"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Oliver can walk 11 miles per hour for 6 hours. After that, he walks 3 miles per hour. How many miles can he walk in 12 hours?",
+      "incomplete_question": "Oliver can walk [BLANK] for 6 hours. After that, he walks 3 miles per hour. How many miles can he walk in 12 hours?",
+      "info_removed": "the speed of running"
+    }
+  ],
+  "num_valid_similars": 5
+}

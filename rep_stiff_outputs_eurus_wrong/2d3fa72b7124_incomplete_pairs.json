@@ -1,0 +1,62 @@
+{
+  "original_question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total amount of money available",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free. Each scoop cost $1.50. If Erin had [BLANK], how many scoops of ice cream should she buy? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total amount of money available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "The candy store was offering a deal, buy 3 bags of candy, get 1 bag free. Each bag costs $2.00. If Liam had $10.00, how many bags of candy should he buy?",
+      "incomplete_question": "The candy store was offering a deal, buy 3 bags of candy, get 1 bag free. Each bag costs $2.00. If Liam had [BLANK], how many bags of candy should he buy?",
+      "info_removed": "the total amount of money available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "The bookstore was offering a deal, buy 4 books, get 1 book free. Each book costs $5.00. If Sara had $25.00, how many books should she buy?",
+      "incomplete_question": "The bookstore was offering a deal, buy 4 books, get 1 book free. Each book costs $5.00. If Sara had [BLANK], how many books should she buy?",
+      "info_removed": "the total amount of money available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "The pizza place was offering a deal, buy 1 pizza, get 1 pizza free. Each pizza costs $8.00. If Mark had $32.00, how many pizzas should he buy?",
+      "incomplete_question": "The pizza place was offering a deal, buy 1 pizza, get 1 pizza free. Each pizza costs $8.00. If Mark had [BLANK], how many pizzas should he buy?",
+      "info_removed": "the total amount of money available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "The bakery was offering a deal, buy 5 pastries, get 2 pastries free. Each pastry costs $3.00. If Anna had $30.00, how many pastries should she buy?",
+      "incomplete_question": "The bakery was offering a deal, buy 5 pastries, get 2 pastries free. Each pastry costs $3.00. If Anna had [BLANK], how many pastries should she buy?",
+      "info_removed": "the total amount of money available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "The toy store was offering a deal, buy 6 toys, get 2 toys free. Each toy costs $4.00. If Jake had $40.00, how many toys should he buy?",
+      "incomplete_question": "The toy store was offering a deal, buy 6 toys, get 2 toys free. Each toy costs $4.00. If Jake had [BLANK], how many toys should he buy?",
+      "info_removed": "the total amount of money available"
+    }
+  ],
+  "num_valid_similars": 5
+}

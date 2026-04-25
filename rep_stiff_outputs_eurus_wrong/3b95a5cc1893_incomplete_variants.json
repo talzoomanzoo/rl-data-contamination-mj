@@ -1,0 +1,210 @@
+{
+  "original_question": "A test consists of $30$ questions with the following scoring: $+4$ points for each correct answer, $-1$ point for each incorrect answer, and $0$ points for each unanswered question. Ella's score on this test is $85$. What is the maximum number of questions she could have answered correctly?\nA) 21\nB) 2\nC) 23\nD) 24\nE) 25\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A test consists of $40$ questions with the following scoring: $+5$ points for each correct answer, $-2$ points for each incorrect answer, and $0$ points for each unanswered question. Jack's score on this test is [BLANK]. What is the maximum number of questions he could have answered correctly? A) 20 B) 15 C) 18 D) 22 E) 25",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "There are $40$ questions on the test, which is scored as follows: $+5$ points for each correct response, $-2$ points for each wrong answer, and $0$ points for each question left unanswered. Jack's score for this exam is [BLANK]. What is the highest possible number of questions he could have answered correctly? A) 20 B) 15 C) 18 D) 22 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The exam contains $40$ questions with a point system that awards $+5$ points for a correct answer, deducts $-2$ points for an incorrect response, and gives $0$ points for unanswered items. Jack's total score on this exam is [BLANK]. What is the greatest number of questions he might have answered correctly? A) 20 B) 15 C) 18 D) 22 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of $40$ questions make up the test, scored as follows: $+5$ points for right answers, $-2$ points for wrong ones, and $0$ points for those not answered. Jack has a score of [BLANK] on this test. What is the maximum number of questions he could have answered correctly? A) 20 B) 15 C) 18 D) 22 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The test is composed of $40$ questions, with the scoring system being $+5$ points for each answer that is correct, $-2$ points for each incorrect answer, and $0$ points for questions that remain unanswered. Jack's score on this test amounts to [BLANK]. How many questions could he have answered correctly at most? A) 20 B) 15 C) 18 D) 22 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "This test features $40$ questions, scored as follows: $+5$ points for each correct response, $-2$ points for each incorrect response, and $0$ points for any unanswered questions. Jack's score for this test is [BLANK]. What is the maximum possible number of questions he could have answered correctly? A) 20 B) 15 C) 18 D) 22 E) 25",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A test consists of $50$ questions with the following scoring: $+6$ points for each correct answer, $-3$ points for each incorrect answer, and $0$ points for each unanswered question. Tom's score on this test is [BLANK]. What is the maximum number of questions he could have answered correctly? A) 30 B) 15 C) 25 D) 20 E) 22",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A quiz is made up of $50$ questions and has this scoring system: $+6$ points for every correct response, $-3$ points for each wrong response, and $0$ points for questions left unanswered. Tom achieved a score of [BLANK] on this quiz. What is the greatest number of questions he could have answered correctly? A) 30 B) 15 C) 25 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The examination features $50$ questions, with a scoring scheme of $+6$ points for every right answer, $-3$ points for every incorrect answer, and $0$ for unanswered ones. Tom's total score on this examination is [BLANK]. How many questions could he have possibly answered correctly at most? A) 30 B) 15 C) 25 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A test comprises $50$ questions, where scoring is defined as $+6$ points for a correct answer, $-3$ points for an incorrect answer, and $0$ points for any questions not answered. Tom's score on this test is [BLANK]. What is the highest number of questions he might have gotten right? A) 30 B) 15 C) 25 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a test involving $50$ questions, the scoring rules are: $+6$ points for each correct answer, $-3$ points for each incorrect answer, and $0$ points for questions that go unanswered. Tom's score for this test is [BLANK]. What is the maximum possible number of questions he could have answered correctly? A) 30 B) 15 C) 25 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A test consists of $50$ questions, with the following point distribution: $+6$ points for each correct answer, $-3$ points for each wrong answer, and $0$ points for any unanswered questions. Tom's score on this test is [BLANK]. What is the most questions he could have answered correctly? A) 30 B) 15 C) 25 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A test consists of $35$ questions with the following scoring: $+4$ points for each correct answer, $-1$ point for each incorrect answer, and $0$ points for each unanswered question. Lily's score on this test is [BLANK]. What is the maximum number of questions she could have answered correctly? A) 24 B) 23 C) 21 D) 20 E) 22",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The examination has $35$ questions and employs the following grading system: $+4$ points for every correct response, $-1$ point for each wrong answer, and $0$ points for questions left unanswered. Lily achieved a score of [BLANK] on this examination. What is the highest number of questions she could have answered correctly? A) 24 B) 23 C) 21 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are $35$ questions in the test with a scoring method that awards $+4$ points for correct answers, deducts $-1$ point for incorrect answers, and gives $0$ points for unanswered questions. Lily's total score on this test is [BLANK]. How many questions could she have answered correctly at most? A) 24 B) 23 C) 21 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A quiz features $35$ questions and the scoring is structured as follows: $+4$ points for each right answer, $-1$ point for each wrong answer, and $0$ points for unanswered items. Lily's score for this quiz is [BLANK]. What is the greatest number of questions she could have answered correctly? A) 24 B) 23 C) 21 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The test contains $35$ questions, with a scoring scheme of $+4$ points for correct answers, $-1$ point for incorrect ones, and $0$ points for questions not attempted. Lily scored [BLANK] on this test. What is the maximum possible number of questions she could have answered correctly? A) 24 B) 23 C) 21 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a test comprising $35$ questions, the scoring rules are as follows: $+4$ points for each correct response, $-1$ point for every incorrect response, and $0$ points for unanswered questions. Lily's score on this test stands at [BLANK]. What is the maximum number of questions she might have answered correctly? A) 24 B) 23 C) 21 D) 20 E) 22",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A test consists of $25$ questions with the following scoring: $+3$ points for each correct answer, $-1$ point for each incorrect answer, and $0$ points for each unanswered question. Maria's score on this test is [BLANK]. What is the maximum number of questions she could have answered correctly? A) 20 B) 25 C) 18 D) 19 E) 17",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A quiz is made up of $25$ questions with the scoring system: $+3$ points for every correct response, $-1$ point for each wrong response, and $0$ points for any questions left unanswered. Maria received a score of [BLANK] on this quiz. What is the highest possible number of questions she could have answered correctly? A) 20 B) 25 C) 18 D) 19 E) 17",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An examination has $25$ questions and uses the following scoring criteria: $+3$ points for each correct response, $-1$ point for every incorrect response, and $0$ points for questions that were not answered. Maria scored [BLANK] on this examination. What is the greatest number of questions she could have gotten right? A) 20 B) 25 C) 18 D) 19 E) 17",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are $25$ questions on a test with the following scoring rules: $+3$ points for each correct answer, $-1$ point for each incorrect answer, and $0$ points for questions that remain unanswered. Maria's score on this test is [BLANK]. How many questions could she have answered correctly at most? A) 20 B) 25 C) 18 D) 19 E) 17",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A test comprises $25$ questions with the scoring system of $+3$ points for correct answers, $-1$ point for wrong answers, and $0$ points for questions not attempted. Maria's total score on this test is [BLANK]. What is the maximum number of questions she could have answered correctly? A) 20 B) 25 C) 18 D) 19 E) 17",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "This assessment consists of $25$ questions and employs the following scoring: $+3$ points for every correct answer, $-1$ point for each incorrect answer, and $0$ points for any question not answered. Maria achieved a score of [BLANK] on this assessment. What is the highest number of questions she could have answered correctly? A) 20 B) 25 C) 18 D) 19 E) 17",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A test consists of $45$ questions with the following scoring: $+2$ points for each correct answer, $-2$ points for each incorrect answer, and $0$ points for each unanswered question. Kevin's score on this test is [BLANK]. What is the maximum number of questions he could have answered correctly? A) 30 B) 25 C) 35 D) 20 E) 28",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A quiz has a total of $45$ questions, and the scoring system awards $+2$ points for every correct response, deducts $-2$ points for each wrong answer, and gives $0$ points for questions left unanswered. Kevin's score on the quiz is [BLANK]. What is the highest possible number of questions he could have answered correctly? A) 30 B) 25 C) 35 D) 20 E) 28",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "This examination features $45$ total questions, scoring $+2$ points for correct responses, $-2$ points for incorrect ones, and $0$ points for those unanswered. Kevin's resulting score from the exam is [BLANK]. What is the greatest number of questions he might have answered correctly? A) 30 B) 25 C) 35 D) 20 E) 28",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A test comprises $45$ questions, with scoring rules of $+2$ points for each correct answer, $-2$ points for each incorrect one, and $0$ points for any unanswered questions. Kevin's score on this test stands at [BLANK]. What is the maximum possible number of questions he could have gotten right? A) 30 B) 25 C) 35 D) 20 E) 28",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a test that includes $45$ questions, the scoring is set at $+2$ points for correct answers, $-2$ points for those that are incorrect, and $0$ points for questions not answered. Kevin's score for this test is [BLANK]. How many questions could he have possibly answered correctly at most? A) 30 B) 25 C) 35 D) 20 E) 28",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An assessment contains $45$ questions where each correct answer earns $+2$ points, each wrong answer incurs a penalty of $-2$ points, and unanswered questions yield $0$ points. Kevin's total score on this assessment is [BLANK]. What is the highest count of questions he could have answered correctly? A) 30 B) 25 C) 35 D) 20 E) 28",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A test consists of $30$ questions with the following scoring: $+4$ points for each correct answer, $-1$ point for each incorrect answer, and $0$ points for each unanswered question. Ella's score on this test is [BLANK]. What is the maximum number of questions she could have answered correctly? A) 21 B) 2 C) 23 D) 24 E) 25",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The exam includes $30$ questions scored as follows: $+4$ points for every correct response, $-1$ point for each wrong response, and $0$ points for questions left unanswered. Ella received a score of [BLANK] on this exam. What is the highest possible number of questions she could have answered correctly? A) 21 B) 2 C) 23 D) 24 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There are $30$ questions on the test, with a scoring system that awards $+4$ points for each correct answer, deducts $-1$ point for incorrect answers, and gives $0$ points for questions not attempted. Ella's result on this test is [BLANK]. What is the greatest number of questions she might have answered correctly? A) 21 B) 2 C) 23 D) 24 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The assessment comprises $30$ questions, scored as follows: $+4$ points for each correct answer, $-1$ point for incorrect answers, and $0$ for any unanswered questions. Ella's total score for this assessment is [BLANK]. What is the maximum quantity of questions she could have answered correctly? A) 21 B) 2 C) 23 D) 24 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "This test is made up of $30$ questions, with a scoring mechanism that grants $+4$ points for correct answers, subtracts $-1$ point for wrong answers, and awards $0$ points for unanswered questions. Ella's score on the test stands at [BLANK]. What is the maximum number of questions she could have gotten right? A) 21 B) 2 C) 23 D) 24 E) 25",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An exam contains $30$ questions with the following point distribution: $+4$ points awarded for each correct answer, $-1$ point deducted for each incorrect answer, and $0$ points for questions that were not answered. Ella's score on this exam is [BLANK]. What is the largest number of questions she could have answered correctly? A) 21 B) 2 C) 23 D) 24 E) 25",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "James buys a plane.  The plane cost $150,000.  He pays $5000 a month to rent a hanger to keep it in.  He also spends twice as much as that on fuel per month.  How much did it cost him to get and maintain the plane for the first year? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the monthly rental cost for the hanger\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "James buys a plane.  The plane cost $150,000.  He pays $5000 a month to rent a hanger to keep it in.  He also spends twice as much as that on fuel per month.  How much did it cost him to get and maintain the plane for the first year? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "James buys a plane. The plane cost $150,000. He pays [BLANK]. He also spends twice as much as that on fuel per month. How much did it cost him to get and maintain the plane for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam buys a boat. The boat cost $120,000. He pays $4,000 a month to rent a slip to keep it in. He also spends three times as much as that on maintenance per month. How much did it cost him to get and maintain the boat for the first year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam buys a boat. The boat cost $120,000. He pays [BLANK]. He also spends three times as much as that on maintenance per month. How much did it cost him to get and maintain the boat for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma buys a car. The car cost $30,000. She pays $2,500 a month to rent a garage to keep it in. She also spends four times as much as that on insurance per month. How much did it cost her to get and maintain the car for the first year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma buys a car. The car cost $30,000. She pays [BLANK]. She also spends four times as much as that on insurance per month. How much did it cost her to get and maintain the car for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Noah buys a motorcycle. The motorcycle cost $15,000. He pays $1,200 a month to rent a storage unit to keep it in. He also spends five times as much as that on repairs per month. How much did it cost him to get and maintain the motorcycle for the first year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Noah buys a motorcycle. The motorcycle cost $15,000. He pays [BLANK]. He also spends five times as much as that on repairs per month. How much did it cost him to get and maintain the motorcycle for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophia buys an RV. The RV cost $80,000. She pays $3,000 a month to rent a parking space to keep it in. She also spends twice as much as that on supplies per month. How much did it cost her to get and maintain the RV for the first year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia buys an RV. The RV cost $80,000. She pays [BLANK]. She also spends twice as much as that on supplies per month. How much did it cost her to get and maintain the RV for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Oliver buys a yacht. The yacht cost $250,000. He pays $6,000 a month to rent a dock to keep it in. He also spends one and a half times as much as that on crew expenses per month. How much did it cost him to get and maintain the yacht for the first year? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Oliver buys a yacht. The yacht cost $250,000. He pays [BLANK]. He also spends one and a half times as much as that on crew expenses per month. How much did it cost him to get and maintain the yacht for the first year? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the monthly rental cost for the hanger\""
+    }
+  ],
+  "num_valid_similars": 5
+}

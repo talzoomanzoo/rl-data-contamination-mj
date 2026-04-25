@@ -1,0 +1,210 @@
+{
+  "original_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $20 they spend. Their last shopping trip, they spent $80. This shopping trip, they spent $43, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $30 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $62, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A customer has a loyalty card that provides $1 discount for every $30 spent at the store. On their previous visit, they spent [BLANK]. For this visit, they spent $62, utilized their rewards, and used a coupon that deducted double the rewards from the total. What is the amount the customer paid during this visit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a store, a customer's loyalty card earns them $1 off for each $30 they purchase. During their last visit, they spent [BLANK]. On this occasion, they made a purchase of $62, redeemed their rewards, and applied a coupon that subtracted twice the value of the rewards from the total cost. How much did the customer spend on this trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A store offers a loyalty card that grants $1 off their next purchase for every $30 spent by a customer. On their last shopping excursion, they spent [BLANK]. This time, they spent $62, availed their rewards, and used a coupon that reduced the price by twice the total rewards. How much did the customer ultimately pay on this shopping excursion?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a loyalty card from a store, a customer earns $1 off for every $30 they spend. In their most recent shopping trip, they spent [BLANK]. For this trip, they purchased items worth $62, applied their rewards, and used a coupon that took off double the rewards amount from the final price. What was the total amount the customer paid during this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A customer's loyalty card rewards them with $1 off for every $30 spent at a store. On their previous shopping trip, they spent [BLANK]. This time, their expenditure was $62, they used their rewards, and they applied a coupon which deducted twice the rewards from the total. How much did the customer end up paying on this shopping trip?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $15 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $36, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A store's loyalty card allows a customer to earn $1 off their subsequent purchase for every $15 spent. On their most recent shopping visit, they spent [BLANK]. During this trip, they spent $36, redeemed their rewards, and utilized a coupon that deducted twice the rewards from the total price. How much did the customer pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With a customer loyalty card, a store provides $1 discount on the next purchase for every $15 spent. In their last purchase, they spent [BLANK]. On this occasion, they spent $36, availed their rewards, and used a coupon that halved the rewards amount from the total. What was the amount the customer paid during this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A customer's loyalty program at a store awards them $1 off their next purchase for every $15 they spend. On their previous shopping excursion, they spent [BLANK]. This time, they spent $36, redeemed their rewards, and applied a coupon that subtracted double the rewards from the cost. How much did the customer end up paying on this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At a store, a customer's loyalty card gives them a $1 discount on their next purchase for each $15 they spend. Their last shopping experience involved spending [BLANK]. During this shopping trip, they spent $36, applied their rewards, and used a coupon that decreased the price by twice the value of the rewards. How many dollars did the customer pay in total for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A loyalty card from a store rewards a customer with $1 off their next purchase for every $15 spent. On their last shopping visit, they spent [BLANK]. This time around, they spent $36, made use of their rewards, and applied a coupon that subtracted double the rewards from the final price. How much did the customer pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $40 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $47, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A shopper's rewards card at a store allows them to receive $1 discount on their next purchase for every $40 they spend. During their previous visit, they spent [BLANK]. On this occasion, they spent $47, redeemed their rewards, and used a coupon that doubled the value of the rewards against the total cost. What amount did the shopper end up paying for this visit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a store, a customer's loyalty card provides them with a $1 discount for every $40 spent. The last time they shopped, they spent [BLANK]. This time around, they made a purchase of $47, utilized their rewards, and applied a coupon that halved the price of the rewards off the total. How much did the customer pay for their purchase on this visit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A store's loyalty card allows a customer to earn $1 off their next purchase for each $40 they spend. On their most recent shopping trip, they spent [BLANK]. For this shopping trip, they spent $47, made use of their rewards, and employed a coupon that deducted double the amount of their rewards from the final price. What was the total amount the customer paid during this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a loyalty card at a store, a customer receives $1 off their next purchase for every $40 spent. Previously, they spent [BLANK]. In this shopping transaction, they spent $47, redeemed their rewards, and applied a coupon that subtracted twice the rewards value from the total cost. How much did the customer ultimately pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A customer's loyalty program at a store grants them a $1 discount for every $40 spent. Their last shopping experience, they spent [BLANK]. For this trip, they made a purchase of $47, used their accumulated rewards, and utilized a coupon that removed twice the amount of the rewards from the cost. How many dollars did the customer end up paying for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $50 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $70, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A shopper's loyalty card provides a discount of $1 for every $50 spent at the store. During their previous visit, they spent [BLANK]. On this visit, they spent $70, utilized their rewards, and used a coupon that deducted twice the value of the rewards from the total. How much did the shopper end up paying during this visit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a store, a customer's loyalty card allows them to earn $1 off their next purchase for every $50 spent. On their last visit, they spent [BLANK]. This time, they made a purchase of $70, applied their rewards, and used a coupon that halved the value of the rewards from the purchase price. What is the amount the customer paid for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A customer's loyalty program grants them $1 off their next purchase for each $50 they spend at the store. In their last shopping excursion, they spent [BLANK]. For this shopping trip, they spent $70, redeemed their rewards, and used a coupon that subtracted double the amount of the rewards from the total cost. How much did the customer pay on this trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a loyalty card from the store, a customer earns $1 off their next purchase for every $50 they spend. On their most recent shopping trip, they spent [BLANK]. This time around, they spent $70, took advantage of their rewards, and applied a coupon that reduced the price by twice the amount of rewards earned. How much did the customer actually pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A store's loyalty card rewards customers with $1 off their next purchase for every $50 spent. The last time they shopped, they spent [BLANK]. In their current shopping trip, they spent $70, used the rewards they earned, and applied a coupon that deducted an amount equal to twice the rewards from the total. What was the total amount paid by the customer for this visit?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $25 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $55, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A customer with a loyalty card at a shop earns $1 in discounts for every $25 spent. On their previous visit, they paid [BLANK]. During this visit, they spent $55, redeemed their rewards, and used a coupon that doubled the value of the rewards towards their total. How much did the customer end up paying for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a retail store, a loyalty card allows a customer to receive $1 off their subsequent purchase for each $25 they spend. On their most recent shopping excursion, they expended [BLANK]. For this trip, they incurred a cost of $55, utilized their rewards, and applied a coupon that halved the reward deduction from the total. What amount did the customer pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A store's loyalty card provides a $1 discount on the next purchase for every $25 spent by a customer. The last time they shopped, they spent [BLANK]. This time around, they spent $55, took advantage of their rewards, and used a coupon which reduced the price by twice the amount of their rewards. How much did the customer pay during this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a loyalty card at a store, a customer gains $1 off their next purchase for every $25 they spend. In their last shopping trip, they spent [BLANK]. On this occasion, they spent $55, redeemed their rewards, and applied a coupon that deducted double the value of their rewards from the total. How much did the customer pay on this shopping trip?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A customer's loyalty program at a store awards them $1 off the next purchase for every $25 they spend. Their previous shopping expense was [BLANK]. For this shopping visit, they spent $55, made use of their rewards, and utilized a coupon that subtracted twice the rewards amount from the final price. How many dollars did the customer pay for this shopping trip?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A customer\u2019s loyalty card at a store gives them rewards of $1 off their next purchase for every $20 they spend. Their last shopping trip, they spent [BLANK]. This shopping trip, they spent $43, used their rewards, and applied a coupon that took twice the amount of rewards off the price. How many dollars did the customer pay on this shopping trip? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A store's loyalty program rewards customers with a discount of $1 for each $20 they spend. On their most recent visit, the customer spent [BLANK]. For this visit, they purchased items totaling $43, utilized their rewards, and applied a coupon that doubled the discount from their rewards. How much did the customer actually pay during this shopping trip? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With a loyalty card, customers earn $1 off their next purchase for every $20 they spend at a store. The amount spent by the customer on their last visit was [BLANK]. On the current visit, they spent $43, redeemed their rewards, and used a coupon that reduced the total by twice the value of their rewards. How much was the customer's total payment for this shopping trip? We will go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A loyalty card at a shop allows customers to receive $1 off their next purchase for every $20 spent. The last time the customer shopped, they spent [BLANK]. This time, they made a purchase of $43, took advantage of their rewards, and applied a coupon that halved their rewards amount off the final price. What was the amount the customer paid on this shopping trip? Let's break it down step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Customers can earn $1 towards their next purchase for every $20 they spend with a loyalty card at a store. On their previous shopping trip, the customer spent [BLANK]. During this trip, they spent $43, utilized their earned rewards, and used a coupon that deducted double the rewards value from their total. What is the total amount the customer paid for this shopping trip? We will consider this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A store's loyalty card system provides $1 off the next purchase for every $20 spent. The customer spent [BLANK] during their last shopping trip. On this occasion, they made a purchase of $43, redeemed their rewards, and used a coupon that subtracted twice the rewards from the purchase price. How much did the customer end up paying on this shopping trip? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

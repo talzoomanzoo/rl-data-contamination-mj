@@ -1,0 +1,62 @@
+{
+  "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 8.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the range of digits considered\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 8.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the range of digits considered\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 7.",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "info_removed": "\"the range of digits considered\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 9.",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "info_removed": "\"the range of digits considered\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 6.",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "info_removed": "\"the range of digits considered\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 5.",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "info_removed": "\"the range of digits considered\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 4.",
+      "incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "info_removed": "\"the range of digits considered\""
+    }
+  ],
+  "num_valid_similars": 5
+}

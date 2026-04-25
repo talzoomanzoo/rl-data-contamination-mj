@@ -1,0 +1,210 @@
+{
+  "original_question": "Given is a natural number  $n>4$ . There are  $n$  points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment  $S$ , Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with  $S$ .  Find the maximal value of  $k$ , for which Vasily can act in such a way that he can mark some segment with the number  $k$ ?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given is a natural number $n>6$. There are $[BLANK]$ points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment $S$, Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with $S$. Find the maximal value of $k$, for which Vasily can act in such a way that he can mark some segment with the number $k$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number $n>6$. There are $[BLANK]$ distinct points on the plane, with no three points being collinear. Vasily sequentially draws all the line segments that connect pairs of these points. For each segment $S$ he draws, he labels it with the smallest natural number that hasn't been used on any segment sharing an endpoint with $S$. Determine the largest value of $k$ such that Vasily can label some segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $n$ be a natural number such that $n>6$. In the plane, there are $[BLANK]$ points placed, ensuring that no three of them are collinear. Vasily proceeds to draw segments connecting pairs of these marked points one at a time. When he draws a segment $S$, he assigns it the smallest natural number that hasn\u2019t been used on any segment that connects to the same endpoint as $S$. What is the maximum value of $k$ for which it is possible for Vasily to label at least one segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume a natural number $n$ where $n>6$. There exist $[BLANK]$ points on a plane, with the condition that no trio of them lies on a single line. Vasily constructs segments between pairs of these points in sequence. When he draws a segment $S$, he designates it with the lowest natural number that has not yet been assigned to any segment that shares an endpoint with $S$. Identify the greatest value of $k$ that allows Vasily to mark any segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given a natural number $n$ such that $n>6$, there are $[BLANK]$ marked points on the plane, ensuring that no three points align linearly. Vasily draws segments between pairs of these points sequentially. Each time he draws a segment $S$, he marks it with the smallest natural number that has not been previously assigned to any segment that shares an endpoint with $S$. What is the highest value of $k$ for which Vasily can successfully label some segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $n$ represent a natural number with the condition $n>6$. The plane contains $[BLANK]$ points, arranged such that no three are collinear. Vasily draws segments connecting pairs of these points in succession. For each segment $S$ he draws, he marks it with the smallest natural number that has not appeared on any segment that shares an endpoint with $S$. Find the largest possible value of $k$ such that Vasily can mark at least one segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given is a natural number $n>9$. There are $[BLANK]$ points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment $S$, Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with $S$. Find the maximal value of $k$, for which Vasily can act in such a way that he can mark some segment with the number $k$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number $n>9$. There are $[BLANK]$ points placed on the plane, where no three points are collinear. Vasily sequentially draws all the segments that connect pairs of these marked points. At each iteration, when he draws the next segment $S$, Vasily assigns it the smallest natural number that hasn't been used on any segment sharing an endpoint with $S$. Determine the highest value of $k$ such that Vasily can proceed in this manner to label some segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $n$ be a natural number greater than 9. There exist $[BLANK]$ points located on the plane, ensuring that no three of them are aligned. Vasily connects the pairs of marked points by drawing all the segments one after another. For each new segment $S$ he draws, Vasily gives it the smallest natural number that has not been previously used on any segment sharing a vertex with $S$. Calculate the largest possible value of $k$ for which Vasily can successfully label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume a natural number $n$ such that $n>9$. There are $[BLANK]$ points distributed across the plane, with the condition that no three of these points are collinear. Vasily proceeds to draw all segments connecting each pair of marked points consecutively. At each stage, when he draws the segment $S$, he assigns it the lowest natural number that hasn't been used on any segment that shares an endpoint with $S$. What is the maximum value of $k$ such that Vasily can mark some segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Suppose we have a natural number $n$ where $n>9$. There are $[BLANK]$ points situated in the plane, ensuring that no three are on the same line. Vasily draws segments connecting pairs of these marked points one at a time. With each new segment $S$ drawn, he labels it with the smallest natural number that has not been used on any segment that shares an endpoint with $S$. Identify the greatest value of $k$ for which Vasily can mark a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given a natural number $n$ such that $n>9$, there are $[BLANK]$ points arranged on the plane, with the stipulation that no trio of points is collinear. Vasily sequentially draws all segments connecting the pairs of marked points. Each time he draws a segment $S$, he marks it with the smallest natural number that has not been assigned to any segment connected to $S$. Find the maximum possible value of $k$ such that Vasily can label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given is a natural number  $n>4$ . There are  $[BLANK]$  points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment  $S$ , Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with  $S$ . Find the maximal value of  $k$ , for which Vasily can act in such a way that he can mark some segment with the number  $k$ ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number $n>4$. There are $[BLANK]$ points indicated on the plane, and no three of these points are collinear. Vasily sequentially draws segments that connect pairs of these marked points. At each stage, when drawing the next segment $S$, he labels it with the smallest natural number that has not yet been assigned to any segment sharing an endpoint with $S$. Determine the largest possible value of $k$ such that Vasily can label some segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $n>4$ be a natural number. There are $[BLANK]$ points placed on the plane, ensuring that no three of them are collinear. Vasily connects pairs of these marked points by drawing segments one after another. For each segment $S$ he draws next, he assigns the smallest natural number that has not been used on any segment that shares an endpoint with $S$. What is the highest value of $k$ for which Vasily can label a segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume a natural number $n>4$. There are $[BLANK]$ points located on the plane, with the condition that no three of these points lie on the same line. Vasily proceeds to draw segments connecting each pair of the marked points in sequence. Each time he draws a segment $S$, he marks it with the least natural number that hasn't been used on any segment that shares an endpoint with $S$. Find the greatest possible value of $k$ such that Vasily can mark a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $n>4$ be a natural number. The plane contains $[BLANK]$ points, none of which are collinear in groups of three. Vasily sequentially draws segments connecting pairs of these marked points. When he draws the next segment $S$, he assigns it the smallest natural number that has not been previously used on any segment that has a common endpoint with $S$. What is the maximum value of $k$ for which Vasily can label a segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given a natural number $n>4$, there are $[BLANK]$ points designated on the plane, and no three of them are aligned. Vasily draws segments connecting pairs of these marked points in a sequential manner. For each new segment $S$ he draws, he selects the smallest natural number that has not appeared on any segment that shares an endpoint with $S$. Determine the largest value of $k$ such that Vasily can label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given is a natural number $n>7$. There are $[BLANK]$ points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment $S$, Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with $S$. Find the maximal value of $k$, for which Vasily can act in such a way that he can mark some segment with the number $k$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Let $n$ be a natural number such that $n>7$. There are $[BLANK]$ points placed on the plane, ensuring that no three of them are collinear. Vasily sequentially draws all the line segments that connect each pair of the marked points. During each iteration, when he draws the next segment $S$, he assigns it the smallest natural number that has not been used on any previously drawn segment sharing an endpoint with $S$. Determine the highest value of $k$ such that Vasily can designate some segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number $n$ where $n>7$. In the plane, there are $[BLANK]$ distinct points, with the condition that no three of them are aligned. Vasily systematically connects pairs of these marked points by drawing all possible segments. At each stage, when he draws a new segment $S$, he labels it with the least natural number that has not been utilized on any segment connected to the same endpoint as $S$. What is the maximum possible value of $k$ for which Vasily can label a segment as $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assume a natural number $n$ that satisfies $n>7$. There exist $[BLANK]$ points on the plane, with the stipulation that no three points are collinear. Vasily proceeds to draw every segment that connects pairs of these marked points one by one. At each point in time, when he draws the segment $S$, he assigns the smallest natural number that has not been previously used on any segment sharing an endpoint with $S$. Identify the largest value of $k$ such that Vasily can mark a segment with the identifier $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given a natural number $n$ where $n>7$, there are $[BLANK]$ points located in the plane, ensuring that no three points are on the same line. Vasily connects all the pairs of these marked points by drawing segments one at a time. For every segment $S$ he draws, he marks it with the lowest natural number that has not appeared on any segment that shares an endpoint with $S$. Find the greatest value of $k$ such that Vasily can label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $n$ be a natural number greater than 7. We have $[BLANK]$ points positioned on the plane, with the condition that no three points are collinear. Vasily draws each segment that connects pairs of these marked points in succession. Whenever he draws a segment $S$, he assigns it the smallest natural number that has not been used on any segment that shares an endpoint with $S$. Determine the maximum value of $k$ for which it is possible for Vasily to mark a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given is a natural number $n>8$. There are $[BLANK]$ points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment $S$, Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with $S$. Find the maximal value of $k$, for which Vasily can act in such a way that he can mark some segment with the number $k$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number $n>8$. There are $[BLANK]$ points positioned on the plane, with no three points being collinear. Vasily sequentially draws all the segments connecting each pair of these points. During each step, when he draws the next segment $S$, he labels it with the smallest natural number that has not been used on any previously drawn segment that shares an endpoint with $S$. Determine the largest value of $k$ such that Vasily can label some segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Suppose we have a natural number $n>8$. A total of $[BLANK]$ points are located on the plane, ensuring that no three of them are aligned. Vasily connects pairs of these points by drawing segments one after another. For each segment $S$ he draws next, he assigns the smallest natural number that has not yet been assigned to any segment sharing an endpoint with $S$. What is the greatest possible value of $k$ for which Vasily can assign some segment the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $n$ be a natural number such that $n>8$. There exist $[BLANK]$ points on the plane, with the condition that no three points are collinear. Vasily proceeds to draw all segments that connect pairs of these points sequentially. At each drawing of a segment $S$, he indicates it with the lowest natural number that has not been previously used on a segment that connects to an endpoint of $S$. Find the highest value of $k$ where Vasily can successfully label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assume $n$ is a natural number greater than 8. You have $[BLANK]$ points distributed on the plane, ensuring that no three are collinear. Vasily will draw all the segments connecting these points in succession. For every new segment $S$ he draws, he marks it with the smallest natural number that has not already been used on any segment that shares an endpoint with $S$. Identify the maximum value of $k$ for which it is possible for Vasily to mark a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Take a natural number $n$ such that $n>8$. There are $[BLANK]$ points arranged on the plane, with the restriction that no three points are in a straight line. Vasily will draw all segments that connect pairs of the marked points consecutively. At each step, when he draws the next segment $S$, he assigns it the smallest natural number that has not been used on any previously drawn segment with a common endpoint to $S$. What is the largest possible value of $k$ that allows Vasily to label some segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given is a natural number $n>5$. There are $[BLANK]$ points marked on the plane, no three of which lie on the same line. Vasily draws one by one all the segments connecting pairs of marked points. At each step, drawing the next segment $S$, Vasily marks it with the smallest natural number, which hasn't appeared on a drawn segment that has a common end with $S$. Find the maximal value of $k$, for which Vasily can act in such a way that he can mark some segment with the number $k$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number $n>5$. There are $[BLANK]$ distinct points positioned in the plane, ensuring that no three points are collinear. Vasily sequentially connects each pair of marked points by drawing segments. For each new segment $S$ he draws, he assigns it the smallest natural number that has not been used on any previously drawn segment sharing an endpoint with $S$. Determine the highest possible value of $k$ such that Vasily can label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Suppose we have a natural number $n>5$. There exist $[BLANK]$ points located in the plane, with the condition that no three of them are aligned. Vasily systematically connects pairs of the marked points by drawing line segments. When he draws a new segment $S$, he labels it with the smallest natural number that has not been used on any segment that shares an endpoint with $S$. Identify the maximum value of $k$ for which it is feasible for Vasily to label a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $n$ be a natural number such that $n>5$. There are $[BLANK]$ points designated on the plane, ensuring that no three of these points are collinear. Vasily connects the pairs of marked points by drawing segments one by one. For each segment $S$ that he draws, he assigns it the smallest natural number that has not been previously used on any segment that shares an endpoint with $S$. Find the largest value of $k$ such that Vasily is capable of marking a segment with the number $k$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assume a natural number $n$ where $n>5$. There are $[BLANK]$ points established on the plane, with the stipulation that no three points are collinear. Vasily draws segments connecting each pair of marked points in succession. Each time he draws a segment $S$, he marks it with the smallest natural number that has not been used on the segments that share an endpoint with $S$. What is the greatest value of $k$ for which Vasily can successfully label a segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a natural number $n$ such that $n>5$. There are $[BLANK]$ points placed on the plane, ensuring that no three of them are in a straight line. Vasily sequentially draws segments connecting pairs of these marked points. When he adds a new segment $S$, he labels it with the smallest natural number that has not been assigned to any segment sharing an endpoint with $S$. What is the maximum value of $k$ that allows Vasily to mark a segment with the number $k$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

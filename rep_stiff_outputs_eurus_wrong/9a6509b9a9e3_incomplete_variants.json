@@ -1,0 +1,210 @@
+{
+  "original_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1000, you earn a 30% commission. Sales over $1000 get you an additional 10% commission. Calculate the amount of money Antonella earned if she sold goods worth $2500. Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $2000, you earn a 20% commission. Sales over $2000 get you an additional 12% commission. Calculate the amount of money Maria earned if she sold goods worth [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A marketing firm compensates its workers through a commission structure. When you sell products totaling $2000, you receive a 20% commission. For sales exceeding $2000, you earn an extra 12% commission. Determine how much money Maria made if she sold products worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An advertising agency pays its staff using a commission-based salary approach. If your sales reach $2000, you earn a commission of 20%. Any sales above $2000 provide you with an additional 12% commission. Find out how much money Maria earned from selling goods valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A sales organization compensates its employees with a commission-driven payment system. Selling merchandise worth $2000 grants you a 20% commission. If your sales surpass $2000, you get an extra 12% commission. Calculate the total earnings for Maria if she sold merchandise amounting to [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A sales company pays its personnel based on a commission arrangement. When you generate sales of $2000, you are awarded a 20% commission. For any sales over $2000, you will receive an additional 12% commission. Compute the earnings of Maria if she sold items worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A marketing agency provides its employees with a commission-based pay scale. If you make sales totaling $2000, you will earn a 20% commission. Sales that exceed $2000 yield an additional 12% commission. Assess how much money Maria has earned from selling goods valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $800, you earn a 40% commission. Sales over $800 get you an additional 5% commission. Calculate the amount of money Sarah earned if she sold goods worth [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A marketing firm compensates its staff through a commission structure. When you sell products totaling $800, you receive a 40% commission. For sales exceeding $800, you earn an extra 5% commission. Determine how much Sarah made if she sold items worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A sales company rewards its employees based on a commission model. If you achieve sales of $800, you will earn a commission of 40%. Any sales above $800 will provide you with an additional 5% commission. Find out how much money Sarah has earned if her sales amounted to [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a commission-based payment system at a marketing agency, employees receive a 40% commission on sales that reach $800. Sales beyond $800 will grant an extra 5% commission. Calculate the earnings of Sarah if she sold products valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An employee of a marketing company is paid based on commissions. For sales totaling $800, the commission earned is 40%. Sales that go beyond $800 result in an additional 5% commission. Compute the total amount Sarah earned if her sales were [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A marketing organization utilizes a commission structure for employee compensation. If you sell merchandise worth $800, your commission is 40%. Any sales beyond $800 will yield an additional 5% commission. Assess how much Sarah earned if her sales were valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1000, you earn a 30% commission. Sales over $1000 get you an additional 10% commission. Calculate the amount of money Antonella earned if she sold goods worth [BLANK]. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A marketing firm compensates its workers through a commission structure. When you sell products totaling $1000, you receive a 30% commission. Any sales exceeding $1000 grant you an extra 10% commission. Determine the total amount Antonella made if she sold products worth [BLANK]. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A sales agency remunerates its staff based on a commission plan. If your sales reach $1000, you earn a 30% commission. For any sales beyond $1000, you receive an additional 10% commission. Find the total earnings of Antonella if the goods she sold amounted to [BLANK]. We will consider this step by step and present the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An advertising company pays its employees through a system based on commissions. When you sell items worth $1000, you obtain a commission of 30%. Sales that surpass $1000 allow you to earn an additional 10% commission. Calculate the total income Antonella earned if the total sales were [BLANK]. Let\u2019s work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A promotional firm compensates its employees using a commission salary model. If you generate sales of $1000, you gain a 30% commission. Any sales exceeding $1000 will provide an extra 10% commission. Assess the amount Antonella earned if her sales totaled [BLANK]. We will go through this step by step and present the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A retail company pays its employees via a commission-based salary framework. If you manage to sell products worth $1000, you qualify for a 30% commission. Additional sales over $1000 yield a further 10% commission. Calculate the earnings of Antonella if her sales equated to [BLANK]. Let's examine this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1500, you earn a 25% commission. Sales over $1500 get you an additional 15% commission. Calculate the amount of money Jordan earned if he sold goods worth [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A marketing firm compensates its staff through a commission structure. For merchandise sold totaling $1500, you receive a 25% commission. Any sales exceeding $1500 earn you an extra 15% commission. Determine how much money Jordan made if he sold products worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a commission-based salary model, a marketing company rewards its employees. If you generate sales amounting to $1500, you receive a 25% commission. Additional sales beyond $1500 yield a 15% commission. Find out the total earnings for Jordan if he sold items valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An employee of a marketing agency is paid based on commissions. Selling goods that total $1500 provides a 25% commission. For any sales above $1500, you earn an additional 15% commission. Calculate how much Jordan earned from selling goods worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A company specializing in marketing pays its workers via a commission-based salary. If you sell products worth $1500, you earn a commission of 25%. Any amount over $1500 grants you an extra 15% commission. Assess the total earnings of Jordan if he sold goods amounting to [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a commission-oriented payment system, a marketing company pays its employees accordingly. A sale of $1500 results in a 25% commission. For sales that exceed $1500, you receive an additional 15% commission. Calculate the earnings of Jordan if he sold merchandise valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1200, you earn a 35% commission. Sales over $1200 get you an additional 8% commission. Calculate the amount of money Kyle earned if he sold goods worth [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sales firm compensates its staff through a commission-oriented pay structure. If you generate sales totaling $1200, you receive a 35% commission. For any sales exceeding $1200, you earn an extra 8% commission. Determine the total earnings for Kyle if he sold merchandise worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An advertising agency pays its workforce based on a commission salary model. If you move products valued at $1200, you earn a commission of 35%. For sales beyond $1200, you gain an additional 8% commission. Find out how much money Kyle made if he sold items worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A promotional company offers its employees a salary based on commissions. When you sell products worth $1200, you make a 35% commission. Any sales above $1200 provide you with an additional 8% commission. Calculate the earnings for Kyle if he sold products totaling [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A marketing firm rewards its employees with a commission-based payment system. If you achieve sales of $1200, your commission is 35%. For any amount sold over $1200, you receive an extra 8% commission. Compute the amount Kyle earned if his sales reached [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A sales organization compensates its employees with a commission-based salary framework. If your sales amount to $1200, you earn a 35% commission rate. Additional sales beyond $1200 yield another 8% commission. Assess how much Kyle earned from selling goods valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $2200, you earn a 28% commission. Sales over $2200 get you an additional 9% commission. Calculate the amount of money Lucas earned if he sold goods worth [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A marketing firm compensates its staff through a commission-based salary structure. When you sell merchandise valued at $2200, you receive a commission of 28%. Any sales exceeding $2200 grant you an extra 9% commission. Determine the total earnings of Lucas if he sold merchandise worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An advertising agency pays its workers based on a commission salary model. If you sell items totaling $2200, you earn a commission of 28%. For sales that surpass $2200, you get an additional 9% commission. Find out how much money Lucas made if he sold items amounting to [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A sales company remunerates its employees through a commission-driven pay system. When you sell products that reach $2200, you obtain a 28% commission. Sales that go beyond $2200 provide you with an extra 9% commission. Calculate how much Lucas earned if he sold products worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A retail company offers its employees a salary based on commissions. If your sales total $2200, you earn a 28% commission. Any sales above $2200 also earn you an additional 9% commission. Assess the earnings of Lucas if he sold products valued at [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A commerce firm pays its team based on a commission salary framework. Selling goods worth $2200 nets you a 28% commission. Additional sales beyond $2200 earn you another 9% commission. Compute the amount of money Lucas received if he sold goods worth [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

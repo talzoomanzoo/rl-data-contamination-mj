@@ -1,0 +1,210 @@
+{
+  "original_question": "Catherine goes to the grocery store. She buys 1 kilo of apples for $4, 2 kilos of bananas for $2 per kilo, and 2 kilos of oranges for $3 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael goes to the grocery store. He buys [BLANK] kilos of pears for $3, [BLANK] kilo of peaches for $2 per kilo, and [BLANK] kilos of kiwis for $7 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael visits the grocery store. He purchases [BLANK] kilograms of pears at a price of $3, [BLANK] kilogram of peaches priced at $2 per kilogram, and [BLANK] kilograms of kiwis costing $7 per kilogram. What is the total amount he spends? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael heads to the grocery store. He acquires [BLANK] kilos of pears for $3, [BLANK] kilo of peaches at $2 for each kilo, and [BLANK] kilos of kiwis for $7 each kilo. How much does he spend altogether? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael goes to the grocery store. He gets [BLANK] kilograms of pears for $3, [BLANK] kilo of peaches at a cost of $2 per kilo, and [BLANK] kilos of kiwis at $7 per kilo. What is his total expenditure? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael visits the grocery store. He collects [BLANK] kilos of pears at $3, [BLANK] kilo of peaches priced at $2 per kilo, and [BLANK] kilos of kiwis for $7 each kilo. How much does he pay in total? Let's consider this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael stops by the grocery store. He buys [BLANK] kilograms of pears for $3, [BLANK] kilo of peaches at a rate of $2 per kilo, and [BLANK] kilos of kiwis that cost $7 per kilo. What is the overall amount he pays? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily goes to the grocery store. She buys [BLANK] kilos of grapes for $5, [BLANK] kilos of strawberries for $4 per kilo, and [BLANK] kilos of cherries for $6 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily visits the grocery store. She purchases [BLANK] kilograms of grapes at $5, [BLANK] kilograms of strawberries at a rate of $4 per kilogram, and [BLANK] kilograms of cherries priced at $6 per kilogram. What is her total expenditure? Let's analyze it step by step and present the final amount after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily goes shopping at the grocery store. She acquires [BLANK] kilos of grapes for $5, [BLANK] kilos of strawberries at $4 each kilo, and [BLANK] kilos of cherries that cost $6 per kilo. How much does she spend altogether? Let's consider it step by step and provide the final sum after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily heads to the grocery store. She buys [BLANK] kilograms of grapes for $5, [BLANK] kilograms of strawberries for $4 for each kilogram, and [BLANK] kilograms of cherries at $6 per kilogram. What is her total bill? Let's break it down step by step and give the final total after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily makes a trip to the grocery store. She gets [BLANK] kilos of grapes costing $5, [BLANK] kilos of strawberries at $4 for every kilo, and [BLANK] kilos of cherries for $6 per kilo. What is her total cost? Let's work through it step by step and provide the final amount after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily goes to the grocery market. She purchases [BLANK] kilos of grapes for $5, [BLANK] kilos of strawberries at a price of $4 per kilo, and [BLANK] kilos of cherries for $6 each kilo. How much does she pay in total? Let's think about it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sarah goes to the grocery store. She buys [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines for $3 per kilo, and [BLANK] kilos of lemons for $2 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah visits the supermarket. She purchases [BLANK] kilograms of plums at $4, [BLANK] kilograms of nectarines priced at $3 per kilogram, and [BLANK] kilograms of lemons for $2 per kilogram. What is her total expenditure? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah heads to the grocery store. She acquires [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines at a rate of $3 per kilo, and [BLANK] kilos of lemons costing $2 per kilo. How much money does she spend altogether? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah goes shopping at the grocery store. She picks up [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines which are $3 per kilo, and [BLANK] kilos of lemons at $2 per kilo. What is the total amount she pays? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah makes a trip to the grocery store. She buys [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines for $3 for each kilo, and [BLANK] kilos of lemons that cost $2 for each kilo. How much does she spend in total? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah visits the grocery store. She obtains [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines priced at $3 per kilo, and [BLANK] kilos of lemons which are $2 per kilo. What is the total cost she incurs? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Linda goes to the grocery store. She buys [BLANK] kilos of watermelon for $2, [BLANK] kilo of cantaloupe for $3 per kilo, and [BLANK] kilos of pineapples for $5 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Linda visits the supermarket. She purchases [BLANK] kilos of watermelon costing $2, [BLANK] kilo of cantaloupe at $3 per kilo, and [BLANK] kilos of pineapples priced at $5 per kilo. What is the total amount she spends? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Linda heads to the grocery store. She acquires [BLANK] kilos of watermelon for $2, [BLANK] kilo of cantaloupe for $3 each, and [BLANK] kilos of pineapples for $5 per kilo. How much money does she spend altogether? Let's analyze this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Linda goes shopping at the grocery store. She buys [BLANK] kilos of watermelon priced at $2, [BLANK] kilo of cantaloupe that costs $3 per kilo, and [BLANK] kilos of pineapples for $5 per kilo. What is her total expenditure? Let\u2019s think this through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Linda is at the grocery store. She gets [BLANK] kilos of watermelon for $2, [BLANK] kilo of cantaloupe for $3 per kilo, and [BLANK] kilos of pineapples that cost $5 per kilo. How much does she pay in total? Let's work it out step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Linda visits the grocery market. She purchases [BLANK] kilos of watermelon at a price of $2, [BLANK] kilo of cantaloupe for $3 each, and [BLANK] kilos of pineapples costing $5 per kilo. What is her total payment? Let\u2019s think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Catherine goes to the grocery store. She buys [BLANK] kilos of apples for $4, [BLANK] kilos of bananas for $2 per kilo, and [BLANK] kilos of oranges for $3 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Catherine visits the grocery store. She purchases [BLANK] kilograms of apples at a price of $4, [BLANK] kilograms of bananas for $2 each kilogram, and [BLANK] kilograms of oranges for $3 per kilogram. What is the total amount she spends? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Catherine heads to the grocery store. She acquires [BLANK] kilos of apples for a total of $4, [BLANK] kilos of bananas at $2 for each kilo, and [BLANK] kilos of oranges at $3 for each kilo. How much does she spend altogether? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Catherine goes shopping at the grocery store. She buys [BLANK] kilograms of apples for $4, [BLANK] kilograms of bananas priced at $2 per kilogram, and [BLANK] kilograms of oranges costing $3 per kilogram. What is her total expenditure? Let's think it through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Catherine visits a grocery store. She purchases [BLANK] kilos of apples for $4, [BLANK] kilos of bananas at $2 for every kilo, and [BLANK] kilos of oranges at $3 for each kilo. How much money does she spend in total? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Catherine goes to the supermarket. She buys [BLANK] kilos of apples costing $4, [BLANK] kilos of bananas priced at $2 per kilo, and [BLANK] kilos of oranges for $3 per kilo. What is the total cost of her purchases? Let's solve it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "David goes to the grocery store. He buys [BLANK] kilos of mangoes for $6, [BLANK] kilos of blueberries for $5 per kilo, and [BLANK] kilo of limes for $4 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David visits the supermarket. He purchases [BLANK] kilos of mangoes at a cost of $6, [BLANK] kilos of blueberries priced at $5 per kilo, and [BLANK] kilo of limes for $4 each. What is the total amount he spends? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David heads to the grocery store. He acquires [BLANK] kilos of mangoes for $6, [BLANK] kilos of blueberries that cost $5 each kilo, and [BLANK] kilo of limes at $4 per kilo. How much does he spend altogether? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David goes shopping at the grocery store. He buys [BLANK] kilos of mangoes for $6, [BLANK] kilos of blueberries at $5 for each kilo, and [BLANK] kilo of limes which are $4 per kilo. What is his total expenditure? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David makes a trip to the grocery store. He selects [BLANK] kilos of mangoes costing $6, [BLANK] kilos of blueberries at a price of $5 per kilo, and [BLANK] kilo of limes for $4 a kilo. How much money does he pay in total? Let\u2019s work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David visits the grocery store. He purchases [BLANK] kilos of mangoes for $6, [BLANK] kilos of blueberries that are sold at $5 per kilo, and [BLANK] kilo of limes for $4 a kilo. What is the total he has to pay? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "The sum of two positive integers is 40 and their difference is 8. What is the product of the two integers and the value of the positive difference of the squares of these integers?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 14. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers is [BLANK] and the difference between them is 14. What is the product of these two numbers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two positive integers add up to [BLANK] and their difference amounts to 14. Determine the product of these integers and the positive difference of the squares of those integers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The combined value of two positive numbers is [BLANK] while the difference is 14. Find the product of these numbers and the positive difference of their respective squares.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The addition of two positive integers equals [BLANK], and their difference is 14. What is the product of the integers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sum of two positive whole numbers equals [BLANK] and their difference is 14. Calculate the product of these numbers and the positive difference of the squares of the integers.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 16. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers equals [BLANK] and the difference between them is 16. What is the product of these two numbers and the positive difference between their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two positive integers add up to [BLANK], while their difference amounts to 16. What is the product of these integers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The combined value of two positive integers is [BLANK], and their difference is 16. What is the product of the integers and the positive difference of the squares of these integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The addition of two positive integers results in [BLANK], and their difference is 16. What is the product of these integers, as well as the positive difference of their squared values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sum of two positive whole numbers totals [BLANK], and their difference is 16. What is the product of the integers and the positive difference between the squares of these numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 20. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers equals [BLANK], and the difference between them is 20. What is the product of these two numbers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two positive integers add up to [BLANK], while their difference amounts to 20. What is the product of these integers and the positive difference of their squared values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The combined value of two positive integers is [BLANK], with a difference of 20 between them. What is the product of these integers and the positive difference of the squares of those integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The addition of two positive whole numbers results in [BLANK], and they differ by 20. What is the product of the two numbers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sum of a pair of positive integers is [BLANK], and their difference equals 20. What is the product of these integers as well as the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 12. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers equals [BLANK], and the difference between them is 12. What is the multiplication of these two numbers and the positive difference between their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The addition of two positive integers amounts to [BLANK], while their difference is 12. What is the product of these integers and the positive difference of their squared values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Two positive whole numbers add up to [BLANK], with a difference of 12. What is the result of multiplying these two numbers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The combined value of two positive integers is [BLANK], and they differ by 12. What is the product of these integers and the positive difference in the squares of these numbers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sum of two positive numbers is [BLANK], and their difference is 12. What is the product of the two numbers and the positive difference between their squared forms?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 8. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers equals [BLANK], and their difference amounts to 8. Find the product of these two numbers and the value of the positive difference between their squares.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two positive integers add up to [BLANK], while their difference is 8. Determine the product of these integers and the positive difference of their squares.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The combined value of two positive integers is [BLANK], and the difference between them is 8. What is the product of these integers and the positive difference of their squared values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The addition of two positive whole numbers results in [BLANK], and their difference is 8. Calculate the product of the two numbers and the positive difference of their squares.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The sum of a pair of positive integers is [BLANK], with a difference of 8 between them. What is the product of these integers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The sum of two positive integers is [BLANK] and their difference is 4. What is the product of the two integers and the value of the positive difference of the squares of these integers?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The total of two positive whole numbers amounts to [BLANK], and the difference between them is 4. What is the product of these two numbers and the positive difference between the squares of these integers?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Two positive integers add up to [BLANK], while their difference is 4. What is the product of these integers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The combined value of two positive integers equals [BLANK], and they differ by 4. What is the product of the integers and the positive difference of their squares?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The addition of two positive integers results in [BLANK], and the difference between them is 4. What is the multiplication of these two integers and the positive difference of their squared values?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The total of two positive integers is [BLANK], and their disparity is 4. What is the result of multiplying these integers and the positive difference in the squares of the two numbers?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

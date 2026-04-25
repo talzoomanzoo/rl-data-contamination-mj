@@ -1,0 +1,62 @@
+{
+  "original_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_3 + a_5 = 20$ and $a_2 \\cdot a_6 = 64$, calculate $S_6$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the sum of specific terms in the sequence\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_3 + a_5 = 20$ and $a_2 \\cdot a_6 = 64$, calculate $S_6$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_3 + a_5 = 20$ and $a_2 \\cdot a_6 = 64$, calculate $S_6$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_4 + a_6 = 30$ and $a_1 \\cdot a_5 = 48$, calculate $S_7$.\",",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_4 + a_6 = 30$ and $a_1 \\cdot a_5 = 48$, calculate $S_7$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_2 + a_4 = 15$ and $a_3 \\cdot a_7 = 81$, calculate $S_5$.\",",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_2 + a_4 = 15$ and $a_3 \\cdot a_7 = 81$, calculate $S_5$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_1 + a_3 = 25$ and $a_2 \\cdot a_8 = 72$, calculate $S_8$.\",",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_1 + a_3 = 25$ and $a_2 \\cdot a_8 = 72$, calculate $S_8$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_5 + a_7 = 40$ and $a_4 \\cdot a_9 = 100$, calculate $S_9$.\",",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_5 + a_7 = 40$ and $a_4 \\cdot a_9 = 100$, calculate $S_9$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_6 + a_8 = 50$ and $a_3 \\cdot a_4 = 36$, calculate $S_{10}$.\"",
+      "incomplete_question": "Given that the sum of the first $n$ terms of the positive arithmetic geometric sequence $\\{a_n\\}$ is $S_n$, and $\\frac{a_{n+1}}{a_n} < 1$, if $a_6 + a_8 = 50$ and $a_3 \\cdot a_4 = 36$, calculate $S_{10}$.",
+      "info_removed": "\"the sum of specific terms in the sequence\""
+    }
+  ],
+  "num_valid_similars": 0
+}

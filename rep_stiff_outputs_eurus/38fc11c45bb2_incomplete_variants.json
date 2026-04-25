@@ -1,0 +1,210 @@
+{
+  "original_question": "An urn contains $n$ marbles. Each marble is either red or blue, and there are at least $7$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $4$ of them are red equals the probability that exactly $5$ of them are red. Find the sum of the five least values of $n$ for which this is possible.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either green or yellow, and there are at least $8$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $3$ of them are green equals the probability that exactly $4$ of them are green. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container holds [BLANK] marbles. Each marble can either be green or yellow, with a minimum of $8$ marbles in each color category. When $7$ marbles are selected at random from the container without replacement, the probability of having exactly $3$ green marbles is the same as the probability of having exactly $4$ green marbles. Determine the total of the five smallest values of $n$ for which this condition holds.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An urn is filled with [BLANK] marbles. The marbles come in two colors: green and yellow, and there are at least $8$ marbles of both colors present. If $7$ marbles are drawn from the urn randomly and without replacement, the chance of drawing exactly $3$ green marbles equals the chance of drawing exactly $4$ green marbles. Calculate the sum of the five smallest values of $n$ that satisfy this situation.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Inside an urn, there are [BLANK] marbles. Each marble is either yellow or green, and there are at least $8$ marbles of each color. When $7$ marbles are drawn from the urn at random without replacement, the likelihood of obtaining exactly $3$ green marbles is equal to that of obtaining exactly $4$ green marbles. Find the sum of the five smallest values of $n$ that allow for this scenario.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A jar contains [BLANK] marbles. The marbles can be classified as either green or yellow, with a minimum of $8$ marbles belonging to each category. If $7$ marbles are randomly selected from the jar without replacement, the probability of having exactly $3$ of them be green is the same as the probability of having exactly $4$ that are green. Identify the total of the five least values of $n$ for which this is achievable.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There are [BLANK] marbles in an urn. Each marble is either yellow or green, with at least $8$ marbles of each color available. When $7$ marbles are drawn from the urn randomly without replacement, the probability that precisely $3$ of them are green is equal to the probability that exactly $4$ are green. Find the sum of the five smallest values of $n$ for which this condition is met.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either purple or orange, and there are at least $10$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $5$ of them are purple equals the probability that exactly $6$ of them are purple. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An urn has [BLANK] marbles in total. The marbles can be either purple or orange, and there are at minimum $10$ marbles of each color. When $7$ marbles are randomly selected from the urn without replacement, the likelihood of exactly $5$ being purple is equal to the likelihood of exactly $6$ being purple. Determine the sum of the five smallest values of $n$ for which this condition holds.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Inside an urn, there are [BLANK] marbles. Each marble is either purple or orange, with at least $10$ marbles present for each color. When $7$ marbles are taken out randomly from the urn without replacement, the chance of having exactly $5$ purple marbles equals the chance of having exactly $6$ purple marbles. Find the total of the five smallest values of $n$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A total of [BLANK] marbles are present in an urn. Each of these marbles is either purple or orange, and there are no fewer than $10$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability of obtaining exactly $5$ purple marbles is the same as the probability of obtaining exactly $6$ purple marbles. Calculate the sum of the five least values of $n$ for which this scenario is valid.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The urn contains [BLANK] marbles. These marbles can either be purple or orange, and there are at least $10$ marbles of both colors. When $7$ marbles are randomly selected from the urn without replacement, the probability of drawing exactly $5$ purple marbles is equal to the probability of drawing exactly $6$ purple marbles. Find the sum of the five smallest values of $n$ that make this scenario possible.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the urn, there are [BLANK] marbles. Each marble is either purple or orange, with a minimum of $10$ marbles for both colors. When $7$ marbles are drawn randomly from the urn without replacement, the chances of exactly $5$ being purple are equal to the chances of exactly $6$ being purple. Determine the sum of the five smallest values of $n$ that allow for this situation.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either teal or brown, and there are at least $11$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $4$ of them are teal equals the probability that exactly $3$ of them are teal. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container holds [BLANK] marbles. Each marble is either teal or brown, with a minimum of $11$ marbles of each hue. When $7$ marbles are selected randomly from the container without replacement, the likelihood of exactly $4$ being teal is the same as the likelihood of exactly $3$ being teal. Determine the sum of the five smallest values of $n$ for which this condition holds.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An urn has [BLANK] marbles in total. Each marble can be either teal or brown, and there are no fewer than $11$ marbles of both colors. If $7$ marbles are drawn at random from the urn without replacement, the chance that exactly $4$ are teal is equal to the chance that exactly $3$ are teal. Calculate the sum of the five smallest values of $n$ that satisfy this requirement.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an urn, there are [BLANK] marbles. Each marble is classified as either teal or brown, and at least $11$ marbles of each color are present. When $7$ marbles are picked randomly from the urn without replacement, the probability of having exactly $4$ teal marbles matches the probability of having exactly $3$ teal marbles. Find the total of the five lowest values of $n$ for which this situation is achievable.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A jar contains [BLANK] marbles. Each of these marbles is either teal or brown, ensuring that there are at least $11$ of each color. When $7$ marbles are extracted at random from the jar without replacement, the probability of getting exactly $4$ teal marbles is the same as that of getting exactly $3$ teal marbles. Identify the sum of the five smallest values of $n$ for which this holds true.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An urn is filled with [BLANK] marbles. Each marble can be either teal or brown, and there are a minimum of $11$ marbles of each type. If $7$ marbles are randomly drawn from the urn without replacement, the probability of having exactly $4$ teal marbles is equal to that of having exactly $3$ teal marbles. Find the sum of the five least values of $n$ that meet this criterion.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either red or blue, and there are at least $7$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $4$ of them are red equals the probability that exactly $5$ of them are red. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container holds [BLANK] marbles. Each of these marbles is either red or blue, and there are a minimum of $7$ marbles of both colors. When $7$ marbles are selected randomly from the container without replacement, the likelihood that precisely $4$ of them are red is the same as the likelihood that exactly $5$ of them are red. Determine the sum of the five smallest values of $n$ for which this condition holds.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An urn is filled with [BLANK] marbles. Each marble can be either red or blue, with at least $7$ marbles present for each color. When $7$ marbles are drawn at random from the urn without replacement, the chance of having exactly $4$ red marbles is equal to the chance of having exactly $5$ red marbles. Calculate the sum of the five smallest values of $n$ for which this scenario is achievable.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an urn, there are [BLANK] marbles. Each marble is classified as either red or blue, and there are no fewer than $7$ marbles of either color. If $7$ marbles are taken at random from the urn without replacement, the probability of drawing exactly $4$ red marbles matches the probability of drawing exactly $5$ red marbles. Find the sum of the five smallest possible values of $n$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A jar contains [BLANK] marbles. Each marble is either red or blue, ensuring that at least $7$ marbles of each color are present. When $7$ marbles are randomly selected from the jar without replacement, the probability that exactly $4$ of them are red is equal to the probability that exactly $5$ are red. What is the sum of the five smallest values of $n$ for which this situation can occur?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An urn has [BLANK] marbles inside. Each marble is either red or blue, and there are at least $7$ marbles of each hue. When $7$ marbles are drawn randomly from the urn without replacement, the probability of having exactly $4$ red marbles equals the probability of having exactly $5$ red marbles. Determine the sum of the five least values of $n$ for which this is feasible.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either black or white, and there are at least $9$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $2$ of them are black equals the probability that exactly $3$ of them are black. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An urn holds [BLANK] marbles. The marbles are either black or white, with a minimum of $9$ marbles present for each color. If $7$ marbles are drawn randomly from the urn without replacement, the chance that precisely $2$ of them are black is equal to the chance that exactly $3$ of them are black. Determine the total of the five smallest values of $n$ for which this scenario is feasible.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In an urn, there are [BLANK] marbles. Each marble can be either black or white, ensuring that there are at least $9$ of each color. When $7$ marbles are randomly selected from the urn without replacement, the likelihood that exactly $2$ of them are black is the same as the likelihood that exactly $3$ of them are black. Find the sum of the five smallest values of $n$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An urn is filled with [BLANK] marbles. The marbles consist of black and white types, with at least $9$ of each color available. When $7$ marbles are taken out randomly from the urn without replacement, the probability of having exactly $2$ black marbles equals the probability of having exactly $3$ black marbles. Calculate the sum of the five least values of $n$ that meet this requirement.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "There are [BLANK] marbles in an urn. Each marble is classified as either black or white, and there are no fewer than $9$ marbles of each color. Upon drawing $7$ marbles randomly from the urn without replacement, the probability of obtaining exactly $2$ black marbles is the same as that of getting exactly $3$ black marbles. Find the total of the five smallest values of $n$ for which this is achievable.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An urn contains [BLANK] marbles. Every marble is either black or white, and there are at least $9$ of each color present. When $7$ marbles are drawn at random from the urn without replacement, the probability that exactly $2$ of them are black is equal to the probability that exactly $3$ of them are black. Determine the sum of the five smallest values of $n$ for which this situation can occur.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "An urn contains [BLANK] marbles. Each marble is either pink or gray, and there are at least $6$ marbles of each color. When $7$ marbles are drawn randomly from the urn without replacement, the probability that exactly $1$ of them are pink equals the probability that exactly $2$ of them are pink. Find the sum of the five least values of $n$ for which this is possible.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container holds [BLANK] marbles. Each marble can be either pink or gray, with a minimum of $6$ marbles in each color. When $7$ marbles are randomly selected from the container without putting any back, the likelihood of exactly $1$ being pink is equal to the likelihood of exactly $2$ being pink. Determine the sum of the five smallest values of $n$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There is an urn that has [BLANK] marbles inside. The marbles are either pink or gray, and there are at least $6$ of each color present. When $7$ marbles are drawn from the urn without replacement, the chance that exactly $1$ is pink is the same as the chance that exactly $2$ are pink. Calculate the sum of the five smallest values of $n$ for which this scenario holds true.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An urn is filled with [BLANK] marbles. Each of these marbles is classified as either pink or gray, with at least $6$ marbles of both colors available. If $7$ marbles are selected at random from the urn without replacement, the probability of having exactly $1$ pink marble is equal to that of having exactly $2$ pink marbles. Find the total of the five smallest values of $n$ for which this is achievable.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A jar contains [BLANK] marbles. The marbles can be pink or gray, with a minimum of $6$ marbles of each hue in the jar. When $7$ marbles are drawn randomly from the jar without replacement, the probability that exactly $1$ of them is pink matches the probability that exactly $2$ of them are pink. Identify the sum of the five least values of $n$ for which this is feasible.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Inside an urn, there are [BLANK] marbles. Each marble is either pink or gray, and no less than $6$ marbles of each color are present. When $7$ marbles are randomly picked from the urn without replacement, the probability of getting exactly $1$ pink is the same as the probability of getting exactly $2$ pink. Compute the sum of the five smallest values of $n$ that make this possible.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

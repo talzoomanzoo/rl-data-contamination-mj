@@ -1,0 +1,210 @@
+{
+  "original_question": "To make a profit of $2000, Isaias has to sell the chickens he planned to take to the market from his farm at $50 per chicken. If Isaias has 300 chickens on his farm and plans to sell 3/5 of them, for how much money did Isaias buy the chicken he took to the market for sale? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "To make a profit of $2500, Isaias has to sell the chickens he planned to take to the market from his farm at $60 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 1/2 of them, for how much money did Isaias buy the chickens he took to the market for sale?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to earn a profit of $2500, Isaias needs to sell the chickens he intended to bring to the market from his farm at a price of $60 each. If Isaias has [BLANK] chickens on his farm and intends to sell half of them, what was the total amount Isaias spent on the chickens he brought to the market for selling?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To achieve a profit of $2500, Isaias must sell the chickens he plans to take to the market from his farm at a rate of $60 per chicken. Assuming Isaias possesses [BLANK] chickens on his farm and means to sell 50% of them, how much did Isaias pay for the chickens he is taking to the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To secure a profit of $2500, Isaias is required to sell the chickens he is going to market from his farm at $60 each. If Isaias has [BLANK] chickens available on his farm and aims to sell one-half of them, how much money did Isaias invest in the chickens he is taking to the market for sale?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In order to make a profit of $2500, Isaias must sell the chickens he plans to take from his farm to the market at the price of $60 for each chicken. If Isaias has [BLANK] chickens at his farm and intends to sell 50% of them, what was the cost for the chickens he is bringing to the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To realize a profit of $2500, Isaias has to sell the chickens he plans to take to the market from his farm for $60 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell half, how much money did Isaias spend on the chickens he is taking to the market?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "To make a profit of $1500, Isaias has to sell the chickens he planned to take to the market from his farm at $40 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 5/8 of them, for how much money did Isaias buy the chickens he took to the market for sale?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to earn a profit of $1500, Isaias needs to sell the chickens he intends to take to the market for $40 each. If Isaias has [BLANK] chickens on his farm and aims to sell 5/8 of them, what was the total amount Isaias spent on the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To achieve a profit of $1500, Isaias must sell the chickens he plans to bring to the market at $40 per chicken. Given that Isaias has [BLANK] chickens on his farm and intends to sell 5/8 of them, how much did Isaias pay for the chickens he is taking to the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To realize a profit of $1500, Isaias has to sell the chickens he is planning to take to the market at a price of $40 each. If Isaias possesses [BLANK] chickens on his farm and is going to sell 5/8 of those, what was the cost incurred by Isaias for the chickens he plans to sell at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In order to make a profit of $1500, Isaias needs to sell the chickens he intends to take to the market for $40 each. If Isaias has [BLANK] chickens on his farm and is selling 5/8 of them, what amount did Isaias invest in the chickens he is taking to the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To secure a profit of $1500, Isaias has to sell the chickens he plans to take to the market at a price of $40 per chicken. Assuming Isaias has [BLANK] chickens on his farm and is going to sell 5/8 of them, how much did Isaias pay for the chickens he is bringing to the market?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "To make a profit of $2000, Isaias has to sell the chickens he planned to take to the market from his farm at $50 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 3/5 of them, for how much money did Isaias buy the chicken he took to the market for sale? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to achieve a profit of $2000, Isaias needs to sell the chickens he intends to take to the market from his farm at a price of $50 each. If Isaias has [BLANK] chickens on his property and aims to sell 3/5 of them, how much did Isaias spend on the chickens he is taking to the market for sale? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To earn a profit of $2000, Isaias must sell the chickens he plans to bring to the market from his farm at $50 per chicken. Given that Isaias has [BLANK] chickens on his farm and intends to sell 3/5 of that amount, what was the cost for Isaias to acquire the chickens he is taking to market? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To realize a profit of $2000, Isaias has to sell the chickens he is planning to take to the market from his farm at $50 for each chicken. If Isaias owns [BLANK] chickens on his farm and plans to sell 3/5 of them, what was the amount Isaias paid for the chickens he is bringing to the market? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For Isaias to make a profit of $2000, he needs to sell the chickens he is going to take to the market from his farm at a rate of $50 per chicken. If Isaias has [BLANK] chickens on his farm and is selling 3/5 of that total, how much did Isaias pay for the chickens he took to market for sale? Let's think through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In order to generate a profit of $2000, Isaias needs to sell the chickens he plans to take to the market from his farm at $50 each. If Isaias possesses [BLANK] chickens on his farm and aims to sell 3/5 of them, what was the total cost for Isaias to purchase the chickens he is selling at the market? Let's explore this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "To make a profit of $1800, Isaias has to sell the chickens he planned to take to the market from his farm at $45 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 4/7 of them, for how much money did Isaias buy the chickens he took to the market for sale?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to achieve a profit of $1800, Isaias needs to sell the chickens he intended to bring to the market from his farm at a price of $45 each. If Isaias has [BLANK] chickens on his property and aims to sell 4/7 of them, what was the total amount Isaias spent to purchase the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To earn a profit of $1800, Isaias must sell the chickens he plans to take to the market from his farm at $45 each. If Isaias possesses [BLANK] chickens on his farm and intends to sell 4/7 of them, how much did Isaias pay for the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To generate a profit of $1800, Isaias has to sell the chickens he aims to take to the market from his farm at a rate of $45 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 4/7 of the total, how much did Isaias invest in purchasing the chickens he is bringing to the market for sale?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "To realize a profit of $1800, Isaias needs to sell the chickens he is planning to take to the market from his farm at $45 each. If Isaias has [BLANK] chickens on his farm and is looking to sell 4/7 of them, what was the cost of the chickens Isaias took to the market for sale?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To achieve a profit of $1800, Isaias has to sell the chickens he is planning to take to the market from his farm at $45 per chicken. If Isaias owns [BLANK] chickens and intends to sell 4/7 of that amount, how much money did Isaias spend on the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "To make a profit of $2200, Isaias has to sell the chickens he planned to take to the market from his farm at $55 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 3/4 of them, for how much money did Isaias buy the chickens he took to the market for sale?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to earn a profit of $2200, Isaias must sell the chickens he intended to bring to the market from his farm at a price of $55 each. If Isaias has [BLANK] chickens on his farm and intends to sell 3/4 of them, what was the total amount Isaias spent on the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To achieve a profit of $2200, Isaias needs to sell the chickens he planned to take to the market from his farm for $55 each. If Isaias possesses [BLANK] chickens on his farm and aims to sell 3/4 of that amount, how much did Isaias initially pay for the chickens he is bringing to market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In pursuit of a profit of $2200, Isaias is required to sell the chickens he is taking to the market from his farm at a price of $55 per chicken. If Isaias has [BLANK] chickens on his farm and is planning to sell 3/4 of them, what was the purchase cost of the chickens he is offering for sale at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "To make a $2200 profit, Isaias has to sell the chickens he wishes to take to the market from his farm at $55 each. If Isaias has [BLANK] chickens on his farm and plans to sell 3/4 of that number, how much did Isaias pay for the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To secure a profit of $2200, Isaias must sell the chickens he intended to take to the market from his farm at a rate of $55 per chicken. If Isaias owns [BLANK] chickens on his farm and intends to sell 3/4 of them, what was the total cost for the chickens Isaias is taking to the market?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "To make a profit of $3000, Isaias has to sell the chickens he planned to take to the market from his farm at $70 per chicken. If Isaias has [BLANK] chickens on his farm and plans to sell 2/5 of them, for how much money did Isaias buy the chickens he took to the market for sale?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In order to achieve a profit of $3000, Isaias needs to sell the chickens he intends to bring to the market from his farm at a price of $70 each. If Isaias possesses [BLANK] chickens on his farm and intends to sell 2/5 of them, what was the total amount Isaias spent on the chickens he is taking to market for sale?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "To earn a profit of $3000, Isaias must sell the chickens he plans to take from his farm to the market at a rate of $70 for each chicken. If Isaias has [BLANK] chickens on his farm and aims to sell 2/5 of that amount, how much did Isaias pay for the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To realize a profit of $3000, Isaias needs to sell the chickens he is preparing to take to the market from his farm at a selling price of $70 per chicken. Given that Isaias has [BLANK] chickens on his farm and plans to sell 2/5 of them, what was the cost of the chickens Isaias is bringing to the market for sale?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In order to achieve a profit of $3000, Isaias has to sell the chickens he is planning to bring to the market from his farm at $70 each. If Isaias has [BLANK] chickens on his farm and plans to sell 2/5 of that total, how much money did Isaias invest in the chickens he is selling at the market?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To obtain a profit of $3000, Isaias needs to sell the chickens he wishes to take from his farm to the market at a price of $70 each. If Isaias owns [BLANK] chickens on his farm and intends to sell 2/5 of this quantity, what amount did Isaias pay for the chickens he is taking to the market for selling?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

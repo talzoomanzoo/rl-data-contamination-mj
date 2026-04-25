@@ -1,0 +1,210 @@
+{
+  "original_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $308,$ and the sum of the squares of the diagonal lengths equals $800.$ The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $450,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides is $450,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the pentagon's perimeter can be represented as $m \\sqrt n,$ where both $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths amounts to $450,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $450,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides adds up to $450,$ while the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $450,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where both $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Calculate $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $250,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $250,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths amounts to $250,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $250,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $250,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not a multiple of the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the aggregate of the squares of the lengths of the sides totals $250,$ and the aggregate of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $308,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $308,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $308,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Calculate $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $308,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $308,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime number. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths amounts to $308,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $400,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $400,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $400,$ and the total of the squares of the lengths of the diagonals is [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $400,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $400,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides is $400,$ and the total of the squares of the lengths of the diagonals is [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Calculate $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $512,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths amounts to $512,$ while the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $512,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be written as $m \\sqrt n,$ where $m$ and $n$ are both positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $512,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides is $512,$ and the total of the squares of the lengths of the diagonals is [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $512,$ and the total of the squares of the diagonal lengths is [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In an equiangular pentagon, the sum of the squares of the side lengths equals $360,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths is $360,$ and the total of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive whole numbers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides is $360,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine the value of $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In an equiangular pentagon, the sum of the squares of the side lengths equals $360,$ and the sum of the squares of the diagonal lengths equals [BLANK]. The square of the perimeter of the pentagon can be expressed as $m \\sqrt n,$ where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any primeFind $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In a regular pentagon, the total of the squares of the side lengths amounts to $360,$ and the total of the squares of the diagonal lengths is [BLANK]. The square of the perimeter of this pentagon can be represented as $m \\sqrt n,$ where $m$ and $n$ are both positive integers and $n$ is not divisible by the square of any prime. Calculate $m + n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In a regular pentagon, the total of the squares of the lengths of the sides amounts to $360,$ and the total of the squares of the lengths of the diagonals equals [BLANK]. The square of the perimeter of the pentagon can be represented as $m \\sqrt n,$ where both $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Determine $m + n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic.  He knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult.  If there will be 20 adults and 5 children at the picnic, how many pounds of potato salad does Ted need to bring to the picnic if he hopes to have enough to feed everyone? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Marty the Mammoth was planning to bring pasta salad to the mammoth gathering. He knows that an adult mammoth will eat 12 lbs of pasta salad, and a child will eat half as much as an adult. If there will be 18 adults and [BLANK] at the gathering, how many pounds of pasta salad does Marty need to bring to the gathering if he hopes to have enough to feed everyone?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Marty the Mammoth intended to prepare pasta salad for the mammoth gathering. He understands that an adult mammoth consumes 12 lbs of pasta salad, while a juvenile eats half that amount. With 18 adults and [BLANK] expected at the gathering, how many pounds of pasta salad must Marty bring to ensure there's enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Marty the Mammoth is set to make pasta salad for the mammoth gathering. He is aware that one adult mammoth will devour 12 lbs of pasta salad, and a child will eat half of what an adult consumes. If there are 18 adults and [BLANK] present at the gathering, how many pounds of pasta salad does Marty need to provide to adequately feed all attendees?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Marty the Mammoth has plans to prepare pasta salad for the mammoth gathering. He knows that each adult mammoth eats 12 lbs of pasta salad, and a child consumes half of that. With 18 adults and [BLANK] joining the gathering, what total weight of pasta salad does Marty need to bring to make sure there's enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Marty the Mammoth was organizing to bring pasta salad for the mammoth gathering. He knows that an adult mammoth consumes 12 lbs of pasta salad, whereas a child will only eat half of that. If there will be 18 adults and [BLANK] at the gathering, how many pounds of pasta salad does Marty need to ensure everyone is fed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Marty the Mammoth was intending to prepare pasta salad for the mammoth gathering. He realizes that an adult mammoth typically eats 12 lbs of pasta salad, while a child consumes half that amount. With 18 adults and [BLANK] expected at the gathering, what is the total amount of pasta salad that Marty should bring to feed everyone?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Gary the Giraffe was planning to bring vegetable salad to the savanna party. He knows that an adult giraffe will eat 8 lbs of vegetable salad, and a calf will eat half as much as an adult. If there will be 22 adults and [BLANK] at the party, how many pounds of vegetable salad does Gary need to bring to the party if he hopes to have enough to feed everyone?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gary the Giraffe intended to prepare vegetable salad for the savanna gathering. He understands that an adult giraffe consumes 8 lbs of vegetable salad, while a calf eats half of what an adult consumes. If there are 22 adults and [BLANK] attending the gathering, how many pounds of vegetable salad must Gary bring to ensure he has enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Gary the Giraffe was getting ready to provide vegetable salad for the party in the savanna. He is aware that an adult giraffe eats 8 lbs of vegetable salad, and a calf consumes half that amount. With 22 adults and [BLANK] at the party, how many pounds of vegetable salad does Gary need to bring to make sure there\u2019s enough for all?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gary the Giraffe planned to supply vegetable salad for the savanna celebration. He knows that an adult giraffe will consume 8 lbs of vegetable salad, while a calf will eat half of that amount. If there are 22 adults and [BLANK] at the celebration, how many pounds of vegetable salad should Gary prepare to have sufficient food for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Gary the Giraffe was organizing to bring vegetable salad to the gathering in the savanna. He realizes that an adult giraffe requires 8 lbs of vegetable salad, and that a calf eats half of what an adult does. If there will be 22 adults and [BLANK] present at the gathering, how many pounds of vegetable salad must Gary bring to adequately feed everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gary the Giraffe was planning to deliver vegetable salad for the savanna party. He knows that an adult giraffe consumes 8 lbs of vegetable salad, and a calf will eat 50% of that. If there are 22 adults and [BLANK] at the party, how many pounds of vegetable salad does Gary need to bring to ensure everyone is fed?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Lucy the Lion was planning to bring fruit salad to the jungle feast. She knows that an adult lion will eat 15 lbs of fruit salad, and a cub will eat half as much as an adult. If there will be 25 adults and [BLANK] at the feast, how many pounds of fruit salad does Lucy need to bring to the feast if she hopes to have enough to feed everyone?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lucy the Lion intended to prepare fruit salad for the jungle gathering. She understands that one adult lion consumes 15 lbs of fruit salad, while a cub eats half of what an adult eats. With 25 adults and [BLANK] attending the gathering, how many pounds of fruit salad must Lucy provide to ensure there is enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lucy the Lion was getting ready to make fruit salad for the jungle celebration. She knows an adult lion requires 15 lbs of fruit salad, and a cub eats only half of that amount. With 25 adults and [BLANK] present at the celebration, how many pounds of fruit salad does Lucy need to bring to ensure everyone is fed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lucy the Lion was organizing to prepare fruit salad for the jungle party. She is aware that an adult lion will consume 15 lbs of fruit salad, while a cub consumes only half of that. If there are 25 adults and [BLANK] at the party, how many pounds of fruit salad does Lucy need to bring to make sure there\u2019s enough for all?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lucy the Lion was planning to create fruit salad for the jungle event. She knows that each adult lion eats 15 lbs of fruit salad, while a cub eats half that amount. If there will be 25 adults and [BLANK] at the event, how many pounds of fruit salad should Lucy prepare to have enough for everybody?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lucy the Lion was preparing to make fruit salad for the jungle gathering. She realizes that an adult lion consumes 15 lbs of fruit salad, and a cub consumes only half that amount. With 25 adults and [BLANK] at the gathering, how many pounds of fruit salad will Lucy need to ensure there is enough for everyone?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Benny the Bear was planning to bring berry salad to the forest gathering. He knows that an adult bear will eat 14 lbs of berry salad, and a cub will eat half as much as an adult. If there will be 30 adults and [BLANK] at the gathering, how many pounds of berry salad does Benny need to bring to the gathering if he hopes to have enough to feed everyone?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Benny the Bear intended to prepare berry salad for the forest gathering. He is aware that an adult bear consumes 14 lbs of berry salad, while a cub consumes half that amount. If there are 30 adult bears and [BLANK] attending the gathering, how many pounds of berry salad should Benny prepare to ensure there is enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Benny the Bear was getting ready to make berry salad for the forest gathering. He knows that an adult bear eats 14 lbs of berry salad, and a cub eats half of what an adult does. With 30 adults and [BLANK] expected at the gathering, how many pounds of berry salad must Benny bring to ensure everyone is fed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Benny the Bear was organizing to bring berry salad to the forest gathering. He understands that an adult bear consumes 14 lbs of berry salad, while a cub consumes 50% of that amount. If there will be 30 adult bears and [BLANK] present at the gathering, how many pounds of berry salad does Benny need to provide to have enough for all?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Benny the Bear was preparing to supply berry salad for the forest gathering. He knows that an adult bear will eat 14 lbs of berry salad, and a cub will take half that amount. If there are 30 adults and [BLANK] participating in the gathering, how many pounds of berry salad does Benny require to ensure there\u2019s enough for everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Benny the Bear planned to bring berry salad to the forest gathering. He is aware that an adult bear consumes 14 lbs of berry salad, and a cub consumes half of that. If there will be 30 adult bears and [BLANK] at the event, how many pounds of berry salad must Benny bring to guarantee enough food for all attendees?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic. He knows that an adult dinosaur will eat 10 lbs of potato salad, and a child will eat half as much as an adult. If there will be 20 adults and [BLANK] at the picnic, how many pounds of potato salad does Ted need to bring to the picnic if he hopes to have enough to feed everyone? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ted the T-Rex is preparing to take potato salad to the dinosaur gathering. He understands that a grown dinosaur consumes 10 lbs of potato salad, while a juvenile eats half that amount. If there are 20 adults and [BLANK] attending the gathering, how many pounds of potato salad should Ted bring to ensure there is sufficient food for everyone? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ted the T-Rex is going to provide potato salad for the dinosaur picnic. He realizes that an adult dinosaur will devour 10 lbs of potato salad, and a young one will eat only half of that. With 20 adults and [BLANK] present at the picnic, how many pounds of potato salad does Ted need to bring to have enough for all attendees? Let's consider this step by step and list the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ted the T-Rex has plans to bring potato salad for the dinosaur feast. He knows that one adult dinosaur consumes 10 lbs of potato salad, while each child eats half that amount. If the picnic has 20 adults and [BLANK], how many pounds of potato salad must Ted bring to make sure everyone is fed? Let's reason through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ted the T-Rex intends to bring potato salad to the dinosaur gathering. He is aware that an adult dinosaur eats 10 lbs of potato salad, whereas a child consumes half of what an adult does. If there will be 20 adults and [BLANK] at the gathering, how much potato salad should Ted prepare to ensure he has enough for everyone? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ted the T-Rex is set to bring potato salad for the dinosaur picnic. He knows that an adult dinosaur will eat 10 lbs of potato salad, while a child consumes half of that. If there are 20 adults and [BLANK] at the picnic, what is the total amount of potato salad Ted needs to bring to ensure everyone has enough? Let's think this through step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sally the Squirrel was planning to bring nut salad to the woodland picnic. She knows that an adult squirrel will eat 5 lbs of nut salad, and a kit will eat half as much as an adult. If there will be 15 adults and [BLANK] at the picnic, how many pounds of nut salad does Sally need to bring to the picnic if she hopes to have enough to feed everyone?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sally the Squirrel intended to prepare nut salad for the woodland gathering. She understands that a grown squirrel consumes 5 lbs of nut salad, while a kit eats 50% of that amount. If there are 15 adults and [BLANK] attending the gathering, how many pounds of nut salad must Sally prepare to ensure everyone is fed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sally the Squirrel was organizing to prepare nut salad for the picnic in the woods. She knows that an adult squirrel consumes 5 lbs of nut salad, and a kit consumes half that amount. If 15 adults and [BLANK] will be present at the picnic, how many pounds of nut salad does Sally need to bring to ensure everyone has enough?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sally the Squirrel was getting ready to bring nut salad to the picnic in the forest. She knows that an adult squirrel requires 5 lbs of nut salad, while a kit eats half of that. If there are 15 adults and [BLANK] at the picnic, how many pounds of nut salad should Sally bring to adequately feed everyone?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sally the Squirrel was planning to serve nut salad at the woodland picnic. She is aware that a single adult squirrel eats 5 lbs of nut salad, and a kit consumes half of that. If there will be 15 adults and [BLANK] present at the picnic, how many pounds of nut salad does Sally need to prepare to have enough for all?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sally the Squirrel was preparing to take nut salad to the woodland picnic. She knows that a full-grown squirrel will eat 5 lbs of nut salad, while a kit will only eat half that amount. If there are 15 adults and [BLANK] joining the picnic, how many pounds of nut salad must Sally bring to ensure there is enough for everyone?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

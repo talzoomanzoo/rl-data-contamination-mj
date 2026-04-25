@@ -1,0 +1,62 @@
+{
+  "original_question": "Mrs. Cruz is looking for a house that will not go beyond her $400 000 budget. She saw a property that has a selling price of $350 000. On top of that, the buyer has to pay a brokerage fee which is 5% of the selling price, and also the transfer fee that is 12% of the selling price. How much more is the total price of the house than Mrs. Cruz's budget? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the selling price of the property\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Mrs. Cruz is looking for a house that will not go beyond her $400 000 budget. She saw a property that has a selling price of $350 000. On top of that, the buyer has to pay a brokerage fee which is 5% of the selling price, and also the transfer fee that is 12% of the selling price. How much more is the total price of the house than Mrs. Cruz's budget? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Mrs. Cruz is looking for a house that will not go beyond her $400 000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 5% of the [BLANK], and also the transfer fee that is 12% of the [BLANK]. How much more is the total price of the house than Mrs. Cruz's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Mrs. Johnson is looking for a house that will not go beyond her $450,000 budget. She saw a property that has a selling price of $390,000. On top of that, the buyer has to pay a brokerage fee which is 6% of the selling price, and also the transfer fee that is 10% of the selling price. How much more is the total price of the house than Mrs. Johnson's budget? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mrs. Johnson is looking for a house that will not go beyond her $450,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 6% of the [BLANK], and also the transfer fee that is 10% of the [BLANK]. How much more is the total price of the house than Mrs. Johnson's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Mr. Smith is looking for a house that will not go beyond his $300,000 budget. He saw a property that has a selling price of $280,000. On top of that, the buyer has to pay a brokerage fee which is 4% of the selling price, and also the transfer fee that is 15% of the selling price. How much more is the total price of the house than Mr. Smith's budget? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mr. Smith is looking for a house that will not go beyond his $300,000 budget. He saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 4% of the [BLANK], and also the transfer fee that is 15% of the [BLANK]. How much more is the total price of the house than Mr. Smith's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Ms. Taylor is looking for a house that will not go beyond her $500,000 budget. She saw a property that has a selling price of $450,000. On top of that, the buyer has to pay a brokerage fee which is 7% of the selling price, and also the transfer fee that is 8% of the selling price. How much more is the total price of the house than Ms. Taylor's budget? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ms. Taylor is looking for a house that will not go beyond her $500,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 7% of the [BLANK], and also the transfer fee that is 8% of the [BLANK]. How much more is the total price of the house than Ms. Taylor's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Mr. Brown is looking for a house that will not go beyond his $250,000 budget. He saw a property that has a selling price of $220,000. On top of that, the buyer has to pay a brokerage fee which is 5% of the selling price, and also the transfer fee that is 13% of the selling price. How much more is the total price of the house than Mr. Brown's budget? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mr. Brown is looking for a house that will not go beyond his $250,000 budget. He saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 5% of the [BLANK], and also the transfer fee that is 13% of the [BLANK]. How much more is the total price of the house than Mr. Brown's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Mrs. Garcia is looking for a house that will not go beyond her $600,000 budget. She saw a property that has a selling price of $530,000. On top of that, the buyer has to pay a brokerage fee which is 3% of the selling price, and also the transfer fee that is 9% of the selling price. How much more is the total price of the house than Mrs. Garcia's budget? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mrs. Garcia is looking for a house that will not go beyond her $600,000 budget. She saw a property that has a [BLANK]. On top of that, the buyer has to pay a brokerage fee which is 3% of the [BLANK], and also the transfer fee that is 9% of the [BLANK]. How much more is the total price of the house than Mrs. Garcia's budget? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the selling price of the property\""
+    }
+  ],
+  "num_valid_similars": 5
+}

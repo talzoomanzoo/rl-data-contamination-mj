@@ -1,0 +1,210 @@
+{
+  "original_question": "Joanne has a blank fair six-sided die and six stickers each displaying a different integer from 1 to 6. Joanne rolls the die and then places the sticker labeled 1 on the top face of the die. She then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as $\\tfrac mn,$ where $m$ and $n$ are relatively prime positive integers. Find $m + n.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Olivia has a blank fair nine-sided die and nine stickers each displaying a different integer from [BLANK]. Olivia rolls the die and then places the sticker labeled 1 on the top face of the die. She then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Olivia possesses a [BLANK] fair nine-sided die and nine stickers, each featuring a distinct integer from [BLANK]. She rolls the die and affixes the sticker marked 1 onto the top face of the die. Next, she rolls the die once more, places the sticker marked 2 on the top face, and continues this sequence to apply the remaining stickers in order. If at any point the die shows a sticker already on its top face, the new sticker is placed over the existing one. Let $p$ denote the conditional probability that, after completing the process, precisely one face remains blank, given that all even-numbered stickers are visible on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Determine the sum $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia has a [BLANK] fair nine-sided die along with nine stickers that each show a different integer from [BLANK]. After rolling the die, she places the sticker with the number 1 on the die's top face. She then rolls the die again, puts the sticker with the number 2 on the top face, and continues this pattern for the rest of the stickers in sequence. If the die lands with a sticker already on the top face, the new sticker will cover the old one. Let $p$ represent the conditional probability that by the end of the process, exactly one face is left blank, given that all even-numbered stickers are visible on the faces of the die. Therefore, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia holds a [BLANK] fair nine-sided die and has nine stickers, each displaying a unique integer from [BLANK]. She rolls the die and attaches the sticker labeled 1 to the top face of the die. Following that, she rolls the die again, adds the sticker labeled 2 on the top face, and proceeds to place the remaining stickers in order. If at any time the die lands with a sticker already on top, the new sticker is placed over it. Let $p$ denote the conditional probability that, when the process is complete, only one face has been left blank, under the condition that all even-numbered stickers are visible on the die's faces. Then, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Find the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Olivia owns a [BLANK] fair nine-sided die and nine different stickers, each marked with a unique integer from [BLANK]. She rolls the die and sticks the label 1 onto the die's top face. Then she rolls the die again, places the label 2 on the top face, and goes on to stick the rest of the labels in sequence. If the die lands on a face that already has a sticker, the new sticker will cover the previous one. Let $p$ be the conditional probability that at the end of this process, exactly one face remains blank, given that all even-numbered labels are visible on the faces of the die. Thus, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Determine $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Olivia is in possession of a [BLANK] fair nine-sided die and nine stickers, each showing a different integer from [BLANK]. She rolls the die and then places the sticker showing 1 on the top face. After that, she rolls the die again, places the sticker showing 2 on the top face, and adheres the remaining stickers in order. If the die ever stops with a sticker already on the top face, the new sticker will cover the existing one. Let $p$ be the conditional probability that, by the conclusion of this process, only one face is blank, given that all even-numbered stickers are visible on the die's faces. Consequently, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Compute $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam has a blank fair seven-sided die and seven stickers each displaying a different integer from [BLANK]. Liam rolls the die and then places the sticker labeled 1 on the top face of the die. He then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam possesses a [BLANK] fair seven-sided die along with seven stickers, each marked with a distinct integer from [BLANK]. He rolls the die and affixes the sticker marked 1 onto the die's top face. Subsequently, he rolls the die again, attaches the sticker marked 2 to the top face, and continues this sequence to apply the remaining stickers in order. If the die lands with a sticker already on the upper face, the new sticker is placed over the existing one. Let $p$ denote the conditional probability that at the conclusion of the process, precisely one face remains blank, under the condition that all even-numbered stickers are displayed on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are positive integers that share no common factors. Compute $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam has a [BLANK] unbiased seven-sided die and seven stickers, with each one featuring a unique integer from [BLANK]. After rolling the die, he places the sticker labeled 1 on the upper face of the die. He then rolls it again, puts the sticker labeled 2 on the top face, and proceeds to continue this pattern for the other stickers in sequence. If the die shows a face that already has a sticker on it, the new sticker will cover the existing one. Define $p$ as the conditional probability that at the end of this process, only one face is left blank, given that all even-numbered stickers are visible on the die's faces. Therefore, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are positive integers that are relatively prime. Determine $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam owns a [BLANK] fair seven-sided die along with seven stickers, each depicting a different integer from [BLANK]. He rolls the die and places the sticker with the number 1 on the top face. Next, he rolls the die again, affixes the sticker with the number 2 on the top, and continues this method for the rest of the stickers sequentially. If the die lands with a sticker already on the top, the new sticker will overlay the old one. Let $p$ be the conditional probability that, at the end of the process, precisely one face is unmarked, given that all even-numbered stickers are visible on the die's faces. Consequently, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam has a [BLANK] fair seven-sided die and seven stickers, each showing a different integer from [BLANK]. After rolling the die, he places the sticker labeled 1 onto the top face of the die. He rolls it again, positions the sticker labeled 2 on the upper face, and continues this process to apply the other stickers in order. If the die lands with a sticker that is already on the top face, the new sticker is placed over the old one. Let $p$ represent the conditional probability that at the end of this sequence, only one face is devoid of stickers, given that all even-numbered stickers are showing on the faces of the die. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are positive integers with no common factors. Find the sum $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam is in possession of a [BLANK] fair seven-sided die and seven stickers, each exhibiting a separate integer from [BLANK]. He begins by rolling the die and placing the sticker marked 1 on its top face. He then rolls the die again, puts the sticker marked 2 on the top face, and continues this sequence for the remaining stickers in order. If the die shows a face with an already placed sticker, the new sticker will cover the previous one. Define $p$ as the conditional probability that, at the completion of this process, exactly one face remains unmarked, given that all even-numbered stickers are on the visible faces of the die. Consequently, $p$ can be stated as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Compute $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael has a blank fair ten-sided die and ten stickers each displaying a different integer from [BLANK]. Michael rolls the die and then places the sticker labeled 1 on the top face of the die. He then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael possesses a [BLANK] fair ten-sided die and ten stickers, each showing a different integer from [BLANK]. He rolls the die and subsequently affixes the sticker marked 1 to the top face of the die. Following this, he rolls the die once more, places the sticker marked 2 on the top face, and continues this sequence to apply the remaining stickers in order. If the die lands with a sticker already displayed on its top face, the new sticker is used to cover the existing one. Let $p$ denote the conditional probability that, after completing the process, only one face remains blank, given that all the even-numbered stickers are visible on the die's faces. Then $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Determine the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael has a [BLANK] fair ten-sided die as well as ten stickers, each featuring a distinct integer from [BLANK]. He rolls the die and then attaches the sticker labeled 1 to the die's top face. He rolls the die again, places the sticker labeled 2 on the top face, and proceeds to place the remaining stickers in sequence. If the die happens to land with a sticker already on the top face, the new sticker is applied over the old one. Let $p$ represent the conditional probability that, at the conclusion of the process, exactly one face is left blank, given that all even-numbered stickers are shown on the die's faces. Then $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael owns a [BLANK] fair ten-sided die and possesses ten stickers, each depicting a different integer from [BLANK]. He rolls the die and subsequently places the sticker marked 1 on the upper face of the die. He then rolls the die again, affixes the sticker marked 2 on the top face, and continues this method to position the other stickers in order. If the die lands with a sticker already on top, the new sticker is placed on top of the existing one. Let $p$ be the conditional probability that, at the end of the procedure, exactly one face is blank, given that all even-numbered stickers are visible on the die's faces. Then $p$ can be expressed as \tfrac{m}{n}, with $m$ and $n$ being relatively prime positive integers. Find the sum $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael has a [BLANK] fair ten-sided die along with ten stickers, each showing a different integer from [BLANK]. He rolls the die and then puts the sticker labeled 1 on the top face of the die. Next, he rolls the die again, places the sticker labeled 2 on the top face, and continues this pattern for the remaining stickers. If the die lands with a sticker already on its top face, the new sticker covers the old one. Let $p$ denote the conditional probability that, by the end of the process, there is exactly one face that remains blank, given that all even-numbered stickers are displayed on the die's faces. Then $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Determine $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael has a [BLANK] fair ten-sided die and ten stickers, each representing a different integer from [BLANK]. After rolling the die, he places the sticker labeled 1 on the die's top face. He rolls the die again, puts the sticker labeled 2 on the top face, and continues this process to apply the other stickers in order. If the die ends up with a sticker already on top, the new sticker will cover the existing one. Let $p$ be the conditional probability that, at the end of the process, exactly one face is left blank, given that all even-numbered stickers are visible on the faces of the die. Then $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Compute $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily has a blank fair eight-sided die and eight stickers each displaying a different integer from [BLANK]. Emily rolls the die and then places the sticker labeled 1 on the top face of the die. She then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily possesses a [BLANK] fair die with eight sides and eight distinct stickers, each featuring a different integer from [BLANK]. She rolls the die first and affixes the sticker marked 1 to the uppermost face of the die. Next, she rolls the die again, sticks the sticker marked 2 on the top face, and continues this pattern to apply the remaining stickers sequentially. If the die shows a face that already has a sticker, the new sticker replaces the old one. Let $p$ represent the conditional probability that at the conclusion of the process, precisely one face remains blank, given that all even-numbered stickers are displayed on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily has a [BLANK] fair octahedral die and eight stickers, each with a unique integer from [BLANK]. She begins by rolling the die and placing the sticker showing 1 on the die's top face. She then rolls the die again, puts the sticker showing 2 on the upper face, and proceeds in this manner to apply the other stickers in order. If the die lands with a sticker already on top, the new sticker will cover the existing one. Define $p$ as the conditional probability that at the end of this process, exactly one face remains blank, under the condition that all the even-numbered stickers are visible on the die's faces. Therefore, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Determine the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily owns a [BLANK] fair die with eight faces and eight different stickers, each displaying a separate integer from [BLANK]. She first rolls the die and places the sticker labeled 1 on the top face. Next, she rolls the die again, applies the sticker labeled 2 on the upper face, and continues this sequence for the remaining stickers. If the die lands with a sticker already placed on top, the new sticker will cover the previous one. Let $p$ denote the conditional probability that, by the end of the process, only one face is left blank, given that all the even-numbered stickers appear on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Find the sum $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily has a [BLANK] fair eight-sided die along with eight stickers that each bear a different integer from [BLANK]. Initially, she rolls the die and places the sticker marked 1 on the top face. Afterward, she rolls the die once more, puts the sticker marked 2 on the top face, and continues this method to apply the other stickers in succession. If the die shows a face with a sticker, the new sticker will cover the existing one. Let $p$ be the conditional probability that at the end of the process, exactly one face is blank, considering that all even-numbered stickers are visible on the faces of the die. Consequently, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily possesses a [BLANK] fair eight-sided die and eight stickers that each represent a distinct integer from [BLANK]. She rolls the die initially and places the sticker numbered 1 on the upper face of the die. She then rolls the die again, affixes the sticker numbered 2 to the top face, and continues this pattern to place the remaining stickers in sequence. If the die lands on a face that already has a sticker, the new sticker will cover the old one. Let $p$ signify the conditional probability that, at the conclusion of this process, only one face remains blank, given that all the even-numbered stickers are present on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, with $m$ and $n$ being relatively prime positive integers. Find the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Joanne has a blank fair six-sided die and six stickers each displaying a different integer from [BLANK]. Joanne rolls the die and then places the sticker labeled 1 on the top face of the die. She then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Joanne possesses a fair six-sided die and six stickers, each showing a distinct integer from [BLANK]. She rolls the die and affixes the sticker marked 1 onto the upper face of the die. Following this, she rolls the die again, places the sticker marked 2 on the top face, and continues this method to apply the remaining stickers in sequence. If at any point the die shows a sticker already positioned on the top face, the new sticker is applied over the old one. Let $p$ denote the conditional probability that, after completing the process, precisely one face remains blank, under the condition that all even-numbered stickers are visible on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Joanne has a standard six-sided die and six stickers, each featuring a unique integer from [BLANK]. She rolls the die and places the sticker labeled 1 on the die's top face. Next, she rolls the die again, sticks the sticker labeled 2 on the top face, and continues this routine to add the other stickers in order. If the die lands with a sticker already on the top face, the new sticker is simply placed over the existing one. Define $p$ as the conditional probability that, after the process is complete, only one face is left blank, given that all even-numbered stickers are displayed on the die's faces. Therefore, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Determine $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Joanne owns a fair six-sided die along with six stickers, each depicting a different integer from [BLANK]. She rolls the die and attaches the sticker marked 1 to the die's top face. She then rolls the die once more, places the sticker marked 2 on the top face, and repeats this action for the remaining stickers in sequence. If at any time the die lands showing a sticker already on its top face, the new sticker will cover the old one. Let $p$ represent the conditional probability that at the conclusion of the process, only one face remains unmarked, given that all even-numbered stickers are visible on the die's faces. Hence, $p$ can be expressed as \tfrac{m}{n}, with $m$ and $n$ being relatively prime positive integers. Find $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Joanne has a fair six-sided die and six distinct stickers, each featuring a different integer from [BLANK]. She rolls the die and places the sticker bearing the number 1 on the upper face of the die. She then rolls the die again and places the sticker bearing the number 2 on the top face, continuing this sequence for the remaining stickers. If the die lands on a face that already has a sticker, the new sticker is placed over the old one. Let $p$ denote the conditional probability that, by the end of the process, exactly one face remains unmarked, given that all even-numbered stickers are present on the die's faces. Thus, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Joanne has a fair six-sided die and six stickers, each representing a unique integer from [BLANK]. She rolls the die and puts the sticker labeled 1 on the uppermost face of the die. Afterward, she rolls the die again, applies the sticker labeled 2 on the top face, and continues this process for the rest of the stickers in order. If the die lands with a sticker already on the top face, the new sticker is placed over the previous one. Let $p$ represent the conditional probability that at the end of this process, exactly one face has been left unmarked, given that all even-numbered stickers are visible on the faces of the die. Therefore, $p$ can be written as \tfrac{m}{n}, where $m$ and $n$ are positive integers that have no common divisors other than 1. Find $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia has a blank fair five-sided die and five stickers each displaying a different integer from [BLANK]. Sophia rolls the die and then places the sticker labeled 1 on the top face of the die. She then rolls the die again, places the sticker labeled 2 on the top face, and continues this process to place the rest of the stickers in order. If the die ever lands with a sticker already on its top face, the new sticker is placed to cover the old sticker. Let $p$ be the conditional probability that at the end of the process exactly one face has been left blank, given that all the even-numbered stickers are visible on faces of the die. Then $p$ can be written as \\tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia possesses a [BLANK] fair five-sided die along with five stickers, each featuring a distinct integer from [BLANK]. She rolls the die and affixes the sticker numbered 1 to the upper face of the die. After that, she rolls the die once more, attaches the sticker numbered 2 to the top face, and repeats this method to apply the remaining stickers sequentially. If at any point the die shows a sticker already on its upper face, the new sticker will cover the previous one. Let $p$ be the conditional probability that, after completing the process, precisely one face remains blank, provided that all even-numbered stickers are displayed on the die's faces. In that case, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Determine the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia has a [BLANK] fair five-sided die and a collection of five stickers, each with a unique integer from [BLANK]. She begins by rolling the die and places the sticker marked 1 on the top face. She then rolls the die again, positions the sticker marked 2 on the upper face, and continues this pattern to place the remaining stickers in sequence. If the die lands with a sticker already on the top face, the new sticker covers the old one. Let $p$ denote the conditional probability that, at the conclusion of this procedure, only one face is left blank, given that all even-numbered stickers are visible on the die faces. Therefore, $p$ can be represented as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Calculate $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia owns a [BLANK] fair five-sided die and has five stickers, each showing a different integer from [BLANK]. She rolls the die and places the sticker labeled 1 on the face facing up. Next, she rolls the die again, applies the sticker labeled 2 to the top face, and continues this process to add the other stickers in order. If the die ever shows a sticker that is already on its top face, the new sticker will cover the previous one. Let $p$ stand for the conditional probability that, upon finishing the process, exactly one face remains unmarked, given that all even-numbered stickers are visible on the die's faces. Thus, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find the sum $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia has a [BLANK] fair five-sided die and five stickers, each representing a different integer from [BLANK]. She rolls the die and places the sticker marked 1 on the upper face. Afterward, she rolls the die again, places the sticker marked 2 on top, and continues this process to sequentially place the remaining stickers. If the die lands with a sticker that is already on the top, the new sticker will cover it. Let $p$ represent the conditional probability that, by the end of the process, only one face is left blank, given that all even-numbered stickers are visible on the die faces. Consequently, $p$ can be written as \tfrac{m}{n}, where $m$ and $n$ are coprime positive integers. Determine the value of $m + n.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia has a [BLANK] fair five-sided die and a set of five stickers, each displaying a different integer from [BLANK]. She rolls the die and puts the sticker labeled 1 on the top face. She then rolls the die again, places the sticker labeled 2 on the top face, and follows this sequence to apply the remaining stickers. If the die ever shows a sticker already on its top face, the new sticker is used to cover the old one. Let $p$ be the conditional probability that, at the end of the entire procedure, only one face remains blank, considering that all even-numbered stickers are visible on the faces of the die. In this case, $p$ can be expressed as \tfrac{m}{n}, where $m$ and $n$ are relatively prime positive integers. Find $m + n.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

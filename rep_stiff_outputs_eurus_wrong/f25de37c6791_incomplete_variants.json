@@ -1,0 +1,210 @@
+{
+  "original_question": "Gus spent $20.00 at the grocery store.  He bought 2 bag of chips for $2.00 each, a bucket of fried chicken for $8.00 and a bottle of soda for $1.00.  How much did the apple pie cost? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark spent [BLANK] at the diner. He ordered 4 sandwiches for $4.00 each, a large salad for $10.00 and a dessert for $5.00. How much did the drink cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark paid [BLANK] at the diner. He ordered 4 sandwiches priced at $4.00 each, a large salad for $10.00, and a dessert costing $5.00. What was the price of the drink? We'll analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark's total at the diner was [BLANK]. He purchased 4 sandwiches at $4.00 apiece, a large salad for $10.00, and a dessert that cost $5.00. How much did he spend on the drink? Let\u2019s break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark spent [BLANK] at the diner. He got 4 sandwiches, each costing $4.00, a large salad that was $10.00, and a dessert for $5.00. How much was the drink? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark's expenditure at the diner was [BLANK]. He ordered 4 sandwiches at $4.00 each, a large salad for $10.00, and a dessert that cost $5.00. What was the cost of the drink? We will think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark's total bill at the diner came to [BLANK]. He had 4 sandwiches at a price of $4.00 each, a large salad for $10.00, and a dessert for $5.00. How much did the drink cost? Let's analyze the situation step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily spent [BLANK] at the bakery. She bought 3 loaves of bread for $3.00 each, a cake for $15.00 and a bottle of juice for $2.00. How much did the cookie jar cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily paid [BLANK] at the bakery. She purchased 3 loaves of bread priced at $3.00 each, a cake for $15.00, and a bottle of juice for $2.00. What was the price of the cookie jar? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily's total expenditure at the bakery was [BLANK]. She acquired 3 loaves of bread, each costing $3.00, a cake for $15.00, and a bottle of juice for $2.00. How much did the cookie jar cost? We will consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the bakery, Emily's spending amounted to [BLANK]. She bought 3 loaves of bread at $3.00 each, a cake for $15.00, and a bottle of juice for $2.00. What is the cost of the cookie jar? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily's total at the bakery was [BLANK]. She got 3 loaves of bread, each one costing $3.00, a cake priced at $15.00, and a bottle of juice for $2.00. How much did the cookie jar cost? We will reason through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily has spent [BLANK] at the bakery. She purchased 3 loaves of bread for $3.00 each, alongside a cake for $15.00 and a bottle of juice that costs $2.00. What was the cost of the cookie jar? Let\u2019s work through this step by step and note the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Samantha spent [BLANK] at the electronics store. She bought 5 headphones for $6.00 each, a portable charger for $15.00 and a phone case for $5.00. How much did the speaker cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Samantha made a purchase of [BLANK] at the electronics store. She acquired 5 headphones priced at $6.00 each, a portable charger costing $15.00, and a phone case that was $5.00. What was the price of the speaker? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha spent [BLANK] in the electronics store. She bought 5 pairs of headphones for $6.00 per pair, a portable charger that cost $15.00, and a phone case priced at $5.00. How much did the speaker cost? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the electronics store, Samantha spent [BLANK]. She purchased 5 headphones, each costing $6.00, along with a portable charger for $15.00 and a phone case for $5.00. What was the cost of the speaker? Let's reason through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha's total expenditure at the electronics store was [BLANK]. She bought 5 headphones at $6.00 each, a portable charger for $15.00, and a phone case for $5.00. How much did the speaker cost? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Samantha's spending at the electronics shop amounted to [BLANK]. She acquired 5 headphones that were $6.00 each, a portable charger for $15.00, and a phone case priced at $5.00. What is the cost of the speaker? Let's think this through step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Lisa spent [BLANK] at the bookstore. She bought 4 novels for $5.00 each, a magazine for $6.00 and a bookmark for $2.00. How much did the journal cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lisa made a purchase of [BLANK] at the bookstore. She acquired 4 novels priced at $5.00 each, a magazine costing $6.00, and a bookmark valued at $2.00. What was the price of the journal? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lisa's total expenditure at the bookstore was [BLANK]. She purchased 4 novels, each costing $5.00, a magazine for $6.00, and a bookmark priced at $2.00. How much did the journal cost? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the bookstore, Lisa spent [BLANK]. She bought 4 novels at $5.00 each, a magazine that cost $6.00, and a bookmark for $2.00. What is the cost of the journal? Let's work through this step by step and write down the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The amount Lisa spent at the bookstore was [BLANK]. She acquired 4 novels for $5.00 each, along with a magazine costing $6.00 and a bookmark valued at $2.00. What is the price of the journal? Let\u2019s think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lisa's expenditure at the bookstore was [BLANK]. She bought 4 novels, each priced at $5.00, a magazine for $6.00, and a bookmark worth $2.00. What was the cost of the journal? Let's discuss this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Gus spent [BLANK] at the grocery store. He bought 2 bag of chips for $2.00 each, a bucket of fried chicken for $8.00 and a bottle of soda for $1.00. How much did the apple pie cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gus paid [BLANK] at the supermarket. He purchased 2 bags of chips at $2.00 each, a bucket of fried chicken for $8.00, and a soda bottle for $1.00. What was the price of the apple pie? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Gus's total expenditure at the grocery store was [BLANK]. He acquired 2 bags of chips costing $2.00 each, a bucket of fried chicken priced at $8.00, and a bottle of soda for $1.00. How much did the apple pie cost? We will go through the steps and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the grocery store, Gus spent [BLANK]. He bought 2 bags of chips for $2.00 each, a bucket of fried chicken for $8.00, along with a $1.00 bottle of soda. What is the cost of the apple pie? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Gus's spending at the grocery store was [BLANK]. He got 2 bags of chips at $2.00 each, a bucket of fried chicken for $8.00, and a soda bottle for $1.00. What was the cost of the apple pie? Let's evaluate this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The amount Gus spent at the grocery store was [BLANK]. He bought 2 bags of chips for $2.00 apiece, a bucket of fried chicken costing $8.00, and a soda for $1.00. What did the apple pie cost? We'll think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "James spent [BLANK] at the toy store. He purchased 2 action figures for $8.00 each, a board game for $20.00 and a puzzle for $10.00. How much did the stuffed animal cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James made a purchase of [BLANK] at the toy shop. He bought 2 action figures priced at $8.00 each, a board game costing $20.00, and a puzzle for $10.00. What was the price of the stuffed animal? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James expended [BLANK] at the toy store. He acquired 2 action figures for $8.00 each, a board game valued at $20.00, along with a puzzle that cost $10.00. What was the cost of the stuffed animal? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James allocated [BLANK] at the toy store. He purchased 2 action figures at $8.00 each, a board game for $20.00, and a puzzle priced at $10.00. How much did the stuffed animal cost? Let's reason through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James spent [BLANK] in the toy store. He bought 2 action figures costing $8.00 each, a board game that was $20.00, plus a puzzle for $10.00. What was the price of the stuffed animal? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James invested [BLANK] at the toy store. He got 2 action figures for $8.00 each, a board game priced at $20.00, and a puzzle for $10.00. How much did the stuffed animal cost? Let\u2019s examine this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

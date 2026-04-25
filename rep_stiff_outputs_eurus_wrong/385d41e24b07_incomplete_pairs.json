@@ -1,0 +1,62 @@
+{
+  "original_question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the advance payment amounts",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a $1,350 advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a $1,100 advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Robert wants to buy a bookshelf and a sofa and has received two offers. Furniture United's offer includes a [BLANK] advance payment and 6 monthly installments of $350 each. Cozy Homes' offer includes a [BLANK] advance payment and 9 monthly installments of $250 each. What is the cost difference between the two offers? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the advance payment amounts"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Ella wants to buy a dining table and a chair and has received two offers. Home Styles' offer includes a $1,250 advance payment and 5 monthly installments of $300 each. Furniture World' offer includes a $1,000 advance payment and 10 monthly installments of $200 each. What is the cost difference between the two offers?",
+      "incomplete_question": "Ella wants to buy a dining table and a chair and has received two offers. Home Styles' offer includes a [BLANK] advance payment and 5 monthly installments of $300 each. Furniture World' offer includes a [BLANK] advance payment and 10 monthly installments of $200 each. What is the cost difference between the two offers?",
+      "info_removed": "the advance payment amounts"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Liam wants to buy a bed frame and a mattress and has received two offers. Sleep Haven's offer includes a $1,400 advance payment and 7 monthly installments of $400 each. Comfort Zone's offer includes a $1,200 advance payment and 8 monthly installments of $300 each. What is the cost difference between the two offers?",
+      "incomplete_question": "Liam wants to buy a bed frame and a mattress and has received two offers. Sleep Haven's offer includes a [BLANK] advance payment and 7 monthly installments of $400 each. Comfort Zone's offer includes a [BLANK] advance payment and 8 monthly installments of $300 each. What is the cost difference between the two offers?",
+      "info_removed": "the advance payment amounts"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sophie wants to buy a desk and a chair and has received two offers. Office Supplies' offer includes a $1,500 advance payment and 4 monthly installments of $450 each. Work Comfort's offer includes a $1,100 advance payment and 6 monthly installments of $350 each. What is the cost difference between the two offers?",
+      "incomplete_question": "Sophie wants to buy a desk and a chair and has received two offers. Office Supplies' offer includes a [BLANK] advance payment and 4 monthly installments of $450 each. Work Comfort's offer includes a [BLANK] advance payment and 6 monthly installments of $350 each. What is the cost difference between the two offers?",
+      "info_removed": "the advance payment amounts"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Jake wants to buy a television and a sound system and has received two offers. Tech City\u2019s offer includes a $1,600 advance payment and 5 monthly installments of $500 each. Media Hub's offer includes a $1,200 advance payment and 12 monthly installments of $225 each. What is the cost difference between the two offers?",
+      "incomplete_question": "Jake wants to buy a television and a sound system and has received two offers. Tech City\u2019s offer includes a [BLANK] advance payment and 5 monthly installments of $500 each. Media Hub's offer includes a [BLANK] advance payment and 12 monthly installments of $225 each. What is the cost difference between the two offers?",
+      "info_removed": "the advance payment amounts"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Mia wants to buy a refrigerator and a dishwasher and has received two offers. Appliance Central's offer includes a $1,700 advance payment and 3 monthly installments of $600 each. Kitchen Essentials' offer includes a $1,300 advance payment and 10 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "incomplete_question": "Mia wants to buy a refrigerator and a dishwasher and has received two offers. Appliance Central's offer includes a [BLANK] advance payment and 3 monthly installments of $600 each. Kitchen Essentials' offer includes a [BLANK] advance payment and 10 monthly installments of $250 each. What is the cost difference between the two offers?",
+      "info_removed": "the advance payment amounts"
+    }
+  ],
+  "num_valid_similars": 5
+}

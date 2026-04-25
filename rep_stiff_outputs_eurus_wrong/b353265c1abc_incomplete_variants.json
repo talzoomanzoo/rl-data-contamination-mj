@@ -1,0 +1,210 @@
+{
+  "original_question": "Buying 20 pencils, 3 erasers, and 2 notebooks costs 32 yuan; buying 39 pencils, 5 erasers, and 3 notebooks costs 58 yuan. Calculate the cost of buying 5 pencils, 5 erasers, and 5 notebooks.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Buying 18 rulers, 6 erasers, and 2 calculators costs [BLANK]; buying 35 rulers, 8 erasers, and 5 calculators costs [BLANK]. Calculate the cost of buying 8 rulers, 3 erasers, and 4 calculators.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense for purchasing 18 rulers, 6 erasers, and 2 calculators is [BLANK]; the cost for acquiring 35 rulers, 8 erasers, and 5 calculators is [BLANK]. Determine the total price for 8 rulers, 3 erasers, and 4 calculators.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Acquiring 18 rulers, 6 erasers, and 2 calculators amounts to [BLANK]; acquiring 35 rulers, 8 erasers, and 5 calculators totals [BLANK]. Find out the cost for 8 rulers, 3 erasers, and 4 calculators.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Purchasing 18 rulers, 6 erasers, and 2 calculators results in [BLANK]; purchasing 35 rulers, 8 erasers, and 5 calculators leads to [BLANK]. Calculate the expense of buying 8 rulers, 3 erasers, and 4 calculators.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total cost for buying 18 rulers, 6 erasers, and 2 calculators is [BLANK]; the total cost for buying 35 rulers, 8 erasers, and 5 calculators is [BLANK]. Calculate how much it costs to buy 8 rulers, 3 erasers, and 4 calculators.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If the price for 18 rulers, 6 erasers, and 2 calculators is [BLANK]; and the price for 35 rulers, 8 erasers, and 5 calculators is [BLANK], find the cost of purchasing 8 rulers, 3 erasers, and 4 calculators.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Buying 20 pencils, 3 erasers, and 2 notebooks costs [BLANK]; buying 39 pencils, 5 erasers, and 3 notebooks costs [BLANK]. Calculate the cost of buying 5 pencils, 5 erasers, and 5 notebooks. Present the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense for purchasing 20 pencils, 3 erasers, and 2 notebooks is [BLANK]; the total for acquiring 39 pencils, 5 erasers, and 3 notebooks amounts to [BLANK]. Determine the total cost for 5 pencils, 5 erasers, and 5 notebooks. Provide the solution in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Acquiring 20 pencils, 3 erasers, and 2 notebooks incurs a cost of [BLANK]; while the expense for 39 pencils, 5 erasers, and 3 notebooks is [BLANK]. Find out the cost for buying 5 pencils, 5 erasers, and 5 notebooks. Express your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost for 20 pencils, 3 erasers, and 2 notebooks totals to [BLANK]; similarly, purchasing 39 pencils, 5 erasers, and 3 notebooks costs [BLANK]. Calculate the total expense of 5 pencils, 5 erasers, and 5 notebooks. Write your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Purchasing 20 pencils, 3 erasers, and 2 notebooks requires [BLANK]; on the other hand, buying 39 pencils, 5 erasers, and 3 notebooks costs [BLANK]. Compute the cost of 5 pencils, 5 erasers, and 5 notebooks. Present your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The total cost for buying 20 pencils, 3 erasers, and 2 notebooks is [BLANK]; conversely, the expense for 39 pencils, 5 erasers, and 3 notebooks is [BLANK]. Calculate the cost for acquiring 5 pencils, 5 erasers, and 5 notebooks. Display your answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Buying 15 notebooks, 2 erasers, and 5 binders costs [BLANK]; buying 30 notebooks, 4 erasers, and 8 binders costs [BLANK]. Calculate the cost of buying 4 notebooks, 4 erasers, and 4 binders.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense for 15 notebooks, 2 erasers, and 5 binders is [BLANK]; the total for 30 notebooks, 4 erasers, and 8 binders is [BLANK]. Determine the total cost of purchasing 4 notebooks, 4 erasers, and 4 binders.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Purchasing 15 notebooks, 2 erasers, and 5 binders amounts to [BLANK]; acquiring 30 notebooks, 4 erasers, and 8 binders totals [BLANK]. Find the expense for 4 notebooks, 4 erasers, and 4 binders.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of 15 notebooks, 2 erasers, and 5 binders is [BLANK]; the price for 30 notebooks, 4 erasers, and 8 binders is [BLANK]. Calculate the total for 4 notebooks, 4 erasers, and 4 binders.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Acquiring 15 notebooks, 2 erasers, and 5 binders costs [BLANK]; obtaining 30 notebooks, 4 erasers, and 8 binders costs [BLANK]. Compute the cost of 4 notebooks, 4 erasers, and 4 binders.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The total cost for 15 notebooks, 2 erasers, and 5 binders is [BLANK]; the amount for 30 notebooks, 4 erasers, and 8 binders is [BLANK]. Evaluate the cost of 4 notebooks, 4 erasers, and 4 binders.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Buying 25 markers, 4 erasers, and 3 sketchbooks costs [BLANK]; buying 45 markers, 6 erasers, and 4 sketchbooks costs [BLANK]. Calculate the cost of buying 6 markers, 6 erasers, and 6 sketchbooks.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Purchasing 25 markers, 4 erasers, and 3 sketchbooks amounts to [BLANK]; purchasing 45 markers, 6 erasers, and 4 sketchbooks totals [BLANK]. Determine the expense of acquiring 6 markers, 6 erasers, and 6 sketchbooks.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The price for 25 markers, 4 erasers, and 3 sketchbooks is [BLANK]; the cost for 45 markers, 6 erasers, and 4 sketchbooks is [BLANK]. Find the total cost for 6 markers, 6 erasers, and 6 sketchbooks.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Buying 25 markers, 4 erasers, and 3 sketchbooks incurs a cost of [BLANK]; buying 45 markers, 6 erasers, and 4 sketchbooks incurs a cost of [BLANK]. Calculate how much it costs to buy 6 markers, 6 erasers, and 6 sketchbooks.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Acquiring 25 markers, 4 erasers, and 3 sketchbooks will cost [BLANK]; acquiring 45 markers, 6 erasers, and 4 sketchbooks will cost [BLANK]. Compute the total for buying 6 markers, 6 erasers, and 6 sketchbooks.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The total expense for 25 markers, 4 erasers, and 3 sketchbooks is [BLANK]; the total expense for 45 markers, 6 erasers, and 4 sketchbooks is [BLANK]. Assess the cost of obtaining 6 markers, 6 erasers, and 6 sketchbooks.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Buying 12 globes, 4 markers, and 3 charts costs [BLANK]; buying 27 globes, 5 markers, and 6 charts costs [BLANK]. Calculate the cost of buying 3 globes, 5 markers, and 3 charts.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Purchasing 12 globes, 4 markers, and 3 charts amounts to [BLANK]; acquiring 27 globes, 5 markers, and 6 charts totals [BLANK]. Determine the expense of buying 3 globes, 5 markers, and 3 charts.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The expense for 12 globes, 4 markers, and 3 charts is [BLANK]; the cost for 27 globes, 5 markers, and 6 charts is [BLANK]. Find the total cost of obtaining 3 globes, 5 markers, and 3 charts.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To buy 12 globes, 4 markers, and 3 charts costs [BLANK]; to purchase 27 globes, 5 markers, and 6 charts costs [BLANK]. Calculate the total cost for 3 globes, 5 markers, and 3 charts.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Acquiring 12 globes, 4 markers, and 3 charts has a price of [BLANK]; acquiring 27 globes, 5 markers, and 6 charts has a price of [BLANK]. Compute the expense of purchasing 3 globes, 5 markers, and 3 charts.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Investing in 12 globes, 4 markers, and 3 charts costs [BLANK]; investing in 27 globes, 5 markers, and 6 charts costs [BLANK]. Assess the cost of buying 3 globes, 5 markers, and 3 charts.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Buying 10 textbooks, 3 pens, and 2 highlighters costs [BLANK]; buying 20 textbooks, 5 pens, and 4 highlighters costs [BLANK]. Calculate the cost of buying 7 textbooks, 2 pens, and 3 highlighters.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The expense for purchasing 10 textbooks, 3 pens, and 2 highlighters amounts to [BLANK]; the total cost for acquiring 20 textbooks, 5 pens, and 4 highlighters is [BLANK]. Find the total cost for obtaining 7 textbooks, 2 pens, and 3 highlighters.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Acquiring 10 textbooks, 3 pens, and 2 highlighters costs [BLANK]; acquiring 20 textbooks, 5 pens, and 4 highlighters costs [BLANK]. Determine the expense of buying 7 textbooks, 2 pens, and 3 highlighters.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Purchasing 10 textbooks, 3 pens, and 2 highlighters has a total cost of [BLANK]; purchasing 20 textbooks, 5 pens, and 4 highlighters totals [BLANK]. Compute the cost for 7 textbooks, 2 pens, and 3 highlighters.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total price for 10 textbooks, 3 pens, and 2 highlighters is [BLANK]; the total price for 20 textbooks, 5 pens, and 4 highlighters is [BLANK]. Calculate how much it costs to buy 7 textbooks, 2 pens, and 3 highlighters.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Buying 10 textbooks, 3 pens, and 2 highlighters results in a cost of [BLANK]; buying 20 textbooks, 5 pens, and 4 highlighters results in a cost of [BLANK]. Calculate the total cost for 7 textbooks, 2 pens, and 3 highlighters.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

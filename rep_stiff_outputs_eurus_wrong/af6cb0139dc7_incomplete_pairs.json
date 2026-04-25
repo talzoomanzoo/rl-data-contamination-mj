@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Matthew, Henry, Lucas, and Grace. Matthew remarked, \"Lucas is a knave and Henry is a knave\". Henry was heard saying, \"Matthew is not a knave\". Lucas commented, \"Lucas is a knight or Grace is a knight\". Grace noted, \"Matthew is not a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the number of inhabitants involved in the scenario\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Matthew, Henry, Lucas, and Grace. Matthew remarked, \"Lucas is a knave and Henry is a knave\". Henry was heard saying, \"Matthew is not a knave\". Lucas commented, \"Lucas is a knight or Grace is a knight\". Grace noted, \"Matthew is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Matthew, Henry, Lucas, and Grace. Matthew remarked, \"Lucas is a knave and Henry is a knave\". Henry was heard saying, \"Matthew is not a knave\". Lucas commented, \"Lucas is a knight or Grace is a knight\". Grace noted, \"Matthew is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Sarah, John, Peter, and Emily. Sarah remarked, \"Peter is a knave and John is a knave\". John was heard saying, \"Sarah is not a knave\". Peter commented, \"Peter is a knight or Emily is a knight\". Emily noted, \"Sarah is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Sarah, John, Peter, and Emily. Sarah remarked, \"Peter is a knave and John is a knave\". John was heard saying, \"Sarah is not a knave\". Peter commented, \"Peter is a knight or Emily is a knight\". Emily noted, \"Sarah is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Alice, Bob, Charlie, and Dana. Alice remarked, \"Charlie is a knave and Bob is a knave\". Bob was heard saying, \"Alice is not a knave\". Charlie commented, \"Charlie is a knight or Dana is a knight\". Dana noted, \"Alice is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Alice, Bob, Charlie, and Dana. Alice remarked, \"Charlie is a knave and Bob is a knave\". Bob was heard saying, \"Alice is not a knave\". Charlie commented, \"Charlie is a knight or Dana is a knight\". Dana noted, \"Alice is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Rachel, Mike, Steve, and Zoe. Rachel remarked, \"Steve is a knave and Mike is a knave\". Mike was heard saying, \"Rachel is not a knave\". Steve commented, \"Steve is a knight or Zoe is a knight\". Zoe noted, \"Rachel is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Rachel, Mike, Steve, and Zoe. Rachel remarked, \"Steve is a knave and Mike is a knave\". Mike was heard saying, \"Rachel is not a knave\". Steve commented, \"Steve is a knight or Zoe is a knight\". Zoe noted, \"Rachel is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Tom, Lisa, Kevin, and Nora. Tom remarked, \"Kevin is a knave and Lisa is a knave\". Lisa was heard saying, \"Tom is not a knave\". Kevin commented, \"Kevin is a knight or Nora is a knight\". Nora noted, \"Tom is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Tom, Lisa, Kevin, and Nora. Tom remarked, \"Kevin is a knave and Lisa is a knave\". Lisa was heard saying, \"Tom is not a knave\". Kevin commented, \"Kevin is a knight or Nora is a knight\". Nora noted, \"Tom is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Sam, Ella, Jack, and Mia. Sam remarked, \"Jack is a knave and Ella is a knave\". Ella was heard saying, \"Sam is not a knave\". Jack commented, \"Jack is a knight or Mia is a knight\". Mia noted, \"Sam is not a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet [BLANK] inhabitants: Sam, Ella, Jack, and Mia. Sam remarked, \"Jack is a knave and Ella is a knave\". Ella was heard saying, \"Sam is not a knave\". Jack commented, \"Jack is a knight or Mia is a knight\". Mia noted, \"Sam is not a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the number of inhabitants involved in the scenario\""
+    }
+  ],
+  "num_valid_similars": 5
+}

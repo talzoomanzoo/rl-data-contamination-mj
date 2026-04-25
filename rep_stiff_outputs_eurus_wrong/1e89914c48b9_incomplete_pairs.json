@@ -1,0 +1,62 @@
+{
+  "original_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g(2) = 56$, find $g(x)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific value of a function at a point\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g(2) = 56$, find $g(x)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"Let $f(x)$ and $g(x)$ be nonzero polynomials such that\\n\\[ f(g(x)) = f(x)g(x).\\n\\] If $g(3) = 81$, find $g(x)$.\",",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"Let $f(x)$ and $g(x)$ be nonzero polynomials such that\\n\\[ f(g(x)) = f(x)g(x).\\n\\] If $g(4) = 144$, find $g(x)$.\",",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"Let $f(x)$ and $g(x)$ be nonzero polynomials such that\\n\\[ f(g(x)) = f(x)g(x).\\n\\] If $g(5) = 125$, find $g(x)$.\",",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"Let $f(x)$ and $g(x)$ be nonzero polynomials such that\\n\\[ f(g(x)) = f(x)g(x).\\n\\] If $g(1) = 36$, find $g(x)$.\",",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"Let $f(x)$ and $g(x)$ be nonzero polynomials such that\\n\\[ f(g(x)) = f(x)g(x).\\n\\] If $g(6) = 216$, find $g(x)$.\"",
+      "incomplete_question": "Let $f(x)$ and $g(x)$ be nonzero polynomials such that\n\\[ f(g(x)) = f(x)g(x). \\]\nIf $g([BLANK]) = [BLANK]$, find $g(x)$.",
+      "info_removed": "\"the specific value of a function at a point\""
+    }
+  ],
+  "num_valid_similars": 5
+}

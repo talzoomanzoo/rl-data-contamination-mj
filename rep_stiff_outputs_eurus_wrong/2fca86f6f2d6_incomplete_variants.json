@@ -1,0 +1,210 @@
+{
+  "original_question": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought 20 more oranges than Ashley. If one greek orange pie needs three oranges, how many greek orange pies can they make? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Carlos and Maria make cherry cobbler. Maria brought four boxes with nine cherries in each box, while Carlos brought [BLANK]. If one cherry cobbler needs six cherries, how many cherry cobblers can they make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Carlos and Maria are preparing cherry cobbler. Maria contributed four boxes, each containing nine cherries, while Carlos contributed [BLANK]. Given that six cherries are required for one cherry cobbler, how many cobblers can they create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In making cherry cobbler, Carlos and Maria are involved. Maria has provided four boxes, with each box holding nine cherries, whereas Carlos has brought [BLANK]. If a single cherry cobbler requires six cherries, how many can they produce?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Carlos and Maria are in the kitchen making cherry cobbler. Maria brought along four boxes, where each box contains nine cherries, and Carlos provided [BLANK]. With six cherries needed for a single cherry cobbler, how many can they bake together?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "While making cherry cobbler, Carlos and Maria work together. Maria has brought four boxes, each filled with nine cherries, while Carlos has contributed [BLANK]. Knowing that one cherry cobbler needs six cherries, how many can they make altogether?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "As they prepare cherry cobbler, Carlos and Maria are collaborating. Maria supplied four boxes, each with nine cherries, and Carlos offered [BLANK]. If six cherries are necessary for one cherry cobbler, how many can they create in total?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily and Sophia make lemon tart. Sophia brought seven boxes with eight lemons in each box, while Emily brought [BLANK]. If one lemon tart needs four lemons, how many lemon tarts can they make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily and Sophia are preparing lemon tart. Sophia has seven boxes containing eight lemons per box, whereas Emily brought [BLANK]. Given that each lemon tart requires four lemons, how many lemon tarts can they produce?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily and Sophia are baking lemon tart together. Sophia supplied seven boxes, each holding eight lemons, and Emily contributed [BLANK]. If four lemons are needed for one lemon tart, how many tarts can they create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily and Sophia are working on making lemon tart. Sophia has brought seven boxes with eight lemons in every box, while Emily provided [BLANK]. Since one lemon tart requires four lemons, how many lemon tarts are they able to make?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily and Sophia are in the kitchen making lemon tart. Sophia brought seven boxes, each filled with eight lemons, and Emily added [BLANK]. Knowing that four lemons are needed for a single lemon tart, how many tarts can they make altogether?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily and Sophia are collaborating on lemon tart. Sophia brought seven boxes containing eight lemons each, while Emily brought [BLANK]. If it takes four lemons to make one lemon tart, how many lemon tarts can they produce together?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Leo and Chloe make pumpkin pie. Chloe brought three boxes with fifteen pumpkins in each box, while Leo brought [BLANK]. If one pumpkin pie needs two pumpkins, how many pumpkin pies can they make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Leo and Chloe are preparing pumpkin pie. Chloe has three containers, each containing fifteen pumpkins, whereas Leo contributed [BLANK]. Each pumpkin pie requires two pumpkins; how many pumpkin pies can they produce?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Leo and Chloe are making pumpkin pie together. Chloe provided three boxes, with each box holding fifteen pumpkins, and Leo supplied [BLANK]. Since each pumpkin pie requires two pumpkins, what is the total number of pumpkin pies they can create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Leo and Chloe are working on pumpkin pie. Chloe brought three crates, with each crate containing fifteen pumpkins, while Leo brought [BLANK]. If two pumpkins are needed for a single pumpkin pie, how many pumpkin pies can they bake?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Leo and Chloe are in the process of making pumpkin pie. Chloe has brought three boxes, each filled with fifteen pumpkins, while Leo has brought [BLANK]. Given that two pumpkins are necessary for each pie, how many pumpkin pies can they assemble?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Leo and Chloe are engaged in pie making with pumpkins. Chloe has three boxes, each containing fifteen pumpkins, and Leo contributed [BLANK]. How many pumpkin pies can they make if each pie requires two pumpkins?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ethan and Sarah make strawberry shortcake. Sarah brought five boxes with eleven strawberries in each box, while Ethan brought [BLANK]. If one strawberry shortcake needs three strawberries, how many strawberry shortcakes can they make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan and Sarah are preparing strawberry shortcake. Sarah has five boxes containing eleven strawberries per box, while Ethan contributed [BLANK]. Each strawberry shortcake requires three strawberries; how many strawberry shortcakes can they create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan and Sarah are making strawberry shortcake together. Sarah provided five boxes, each filled with eleven strawberries, whereas Ethan supplied [BLANK]. Given that three strawberries are needed for one strawberry shortcake, how many can they produce?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ethan and Sarah are in the kitchen making strawberry shortcake. Sarah brought along five boxes, with each box holding eleven strawberries, and Ethan contributed [BLANK]. If it takes three strawberries to make one shortcake, how many shortcakes can they assemble?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan and Sarah are baking strawberry shortcake. Sarah has brought five boxes that each contain eleven strawberries, while Ethan has brought [BLANK]. Knowing that three strawberries are required for one shortcake, how many can they make together?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan and Sarah are preparing to bake strawberry shortcake. Sarah has five boxes, each with eleven strawberries, while Ethan provided [BLANK]. If a single strawberry shortcake requires three strawberries, how many can they make in total?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Jason and Marie make apple crisp. Marie brought six boxes with twelve apples in each box, while Jason brought [BLANK]. If one apple crisp needs five apples, how many apple crisps can they make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jason and Marie are preparing apple crisp. Marie contributed six containers, each holding twelve apples, whereas Jason provided [BLANK]. Given that five apples are required for each apple crisp, how many apple crisps can they create?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the process of making apple crisp, Jason and Marie are involved. Marie has six boxes, with each box containing twelve apples, and Jason has brought [BLANK]. If five apples are necessary for one apple crisp, how many apple crisps can they produce?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "While making apple crisp, Jason and Marie are working together. Marie supplied six crates, with twelve apples in every crate, and Jason added [BLANK]. If they need five apples for a single apple crisp, how many apple crisps can they assemble?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jason and Marie are collaborating on making apple crisp. Marie supplied six packages, each filled with twelve apples, and Jason contributed [BLANK]. If they require five apples for one apple crisp, what is the total number of apple crisps they can make?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "During the preparation of apple crisp, Jason and Marie are participating. Marie brought along six boxes containing twelve apples each, while Jason brought [BLANK]. Considering that each apple crisp needs five apples, how many apple crisps can they make together?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought [BLANK]. If one greek orange pie needs three oranges, how many greek orange pies can they make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Brianne and Ashley are preparing greek orange pie. Ashley has five containers, each containing ten oranges, and Brianne brought [BLANK]. Given that each greek orange pie requires three oranges, how many greek orange pies can they produce? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Brianne and Ashley are making greek orange pie together. Ashley supplied five boxes with ten oranges per box, whereas Brianne provided [BLANK]. If three oranges are needed for one greek orange pie, how many pies can they create? Let's work through it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Brianne and Ashley are baking greek orange pie. Ashley contributed five boxes, each containing ten oranges, while Brianne brought [BLANK]. Since one greek orange pie requires three oranges, how many pies can they make together? Let's think it through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Brianne and Ashley are preparing to make greek orange pie. Ashley brought along five boxes that hold ten oranges each, while Brianne carried [BLANK]. Knowing that three oranges are necessary for a single greek orange pie, how many can they make in total? Let's go through the steps and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Brianne and Ashley are working on greek orange pie. Ashley has five boxes, each filled with ten oranges, and Brianne brought [BLANK]. If three oranges are required for one greek orange pie, how many pies can they produce together? Let's break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

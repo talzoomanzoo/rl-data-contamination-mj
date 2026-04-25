@@ -1,0 +1,62 @@
+{
+  "original_question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of cookies eaten",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate [BLANK] of those cookies. How many cookies are left for Rachel? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Emily bought 18 cupcakes and Michael gave her 36 cupcakes. The other day her sister ate 30 of those cupcakes. How many cupcakes are left for Emily? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily bought 18 cupcakes and Michael gave her 36 cupcakes. The other day her sister ate [BLANK] of those cupcakes. How many cupcakes are left for Emily? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sophia bought 27 candies and Liam gave her 50 candies. The other day her friend ate 35 of those candies. How many candies are left for Sophia? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia bought 27 candies and Liam gave her 50 candies. The other day her friend ate [BLANK] of those candies. How many candies are left for Sophia? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Oliver bought 15 balloons and Mia gave him 29 balloons. The other day his cousin popped 20 of those balloons. How many balloons are left for Oliver? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Oliver bought 15 balloons and Mia gave him 29 balloons. The other day his cousin popped [BLANK] of those balloons. How many balloons are left for Oliver? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Ava bought 34 marbles and Noah gave her 25 marbles. The other day her brother lost 40 of those marbles. How many marbles are left for Ava? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ava bought 34 marbles and Noah gave her 25 marbles. The other day her brother lost [BLANK] of those marbles. How many marbles are left for Ava? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Isabella bought 22 stickers and Ethan gave her 33 stickers. The other day her classmate took away 28 of those stickers. How many stickers are left for Isabella? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Isabella bought 22 stickers and Ethan gave her 33 stickers. The other day her classmate took away [BLANK] of those stickers. How many stickers are left for Isabella? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of cookies eaten"
+    }
+  ],
+  "num_valid_similars": 5
+}

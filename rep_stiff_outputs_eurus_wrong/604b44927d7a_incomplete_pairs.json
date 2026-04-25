@@ -1,0 +1,62 @@
+{
+  "original_question": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved 19 tennis balls in all. How many tennis balls did he retrieve in the first set of the match? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total number of tennis balls retrieved",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved 19 tennis balls in all. How many tennis balls did he retrieve in the first set of the match? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Rory is retrieving tennis balls from the court after a tennis match. In the first of three sets, he had to retrieve four more balls than in the second set. In the third set, he retrieved half as many balls as in the second. He retrieved [BLANK] tennis balls in all. How many tennis balls did he retrieve in the first set of the match? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam is collecting baseballs from the field after a game. In the first of three innings, he had to collect six more balls than in the second inning. In the third inning, he collected a third as many balls as in the second. He collected 24 baseballs in total. How many baseballs did he collect in the first inning of the game? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam is collecting baseballs from the field after a game. In the first of three innings, he had to collect six more balls than in the second inning. In the third inning, he collected a third as many balls as in the second. He collected [BLANK] baseballs in total. How many baseballs did he collect in the first inning of the game? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Emma is picking apples from the orchard after the harvest. In the first of three trips, she picked five more apples than in the second trip. In the third trip, she picked a fourth as many apples as in the second. She picked 32 apples in total. How many apples did she pick in the first trip of the harvest? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emma is picking apples from the orchard after the harvest. In the first of three trips, she picked five more apples than in the second trip. In the third trip, she picked a fourth as many apples as in the second. She picked [BLANK] apples in total. How many apples did she pick in the first trip of the harvest? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Noah is gathering eggs from the coop after a day of work. In the first of three collections, he gathered three more eggs than in the second collection. In the third collection, he gathered twice as many eggs as in the second. He gathered 30 eggs in total. How many eggs did he gather in the first collection? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Noah is gathering eggs from the coop after a day of work. In the first of three collections, he gathered three more eggs than in the second collection. In the third collection, he gathered twice as many eggs as in the second. He gathered [BLANK] eggs in total. How many eggs did he gather in the first collection? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Olivia is collecting seashells from the beach after a sunny day. In the first of three sessions, she collected eight more shells than in the second session. In the third session, she collected two-thirds as many shells as in the second. She collected 36 seashells in total. How many seashells did she collect in the first session? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Olivia is collecting seashells from the beach after a sunny day. In the first of three sessions, she collected eight more shells than in the second session. In the third session, she collected two-thirds as many shells as in the second. She collected [BLANK] seashells in total. How many seashells did she collect in the first session? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ethan is gathering firewood from the forest after a camping trip. In the first of three trips, he gathered seven more logs than in the second trip. In the third trip, he gathered a quarter as many logs as in the second. He gathered 28 logs in total. How many logs did he gather in the first trip? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ethan is gathering firewood from the forest after a camping trip. In the first of three trips, he gathered seven more logs than in the second trip. In the third trip, he gathered a quarter as many logs as in the second. He gathered [BLANK] logs in total. How many logs did he gather in the first trip? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of tennis balls retrieved"
+    }
+  ],
+  "num_valid_similars": 5
+}

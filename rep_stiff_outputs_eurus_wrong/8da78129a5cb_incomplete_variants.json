@@ -1,0 +1,210 @@
+{
+  "original_question": "Let  $A = \\left\\{ 1,2,3,4,5,6,7 \\right\\}$  and let  $N$  be the number of functions  $f$  from set  $A$  to set  $A$  such that  $f(f(x))$  is a constant function.  Find the remainder when  $N$  is divided by  $1000$ .\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let  $E = \\left\\{ [BLANK] \\right\\}$  and let  $R$  be the number of functions  $k$  from set  $E$  to set  $E$  such that  $k(k(u))$  is a constant function.  Find the remainder when  $R$  is divided by  $1000$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Define the set $E = \\left\\{ [BLANK] \\right\\}$, and let $R$ represent the total count of functions $k$ from the set $E$ to itself such that $k(k(u))$ yields a constant function. Determine the remainder of $R$ when divided by $1000$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set $E = \\left\\{ [BLANK] \\right\\}$ and let $R$ denote the quantity of functions $k$ mapping from $E$ to $E$ such that the output $k(k(u))$ is a constant function. Calculate the remainder of $R$ when it is divided by $1000$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let us define the set $E = \\left\\{ [BLANK] \\right\\}$, and let $R$ be the number of functions $k$ that take inputs from set $E$ to set $E$, where $k(k(u))$ is a constant function. Find the remainder of $R$ upon division by $1000$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Set $E = \\left\\{ [BLANK] \\right\\}$ and denote $R$ as the number of functions $k$ that map elements from the set $E$ to itself such that $k(k(u))$ remains constant. What is the remainder of $R$ when divided by $1000$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let the set $E$ be defined as $E = \\left\\{ [BLANK] \\right\\}$, and let $R$ count the functions $k$ that operate from set $E$ to set $E$ with the property that $k(k(u))$ is a constant function. Determine the remainder of $R$ when it is divided by $1000$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let  $D = \\left\\{ [BLANK] \\right\\}$  and let  $Q$  be the number of functions  $j$  from set  $D$  to set  $D$  such that  $j(j(w))$  is a constant function.  Find the remainder when  $Q$  is divided by  $1000$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set $D = \\left\\{ [BLANK] \\right\\}$, and define $Q$ as the count of functions $j$ that map elements from set $D$ back to set $D$ such that the composition $j(j(w))$ results in a constant function. Determine the remainder of $Q$ when divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Define  $D = \\left\\{ [BLANK] \\right\\}$  and let  $Q$  represent the quantity of functions  $j$  mapping set  $D$  to itself such that  $j(j(w))$  yields a constant function.  Determine the remainder when  $Q$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ".  Let  $D = \\left\\{ [BLANK] \\right\\}$  and let  $Q$  be the number of functions  $j$  from set  $D$  to set  $D$  such that  $j(j(w))$  is a constant functionFind the remainder when  $Q$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $D = \\left\\{ [BLANK] \\right\\}$ and let $Q$ be the number of functions $j$ from set $D$ to set $D$ such that $j(j(w))$ is a constant function. Find the remainder when $Q$ is divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Define  $D = \\left\\{ [BLANK] \\right\\}$  and let  $Q$  represent the count of functions  $j$  mapping from the set  $D$  to itself such that  $j(j(w))$  results in a constant function.  Determine the remainder when  $Q$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let  $A = \\left\\{ [BLANK] \\right\\}$  and let  $N$  be the number of functions  $f$  from set  $A$  to set  $A$  such that  $f(f(x))$  is a constant function.  Find the remainder when  $N$  is divided by  $1000$ .",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set $A = \\left\\{ [BLANK] \\right\\}$, and let $N$ represent the total count of functions $f$ mapping from set $A$ to itself such that $f(f(x))$ results in a constant function. Determine the remainder of $N$ when divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set $A = \\left\\{ [BLANK] \\right\\}$, and define $N$ as the total count of functions $f$ mapping from set $A$ to itself such that $f(f(x))$ produces a constant function. Determine the remainder when $N$ is divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ".  Let  $A = \\left\\{ [BLANK] \\right\\}$  and let  $N$  be the number of functions  $f$  from set  $A$  to set  $A$  such that  $f(f(x))$  is a constant functionFind the remainder when  $N$  is divided by  $1000$ .",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $A = \\left\\{ [BLANK] \\right\\}$ and let $N$ be the number of functions $f$ from set $A$ to set $A$ such that $f(f(x))$ is a constant function. Find the remainder when $N$ is divided by $1000$ .",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set  $A = \\left\\{ [BLANK] \\right\\}$  and define  $N$  as the count of functions  $f$  mapping from set  $A$  to itself such that  $f(f(x))$  results in a constant function.  Determine the remainder of  $N$  when divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let  $C = \\left\\{ [BLANK] \\right\\}$  and let  $P$  be the number of functions  $h$  from set  $C$  to set  $C$  such that  $h(h(z))$  is a constant function.  Find the remainder when  $P$  is divided by  $1000$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set $C = \\left\\{ [BLANK] \\right\\}$, and let $P$ denote the quantity of functions $h$ that map from set $C$ to itself, satisfying the condition that $h(h(z))$ results in a constant function. Determine the remainder when $P$ is taken modulo $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider  $C = \\left\\{ [BLANK] \\right\\}$  and let  $P$  denote the quantity of functions  $h$  mapping from set  $C$  to set  $C$  for which  $h(h(z))$  results in a constant function.  Determine the remainder of  $P$  when divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ".  Let  $C = \\left\\{ [BLANK] \\right\\}$  and let  $P$  be the number of functions  $h$  from set  $C$  to set  $C$  such that  $h(h(z))$  is a constant functionFind the remainder when  $P$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $C = \\left\\{ [BLANK] \\right\\}$ and let $P$ be the number of functions $h$ from set $C$ to set $C$ such that $h(h(z))$ is a constant function. Find the remainder when $P$ is divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Define  $C = \\left\\{ [BLANK] \\right\\}$  and let  $P$  represent the total count of functions  $h$  mapping from set  $C$  to itself such that  $h(h(z))$  results in a constant function.  Determine the remainder of  $P$  when divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let  $F = \\left\\{ [BLANK] \\right\\}$  and let  $S$  be the number of functions  $m$  from set  $F$  to set  $F$  such that  $m(m(v))$  is a constant function.  Find the remainder when  $S$  is divided by  $1000$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the set $F = \\left\\{ [BLANK] \\right\\}$, and let $S$ represent the count of functions $m$ mapping from set $F$ to itself for which $m(m(v))$ results in a constant function. Determine the remainder of $S$ when divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the set  $F = \\left\\{ [BLANK] \\right\\}$  and denote by  $S$  the total count of functions  $m$  mapping from set  $F$  to itself such that  $m(m(v))$  results in a constant function.  Determine the remainder of  $S$  when divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ".  Let  $F = \\left\\{ [BLANK] \\right\\}$  and let  $S$  be the number of functions  $m$  from set  $F$  to set  $F$  such that  $m(m(v))$  is a constant functionFind the remainder when  $S$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $F = \\left\\{ [BLANK] \\right\\}$ and let $S$ be the number of functions $m$ from set $F$ to set $F$ such that $m(m(v))$ is a constant function. Find the remainder when $S$ is divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider  $F = \\left\\{ [BLANK] \\right\\}$  and let  $S$  represent the count of functions  $m$  mapping set  $F$  to itself such that  $m(m(v))$  yields a constant function.  Determine the remainder when  $S$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_aops_forum",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let  $B = \\left\\{ [BLANK] \\right\\}$  and let  $M$  be the number of functions  $g$  from set  $B$  to set  $B$  such that  $g(g(y))$  is a constant function.  Find the remainder when  $M$  is divided by  $1000$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider  $B = \\left\\{ [BLANK] \\right\\}$  and define  $M$  as the total count of functions  $g$  mapping from the set  $B$  to itself such that  $g(g(y))$  yields a constant function.  Determine the remainder of  $M$  when divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Define  $B = \\left\\{ [BLANK] \\right\\}$  and let  $M$  represent the count of functions  $g$  mapping from set  $B$  to set  $B$  where  $g(g(y))$  results in a constant function.  Determine the remainder when  $M$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ".  Let  $B = \\left\\{ [BLANK] \\right\\}$  and let  $M$  be the number of functions  $g$  from set  $B$  to set  $B$  such that  $g(g(y))$  is a constant functionFind the remainder when  $M$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let $B = \\left\\{ [BLANK] \\right\\}$ and let $M$ be the number of functions $g$ from set $B$ to set $B$ such that $g(g(y))$ is a constant function. Find the remainder when $M$ is divided by $1000$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the set  $B = \\left\\{ [BLANK] \\right\\} $ and define  $M$  as the total number of functions  $g$  that map set  $B$  to itself, satisfying the condition that  $g(g(y))$  results in a constant function.  Determine the remainder when  $M$  is divided by  $1000$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

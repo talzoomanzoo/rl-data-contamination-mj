@@ -1,0 +1,210 @@
+{
+  "original_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that 30% of the watermelons were ready for harvest, so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A tomato farm produced 200 baby tomatoes. Mia went to the farm after one month and found out that [BLANK], so she took them home. When she came back three weeks later, 1/2 of the remaining tomatoes were ready, so she harvested them. How many tomatoes were not ready to be harvested after the three weeks?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A tomato farm yielded 200 young tomatoes. After a month, Mia visited the farm and discovered that [BLANK], thus she brought them home. Upon returning three weeks later, half of the leftover tomatoes were ripe, so she collected them. How many tomatoes were still unripe after the three weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a tomato farm, 200 immature tomatoes were produced. After a month, Mia arrived at the farm and learned that [BLANK], leading her to take them home. When she returned three weeks later, one-half of the remaining tomatoes were mature, so she gathered them. How many tomatoes remained unharvested after those three weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A farm specializing in tomatoes generated 200 baby tomatoes. Mia went to the farm after one month and found that [BLANK], prompting her to take them home. Three weeks later, she returned and found that half of the tomatoes left were mature, so she harvested them. How many tomatoes were still not ready to be harvested after the three weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A tomato-growing farm produced a total of 200 baby tomatoes. After a month, Mia visited and noticed that [BLANK], which led her to take them home. Three weeks later, she came back to find that 50% of the remaining tomatoes had ripened, so she harvested those. How many tomatoes were not yet ready for harvest after the three weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A farm that produces tomatoes had an output of 200 baby tomatoes. One month later, Mia went to the farm and discovered that [BLANK], so she decided to take them home. When she returned three weeks after that, half of the remaining tomatoes were ready for picking, and she harvested those. How many tomatoes were still not ready to be picked after the three weeks?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A pepper farm produced 90 baby peppers. Sarah went to the farm after four weeks and found out that [BLANK], so she took them home. When she came back two weeks later, 3/5 of the remaining peppers were ready, so she harvested them. How many peppers were not ready to be harvested after the two weeks?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A pepper plantation yielded 90 young peppers. After four weeks, Sarah visited the plantation and discovered that [BLANK], prompting her to take them home. Upon returning two weeks later, 3/5 of the leftover peppers were ready, and she harvested them. How many peppers were still unripe after the two weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A farm specializing in peppers produced 90 infant peppers. After a span of four weeks, Sarah arrived at the farm and learned that [BLANK], leading her to bring them home. When she returned two weeks thereafter, 3/5 of the remaining peppers were ripe, and she collected them. How many peppers were not yet ready for harvest after those two weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A farm that grows peppers generated 90 small peppers. Four weeks later, Sarah went to the farm and found out that [BLANK], so she decided to take them home. Two weeks after that visit, 3/5 of the leftover peppers were mature, and she picked them. How many peppers were still not ready for harvesting after the two weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A pepper-growing farm produced 90 tiny peppers. Sarah visited the farm four weeks later and realized that [BLANK], which prompted her to take them home. When she came back two weeks later, 3/5 of the remaining peppers were ripe, and she harvested them. How many peppers remained unripe after the two-week period?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A farm that cultivates peppers yielded 90 baby peppers. After four weeks, Sarah went to the farm and discovered that [BLANK], so she took them home. When she returned two weeks later, 3/5 of the leftover peppers were ready for harvest, and she collected them. How many peppers were not yet ripe after those two weeks?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A squash farm produced 110 baby squashes. Jack went to the farm after six weeks and found out that [BLANK], so he took them home. When he came back one month later, 4/7 of the remaining squashes were ready, so he harvested them. How many squashes were not ready to be harvested after the one month?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A squash farm yielded 110 baby squashes. After six weeks, Jack visited the farm and discovered that [BLANK], leading him to take them home. Upon returning a month later, he found that 4/7 of the leftover squashes were ripe, so he collected them. What is the number of squashes that were still unripe after that month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A squash farm generated 110 baby squashes. Jack arrived at the farm after six weeks and realized that [BLANK], prompting him to take them home. When he returned a month later, 4/7 of the rest of the squashes were mature, so he gathered them. How many squashes remained unharvested after that month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A squash farm produced 110 baby squashes. Six weeks later, Jack visited the farm and found that [BLANK], which caused him to take them home. A month after that, he discovered that 4/7 of the remaining squashes were ready for harvest, so he picked them. How many squashes were still not ready to be picked after the month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A squash farm had a yield of 110 baby squashes. After a span of six weeks, Jack went to the farm and noticed that [BLANK], so he decided to take them home. When he returned a month later, he saw that 4/7 of the remaining squashes were prepared for harvest, so he collected them. What is the count of squashes that were not yet ready to be harvested following the month?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A squash farm produced a total of 110 baby squashes. After six weeks, Jack visited the farm and found that [BLANK], which led him to take them back home. One month later, he returned and found that 4/7 of the leftover squashes were ripe, so he harvested them. How many squashes were still unripe after the month?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A pumpkin farm produced 150 baby pumpkins. Oliver went to the farm after three months and found out that [BLANK], so he took them home. When he came back two weeks later, 2/5 of the remaining pumpkins were ready, so he harvested them. How many pumpkins were not ready to be harvested after the two weeks?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "At a pumpkin farm, 150 baby pumpkins were grown. After three months, Oliver visited the farm and discovered that [BLANK], prompting him to take them home. Upon returning two weeks later, he found that 2/5 of the leftover pumpkins were ready, so he harvested them. What is the count of pumpkins that were still unharvested after the two-week period?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A pumpkin farm yielded 150 baby pumpkins. After three months, Oliver arrived at the farm and learned that [BLANK], which led him to take them home. When he returned two weeks later, he noticed that 2/5 of the remaining pumpkins were ready for harvest, so he collected them. How many pumpkins remained that were not yet ready to be harvested after those two weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a pumpkin farm, 150 baby pumpkins were produced. Oliver visited the farm three months later and found that [BLANK], so he took them back with him. Two weeks after that, he returned and saw that 2/5 of the pumpkins still there were ready, so he harvested those. How many pumpkins were still not ready to be harvested following the two weeks?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A total of 150 baby pumpkins were produced on a pumpkin farm. After a span of three months, Oliver came to the farm and realized that [BLANK], which prompted him to take them home. He came back two weeks later and discovered that 2/5 of the pumpkins that remained were ready, so he harvested them. How many pumpkins were left unharvested after the two-week interval?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The pumpkin farm produced 150 baby pumpkins. After three months, Oliver visited and found that [BLANK], leading him to take them home. When he returned two weeks later, he saw that 2/5 of the leftover pumpkins were ready, so he harvested these. What is the number of pumpkins that were not yet ready for harvesting after those two weeks?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A cucumber farm produced 80 baby cucumbers. Liam went to the farm after five weeks and found out that [BLANK], so he took them home. When he came back one week later, 1/3 of the remaining cucumbers were ready, so he harvested them. How many cucumbers were not ready to be harvested after the one week?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A cucumber farm yielded 80 young cucumbers. After five weeks, Liam visited the farm and discovered that [BLANK], prompting him to take them home. Upon returning a week later, he found that 1/3 of the leftover cucumbers were ripe, so he collected them. What is the count of cucumbers that were still unripe after that week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On a cucumber farm, 80 baby cucumbers were produced. Liam arrived at the farm five weeks later and learned that [BLANK], which led him to take them home. When he returned one week afterward, he noticed that 1/3 of the remaining cucumbers had matured, so he harvested those. How many cucumbers remained unharvested after that week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A farm specializing in cucumbers produced 80 baby cucumbers. After five weeks, Liam went to the farm and found that [BLANK], so he decided to take them home. When he came back a week later, 1/3 of the cucumbers that were left were ready to be harvested, so he picked them. How many cucumbers were still not ready for harvest after that week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "At a cucumber farm, the total yield was 80 baby cucumbers. Liam visited the farm after a period of five weeks and discovered that [BLANK], which caused him to take them home. A week later, he returned and saw that 1/3 of the remaining cucumbers were mature, so he harvested those. What number of cucumbers was still unready for harvesting after that week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A farm that grows cucumbers harvested 80 baby cucumbers. Liam went to visit the farm after five weeks and found that [BLANK], leading him to take them home. Upon his return one week later, he realized that 1/3 of the leftover cucumbers had ripened, so he harvested them. How many cucumbers were not yet ready to be harvested after that week?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A watermelon farm produced 120 baby watermelons. Ashlyn went to the farm after two months and found out that [BLANK], so she took them home. When she came back two weeks later, 3/4 of the remaining melons were ready, so she harvested them. How many melons were not ready to be harvested after the two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A watermelon farm yielded 120 young watermelons. After two months, Ashlyn visited the farm and discovered that [BLANK], prompting her to take them home. Upon returning two weeks later, she found that 3/4 of the leftover melons were ripe, and she harvested those. How many melons remained unripe after the two-week period? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A watermelon plantation produced 120 small watermelons. After a period of two months, Ashlyn arrived at the farm and noticed that [BLANK], leading her to take them with her. When she came back two weeks later, 3/4 of the remaining melons had matured, so she collected them. What is the number of melons that were still unripe after the two weeks? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A farm specializing in watermelons harvested 120 baby watermelons. Two months later, Ashlyn visited the farm and realized that [BLANK], which led her to take them home. After two weeks, she returned and found that 3/4 of the remaining melons were ready for harvest, so she gathered them. How many melons were still not ready for harvest after those two weeks? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A farm producing watermelons generated 120 immature watermelons. After two months, Ashlyn went to the farm and found out that [BLANK], which caused her to take them home. When she returned two weeks later, 3/4 of the leftover melons were ripe, and she harvested them. How many melons were not yet ready for harvesting after the two-week interval? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A watermelon cultivation yielded 120 tiny watermelons. After a span of two months, Ashlyn visited the farm and discovered that [BLANK], so she decided to bring them home. Upon her return two weeks later, she saw that 3/4 of the remaining melons were mature, thus she harvested those. What is the count of melons that were not ready for harvesting after the two weeks? Let's evaluate this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

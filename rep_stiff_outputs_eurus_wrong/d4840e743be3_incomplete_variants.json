@@ -1,0 +1,210 @@
+{
+  "original_question": "In trapezoid $ABCD$ with $\\overline{BC}\\parallel\\overline{AD}$, let $BC = 1500$ and $AD = 2500$. Let $\\angle A = 40^\\circ$, $\\angle D = 50^\\circ$, and $P$ and $Q$ be the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively. Find the length $PQ$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"In trapezoid $RSTU$ with $\\overline{TU} \\\\parallel \\\\overline{RS}$, let $TU = [BLANK]$ and $RS = [BLANK]$. Let $\\\\angle R = 25^\\\\circ$, $\\\\angle T = 75^\\\\circ$, and $X$ and $Y$ be the midpoints of $\\\\overline{TU}$ and $\\\\overline{RS}$, respectively. Find the length $XY$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $RSTU$ where $\\overline{TU} \\\\parallel \\\\overline{RS}$, let $TU = [BLANK]$ and $RS = [BLANK]$. Given that $\\\\angle R = 25^\\\\circ$ and $\\\\angle T = 75^\\\\circ$, denote $X$ and $Y$ as the midpoints of segments $\\\\overline{TU}$ and $\\\\overline{RS}$, respectively. Determine the length of $XY$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In trapezoid $RSTU$ where $\\overline{TU} \\\\parallel \\\\overline{RS}$, let $TU = [BLANK]$ and $RS = [BLANK]$. Given that $\\\\angle R = 25^\\\\circ$ and $\\\\angle T = 75^\\\\circ$, define points $X$ and $Y$ as the midpoints of $\\overline{TU}$ and $\\overline{RS}$, respectively. Determine the distance $XY$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In trapezoid $RSTU$ with $\\overline{TU} \\\\parallel \\\\overline{RS}$, let $TU = [BLANK]$ and $RS = [BLANK]$. Let $\\\\angle R = 25^\\\\circ$, $\\\\angle T = 75^\\\\circ$, and $X$ and $Y$ be the midpoints of $\\\\overline{TU}$ and $\\\\overline{RS}$, respectivelyFind the length $XY$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $RSTU$ where $\\overline{TU} \\\\parallel \\\\overline{RS}$, assume that $TU = [BLANK]$ and $RS = [BLANK]$. Given that $\\\\angle R = 25^\\\\circ$ and $\\\\angle T = 75^\\\\circ$, let $X$ and $Y$ represent the midpoints of segments $\\\\overline{TU}$ and $\\\\overline{RS}$, respectively. Calculate the distance $XY$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $RSTU$ where $\\overline{TU} \\\\parallel \\\\overline{RS}$, let $TU = [BLANK]$ and $RS = [BLANK]$. Given that $\\\\angle R = 25^\\\\circ$ and $\\\\angle T = 75^\\\\circ$, let $X$ and $Y$ denote the midpoints of $\\\\overline{TU}$ and $\\\\overline{RS}$, respectively. Determine the length of segment $XY$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"In trapezoid $ABCDE$ with $\\overline{CD} \\\\parallel \\\\overline{AB}$, let $CD = [BLANK]$ and $AB = [BLANK]$. Let $\\\\angle A = 55^\\\\circ$, $\\\\angle E = 35^\\\\circ$, and $Z$ and $M$ be the midpoints of $\\\\overline{CD}$ and $\\\\overline{AB}$, respectively. Find the length $ZM$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $ABCDE$ where $\\overline{CD} \\\\parallel \\\\overline{AB}$, denote $CD = [BLANK]$ and $AB = [BLANK]$. Given that $\\\\angle A = 55^\\\\circ$ and $\\\\angle E = 35^\\\\circ$, let $Z$ and $M$ represent the midpoints of $\\\\overline{CD}$ and $\\\\overline{AB}$, respectively. Determine the length of $ZM$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In trapezoid $ABCDE$ where $\\overline{CD} \\\\parallel \\\\overline{AB}$, assume $CD = [BLANK]$ and $AB = [BLANK]$. Given that $\\\\angle A = 55^\\\\circ$ and $\\\\angle E = 35^\\\\circ$, let $Z$ and $M$ denote the midpoints of segments $\\\\overline{CD}$ and $\\\\overline{AB}$, respectively. Determine the length of $ZM$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In trapezoid $ABCDE$ with $\\overline{CD} \\\\parallel \\\\overline{AB}$, let $CD = [BLANK]$ and $AB = [BLANK]$. Let $\\\\angle A = 55^\\\\circ$, $\\\\angle E = 35^\\\\circ$, and $Z$ and $M$ be the midpoints of $\\\\overline{CD}$ and $\\\\overline{AB}$, respectivelyFind the length $ZM$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $ABCDE$ where $\\overline{CD} \\\\parallel \\\\overline{AB}$, let $CD = [BLANK]$ and $AB = [BLANK]$. Given that $\\\\angle A = 55^\\\\circ$ and $\\\\angle E = 35^\\\\circ$, let $Z$ and $M$ denote the midpoints of segments $\\\\overline{CD}$ and $\\\\overline{AB}$, respectively. Determine the distance $ZM$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $ABCDE$ where $\\overline{CD} \\\\parallel \\\\overline{AB}$, assume that $CD = [BLANK]$ and $AB = [BLANK]$. Given that $\\\\angle A = 55^\\\\circ$ and $\\\\angle E = 35^\\\\circ$, let $Z$ and $M$ represent the midpoints of segments $\\\\overline{CD}$ and $\\\\overline{AB}$, respectively. Determine the length of $ZM$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"In trapezoid $EFGH$ with $\\overline{FG} \\\\parallel \\\\overline{EH}$, let $FG = [BLANK]$ and $EH = [BLANK]$. Let $\\\\angle E = 30^\\\\circ$, $\\\\angle H = 60^\\\\circ$, and $R$ and $S$ be the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectively. Find the length $RS$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $EFGH$ where $\\overline{FG} \\\\parallel \\\\overline{EH}$, let $FG = [BLANK]$ and $EH = [BLANK]$. Given that $\\\\angle E = 30^\\\\circ$ and $\\\\angle H = 60^\\\\circ$, let $R$ and $S$ denote the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectively. Determine the distance $RS$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In trapezoid $EFGH$ where $\\overline{FG} \\\\parallel \\\\overline{EH}$, let $FG = [BLANK]$ and $EH = [BLANK]$. Given that $\\\\angle E = 30^\\\\circ$ and $\\\\angle H = 60^\\\\circ$, let $R$ and $S$ represent the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectively. Determine the length of $RS$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In trapezoid $EFGH$ with $\\overline{FG} \\\\parallel \\\\overline{EH}$, let $FG = [BLANK]$ and $EH = [BLANK]$. Let $\\\\angle E = 30^\\\\circ$, $\\\\angle H = 60^\\\\circ$, and $R$ and $S$ be the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectivelyFind the length $RS$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $EFGH$ where $\\overline{FG} \\\\parallel \\\\overline{EH}$, define $FG = [BLANK]$ and $EH = [BLANK]$. Given that $\\\\angle E = 30^\\\\circ$ and $\\\\angle H = 60^\\\\circ$, let $R$ and $S$ represent the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectively. Determine the length of $RS$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $EFGH$ where $\\overline{FG} \\\\parallel \\\\overline{EH}$, let $FG = [BLANK]$ and $EH = [BLANK]$. Let $\\\\angle E = 30^\\\\circ$, $\\\\angle H = 60^\\\\circ$, and let $R$ and $S$ denote the midpoints of $\\\\overline{FG}$ and $\\\\overline{EH}$, respectively. Determine the length of $RS$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"In trapezoid $JKLM$ with $\\overline{LM} \\\\parallel \\\\overline{JK}$, let $LM = [BLANK]$ and $JK = [BLANK]$. Let $\\\\angle J = 35^\\\\circ$, $\\\\angle M = 55^\\\\circ$, and $T$ and $U$ be the midpoints of $\\\\overline{LM}$ and $\\\\overline{JK}$, respectively. Find the length $TU$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $JKLM$ where $\\overline{LM} \\\\parallel \\\\overline{JK}$, define $LM = [BLANK]$ and $JK = [BLANK]$. Given that $\\\\angle J = 35^\\\\circ$ and $\\\\angle M = 55^\\\\circ$, let $T$ and $U$ represent the midpoints of $\\\\overline{LM}$ and $\\\\overline{JK}$, respectively. Determine the length of $TU$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In trapezoid $JKLM$ where $\\overline{LM} \\\\parallel \\\\overline{JK}$, define $LM = [BLANK]$ and $JK = [BLANK]$. Given that $\\\\angle J = 35^\\\\circ$ and $\\\\angle M = 55^\\\\circ$, let $T$ and $U$ represent the midpoints of segments $\\\\overline{LM}$ and $\\\\overline{JK}$, respectively. Determine the length of $TU$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In trapezoid $JKLM$ with $\\overline{LM} \\\\parallel \\\\overline{JK}$, let $LM = [BLANK]$ and $JK = [BLANK]$. Let $\\\\angle J = 35^\\\\circ$, $\\\\angle M = 55^\\\\circ$, and $T$ and $U$ be the midpoints of $\\\\overline{LM}$ and $\\\\overline{JK}$, respectivelyFind the length $TU$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $JKLM$ where $\\overline{LM} \\\\parallel \\\\overline{JK}$, let $LM = [BLANK]$ and $JK = [BLANK]$. Given that $\\\\angle J = 35^\\\\circ$ and $\\\\angle M = 55^\\\\circ$, let $T$ and $U$ represent the midpoints of $\\\\overline{LM}$ and $\\\\overline{JK}$, respectively. Determine the length of $TU$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $JKLM$ where $\\overline{LM} \\\\parallel \\\\overline{JK}$, assign $LM = [BLANK]$ and $JK = [BLANK]$. Given that $\\\\angle J = 35^\\\\circ$ and $\\\\angle M = 55^\\\\circ$, let $T$ and $U$ represent the midpoints of $\\\\overline{LM}$ and $\\\\overline{JK}$, respectively. Determine the length of $TU$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In trapezoid $ABCD$ with $\\overline{BC}\\parallel\\overline{AD}$, let $BC = [BLANK]$ and $AD = [BLANK]$. Let $\\angle A = 40^\\circ$, $\\angle D = 50^\\circ$, and $P$ and $Q$ be the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively. Find the length $PQ$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $ABCD$ where $\\overline{BC}\\parallel\\overline{AD}$, let the length of $BC$ be [BLANK] and the length of $AD$ be [BLANK]. Given that $\\angle A = 40^\\circ$ and $\\angle D = 50^\\circ$, let $P$ and $Q$ denote the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively. Determine the length of $PQ$.\n\n\\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In trapezoid $ABCD$ where $\\overline{BC}\\parallel\\overline{AD}$, assume that $BC = [BLANK]$ and $AD = [BLANK]$. Given that $\\angle A = 40^\\circ$ and $\\angle D = 50^\\circ$, let $P$ and $Q$ represent the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively. Determine the length of $PQ$.\n\n\\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In trapezoid $ABCD$ with $\\overline{BC}\\parallel\\overline{AD}$, let $BC = [BLANK]$ and $AD = [BLANK]$. Let $\\angle A = 40^\\circ$, $\\angle D = 50^\\circ$, and $P$ and $Q$ be the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively.\n\nFind the length $PQ$Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $ABCD$ with $\\overline{BC}\\parallel\\overline{AD}$, let $BC = [BLANK]$ and $AD = [BLANK]$. Let $\\angle A = 40^\\circ$, $\\angle D = 50^\\circ$, and $P$ and $Q$ be the midpoints of $\\overline{BC}$ and $\\overline{AD}$, respectively. Find the length $PQ$. Present the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $ABCD$ where $\\overline{BC}\\parallel\\overline{AD}$, let $BC = [BLANK]$ and $AD = [BLANK]$. Given that $\\angle A = 40^\\circ$ and $\\angle D = 50^\\circ$, denote the midpoints of $\\overline{BC}$ and $\\overline{AD}$ as $P$ and $Q$, respectively. Determine the length of $PQ$. \n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"In trapezoid $NOPQ$ with $\\overline{PQ} \\\\parallel \\\\overline{NO}$, let $PQ = [BLANK]$ and $NO = [BLANK]$. Let $\\\\angle N = 45^\\\\circ$, $\\\\angle Q = 65^\\\\circ$, and $V$ and $W$ be the midpoints of $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectively. Find the length $VW$.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In trapezoid $NOPQ$ where $\\overline{PQ} \\\\parallel \\\\overline{NO}$, let $PQ = [BLANK]$ and $NO = [BLANK]$. Given that $\\\\angle N = 45^\\\\circ$ and $\\\\angle Q = 65^\\\\circ$, let $V$ and $W$ denote the midpoints of $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectively. Determine the length of segment $VW$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the trapezoid $NOPQ$ where $\\overline{PQ} \\\\parallel \\\\overline{NO}$, assume that $PQ = [BLANK]$ and $NO = [BLANK]$. Given that $\\\\angle N = 45^\\\\circ$ and $\\\\angle Q = 65^\\\\circ$, let $V$ and $W$ denote the midpoints of $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectively. Determine the distance $VW$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"In trapezoid $NOPQ$ with $\\overline{PQ} \\\\parallel \\\\overline{NO}$, let $PQ = [BLANK]$ and $NO = [BLANK]$. Let $\\\\angle N = 45^\\\\circ$, $\\\\angle Q = 65^\\\\circ$, and $V$ and $W$ be the midpoints of $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectivelyFind the length $VW$.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In trapezoid $NOPQ$ where $\\overline{PQ} \\\\parallel \\\\overline{NO}$, denote $PQ = [BLANK]$ and $NO = [BLANK]$. Given that $\\\\angle N = 45^\\\\circ$ and $\\\\angle Q = 65^\\\\circ$, let $V$ and $W$ represent the midpoints of $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectively. Determine the length of $VW$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In trapezoid $NOPQ$ where $\\overline{PQ} \\\\parallel \\\\overline{NO}$, let the length of $PQ$ be $[BLANK]$ and the length of $NO$ be $[BLANK]$. Given that $\\\\angle N = 45^\\\\circ$ and $\\\\angle Q = 65^\\\\circ$, let points $V$ and $W$ represent the midpoints of segments $\\\\overline{PQ}$ and $\\\\overline{NO}$, respectively. Determine the length of segment $VW$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

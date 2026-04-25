@@ -1,0 +1,210 @@
+{
+  "original_question": "Brian's basement was damp and musty, so he bought a dehumidifier to remove moisture out of the air.  The device has three speeds: low, medium, and high.   Brian tested the device's efficiency and he found that the low setting removes 1 liter of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting.  If Brian ran the dehumidifier for 3 days on the low setting, then an additional 3 days on the medium setting, and then an additional 5 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in his basement, in liters? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Tom's workshop had a high level of humidity, so he bought a dehumidifier to clear the moisture from the air. The device has three speeds: low, medium, and high. Tom tested the device's efficiency and found that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Tom ran the dehumidifier for 1 day on the low setting, then an additional 7 days on the medium setting, and then an additional 3 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in his workshop, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In Tom's workshop, where humidity levels were elevated, he decided to purchase a dehumidifier to eliminate moisture from the atmosphere. This appliance has three operational speeds: low, medium, and high. Upon testing its performance, Tom discovered that the low speed extracts [BLANK] liters of water from the air daily, while the medium speed eliminates twice that amount each day compared to the low speed, and the high speed removes twice as much water per day as the medium speed. If Tom operates the dehumidifier for 1 day at the low speed, followed by 7 days at the medium speed, and then 3 days at the high speed, what is the total volume of water removed from the air in his workshop, measured in liters? Let's calculate it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the high humidity in Tom's workshop, he acquired a dehumidifier to help reduce the moisture content in the air. This device has three different settings: low, medium, and high. After testing it out, Tom found that the low setting extracts [BLANK] liters of water from the air each day, the medium setting takes away twice that amount daily compared to the low setting, and the high setting removes twice the daily amount of the medium setting. If Tom uses the dehumidifier for 1 day on the low setting, then for 7 days on the medium setting, and finally for 3 days on the high setting, how much water does the dehumidifier collect from the air in his workshop in total, in liters? Let's work through this step by step and note the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom noticed that his workshop was quite humid, prompting him to buy a dehumidifier to remove moisture from the air. The appliance operates at three speeds: low, medium, and high. Testing its capabilities, Tom found that the low setting eliminates [BLANK] liters of water from the air every day, the medium setting removes double that amount per day compared to the low setting, and the high setting extracts twice what the medium setting does each day. If Tom runs the dehumidifier for 1 day at the low setting, then for 7 days on the medium setting, and finally for 3 days on the high setting, what is the total quantity of water that the dehumidifier has removed from the air in his workshop, in liters? Let's calculate step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In his workshop, where the humidity was notably high, Tom decided to purchase a dehumidifier to help reduce air moisture. This device features three settings: low, medium, and high. Tom assessed its effectiveness and found that the low setting extracts [BLANK] liters of water from the air each day, while the medium setting extracts double that amount daily compared to the low setting, and the high setting eliminates twice what the medium setting does each day. If Tom operates the dehumidifier for 1 day at the low setting, then continues for 7 days at the medium setting, and finally runs it for 3 days at the high setting, what is the complete amount of water removed from the air in his workshop, in liters? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom's workshop experienced significant humidity, leading him to buy a dehumidifier to manage the moisture in the air. The device has three different speeds: low, medium, and high. After testing, Tom realized that the low setting extracts [BLANK] liters of water from the air daily, the medium setting extracts twice that amount each day as compared to the low setting, and the high setting removes double the water daily compared to the medium setting. If Tom uses the dehumidifier for 1 day on the low setting, then for 7 days on the medium setting, and again for 3 days on the high setting, what total amount of water has the dehumidifier removed from the air in his workshop, in liters? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily's attic was humid and uncomfortable, so she bought a dehumidifier to eliminate moisture from the air. The device has three speeds: low, medium, and high. Emily tested the device's efficiency and found that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Emily ran the dehumidifier for 4 days on the low setting, then an additional 2 days on the medium setting, and then an additional 6 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in her attic, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily's attic was damp and unpleasant, prompting her to purchase a dehumidifier to remove moisture from the air. The unit offers three speeds: low, medium, and high. Emily evaluated the device's performance and discovered that the low setting extracts [BLANK] liters of water from the air each day, the medium setting extracts twice as much water daily as the low setting, and the high setting extracts twice as much water each day as the medium setting. If Emily operated the dehumidifier for 4 days at the low setting, followed by 2 days at the medium setting, and then 6 days at the high setting, what is the total volume of water that the dehumidifier has removed from the air in her attic, in liters? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily's attic was sticky and unpleasant, so she decided to get a dehumidifier to get rid of moisture in the air. The appliance has three settings: low, medium, and high. Emily tested its effectiveness and learned that the low setting eliminates [BLANK] liters of moisture from the air each day, the medium setting eliminates twice as much moisture daily compared to the low setting, and the high setting eliminates twice as much moisture each day as the medium setting. If Emily used the dehumidifier for 4 days on the low setting, then for 2 days on the medium setting, and finally for 6 days on the high setting, what is the total quantity of moisture that the dehumidifier has taken from the air in her attic, in liters? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily's attic was moist and uncomfortable, so she purchased a dehumidifier to reduce humidity in the air. This device features three operational speeds: low, medium, and high. Emily checked the effectiveness of the device and found that on the low setting, it removes [BLANK] liters of water from the air daily, the medium setting removes twice that amount of water per day compared to the low setting, and the high setting removes twice as much water daily as the medium setting. If Emily operated the dehumidifier for 4 days on the low setting, then another 2 days on the medium setting, and finally 6 days on the high setting, what is the total quantity of water removed from the air in her attic by the dehumidifier, in liters? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily's attic was damp and stuffy, leading her to acquire a dehumidifier to eliminate moisture from the atmosphere. This device has three speed options: low, medium, and high. Emily assessed how well the device worked and determined that the low setting extracts [BLANK] liters of water from the air each day, the medium setting extracts double that amount of water daily compared to the low setting, and the high setting extracts double the water removed daily by the medium setting. If Emily used the dehumidifier for 4 days on the low setting, then for 2 days on the medium setting, and subsequently for 6 days on the high setting, what is the overall amount of water that the dehumidifier removed from the air in her attic, in liters? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily's attic was humid and unwelcoming, so she decided to buy a dehumidifier to clear the moisture from the air. This device operates at three speeds: low, medium, and high. Emily tested how effective the device was and found that on the low setting, it removes [BLANK] liters of water from the air each day, while the medium setting removes twice that amount of water daily as the low setting, and the high setting removes double the daily water removed by the medium setting. If Emily ran the dehumidifier for 4 days on the low setting, then for 2 days on the medium setting, and finally for 6 days on the high setting, what is the total volume of water that the dehumidifier extracted from the air in her attic, in liters? Let's proceed step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark's garage was filled with moisture, so he bought a dehumidifier to draw out the dampness from the air. The device has three speeds: low, medium, and high. Mark tested the device's efficiency and found that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Mark ran the dehumidifier for 5 days on the low setting, then an additional 4 days on the medium setting, and then an additional 2 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in his garage, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Due to the moisture accumulation in Mark's garage, he decided to purchase a dehumidifier to eliminate the humidity from the air. This appliance operates at three different speeds: low, medium, and high. Upon testing its performance, Mark discovered that the low speed extracts [BLANK] liters of water from the air each day, the medium speed extracts twice the amount of water daily compared to the low speed, and the high speed extracts twice the daily amount of the medium speed. If Mark utilized the dehumidifier for 5 days on the low setting, followed by 4 days on the medium setting, and then 2 days on the high setting, what is the total volume of water removed from the air in his garage, measured in liters? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark's garage had excessive moisture, prompting him to buy a dehumidifier to remove the humidity from the atmosphere. The device features three operational speeds: low, medium, and high. After evaluating its performance, Mark found that the low setting eliminates [BLANK] liters of moisture from the air daily, the medium setting eliminates twice the amount of moisture daily as the low setting, and the high setting eliminates twice the daily amount of the medium setting. If Mark operated the dehumidifier at the low setting for 5 days, then at the medium setting for 4 days, and finally at the high setting for 2 days, what is the total quantity of water that the dehumidifier extracted from the air in his garage, in liters? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Since Mark's garage was humid, he purchased a dehumidifier to extract moisture from the air. This appliance has three settings: low, medium, and high. Mark assessed the device's effectiveness and found that on the low setting, it removes [BLANK] liters of water from the air each day, while the medium setting removes double the amount of the low setting per day, and the high setting removes double what the medium setting does per day. If Mark operated the dehumidifier for 5 days on the low setting, then 4 days on the medium setting, and finally 2 days on the high setting, what is the total amount of moisture that the dehumidifier has taken from the air in his garage, in liters? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With moisture present in his garage, Mark acquired a dehumidifier to extract the humidity from the air. This device operates at three levels: low, medium, and high. After testing its effectiveness, Mark found that the low level removes [BLANK] liters of water from the air each day, while the medium level removes twice as much water daily compared to the low level, and the high level removes twice the amount of the medium level daily. If Mark used the dehumidifier for 5 days on the low level, then for 4 days on the medium level, and finally for 2 days on the high level, what is the total quantity of water removed from the air in his garage, indicated in liters? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark's garage contained excessive moisture, leading him to purchase a dehumidifier aimed at extracting humidity from the air. The device provides three speed options: low, medium, and high. Mark evaluated its performance and determined that the low speed extracts [BLANK] liters of moisture from the air daily, the medium speed extracts double the amount of moisture compared to the low speed, and the high speed extracts double the daily amount of the medium speed. If Mark operated the dehumidifier for 5 days on low, followed by 4 days on medium, and then 2 days on high, what is the total volume of water the dehumidifier removed from the air in his garage, in liters? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia's laundry room was too moist, so she purchased a dehumidifier to lessen the humidity in the air. The device has three speeds: low, medium, and high. Sophia tested the device's efficiency and discovered that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Sophia ran the dehumidifier for 3 days on the low setting, then an additional 5 days on the medium setting, and then an additional 4 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in her laundry room, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia's laundry area was excessively humid, so she decided to buy a dehumidifier to reduce the moisture in the air. This device features three speed options: low, medium, and high. Upon testing its performance, Sophia found that the low speed extracts [BLANK] liters of water from the air each day, the medium speed extracts twice the amount of water daily compared to the low speed, and the high speed extracts twice the daily amount of the medium speed. If Sophia operated the dehumidifier on the low speed for 3 days, then on the medium speed for an additional 5 days, followed by 4 days on the high speed, what is the total volume of water that the dehumidifier eliminated from the air in her laundry room, measured in liters? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With her laundry room being overly damp, Sophia opted to get a dehumidifier to help reduce the air's humidity. The dehumidifier has three different speeds: low, medium, and high. After testing it, Sophia realized that the low speed eliminates [BLANK] liters of moisture from the air each day, while the medium speed eliminates twice that amount each day compared to the low speed, and the high speed eliminates twice the daily amount of the medium speed. If Sophia used the dehumidifier on the low setting for 3 days, then switched to the medium setting for 5 additional days, and finally used the high setting for 4 days, what total amount of water has the dehumidifier removed from the air in her laundry room, in liters? Let's work through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia found her laundry room too humid, prompting her to purchase a dehumidifier to decrease the air's moisture. This device operates at three speeds: low, medium, and high. During her testing, Sophia found that on the low setting, it removes [BLANK] liters of water from the air every day, while the medium setting removes double that amount of water daily compared to the low setting, and the high setting removes double the daily amount of the medium setting. If she ran the dehumidifier at the low speed for 3 days, then at the medium speed for an additional 5 days, followed by the high speed for 4 days, what is the total quantity of water that the dehumidifier has extracted from the air in her laundry room, in liters? Let's reason through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Due to excessive moisture in her laundry room, Sophia decided to acquire a dehumidifier to minimize the humidity levels in the air. This device is equipped with three operational speeds: low, medium, and high. After evaluating its efficiency, Sophia discovered that the low speed removes [BLANK] liters of water from the air daily, the medium speed removes twice that amount each day compared to the low speed, and the high speed removes double the amount of the medium speed per day. If Sophia utilized the dehumidifier on the low setting for 3 days, then transitioned to the medium setting for 5 more days, and finally ran it on the high setting for 4 days, what is the total volume of water extracted by the dehumidifier from the air in her laundry room, in liters? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Finding her laundry room too humid, Sophia chose to buy a dehumidifier to help alleviate the moisture in the air. The appliance has three different operational speeds: low, medium, and high. After conducting her tests, Sophia realized that the low setting extracts [BLANK] liters of moisture from the air on a daily basis, the medium setting extracts twice that amount each day compared to the low setting, and the high setting extracts double the water removed by the medium setting daily. If Sophia operated the dehumidifier on the low setting for 3 days, then on the medium setting for an additional 5 days, and lastly on the high setting for 4 days, what is the total quantity of water that the dehumidifier has taken out of the air in her laundry room, in liters? Let's work through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Brian's basement was damp and musty, so he bought a dehumidifier to remove moisture out of the air. The device has three speeds: low, medium, and high. Brian tested the device's efficiency and he found that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Brian ran the dehumidifier for 3 days on the low setting, then an additional 3 days on the medium setting, and then an additional 5 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in his basement, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Brian's basement had a damp and musty odor, prompting him to purchase a dehumidifier to extract moisture from the air. This appliance operates at three speeds: low, medium, and high. After testing its effectiveness, Brian discovered that the low setting eliminates [BLANK] liters of moisture from the air daily, the medium setting extracts twice that amount each day compared to the low setting, and the high setting removes twice what the medium setting does daily. If Brian uses the dehumidifier at the low speed for 3 days, then switches to the medium speed for another 3 days, followed by 5 days at the high speed, what is the overall quantity of water that the dehumidifier has taken out of the air in his basement, measured in liters? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the damp and musty conditions in Brian's basement, he decided to buy a dehumidifier to eliminate moisture from the air. This unit offers three operational speeds: low, medium, and high. Upon testing, Brian found that the low setting extracts [BLANK] liters of water from the air each day, while the medium setting removes double the amount of water per day as the low setting, and the high setting takes away twice the amount of the medium setting daily. If he runs the dehumidifier at the low setting for 3 days, then at the medium setting for an additional 3 days, and finally at the high setting for 5 days, what total volume of water has been removed from the air in his basement in liters? Let's break this down step by step and then present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Brian noticed that his basement was humid and had an unpleasant smell, so he acquired a dehumidifier to take moisture out of the air. The device features three different speeds: low, medium, and high. After evaluating its performance, Brian found that the low speed dispels [BLANK] liters of water from the air per day, the medium speed expels twice that amount daily compared to the low speed, and the high speed removes twice what the medium speed does each day. If Brian operates the dehumidifier on the low setting for 3 days, then on the medium setting for another 3 days, and finally on the high setting for 5 days, what is the total amount of moisture removed from the air in his basement, in liters? Let\u2019s think through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Since Brian's basement was damp and had a musty smell, he purchased a dehumidifier to extract moisture from the air. This device operates at three settings: low, medium, and high. When he tested it, he discovered that the low setting eliminates [BLANK] liters of water from the air each day, with the medium setting removing twice that amount daily compared to the low, and the high setting taking away double what the medium does per day. If Brian uses the dehumidifier on the low setting for 3 days, then transitions to the medium setting for another 3 days, followed by 5 days on the high setting, what is the total quantity of water the dehumidifier has removed from the air in his basement, in liters? Let\u2019s work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Brian's basement was experiencing dampness and an unpleasant odor, leading him to buy a dehumidifier intended to eliminate moisture from the air. The device has three operational speeds: low, medium, and high. After conducting tests, Brian found that the low setting removes [BLANK] liters of water from the air per day, while the medium setting extracts double that amount daily as compared to the low setting, and the high setting removes twice the water that the medium setting does each day. If he utilizes the dehumidifier at the low setting for 3 days, then at the medium setting for another 3 days, and finally for 5 days at the high setting, how much total water has been extracted from the air in his basement, in liters? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Nina's cellar was damp and chilly, so she invested in a dehumidifier to extract moisture from the air. The device has three speeds: low, medium, and high. Nina tested the device's efficiency and learned that the low setting removes [BLANK] liters of water out of the air per day, the medium setting removes twice as much water per day as the low setting, and the high setting removes twice as much water per day as the medium setting. If Nina ran the dehumidifier for 2 days on the low setting, then an additional 6 days on the medium setting, and then an additional 5 days on the high setting, what is the total amount of water that the dehumidifier removed from the air in her cellar, in liters? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nina found her cellar to be damp and cold, so she purchased a dehumidifier to reduce the humidity in the air. This device operates at three different speeds: low, medium, and high. After testing the device's performance, Nina discovered that the low speed extracts [BLANK] liters of moisture from the air each day, the medium speed extracts twice as much moisture daily compared to the low speed, and the high speed extracts twice as much moisture daily compared to the medium speed. If Nina used the dehumidifier for 2 days on the low speed, followed by 6 days on the medium speed, and then 5 days on the high speed, what is the total volume of water that the dehumidifier removed from the air in her cellar, expressed in liters? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the damp and cool conditions in her cellar, Nina decided to buy a dehumidifier to eliminate moisture from the air. The appliance features three operational speeds: low, medium, and high. Through her testing, Nina found out that the low speed eliminates [BLANK] liters of water from the air each day, the medium speed eliminates double the amount of water daily as the low speed, and the high speed eliminates double the daily amount of the medium speed. If Nina operated the dehumidifier for 2 days at the low speed, then for another 6 days at the medium speed, and finally for 5 days at the high speed, what is the total quantity of water that the dehumidifier extracted from the air in her cellar, in liters? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nina's cellar had a damp and cold atmosphere, prompting her to invest in a dehumidifier to draw moisture from the air. This unit has three settings: low, medium, and high. Upon evaluating the device's effectiveness, Nina found that the low setting extracts [BLANK] liters of water from the air each day, the medium setting extracts twice as much water daily as the low setting, and the high setting extracts twice as much water daily as the medium setting. If Nina operated the dehumidifier for 2 days on the low setting, then for 6 days on the medium setting, and subsequently for 5 days on the high setting, what is the total amount of water removed by the dehumidifier from the air in her cellar, in liters? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Nina's cellar was both damp and cold, leading her to purchase a dehumidifier to remove moisture from the air. The machine has three operational speeds: low, medium, and high. After assessing the device's performance, Nina learned that the low setting extracts [BLANK] liters of water from the air every day, the medium setting extracts twice that amount of water daily compared to the low setting, and the high setting extracts double the daily amount of the medium setting. If Nina ran the dehumidifier for 2 days at the low setting, then for 6 days at the medium setting, and finally for 5 days at the high setting, what is the total quantity of water that the dehumidifier has removed from the air in her cellar, in liters? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Since Nina's cellar was damp and chilly, she decided to get a dehumidifier to remove moisture from the air. The device operates at three speeds: low, medium, and high. Upon testing the device, Nina discovered that the low setting removes [BLANK] liters of water from the air daily, the medium setting removes twice that amount of water each day compared to the low setting, and the high setting removes twice as much water daily as the medium setting. If Nina used the dehumidifier for 2 days on the low setting, then for 6 days on the medium setting, and subsequently for 5 days on the high setting, what is the total volume of water that the dehumidifier extracted from the air in her cellar, in liters? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

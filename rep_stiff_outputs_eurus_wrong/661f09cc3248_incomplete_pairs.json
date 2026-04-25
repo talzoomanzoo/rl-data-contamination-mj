@@ -1,0 +1,62 @@
+{
+  "original_question": "Doxa sliced an apple into 8 pieces. She ate 1 slice, her sister ate 1 more than her, and her brother ate 1 more than her sister. How many slices of apple did they all eat? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total number of apple slices",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Doxa sliced an apple into 8 pieces. She ate 1 slice, her sister ate 1 more than her, and her brother ate 1 more than her sister. How many slices of apple did they all eat? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Doxa sliced an apple into [BLANK] pieces. She ate 1 slice, her sister ate 1 more than her, and her brother ate 1 more than her sister. How many slices of apple did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Doxa sliced a watermelon into 10 pieces. She ate 2 slices, her sister ate 2 more than her, and her brother ate 2 more than her sister. How many slices of watermelon did they all eat? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Doxa sliced a watermelon into [BLANK] pieces. She ate 2 slices, her sister ate 2 more than her, and her brother ate 2 more than her sister. How many slices of watermelon did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Doxa sliced a cake into 12 pieces. She ate 3 slices, her sister ate 3 more than her, and her brother ate 3 more than her sister. How many slices of cake did they all eat? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Doxa sliced a cake into [BLANK] pieces. She ate 3 slices, her sister ate 3 more than her, and her brother ate 3 more than her sister. How many slices of cake did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Doxa sliced a pie into 6 pieces. She ate 1 slice, her sister ate 1 more than her, and her brother ate 1 more than her sister. How many slices of pie did they all eat? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Doxa sliced a pie into [BLANK] pieces. She ate 1 slice, her sister ate 1 more than her, and her brother ate 1 more than her sister. How many slices of pie did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Doxa sliced a loaf of bread into 14 pieces. She ate 4 slices, her sister ate 4 more than her, and her brother ate 4 more than her sister. How many slices of bread did they all eat? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Doxa sliced a loaf of bread into [BLANK] pieces. She ate 4 slices, her sister ate 4 more than her, and her brother ate 4 more than her sister. How many slices of bread did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Doxa sliced a cheesecake into 16 pieces. She ate 5 slices, her sister ate 5 more than her, and her brother ate 5 more than her sister. How many slices of cheesecake did they all eat? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Doxa sliced a cheesecake into [BLANK] pieces. She ate 5 slices, her sister ate 5 more than her, and her brother ate 5 more than her sister. How many slices of cheesecake did they all eat? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of apple slices"
+    }
+  ],
+  "num_valid_similars": 5
+}

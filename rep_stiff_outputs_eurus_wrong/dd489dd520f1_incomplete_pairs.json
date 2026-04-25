@@ -1,0 +1,62 @@
+{
+  "original_question": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and 2 trays, how many eggs won't he be able to place on the tray? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of trays available",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and 2 trays, how many eggs won't he be able to place on the tray? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Jaime places eggs on the tray. Each tray can hold 24 eggs. If he has 64 eggs and [BLANK], how many eggs won't he be able to place on the tray? Let's think step by step and output the final answer after \"####\".",
+      "info_removed": "the number of trays available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Maria places oranges in the basket. Each basket can hold 30 oranges. If she has 82 oranges and 3 baskets, how many oranges won't she be able to place in the basket?",
+      "incomplete_question": "Maria places oranges in the basket. Each basket can hold 30 oranges. If she has 82 oranges and [BLANK], how many oranges won't she be able to place in the basket?",
+      "info_removed": "the number of trays available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Tom places books on the shelf. Each shelf can hold 15 books. If he has 50 books and 4 shelves, how many books won't he be able to place on the shelf?",
+      "incomplete_question": "Tom places books on the shelf. Each shelf can hold 15 books. If he has 50 books and [BLANK], how many books won't he be able to place on the shelf?",
+      "info_removed": "the number of trays available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Lily places apples in the box. Each box can hold 20 apples. If she has 70 apples and 3 boxes, how many apples won't she be able to place in the box?",
+      "incomplete_question": "Lily places apples in the box. Each box can hold 20 apples. If she has 70 apples and [BLANK], how many apples won't she be able to place in the box?",
+      "info_removed": "the number of trays available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Kevin places toys in the bin. Each bin can hold 18 toys. If he has 52 toys and 2 bins, how many toys won't he be able to place in the bin?",
+      "incomplete_question": "Kevin places toys in the bin. Each bin can hold 18 toys. If he has 52 toys and [BLANK], how many toys won't he be able to place in the bin?",
+      "info_removed": "the number of trays available"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sophie places candies in the jar. Each jar can hold 25 candies. If she has 97 candies and 4 jars, how many candies won't she be able to place in the jar?",
+      "incomplete_question": "Sophie places candies in the jar. Each jar can hold 25 candies. If she has 97 candies and [BLANK], how many candies won't she be able to place in the jar?",
+      "info_removed": "the number of trays available"
+    }
+  ],
+  "num_valid_similars": 5
+}

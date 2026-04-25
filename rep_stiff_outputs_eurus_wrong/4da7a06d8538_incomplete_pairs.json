@@ -1,0 +1,62 @@
+{
+  "original_question": "If $x^2 = y - 7$ and $x = 7$, then what is the value of $y$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the value of one variable\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "If $x^2 = y - 7$ and $x = 7$, then what is the value of $y$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "If x^2 = [BLANK] - 7 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "If $x^2 = y - 5$ and $x = 4$, then what is the value of $y$?",
+      "incomplete_question": "If x^2 = [BLANK] - 5 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "If $x^2 = y - 12$ and $x = 3$, then what is the value of $y$?",
+      "incomplete_question": "If x^2 = [BLANK] - 12 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "If $x^2 = y - 9$ and $x = 6$, then what is the value of $y$?",
+      "incomplete_question": "If x^2 = [BLANK] - 9 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "If $x^2 = y - 15$ and $x = 8$, then what is the value of $y$?",
+      "incomplete_question": "If x^2 = [BLANK] - 15 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "If $x^2 = y - 20$ and $x = 5$, then what is the value of $y$?",
+      "incomplete_question": "If x^2 = [BLANK] - 20 and x = [BLANK], then what is the value of y?",
+      "info_removed": "\"the value of one variable\""
+    }
+  ],
+  "num_valid_similars": 5
+}

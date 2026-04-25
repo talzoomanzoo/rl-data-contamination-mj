@@ -1,0 +1,210 @@
+{
+  "original_question": "At a certain grade level, three-fourths of students have a desktop computer at home. If 20 students do not have desktop computers, how many students are there at that grade level? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "At a certain grade level, two-thirds of students have a tablet at home. If [BLANK] students do not have tablets, how many students are there at that grade level?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific grade, two-thirds of the students possess a tablet at home. If [BLANK] students lack tablets, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a particular grade level, two-thirds of the students own a tablet at their residence. If [BLANK] students do not have tablets, how many students are enrolled in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a certain grade, two-thirds of the students have tablets available at home. If [BLANK] students are without tablets, what is the overall number of students in that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a given grade level, two-thirds of the students have access to a tablet at home. If [BLANK] students are tablet-less, how many students are there in total at that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At one grade level, two-thirds of the students have a tablet at their disposal at home. If [BLANK] students do not have any tablets, how many students are present in that grade?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "At a certain grade level, five-sixths of students have a laptop at home. If [BLANK] students do not have laptops, how many students are there at that grade level?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a particular grade, five-sixths of the students own a laptop at home. If [BLANK] students lack laptops, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a specific grade level, five-sixths of the pupils possess a laptop at home. If [BLANK] students are without laptops, how many students are there in that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Within a certain grade, five-sixths of the learners have access to a laptop at home. If [BLANK] students do not have a laptop, how many students are enrolled in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a designated grade level, five-sixths of the students have laptops available at home. If [BLANK] students are missing laptops, what is the overall student count in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At one particular grade level, five-sixths of the students have a laptop at their residence. If [BLANK] students do not own laptops, how many students are present in that grade?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "At a certain grade level, seven-eighths of students have a smart TV at home. If [BLANK] students do not have smart TVs, how many students are there at that grade level?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific grade, seven-eighths of the students possess a smart TV at home. If [BLANK] students lack smart TVs, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a particular grade level, seven-eighths of the student body owns a smart TV at home. Given that [BLANK] students do not have smart TVs, how many students are enrolled in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For a certain grade, seven-eighths of the pupils have a smart TV in their households. If [BLANK] students are without smart TVs, how many students are there in that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In one grade level, seven-eighths of the students have access to a smart TV at home. If [BLANK] students are not equipped with smart TVs, how many students are present in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At a defined grade level, seven-eighths of learners have a smart TV in their residence. If [BLANK] students do not possess smart TVs, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "At a certain grade level, four-fifths of students have a gaming console at home. If [BLANK] students do not have gaming consoles, how many students are there at that grade level?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific grade, four out of five students possess a gaming console at their residence. If [BLANK] students lack gaming consoles, what is the total number of students at that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a particular grade level, 80% of the students own a gaming console at home. If [BLANK] students do not own gaming consoles, how many students are enrolled in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For a certain grade, four-fifths of the students have access to a gaming console at home. If [BLANK] students do not have one, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a given grade, four-fifths of the students have a gaming console available at home. If [BLANK] students do not possess a gaming console, how many students are there in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At a certain grade level, four-fifths of the students have a gaming console in their home. If [BLANK] students are without gaming consoles, how many students are there in total at that grade?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "At a certain grade level, three-fifths of students have a smartphone at home. If [BLANK] students do not have smartphones, how many students are there at that grade level?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific grade, three out of five students possess a smartphone at home. If [BLANK] students lack smartphones, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a particular grade, three-fifths of the students own a smartphone at home. Given that [BLANK] students do not own smartphones, how many students are present in that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In one grade level, three-fifths of the students have access to a smartphone at home. If there are [BLANK] students without smartphones, how many students are enrolled in that grade?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a certain grade level, three out of five students have a smartphone available at home. If [BLANK] students are without smartphones, how many students are in that grade level?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At a defined grade level, three-fifths of the students have smartphones at home. If [BLANK] students are not equipped with smartphones, what is the total number of students in that grade?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "At a certain grade level, three-fourths of students have a desktop computer at home. If [BLANK] students do not have desktop computers, how many students are there at that grade level? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a specific grade, three-quarters of the students own a desktop computer at home. If [BLANK] students lack desktop computers, what is the total number of students in that grade? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a particular grade, three out of four students have a desktop computer available at home. If [BLANK] students do not possess desktop computers, how many students are enrolled at that grade level? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Within a certain grade, three-fourths of the students have access to a desktop computer at their residence. If [BLANK] students are without desktop computers, how many students are there in that grade? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a given grade, three-quarters of the students have a desktop computer in their home. If [BLANK] students are missing desktop computers, what is the total number of students in that grade level? Let's think this through step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At a defined grade level, three-fourths of the students own a desktop computer at home. If [BLANK] students do not have a desktop computer, what is the number of students in that grade? Let's break it down step by step and finish with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

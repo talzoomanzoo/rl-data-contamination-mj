@@ -1,0 +1,210 @@
+{
+  "original_question": "Hallie had dance practice for 1 hour on Tuesdays and 2 hours on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ava had gymnastics practice for [BLANK] on Mondays and [BLANK] on Wednesdays. On Sundays, she had gymnastics practice that lasted twice as long as Monday's class. How many hours a week did she have gymnastics practice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On Mondays, Ava's gymnastics practice lasted for [BLANK], while on Wednesdays it was [BLANK]. Additionally, on Sundays, her gymnastics practice duration was double that of Monday's session. How many hours in total did she spend on gymnastics each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ava attends gymnastics practice for [BLANK] on Mondays and for [BLANK] on Wednesdays. Furthermore, her Sunday gymnastics practice is twice as long as the one on Monday. What is the total number of hours she practices gymnastics weekly?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For gymnastics, Ava practices [BLANK] on Mondays and [BLANK] on Wednesdays. Moreover, on Sundays, her practice time is two times that of her Monday class. How many hours does she dedicate to gymnastics every week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ava's gymnastics sessions occur for [BLANK] on Mondays and [BLANK] on Wednesdays. Furthermore, on Sundays, she practices for a duration that is double that of her Monday practice. How many total hours of gymnastics does she have in a week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On Mondays, Ava's gymnastics practice is for [BLANK], and she practices for [BLANK] on Wednesdays. In addition, on Sundays, her gymnastics practice is twice as long as that on Monday. What is the total weekly duration of her gymnastics practice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma had piano lessons for [BLANK] on Mondays and [BLANK] on Wednesdays. On Saturdays, she had piano lessons that lasted four times as long as Monday's morning class. How many hours a week did she have piano lessons?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On Mondays, Emma attended piano lessons for [BLANK] and for [BLANK] on Wednesdays. Her Saturday piano lessons were four times the duration of Monday's morning session. What is the total number of hours she spent on piano lessons each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma's piano lessons were scheduled for [BLANK] on Mondays and [BLANK] on Wednesdays. On Saturdays, she practiced for a duration that was four times longer than her Monday morning lesson. How many hours did she dedicate to piano lessons in a week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma took piano lessons that lasted [BLANK] on Mondays and [BLANK] on Wednesdays. On Saturdays, her lessons were four times the length of her Monday morning class. How many total hours did she have piano lessons throughout the week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For her piano lessons, Emma spent [BLANK] hours on Mondays and [BLANK] hours on Wednesdays. On Saturdays, she had lessons that were four times longer than her Monday morning session. What is the total number of hours of piano lessons she had per week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma had her piano lessons for [BLANK] on Mondays and [BLANK] on Wednesdays. On Saturdays, her lessons lasted four times longer than the class she had on Monday morning. How many hours of piano lessons did she have in total each week?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia had art classes for [BLANK] on Tuesdays and [BLANK] on Thursdays. On Fridays, she had art classes that lasted twice as long as Tuesday's afternoon class. How many hours a week did she have art classes?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On Tuesdays, Sophia attended art classes for [BLANK] and for [BLANK] on Thursdays. On Fridays, her art classes were twice the duration of the Tuesday afternoon session. What is the total number of hours she spent in art classes each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia participated in art classes for [BLANK] on Tuesdays, while on Thursdays she had classes for [BLANK]. Her Friday art classes were twice as long as the class she had on Tuesday afternoon. How many hours of art classes did she have in a week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On Tuesdays, Sophia had art lessons that lasted [BLANK], and on Thursdays, she had them for [BLANK]. On Fridays, her art sessions were double the length of the afternoon class on Tuesday. What is the weekly total of hours she spent in art classes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia's art classes were [BLANK] hours long on Tuesdays and [BLANK] hours long on Thursdays. On Fridays, the duration of her art classes was two times that of her Tuesday afternoon class. How many total hours did she attend art classes in a week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On Tuesdays, Sophia engaged in art classes for [BLANK] and for [BLANK] on Thursdays. The length of her Friday art classes was double that of the afternoon class on Tuesday. What is the total weekly duration of her art classes?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Hallie had dance practice for [BLANK] on Tuesdays and [BLANK] on Thursdays.  On Saturdays, she had dance practice that lasted twice as long as Tuesday's night class.  How many hours a week did she have dance practice? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On Tuesdays, Hallie attended dance practice for [BLANK] and for [BLANK] on Thursdays. Her Saturday session was twice the duration of her Tuesday evening class. What is the total number of hours she spent on dance practice each week? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Hallie participated in dance practice for [BLANK] on Tuesdays and [BLANK] on Thursdays. On Saturdays, her dance session was twice as long as the one she had on Tuesday night. How many hours does she dedicate to dance practice every week? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For [BLANK] on Tuesdays and [BLANK] on Thursdays, Hallie had dance practice. On Saturdays, her practice lasted double the time of her Tuesday evening class. What is the weekly total of hours she spent practicing dance? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Hallie had her dance practice sessions for [BLANK] on Tuesdays and [BLANK] on Thursdays. Saturday's practice was twice the length of her Tuesday night class. How many total hours of dance practice did she have in a week? Let's consider it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On Tuesdays, Hallie's dance practice lasted [BLANK] and on Thursdays, it was [BLANK]. Her Saturday practice was twice as long as her class on Tuesday evening. How many hours of dance practice did she have throughout the week? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam had soccer practice for [BLANK] on Wednesdays and [BLANK] on Fridays. On Sundays, he had soccer practice that lasted three times as long as Wednesday's evening class. How many hours a week did he have soccer practice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On Wednesdays, Liam attended soccer practice for [BLANK], and on Fridays, it lasted [BLANK]. His Sunday practice was three times longer than his Wednesday evening session. What is the total number of hours he practiced soccer each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam's soccer practice sessions were [BLANK] on Wednesdays and [BLANK] on Fridays. Additionally, on Sundays, he practiced for a duration that was three times the length of his Wednesday evening practice. How many hours does he spend practicing soccer weekly?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For soccer practice, Liam had [BLANK] sessions on Wednesdays and [BLANK] sessions on Fridays. His practice on Sundays lasted three times longer than the one on Wednesday evening. Calculate the total hours of soccer practice he has in a week.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam's soccer practices were held for [BLANK] on Wednesdays and for [BLANK] on Fridays. On Sundays, he practiced for a duration that was triple that of his Wednesday evening practice. How many hours does he dedicate to soccer practice each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On Wednesdays, Liam participated in soccer practice for [BLANK], while on Fridays, it was [BLANK]. Furthermore, on Sundays, his practice duration was three times that of the Wednesday evening session. What is the total weekly duration of his soccer practice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah had swimming practice for [BLANK] on Thursdays and [BLANK] on Saturdays. On Sundays, he had swimming practice that lasted one and a half times as long as Thursday's evening class. How many hours a week did he have swimming practice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah practiced swimming for [BLANK] on Thursdays and [BLANK] on Saturdays. His Sunday swimming practice lasted one and a half times the duration of Thursday's evening session. What is the total number of hours he spent on swimming practice each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On Thursdays, Noah attended swimming practice for [BLANK], while on Saturdays, he practiced for [BLANK]. On Sundays, he participated in swimming practice that was one and a half times longer than his Thursday evening practice. How many hours did he dedicate to swimming each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah had his swimming practice for [BLANK] on Thursdays and for [BLANK] on Saturdays. His practice on Sundays was one and a half times the length of the Thursday evening session. Calculate the total hours he spent on swimming practice weekly.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For swimming practice, Noah spent [BLANK] on Thursdays and [BLANK] on Saturdays. On Sundays, he practiced for a duration that was one and a half times the length of his Thursday evening session. How many hours did he practice swimming in total each week?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On Thursdays, Noah's swimming practice lasted [BLANK] and on Saturdays, it was [BLANK]. His Sunday swimming session was one and a half times the duration of the Thursday evening practice. What is the total number of hours he practiced swimming weekly?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

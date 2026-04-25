@@ -1,0 +1,210 @@
+{
+  "original_question": "Let the sum of the first n terms of a positive sequence $\\{a_n\\}$ be $S_n$, and it satisfies $4S_n=a_n^2+2a_n-3$ ($n\\in\\mathbb{N}^*$). Determine the value of $a_{2016}$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). Determine the value of a_{[BLANK]}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\}, denoted as S_n, which fulfills the equation 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let S_n represent the sum of the first n terms from a positive sequence \\{a_n\\}, satisfying the condition 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). Calculate the value of a_{[BLANK]}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Define S_n as the sum of the initial n elements of a positive sequence \\{a_n\\}, which meets the requirement 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). Determine a_{[BLANK]}.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let the sum of the first n elements of a positive sequence \\{a_n\\} be represented by S_n, and it satisfies 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). What is the value of a_{[BLANK]}?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assume S_n is the sum of the first n terms of a positive sequence \\{a_n\\}, which complies with 3S_n=a_{[BLANK]}^2+a_{[BLANK]}-2 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*). Determine the value of a_{[BLANK]}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n elements of a positive sequence \\{a_n\\} denoted as S_n, which fulfills the equation 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} denoted as S_n, which fulfills the equation 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*)Determine the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} represented by S_n, which fulfills the equation 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} designated as S_n, which fulfills the equation 6S_n=a_{[BLANK]}^2+4a_{[BLANK]}-5 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence $\\{a_n\\}$ be $S_n$, and it satisfies $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$). Determine the value of $a_{[BLANK]}$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n elements of a positive sequence $\\{a_n\\}$ represented as $S_n$, which fulfills the equation $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$). Find the value of $a_{[BLANK]}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the total of the initial n terms of a positive sequence $\\{a_n\\}$ represented as $S_n$, which fulfills the equation $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$). Find the value of $a_{[BLANK]}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the sum of the first n terms of a positive sequence $\\{a_n\\}$ be $S_n$, and it satisfies $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$)Determine the value of $a_{[BLANK]}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the total of the initial n terms of a positive sequence $\\{a_n\\}$, represented as $S_n$, which fulfills the equation $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$). Find the value of $a_{[BLANK]}$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the total of the initial n terms of a positive sequence $\\{a_n\\}$ denoted as $S_n$, which fulfills the equation $4S_n=a_{[BLANK]}^2+2a_{[BLANK]}-3$ ($n\\in\\mathbb{N}^*$). Find the value of $a_{[BLANK]}$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*). Determine the value of a_{[BLANK]}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n terms of a positive series \\{a_n\\} represented as S_n, which fulfills the equation 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} represented as S_n, which fulfills the equation 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*)Determine the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} denoted as S_n, which fulfills the equation 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the total of the initial n components of a positive sequence \\{a_n\\}, denoted as S_n, which fulfills the equation 7S_n=a_{[BLANK]}^2+5a_{[BLANK]}-8 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*). Determine the value of a_{[BLANK]}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n elements of a positive sequence \\{a_n\\}, denoted as S_n, which fulfills the equation 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} represented as S_n, which fulfills the equation 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*)Determine the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the sum of the initial n terms of a positive sequence \\{a_n\\} represented as S_n, which meets the condition 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} denoted as S_n, which fulfills the equation 8S_n=a_{[BLANK]}^2+6a_{[BLANK]}-1 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*). Determine the value of a_{[BLANK]}.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the total of the initial n elements of a positive sequence \\{a_n\\}, denoted as S_n, which fulfills the equation 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} denoted as S_n, which fulfills the equation 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let the sum of the first n terms of a positive sequence \\{a_n\\} be S_n, and it satisfies 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*)Determine the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the sum of the initial n terms of a positive sequence \\{a_n\\}, denoted as S_n, which fulfills the equation 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider the total of the initial n terms of a positive sequence \\{a_n\\} represented as S_n, which fulfills the equation 5S_n=a_{[BLANK]}^2+3a_{[BLANK]}-7 (n\\in\\mathbb{N}^*). Find the value of a_{[BLANK]}.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Triangle $\\triangle ABC$ lies in plane $\\mathcal P$ with $AB = 6, AC = 4,$ and $\\angle BAC = 90^\\circ.$ Let $D$ be the reflection across $\\overline{BC}$ of the centroid of $\\triangle ABC. {}$ Four spheres, all on the same side of $\\mathcal P,$ have radii $1, 2, 3,$ and $r$ and are tangent to $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $r$ can be written as $\\tfrac mn,$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Triangle $\\triangle DEF$ lies in plane $\\mathcal P$ with $DE = [BLANK], DF = [BLANK],$ and $\\angle EDF = 90^\\circ.$ Let $G$ be the reflection across $\\overline{EF}$ of the centroid of $\\triangle DEF.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $2, 3, 4,$ and $s$ and are tangent to $\\mathcal P$ at points $D, E, F,$ and $G,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $s$ can be written as $\\tfrac{p}{q},$ where $p$ and $q$ are relatively prime positive integers. Find $p+q.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In plane \\mathcal P, triangle \\triangle DEF has sides $DE = [BLANK], DF = [BLANK],$ and the angle $\\angle EDF = 90^\\circ.$ Let $G$ denote the reflection of the centroid of triangle \\triangle DEF across the line segment $\\overline{EF}.$ There are four spheres with radii $2, 3, 4,$ and $s$, all positioned on the same side of \\mathcal P, which are tangent to \\mathcal P at points $D, E, F,$ and $G,$ respectively. These spheres also touch another plane \\mathcal T and are located on the same side of \\mathcal T. The value of $s$ can be expressed as $\\tfrac{p}{q},$ where $p$ and $q$ are coprime positive integers. Calculate $p+q.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle \\triangle DEF is situated in plane \\mathcal P, with lengths $DE = [BLANK], DF = [BLANK],$ and $\\angle EDF = 90^\\circ.$ Let $G$ represent the reflection of the centroid of triangle \\triangle DEF across the line $\\overline{EF}.$ Four spheres, which are on the same side of \\mathcal P, have radii $2, 3, 4,$ and $s$, and are tangent to \\mathcal P at points $D, E, F,$ and $G,$ respectively. Each sphere is also tangent to another plane \\mathcal T and resides on the same side of \\mathcal T. The value of $s$ can be represented as $\\tfrac{p}{q},$ with $p$ and $q$ being relatively prime positive integers. Determine $p+q.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the plane \\mathcal P, triangle \\triangle DEF has sides measuring $DE = [BLANK], DF = [BLANK],$ with the angle $\\angle EDF = 90^\\circ.$ Let $G$ be the reflection of the triangle's centroid across the line segment $\\overline{EF}.$ There are four spheres present, all on the same side of \\mathcal P, with radii $2, 3, 4,$ and $s$ that are tangent to \\mathcal P at points $D, E, F,$ and $G,$ respectively. Additionally, these spheres are tangent to another plane \\mathcal T and are located on the same side of \\mathcal T. The value of $s$ can be written as $\\tfrac{p}{q},$ where $p$ and $q$ are positive integers that share no common factors. Find $p+q.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Triangle \\triangle DEF lies within the plane \\mathcal P, having sides $DE = [BLANK], DF = [BLANK],$ and an angle measure of $\\angle EDF = 90^\\circ.$ Let $G$ signify the reflection of the centroid of triangle \\triangle DEF over the line $\\overline{EF}.$ Four spheres, all on the same side of \\mathcal P, have radii $2, 3, 4,$ and $s$ and are tangent to \\mathcal P at points $D, E, F,$ and $G,$ respectively. Furthermore, each sphere is tangent to a second plane \\mathcal T and is positioned on the same side of \\mathcal T. The value of $s$ can be expressed as $\\tfrac{p}{q},$ where $p$ and $q$ are relatively prime positive integers. Compute $p+q.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the plane \\mathcal P, triangle \\triangle DEF is defined with sides $DE = [BLANK], DF = [BLANK],$ and with $\\angle EDF = 90^\\circ.$ Let $G$ be the point that represents the reflection of the centroid of triangle \\triangle DEF across the line segment $\\overline{EF}.$ Four spheres, all located on the same side of \\mathcal P, have radii of $2, 3, 4,$ and $s$ and are tangent to \\mathcal P at points $D, E, F,$ and $G,$ respectively. Each of these spheres also touches a second plane \\mathcal T while being on the same side of it. The value of $s$ can be expressed as $\\tfrac{p}{q},$ with $p$ and $q$ being positive integers that are coprime. Find the sum $p+q.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Triangle $\\triangle ABC$ lies in plane $\\mathcal P$ with $AB = [BLANK], AC = [BLANK],$ and $\\angle BAC = 90^\\circ.$ Let $M$ be the reflection across $\\overline{BC}$ of the centroid of $\\triangle ABC.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $2, 3, 4,$ and $w$ and are tangent to $\\mathcal P$ at points $A, B, C,$ and $M,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $w$ can be written as $\\tfrac{c}{d},$ where $c$ and $d$ are relatively prime positive integers. Find $c+d.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In plane \\mathcal P, triangle \\triangle ABC has side lengths $AB = [BLANK], AC = [BLANK],$ and the angle $\\angle BAC = 90^\\circ.$ Let point $M$ denote the reflection of the centroid of triangle \\triangle ABC across line segment \\overline{BC}.$ There are four spheres, all located on the same side of plane \\mathcal P, with radii 2, 3, 4, and $w$ that are tangent to \\mathcal P at points $A, B, C,$ and $M,$ respectively. Each of these four spheres is also tangent to another plane \\mathcal T and situated on the same side of \\mathcal T. The value of $w$ can be expressed as $\\tfrac{c}{d},$ where $c$ and $d$ are relatively prime positive integers. Determine $c+d.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle \\triangle ABC is situated in plane \\mathcal P with lengths $AB = [BLANK], AC = [BLANK],$ and an angle measure of $\\angle BAC = 90^\\circ.$ Denote $M$ as the point obtained by reflecting the centroid of triangle \\triangle ABC across the line segment \\overline{BC}.$ There exist four spheres, all on the same side of plane \\mathcal P, which have radii 2, 3, 4, and $w$ and are tangent to \\mathcal P at locations $A, B, C,$ and $M,$ respectively. Furthermore, these spheres each touch a second plane \\mathcal T and are positioned on the same side of \\mathcal T. The value of $w$ can be represented as $\\tfrac{c}{d},$ with $c$ and $d$ being relatively prime positive integers. Calculate $c+d.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Within plane \\mathcal P, triangle \\triangle ABC is defined with side lengths $AB = [BLANK], AC = [BLANK],$ and the angle of $\\angle BAC = 90^\\circ.$ Let $M$ represent the reflection of the centroid of triangle \\triangle ABC over the line segment \\overline{BC}.$ There are four spheres, positioned on the same side of plane \\mathcal P, having radii of 2, 3, 4, and $w$ that are tangent to \\mathcal P at points $A, B, C,$ and $M,$ respectively. Each of these spheres is also tangent to an additional plane \\mathcal T and is located on the same side of \\mathcal T. The value of $w$ can be written as $\\tfrac{c}{d},$ where $c$ and $d$ are relatively prime positive integers. Find the sum $c+d.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the plane \\mathcal P, triangle \\triangle ABC is defined by the lengths $AB = [BLANK], AC = [BLANK],$ and the angle $\\angle BAC = 90^\\circ.$ Let $M$ be the reflection of the centroid of triangle \\triangle ABC with respect to the line segment \\overline{BC}.$ Four spheres exist, all on the same side of plane \\mathcal P, with radii 2, 3, 4, and $w$ that touch \\mathcal P at points $A, B, C,$ and $M,$ respectively. Additionally, these spheres are tangent to a second plane \\mathcal T and are on the same side of \\mathcal T. The value of $w$ can be expressed as $\\tfrac{c}{d},$ where $c$ and $d$ are relatively prime positive integers. Determine the value of $c+d.$",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Triangle \\triangle ABC is located in plane \\mathcal P, characterized by the sides $AB = [BLANK], AC = [BLANK],$ along with the angle $\\angle BAC = 90^\\circ.$ Let $M$ denote the reflection of the centroid of triangle \\triangle ABC across the segment \\overline{BC}.$ Four spheres, all on the same side of plane \\mathcal P, have radii of 2, 3, 4, and $w$ and are tangent to \\mathcal P at points $A, B, C,$ and $M,$ respectively. Moreover, all four spheres are tangent to another plane \\mathcal T and lie on the same side of \\mathcal T. The value of $w$ can be formulated as $\\tfrac{c}{d},$ where $c$ and $d$ are relatively prime positive integers. Calculate $c+d.$",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Triangle $\\triangle XYZ$ lies in plane $\\mathcal P$ with $XY = [BLANK], XZ = [BLANK],$ and $\\angle XZY = 90^\\circ.$ Let $H$ be the reflection across $\\overline{YZ}$ of the centroid of $\\triangle XYZ.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $1, 4, 5,$ and $t$ and are tangent to $\\mathcal P$ at points $X, Y, Z,$ and $H,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $t$ can be written as $\\tfrac{r}{s},$ where $r$ and $s$ are relatively prime positive integers. Find $r+s.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In plane \\mathcal P, triangle \\triangle XYZ has sides \\overline{XY} = [BLANK], \\overline{XZ} = [BLANK], and the angle \\angle XZY measures 90 degrees. Let point H represent the reflection of the centroid of triangle \\triangle XYZ across line \\overline{YZ}. Four spheres, all positioned on the same side of plane \\mathcal P, have radii of 1, 4, 5, and t, and are tangent to \\mathcal P at points X, Y, Z, and H, respectively. Each of these spheres also touches a second plane \\mathcal T and remains on the same side of \\mathcal T. The value of t can be expressed as \\tfrac{r}{s}, where r and s are positive integers that share no common factors. Determine the sum r+s.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle \\triangle XYZ is situated in the plane \\mathcal P, where the lengths are defined as \\overline{XY} = [BLANK], \\overline{XZ} = [BLANK], and \\angle XZY is a right angle measuring 90 degrees. Let H be defined as the reflection of the centroid of triangle \\triangle XYZ across the line segment \\overline{YZ}. There are four spheres, all located on the same side of the plane \\mathcal P, with radii measuring 1, 4, 5, and t, which are tangent to \\mathcal P at the points X, Y, Z, and H, respectively. These spheres also make contact with a second plane \\mathcal T, while remaining on the same side of it. The variable t can be represented as \\tfrac{r}{s}, where r and s are positive integers that do not have any common factors. Find the value of r+s.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the plane \\mathcal P, triangle \\triangle XYZ has sides defined by \\overline{XY} = [BLANK], \\overline{XZ} = [BLANK], and forms a right angle at \\angle XZY of 90 degrees. Let H denote the reflection of the centroid of triangle \\triangle XYZ across line segment \\overline{YZ}. There are four spheres, all positioned on one side of plane \\mathcal P, with radii of 1, 4, 5, and t that are tangent to the plane at points X, Y, Z, and H, respectively. Each sphere is also tangent to another plane \\mathcal T while staying on the same side of it. The value of t can be expressed in the form \\tfrac{r}{s}, where r and s are relatively prime positive integers. Calculate the sum r+s.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Triangle \\triangle XYZ is located in the plane \\mathcal P with \\overline{XY} measuring [BLANK], \\overline{XZ} measuring [BLANK], and the angle \\angle XZY equal to 90 degrees. Let H be the point that represents the reflection of the centroid of triangle \\triangle XYZ across line \\overline{YZ}. There exist four spheres, all on the same side of the plane \\mathcal P, having radii of 1, 4, 5, and t, and are tangent to the plane at points X, Y, Z, and H, respectively. Additionally, these spheres are tangent to a second plane \\mathcal T and remain on the same side of \\mathcal T. The value of t can be written as \\tfrac{r}{s}, where r and s are positive integers that are relatively prime. Determine the value of r+s.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In plane \\mathcal P, triangle \\triangle XYZ has lengths given by \\overline{XY} = [BLANK], \\overline{XZ} = [BLANK], and forms a right angle at \\angle XZY of 90 degrees. Let H be the reflection of the centroid of triangle \\triangle XYZ across the segment \\overline{YZ}. Four spheres, located on one side of the plane \\mathcal P, possess radii of 1, 4, 5, and t and touch the plane at points X, Y, Z, and H, respectively. These spheres are also tangent to a second plane \\mathcal T, remaining on the same side of it. The value of t can be expressed as \\tfrac{r}{s}, where r and s are positive integers that share no common factors. Find r+s.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Triangle $\\triangle STU$ lies in plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ be the reflection across $\\overline{TU}$ of the centroid of $\\triangle STU.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $2, 3, 5,$ and $v$ and are tangent to $\\mathcal P$ at points $S, T, U,$ and $K,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $v$ can be written as $\\tfrac{a}{b},$ where $a$ and $b$ are relatively prime positive integers. Find $a+b.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Triangle $\\triangle STU$ is situated in plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ denote the reflection of the centroid of $\\triangle STU$ across $\\overline{TU}.$ Four spheres, all positioned on the same side of $\\mathcal P,$ have radii $2, 3, 5,$ and $v$ and touch $\\mathcal P$ at points $S, T, U,$ and $K,$ respectively. Additionally, the four spheres are tangent to a different plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $v$ can be expressed as $\\tfrac{a}{b},$ where $a$ and $b$ are relatively prime positive integers. Determine $a+b.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle $\\triangle STU$ is situated in the plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ represent the reflection of the centroid of $\\triangle STU$ across the line segment $\\overline{TU}.$ Four spheres, all located on the same side of $\\mathcal P,$ have radii of $2, 3, 5,$ and $v$ and are tangent to $\\mathcal P$ at the points $S, T, U,$ and $K,$ respectively. Additionally, these four spheres are each tangent to a different plane $\\mathcal T$ and are positioned on the same side of $\\mathcal T.$ The value of $v$ can be expressed as $\\tfrac{a}{b},$ where $a$ and $b$ are positive integers that share no common factors. Determine the sum $a+b.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Triangle $\\triangle STU$ lies in plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ be the reflection across $\\overline{TU}$ of the centroid of $\\triangle STU.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $2, 3, 5,$ and $v$ and are tangent to $\\mathcal P$ at points $S, T, U,$ and $K,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $v$ can be written as $\\tfrac{a}{b},$ where $a$ and $b$ are relatively prime positive integersFind $a+b.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Triangle $\\triangle STU$ is situated in plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ denote the reflection of the centroid of $\\triangle STU$ across the line segment $\\overline{TU}.$ Four spheres, all located on the same side of $\\mathcal P,$ possess radii of $2, 3, 5,$ and $v$ and make contact with $\\mathcal P$ at points $S, T, U,$ and $K,$ respectively. Each of these four spheres is also tangent to another plane $\\mathcal T$ and resides on the same side of $\\mathcal T.$ The value of $v$ can be expressed as $\\tfrac{a}{b},$ where $a$ and $b$ are coprime positive integers. Determine the sum $a+b.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Triangle $\\triangle STU$ is situated in plane $\\mathcal P$ with $ST = [BLANK], SU = [BLANK],$ and $\\angle SUT = 90^\\circ.$ Let $K$ denote the reflection of the centroid of $\\triangle STU$ across the line segment $\\overline{TU}.$ There are four spheres, all positioned on the same side of $\\mathcal P,$ with radii $2, 3, 5,$ and $v$ that touch $\\mathcal P$ at points $S, T, U,$ and $K,$ respectively. Each of the four spheres is also tangent to an additional plane $\\mathcal T$ and is located on the same side of $\\mathcal T.$ The value of $v$ can be expressed as $\\tfrac{a}{b},$ where $a$ and $b$ are positive integers that have no common factors. Determine the sum $a+b.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Triangle $\\triangle ABC$ lies in plane $\\mathcal P$ with $AB = [BLANK], AC = [BLANK],$ and $\\angle BAC = 90^\\circ.$ Let $D$ be the reflection across $\\overline{BC}$ of the centroid of $\\triangle ABC. {}$ Four spheres, all on the same side of $\\mathcal P,$ have radii $1, 2, 3,$ and $r$ and are tangent to $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $r$ can be written as $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Find $m+n.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Triangle $\\triangle ABC$ is situated in plane $\\mathcal P$ with $AB = [BLANK], AC = [BLANK],$ and $\\angle BAC = 90^\\circ.$ Let $D$ represent the reflection of the centroid of $\\triangle ABC$ across line segment $\\overline{BC}.$ Four spheres, positioned on the same side of $\\mathcal P,$ have radii $1, 2, 3,$ and $r$ and touch $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. Each of the four spheres also makes contact with a second plane $\\mathcal T$ and is located on the same side of $\\mathcal T.$ The value of $r$ can be expressed as $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Determine the sum $m+n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle $\\triangle ABC$ is situated in plane $\\mathcal P$ with sides $AB = [BLANK], AC = [BLANK],$ and the angle $\\angle BAC = 90^\\circ.$ Let $D$ denote the reflection of the centroid of $\\triangle ABC$ across line $\\overline{BC}.$ Four spheres, positioned on the same side of $\\mathcal P,$ possess radii of $1, 2, 3,$ and $r$ and touch $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. Additionally, all four spheres are tangent to another plane $\\mathcal T$ and are located on the same side of $\\mathcal T.$ The value of $r$ can be expressed as $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integers. Determine the sum $m+n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Triangle $\\triangle ABC$ lies in plane $\\mathcal P$ with $AB = [BLANK], AC = [BLANK],$ and $\\angle BAC = 90^\\circ.$ Let $D$ be the reflection across $\\overline{BC}$ of the centroid of $\\triangle ABC. {}$ Four spheres, all on the same side of $\\mathcal P,$ have radii $1, 2, 3,$ and $r$ and are tangent to $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $r$ can be written as $\\tfrac{m}{n},$ where $m$ and $n$ are relatively prime positive integersFind $m+n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In plane $\\mathcal P$, triangle $\\triangle ABC$ is defined with $AB = [BLANK], AC = [BLANK],$ and the angle $\\angle BAC = 90^\\circ.$ Let $D$ represent the reflection of the centroid of triangle $\\triangle ABC$ across line segment $\\overline{BC}.$ Four spheres, all located on the same side of the plane $\\mathcal P,$ have radii of $1, 2, 3,$ and $r$ and touch $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. Additionally, these four spheres are tangent to another plane $\\mathcal T$ and are all situated on the same side of $\\mathcal T.$ The value of $r$ can be expressed as $\\tfrac{m}{n},$ where $m$ and $n$ are positive integers that share no common factors. Determine the sum $m+n.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In plane $\\mathcal P$, there exists triangle $\\triangle ABC$ such that $AB = [BLANK], AC = [BLANK],$ and $\\angle BAC = 90^\\circ.$ Let $D$ denote the reflection of the centroid of triangle $\\triangle ABC$ across the line segment $\\overline{BC}.$ Four spheres, all situated on the same side of $\\mathcal P,$ possess radii of $1, 2, 3,$ and $r$ and touch $\\mathcal P$ at points $A, B, C,$ and $D,$ respectively. Furthermore, these four spheres are each tangent to another plane $\\mathcal T$ and are also located on the same side of $\\mathcal T.$ The value of $r$ can be expressed as $\\tfrac{m}{n},$ where $m$ and $n$ are coprime positive integers. Determine the sum $m+n.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Triangle $\\triangle PQR$ lies in plane $\\mathcal P$ with $PQ = [BLANK], PR = [BLANK],$ and $\\angle PQR = 90^\\circ.$ Let $I$ be the reflection across $\\overline{QR}$ of the centroid of $\\triangle PQR.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $3, 1, 2,$ and $u$ and are tangent to $\\mathcal P$ at points $P, Q, R,$ and $I,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $u$ can be written as $\\tfrac{x}{y},$ where $x$ and $y$ are relatively prime positive integers. Find $x+y.$",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In plane $\\mathcal P$, triangle $\\triangle PQR$ has sides $PQ = [BLANK], PR = [BLANK],$ and the angle $\\angle PQR = 90^\\circ.$ Let $I$ denote the reflection of the centroid of triangle $\\triangle PQR$ across line segment $\\overline{QR}.$ There are four spheres, all positioned on the same side of $\\mathcal P,$ with radii of $3, 1, 2,$ and $u$ that touch $\\mathcal P$ at points $P, Q, R,$ and $I,$ respectively. Each of these spheres is also tangent to another plane, $\\mathcal T,$ while remaining on the same side of $\\mathcal T.$ The value of $u$ can be expressed as $\\tfrac{x}{y},$ where $x$ and $y$ are coprime positive integers. Determine the sum $x+y.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Triangle $\\triangle PQR$ is situated in the plane $\\mathcal P$ with sides $PQ = [BLANK], PR = [BLANK],$ and $\\angle PQR = 90^\\circ.$ Let $I$ denote the reflection of the centroid of $\\triangle PQR$ across the line segment $\\overline{QR}.$ Four spheres, all located on the same side of $\\mathcal P,$ possess radii of $3, 1, 2,$ and $u$ and are tangent to $\\mathcal P$ at the points $P, Q, R,$ and $I,$ respectively. Each of the four spheres is also tangent to a different plane $\\mathcal T$ and remains on the same side of $\\mathcal T.$ The value of $u$ can be expressed as $\\tfrac{x}{y},$ where $x$ and $y$ are relatively prime positive integers. Determine the sum $x+y.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Triangle $\\triangle PQR$ lies in plane $\\mathcal P$ with $PQ = [BLANK], PR = [BLANK],$ and $\\angle PQR = 90^\\circ.$ Let $I$ be the reflection across $\\overline{QR}$ of the centroid of $\\triangle PQR.$ Four spheres, all on the same side of $\\mathcal P,$ have radii $3, 1, 2,$ and $u$ and are tangent to $\\mathcal P$ at points $P, Q, R,$ and $I,$ respectively. The four spheres are also each tangent to a second plane $\\mathcal T$ and are all on the same side of $\\mathcal T.$ The value of $u$ can be written as $\\tfrac{x}{y},$ where $x$ and $y$ are relatively prime positive integersFind $x+y.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Triangle $\\triangle PQR$ is situated in the plane $\\mathcal P$ with $PQ = [BLANK], PR = [BLANK],$ and $\\angle PQR = 90^\\circ.$ Let $I$ denote the reflection of the centroid of $\\triangle PQR$ across the line segment $\\overline{QR}.$ Four spheres, all residing on the same side of $\\mathcal P,$ possess radii $3, 1, 2,$ and $u$ and are tangent to $\\mathcal P$ at the points $P, Q, R,$ and $I,$ respectively. Additionally, each of these four spheres is tangent to a second plane $\\mathcal T$ and is located on the same side of $\\mathcal T.$ The value of $u$ can be expressed as $\\tfrac{x}{y},$ where $x$ and $y$ are relatively prime positive integers. Determine $x+y.$",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Triangle $\\triangle PQR$ is situated in plane $\\mathcal P$ with $PQ = [BLANK], PR = [BLANK],$ and $\\angle PQR = 90^\\circ.$ Let $I$ denote the reflection of the centroid of $\\triangle PQR$ across the line segment $\\overline{QR}.$ Four spheres, all located on the same side of $\\mathcal P,$ possess radii of $3, 1, 2,$ and $u$ and touch $\\mathcal P$ at the points $P, Q, R,$ and $I,$ respectively. Each of the four spheres is also tangent to another plane $\\mathcal T$ and is positioned on the same side of $\\mathcal T.$ The value of $u$ can be expressed as $\\tfrac{x}{y},$ where $x$ and $y$ are relatively prime positive integers. Determine the sum $x+y.$",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

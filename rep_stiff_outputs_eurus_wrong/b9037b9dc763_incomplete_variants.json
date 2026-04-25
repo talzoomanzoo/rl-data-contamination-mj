@@ -1,0 +1,210 @@
+{
+  "original_question": "James gets a job selling used cars.  He sold 10 cars that cost $25,000 each.  The company paid 30% of that price to acquire the cars.  He got a 10% commission on the profits.  How much did he make? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily gets a job selling used bicycles. She sold [BLANK] bicycles that cost $450 each. The company paid 25% of that price to acquire the bicycles. She got a 12% commission on the profits. How much did she make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily has taken a job in selling pre-owned bicycles. She managed to sell [BLANK] bicycles, each priced at $450. The company invested 25% of that amount to obtain the bicycles. She earned a 12% commission based on the profits. What was her total earnings? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily started working in the sale of second-hand bicycles. She sold [BLANK] bicycles that were priced at $450 each. The company spent 25% of that figure to purchase the bicycles. She received a commission of 12% on the profits made. How much did she earn? Let's break it down step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily is employed selling used bicycles. She successfully sold [BLANK] bicycles, each costing $450. The company paid 25% of that price to acquire the bicycles. Her commission on the profits was 12%. What is her total earnings? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily has a job selling previously owned bicycles. She sold [BLANK] bicycles, with each having a price tag of $450. The company incurred a cost of 25% of that price to obtain the bicycles. She earned a 12% commission on the profits generated. How much did she receive? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily is working in the business of selling used bicycles. She sold [BLANK] bicycles, which were priced at $450 each. The company invested 25% of that cost to procure the bicycles. She received a commission of 12% on the profits. How much did she earn in total? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "James gets a job selling used cars. He sold [BLANK] cars that cost $25,000 each. The company paid 30% of that price to acquire the cars. He got a 10% commission on the profits. How much did he make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James has a position selling pre-owned vehicles. He managed to sell [BLANK] cars, each valued at $25,000. The dealership invested 30% of that amount to purchase the vehicles. He earned a 10% commission on the earnings. What was his total income? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James started a role in the sale of second-hand cars. He sold [BLANK] vehicles that were priced at $25,000 each. The firm spent 30% of this price to buy the cars. He received a commission of 10% on the profit made. How much did he earn? Let\u2019s examine it step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James took a job in selling used automobiles. He sold [BLANK] cars that were each $25,000. The company invested 30% of that price to obtain the cars. He earned a 10% commission on the profit generated. How much did he profit? Let\u2019s work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James is employed in the sale of pre-owned cars. He sold [BLANK] vehicles that cost $25,000 each. The company disbursed 30% of that price to acquire the cars. He receives a 10% commission on the profit. What is his total earnings? Let\u2019s break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James works in selling used vehicles. He has sold [BLANK] cars, each priced at $25,000. The company allocated 30% of that amount to purchase the vehicles. He earns a 10% commission on the profits realized. How much did he make? Let\u2019s think it through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sarah gets a job selling vintage records. She sold [BLANK] records that cost $18 each. The company paid 20% of that price to acquire the records. She got an 8% commission on the profits. How much did she make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah started a job selling vintage records. She managed to sell [BLANK] records, each priced at $18. The company spent 20% of that price to purchase the records. She earned an 8% commission on the profits. How much did she earn? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sarah is employed to sell vintage records. She sold [BLANK] records, with each one costing $18. The company invested 20% of that amount to buy the records. Her commission on the profits is 8%. What is her earnings? Let's examine this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sarah has a job where she sells vintage records. She sold [BLANK] records that were priced at $18 each. The company paid 20% of that price to obtain the records. She receives an 8% commission on the profits. How much money did she make? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah works selling vintage records for a living. She sold [BLANK] records that each cost $18. The company paid 20% of that cost to acquire the records. She earns an 8% commission on the profits. How much did she profit? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sarah takes on a job in selling vintage records. She sold [BLANK] records, each priced at $18. The company allocated 20% of that price to purchase the records. Her commission on the profits is 8%. How much did she earn in total? Let's solve this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael gets a job selling refurbished laptops. He sold [BLANK] laptops that cost $1,200 each. The company paid 35% of that price to acquire the laptops. He got a 15% commission on the profits. How much did he make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael has a position selling refurbished laptops. He managed to sell [BLANK] laptops at a price of $1,200 each. The company invests 35% of that amount to obtain the laptops. He receives a 15% commission based on the profits. What is his total earnings? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael works in sales of refurbished laptops. He was able to sell [BLANK] laptops priced at $1,200 each. The company spends 35% of that cost to buy the laptops. He earns a 15% commission from the profits. How much does he earn? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael is employed selling refurbished laptops. He has sold [BLANK] laptops that each cost $1,200. The company allocates 35% of this price to acquire the laptops. He receives a commission of 15% on the profit. What is the amount he made? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael's job involves selling refurbished laptops. He has successfully sold [BLANK] laptops, each priced at $1,200. The company invests 35% of that purchase price to acquire the laptops. He receives a 15% commission on his earnings from the profits. How much did he make in total? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael is in the business of selling refurbished laptops. He sold [BLANK] laptops which are priced at $1,200 each. The company pays 35% of that price to obtain the laptops. He earns a commission of 15% on the profits made. What is his total income? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "David gets a job selling furniture. He sold [BLANK] sets of chairs that cost $3,000 each. The company paid 40% of that price to acquire the chairs. He got a 10% commission on the profits. How much did he make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David starts a job in furniture sales. He sold [BLANK] sets of chairs priced at $3,000 each. The company spent 40% of that amount to purchase the chairs. He earned a 10% commission on the profits. What was his earnings? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David has taken a job selling furniture. He managed to sell [BLANK] sets of chairs, each costing $3,000. The company invested 40% of that price to acquire the chairs. He received a 10% commission on the profits. How much did he earn? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David is employed in the furniture sales industry. He sold [BLANK] sets of chairs, with each set valued at $3,000. The company allocated 40% of that cost to buy the chairs. He was rewarded with a 10% commission on the profits. How much did he profit? Let\u2019s break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David has a new job selling furniture. He sold [BLANK] sets of chairs that are priced at $3,000 each. The company paid 40% of that cost to procure the chairs. He was given a 10% commission on the profits. What is his total earnings? Let\u2019s think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David works in furniture sales now. He sold [BLANK] sets of chairs, each one costing $3,000. The company invested 40% of that price to obtain the chairs. He earned a 10% commission based on the profits. How much did he make? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Linda gets a job selling smartphones. She sold [BLANK] smartphones that cost $600 each. The company paid 28% of that price to acquire the smartphones. She got a 10% commission on the profits. How much did she make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Linda started working at a job where she sells smartphones. She managed to sell [BLANK] smartphones, each priced at $600. The company invested 28% of that amount to purchase the smartphones. She earned a 10% commission on the profits. How much did she earn? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Linda has taken a position in smartphone sales. She sold [BLANK] smartphones, with each one costing $600. The company spent 28% of that cost to acquire the smartphones. Her commission on the profits was 10%. What is her total earnings? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Linda is employed in a job that involves selling smartphones. She sold [BLANK] smartphones, each having a cost of $600. The company paid 28% of that retail price to obtain the smartphones. She received a commission of 10% on the profits. How much did she earn? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Linda has a job where she sells smartphones. She sold [BLANK] smartphones at a price of $600 each. The company allocated 28% of that price to acquire the smartphones. She receives a 10% commission on the profits. What total amount did she make? Let's examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Linda is in a job that involves selling smartphones. She sold [BLANK] smartphones, each one priced at $600. The company invested 28% of that price to buy the smartphones. She earns a 10% commission on the profit made. How much did she make? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

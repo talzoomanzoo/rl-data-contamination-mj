@@ -1,0 +1,27 @@
+{
+  "dataset": "numina_cn_k12",
+  "original_question_id": 0,
+  "original_question": "Given a sequence $\\{a_n\\}$ with the general term formula $a_n = A t^{n-1} + Bn + 1$, where $A$, $B$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + x + 2)^{10} = b_0 + b_1 (x + 1) + b_2 (x + 1)^2 + \\ldots + b_{20} (x + 1)^{20}$, where $b_i$ ($i = 0, 1, 2, \\ldots, 20$) are real constants.\n1. If $A = 0$, $B = 1$, find the value of $\\sum\\limits_{n = 1}^{10} a_n b_{2n}$;\n2. If $A = 1$, $B = 0$, and $\\sum\\limits_{n = 1}^{10} (2 a_n - 2^n) b_{2n} = 2^{11} - 2$, find the value of the real number $t$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "Given a sequence \\{a_n\\} with the general term formula $a_n = 2 t^{n-1} + 3n + 5$, where $2$, $3$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + 2x + 3)^{8} = c_0 + c_1 (x + 2) + c_2 (x + 2)^2 + \\ldots + c_{16} (x + 2)^{16}$, where $c_i$ ($i = 0, 1, 2, \\ldots, 16$) are real constants. 1. If $2 = 0$, $3 = 1$, find the value of $\\sum\\limits_{n = 1}^{8} a_n c_{2n}$; 2. If $2 = 1$, $3 = 0$, and $\\sum\\limits_{n = 1}^{8} (5 a_n - 3^n) c_{2n} = 3^{9} - 3$, find the value of the real number $t$."
+    },
+    {
+      "id": 2,
+      "question": "Given a sequence \\{a_n\\} with the general term formula $a_n = 4 t^{n-1} + 5n + 6$, where $4$, $5$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + 3x + 1)^{12} = d_0 + d_1 (x + 3) + d_2 (x + 3)^2 + \\ldots + d_{24} (x + 3)^{24}$, where $d_i$ ($i = 0, 1, 2, \\ldots, 24$) are real constants. 1. If $A = 0$, $B = 2$, find the value of $\\sum\\limits_{n = 1}^{12} a_n d_{2n}$; 2. If $A = 2$, $B = 0$, and $\\sum\\limits_{n = 1}^{12} (3 a_n - 4^n) d_{2n} = 4^{13} - 4$, find the value of the real number $t$."
+    },
+    {
+      "id": 3,
+      "question": "Given a sequence \\{a_n\\} with the general term formula $a_n = 5 t^{n-1} + 6n + 4$, where $5$, $6$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + 4x + 5)^{6} = e_0 + e_1 (x + 4) + e_2 (x + 4)^2 + \\ldots + e_{12} (x + 4)^{12}$, where $e_i$ ($i = 0, 1, 2, \\ldots, 12$) are real constants. 1. If $A = 1$, $B = 3$, find the value of $\\sum\\limits_{n = 1}^{6} a_n e_{2n}$; 2. If $A = 0$, $B = 1$, and $\\sum\\limits_{n = 1}^{6} (4 a_n - 5^n) e_{2n} = 5^{7} - 5$, find the value of the real number $t$."
+    },
+    {
+      "id": 4,
+      "question": "Given a sequence \\{a_n\\} with the general term formula $a_n = 1 t^{n-1} + 2n + 7$, where $1$, $2$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + 5x + 8)^{14} = f_0 + f_1 (x + 5) + f_2 (x + 5)^2 + \\ldots + f_{28} (x + 5)^{28}$, where $f_i$ ($i = 0, 1, 2, \\ldots, 28$) are real constants. 1. If $A = 0$, $B = 4$, find the value of $\\sum\\limits_{n = 1}^{14} a_n f_{2n}$; 2. If $A = 3$, $B = 0$, and $\\sum\\limits_{n = 1}^{14} (6 a_n - 6^n) f_{2n} = 6^{15} - 6$, find the value of the real number $t$."
+    },
+    {
+      "id": 5,
+      "question": "Given a sequence \\{a_n\\} with the general term formula $a_n = 3 t^{n-1} + 4n + 2$, where $3$, $4$, and $t$ are constants with $t > 1$ and $n \\in \\mathbb{N}^*$. The following equation holds: $(x^2 + 6x + 9)^{9} = g_0 + g_1 (x + 6) + g_2 (x + 6)^2 + \\ldots + g_{18} (x + 6)^{18}$, where $g_i$ ($i = 0, 1, 2, \\ldots, 18$) are real constants. 1. If $A = 1$, $B = 5$, find the value of $\\sum\\limits_{n = 1}^{9} a_n g_{2n}$; 2. If $A = 0$, $B = 2$, and $\\sum\\limits_{n = 1}^{9} (7 a_n - 7^n) g_{2n} = 7^{10} - 7$, find the value of the real number $t$."
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid $76,000 for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined. Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sophie asked her colleague, Mark, how much his bike was worth. Mark answered that he paid [BLANK] for the bike. If Sophie's bike is 20% less expensive than Mark's, calculate the value of the two bikes combined.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophie inquired of her coworker, Mark, the price of his bicycle. Mark replied that he invested [BLANK] in the bike. If Sophie's bicycle costs 20% less than Mark's, determine the total value of both bicycles.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophie posed a question to her workmate, Mark, regarding the worth of his bicycle. Mark stated that he spent [BLANK] on it. Given that Sophie's bike is 20% cheaper than Mark's, find the sum of the values of the two bicycles.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophie asked her associate, Mark, what his bike was valued at. Mark responded that the cost of the bike was [BLANK]. If Sophie's bike is priced 20% lower than Mark's, compute the combined worth of both bikes.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophie queried her colleague, Mark, about the worth of his bicycle. Mark indicated that he paid [BLANK] for it. If Sophie's bike is 20% less in price than Mark's, calculate the total worth of the two bicycles together.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophie sought information from her coworker, Mark, concerning the value of his bike. Mark answered that he purchased it for [BLANK]. If Sophie's bike is 20% less costly than Mark's, find the combined value of both bicycles.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Paul asked his friend, Sarah, how much her watch was worth. Sarah answered that she paid [BLANK] for the watch. If Paul's watch is 5% less expensive than Sarah's, calculate the value of the two watches combined.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Paul inquired about the value of Sarah's watch. Sarah replied that she spent [BLANK] on the watch. Since Paul's watch costs 5% less than Sarah's, determine the total worth of both watches together.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Paul asked Sarah the price of her watch. Sarah said she bought it for [BLANK]. Given that Paul's watch is 5% cheaper than Sarah's, find the combined value of their watches.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Paul wanted to know how much Sarah's watch was. Sarah indicated that she paid [BLANK] for it. If Paul's watch is 5% lower in price than Sarah's, calculate the total value of both watches.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Paul posed a question to Sarah regarding the cost of her watch. Sarah mentioned that the price she paid was [BLANK]. If Paul's watch is 5% less costly than Sarah's, compute the total value of the two watches.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Paul queried Sarah about the worth of her watch. Sarah responded that it cost her [BLANK]. If Paul's watch is 5% less than Sarah's, assess the combined value of both watches.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Carlos asked his friend, Linda, how much her car was worth. Linda answered that she paid [BLANK] for the car. If Carlos's car is 25% less expensive than Linda's, calculate the value of the two cars combined.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Carlos inquired with his friend, Linda, about the value of her car. Linda replied that she spent [BLANK] on the car. Since Carlos's car costs 25% less than Linda's, determine the total value of both cars together.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Carlos posed a question to his friend, Linda, regarding the worth of her vehicle. Linda responded that she purchased the car for [BLANK]. If Carlos's car is 25% cheaper than Linda's, find the combined value of both cars.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Carlos asked his friend, Linda, what her automobile was valued at. Linda stated that the amount she paid for the car was [BLANK]. Given that Carlos's car is 25% lower in price than Linda's, compute the total worth of the two cars.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Carlos queried his friend, Linda, about how much her car was valued. Linda said she paid [BLANK] for her vehicle. If Carlos's car is priced 25% less than Linda's, calculate the total worth of both cars.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Carlos questioned his friend, Linda, on the worth of her car. Linda replied that the cost she incurred for the car was [BLANK]. If Carlos's car is 25% less in price compared to Linda's, find the combined value of both vehicles.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "David asked his sister, Emily, how much her laptop was worth. Emily answered that she paid [BLANK] for the laptop. If David's laptop is 15% less expensive than Emily's, calculate the value of the two laptops combined.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David inquired about the value of Emily's laptop. Emily replied that she spent [BLANK] on it. Since David's laptop costs 15% less than Emily's, determine the total value of both laptops together.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David was curious about the worth of Emily's laptop. Emily mentioned that she purchased it for [BLANK]. If David's laptop is priced 15% lower than Emily's, find the combined value of the two laptops.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David wanted to know how much Emily's laptop was valued at. Emily stated that she invested [BLANK] in it. Given that David's laptop is 15% cheaper than Emily's, calculate the sum of the values of both laptops.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David posed a question to Emily regarding the cost of her laptop. Emily responded that she paid [BLANK] for it. If David's laptop is 15% less costly than Emily's, compute the total worth of both laptops.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David asked his sister, Emily, what the value of her laptop was. Emily answered that she had spent [BLANK] on it. If David's laptop is 15% more affordable than Emily's, find the total value of the two laptops.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Rachel asked her brother, Tom, how much his camera was worth. Tom answered that he paid [BLANK] for the camera. If Rachel's camera is 10% less expensive than Tom's, calculate the value of the two cameras combined.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Rachel inquired about the value of her brother Tom's camera. Tom replied that he spent [BLANK] on the camera. Since Rachel's camera costs 10% less than Tom's, determine the total value of both cameras together.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Rachel wanted to know how much Tom's camera was valued at. Tom stated that he bought it for [BLANK]. Given that Rachel's camera is 10% cheaper than Tom's, find the combined worth of the two cameras.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rachel posed a question to her brother Tom regarding the price of his camera. Tom indicated that the camera cost him [BLANK]. With Rachel's camera being 10% less costly than Tom's, compute the total price of both cameras.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Curious about her brother Tom's camera, Rachel asked him for its worth. Tom mentioned that he paid [BLANK] for it. If Rachel's camera is 10% lower in price than Tom's, calculate the overall value of both cameras.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rachel queried her brother Tom about the worth of his camera. Tom responded that he had spent [BLANK] on it. Since Rachel's camera is priced 10% less than Tom's, find the combined value of their cameras.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid [BLANK] for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined. Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Juan inquired with his neighbor, Herb, about the value of his house. Herb replied that he bought the house for [BLANK]. Since Juan's house costs 30% less than Herb's, determine the total value of both houses together. Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Juan posed a question to his neighbor, Herb, regarding the worth of his house. Herb responded that he spent [BLANK] on the house. Given that Juan's house is 30% cheaper than Herb's, find the combined value of their houses. Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Juan asked his neighbor, Herb, what the worth of his house was. Herb indicated that he paid [BLANK] for the property. If Juan's house is 30% less costly than Herb's, calculate the total value of both houses. Let's proceed step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Juan queried his neighbor, Herb, about how much his house was valued at. Herb stated that he invested [BLANK] in the house. Considering that Juan's house is 30% lower in price than Herb's, compute the overall value of the two houses. Let's think through this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Juan asked his neighbor, Herb, how much his house was appraised for. Herb disclosed that he purchased the house for [BLANK]. Since Juan's house is worth 30% less than Herb's, determine the combined worth of both houses. Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

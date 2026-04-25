@@ -1,0 +1,62 @@
+{
+  "original_question": "Three people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the total amount to be divided\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Three people divided an amount of $1920. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $80 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Three people divided an amount of $2400. The second took $100 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $100 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Three people divided an amount of $1500. The second took $50 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $50 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Three people divided an amount of $3000. The second took $120 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $120 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Three people divided an amount of $1800. The second took $70 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $70 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Three people divided an amount of $2100. The second took $90 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Three people divided an amount of [BLANK]. The second took $90 more than the first and the third took twice what the second took. Calculate the share of the first one. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the total amount to be divided\""
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E\"}\n",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "!B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G with k = [BLANK], n_sat = 3",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If n_sat equals 3 and k is [BLANK], then the clauses are !B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that n_sat is 3, find k as [BLANK] for the following clauses: !B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider the situation where n_sat is 3, and let k represent [BLANK] in the clauses: !B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With n_sat set to 3, determine the value of k, which is [BLANK], for the clauses: !B!C!G & !B!EF & !AC!D & !AC!E & !AB!C & !AB!D & !AD!G & !C!D!G & !CE!G & B!C!G & AB!E & AB!G & DF!G",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that n_sat is 3 and k equals [BLANK], the clause is expressed as: !C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With n_sat set to 3 and k as [BLANK], the clause can be written as: !C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If n_sat is 3 and k is represented by [BLANK], the clause is defined as: !C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let n_sat equal 3 and let k be [BLANK], then the clause is: !C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming n_sat is 3 and k is [BLANK], the clause can be represented as: !C!D!H & !B!CD & !AC!E & !AE!F & !AB!C & !AB!D & !AD!H & !B!D!H & !BF!H & A!C!H & AB!F & AB!H & CE!H",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "!A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J where n_sat is 3 and k is [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With n_sat equal to 3, find k such that !A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J holds true, and k is [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let k be [BLANK] while n_sat is set to 3, and ensure that the following conditions are satisfied: !A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that n_sat is 3, determine the value of k, represented as [BLANK], such that the equation !A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J is satisfied",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming n_sat is 3, find k, denoted by [BLANK], that meets the following criteria: !A!E!J & !A!CF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!J & !B!D!J & !BF!J & A!C!J & AB!F & AB!J & CE!J",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "!A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E where n_sat is 3 and k is [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that n_sat equals 3 and k is [BLANK], the clauses are !A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The problem states n_sat is 3 and k equals [BLANK] with the following clauses: !A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Assigning n_sat as 3 and letting k be [BLANK], we have the clauses: !A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With n_sat set to 3 and k represented by [BLANK], the clauses include: !A!B!E & !A!CD & !AB!C & !AB!D & !AB!E & !ABD & !AD!E & !B!C!E & !BD!E & A!B!E & AB!D & AB!E & CD!E",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "!A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F, where n_sat is 3 and k equals [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that n_sat is 3 and k is [BLANK], the clauses are !A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The conditions are n_sat = 3 and k set to [BLANK], with the following clauses: !A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let n_sat be 3 and k represent [BLANK], while the clauses are defined as !A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With n_sat equal to 3 and k as [BLANK], the expressions are !A!C!F & !A!DE & !AB!C & !AB!D & !AC!E & !ABD & !AD!F & !B!C!F & !BD!F & A!B!F & AB!D & AB!F & DE!F",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "sat",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "{\"n_sat\": 3, \"k\": [BLANK], \"clause\": \"!A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I\"}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "!A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I, where n_sat equals 3 and k is [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With n_sat set to 3, and k being [BLANK], the clauses are: !A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The value of n_sat is 3; let k represent [BLANK] in the following clauses: !A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Consider n_sat as 3 and k as [BLANK], applied to the clauses: !A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming n_sat is 3 and k equals [BLANK], we have the following clauses: !A!D!I & !A!EF & !BC!D & !BC!E & !AB!C & !AB!D & !AD!I & !C!E!I & !BF!I & C!D!I & AB!E & AB!I & DF!I",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

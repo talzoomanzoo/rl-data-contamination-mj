@@ -1,0 +1,210 @@
+{
+  "original_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 4x^2 + x - 1,$ then what is $g(x)$ if $f(x) = x^4 - 3x^2 - x + 5$?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 7x^2 + x - 5,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials with the equation $f(x) + g(x) = 7x^2 + x - 5,$ what is the expression for $g(x)$ when $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 7x^2 + x - 5,$ determine $g(x)$ if $f(x)$ is given as $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If the polynomials $f(x)$ and $g(x)$ satisfy the equation $f(x) + g(x) = 7x^2 + x - 5,$ what can we find for $g(x)$ given that $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials fulfilling the requirement $f(x) + g(x) = 7x^2 + x - 5.$ What is $g(x)$ when $f(x)$ is expressed as $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 7x^2 + x - 5,$ what is the function $g(x)$ when $f(x)$ is defined as $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 5x^2 + 2x + 3,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials satisfying the equation $f(x) + g(x) = 5x^2 + 2x + 3,$ what is the expression for $g(x)$ if $f(x)$ is defined as [BLANK]?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming $f(x)$ and $g(x)$ are polynomials such that their sum $f(x) + g(x) = 5x^2 + 2x + 3,$ determine $g(x)$ when $f(x)$ takes the form [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If we have polynomials $f(x)$ and $g(x)$ where $f(x) + g(x) equals 5x^2 + 2x + 3,$ find $g(x)$ given that $f(x)$ is [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials for which it holds that $f(x) + g(x) = 5x^2 + 2x + 3.$ What is $g(x)$ if we know $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Suppose $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x)$ equals $5x^2 + 2x + 3.$ What can be determined about $g(x)$ if $f(x)$ is [BLANK]?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 6x^2 - 3x + 4,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials satisfying $f(x) + g(x) = 6x^2 - 3x + 4,$ determine $g(x)$ if $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming $f(x)$ and $g(x)$ are polynomials where $f(x) + g(x) = 6x^2 - 3x + 4,$ find $g(x)$ when $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If $f(x)$ and $g(x)$ represent polynomials such that $f(x) + g(x) = 6x^2 - 3x + 4,$ what is $g(x)$ provided that $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials for which $f(x) + g(x) = 6x^2 - 3x + 4.$ What is the expression for $g(x)$ if $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ and $g(x)$ are polynomials with the equation $f(x) + g(x) = 6x^2 - 3x + 4,$ find the value of $g(x)$ given that $f(x) = [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 4x^2 + x - 1,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials with the equation $f(x) + g(x) = 4x^2 + x - 1,$ determine $g(x)$ if it is known that $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x)$ equals $4x^2 + x - 1,$ what is the expression for $g(x)$ when $f(x)$ is defined as $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If $f(x)$ and $g(x)$ are polynomials satisfying the relation $f(x) + g(x) = 4x^2 + x - 1,$ find out what $g(x)$ is if $f(x)$ is represented by $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials such that their sum $f(x) + g(x)$ equals $4x^2 + x - 1.$ What can $g(x)$ be if $f(x)$ is given as $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that the polynomials $f(x)$ and $g(x)$ fulfill the equation $f(x) + g(x) = 4x^2 + x - 1,$ what will $g(x)$ be if it is known that $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 8x^2 + 4x + 1,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming $f(x)$ and $g(x)$ are polynomials that satisfy the equation $f(x) + g(x) = 8x^2 + 4x + 1,$ what is the expression for $g(x)$ if $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials such that the sum $f(x) + g(x)$ equals $8x^2 + 4x + 1,$ determine $g(x)$ when $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials fulfilling the condition $f(x) + g(x) = 8x^2 + 4x + 1.$ What is the value of $g(x)$ if it is known that $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "If $f(x)$ and $g(x)$ are polynomials with the relationship $f(x) + g(x) = 8x^2 + 4x + 1,$ find $g(x)$ given that $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming $f(x)$ and $g(x)$ are polynomials fulfilling the equation $f(x) + g(x) = 8x^2 + 4x + 1,$ what expression does $g(x)$ take when $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "If $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 3x^2 - x + 7,$ then what is $g(x)$ if $f(x) = [BLANK]$?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ and $g(x)$ are polynomials where $f(x) + g(x) = 3x^2 - x + 7,$ find $g(x)$ given that $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let $f(x)$ and $g(x)$ be polynomials such that the equation $f(x) + g(x) = 3x^2 - x + 7$ holds. What is $g(x)$ if $f(x)$ is defined as $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If $f(x)$ and $g(x)$ represent polynomials and satisfy the condition $f(x) + g(x) = 3x^2 - x + 7,$ determine $g(x)$ when $f(x) = [BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that $f(x)$ and $g(x)$ are polynomials and fulfill the equation $f(x) + g(x) = 3x^2 - x + 7,$ what is the expression for $g(x)$ if $f(x)$ equals $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the case that $f(x)$ and $g(x)$ are polynomials such that $f(x) + g(x) = 3x^2 - x + 7,$ what would $g(x)$ be if it is known that $f(x) = [BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "The number of songs in a playlist is 300. If John has 20 such playlists, and each song is 10 hours long, how many hours will the 20 playlists last in total? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The number of songs in a playlist is 300. If John has 20 such playlists, and each song is [BLANK] long, how many hours will the 20 playlists last in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "There are 300 songs in a playlist. If John owns 20 playlists, and each song lasts [BLANK] minutes, what is the total duration in hours for the 20 playlists? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A playlist contains 300 songs. Given that John has 20 of these playlists, and each song has a duration of [BLANK], how many hours do the 20 playlists combine to last? We will examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The total number of songs in a playlist is 300. If John possesses 20 playlists, and the length of each song is [BLANK] minutes, how many hours do the 20 playlists amount to in total? Let's break this down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a playlist, there are 300 songs. If John creates 20 playlists, and every song is [BLANK] minutes long, what will be the total duration in hours for the 20 playlists? We will go through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Each playlist consists of 300 songs. If John has 20 of these playlists, and the duration of each song is [BLANK], how many hours will the total time of the 20 playlists encompass? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The number of dishes in a restaurant is 150. If Alice has 10 such restaurants, and each dish takes [BLANK] hours to prepare, how many hours will the 10 restaurants take to prepare all the dishes in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "There are 150 dishes available in a restaurant. If Alice owns 10 of these restaurants, and each dish requires [BLANK] hours for preparation, what is the total number of hours needed for all dishes across the 10 restaurants? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A restaurant has a total of 150 dishes. If Alice manages 10 such restaurants, and preparing each dish requires [BLANK] hours, how many total hours will it take to prepare all the dishes in these 10 restaurants? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a restaurant, there are 150 different dishes. Assuming Alice has 10 of these restaurants, and each dish takes [BLANK] hours to make, how many hours will it require to prepare all dishes across the 10 restaurants in total? We'll reason through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total number of dishes in a restaurant is 150. If Alice operates 10 restaurants, and each dish requires [BLANK] hours for its preparation, what will be the total hours needed to prepare all the dishes in these 10 restaurants? Let\u2019s consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A restaurant offers 150 dishes in total. If Alice has 10 such establishments, and each dish takes [BLANK] hours to get ready, what is the overall time required to prepare all dishes in the 10 restaurants? We will work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The number of paintings in an exhibition is 120. If Mark has 25 such exhibitions, and each painting takes [BLANK] hours to view, how many hours will the 25 exhibitions last in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "There are 120 paintings featured in an exhibition. Mark hosts 25 exhibitions, and if each painting requires [BLANK] hours for viewing, what is the total viewing time for all 25 exhibitions? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An exhibition contains 120 paintings. Given that Mark organizes 25 exhibitions and each painting needs [BLANK] hours to be viewed, what will be the total duration of all 25 exhibitions? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an exhibition, there are 120 paintings. Mark holds 25 such exhibitions, and if each painting takes [BLANK] hours to appreciate, how many hours will all 25 exhibitions amount to in total? Let's proceed step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total number of paintings showcased in an exhibition is 120. If Mark conducts 25 exhibitions, with each painting requiring [BLANK] hours to observe, how long will the 25 exhibitions take altogether? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "There are 120 paintings in an art exhibition. Mark has arranged 25 of these exhibitions, and if each painting takes [BLANK] hours to look at, what will the overall duration of the 25 exhibitions be? Let's examine this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The number of cars in a dealership is 200. If Emily has 30 such dealerships, and each car requires [BLANK] hours of maintenance, how many hours will the 30 dealerships spend on maintenance in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A dealership has a total of 200 cars. If Emily operates 30 of these dealerships, and each car needs [BLANK] hours for maintenance, what will be the total maintenance hours for all 30 dealerships combined? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The total count of cars at a dealership is 200. Assuming Emily manages 30 such dealerships, and every car necessitates [BLANK] hours of maintenance, what is the overall maintenance time for the 30 dealerships? We will examine this systematically and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 200 cars available in a dealership. If Emily owns 30 dealerships, and each car requires [BLANK] hours of upkeep, how many total hours will the 30 dealerships allocate for maintenance? Let's break this down step by step and output the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a car dealership, there are 200 vehicles. If Emily has 30 dealerships and each vehicle demands [BLANK] hours for maintenance, what total maintenance hours will the 30 dealerships account for? We will consider this carefully step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The dealership consists of 200 cars. If Emily runs 30 of these dealerships, and each car needs [BLANK] hours for maintenance, how many hours in total will be spent on maintenance across all 30 dealerships? Let's reason through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The number of students in a school is 500. If David has 5 such schools, and each student requires [BLANK] hours of tutoring, how many hours will the 5 schools provide tutoring in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "There are 500 students enrolled in a school. If David owns 5 of these schools, and every student needs [BLANK] hours of tutoring, what is the total number of tutoring hours provided by the 5 schools combined? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a school, the student population is 500. Assuming David has 5 such schools, and each student needs [BLANK] hours of tutoring, how many total tutoring hours will be offered by all 5 schools? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The total number of students at a school is 500. If David runs 5 of these schools, and each student requires [BLANK] hours of tutoring, how many tutoring hours will the 5 schools collectively provide? Let\u2019s work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A school has 500 students in attendance. If David manages 5 of these schools, and every student needs [BLANK] hours of tutoring, what is the total tutoring time that the 5 schools will offer? Let's think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The student count in a school is 500. If David operates 5 such schools, and each student requires [BLANK] hours of tutoring, how many hours of tutoring will all 5 schools together provide? Let\u2019s analyze this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The number of books in a library is 450. If Sarah has 15 such libraries, and each book takes [BLANK] hours to read, how many hours will the 15 libraries take to read in total? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a library, there are 450 books. If Sarah owns 15 of these libraries, and each book requires [BLANK] hours to complete, what is the total reading time for all 15 libraries? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A library contains 450 books. Given that Sarah has 15 such libraries, and each book takes [BLANK] hours to read, how much time in total will it take to read all the books across the 15 libraries? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There are 450 books within a library. If Sarah possesses 15 of these libraries, and every book needs [BLANK] hours to be read, what will be the cumulative reading time for the 15 libraries? Let's proceed step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total number of books in a library is 450. If Sarah has 15 libraries of this kind, and it takes [BLANK] hours to read each book, how many hours will it take to read all the books in the 15 libraries combined? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In one library, there are 450 books. If Sarah owns 15 similar libraries, and every book necessitates [BLANK] hours of reading, what will be the total hours required to read the books in all 15 libraries? Let's go through this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

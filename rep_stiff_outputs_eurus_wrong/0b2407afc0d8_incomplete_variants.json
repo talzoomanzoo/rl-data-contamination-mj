@@ -1,0 +1,210 @@
+{
+  "original_question": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is 26. How old is Leo? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "James is half of Sophia's age and two years younger than Benjamin. Benjamin is [BLANK]. How old is Sophia?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James is 50% of Sophia's age and is two years younger than Benjamin. Benjamin is [BLANK]. What is Sophia's age?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James is half the age of Sophia and is two years younger than Benjamin. Benjamin is [BLANK]. How old is Sophia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James's age is one-half of Sophia's and he is two years younger than Benjamin. Benjamin is [BLANK]. What age does Sophia have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James represents half of Sophia's age and is two years younger than Benjamin. Benjamin is [BLANK]. How old is Sophia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James equals half of Sophia's age and is two years younger than Benjamin. Benjamin is [BLANK]. What is the age of Sophia?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Ethan is half of Olivia's age and seven years younger than Noah. Noah is [BLANK]. How old is Olivia?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan's age is half of Olivia's, and he is seven years younger than Noah. Noah is [BLANK]. What is Olivia's age?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan is 50% of Olivia's age and is seven years younger than Noah. Noah is [BLANK]. How old is Olivia?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia is twice as old as Ethan, who is also seven years younger than Noah. Noah is [BLANK]. What age does Olivia have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan's age is one-half of Olivia's, and he is seven years younger than Noah. Noah is [BLANK]. How old must Olivia be?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan is one-half the age of Olivia and is seven years younger than Noah. Noah is [BLANK]. Determine Olivia's age.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Chloe is half of Max's age and four years younger than Emma. Emma is [BLANK]. How old is Max?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Chloe's age is half of Max's and she is four years younger than Emma. Emma is [BLANK]. What is Max's age?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Chloe is 50% of Max's age and is four years younger than Emma. Emma is [BLANK]. How old is Max?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Chloe's age equals half of Max's age and she is four years younger than Emma. Emma is [BLANK]. Determine Max's age.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Chloe is one-half of Max's age and is four years younger than Emma. Emma is [BLANK]. What age does Max have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Chloe represents half of Max's age and is four years younger than Emma. Emma is [BLANK]. Find out how old Max is.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Marcus is half of Leo\u2019s age and five years younger than Deanna. Deanna is [BLANK]. How old is Leo? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Marcus is 50% of Leo's age and is five years younger than Deanna. Deanna is [BLANK]. What is Leo's age? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Marcus's age is half that of Leo and he is five years younger than Deanna. Deanna is [BLANK]. How old is Leo? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Marcus is one-half the age of Leo and is five years younger than Deanna. Deanna is [BLANK]. What is Leo's age? Let's reason through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Marcus's age equals half of Leo's and he is five years younger compared to Deanna. Deanna is [BLANK]. How old is Leo? Let's solve this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Marcus represents half of Leo's age and is five years younger than Deanna. Deanna is [BLANK]. What age does Leo have? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam is half of Ava's age and six years younger than Isabella. Isabella is [BLANK]. How old is Ava?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam's age is half that of Ava's and he is six years younger than Isabella. Isabella is [BLANK]. What is Ava's age?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ava is twice as old as Liam, who is also six years younger than Isabella. Isabella is [BLANK]. How old is Ava?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam is 50% of Ava's age and is six years younger than Isabella. Isabella is [BLANK]. Determine Ava's age.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ava's age is double that of Liam, who is six years younger than Isabella. Isabella is [BLANK]. What age does Ava have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam is one-half of Ava's age and is also six years younger than Isabella. Isabella is [BLANK]. How old is Ava?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Sofia is half of Alex's age and three years younger than Mia. Mia is [BLANK]. How old is Alex?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sofia's age is half of Alex's age and she is three years younger than Mia. Mia is [BLANK]. What is Alex's age?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sofia is aged half as much as Alex, and she is three years younger than Mia. Mia is [BLANK]. How old is Alex?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sofia is one-half of Alex's age and is three years younger than Mia. Mia is [BLANK]. Determine Alex's age.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sofia's age equals half of Alex's age, and she is three years younger than Mia. Mia is [BLANK]. What age does Alex have?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sofia is fifty percent of Alex's age and is three years younger than Mia. Mia is [BLANK]. Find Alex's age.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

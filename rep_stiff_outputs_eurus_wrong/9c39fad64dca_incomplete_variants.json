@@ -1,0 +1,210 @@
+{
+  "original_question": "The Easter egg hunt team hid 100 eggs. The Smith twins each found 30 eggs. All the other eggs except 10 were found by their friends. How many eggs did the friends find? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The birdwatching group spotted [BLANK] birds. The Lee sisters each spotted 50 birds. All the other birds except 20 were seen by their family. How many birds did the family see? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The birdwatching team observed [BLANK] birds. Each of the Lee sisters counted 50 birds. Their family saw all the remaining birds, except for 20. How many birds did the family observe? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The birdwatching group identified [BLANK] birds. Both Lee sisters each recorded 50 birds. All other birds, apart from 20, were seen by their family. How many birds did the family witness? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The birdwatchers noticed [BLANK] birds. Each of the Lee sisters reported spotting 50 birds. Their family observed all the other birds, excluding 20. How many birds did the family spot? Let's solve this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The birdwatching crew found [BLANK] birds. The Lee sisters each documented 50 birds. All other birds, except for 20, were noticed by their family. How many birds did the family see? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The birdwatching team recorded [BLANK] birds. Each of the Lee sisters saw 50 birds. All of the remaining birds, minus 20, were observed by their family. How many birds did the family view? Let's think this through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The art class created [BLANK] paintings. The Brown cousins each made 20 paintings. All the other paintings except 5 were made by their friends. How many paintings did the friends make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The art class produced [BLANK] pieces of art. Each of the Brown cousins created 20 artworks. All remaining paintings, except for 5, were crafted by their friends. How many artworks did the friends contribute? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the art class, there were [BLANK] artworks made. The Brown cousins each crafted 20 pieces. All other paintings, with the exception of 5, were completed by their friends. What is the total number of paintings made by the friends? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The art class finished [BLANK] works of art. The Brown cousins produced 20 paintings each. All the other artworks, aside from 5, were created by their friends. How many paintings did the friends end up making? We will reason through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The total number of paintings created by the art class is [BLANK]. Each cousin from the Brown family made 20 paintings. All paintings other than 5 were made by their friends. Can you determine how many paintings were created by the friends? Let\u2019s think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The art class managed to create [BLANK] paintings. Each of the Brown cousins produced 20 paintings. All other paintings, apart from 5, were done by their friends. How many paintings did the friends make? Let\u2019s break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The Easter egg hunt team hid [BLANK] eggs. The Smith twins each found 30 eggs. All the other eggs except 10 were found by their friends. How many eggs did the friends find? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The team that organized the Easter egg hunt concealed [BLANK] eggs. Each of the Smith twins discovered 30 eggs. Their friends located all the remaining eggs except for 10. How many eggs did the friends locate? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During the Easter egg hunt, the team concealed [BLANK] eggs. Both Smith twins found 30 eggs each. All the other eggs, apart from 10, were located by their friends. How many eggs did the friends manage to find? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In the Easter egg hunt, the team hid away [BLANK] eggs. The Smith twins each discovered 30 eggs. All remaining eggs, with the exception of 10, were collected by their friends. How many eggs did the friends find? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The Easter egg hunt group hid [BLANK] eggs. Each of the Smith twins found 30 eggs. Except for 10, all other eggs were discovered by their friends. How many eggs did the friends find? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The team responsible for the Easter egg hunt hid [BLANK] eggs. The Smith twins each uncovered 30 eggs. All other eggs, aside from 10, were found by their friends. How many eggs did the friends find? Let's approach this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The scavenger hunt team hid [BLANK] flags. The Johnson brothers each found 25 flags. All the other flags except 15 were found by their neighbors. How many flags did the neighbors find? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The team on the scavenger hunt concealed [BLANK] flags. Each of the Johnson brothers discovered 25 flags. Their neighbors located all the remaining flags besides 15. What is the total number of flags that the neighbors found? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During the scavenger hunt, [BLANK] flags were hidden by the team. Both of the Johnson brothers managed to find 25 flags each. Their neighbors retrieved all the other flags except for 15. How many flags did the neighbors uncover? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The scavenger hunt group concealed [BLANK] flags. Each brother from the Johnson family found a total of 25 flags. All flags remaining, excluding 15, were discovered by their neighbors. What is the number of flags the neighbors found? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the scavenger hunt, the team hid [BLANK] flags. The Johnson brothers each managed to find 25 flags. Their neighbors discovered all the other flags apart from 15. How many flags did the neighbors manage to find? Let's go through this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The team behind the scavenger hunt hid [BLANK] flags. Each of the Johnson brothers found 25 flags. Their neighbors were responsible for finding all the remaining flags except for 15. What is the total number of flags found by the neighbors? Let's think this through step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The treasure hunt team hid [BLANK] coins. The Garcia siblings each found 45 coins. All the other coins except 5 were found by their classmates. How many coins did the classmates find? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The treasure-seeking group concealed [BLANK] coins. Each of the Garcia siblings discovered 45 coins. Their classmates located all the remaining coins, aside from 5. How many coins did the classmates discover? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The treasure hunting crew buried [BLANK] coins. The Garcia siblings each uncovered 45 coins. All the other coins, except for 5, were uncovered by their classmates. How many coins did the classmates manage to find? Let's discuss it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The treasure finding team hid away [BLANK] coins. Each sibling in the Garcia family found 45 coins. All the remaining coins, leaving out 5, were located by their classmates. How many coins did the classmates unearth? Let's go through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The treasure hunting team concealed [BLANK] coins. The siblings of Garcia found 45 coins each. Excluding 5, all the other coins were located by their classmates. How many coins did the classmates find? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The team on the treasure hunt hid [BLANK] coins. Each of the Garcia siblings discovered 45 coins. All remaining coins, except for 5, were found by their classmates. How many coins did the classmates uncover? Let's evaluate it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The charity event collected [BLANK] toys. The Clark siblings each collected 70 toys. All the other toys except 30 were given by their neighbors. How many toys did the neighbors give? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The fundraising event gathered [BLANK] toys. Each of the Clark siblings managed to collect 70 toys. Aside from 30, all the other toys were donated by their neighbors. How many toys did the neighbors contribute? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The charity drive amassed [BLANK] toys. The Clark siblings each gathered 70 toys. All the remaining toys, apart from 30, were provided by their neighbors. How many toys did the neighbors supply? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The charitable event received [BLANK] toys. Each of the Clark siblings collected 70 toys. All the toys, except for 30, were given by their neighbors. How many toys did the neighbors donate? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The fundraising activity collected [BLANK] toys. Each of the Clark siblings obtained 70 toys. All other toys, excluding 30, were contributed by their neighbors. How many toys did the neighbors provide? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The charity occasion gathered [BLANK] toys. The Clark siblings each secured 70 toys. All the other toys except for 30 were supplied by their neighbors. How many toys did the neighbors give? Let's evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

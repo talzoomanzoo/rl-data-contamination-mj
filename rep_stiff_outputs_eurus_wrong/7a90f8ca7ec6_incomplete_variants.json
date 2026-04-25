@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+2)=-f(x)$, when $x \\in (0,2)$, $f(x)=2x^2$, find the value of $f(11)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+1)=-f(x)$, when $x \\in (0,1)$, $f(x)=[BLANK]$, find the value of $f(9)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+1)=-f(x)$ for $x$ within the interval $(0,1)$, we have $f(x)=[BLANK]$, determine the value of $f(9)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming $f(x)$ is an odd function defined on $\\mathbb{R}$, and it holds that $f(x+1)=-f(x)$ for $x$ in the interval $(0,1)$, we have $f(x)=[BLANK]$. Determine the value of $f(9)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and it holds that $f(x+1)=-f(x)$ for $x$ in the interval $(0,1)$, then $f(x)=[BLANK]$, determine the value of $f(9)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+1) = -f(x)$ for $x$ within the interval $(0,1)$, it follows that $f(x) = [BLANK]$. Determine the value of $f(9)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and given that $f(x+1)=-f(x)$ for $x$ in the interval $(0,1)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(9)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+5)=-f(x)$, when $x \\in (0,5)$, $f(x)=[BLANK]$, find the value of $f(15)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+5)=-f(x)$ when $x$ lies within the interval $(0,5)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(15)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+5)=-f(x)$ for $x$ in the interval $(0,5)$, we have $f(x)=[BLANK]$. Determine the value of $f(15)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, with the property that $f(x+5)=-f(x)$ for $x$ in the interval $(0,5)$, and that $f(x)=[BLANK]$, determine the value of $f(15)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Supposing that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+5)=-f(x)$ for $x$ within the interval $(0,5)$, we have $f(x)=[BLANK]$. Determine the value of $f(15)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+5)=-f(x)$ for $x$ in the interval $(0,5)$, we have $f(x)=[BLANK]$, determine the value of $f(15)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+3)=-f(x)$, when $x \\in (0,3)$, $f(x)=[BLANK]$, find the value of $f(12)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+3)=-f(x)$ for $x \\in (0,3)$, we have $f(x)=[BLANK]$. Determine the value of $f(12)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+3)=-f(x)$ for $x$ in the interval $(0,3)$, we have $f(x)=[BLANK]$. Determine the value of $f(12)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and given that $f(x+3)=-f(x)$ for $x$ in the interval $(0,3)$, we have $f(x)=[BLANK]$, determine the value of $f(12)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that $f(x)$ represents an odd function defined on $\\mathbb{R}$, and given that $f(x+3)=-f(x)$ for $x$ in the interval $(0,3)$, it follows that $f(x)=[BLANK]$, determine the value of $f(12)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+3)=-f(x)$ for $x$ within the interval $(0,3)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(12)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+6)=-f(x)$, when $x \\in (0,6)$, $f(x)=[BLANK]$, find the value of $f(18)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+6)=-f(x)$ holds true for $x$ in the interval $(0,6)$, we have $f(x)=[BLANK]$. Determine the value of $f(18)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and given that $f(x+6)=-f(x)$ for $x \\in (0,6)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(18)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+6)=-f(x)$ for $x$ within the interval $(0,6)$, it follows that $f(x)=[BLANK]$, determine the value of $f(18)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+6)=-f(x)$ for $x$ within the interval $(0,6)$, we have $f(x)=[BLANK]$. Determine the value of $f(18)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+6)=-f(x)$ for $x$ in the interval $(0,6)$, we have $f(x)=[BLANK]$. Determine the value of $f(18)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+2)=-f(x)$, when $x \\in (0,2)$, $f(x)=[BLANK]$, find the value of $f(11)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+2)=-f(x)$ for $x$ in the interval $(0,2)$, where $f(x)=[BLANK]$, determine the value of $f(11)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and it holds true that $f(x+2)=-f(x)$ for $x$ in the interval $(0,2)$, we have $f(x)=[BLANK]$, determine the value of $f(11)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+2)=-f(x)$ for $x$ in the interval $(0,2)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(11)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+2)=-f(x)$ for $x$ in the interval $(0,2)$, we have $f(x)=[BLANK]$, determine the value of $f(11)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and it holds that $f(x+2)=-f(x)$ for $x$ within the interval $(0,2)$, with $f(x)=[BLANK]$, determine the value of $f(11)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that $f(x)$ is an odd function on $\\mathbb{R}$, and $f(x+4)=-f(x)$, when $x \\in (0,4)$, $f(x)=[BLANK]$, find the value of $f(14)$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and given that $f(x+4)=-f(x)$ for $x$ in the interval $(0,4)$, we have $f(x)=[BLANK]$. Determine the value of $f(14)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+4)=-f(x)$ for $x$ within the interval $(0,4)$, it follows that $f(x)=[BLANK]$. Determine the value of $f(14)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+4)=-f(x)$ holds for $x \\in (0,4)$, it follows that $f(x)=[BLANK]$, determine the value of $f(14)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that $f(x)$ is an odd function defined on $\\mathbb{R}$, and that $f(x+4)=-f(x)$ for $x$ in the interval $(0,4)$, we have $f(x)=[BLANK]$. Determine the value of $f(14)$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that $f(x)$ is an odd function defined over $\\mathbb{R}$, and given that $f(x+4)=-f(x)$ for $x$ in the interval $(0,4)$, we have $f(x)=[BLANK]$. Determine the value of $f(14)$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "\nFind the number of functions $\\pi$ mapping the set $A =\\{1,2,3,4,5,6\\}$ onto $A$ such that for every $a \\in A,$\n\\[\n\\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the count of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, satisfying the condition that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the total count of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, satisfying the condition that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A$, the equation \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a \\] holds true.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the total count of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A$, the following holds: \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A$, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine how many functions $\\pi$ can be defined from the set $A =[BLANK]$ onto $A$ such that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A$, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine how many functions $\\pi$ exist that map the set $A = [BLANK]$ onto itself, satisfying the condition that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the quantity of functions $\\pi$ that associate the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A$, it holds that \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine how many functions $\\pi$ exist that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the quantity of functions $\\pi$ that map the collection $A = [BLANK]$ onto itself, satisfying the condition that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the total number of mappings $\\pi$ from the set $A =[BLANK]$ onto itself, satisfying the condition that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine how many functions $\\pi$ can be defined from the set $A =[BLANK]$ to itself such that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A,$ \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the total count of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a$ in $A$, the following holds true: \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the count of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, satisfying the condition that for every element $a \\in A,$ \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A,$ \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A,$ \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A,$ \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the total count of functions $\\pi$ that map the collection $A =[BLANK]$ onto itself, ensuring that for each element $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the quantity of functions $\\pi$ that associate the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A$, it holds that \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Find the number of functions $\\pi$ mapping the set $A =[BLANK]$ onto $A$ such that for every $a \\in A, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a\\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the count of functions $\\pi$ that map the set $A = [BLANK]$ onto itself, ensuring that for each element $a \\in A$, the following holds: \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the quantity of functions $\\pi$ that map the collection $A = [BLANK]$ onto itself, satisfying the condition that for each element $a \\in A$, \\[ \\pi(\\pi(\\pi(\\pi(\\pi(\\pi(a)))))) = a. \\]",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

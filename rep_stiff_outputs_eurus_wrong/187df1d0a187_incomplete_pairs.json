@@ -1,0 +1,62 @@
+{
+  "original_question": "Catherine goes to the grocery store. She buys 1 kilo of apples for $4, 2 kilos of bananas for $2 per kilo, and 2 kilos of oranges for $3 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the quantity of each fruit purchased",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Catherine goes to the grocery store. She buys 1 kilo of apples for $4, 2 kilos of bananas for $2 per kilo, and 2 kilos of oranges for $3 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Catherine goes to the grocery store. She buys [BLANK] kilos of apples for $4, [BLANK] kilos of bananas for $2 per kilo, and [BLANK] kilos of oranges for $3 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Emily goes to the grocery store. She buys 1 kilo of grapes for $5, 3 kilos of strawberries for $4 per kilo, and 1.5 kilos of cherries for $6 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily goes to the grocery store. She buys [BLANK] kilos of grapes for $5, [BLANK] kilos of strawberries for $4 per kilo, and [BLANK] kilos of cherries for $6 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Michael goes to the grocery store. He buys 2 kilos of pears for $3, 1 kilo of peaches for $2 per kilo, and 2 kilos of kiwis for $7 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael goes to the grocery store. He buys [BLANK] kilos of pears for $3, [BLANK] kilo of peaches for $2 per kilo, and [BLANK] kilos of kiwis for $7 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sarah goes to the grocery store. She buys 1.5 kilos of plums for $4, 4 kilos of nectarines for $3 per kilo, and 3 kilos of lemons for $2 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sarah goes to the grocery store. She buys [BLANK] kilos of plums for $4, [BLANK] kilos of nectarines for $3 per kilo, and [BLANK] kilos of lemons for $2 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "David goes to the grocery store. He buys 2 kilos of mangoes for $6, 2.5 kilos of blueberries for $5 per kilo, and 1 kilo of limes for $4 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "David goes to the grocery store. He buys [BLANK] kilos of mangoes for $6, [BLANK] kilos of blueberries for $5 per kilo, and [BLANK] kilo of limes for $4 per kilo. How many dollars does he pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Linda goes to the grocery store. She buys 3 kilos of watermelon for $2, 1 kilo of cantaloupe for $3 per kilo, and 2 kilos of pineapples for $5 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Linda goes to the grocery store. She buys [BLANK] kilos of watermelon for $2, [BLANK] kilo of cantaloupe for $3 per kilo, and [BLANK] kilos of pineapples for $5 per kilo. How many dollars does she pay in total? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the quantity of each fruit purchased"
+    }
+  ],
+  "num_valid_similars": 5
+}

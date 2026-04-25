@@ -1,0 +1,210 @@
+{
+  "original_question": "A team of 4 painters worked on a mansion for 3/8ths of a day every day for 3 weeks. How many hours of work did each painter put in? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A team of 6 electricians worked on a warehouse for 1/4ths of a day every day for [BLANK]. How many hours of work did each electrician put in?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Six electricians were engaged in work at a warehouse for a quarter of a day each day for [BLANK]. What is the total number of hours that each electrician contributed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A group of 6 electricians spent 1/4 of a day working on a warehouse each day for [BLANK]. How many hours did each electrician work in total?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For [BLANK], a team of 6 electricians dedicated 1/4 of a day to work on a warehouse daily. How many hours did each electrician work?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Over the course of [BLANK], 6 electricians worked on a warehouse for a fourth of a day each day. How many hours of work did each electrician complete?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A crew of 6 electricians worked on a warehouse for a quarter of a day each day over [BLANK]. How many hours did each individual electrician contribute?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A team of 3 mechanics worked on a vehicle for 5/6ths of a day every day for [BLANK]. How many hours of work did each mechanic put in?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Three mechanics spent 5/6ths of a day each day on a vehicle for [BLANK]. What is the total number of hours each mechanic contributed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A group of 3 mechanics dedicated 5/6ths of a day daily to a vehicle for [BLANK]. How many hours did each mechanic work?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For [BLANK], a team of 3 mechanics worked on a vehicle for 5/6ths of a day each day. What are the hours of work contributed by each mechanic?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A vehicle was worked on by 3 mechanics for 5/6ths of a day each day over [BLANK]. How many hours did each mechanic spend working?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Over the course of [BLANK], a team of 3 mechanics engaged in 5/6ths of a day of work on a vehicle daily. How many hours did each mechanic put in?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A team of 4 gardeners worked on a park for 2/3rds of a day every day for [BLANK]. How many hours of work did each gardener put in?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Four gardeners dedicated 2/3 of a day to work in a park each day for [BLANK]. What is the total number of hours worked by each gardener?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A group of 4 gardeners spent 2/3 of a day daily working in a park for [BLANK]. How many hours did each gardener contribute?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For [BLANK], a team of 4 gardeners labored in a park for 2/3 of a day each day. How many hours of effort did each gardener invest?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Each day, 4 gardeners worked on a park for 2/3 of a day over the span of [BLANK]. How many hours did each of them work?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A group of 4 gardeners worked in a park for 2/3 of a day every day during [BLANK]. How many hours did each gardener end up working?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A team of 7 chefs worked on a restaurant for 3/10ths of a day every day for [BLANK]. How many hours of work did each chef put in?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of 7 cooks spent 3/10ths of a day at a restaurant each day for [BLANK]. What is the total number of hours each cook contributed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Seven culinary experts collaborated at a restaurant for 3/10ths of a day on a daily basis for [BLANK]. How many hours did each expert work?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A collective of 7 chefs dedicated 3/10ths of a day to a restaurant on a daily basis for [BLANK]. How many hours did each chef invest?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A team consisting of 7 cooks worked at a restaurant for 3/10ths of a day every day over a period of [BLANK]. What is the total number of hours each cook worked?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Seven chefs collaborated daily at a restaurant for 3/10ths of a day during a period of [BLANK]. How many hours has each chef worked?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A team of 5 carpenters worked on a cabin for 2/5ths of a day every day for [BLANK]. How many hours of work did each carpenter put in?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of 5 carpenters spent 2/5ths of a day each day working on a cabin for [BLANK]. What is the total number of hours each carpenter contributed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Five carpenters dedicated 2/5ths of a day daily to constructing a cabin for [BLANK]. How many hours did each carpenter work?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A crew of 5 carpenters engaged in cabin work for 2/5ths of a day every day over [BLANK]. How many hours of effort did each carpenter provide?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For [BLANK], a team of 5 carpenters worked on a cabin for 2/5ths of a day each day. How many total hours did each carpenter spend working?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A set of 5 carpenters labored on a cabin for 2/5ths of a day each day during [BLANK]. What is the total number of hours worked by each carpenter?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A team of 4 painters worked on a mansion for [BLANK] every day for [BLANK]. How many hours of work did each painter put in? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A group of 4 artists painted a mansion for [BLANK] each day for [BLANK]. What is the total number of hours worked by each artist? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Four painters were engaged in painting a mansion for [BLANK] daily over a period of [BLANK]. How many hours did each painter contribute? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A squad of 4 painters dedicated themselves to a mansion for [BLANK] each day for [BLANK]. How many hours did each individual painter work? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A team consisting of 4 painters worked on a mansion for [BLANK] on a daily basis for [BLANK]. How many hours of labor did each painter invest? We'll explore this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Four painters collaborated on a mansion for [BLANK] per day during [BLANK]. What is the total number of hours each painter spent working? Let's examine this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

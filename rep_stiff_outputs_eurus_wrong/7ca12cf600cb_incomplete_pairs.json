@@ -1,0 +1,62 @@
+{
+  "original_question": "For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{3} - \\cot 2x$. The function can be expressed as\n\\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}.\\]\nFind the value of $k$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific function definition\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{3} - \\cot 2x$. The function can be expressed as\n\\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}.\\]\nFind the value of $k$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{4} - \\cot 3x$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}.\\] Find the value of $k$.\",",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{5} - \\cot 4x$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}.\\] Find the value of $k$.\",",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{6} - \\cot 5x$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}.\\] Find the value of $k$.\",",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{7} - \\cot 6x$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}.\\] Find the value of $k$.\",",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{2} - \\cot 3x$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}.\\] Find the value of $k$.\"",
+      "incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Find the value of $k$.",
+      "info_removed": "\"the specific function definition\""
+    }
+  ],
+  "num_valid_similars": 5
+}

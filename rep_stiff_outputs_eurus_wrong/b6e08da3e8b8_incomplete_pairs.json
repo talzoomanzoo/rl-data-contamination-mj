@@ -1,0 +1,62 @@
+{
+  "original_question": "It costs $194 per meter to repave a street. Monica's street is 150 meters long. How much more does it cost to repave Lewis' street, which is 490 meters long? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the length of the street in meters",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "It costs $194 per meter to repave a street. Monica's street is 150 meters long. How much more does it cost to repave Lewis' street, which is 490 meters long? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "It costs $194 per meter to repave a street. Monica's street is [BLANK] long. How much more does it cost to repave Lewis' street, which is 490 meters long? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the length of the street in meters"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "It costs $210 per meter to repave a street. Sarah's street is 160 meters long. How much more does it cost to repave Jake's street, which is 500 meters long?",
+      "incomplete_question": "It costs $210 per meter to repave a street. Sarah's street is [BLANK] long. How much more does it cost to repave Jake's street, which is 500 meters long?",
+      "info_removed": "the length of the street in meters"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "It costs $175 per meter to repave a street. Tom's street is 120 meters long. How much more does it cost to repave Maria's street, which is 450 meters long?",
+      "incomplete_question": "It costs $175 per meter to repave a street. Tom's street is [BLANK] long. How much more does it cost to repave Maria's street, which is 450 meters long?",
+      "info_removed": "the length of the street in meters"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "It costs $230 per meter to repave a street. Alex's street is 140 meters long. How much more does it cost to repave Emily's street, which is 520 meters long?",
+      "incomplete_question": "It costs $230 per meter to repave a street. Alex's street is [BLANK] long. How much more does it cost to repave Emily's street, which is 520 meters long?",
+      "info_removed": "the length of the street in meters"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "It costs $190 per meter to repave a street. Kevin's street is 130 meters long. How much more does it cost to repave Anna's street, which is 480 meters long?",
+      "incomplete_question": "It costs $190 per meter to repave a street. Kevin's street is [BLANK] long. How much more does it cost to repave Anna's street, which is 480 meters long?",
+      "info_removed": "the length of the street in meters"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "It costs $225 per meter to repave a street. Brian's street is 170 meters long. How much more does it cost to repave Rachel's street, which is 510 meters long?",
+      "incomplete_question": "It costs $225 per meter to repave a street. Brian's street is [BLANK] long. How much more does it cost to repave Rachel's street, which is 510 meters long?",
+      "info_removed": "the length of the street in meters"
+    }
+  ],
+  "num_valid_similars": 5
+}

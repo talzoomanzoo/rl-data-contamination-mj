@@ -1,0 +1,62 @@
+{
+  "original_question": "Buying 20 pencils, 3 erasers, and 2 notebooks costs 32 yuan; buying 39 pencils, 5 erasers, and 3 notebooks costs 58 yuan. Calculate the cost of buying 5 pencils, 5 erasers, and 5 notebooks.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the total cost of purchases",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Buying 20 pencils, 3 erasers, and 2 notebooks costs 32 yuan; buying 39 pencils, 5 erasers, and 3 notebooks costs 58 yuan. Calculate the cost of buying 5 pencils, 5 erasers, and 5 notebooks.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Buying 20 pencils, 3 erasers, and 2 notebooks costs [BLANK]; buying 39 pencils, 5 erasers, and 3 notebooks costs [BLANK]. Calculate the cost of buying 5 pencils, 5 erasers, and 5 notebooks. Present the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "the total cost of purchases"
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Buying 25 markers, 4 erasers, and 3 sketchbooks costs 40 yuan; buying 45 markers, 6 erasers, and 4 sketchbooks costs 66 yuan. Calculate the cost of buying 6 markers, 6 erasers, and 6 sketchbooks.",
+      "incomplete_question": "Buying 25 markers, 4 erasers, and 3 sketchbooks costs [BLANK]; buying 45 markers, 6 erasers, and 4 sketchbooks costs [BLANK]. Calculate the cost of buying 6 markers, 6 erasers, and 6 sketchbooks.",
+      "info_removed": "the total cost of purchases"
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Buying 15 notebooks, 2 erasers, and 5 binders costs 28 yuan; buying 30 notebooks, 4 erasers, and 8 binders costs 54 yuan. Calculate the cost of buying 4 notebooks, 4 erasers, and 4 binders.",
+      "incomplete_question": "Buying 15 notebooks, 2 erasers, and 5 binders costs [BLANK]; buying 30 notebooks, 4 erasers, and 8 binders costs [BLANK]. Calculate the cost of buying 4 notebooks, 4 erasers, and 4 binders.",
+      "info_removed": "the total cost of purchases"
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Buying 10 textbooks, 3 pens, and 2 highlighters costs 31 yuan; buying 20 textbooks, 5 pens, and 4 highlighters costs 58 yuan. Calculate the cost of buying 7 textbooks, 2 pens, and 3 highlighters.",
+      "incomplete_question": "Buying 10 textbooks, 3 pens, and 2 highlighters costs [BLANK]; buying 20 textbooks, 5 pens, and 4 highlighters costs [BLANK]. Calculate the cost of buying 7 textbooks, 2 pens, and 3 highlighters.",
+      "info_removed": "the total cost of purchases"
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Buying 18 rulers, 6 erasers, and 2 calculators costs 36 yuan; buying 35 rulers, 8 erasers, and 5 calculators costs 64 yuan. Calculate the cost of buying 8 rulers, 3 erasers, and 4 calculators.",
+      "incomplete_question": "Buying 18 rulers, 6 erasers, and 2 calculators costs [BLANK]; buying 35 rulers, 8 erasers, and 5 calculators costs [BLANK]. Calculate the cost of buying 8 rulers, 3 erasers, and 4 calculators.",
+      "info_removed": "the total cost of purchases"
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Buying 12 globes, 4 markers, and 3 charts costs 29 yuan; buying 27 globes, 5 markers, and 6 charts costs 53 yuan. Calculate the cost of buying 3 globes, 5 markers, and 3 charts.",
+      "incomplete_question": "Buying 12 globes, 4 markers, and 3 charts costs [BLANK]; buying 27 globes, 5 markers, and 6 charts costs [BLANK]. Calculate the cost of buying 3 globes, 5 markers, and 3 charts.",
+      "info_removed": "the total cost of purchases"
+    }
+  ],
+  "num_valid_similars": 5
+}

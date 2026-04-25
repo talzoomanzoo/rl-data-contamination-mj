@@ -1,0 +1,210 @@
+{
+  "original_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Ethan went to the bakery and bought various types of pastries. He bought 6 dozen cookies which cost [BLANK], 2 dozen brownies which cost [BLANK], and 4 dozen cupcakes for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan visited the bakery and purchased a variety of pastries. He acquired 6 dozen cookies that cost [BLANK], 2 dozen brownies priced at [BLANK], and 4 dozen cupcakes for [BLANK]. What is the total expenditure? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan stopped by the bakery and selected different kinds of pastries. He obtained 6 dozen cookies which were priced at [BLANK], 2 dozen brownies costing [BLANK], and 4 dozen cupcakes for [BLANK]. How much did he spend in total? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ethan headed to the bakery and bought several kinds of pastries. He got 6 dozen cookies that were valued at [BLANK], 2 dozen brownies at a cost of [BLANK], and 4 dozen cupcakes priced at [BLANK]. What is the overall cost? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan made a trip to the bakery and purchased an assortment of pastries. He secured 6 dozen cookies which cost [BLANK], along with 2 dozen brownies that came to [BLANK], and 4 dozen cupcakes for [BLANK]. What is the total amount spent? Let's examine this step by step and disclose the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan went to the bakery and acquired various pastries. He bought 6 dozen cookies at a cost of [BLANK], 2 dozen brownies which were priced at [BLANK], and 4 dozen cupcakes for [BLANK]. What is the cumulative cost? Let's break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James went to the bakery and bought various types of pastries. He bought 2 dozen scones which cost [BLANK], 1 dozen muffins which cost [BLANK], and 8 dozen brownies for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James visited the bakery and purchased different kinds of pastries. He acquired 2 dozen scones costing [BLANK], 1 dozen muffins at [BLANK], and 8 dozen brownies for [BLANK]. What is the total amount spent? Let's analyze it step by step and provide the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James stopped by the bakery and selected a variety of pastries. He bought 2 dozen scones that were priced at [BLANK], 1 dozen muffins for [BLANK], and 8 dozen brownies costing [BLANK]. How much did he spend in total? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James headed to the bakery and chose several kinds of pastries. He purchased 2 dozen scones which were priced at [BLANK], 1 dozen muffins costing [BLANK], and 8 dozen brownies that cost [BLANK]. What is the total expenditure? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James went to the bakery and picked up assorted pastries. He got 2 dozen scones that cost [BLANK], 1 dozen muffins priced at [BLANK], and 8 dozen brownies for [BLANK]. How much was his total purchase? Let's examine it step by step and report the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James made a trip to the bakery and bought a selection of pastries. He acquired 2 dozen scones for [BLANK], 1 dozen muffins which cost [BLANK], and 8 dozen brownies that were priced at [BLANK]. What is the total cost of his purchases? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost [BLANK], 2 dozen mini cupcakes which cost [BLANK], and 6 dozen mini cheesecakes for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Toula visited the bakery and purchased different kinds of pastries. She acquired 3 dozen donuts priced at [BLANK], 2 dozen mini cupcakes costing [BLANK], and 6 dozen mini cheesecakes for [BLANK]. What is the total amount she spent? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the bakery, Toula picked up a variety of pastries. She bought 3 dozen donuts which were priced at [BLANK], 2 dozen mini cupcakes that cost [BLANK], and 6 dozen mini cheesecakes for [BLANK]. How much did she spend in total? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Toula went to the bakery and selected several types of pastries. She purchased 3 dozen donuts costing [BLANK], 2 dozen mini cupcakes at [BLANK], and 6 dozen mini cheesecakes for [BLANK]. What is her total expenditure? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "While at the bakery, Toula bought assorted pastries. She got 3 dozen donuts that cost [BLANK], 2 dozen mini cupcakes which were priced at [BLANK], and 6 dozen mini cheesecakes for [BLANK]. What is the total cost of her purchases? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Toula stopped by the bakery and acquired various pastries. She bought 3 dozen donuts that had a cost of [BLANK], 2 dozen mini cupcakes priced at [BLANK], and 6 dozen mini cheesecakes for [BLANK]. What is the overall cost? Let's think it through step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Maria went to the bakery and bought various types of pastries. She bought 4 dozen croissants which cost [BLANK], 3 dozen chocolate eclairs which cost [BLANK], and 5 dozen fruit tarts for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maria visited the bakery and purchased different kinds of pastries. She got 4 dozen croissants that cost [BLANK], 3 dozen chocolate eclairs that were priced at [BLANK], and 5 dozen fruit tarts for [BLANK]. What is the total amount she spent? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Maria went to the pastry shop and selected a variety of baked goods. She acquired 4 dozen croissants for [BLANK], 3 dozen chocolate eclairs which were [BLANK], and 5 dozen fruit tarts costing [BLANK]. What was the overall expense? Let\u2019s break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maria stopped by the bakery and picked up several types of pastries. She purchased 4 dozen croissants at [BLANK], 3 dozen chocolate eclairs for [BLANK], and 5 dozen fruit tarts at a cost of [BLANK]. How much did she spend in total? Let\u2019s consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Maria dropped by the bakery and bought assorted pastries. She obtained 4 dozen croissants priced at [BLANK], 3 dozen chocolate eclairs for [BLANK], and 5 dozen fruit tarts costing [BLANK]. What is the total cost of her purchases? Let\u2019s go through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maria went to the bakery and collected various pastries. She acquired 4 dozen croissants at a cost of [BLANK], 3 dozen chocolate eclairs which were [BLANK], and 5 dozen fruit tarts priced at [BLANK]. What is the total expenditure? Let\u2019s analyze this step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Linda went to the bakery and bought various types of pastries. She bought 5 dozen bagels which cost [BLANK], 4 dozen tarts which cost [BLANK], and 3 dozen \u00e9clairs for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Linda visited the bakery and purchased different kinds of pastries. She acquired 5 dozen bagels at a price of [BLANK], 4 dozen tarts for [BLANK], and 3 dozen \u00e9clairs costing [BLANK]. What is the total amount spent? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Linda went to the bakery where she bought several types of pastries. She picked up 5 dozen bagels that cost [BLANK], 4 dozen tarts valued at [BLANK], and 3 dozen \u00e9clairs for [BLANK]. What is the overall cost? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "At the bakery, Linda bought a variety of pastries. She purchased 5 dozen bagels for [BLANK], 4 dozen tarts for [BLANK], and 3 dozen \u00e9clairs at [BLANK]. How much did she spend in total? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Linda went to a bakery and selected various pastries. She secured 5 dozen bagels which were priced at [BLANK], 4 dozen tarts that cost [BLANK], and 3 dozen \u00e9clairs priced at [BLANK]. What is the total expenditure? Let\u2019s consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "While at the bakery, Linda acquired assorted pastries. She bought 5 dozen bagels costing [BLANK], 4 dozen tarts priced at [BLANK], and 3 dozen \u00e9clairs for [BLANK]. How much did it all add up to? Let's think through it step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sophia went to the bakery and bought various types of pastries. She bought 3 dozen pastries which cost [BLANK], 5 dozen donuts which cost [BLANK], and 2 dozen pies for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia visited the bakery and purchased different kinds of pastries. She acquired 3 dozen pastries costing [BLANK], 5 dozen donuts that cost [BLANK], and 2 dozen pies for [BLANK]. What is the total amount she spent? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia went to the bakery and selected a variety of pastries. She picked up 3 dozen pastries at a price of [BLANK], 5 dozen donuts priced at [BLANK], and 2 dozen pies which cost [BLANK]. What is the overall cost? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia stopped by the bakery and bought several types of pastries. She got 3 dozen pastries for [BLANK], 5 dozen donuts that were [BLANK], and 2 dozen pies costing [BLANK]. How much did she spend in total? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia headed to the bakery and chose an assortment of pastries. She acquired 3 dozen pastries that cost [BLANK], 5 dozen donuts for [BLANK], and 2 dozen pies at a price of [BLANK]. What is the total expenditure? Let's go through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia made a trip to the bakery and bought a selection of pastries. She purchased 3 dozen pastries costing [BLANK], 5 dozen donuts that cost [BLANK], and 2 dozen pies for [BLANK]. What is the total cost incurred? Let's evaluate it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the combined total of copies sold",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold 88,000 copies combined, how many copies did Harald sell? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Marilyn's first record sold 10 times as many copies as Harald's. If they sold [BLANK] copies combined, how many copies did Harald sell? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the combined total of copies sold"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Sophia's first book sold 12 times as many copies as Liam's. If they sold 96,000 copies combined, how many copies did Liam sell?",
+      "incomplete_question": "Sophia's first book sold 12 times as many copies as Liam's. If they sold [BLANK] copies combined, how many copies did Liam sell?",
+      "info_removed": "the combined total of copies sold"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Oliver's first album sold 15 times as many copies as Emma's. If they sold 105,000 copies combined, how many copies did Emma sell?",
+      "incomplete_question": "Oliver's first album sold 15 times as many copies as Emma's. If they sold [BLANK] copies combined, how many copies did Emma sell?",
+      "info_removed": "the combined total of copies sold"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Aiden's first film sold 8 times as many tickets as Mia's. If they sold 80,000 tickets combined, how many tickets did Mia sell?",
+      "incomplete_question": "Aiden's first film sold 8 times as many tickets as Mia's. If they sold [BLANK] tickets combined, how many tickets did Mia sell?",
+      "info_removed": "the combined total of copies sold"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sophie's first painting sold 9 times as many prints as Jake's. If they sold 90,000 prints combined, how many prints did Jake sell?",
+      "incomplete_question": "Sophie's first painting sold 9 times as many prints as Jake's. If they sold [BLANK] prints combined, how many prints did Jake sell?",
+      "info_removed": "the combined total of copies sold"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Ella's first podcast episode was downloaded 14 times as many times as Noah's. If they had 140,000 downloads combined, how many downloads did Noah receive?",
+      "incomplete_question": "Ella's first podcast episode was downloaded 14 times as many times as Noah's. If they had [BLANK] downloads combined, how many downloads did Noah receive?",
+      "info_removed": "the combined total of copies sold"
+    }
+  ],
+  "num_valid_similars": 5
+}

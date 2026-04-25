@@ -1,0 +1,62 @@
+{
+  "original_question": "Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( \\% \\). Find \\( x \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific number of distinct prime divisors\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( \\% \\). Find \\( x \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( \\% \\). Find \\( x \\).",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"Given a natural number \\( x = 2^n - 48 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( 3 \\). Find \\( x \\.\",",
+      "incomplete_question": "\"Given a natural number \\( x = 2^n - 48 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 3 \\). Find \\( x \\).\"",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"Given a natural number \\( x = 2^n - 64 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( 5 \\). Find \\( x \\.\",",
+      "incomplete_question": "\"Given a natural number \\( x = 2^n - 64 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 5 \\). Find \\( x \\).\"",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"Given a natural number \\( x = 2^n - 16 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( 7 \\). Find \\( x \\.\",",
+      "incomplete_question": "\"Given a natural number \\( x = 2^n - 16 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 7 \\). Find \\( x \\).\"",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"Given a natural number \\( x = 2^n - 80 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( 11 \\). Find \\( x \\.\",",
+      "incomplete_question": "\"Given a natural number \\( x = 2^n - 80 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 11 \\). Find \\( x \\).\"",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"Given a natural number \\( x = 2^n - 96 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( 13 \\). Find \\( x \\.\"",
+      "incomplete_question": "\"Given a natural number \\( x = 2^n - 96 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 13 \\). Find \\( x \\.\"",
+      "info_removed": "\"the specific number of distinct prime divisors\""
+    }
+  ],
+  "num_valid_similars": 5
+}

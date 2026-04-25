@@ -1,0 +1,210 @@
+{
+  "original_question": "The rainstorm flooded the wetlands and washed Phineas Frog 200 yards away from his home in the swamp.  To return home, he will need to hop and swim his way back.  If he hops on land at a speed of 20 yards per minute, and swims through water at a speed of 10 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 35 yards per minute, and swims through water at a speed of 25 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The rainstorm caused the wetlands to flood, and Phineas Frog was carried [BLANK] from his swamp home. To make his way back, he will need to hop and swim. If his hopping speed on land is 35 yards per minute, and his swimming speed in water is 25 yards per minute, what will be the total time in minutes for Phineas to return home if half of the distance involves hopping and the other half requires swimming? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the rainstorm flooding the wetlands, Phineas Frog was swept [BLANK] away from his residence in the swamp. To get back home, he must hop and swim. If he can hop at a rate of 35 yards per minute on land and swim at 25 yards per minute in the water, how many minutes will it take for Phineas to return home if he covers half the distance on land and the other half in water? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The wetlands were flooded by the rainstorm, resulting in Phineas Frog being carried [BLANK] from his swamp dwelling. In order to return, he needs to hop and swim back. If he hops at a speed of 35 yards per minute on solid ground and swims at 25 yards per minute in the water, how long, in minutes, will it take Phineas to get home if half of the journey is on land and the other half is through water? Let's consider this systematically and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After the rainstorm flooded the wetlands, Phineas Frog was washed [BLANK] away from his home in the swamp. To find his way back, he will need to hop and swim. If he hops at a speed of 35 yards per minute on land and swims at 25 yards per minute through water, how many minutes will it take Phineas to return home if half of the distance is traveled on land and the other half in the water? Let's think through this step by step and write down the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rainstorm has led to flooding in the wetlands, which caused Phineas Frog to be moved [BLANK] from his swamp home. To return home, he must hop and swim his way back. If he hops on dry land at 35 yards per minute and swims in water at a pace of 25 yards per minute, how long, in minutes, will it take for Phineas to return home if he travels half the distance on land and the other half in water? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 40 yards per minute, and swims through water at a speed of 20 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The heavy rain caused the wetlands to overflow, carrying Phineas Frog [BLANK] from his swamp home. To make his way back, he must hop and swim. If his hopping speed on dry ground is 40 yards per minute and his swimming speed through the water is 20 yards per minute, how many minutes will it take him to get home if half of the journey is on dry land and the other half is through water? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the rainstorm, the wetlands became flooded, sweeping Phineas Frog [BLANK] away from his residence in the swamp. To return, he will have to hop and swim. Given that he hops at a rate of 40 yards per minute on land and swims at a rate of 20 yards per minute in water, how many minutes will it take for Phineas to return home if the journey consists of equal distances on land and in water? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The storm caused flooding in the wetlands, which carried Phineas Frog [BLANK] away from his swamp dwelling. To find his way back home, he needs to hop and swim. If he moves at 40 yards per minute while hopping on land and 20 yards per minute while swimming in water, how long, in minutes, will it take Phineas to get home if he travels half the distance on land and half in water? Let\u2019s consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The rainfall led to flooding in the wetlands, displacing Phineas Frog [BLANK] from his home in the swamp. To return, he must navigate by hopping and swimming. If he hops at a speed of 40 yards per minute on solid ground and swims at a speed of 20 yards per minute through the water, how many minutes will it take him to return home if half of the distance is covered on land and the other half in water? Let's think this through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rainstorm resulted in a flood of the wetlands, which swept Phineas Frog [BLANK] away from his swamp residence. To get back home, he will need to hop and swim. If his hopping speed on land is 40 yards per minute and his swimming speed in water is 20 yards per minute, how long will it take Phineas, in minutes, to make it home if he travels half of the distance on land and the other half in water? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 30 yards per minute, and swims through water at a speed of 5 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The rainstorm inundated the wetlands and carried Phineas Frog [BLANK] away from his swamp home. To make his way back, he must hop and swim. If he hops on dry ground at a rate of 30 yards per minute, and swims through the water at a pace of 5 yards per minute, how long will it take Phineas, in minutes, to get back home if half of the distance is on dry land and the other half is in the water? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The downpour caused flooding in the wetlands and swept Phineas Frog [BLANK] away from his residence in the swamp. To find his way back home, he will need to hop and swim. If he hops across land at a velocity of 30 yards per minute, and swims through the water at a velocity of 5 yards per minute, how long will it take Phineas, in minutes, to return home if half the distance is on land and the other half is in water? Let's evaluate this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The storm deluged the wetlands and swept Phineas Frog [BLANK] away from his abode in the swamp. To get back home, he will have to hop and swim. If he hops on solid ground at a speed of 30 yards per minute, and swims through the water at a speed of 5 yards per minute, how long will it take Phineas, in minutes, to journey home if half of the distance is on solid ground and the other half is in water? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The heavy rain flooded the wetlands and carried Phineas Frog [BLANK] away from his dwelling in the swamp. To return home, he will need to hop and swim his way back. If he hops on the ground at a speed of 30 yards per minute, and swims through the water at a speed of 5 yards per minute, how long will it take Phineas, in minutes, to get back home if half the distance is on land and the other half is in water? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The torrential rain resulted in flooding of the wetlands and moved Phineas Frog [BLANK] away from his home in the swamp. To make his way back, he has to hop and swim. If he hops on solid ground at a rate of 30 yards per minute, and swims through the water at a rate of 5 yards per minute, how long will it take Phineas, in minutes, to return home if half the distance is over land and the other half is in water? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 20 yards per minute, and swims through water at a speed of 10 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "The rainstorm caused the wetlands to flood and carried Phineas Frog [BLANK] away from his swamp home. To get back, he will have to both hop and swim. If he hops on dry ground at a speed of 20 yards per minute, and swims in the water at a speed of 10 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on dry land and the other half is in the water? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the rainstorm, the wetlands were flooded, and Phineas Frog was swept [BLANK] from his dwelling in the swamp. To make his way home, he will have to hop and swim. If his hopping speed on land is 20 yards per minute, and his swimming speed in water is 10 yards per minute, how much time will it take Phineas, in minutes, to return home if half of the journey is on land and the other half is through water? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The rainstorm resulted in a flood in the wetlands, carrying Phineas Frog [BLANK] away from his swamp residence. To get back home, he will need to hop and swim. If he moves at a speed of 20 yards per minute while hopping on land, and at 10 yards per minute while swimming, how long will it take Phineas, in minutes, to return home if 50% of the distance is on land and the remaining 50% is in water? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After the rainstorm flooded the wetlands, Phineas Frog was washed [BLANK] away from his home in the swamp. To find his way back, he will have to hop and swim. If he hops at a rate of 20 yards per minute on land and swims at a rate of 10 yards per minute in the water, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Following the rainstorm, the wetlands flooded, and Phineas Frog was carried [BLANK] away from his swamp home. To return, he will need to both hop and swim. If he hops at a speed of 20 yards per minute on land, and swims at a speed of 10 yards per minute in the water, how long will it take Phineas, in minutes, to get home if half of the distance is on land and half is in water? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 15 yards per minute, and swims through water at a speed of 30 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "After the rainstorm, the wetlands became flooded and carried Phineas Frog [BLANK] from his swamp residence. To make his way back home, he must hop and swim. If his hopping speed on land is 15 yards per minute and his swimming speed in water is 30 yards per minute, how many minutes will it take Phineas to return home if half the distance is on land and the other half is in water? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Due to the rainstorm, the wetlands were flooded, and Phineas Frog was swept [BLANK] away from his swamp dwelling. To find his way back, he needs to hop and swim. If he hops at a rate of 15 yards per minute on solid ground and swims at 30 yards per minute in the water, what will be the time, in minutes, for Phineas to get back home if half of his journey is on land and the other half is through water? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The wetlands experienced flooding from the rainstorm, which carried Phineas Frog [BLANK] away from his home in the swamp. In order to return, he has to hop and swim his way back. With a hopping speed of 15 yards per minute on land and a swimming speed of 30 yards per minute in water, how long will it take Phineas, in minutes, to return home if the distance is split equally between land and water? Let's reason this out step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Following the rainstorm, the wetlands became inundated, causing Phineas Frog to be washed [BLANK] away from his swamp home. To get back, he will need to hop and swim. If he hops on land at a velocity of 15 yards per minute and swims through the water at 30 yards per minute, what is the total time, in minutes, required for Phineas to return home if half the distance is on land and the other half is in water? Let's think it through step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rainstorm flooded the wetlands and swept Phineas Frog [BLANK] away from his swamp residence. To return to his home, he will need to hop and swim. If he hops at a speed of 15 yards per minute on land and swims at 30 yards per minute in the water, how long, in minutes, will it take Phineas to get back home if the distance is equally divided between land and water? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "The rainstorm flooded the wetlands and washed Phineas Frog [BLANK] away from his home in the swamp. To return home, he will need to hop and swim his way back. If he hops on land at a speed of 25 yards per minute, and swims through water at a speed of 15 yards per minute, how long will it take Phineas, in minutes, to return home if half of the distance is on land and the other half is in water? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Due to the rainstorm, the wetlands became inundated, causing Phineas Frog to be carried [BLANK] from his swamp residence. To find his way back home, he must navigate by hopping and swimming. If he hops at a pace of 25 yards per minute on land and swims at a rate of 15 yards per minute through water, what will be the total time, in minutes, for Phineas to return home if half the distance is on land and the other half in water? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "The rainstorm resulted in flooding in the wetlands, which swept Phineas Frog [BLANK] away from his home in the swamp. To make his way back, he has to hop and swim. If his hopping speed on land is 25 yards per minute and his swimming speed in water is 15 yards per minute, how many minutes will it take Phineas to get home if the distance he travels is equally divided between land and water? Let's break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "After the rainstorm caused flooding in the wetlands, Phineas Frog was carried [BLANK] away from his swamp dwelling. To get back home, he needs to hop and swim. If he hops at a speed of 25 yards per minute on dry land and swims at 15 yards per minute in the water, what is the duration, in minutes, that it will take for Phineas to return home if half of the distance is covered on land and the other half in water? Let\u2019s work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "The wetlands were flooded by the rainstorm, which displaced Phineas Frog [BLANK] from his home in the swamp. To return, he has to hop and swim his way back. With a hopping speed of 25 yards per minute on land and a swimming speed of 15 yards per minute in water, how many minutes will it take Phineas to return home if he travels half the distance on land and the other half in water? Let's think this through step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "The rainstorm caused the wetlands to flood, leading to Phineas Frog being swept [BLANK] away from his swamp house. To find his way back, he will need to both hop and swim. If he hops on land at a speed of 25 yards per minute and swims through water at 15 yards per minute, how much time, in minutes, will it take for Phineas to return home if the distance is split evenly between land and water? Let's analyze the situation step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

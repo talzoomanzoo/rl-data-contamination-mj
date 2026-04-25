@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that the graph of the exponential function $f(x)$ passes through the point $(2, 4)$.\n\n(1) Find the analytical expression of the function $f(x)$.\n(2) If $f(x - 1) < 1$, find the range of values of $x$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 3) < 10$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the exponential function $f(x)$ intersects the point [BLANK]. (1) Determine the explicit formula for the function $f(x)$. (2) If $f(x - 3) < 10$, identify the set of possible values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that the exponential function $f(x)$ touches the coordinate [BLANK]. (1) Calculate the functional expression for $f(x)$. (2) If $f(x - 3) < 10$, ascertain the values of $x$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "It is known that the graph of the exponential function $f(x)$ includes the point [BLANK]. (1) Find the formula for the function $f(x)$. (2) If $f(x - 3) < 10$, determine the range of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the point [BLANK] lies on the graph of the exponential function $f(x)$. (1) Find the mathematical representation of the function $f(x)$. (2) If $f(x - 3) < 10$, establish the interval of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Considering that the exponential function $f(x)$ goes through the point [BLANK]. (1) Derive the analytical form of the function $f(x)$. (2) If $f(x - 3) < 10$, find the values of $x$ that meet this criterion.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 1) < 1$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the exponential function $f(x)$ intersects the point [BLANK]. (1) Derive the analytical form of the function $f(x)$. (2) Given that $f(x - 1) < 1$, determine the possible values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Let it be known that the graph of the function $f(x)$, which is exponential, goes through the point [BLANK]. (1) Determine the mathematical expression for the function $f(x)$. (2) If $f(x - 1) < 1$, find the set of $x$ values.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If the graph of the exponential function $f(x)$ includes the point [BLANK]. (1) Calculate the analytical representation of the function $f(x)$. (2) For the condition $f(x - 1) < 1$, identify the range of $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the point [BLANK] is on the graph of the exponential function $f(x)$. (1) Find the explicit formula for the function $f(x)$. (2) If $f(x - 1) < 1$, ascertain the range of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that the point [BLANK] lies on the graph of the function $f(x)$, which is exponential. (1) Find the analytical expression for $f(x)$. (2) If the inequality $f(x - 1) < 1$ holds, determine the possible values of $x$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 4) < 20$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the graph of the exponential function $f(x)$ intersects at the point [BLANK]. (1) Determine the algebraic form of the function $f(x)$. (2) Given that $f(x - 4) < 20$, identify the set of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If the graph of the exponential function $f(x)$ includes the point [BLANK]. (1) Calculate the formula for the function $f(x)$. (2) If $f(x - 4) < 20$, find the possible values of $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Considering that the graph of the exponential function $f(x)$ goes through the point [BLANK]. (1) Derive the mathematical expression for the function $f(x)$. (2) If $f(x - 4) < 20$, ascertain the range of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the graph of the exponential function $f(x)$ touches the point [BLANK]. (1) Find the explicit definition of the function $f(x)$. (2) If $f(x - 4) < 20$, determine the values of $x$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Knowing that the graph of the exponential function $f(x)$ intersects at the point [BLANK]. (1) Find the functional representation of $f(x)$. (2) If $f(x - 4) < 20$, what are the possible x-values?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 2) < 5$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Considering that the graph of the exponential function $f(x)$ intersects the point [BLANK]. (1) Determine the analytical representation of the function $f(x)$. (2) If $f(x - 2) < 5$, identify the set of possible values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the graph of the exponential function $f(x)$ includes the point [BLANK]. (1) Derive the analytical form of the function $f(x)$. (2) Given that $f(x - 2) < 5$, find the values of $x$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the graph of the exponential function $f(x)$ passing through the point [BLANK]. (1) Compute the analytical equation for the function $f(x)$. (2) If $f(x - 2) < 5$, determine the values of $x$ that meet this criterion.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that the exponential function $f(x)$'s graph touches the point [BLANK]. (1) Find the analytical formula for the function $f(x)$. (2) If $f(x - 2) < 5$, ascertain the range of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Knowing that the graph of the exponential function $f(x)$ intersects at the point [BLANK]. (1) Find the analytical expression for the function $f(x)$. (2) If $f(x - 2) < 5$, determine the values of $x$ that fulfill this requirement.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 1) < 3$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the exponential function $f(x)$ intersects at the point [BLANK]. (1) Determine the analytical form of the function $f(x)$. (2) If $f(x - 1) < 3$, identify the possible values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that the point [BLANK] lies on the graph of the exponential function $f(x)$. (1) Derive the analytical representation of the function $f(x)$. (2) If $f(x - 1) < 3$, find the set of values for $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the information that the exponential function $f(x)$ goes through the point [BLANK]. (1) Calculate the analytical expression for the function $f(x)$. (2) If $f(x - 1) < 3$, determine the values of $x$. ",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Considering that the graph of the function $f(x)$, which is exponential, includes the point [BLANK]. (1) Find the mathematical expression for the function $f(x)$. (2) If $f(x - 1) < 3$, ascertain the range of $x$ values.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Recognizing that the exponential function $f(x)$ contains the point [BLANK] in its graph. (1) Identify the analytical equation of the function $f(x)$. (2) If $f(x - 1) < 3$, find the values of $x$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that the graph of the exponential function $f(x)$ passes through the point [BLANK]. (1) Find the analytical expression of the function $f(x)$. (2) If $f(x - 1) < 2$, find the range of values of $x$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that the graph of the exponential function $f(x)$ intersects the point [BLANK]. (1) Determine the analytical form of the function $f(x)$. (2) If $f(x - 1) < 2$, identify the set of $x$ values.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Given that the exponential function $f(x)$'s graph touches the point [BLANK]. (1) Calculate the analytical representation of the function $f(x)$. (2) If $f(x - 1) < 2$, ascertain the possible values of $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Considering that the graph of the function $f(x)$, which is an exponential, goes through the point [BLANK]. (1) Find the functional expression for $f(x)$. (2) If $f(x - 1) < 2$, determine the range of $x$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With the information that the exponential function $f(x)$ passes through the coordinate [BLANK]. (1) Derive the analytical expression for the function $f(x)$. (2) If $f(x - 1) < 2$, find the values of $x$ that satisfy this condition.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Recognizing that the graph of the exponential function $f(x)$ includes the point [BLANK]. (1) Establish the analytical formula for the function $f(x)$. (2) If $f(x - 1) < 2$, discover the values of $x$ that fulfill this inequality.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

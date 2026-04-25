@@ -1,0 +1,210 @@
+{
+  "original_question": "Adam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells 60% of his inventory, how much money does he lose? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emma has $120 and wants to spend it to open a flower stand. She can buy flowers for $4 each and sell them for $6 each. If she invests all her money in the flower stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma possesses $120 and plans to use it for starting a flower shop. She can purchase flowers at $4 each and sells them for $6 each. If she uses all her funds for the flower shop but only sells [BLANK], how much does she end up losing? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma has $120 available and intends to invest it in a flower business. She buys flowers priced at $4 each and sells them for $6 each. If she spends all her money on the flower business but only manages to sell [BLANK], what is her total loss? Let's break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma is starting with $120 and wishes to allocate it toward a flower stand. The cost of each flower is $4, while she can sell them for $6. If she invests all her money into the flower stand but only sells [BLANK], what will be her financial loss? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma has a total of $120 and aims to spend it on launching a flower stall. Flowers can be bought for $4 each and sold for $6 each. If she puts all her money into the flower stall but only sells [BLANK], how much does she stand to lose? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma's starting amount is $120, and she wants to invest it to set up a flower shop. She can acquire flowers at $4 each and retail them for $6 each. If she allocates all her funds to the flower shop but only sells [BLANK], what will her loss be? Let's consider this step by step and then present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Liam has $150 and wants to spend it to open a toy stand. He can buy toys for $10 each and sell them for $15 each. If he invests all his money in the toy stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam possesses $150 and plans to use it to start a toy stall. Each toy costs him $10 to purchase and he can sell them for $15 each. If he utilizes his entire budget on the toy stall but manages to sell only [BLANK], what is his total loss? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With $150 in hand, Liam aims to launch a toy booth. Toys are available for $10 each, while he sells them for $15 each. If he spends all his funds on the toy booth but only manages to sell [BLANK], how much does he end up losing? We should consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam has a total of $150 that he wishes to invest in a toy shop. He buys toys at a price of $10 each and sells them at a price of $15 each. If he puts all his money into the toy shop yet only sells [BLANK], what is the amount of his loss? Let\u2019s break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Holding $150, Liam intends to open a toy kiosk. Each toy costs him $10 to buy, and he can retail them for $15. If he dedicates all his money to the toy kiosk but only sells [BLANK], how much money does he lose? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam has $150 that he wants to invest to set up a toy stand. He purchases toys at $10 a piece and sells them for $15 each. If he invests his entire amount in the toy stand but only sells [BLANK], how much does he lose in total? Let\u2019s think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Noah has $90 and wants to spend it to open a lemonade stand. He can buy lemons for $3 each and sell lemonade for $5 each. If he invests all his money in the lemonade stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah possesses $90 and intends to use it to start a lemonade stand. He purchases lemons at $3 per lemon and sells lemonade for $5 per cup. If he uses his entire amount for the lemonade stand but only manages to sell [BLANK], what is his total loss? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With $90 in hand, Noah aims to establish a lemonade stand. He can acquire lemons at a cost of $3 each and retail lemonade for $5 each. Should he invest all his funds into the lemonade stand yet only sells [BLANK], how much does he end up losing? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah has a total of $90 and wants to invest it in a lemonade stand. He can buy lemons for $3 apiece and sell lemonade for $5 per cup. If he dedicates all of his money to the lemonade stand but only sells [BLANK], what amount does he lose? Let's go through the steps and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Holding $90, Noah plans to spend it on starting a lemonade stand. He can purchase lemons for $3 each and sell lemonade for $5 each. If he allocates all his cash to the lemonade stand but only sells [BLANK], how much money does he lose in total? Let's break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah has $90 that he wants to invest in a lemonade stand. He can buy lemons for $3 per lemon and sell lemonade for $5 per cup. If he puts all of his money into the lemonade stand but only manages to sell [BLANK], what is the total loss he incurs? Let's think through this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ava has $110 and wants to spend it to open a jewelry stand. She can buy pieces of jewelry for $7 each and sell them for $9 each. If she invests all her money in the jewelry stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ava possesses $110 and plans to use it to establish a jewelry stall. She can purchase pieces of jewelry for $7 apiece and sell them for $9 each. If she uses all her funds for the jewelry stall but sells [BLANK], what is her total loss? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ava has $110 and intends to invest it in a jewelry kiosk. She can acquire jewelry items for $7 each and sell them for $9 each. If she spends all her money on the jewelry stand but only manages to sell [BLANK], how much money will she end up losing? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ava holds $110 and aims to use it to start a jewelry business. She can buy jewelry pieces for $7 each and sell them for $9 each. If she dedicates all her funds to the jewelry stand but only sells [BLANK], how much does she lose? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ava has a total of $110 and wants to allocate it to set up a jewelry booth. She can purchase jewelry items for $7 each and sell them for $9 each. If she invests all her cash into the jewelry stand but only sells [BLANK], what amount does she lose? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ava owns $110 and plans to spend it to launch a jewelry outlet. She can buy jewelry pieces for $7 each and sell them for $9 each. If she uses all her money on the jewelry stand but sells only [BLANK], how much money does she ultimately lose? Let's assess this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Adam has $100 and wants to spend it to open a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests all his money in the rock stand but only sells [BLANK], how much money does he lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Adam possesses $100 and aims to utilize it to start a rock stand. He can purchase rocks at $5 per piece and sell them for $7 each. If he uses all his funds for the rock stand but only sells [BLANK], how much money does he lose? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Adam has $100 that he intends to invest in a rock business. He can procure rocks for $5 each and retail them for $7 per unit. If he puts all his capital into the rock stand but only manages to sell [BLANK], how much money will he lose? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With $100 in hand, Adam plans to invest in a rock stand. He buys rocks at a cost of $5 each and sells them for $7 each. If he dedicates his entire amount to the rock stand but only sells [BLANK], what will be his financial loss? Let\u2019s consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Adam is starting with $100, which he wishes to use to launch a rock stand. He can acquire rocks for $5 per rock and sell them for $7 each. If he spends all his money on the rock stand but only sells [BLANK], how much does he end up losing? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Adam has $100 that he wants to spend to establish a rock stand. He can buy rocks for $5 each and sell them for $7 each. If he invests his entire amount in the rock stand but sells only [BLANK], what is his total loss? Let\u2019s work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia has $80 and wants to spend it to open a book stand. She can buy books for $8 each and sell them for $12 each. If she invests all her money in the book stand but only sells [BLANK], how much money does she lose? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia possesses $80 and intends to use it to establish a book stall. She purchases books at a cost of $8 each and retails them for $12 each. If she dedicates all her funds to the book stall and manages to sell [BLANK], how much money does she end up losing? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With $80 in her possession, Sophia aims to invest it in launching a book kiosk. She can acquire books at $8 apiece and sell them at a price of $12 each. If she utilizes all her capital for the book kiosk but only sells [BLANK], what is her total monetary loss? We'll work through this carefully and present the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia has an amount of $80 that she wishes to invest in starting a book stand. Each book costs her $8, and she sells them for $12. If she spends all her money on the book stand but sells just [BLANK], how much does she lose overall? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Holding $80, Sophia plans to invest it to create a book stall. The cost of each book is $8, and the selling price is $12. If she invests all her money into the book stall but only manages to sell [BLANK], how much money will she lose? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia has $80 and is looking to invest it in a book stand. She buys books for $8 each and sells them for $12. If she puts all her money into the book stand but sells only [BLANK], what will be her total loss? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

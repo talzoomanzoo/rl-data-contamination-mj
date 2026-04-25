@@ -1,0 +1,62 @@
+{
+  "original_question": "Given three red beads, two white beads, and one blue bead are placed in line in random order, determine the probability that no two neighboring beads are the same color.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the specific colors of the beads",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given three red beads, two white beads, and one blue bead are placed in line in random order, determine the probability that no two neighboring beads are the same color.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given three [BLANK] beads, two [BLANK] beads, and one [BLANK] bead are placed in line in random order, determine the probability that no two neighboring beads are the same color. Present the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "the specific colors of the beads"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given four red beads, three white beads, and two blue beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "incomplete_question": "Given four [BLANK] beads, three [BLANK] beads, and two [BLANK] beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "info_removed": "the specific colors of the beads"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given five red beads, one white bead, and three blue beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "incomplete_question": "Given five [BLANK] beads, one [BLANK] bead, and three [BLANK] beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "info_removed": "the specific colors of the beads"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given two red beads, four white beads, and three blue beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "incomplete_question": "Given two [BLANK] beads, four [BLANK] beads, and three [BLANK] beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "info_removed": "the specific colors of the beads"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given six red beads, two white beads, and one blue bead are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "incomplete_question": "Given six [BLANK] beads, two [BLANK] beads, and one [BLANK] bead are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "info_removed": "the specific colors of the beads"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given three red beads, four white beads, and two blue beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "incomplete_question": "Given three [BLANK] beads, four [BLANK] beads, and two [BLANK] beads are placed in line in random order, determine the probability that no two neighboring beads are the same color.",
+      "info_removed": "the specific colors of the beads"
+    }
+  ],
+  "num_valid_similars": 5
+}

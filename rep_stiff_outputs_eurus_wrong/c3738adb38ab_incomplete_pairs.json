@@ -1,0 +1,62 @@
+{
+  "original_question": "Ginger and Amy both start with 100 pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the initial quantity of candy each person has",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Ginger and Amy both start with 100 pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Ginger and Amy both start with [BLANK] pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liam and Noah both start with 120 pieces of Christmas cookies. Liam eats 5 pieces a day and Noah eats 2 pieces a day. How much more cookies does Noah have after ten days? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam and Noah both start with [BLANK] pieces of Christmas cookies. Liam eats 5 pieces a day and Noah eats 2 pieces a day. How much more cookies does Noah have after ten days? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sara and Julia both start with 80 pieces of birthday cake. Sara eats 6 pieces a day and Julia eats 4 pieces a day. How much more cake does Julia have after one week? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sara and Julia both start with [BLANK] pieces of birthday cake. Sara eats 6 pieces a day and Julia eats 4 pieces a day. How much more cake does Julia have after one week? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Mark and Tim both start with 150 pieces of chocolate. Mark eats 7 pieces a day and Tim eats 5 pieces a day. How much more chocolate does Tim have after twelve days? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Mark and Tim both start with [BLANK] pieces of chocolate. Mark eats 7 pieces a day and Tim eats 5 pieces a day. How much more chocolate does Tim have after twelve days? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Ella and Mia both start with 200 pieces of gum. Ella eats 8 pieces a day and Mia eats 6 pieces a day. How much more gum does Mia have after three weeks? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ella and Mia both start with [BLANK] pieces of gum. Ella eats 8 pieces a day and Mia eats 6 pieces a day. How much more gum does Mia have after three weeks? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Chris and Alex both start with 90 pieces of fruit snacks. Chris eats 3 pieces a day and Alex eats 2 pieces a day. How much more snacks does Alex have after fourteen days? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Chris and Alex both start with [BLANK] pieces of fruit snacks. Chris eats 3 pieces a day and Alex eats 2 pieces a day. How much more snacks does Alex have after fourteen days? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the initial quantity of candy each person has"
+    }
+  ],
+  "num_valid_similars": 5
+}

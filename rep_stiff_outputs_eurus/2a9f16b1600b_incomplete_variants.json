@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that exactly two of the nine squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that exactly one of the [BLANK] squares is shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that precisely one of the [BLANK] squares is filled, find the total number of unique arrangements, treating rotations and reflections as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If exactly one of the [BLANK] squares is colored, calculate the number of different configurations, considering rotations and reflections to be equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that only one of the [BLANK] squares is darkened, identify the count of distinct designs, with rotations and reflections regarded as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With the condition that only one of the [BLANK] squares is tinted, determine how many unique patterns exist, factoring in that rotations and reflections are viewed as equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Provided that solely one of the [BLANK] squares is marked, ascertain the number of separate patterns, treating rotations and reflections alike.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that exactly two of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that precisely two of the [BLANK] squares are filled in, calculate the total number of unique arrangements accounting for rotations and reflections as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With only two of the [BLANK] squares colored, find the count of different configurations, considering rotations and reflections to be identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If exactly two of the [BLANK] squares are painted, determine how many unique designs exist when rotations and reflections are viewed as equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that there are exactly two shaded [BLANK] squares, figure out the number of distinct layouts, treating rotations and reflections as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming exactly two of the [BLANK] squares have been colored, find the number of unique patterns, considering rotations and reflections as equivalent.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that exactly three of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that precisely three of the [BLANK] squares are filled in, calculate the number of unique arrangements considering rotations and reflections as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "With exactly three of the [BLANK] squares being colored, find the total number of distinct configurations where rotations and reflections are viewed as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If exactly three of the [BLANK] squares are darkened, determine the count of different designs, treating rotations and reflections as equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given that only three of the [BLANK] squares are painted, identify the number of unique patterns, where rotations and reflections are considered the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming three of the [BLANK] squares are shaded, figure out how many distinct layouts exist, considering rotations and reflections to be equivalent.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that exactly two of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If precisely two of the [BLANK] squares are colored, find the total number of unique arrangements, taking into account that rotations and reflections are viewed as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that only two of the [BLANK] squares have been filled in, calculate the count of different configurations while considering rotations and reflections as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that two out of the [BLANK] squares are filled, determine how many unique designs can be formed with the understanding that rotations and reflections are treated as equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With exactly two of the [BLANK] squares shaded, ascertain the number of distinct arrangements, given that rotations and reflections are regarded as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If only two of the [BLANK] squares are marked, compute the number of unique patterns, considering that rotations and reflections are considered equivalent.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that exactly four of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If exactly four of the [BLANK] squares are colored, find the total number of unique arrangements, considering that rotations and reflections are viewed as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that precisely four of the [BLANK] squares have been shaded, calculate the number of different configurations with the understanding that rotations and reflections count as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that precisely four out of the [BLANK] squares are filled in, determine how many unique designs exist, taking into account that rotations and reflections are treated as equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With exactly four of the [BLANK] squares shaded in, ascertain the total number of distinct designs, considering that rotations and reflections are regarded as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If there are exactly four shaded squares among the [BLANK], compute the number of distinct patterns, recognizing that rotations and reflections are equivalent.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that exactly five of the [BLANK] squares are shaded, determine the number of distinct patterns assuming rotations and reflections are considered equivalent.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If precisely five of the [BLANK] squares are filled in, calculate the total number of unique arrangements taking into account that rotations and reflections are seen as the same.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that exactly five of the [BLANK] squares are colored, find the count of distinct designs considering that rotations and reflections count as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given that there are exactly five shaded [BLANK] squares, determine how many different configurations exist, treating rotations and reflections as identical.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With exactly five of the [BLANK] squares being darkened, ascertain the number of unique patterns, assuming that rotations and reflections are equivalent.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "If there are exactly five [BLANK] squares that are shaded, find the number of distinct arrangements, considering rotations and reflections as equivalent.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

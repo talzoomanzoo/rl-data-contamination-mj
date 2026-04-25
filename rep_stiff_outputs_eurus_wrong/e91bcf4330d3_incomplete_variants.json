@@ -1,0 +1,210 @@
+{
+  "original_question": "Karan borrowed $3,650 for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Karan borrowed [BLANK] for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Karan took a loan of [BLANK] for a duration of five months at a 10% interest rate. She must make equal monthly payments. What is the amount she needs to pay each month? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Karan acquired [BLANK] as a loan for five months with an interest rate set at 10%. She is required to pay the same amount every month. What will her monthly payment be? Let's go through this step by step and list the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Karan has borrowed [BLANK] for a period of five months at an interest rate of 10%. She needs to make uniform payments each month. How much does she need to pay every month? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Karan obtained a loan of [BLANK] for five months at an interest rate of 10%. She must pay a consistent amount each month. What is her monthly payment? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Karan received [BLANK] in loans for a five-month period at an interest rate of 10%. She has to make the same payment every month. How much does she owe per month? Let's consider this step by step and indicate the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Emily borrowed [BLANK] for three months at an interest rate of 9%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily took out a loan of [BLANK] for a duration of three months with a 9% interest rate. She is required to make the same payment each month. What is the monthly payment amount? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily secured a loan of [BLANK] for a period of three months at a 9% interest rate. She must contribute an equal sum every month. How much will her monthly payment be? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily acquired [BLANK] as a loan for three months at an interest rate set at 9%. She is obligated to pay a consistent amount each month. What is the amount she needs to pay monthly? Let's work through it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily has borrowed [BLANK] for three months with a 9% interest rate. She needs to repay a fixed amount every month. How much does she need to pay each month? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily received a loan of [BLANK] for a three-month term at a 9% interest rate. She is expected to make equal monthly payments. What is the value of her monthly payment? Let's examine this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "James borrowed [BLANK] for four months at an interest rate of 12%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James took out a loan of [BLANK] for a duration of four months with an interest rate of 12%. Each month, he must pay the same amount. What is the monthly payment he needs to make? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James has borrowed [BLANK] for a period of four months at an interest rate of 12%. He is required to make equal payments each month. How much does he need to pay each month? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James secured a loan of [BLANK] for four months at a 12% interest rate. He is obligated to pay a consistent amount each month. What will his monthly payment be? Let's go through it step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James received [BLANK] as a loan for four months with a 12% interest rate. He must pay the same sum every month. How much is his monthly payment? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James borrowed [BLANK] for a four-month term at an interest rate of 12%. He is to make equal payments each month. How much does he need to pay each month? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Michael borrowed [BLANK] for seven months at an interest rate of 11%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael took a loan of [BLANK] for a period of seven months at an interest rate of 11%. He needs to make uniform payments each month. What will his monthly payment be? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael secured a loan amounting to [BLANK] for seven months with an interest rate set at 11%. He is required to pay a consistent amount every month. How much does he need to pay each month? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael has borrowed [BLANK] for seven months at an interest rate of 11%. He must remit an equal payment each month. What is the amount he has to pay monthly? Let's go through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael obtained a loan of [BLANK] for a duration of seven months with an interest rate of 11%. He is obligated to pay the same sum each month. How much will he be paying each month? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael received a loan of [BLANK] for a term of seven months with an interest rate of 11%. He has to make equal monthly payments. What amount does he need to pay every month? Let's consider this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alicia borrowed [BLANK] for six months at an interest rate of 8%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alicia took a loan of [BLANK] for a duration of six months with an interest rate of 8%. Each month, she must make the same payment. What is the monthly payment amount? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alicia secured a loan of [BLANK] for a period of six months at an interest rate of 8%. She is required to pay a consistent amount each month. What will her monthly payment be? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For six months, Alicia has borrowed [BLANK] with an interest rate of 8%. She needs to pay a fixed amount every month. How much does she need to pay each month? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alicia has taken out a loan of [BLANK] for six months, incurring an interest rate of 8%. She is obligated to pay the same amount monthly. What will her monthly payment be? Let\u2019s go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alicia borrowed [BLANK] for six months at an 8% interest rate. She must make equal monthly payments. How much does she need to pay each month? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sofia borrowed [BLANK] for eight months at an interest rate of 7%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sofia obtained a loan of [BLANK] for a duration of eight months with an interest rate set at 7%. She must make identical monthly payments. What is the amount she needs to pay each month? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sofia has taken out [BLANK] for a period of eight months at a 7% interest rate. She is required to pay the same sum each month. How much does she need to pay monthly? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sofia secured a loan of [BLANK] over eight months with an interest rate of 7%. She is obligated to pay a fixed amount every month. What is the monthly payment she needs to make? Let's consider it step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sofia borrowed [BLANK] for an eight-month term with an interest rate of 7%. She is to pay a consistent amount each month. How much must she pay each month? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sofia has taken a loan of [BLANK] for eight months at an interest rate of 7%. She is required to pay the same amount each month. What amount does she need to pay every month? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

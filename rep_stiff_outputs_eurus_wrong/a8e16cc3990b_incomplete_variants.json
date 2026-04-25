@@ -1,0 +1,210 @@
+{
+  "original_question": "Ella earned $33 for 3 hours of dog walking. If she continues to walk dogs at the same rate, how much would she earn after 12 hours? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Maya earned [BLANK] for 2 hours of tutoring. If she continues to tutor at the same rate, how much would she earn after 10 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maya received [BLANK] for tutoring for 2 hours. If she keeps up the same rate, what would her earnings be after 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 2 hours of tutoring, Maya made [BLANK]. How much will she make if she tutors for 10 hours at that same rate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maya's earnings for 2 hours of tutoring were [BLANK]. If she continues tutoring at this rate, how much would she earn in 10 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After tutoring for 2 hours, Maya earned [BLANK]. If she maintains this rate, how much would she earn after 10 hours of tutoring?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maya was paid [BLANK] for her 2 hours of tutoring. If she tutors for 10 hours at the same pay rate, how much will she earn?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Ethan earned [BLANK] for 3 hours of cleaning. If he continues to clean at the same rate, how much would he earn after 9 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ethan made [BLANK] for 3 hours of tidying up. If he persists at this pace, what would he make after 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ethan received [BLANK] for cleaning for 3 hours. If he keeps up this rate, how much will he receive after 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ethan earned [BLANK] for his 3 hours of cleaning work. If he continues at this same rate, how much will he earn after 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ethan got [BLANK] for working 3 hours on cleaning. If he maintains this earning rate, how much would he earn in 9 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ethan's earnings were [BLANK] for 3 hours spent cleaning. If he carries on at this rate, how much will he earn over 9 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah earned [BLANK] for 4 hours of painting. If he continues to paint at the same rate, how much would he earn after 16 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah made [BLANK] by painting for 4 hours. If he maintains that same pace, what would his earnings be after 16 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "After working for 4 hours of painting, Noah received [BLANK]. How much would he earn if he continues painting for 16 hours at that rate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For 4 hours of painting, Noah collected [BLANK]. If he keeps up this rate, how much will he earn after 16 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah was paid [BLANK] for 4 hours spent painting. If he paints for 16 hours at the same rate, how much would he earn?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Having earned [BLANK] for 4 hours of painting, how much would his total be if he paints for 16 hours at the same rate?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia earned [BLANK] for 8 hours of babysitting. If she continues to babysit at the same rate, how much would she earn after 20 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia made [BLANK] for 8 hours of babysitting. If she keeps babysitting at that same rate, what would her earnings be after 20 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 8 hours of babysitting, Sophia received [BLANK]. If she maintains that same rate, how much will she make after 20 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia's earnings for 8 hours of babysitting were [BLANK]. If she continues to babysit at this rate, what will her total be after 20 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After babysitting for 8 hours, Sophia earned [BLANK]. If she persists at that rate, how much will she earn in 20 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia earned [BLANK] for babysitting over the course of 8 hours. Assuming she keeps the same rate, how much will she earn in 20 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam earned [BLANK] for 5 hours of gardening. If he continues to garden at the same rate, how much would he earn after 15 hours?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam made [BLANK] for 5 hours spent gardening. If he keeps gardening at that same rate, what will he earn after 15 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For 5 hours of gardening, Liam received [BLANK]. If he maintains that rate, how much will he earn after 15 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam's earnings for 5 hours of gardening were [BLANK]. If he continues to work at the same pace, how much will he earn in 15 hours?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After working 5 hours in the garden, Liam earned [BLANK]. If he gardens for 15 hours at the same rate, what will his total earnings be?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam's income from 5 hours of gardening is [BLANK]. If he persists at this rate, how much would he make after 15 hours?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Ella earned [BLANK] for 3 hours of dog walking. If she continues to walk dogs at the same rate, how much would she earn after 12 hours? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ella made [BLANK] for 3 hours spent walking dogs. If she keeps walking dogs at that same pace, how much would she receive after 12 hours? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ella received [BLANK] for 3 hours of dog walking. If she maintains that rate of walking dogs, what would her earnings be after 12 hours? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ella got [BLANK] for 3 hours of walking dogs. If she continues at that same rate, how much will she earn in total after 12 hours? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella gained [BLANK] for 3 hours of dog walking. If she persists in walking dogs at this rate, how much would she earn in 12 hours? Let's think this through step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ella earned [BLANK] for 3 hours of walking dogs. If she keeps up that rate, what will her earnings be after 12 hours? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

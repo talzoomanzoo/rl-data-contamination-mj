@@ -1,0 +1,110 @@
+{
+  "original_question": "Calculate the difference between the sums of two sequences:\n$(2001 + 2002 + 2003 + \\cdots + 2093) - (301 + 302 + 303 + \\cdots + 393) = ?$\nA) 150,000\nB) 157,100\nC) 158,100\nD) 160,000\nE) 180,000\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Calculate the difference between the sums of two sequences: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the result of subtracting the total of two series: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the result of subtracting the totals of two series: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the result of subtracting the total of two series: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the subtraction of the totals from two series: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the disparity between the totals of two series: $([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) - ([BLANK] + [BLANK] + [BLANK] + \\cdots + [BLANK]) = ?$ A) 150,000 B) 157,100 C) 158,100 D) 160,000 E) 180,000",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Leah just got a new kitten. Spaying her cost $200, her 3 vaccines costs $20 each, and the kitten broke 4 vases that cost $12 each. How much has the kitten cost so far? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Leah just got a new kitten. Spaying her cost [BLANK], her 3 vaccines costs [BLANK] each, and the kitten broke 4 vases that cost [BLANK] each. How much has the kitten cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Leah has recently adopted a new kitten. The expense for spaying her was [BLANK], each of her 3 vaccines amounted to [BLANK], and the kitten accidentally shattered 4 vases priced at [BLANK] each. What is the total cost incurred for the kitten up to now? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Leah just welcomed a new kitten into her home. The cost for spaying was [BLANK], while each of the 3 vaccines costs [BLANK], and the kitten broke 4 vases that were priced at [BLANK] each. How much has Leah spent on the kitten so far? Let's break it down step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Leah recently got a new kitten. The spaying procedure cost [BLANK], each of the 3 vaccines was [BLANK], and the kitten damaged 4 vases that cost [BLANK] each. What is the total amount spent on the kitten thus far? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Leah has a new kitten now. The expense for spaying her was [BLANK], her 3 vaccines each cost [BLANK], and the kitten broke 4 vases that were valued at [BLANK] each. What has been the overall cost of the kitten to this point? Let's evaluate it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Leah has just brought home a new kitten. The cost of spaying her came to [BLANK], each of the 3 vaccinations was [BLANK], and the kitten broke 4 vases that were worth [BLANK] each. What is the total cost associated with the kitten so far? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Tom acquired a new hamster. Neutering her cost [BLANK], her 6 vaccinations cost [BLANK] each, and the hamster chewed 4 cables that cost [BLANK] each. How much has the hamster cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom got a new hamster. The expense for neutering her was [BLANK], each of her 6 vaccinations cost [BLANK], and the hamster gnawed through 4 cables priced at [BLANK] each. What is the total cost incurred for the hamster up to now? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom welcomed a new hamster into his home. Neutering her required [BLANK], her 6 vaccinations were [BLANK] each, and she damaged 4 cables that were [BLANK] each. How much has Tom spent on the hamster so far? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom has a new hamster. The cost for neutering her amounted to [BLANK], her 6 vaccinations were priced at [BLANK] each, and she chewed through 4 cables that cost [BLANK] each. What is the total expenditure on the hamster to this point? Let's consider it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom recently got a hamster. Neutering her came to [BLANK], with 6 vaccinations priced at [BLANK] each, and the hamster chewed on 4 cables that cost [BLANK] each. How much has Tom invested in the hamster so far? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom has acquired a new hamster. The neutering expense was [BLANK], her 6 vaccinations each cost [BLANK], and she ruined 4 cables that were priced at [BLANK] each. What is the total amount spent on the hamster up to this point? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara just brought home a new parrot. Training him cost [BLANK], his 2 check-ups cost [BLANK] each, and the parrot knocked over 5 decorative items that cost [BLANK] each. How much has the parrot cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara recently adopted a new parrot. The expense for training him was [BLANK], each of his 2 check-ups amounted to [BLANK], and he accidentally toppled 5 decorative pieces that were priced at [BLANK] each. What is the total cost incurred for the parrot at this point? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara has just acquired a new parrot. The training expenses were [BLANK], his 2 vet visits cost [BLANK] per visit, and he has knocked over 5 decorative items, each costing [BLANK]. How much has Sara spent on the parrot so far? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara has recently gotten a new parrot. The cost for training him was [BLANK], the two check-ups set her back [BLANK] each, and he knocked down 5 decorative items that were valued at [BLANK] each. What is the total amount spent on the parrot up to now? Let's examine it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara just welcomed a new parrot into her home. Training him required [BLANK], with his 2 check-ups costing [BLANK] each, and he has also knocked over 5 decorative items valued at [BLANK] a piece. How much has been spent on the parrot thus far? Let's go through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara has brought home a new parrot. The training fees were [BLANK], he had 2 check-ups that each cost [BLANK], and he also knocked over 5 decorative items, which were priced at [BLANK] each. What is the total cost of the parrot to date? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily just adopted a new puppy. Neutering him cost [BLANK], his 4 vaccines cost [BLANK] each, and the puppy chewed 3 pairs of shoes that cost [BLANK] each. How much has the puppy cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily recently got a new puppy. The cost for neutering him was [BLANK], each of his 4 vaccinations was [BLANK], and he damaged 3 pairs of shoes that were [BLANK] each. What is the total amount spent on the puppy up to this point? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily has just welcomed a new puppy into her home. Neutering him required [BLANK], the 4 vaccines were priced at [BLANK] each, and the puppy ruined 3 pairs of shoes costing [BLANK] each. How much has she spent on the puppy so far? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily now has a new puppy. The expense for neutering him was [BLANK], each of his 4 vaccinations came to [BLANK], and he chewed up 3 pairs of shoes valued at [BLANK] each. What is the total cost incurred for the puppy thus far? Let\u2019s think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily just brought home a new puppy. The neutering cost was [BLANK], the 4 vaccines were [BLANK] each, and the puppy destroyed 3 pairs of shoes that cost [BLANK] each. How much has been spent on the puppy to date? Let's consider this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily recently adopted a puppy. The neutering expense was [BLANK], each of the 4 vaccinations cost [BLANK], and the puppy ruined 3 pairs of shoes priced at [BLANK] each. What is the total amount spent on the puppy so far? Let's work through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark recently got a new rabbit. Spaying her cost [BLANK], her 5 vaccinations cost [BLANK] each, and the rabbit dug up 2 flower pots that cost [BLANK] each. How much has the rabbit cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark has a new rabbit. The cost for spaying her was [BLANK], each of her 5 vaccinations cost [BLANK], and she damaged 2 flower pots priced at [BLANK] each. What is the total amount spent on the rabbit up to this point? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark recently adopted a rabbit. The spaying procedure cost [BLANK], each of the 5 vaccinations she received was [BLANK], and the rabbit ruined 2 flower pots that were [BLANK] each. How much money has Mark spent on the rabbit so far? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark got himself a new rabbit. The expense for spaying her was [BLANK], her 5 vaccinations were priced at [BLANK] each, and she dug up 2 flower pots that cost [BLANK] each. What is the total cost for the rabbit up until now? Let's work through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark has recently acquired a rabbit. Spaying her required [BLANK], the price for her 5 vaccinations was [BLANK] each, and the rabbit disturbed 2 flower pots which were [BLANK] each. What has been the overall cost of the rabbit so far? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark just got a rabbit. The cost to spay her was [BLANK], each of her 5 vaccinations was [BLANK], and she damaged 2 flower pots that cost [BLANK] each. How much has Mark spent on the rabbit up to this point? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Nina just got a new turtle. Spaying him cost [BLANK], his 3 check-ups cost [BLANK] each, and the turtle broke 2 lamps that cost [BLANK] each. How much has the turtle cost so far? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nina has recently acquired a new turtle. The expense for spaying him was [BLANK], the cost for his 3 check-ups is [BLANK] each, and he damaged 2 lamps that were priced at [BLANK] each. What is the total cost incurred for the turtle so far? Let's reason it out step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Nina just welcomed a new turtle into her home. The fee for spaying him amounted to [BLANK], each of his 3 check-ups is [BLANK], and the turtle broke 2 lamps that were valued at [BLANK] each. How much has she spent on the turtle up to this point? Let's analyze it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nina recently adopted a new turtle. The cost to spay him was [BLANK], he has 3 check-ups that each cost [BLANK], and the turtle broke 2 lamps, with each lamp costing [BLANK]. What total amount has Nina spent on the turtle thus far? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Nina has just gotten a new turtle. The spaying procedure cost her [BLANK], his 3 check-ups are priced at [BLANK] each, and he broke 2 lamps that were each [BLANK]. How much has the turtle cost up until now? Let's work through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Nina recently got a new turtle. The expense for spaying him was [BLANK], he requires 3 check-ups that are [BLANK] each, and he broke 2 lamps that cost [BLANK] each. What is the total amount Nina has spent on the turtle so far? Let's think it through step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Abigail, Victoria, Oliver, and Scarlett. \"Victoria is a knave,\" Abigail mentioned. Victoria noted, \"Oliver is a knave\". In Oliver's words: \"Scarlett is a knight\". Scarlett remarked, \"If Victoria is a knave then Oliver is a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A curious world has inhabitants that are either honest people or dishonest people. Honest people always tell the truth, while dishonest people always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declares, \"[BLANK] is dishonest.\" [BLANK] replies, \"[BLANK] is dishonest.\" [BLANK] states, \"[BLANK] is honest.\" [BLANK] mentions, \"If [BLANK] is dishonest, then [BLANK] is honest.\" Figure out who is honest and who is dishonest.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a fascinating realm, the residents can either be truthful individuals or deceitful ones. Truthful individuals always speak the truth, whereas deceitful individuals always fabricate lies. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, \"[BLANK] is deceitful.\" [BLANK] responds, \"[BLANK] is deceitful.\" [BLANK] asserts, \"[BLANK] is truthful.\" [BLANK] states, \"If [BLANK] is deceitful, then [BLANK] is truthful.\" Determine who is truthful and who is deceitful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar universe, the beings are categorized as either truthful or untruthful. Truthful beings consistently tell the truth, while untruthful beings always lie. You come across 4 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, \"[BLANK] is untruthful.\" [BLANK] states, \"[BLANK] is untruthful.\" [BLANK] claims, \"[BLANK] is truthful.\" [BLANK] observes, \"If [BLANK] is untruthful, then [BLANK] is truthful.\" Identify who is truthful and who is untruthful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In an intriguing world, there are two types of inhabitants: those who are truthful and those who are dishonest. Truthful inhabitants always provide accurate information, while dishonest inhabitants consistently provide falsehoods. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is dishonest.\" [BLANK] replies, \"[BLANK] is dishonest.\" [BLANK] declares, \"[BLANK] is truthful.\" [BLANK] comments, \"If [BLANK] is dishonest, then [BLANK] is truthful.\" Figure out who is truthful and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a captivating environment, the populace consists of either honest individuals or dishonest individuals. Honest individuals always convey the truth, while dishonest individuals invariably lie. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, \"[BLANK] is dishonest.\" [BLANK] responds, \"[BLANK] is dishonest.\" [BLANK] asserts, \"[BLANK] is honest.\" [BLANK] remarks, \"If [BLANK] is dishonest, then [BLANK] is honest.\" Determine who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a fascinating society, the inhabitants can either be honest or dishonest. Honest individuals consistently tell the truth, while dishonest individuals are always lying. You come across 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is dishonest.\" [BLANK] asserts, \"[BLANK] is dishonest.\" [BLANK] claims, \"[BLANK] is honest.\" [BLANK] notes, \"If [BLANK] is dishonest, then [BLANK] is honest.\" Identify who among them is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. \"[BLANK] is a knave,\" [BLANK] mentioned. [BLANK] noted, \"[BLANK] is a knave\". In [BLANK]'s words: \"[BLANK] is a knight\". [BLANK] remarked, \"If [BLANK] is a knave then [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, the residents consist solely of knights and knaves. Knights always speak the truth, whereas knaves never do. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. One of them states, '[BLANK] is a knave,' according to [BLANK]. Another individual mentions, '[BLANK] is a knave.' In the words of [BLANK]: '[BLANK] is a knight.' [BLANK] claims, 'If [BLANK] is a knave, then [BLANK] is a knight.' Who, then, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There exists a peculiar island populated exclusively by knights and knaves. Knights always tell the truth while knaves are perpetual liars. You come across 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. '[BLANK] is a knave,' remarked [BLANK]. Additionally, [BLANK] stated, '[BLANK] is a knave.' According to [BLANK]: '[BLANK] is a knight.' [BLANK] observed, 'If [BLANK] is a knave, then [BLANK] must be a knight.' So who is classified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A distinctive island is home to only knights and knaves. Knights are truthful, while knaves are deceitful. You meet 4 characters: [BLANK], [BLANK], [BLANK], and [BLANK]. '[BLANK] is a knave,' said [BLANK]. [BLANK] remarked, '[BLANK] is a knave.' In [BLANK]'s statement: '[BLANK] is a knight.' [BLANK] stated, 'If [BLANK] is a knave, then [BLANK] is a knight.' Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "This island is quite exceptional, inhabited only by knights and knaves. Knights always provide truthful information, while knaves are notorious for lying. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. '[BLANK] is a knave,' was the assertion made by [BLANK]. [BLANK] also noted, '[BLANK] is a knave.' According to [BLANK]: '[BLANK] is a knight.' [BLANK] declared, 'If [BLANK] is a knave, then [BLANK] is a knight.' So, who are the knights and who are the knaves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a fascinating island, the only residents are knights and knaves. Knights are known for their honesty, while knaves always tell lies. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. '[BLANK] is a knave,' claimed [BLANK]. Additionally, [BLANK] observed, '[BLANK] is a knave.' In [BLANK]'s assertion: '[BLANK] is a knight.' [BLANK] commented, 'If [BLANK] is a knave, then [BLANK] is a knight.' Who, therefore, is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "On a distant planet, there are two types of beings: truth-tellers and liars. Truth-tellers always speak the truth, while liars always lie. You encounter 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, \"[BLANK] is a liar.\" [BLANK] claims, \"[BLANK] is a liar.\" According to [BLANK], \"[BLANK] is a truth-teller.\" [BLANK] says, \"If [BLANK] is a liar, then [BLANK] is a truth-teller.\" Determine who is a truth-teller and who is a liar.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a far-off planet, there exist two categories of beings: those who tell the truth and those who deceive. Truth-tellers always convey the truth, while deceivers never do. You come across 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, '[BLANK] is a deceiver.' [BLANK] states, '[BLANK] is a deceiver.' In the opinion of [BLANK], '[BLANK] is a truth-teller.' [BLANK] remarks, 'If [BLANK] is a deceiver, then [BLANK] is a truth-teller.' Find out who among them is a truth-teller and who is a deceiver.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On a remote planet, there are two kinds of beings: those who tell the truth and those who lie. Truth-tellers always speak honestly, while liars always falsify. You encounter 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declares, '[BLANK] is a liar.' [BLANK] insists, '[BLANK] is a liar.' According to [BLANK], '[BLANK] tells the truth.' [BLANK] notes, 'If [BLANK] is a liar, then [BLANK] is telling the truth.' Identify who is telling the truth and who is lying.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On an alien world, there are two species: those who are truthful and those who lie. Truth-tellers always provide the truth, while liars always deceive. You meet 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is a liar.' [BLANK] asserts, '[BLANK] is a liar.' [BLANK] states, '[BLANK] is a truth-teller.' [BLANK] comments, 'If [BLANK] is a liar, then [BLANK] must be a truth-teller.' Determine who is a truth-teller and who is a liar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a distant world, there are two kinds of entities: those who tell the truth and those who are liars. Truth-tellers consistently speak truthfully, while liars consistently lie. You encounter 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, '[BLANK] is a liar.' [BLANK] mentions, '[BLANK] is a liar.' [BLANK] claims, '[BLANK] is a truth-teller.' [BLANK] states, 'If [BLANK] is a liar, then [BLANK] is a truth-teller.' Ascertain who is a truth-teller and who is a liar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a remote planet, there are two types of beings: those who tell the truth and those who lie. Truth-tellers always provide accurate information, while liars always mislead. You come across 5 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarks, '[BLANK] is a liar.' [BLANK] claims, '[BLANK] is a liar.' According to [BLANK], '[BLANK] is a truth-teller.' [BLANK] suggests, 'If [BLANK] is a liar, then [BLANK] must be a truth-teller.' Determine the identities of the truth-tellers and liars.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "On a remote island, the locals are either truth-speakers or false-speakers. Truth-speakers always state the truth, and false-speakers always lie. You run into 5 locals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, \"[BLANK] is a false-speaker.\" [BLANK] says, \"[BLANK] is a false-speaker.\" [BLANK] tells you, \"[BLANK] is a truth-speaker.\" [BLANK] asserts, \"If [BLANK] is a false-speaker, then [BLANK] is a truth-speaker.\" Determine who speaks the truth and who lies.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a distant island, the inhabitants can either be truth-tellers or deceit-tellers. Truth-tellers always tell the truth, whereas deceit-tellers always lie. You encounter 5 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, '[BLANK] is a deceit-teller.' [BLANK] remarks, '[BLANK] is a deceit-teller.' [BLANK] informs you, '[BLANK] is a truth-teller.' [BLANK] claims, 'If [BLANK] is a deceit-teller, then [BLANK] is a truth-teller.' Figure out who is truthful and who is lying.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On an isolated island, the residents are either honest individuals or dishonest ones. Honest individuals always tell the truth, while dishonest ones consistently lie. You meet 5 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, '[BLANK] is a dishonest individual.' [BLANK] declares, '[BLANK] is a dishonest individual.' [BLANK] states, '[BLANK] is an honest individual.' [BLANK] mentions, 'If [BLANK] is a dishonest individual, then [BLANK] is an honest individual.' Identify who is honest and who is not.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a secluded island, the people are categorized as either truth-tellers or liars. Truth-tellers always express the truth, while liars perpetually deceive. You meet 5 people: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] says, '[BLANK] is a liar.' [BLANK] claims, '[BLANK] is a liar.' [BLANK] tells you, '[BLANK] is a truth-teller.' [BLANK] expresses, 'If [BLANK] is a liar, then [BLANK] is a truth-teller.' Determine who tells the truth and who lies.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "On a far-off island, the community comprises either truth-tellers or falsehood-tellers. Truth-tellers consistently tell the truth, whereas falsehood-tellers always lie. You come across 5 community members: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is a falsehood-teller.' [BLANK] states, '[BLANK] is a falsehood-teller.' [BLANK] asserts, '[BLANK] is a truth-teller.' [BLANK] indicates, 'If [BLANK] is a falsehood-teller, then [BLANK] is a truth-teller.' Ascertain who is truthful and who is deceptive.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On an outlying island, the citizens can be either truth-tellers or untruth-tellers. Truth-tellers always convey the truth, while untruth-tellers invariably lie. You encounter 5 citizens: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] remarks, '[BLANK] is an untruth-teller.' [BLANK] states, '[BLANK] is an untruth-teller.' [BLANK] mentions, '[BLANK] is a truth-teller.' [BLANK] declares, 'If [BLANK] is an untruth-teller, then [BLANK] is a truth-teller.' Determine who is telling the truth and who is lying.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In an enchanted city, the residents are classified as either verifiers or deceivers. Verifiers always tell the truth, while deceivers always lie. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] declares, \"[BLANK] is a deceiver.\" [BLANK] responds, \"[BLANK] is a deceiver.\" [BLANK] remarks, \"[BLANK] is a verifier.\" [BLANK] states, \"If [BLANK] is a deceiver, then [BLANK] is a verifier.\" Ascertain who is a verifier and who is a deceiver.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a mystical town, the inhabitants fall into two categories: truth-tellers and liars. Truth-tellers always speak the truth, whereas liars consistently deceive. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is a liar.' [BLANK] replies, '[BLANK] is a liar.' [BLANK] states, '[BLANK] is a truth-teller.' [BLANK] asserts, 'If [BLANK] is a liar, then [BLANK] is a truth-teller.' Determine who qualifies as a truth-teller and who is a liar.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a magical city, the people are divided into two types: honest individuals and dishonest individuals. Honest individuals always tell the truth, while dishonest individuals always mislead. You encounter 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, '[BLANK] is dishonest.' [BLANK] responds, '[BLANK] is dishonest.' [BLANK] declares, '[BLANK] is honest.' [BLANK] mentions, 'If [BLANK] is dishonest, then [BLANK] is honest.' Identify who is honest and who is dishonest.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a fantastical city, residents are categorized as truth-tellers or fibbers. Truth-tellers consistently present the truth, while fibbers invariably lie. You come across 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] insists, '[BLANK] is a fibber.' [BLANK] replies, '[BLANK] is a fibber.' [BLANK] comments, '[BLANK] is a truth-teller.' [BLANK] claims, 'If [BLANK] is a fibber, then [BLANK] is a truth-teller.' Determine who is a truth-teller and who is a fibber.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a whimsical city, the populace consists of two groups: honest people and deceitful people. Honest individuals always convey the truth, while deceitful individuals are perpetually dishonest. You meet 4 people: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, '[BLANK] is deceitful.' [BLANK] counters, '[BLANK] is deceitful.' [BLANK] observes, '[BLANK] is honest.' [BLANK] states, 'If [BLANK] is deceitful, then [BLANK] is honest.' Figure out who is honest and who is deceitful.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a legendary city, its citizens are classified as either honest or dishonest. Honest individuals always tell the truth, while dishonest individuals consistently lie. You encounter 4 citizens: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] proclaims, '[BLANK] is dishonest.' [BLANK] counters, '[BLANK] is dishonest.' [BLANK] indicates, '[BLANK] is honest.' [BLANK] comments, 'If [BLANK] is dishonest, then [BLANK] is honest.' Determine who belongs to the honest group and who belongs to the dishonest group.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a mystical forest, there exist two types of creatures: sages and deceivers. Sages always tell the truth, and deceivers always lie. You come across 6 creatures: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, \"[BLANK] is a deceiver.\" [BLANK] proclaims, \"[BLANK] is a deceiver.\" [BLANK] states, \"[BLANK] is a sage.\" [BLANK] comments, \"If [BLANK] is a deceiver, then [BLANK] is a sage.\" Identify which creatures are sages and which are deceivers.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Within an enchanted forest, there are two kinds of beings: sages and deceivers. Sages always speak the truth, whereas deceivers consistently lie. You encounter 6 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is a deceiver.' [BLANK] asserts, '[BLANK] is a deceiver.' [BLANK] mentions, '[BLANK] is a sage.' [BLANK] remarks, 'If [BLANK] is a deceiver, then [BLANK] is a sage.' Determine which beings are sages and which are deceivers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a magical woodland, there are two varieties of creatures: sages and deceivers. Sages always tell the truth, while deceivers always fabricate. You find 6 creatures: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] states, '[BLANK] is a deceiver.' [BLANK] declares, '[BLANK] is a deceiver.' [BLANK] indicates, '[BLANK] is a sage.' [BLANK] observes, 'If [BLANK] is a deceiver, then [BLANK] is a sage.' Identify which creatures are sages and which are deceivers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a fantastical forest, there are two types of entities: sages and deceivers. Sages consistently tell the truth, while deceivers always lie. You stumble upon 6 entities: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserts, '[BLANK] is a deceiver.' [BLANK] states, '[BLANK] is a deceiver.' [BLANK] claims, '[BLANK] is a sage.' [BLANK] suggests, 'If [BLANK] is a deceiver, then [BLANK] is a sage.' Determine which entities are sages and which are deceivers.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an otherworldly forest, there exist two categories of creatures: sages and deceivers. Sages always speak the truth, whereas deceivers are perpetual liars. You encounter 6 creatures: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claims, '[BLANK] is a deceiver.' [BLANK] proclaims, '[BLANK] is a deceiver.' [BLANK] announces, '[BLANK] is a sage.' [BLANK] notes, 'If [BLANK] is a deceiver, then [BLANK] is a sage.' Identify which creatures belong to the sage category and which to the deceiver category.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a whimsical forest, there are two species of beings: sages and deceivers. Sages are truthful, while deceivers are always dishonest. You come across 6 beings: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] suggests, '[BLANK] is a deceiver.' [BLANK] states, '[BLANK] is a deceiver.' [BLANK] asserts, '[BLANK] is a sage.' [BLANK] explains, 'If [BLANK] is a deceiver, then [BLANK] is a sage.' Figure out which beings are sages and which are deceivers.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

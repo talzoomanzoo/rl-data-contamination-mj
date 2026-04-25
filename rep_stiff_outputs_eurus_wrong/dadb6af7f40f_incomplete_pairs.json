@@ -1,0 +1,62 @@
+{
+  "original_question": "James decided to walk to the store.  When he got halfway there he realized he forgot something at home and had to walk back.  If his home is 4 miles from the store and he walks 4 miles per hour how long did it take him to reach the store? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the distance to the store\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "James decided to walk to the store.  When he got halfway there he realized he forgot something at home and had to walk back.  If his home is 4 miles from the store and he walks 4 miles per hour how long did it take him to reach the store? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "James decided to walk to [BLANK].  When he got halfway there he realized he forgot something at home and had to walk back.  If his home is [BLANK] miles from [BLANK] and he walks 4 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Emily decided to walk to the library. When she got halfway there she realized she forgot something at home and had to walk back. If her home is 6 miles from the library and she walks 3 miles per hour how long did it take her to reach the library? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 3 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Michael decided to walk to the park. When he got halfway there he realized he forgot something at home and had to walk back. If his home is 5 miles from the park and he walks 2 miles per hour how long did it take him to reach the park? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael decided to walk to [BLANK]. When he got halfway there he realized he forgot something at home and had to walk back. If his home is [BLANK] miles from [BLANK] and he walks 2 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Sophia decided to walk to the gym. When she got halfway there she realized she forgot something at home and had to walk back. If her home is 8 miles from the gym and she walks 5 miles per hour how long did it take her to reach the gym? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 5 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Liam decided to walk to the cafe. When he got halfway there he realized he forgot something at home and had to walk back. If his home is 3 miles from the cafe and he walks 4 miles per hour how long did it take him to reach the cafe? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Liam decided to walk to [BLANK]. When he got halfway there he realized he forgot something at home and had to walk back. If his home is [BLANK] miles from [BLANK] and he walks 4 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Olivia decided to walk to the beach. When she got halfway there she realized she forgot something at home and had to walk back. If her home is 10 miles from the beach and she walks 6 miles per hour how long did it take her to reach the beach? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Olivia decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 6 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the distance to the store\""
+    }
+  ],
+  "num_valid_similars": 5
+}

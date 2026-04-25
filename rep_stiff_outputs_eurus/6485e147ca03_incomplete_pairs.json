@@ -1,0 +1,62 @@
+{
+  "original_question": "Given the graphs of $y = -|x-a| + b$ and $y = |x-c| + d$ intersect at points $(2,5)$ and $(8,3)$. Find $a+c$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the specific intersection points of the graphs",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given the graphs of $y = -|x-a| + b$ and $y = |x-c| + d$ intersect at points $(2,5)$ and $(8,3)$. Find $a+c$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given the graphs of $y = -|x-a| + b$ and $y = |x-c| + d$ intersect at points $(2,[BLANK])$ and $(8,[BLANK])$. Find $a+c$.",
+      "info_removed": "the specific intersection points of the graphs"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given the graphs of $y = -|x-3| + 7$ and $y = |x-1| + 4$ intersect at points $(1,5)$ and $(9,6)$. Find $3+1$.",
+      "incomplete_question": "Given the graphs of $y = -|x-3| + 7$ and $y = |x-1| + 4$ intersect at points $(1,[BLANK])$ and $(9,[BLANK])$. Find $3+1$.",
+      "info_removed": "the specific intersection points of the graphs"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given the graphs of $y = -|x-6| + 10$ and $y = |x-2| + 5$ intersect at points $(2,6)$ and $(7,4)$. Find $6+2$.",
+      "incomplete_question": "Given the graphs of $y = -|x-6| + 10$ and $y = |x-2| + 5$ intersect at points $(2,[BLANK])$ and $(7,[BLANK])$. Find $6+2$.",
+      "info_removed": "the specific intersection points of the graphs"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given the graphs of $y = -|x-4| + 8$ and $y = |x-5| + 2$ intersect at points $(3,5)$ and $(9,2)$. Find $4+5$.",
+      "incomplete_question": "Given the graphs of $y = -|x-4| + 8$ and $y = |x-5| + 2$ intersect at points $(3,[BLANK])$ and $(9,[BLANK])$. Find $4+5$.",
+      "info_removed": "the specific intersection points of the graphs"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given the graphs of $y = -|x-5| + 9$ and $y = |x-3| + 3$ intersect at points $(3,6)$ and $(7,4)$. Find $5+3$.",
+      "incomplete_question": "Given the graphs of $y = -|x-5| + 9$ and $y = |x-3| + 3$ intersect at points $(3,[BLANK])$ and $(7,[BLANK])$. Find $5+3$.",
+      "info_removed": "the specific intersection points of the graphs"
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given the graphs of $y = -|x-2| + 6$ and $y = |x-4| + 1$ intersect at points $(2,4)$ and $(6,3)$. Find $2+4$.",
+      "incomplete_question": "Given the graphs of $y = -|x-2| + 6$ and $y = |x-4| + 1$ intersect at points $(2,[BLANK])$ and $(6,[BLANK])$. Find $2+4$.",
+      "info_removed": "the specific intersection points of the graphs"
+    }
+  ],
+  "num_valid_similars": 5
+}

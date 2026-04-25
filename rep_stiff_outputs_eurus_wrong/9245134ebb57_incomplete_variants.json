@@ -1,0 +1,210 @@
+{
+  "original_question": "Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly three distinct prime divisors, one of which is equal to \\( \\% \\). Find \\( x \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "\"Given a natural number \\( x = 2^n - 80 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 11 \\). Find \\( x \\).\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 80 \\), with \\( n \\) being a natural number. It is established that \\( x \\) has precisely [BLANK], one of which is \\( 11 \\). Determine \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number \\( x = 2^n - 80 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses exactly [BLANK], one of which equals \\( 11 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Given a natural number \\( x = 2^n - 80 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 11 \\)Find \\( x \\).\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a natural number \\( x = 2^n - 80 \\), where \\( n \\) is a natural number. It is established that \\( x \\) has precisely [BLANK], one of which is \\( 11 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a natural number \\( x = 2^n - 80 \\), with \\( n \\) being a natural number. It is established that \\( x \\) has precisely [BLANK], one of these being \\( 11 \\). Determine \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "\"Given a natural number \\( x = 2^n - 96 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 13 \\). Find \\( x \\.\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 96 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of those being \\( 13 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number \\( x = 2^n - 96 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of these being \\( 13 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Given a natural number \\( x = 2^n - 96 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 13 \\)Find \\( x \\.\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let \\( x = 2^n - 96 \\), where \\( n \\) represents a natural number. It is established that \\( x \\) possesses precisely [BLANK], with one of them being \\( 13 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let \\( x = 2^n - 96 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which is \\( 13 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "\"Given a natural number \\( x = 2^n - 16 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 7 \\). Find \\( x \\).\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 16 \\), where \\( n \\) represents a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which is \\( 7 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number \\( x = 2^n - 16 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which equals \\( 7 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Given a natural number \\( x = 2^n - 16 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 7 \\)Find \\( x \\).\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a natural number \\( x = 2^n - 16 \\), with \\( n \\) being a natural number. It is established that \\( x \\) has precisely [BLANK], one of which equals \\( 7 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Let \\( x = 2^n - 16 \\), where \\( n \\) is a natural number. It is established that \\( x \\) possesses exactly [BLANK], one of which equals \\( 7 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "\"Given a natural number \\( x = 2^n - 64 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 5 \\). Find \\( x \\).\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 64 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses exactly [BLANK], one of which equals \\( 5 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number \\( x = 2^n - 64 \\), where \\( n \\) is also a natural number. It is established that \\( x \\) has precisely [BLANK], one of which equals \\( 5 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Given a natural number \\( x = 2^n - 64 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 5 \\)Find \\( x \\).\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a natural number \\( x = 2^n - 64 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses exactly [BLANK], one of which is \\( 5 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a natural number \\( x = 2^n - 64 \\), with \\( n \\) being a natural number. It is established that \\( x \\) contains exactly [BLANK], one of which is \\( 5 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( \\% \\). Find \\( x \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 32 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which is equal to \\( \\% \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider a natural number \\( x = 2^n - 32 \\), with \\( n \\) being a natural number. It is given that \\( x \\) possesses exactly [BLANK], one of which is equal to \\( \\% \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given a natural number \\( x = 2^n - 32 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( \\% \\)Find \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider a natural number \\( x = 2^n - 32 \\), with \\( n \\) also being a natural number. It is established that \\( x \\) contains precisely [BLANK], one of which equals \\( \\% \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a natural number \\( x = 2^n - 32 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which equals \\( \\% \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "\"Given a natural number \\( x = 2^n - 48 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 3 \\). Find \\( x \\).\"",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider a natural number \\( x = 2^n - 48 \\), with \\( n \\) being a natural number. It is established that \\( x \\) possesses precisely [BLANK], one of which is \\( 3 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Let \\( x \\) be a natural number defined as \\( x = 2^n - 48 \\), where \\( n \\) represents a natural number. It is established that \\( x \\) possesses exactly [BLANK], with one of them being \\( 3 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". \"Given a natural number \\( x = 2^n - 48 \\), where \\( n \\) is a natural number. It is known that \\( x \\) has exactly [BLANK], one of which is equal to \\( 3 \\)Find \\( x \\).\"",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Let \\( x = 2^n - 48 \\), where \\( n \\) represents a natural number. It is established that \\( x \\) possesses precisely [BLANK] factors, one of which is \\( 3 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Consider a natural number \\( x = 2^n - 48 \\), where \\( n \\) is a natural number. It is established that \\( x \\) possesses exactly [BLANK], one of which equals \\( 3 \\). Determine the value of \\( x \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will 720 grams of cat food last? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Jenna has 3 hamsters. She feeds her hamsters once a day with 70 grams of hamster food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jenna owns 3 hamsters. Each day, she provides her hamsters with 70 grams of food. For how many days will [BLANK] be sufficient? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jenna has 3 pet hamsters. She gives them 70 grams of food daily. How many days will [BLANK] be enough? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jenna takes care of 3 hamsters. She feeds them 70 grams of hamster food every day. How many days can [BLANK] provide for? Let's consider this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jenna possesses 3 hamsters. She daily feeds them with 70 grams of food. How long will [BLANK] last? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jenna has 3 hamsters in her care. She provides 70 grams of food to them each day. How many days can [BLANK] cover? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Mike has 6 fish. He feeds his fish twice a day with 30 grams of fish food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mike owns 6 fish. He provides them with 30 grams of fish food two times each day. How many days will [BLANK] be sufficient? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mike has a total of 6 fish. He gives them 30 grams of fish food twice daily. How many days will [BLANK] endure? Let's analyze this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mike keeps 6 fish. He feeds these fish 30 grams of food two times a day. How many days will [BLANK] continue to be enough? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mike possesses 6 fish. He feeds them 30 grams of fish food two times every day. How many days will [BLANK] be adequate? Let's work through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mike has 6 fish in total. He supplies 30 grams of fish food to them twice a day. How many days will [BLANK] last? Let's think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lara has 4 dogs. She feeds her dogs twice a day with 80 grams of dog food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lara owns 4 dogs. She provides her dogs with 80 grams of dog food two times each day. How many days will [BLANK] be sufficient? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lara has 4 dogs. She feeds her dogs 80 grams of dog food two times daily. How many days will [BLANK] endure? Let's consider this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lara takes care of 4 dogs. Each day, she gives her dogs 80 grams of dog food in two servings. How many days will [BLANK] remain? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lara possesses 4 dogs. She feeds them with 80 grams of dog food twice a day. How long will [BLANK] last in days? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lara has 4 dogs. She supplies her dogs with 80 grams of dog food on two occasions each day. How many days will [BLANK] be available? Let's break this down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Imma has 3 cats. She feeds her cats twice a day with 60 grams of cat food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Imma owns 3 cats. She provides them with cat food two times daily, using 60 grams each time. For how many days will [BLANK] be sufficient? Let's consider this carefully and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Imma has 3 feline companions. She feeds them 60 grams of cat food twice every day. How many days will [BLANK] last? Let's analyze this step by step and produce the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Imma possesses 3 cats. Daily, she feeds them 60 grams of cat food two times. How many days will [BLANK] endure? Let's work through this methodically and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Imma cares for 3 cats. Each day, she gives them 60 grams of cat food, split into two feedings. How many days can [BLANK] sustain her cats? Let's break it down step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Imma has 3 cats to look after. She feeds them a total of 60 grams of cat food twice every day. For how many days will [BLANK] be enough? Let's think through this systematically and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara has 2 parrots. She feeds her parrots once a day with 100 grams of bird food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara owns 2 parrots. She provides her parrots with 100 grams of bird food each day. How many days will [BLANK] endure? Let\u2019s analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara possesses 2 parrots. She gives her parrots 100 grams of bird food daily. How many days will [BLANK] continue? Let\u2019s consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara has 2 parrots. She supplies her parrots with 100 grams of bird food once per day. How many days will [BLANK] be sufficient? Let\u2019s think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara keeps 2 parrots. She feeds her parrots 100 grams of bird food each day. How many days will [BLANK] hold out? Let\u2019s examine this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara is the owner of 2 parrots. She feeds them 100 grams of bird food once every day. How many days will [BLANK] last for? Let\u2019s go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Tom has 5 rabbits. He feeds his rabbits three times a day with 50 grams of rabbit food. How many days will [BLANK] last? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom owns 5 rabbits and provides them with food three times daily, using 50 grams each time. How many days will [BLANK] be sufficient? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom has a total of 5 rabbits that he feeds three times each day, giving them 50 grams of food per feeding. For how many days will [BLANK] be adequate? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With 5 rabbits in his care, Tom feeds them 50 grams of rabbit food three times a day. How many days can [BLANK] sustain them? Let's go through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom is responsible for 5 rabbits and feeds them three times each day with 50 grams of food at each meal. How many days will [BLANK] cover? Let's think it over step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom takes care of 5 rabbits, feeding them 50 grams of rabbit food three times per day. For how many days will [BLANK] be available? Let's consider this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

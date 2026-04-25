@@ -1,0 +1,210 @@
+{
+  "original_question": "A certain new product in a shopping mall has a cost price of 120 yuan per item. During the trial sale period, it was found that when the price of each item is set at 130 yuan, 70 items can be sold per day. When the price of each item is higher than 130 yuan, for every 1 yuan increase in price, the daily sales volume decreases by 1 item. Based on this rule, please answer:\n(1) When the price of each item is set at 140 yuan, how many items can be sold per day? What is the daily profit of the mall?\n(2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 1500 yuan?\n(3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A certain new product in a shopping mall has a cost price of 120 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 70 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 1 item. Based on this rule, please answer: (1) When the price of each item is set at 140 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 1500 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A new product available in a shopping mall has a cost of 120 yuan for each item. During the initial sale phase, it was observed that when the price of each item is fixed at [BLANK], 70 units can be sold daily. If the price per item exceeds [BLANK], every 1 yuan increase in price results in a decrease of 1 item in daily sales. Based on this understanding, please determine: (1) If the item price is set at 140 yuan, how many units will be sold daily? What will the mall's daily profit be? (2) Given the same parameters, what should the selling price be for the mall to realize a daily profit of 1500 yuan? (3) What price per item should the vendor establish to maximize profit, and what would be the profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a shopping mall, a new product is priced at a cost of 120 yuan each. It was found during the trial selling period that when the price of each item is established at [BLANK], 70 items are sold each day. If the price of each item rises above [BLANK], for every 1 yuan increase in price, the daily sales decrease by 1 item. Using this guideline, please answer the following: (1) If the price per item is 140 yuan, how many items can be sold daily? What is the daily profit for the mall? (2) Assuming normal sales continue under the same conditions, what price should be set per item to yield a daily profit of 1500 yuan for the mall? (3) What should the merchant charge per item to achieve the maximum profit, and what would that profit amount to?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A specific new item in a shopping mall has a cost of 120 yuan each. During the trial sale period, it was noted that when the price for each item is determined to be [BLANK], 70 items are sold daily. When the price goes above [BLANK], for every increase of 1 yuan in the price, the daily sales drop by 1 item. Based on this information, please respond to: (1) When the selling price is set to 140 yuan, how many items can be sold each day? What is the mall's profit for that day? (2) Given the same circumstances, what should the price per item be for the mall to achieve a daily profit of 1500 yuan? (3) What price should the seller set for each item to reach the maximum profit, and what would be the profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A newly introduced product in a shopping mall costs 120 yuan for each item. During the trial period of sales, it was discovered that if the price of each item is placed at [BLANK], 70 items can be sold in a day. For prices exceeding [BLANK], each 1 yuan increase decreases the daily sales by 1 item. Based on this rule, please provide answers to: (1) If the item price is 140 yuan, how many items would be sold daily? What is the resulting profit for the mall each day? (2) Under similar conditions, what price per item should be set for the mall to achieve a daily profit of 1500 yuan? (3) What price per item should the merchant set to maximize profit, and what will be the profit at that selling price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A certain new item available in a shopping mall has a cost price of 120 yuan each. During the test sale phase, it was determined that when the price of each item is set at [BLANK], daily sales reach 70 units. When the price of each item rises above [BLANK], a 1 yuan increase in price leads to a reduction of 1 item in daily sales. Please answer the following based on this rule: (1) How many items can be sold per day if the price is set to 140 yuan? What would be the daily profit for the mall? (2) Assuming normal sales under similar conditions, what should the price per item be to ensure a daily profit of 1500 yuan for the mall? (3) At which price per item should the merchant aim for maximum profit, and what would the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A certain new fashion accessory in a shopping mall has a cost price of 90 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 60 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 3 items. Based on this rule, please answer: (1) When the price of each item is set at 100 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 900 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a certain shopping mall, a trendy new accessory has a cost price of 90 yuan for each unit. It has been observed during the promotional period that when the price is set at [BLANK], 60 units are sold daily. If the price exceeds [BLANK], each 1 yuan increase results in a decline of 3 units in daily sales. Based on this information, please respond to the following: (1) If the price per unit is 100 yuan, how many units will be sold each day? What will be the mall's daily profit? (2) Assuming normal sales under the same circumstances, what price per unit should be established for the mall to realize a daily profit of 900 yuan? (3) What should the merchant charge per unit to maximize profit, and what is the profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A new fashion item in a shopping center has a cost of 90 yuan for each piece. During the trial phase, it was determined that setting the item price to [BLANK] allows for the sale of 60 pieces daily. Should the price go above [BLANK], for every 1 yuan increase, the number sold each day drops by 3 pieces. Based on this observation, please provide answers to the following: (1) How many pieces can be sold daily if the price is fixed at 100 yuan? What would be the daily profit for the mall? (2) Under similar conditions, what should the selling price be to ensure the mall earns a daily profit of 900 yuan? (3) What is the optimal price per piece for the merchant to set to maximize profit, and what is the resulting profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a particular shopping mall, a new accessory is priced at a cost of 90 yuan each. It has been noted during the trial sale that when the price is adjusted to [BLANK], the daily sales figure reaches 60 items. If the price goes beyond [BLANK], each additional yuan increase leads to a reduction of 3 items sold per day. With this rule in mind, please answer the following: (1) If the price is set to 100 yuan, how many items are sold daily? What is the profit generated for the mall each day? (2) Given the same parameters, what should the selling price be to achieve a daily profit of 900 yuan? (3) At what price per item should the merchant aim to achieve the highest profit, and what is the profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A new trendy accessory in a mall has a cost price of 90 yuan for each piece. During its promotional phase, it was observed that with a selling price of [BLANK], 60 pieces are sold every day. If the price exceeds [BLANK], for every 1 yuan increase in price, the daily sales drop by 3 pieces. Based on this data, please answer: (1) How many pieces can be sold per day if the price is set to 100 yuan? What will the mall's daily profit be? (2) Assuming normal sales conditions, what should the selling price be for the mall to reach a daily profit of 900 yuan? (3) What price should the merchant set to achieve the maximum profit, and what profit does this yield?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a specific shopping mall, a fashionable new item costs 90 yuan per unit. During the trial sales phase, it was discovered that when the price is placed at [BLANK], daily sales amount to 60 units. If the price is raised above [BLANK], every 1 yuan increment results in a decrease of 3 units sold each day. Given this information, please respond to the following questions: (1) When the price is fixed at 100 yuan, how many units will be sold daily? What is the daily profit for the shopping mall? (2) Under similar circumstances, what should the price be set at to enable a daily profit of 900 yuan for the mall? (3) What selling price should the merchant adopt to maximize profits, and what is the profit at that price?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A certain new fitness product in a shopping mall has a cost price of 110 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 75 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 2 items. Based on this rule, please answer: (1) When the price of each item is set at 125 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 1350 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a shopping mall, a new fitness product has a cost price of 110 yuan for each item. During the trial sale phase, it was observed that when the price per item is fixed at [BLANK], 75 items are sold daily. If the price exceeds [BLANK], for each 1 yuan increase in price, the daily sales drop by 2 items. Based on this information, please answer: (1) If the price per item is set to 125 yuan, how many items will be sold each day? What is the mall's daily profit? (2) Given the same conditions and assuming normal sales, what selling price per item would allow the mall to reach a daily profit of 1350 yuan? (3) What price per item should the merchant establish to maximize profit, and what will that profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A new fitness product in a shopping mall is priced at a cost of 110 yuan each. During the trial sale period, it was determined that when the price for each item is established at [BLANK], 75 units are sold daily. Should the price go above [BLANK], for every 1 yuan rise in price, the daily sales volume reduces by 2 items. With this information, please answer: (1) When the price is set at 125 yuan, how many items can be sold each day? What is the daily profit for the mall? (2) Under the same conditions and assuming regular sales, what should be the selling price per item for the mall to achieve a daily profit of 1350 yuan? (3) What should the merchant price the items at to attain the maximum profit, and what is the profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a mall, a specific new fitness product has a cost price of 110 yuan per item. It was discovered during the trial sale period that when the price of each item is designated at [BLANK], 75 items are sold daily. If the price exceeds [BLANK], for every 1 yuan increment in price, the daily sales quantity declines by 2 items. Based on this guideline, please respond: (1) If the price per item is set to 125 yuan, how many items will be sold each day? What is the daily profit for the mall? (2) Assuming the same conditions and typical sales, what should the selling price per item be for the mall to realize a daily profit of 1350 yuan? (3) At what price should the merchant set the items to achieve peak profit, and what will that profit be?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A particular fitness product available in a shopping mall has a cost price of 110 yuan for each unit. During the trial sale phase, it was found that when the price for each unit is set at [BLANK], 75 units can be sold each day. When the price is above [BLANK], each 1 yuan increase in price results in a decrease of 2 units in daily sales. Based on this rule, please provide answers to the following: (1) When the price per unit is determined to be 125 yuan, how many units can be sold daily? What is the profit for the mall on that day? (2) Under the same conditions and presuming average sales of the product, what should the per unit selling price be for the mall to earn a daily profit of 1350 yuan? (3) What price per unit should the seller select to maximize profit, and what will the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a shopping mall, there is a new fitness product priced at a cost of 110 yuan per piece. During the trial sales period, it was noted that when the price of each piece is fixed at [BLANK], 75 pieces can be sold daily. If the price goes above [BLANK], for every 1 yuan increase in the price, the daily sales figure decreases by 2 pieces. Given this scenario, please answer: (1) When the price per piece is set to 125 yuan, how many pieces can be sold daily? What is the mall's daily profit? (2) Assuming the same conditions and typical sales, what should the selling price per piece be for the mall to achieve a daily profit of 1350 yuan? (3) What price per piece should the merchant set to reach maximum profit, and what will the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A certain new household appliance in a shopping mall has a cost price of 200 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 50 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 4 items. Based on this rule, please answer: (1) When the price of each item is set at 220 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 1200 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A specific new home appliance available in a shopping center has a cost of 200 yuan for each unit. During the initial sales period, it was observed that if the price for each unit is fixed at [BLANK], 50 units can be sold daily. When the price exceeds [BLANK], for every increase of 1 yuan in price, the number of units sold each day drops by 4 units. Given this guideline, please respond: (1) If the price is set to 220 yuan, how many units will be sold daily? What is the mall's daily profit? (2) Assuming normal sales conditions and the same parameters, what should be the selling price for each unit for the mall to achieve a daily profit of 1200 yuan? (3) What price should the seller establish to maximize profit, and what will the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A particular new household device in a retail mall carries a cost of 200 yuan per item. During the test sale timeframe, it became clear that when each item's price is fixed at [BLANK], daily sales reach 50 items. If the price goes above [BLANK], every 1 yuan rise in price leads to a drop of 4 items in daily sales. Based on this principle, please determine: (1) How many items can be sold daily if the price is set to 220 yuan? What is the daily profit for the mall? (2) Under similar conditions, what selling price per item is needed for the mall to achieve a daily profit of 1200 yuan? (3) At what price per item should the seller aim to maximize profits, and what will be the profit at that pricing?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A new household gadget available in a shopping mall is priced at 200 yuan each. Throughout the introductory sales period, it was noted that when the price per unit is designated as [BLANK], the daily sales volume reaches 50 units. Whenever the price is set above [BLANK], for each 1 yuan increase in the price, the daily sales decrease by 4 units. Following this pattern, please provide answers to: (1) If the price is adjusted to 220 yuan, how many units can be sold each day? What is the mall's daily profit? (2) Assuming the same conditions and typical sales of the item, what should the selling price be for the mall to realize a daily profit of 1200 yuan? (3) To maximize profit, what price per item should the merchant set, and what will the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A particular new home appliance located in a shopping mall has a cost price of 200 yuan for each item. During the trial sales phase, it was discovered that when each item's price is marked at [BLANK], 50 items can be sold every day. When the price surpasses [BLANK], every increase of 1 yuan in price results in a reduction of 4 items sold daily. Based on this information, please answer: (1) How many items can be sold each day when the price is set at 220 yuan? What profit does the mall make daily? (2) Under the same circumstances, what price per item should be set for the mall to achieve a daily profit of 1200 yuan? (3) What price should the vendor set to maximize profit, and what will be the resulting profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An innovative household appliance in a shopping mall is priced at 200 yuan each. Throughout the trial sale duration, it was found that when each item's price is established at [BLANK], the sales amount to 50 items per day. If the price goes beyond [BLANK], each 1 yuan increase in price leads to a decline of 4 items in daily sales. Given this scenario, please respond: (1) When the price is fixed at 220 yuan, how many items can be sold daily? What is the daily profit generated by the mall? (2) Assuming the same conditions, what should the selling price be for the mall to reach a daily profit of 1200 yuan? (3) What price per item should the seller implement to attain maximum profit, and what profit will that price yield?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A certain new toy in a shopping mall has a cost price of 75 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 90 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 5 items. Based on this rule, please answer: (1) When the price of each item is set at 85 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 950 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A specific new toy available in a shopping mall is priced at 75 yuan for each unit. During the trial selling phase, it was observed that when the cost of each unit is set at [BLANK], 90 units can be sold daily. If the price of each unit exceeds [BLANK], for every 1 yuan increase in price, the number of units sold each day drops by 5. Using this information, please answer: (1) If the selling price of each unit is fixed at 85 yuan, how many units can be sold daily? What is the mall's daily profit? (2) Given the same conditions and assuming standard sales of the item, what should be the selling price per unit for the mall to earn a daily profit of 950 yuan? (3) At what price per unit should the seller aim to reach the highest profit, and what will the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a shopping mall, a new toy has a cost of 75 yuan for each item. It was discovered during the trial sales period that when the selling price of each item is set at [BLANK], 90 items are sold each day. Should the price of each item exceed [BLANK], there is a reduction of 5 items sold daily for every 1 yuan increase in price. Based on this data, please respond: (1) What is the daily sales volume when each item is priced at 85 yuan, and what is the resulting daily profit for the mall? (2) Under the same circumstances and presuming typical sales patterns, what should the selling price for each item be to generate a daily profit of 950 yuan? (3) To achieve maximum profit, what price per item should the vendor establish, and what is the profit at this price point?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A newly introduced toy at a shopping mall carries a cost price of 75 yuan for each piece. During the trial sale phase, it was noted that setting the price of each piece at [BLANK] allows for the sale of 90 pieces daily. When the price exceeds [BLANK], there is a decrease of 5 pieces sold per day for every additional increase of 1 yuan in price. Based on this information, please provide answers to the following: (1) How many pieces can be sold daily if each piece is priced at 85 yuan? What profit does the mall make each day? (2) Assuming normal sales under the same conditions, what should be the unit price for the mall to reach a daily profit of 950 yuan? (3) At what price per piece should the retailer set to achieve the highest profit, and what would the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a shopping mall, there is a new toy that costs 75 yuan per unit. During the trial sale duration, it was noted that when the unit price is set at [BLANK], 90 units are sold daily. If the price for each unit is increased beyond [BLANK], the daily sales drop by 5 units for every 1 yuan price increase. With this information, please answer the following: (1) When the unit price is determined to be 85 yuan, how many units can be sold per day? What is the daily profit for the mall? (2) Under the same conditions and assuming regular sales of the toy, what should the selling price be per unit for the mall to achieve a daily profit of 950 yuan? (3) What price per unit should the seller utilize to realize maximum profit, and what is the profit at that particular price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A certain toy being sold in a shopping mall has a manufacturing cost of 75 yuan for each item. During the trial selling period, it was revealed that when the item price is set at [BLANK], 90 items can be sold on a daily basis. If the price surpasses [BLANK], for every increase of 1 yuan, the daily sales decrease by 5 items. Using this guideline, please respond: (1) How many items are sold each day when the price is set at 85 yuan, and what is the mall's daily profit? (2) Given the same parameters and assuming average sales of the toy, what should the price be for the mall to achieve a daily profit of 950 yuan? (3) What should the vendor price each item to reach maximum profit, and what would the profit be at that price?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A certain new electronic gadget in a shopping mall has a cost price of 150 yuan per item. During the trial sale period, it was found that when the price of each item is set at [BLANK], 80 items can be sold per day. When the price of each item is higher than [BLANK], for every 1 yuan increase in price, the daily sales volume decreases by 2 items. Based on this rule, please answer: (1) When the price of each item is set at 170 yuan, how many items can be sold per day? What is the daily profit of the mall? (2) Under the same conditions and assuming normal sales of the product, what should be the selling price per item for the mall to achieve a daily profit of 1600 yuan? (3) At what price per item should the merchant set to achieve the maximum profit, and what is the profit at this price?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a shopping center, a new electronic device has a cost price of 150 yuan for each unit. It was observed during the trial sale phase that when the selling price is fixed at [BLANK], 80 units are sold daily. If the price exceeds [BLANK], for every 1 yuan rise in cost, the number of units sold daily drops by 2. Using this information, please determine: (1) If the price is set at 170 yuan, how many units will be sold each day? What is the mall's daily profit? (2) Given the same circumstances and assuming regular sales, what price should be set per item for the mall to realize a daily profit of 1600 yuan? (3) What price per unit should the seller establish to maximize profit, and what is the resulting profit at that price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A new electronic device available in a shopping mall has an item cost of 150 yuan. During the trial sale phase, it was discovered that when the selling price is adjusted to [BLANK], the daily sales reach 80 items. If the price goes over [BLANK], a 1 yuan increase will result in a decline of 2 items in daily sales. Based on this pattern, please respond to the following: (1) If the item price is 170 yuan, how many items will be sold each day? What profit does the mall make daily? (2) Under identical conditions and presuming typical sales, what should the selling price be for the mall to earn a daily profit of 1600 yuan? (3) At what price per item should the seller aim to maximize profit, and what is the profit at that price point?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A particular new electronic gadget found in a shopping mall costs 150 yuan each. During the trial sale period, it was noted that when the price per item is set at [BLANK], 80 items are sold daily. When the price exceeds [BLANK], for every 1 yuan increase in the price, the daily sales drop by 2 items. Using this guideline, please answer the following: (1) If the price for each item is set at 170 yuan, how many items can be sold per day? What is the daily profit generated by the mall? (2) Assuming the same conditions and regular sales, what should be the item price for the mall to achieve a daily profit of 1600 yuan? (3) What price per item should the seller determine to reach maximum profit, and what will be the profit at this price?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a shopping mall, a new electronic device has a cost of 150 yuan per unit. It was observed during the trial sale that when the price is established at [BLANK], daily sales are 80 items. If the price is increased beyond [BLANK], a 1 yuan increase will cause a reduction of 2 items sold daily. Based on this information, please find the answers to the following: (1) When the selling price is 170 yuan, how many items can be sold daily? What is the daily profit of the mall? (2) Under the same conditions, assuming normal sales, what price should be set per item for the mall to make a daily profit of 1600 yuan? (3) At what price should the merchant sell to achieve maximum profit, and what is the profit at that point?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A specific new electronic gadget located in a shopping mall costs 150 yuan each. It was found during the trial sale that when the price of each item is set at [BLANK], the sales number reaches 80 items per day. If the price is raised above [BLANK], then for every 1 yuan increase, the daily sales volume decreases by 2 items. Based on this principle, please address the following: (1) If the price is 170 yuan, what will be the daily sales quantity? What profit does the mall achieve daily? (2) Given the same conditions and assuming standard sales, what should be the selling price per item to ensure the mall attains a daily profit of 1600 yuan? (3) What price should the merchant set to achieve maximum profitability, and what is the profit at that price?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

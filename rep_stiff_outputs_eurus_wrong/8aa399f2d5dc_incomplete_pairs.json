@@ -1,0 +1,62 @@
+{
+  "original_question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at a discount of $0.5. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the discount amount on the milk\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at a discount of $0.5. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at [BLANK]. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A tub of ice cream costing $15 is now sold at $12. A packet of milk was sold at a discount of $0.7. How much will you save if you buy 3 tubs of ice cream and 5 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A tub of ice cream costing $15 is now sold at $12. A packet of milk was sold at [BLANK]. How much will you save if you buy 3 tubs of ice cream and 5 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A tub of ice cream costing $20 is now sold at $18. A packet of milk was sold at a discount of $0.8. How much will you save if you buy 2 tubs of ice cream and 3 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A tub of ice cream costing $20 is now sold at $18. A packet of milk was sold at [BLANK]. How much will you save if you buy 2 tubs of ice cream and 3 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A tub of ice cream costing $10 is now sold at $9. A packet of milk was sold at a discount of $0.6. How much will you save if you buy 4 tubs of ice cream and 2 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A tub of ice cream costing $10 is now sold at $9. A packet of milk was sold at [BLANK]. How much will you save if you buy 4 tubs of ice cream and 2 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A tub of ice cream costing $18 is now sold at $14. A packet of milk was sold at a discount of $0.9. How much will you save if you buy 5 tubs of ice cream and 1 packet of milk? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A tub of ice cream costing $18 is now sold at $14. A packet of milk was sold at [BLANK]. How much will you save if you buy 5 tubs of ice cream and 1 packet of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A tub of ice cream costing $25 is now sold at $22. A packet of milk was sold at a discount of $1.0. How much will you save if you buy 1 tub of ice cream and 6 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "A tub of ice cream costing $25 is now sold at $22. A packet of milk was sold at [BLANK]. How much will you save if you buy 1 tub of ice cream and 6 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the discount amount on the milk\""
+    }
+  ],
+  "num_valid_similars": 5
+}

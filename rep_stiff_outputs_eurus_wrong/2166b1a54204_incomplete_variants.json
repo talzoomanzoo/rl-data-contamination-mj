@@ -1,0 +1,210 @@
+{
+  "original_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made 32 ounces of sauce. How many tomatoes did Freda use? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "When Lisa cooks canned peaches into dessert, they lose one-third of their volume. Each 12 ounce can of peaches that she uses contains four peaches. Lisa's last batch of peach dessert made [BLANK]. How many peaches did Lisa use?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "While preparing dessert with canned peaches, Lisa finds that they reduce to one-third of their original volume. Each can of peaches, weighing 12 ounces, has four peaches inside. The last dessert batch Lisa created resulted in [BLANK]. How many peaches did she use?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the process of making dessert from canned peaches, Lisa discovers that they lose a third of their volume. A 12-ounce can of peaches contains four peaches. The peach dessert she made last resulted in [BLANK]. What is the number of peaches used by Lisa?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "As Lisa cooks with canned peaches for her dessert, she notices that they diminish to one-third of their volume. Each 12-ounce can comprises four peaches. Lisa's most recent peach dessert yielded [BLANK]. How many peaches did she incorporate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "While making dessert with peaches from a can, Lisa realizes they shrink to one-third of their original volume. Each can, which is 12 ounces, includes four peaches. The latest batch of peach dessert that Lisa prepared resulted in [BLANK]. How many peaches did she use?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When Lisa prepares a dessert using canned peaches, she sees that they lose one-third of their initial volume. Every 12-ounce can holds four peaches. The last peach dessert she made turned out to be [BLANK]. How many peaches did Lisa utilize?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "When Kevin cooks canned corn into soup, they lose one-half of their volume. Each 18 ounce can of corn that he uses contains two ears of corn. Kevin's last batch of corn soup made [BLANK]. How many ears of corn did Kevin use?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "As Kevin prepares soup with canned corn, the volume decreases by half. An 18 ounce can of corn contains two ears. The last batch of corn soup Kevin created made [BLANK]. How many ears of corn did he utilize?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "When Kevin makes soup using canned corn, the volume is reduced to 50%. Each can of corn, weighing 18 ounces, has two ears inside. Kevin's most recent corn soup batch resulted in [BLANK]. What is the number of ears of corn he employed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "While cooking canned corn for soup, Kevin experiences a loss of 50% in volume. Each 18 ounce can includes two ears of corn. For his latest corn soup, Kevin ended up with [BLANK]. How many ears of corn did he incorporate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Kevin loses half the volume of canned corn when he turns it into soup. Each 18 ounce can holds two ears of corn. His last corn soup batch produced [BLANK]. How many ears of corn did Kevin use in total?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In the process of making soup with canned corn, Kevin's volume drops by one-half. An 18 ounce can consists of two ears of corn. The last batch of corn soup Kevin cooked made [BLANK]. How many ears of corn did he add?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "When Emily cooks canned pumpkin into pie, they lose one-third of their volume. Each 15 ounce can of pumpkin that she uses contains three pumpkins. Emily's last batch of pumpkin pie made [BLANK]. How many pumpkins did Emily use?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "As Emily prepares pumpkin pie using canned pumpkin, one-third of the volume is lost. A single 15 ounce can of pumpkin holds three pumpkins. In her latest batch of pumpkin pie, she produced [BLANK]. How many pumpkins did Emily incorporate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "While making pumpkin pie with canned pumpkin, Emily experiences a reduction of one-third in volume. Each 15 ounce can of pumpkin includes three pumpkins. For her most recent batch of pumpkin pie, she yielded [BLANK]. What is the total number of pumpkins Emily utilized?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "When Emily bakes a pie using canned pumpkin, one-third of the volume is diminished. Each can of pumpkin, weighing 15 ounces, contains three pumpkins. In the last batch of her pumpkin pie, she ended up with [BLANK]. How many pumpkins did Emily put to use?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the process of cooking pie with canned pumpkin, Emily loses one-third of the total volume. A 15 ounce can of pumpkin comprises three pumpkins. Emily's recent batch of pumpkin pie resulted in [BLANK]. How many pumpkins did she use?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "As Emily cooks with canned pumpkin for her pie, one-third of the volume is lost in the process. Each 15 ounce can holds a total of three pumpkins. Her latest pumpkin pie batch produced [BLANK]. How many pumpkins did Emily employ?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "When Mark cooks canned coconut into curry, they lose two-fifths of their volume. Each 20 ounce can of coconut that he uses contains six coconuts. Mark's last batch of coconut curry made [BLANK]. How many coconuts did Mark use?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "As Mark prepares a curry with canned coconut, it shrinks in volume by two-fifths. Each can of coconut, which holds 20 ounces, includes six coconuts. In his most recent coconut curry, Mark produced [BLANK]. How many coconuts did he utilize?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "While cooking with canned coconut for his curry, Mark experiences a reduction in volume of two-fifths. A single 20-ounce can of coconut contains six coconuts. The last batch of coconut curry that Mark created yielded [BLANK]. How many coconuts did he incorporate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "When Mark uses canned coconut for his curry, he observes that it loses two-fifths of its volume. Each can, measuring 20 ounces, consists of six coconuts. The most recent batch of coconut curry he made resulted in [BLANK]. What is the number of coconuts Mark employed?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the process of making curry with canned coconut, Mark finds that it diminishes in volume by two-fifths. Every 20-ounce can of coconut is made up of six coconuts. His latest coconut curry batch resulted in [BLANK]. How many coconuts did he use?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "As Mark cooks coconut from a can into his curry, he notices a loss of two-fifths of its volume. Each can, which weighs 20 ounces, has six coconuts inside. The last batch of coconut curry he created produced [BLANK]. What number of coconuts did Mark use?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "When Freda cooks canned tomatoes into sauce, they lose half their volume. Each 16 ounce can of tomatoes that she uses contains three tomatoes. Freda\u2019s last batch of tomato sauce made [BLANK]. How many tomatoes did Freda use? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "As Freda prepares sauce from canned tomatoes, their volume reduces by fifty percent. Each can, weighing 16 ounces, contains three tomatoes. In her most recent tomato sauce batch, Freda produced [BLANK]. How many tomatoes did she utilize? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "When Freda transforms canned tomatoes into a sauce, they experience a reduction in volume by half. A 16-ounce can of tomatoes holds three tomatoes. Freda's latest batch of tomato sauce resulted in [BLANK]. How many tomatoes did she incorporate? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Freda loses half the volume of canned tomatoes when she cooks them into sauce. Each can, which is 16 ounces, contains three tomatoes. Her last batch of tomato sauce yielded [BLANK]. How many tomatoes did Freda make use of? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "When Freda cooks with canned tomatoes, they decrease in volume by 50%. Each 16-ounce can includes three tomatoes. The last batch of tomato sauce she created resulted in [BLANK]. How many tomatoes did Freda use for this? Let's think through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "As Freda cooks tomatoes from a can into sauce, they lose half of their total volume. A 16-ounce can contains three tomatoes. Her most recent tomato sauce batch produced [BLANK]. How many tomatoes did Freda employ? Let\u2019s work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "When Sarah cooks canned beans into chili, they lose one-fourth of their volume. Each 14 ounce can of beans that she uses contains five beans. Sarah's last batch of chili made [BLANK]. How many beans did Sarah use?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "When Sarah prepares chili using canned beans, they shrink to three-quarters of their original volume. Each 14-ounce can of beans she utilizes has five beans inside. In her latest chili batch, she made [BLANK]. How many beans did Sarah incorporate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "While making chili with canned beans, Sarah's ingredients decrease to one-third of their original volume. Each 14-ounce can of beans she employs contains five beans. The last batch of chili she cooked resulted in [BLANK]. What is the total number of beans Sarah used?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "As Sarah turns canned beans into chili, they diminish to three-quarters of their initial volume. Each can of beans, weighing 14 ounces, holds five beans. The most recent batch of chili she prepared produced [BLANK]. How many beans did Sarah add?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the process of cooking chili with canned beans, Sarah's beans lose one-fourth of their volume. Each can, which is 14 ounces, includes five beans. The last chili she created resulted in [BLANK]. How many beans did Sarah use in total?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "When Sarah cooks chili with canned beans, the beans reduce to three-quarters of their volume. Every 14-ounce can of beans she uses has five beans. Her previous chili batch yielded [BLANK]. How many beans did Sarah include?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

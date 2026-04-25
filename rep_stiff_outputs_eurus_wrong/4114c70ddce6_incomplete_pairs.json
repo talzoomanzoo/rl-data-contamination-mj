@@ -1,0 +1,62 @@
+{
+  "original_question": "My academy's math club has 10 boys and 12 girls. I need to form a team of 8 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the total number of boys and girls",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "My academy's math club has 10 boys and 12 girls. I need to form a team of 8 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 8 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team? Present the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "the total number of boys and girls"
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "My academy's math club has 8 boys and 10 girls. I need to form a team of 6 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 6 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "info_removed": "the total number of boys and girls"
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "My academy's math club has 14 boys and 16 girls. I need to form a team of 10 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 10 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "info_removed": "the total number of boys and girls"
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "My academy's math club has 6 boys and 14 girls. I need to form a team of 8 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 8 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "info_removed": "the total number of boys and girls"
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "My academy's math club has 12 boys and 18 girls. I need to form a team of 12 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 12 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "info_removed": "the total number of boys and girls"
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "My academy's math club has 15 boys and 15 girls. I need to form a team of 10 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "incomplete_question": "My academy's math club has [BLANK]. I need to form a team of 10 members for the regional math competition. The team must consist of an equal number of boys and girls. In how many ways can I select this team?",
+      "info_removed": "the total number of boys and girls"
+    }
+  ],
+  "num_valid_similars": 5
+}

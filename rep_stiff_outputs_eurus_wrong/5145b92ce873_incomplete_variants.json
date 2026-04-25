@@ -1,0 +1,210 @@
+{
+  "original_question": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans.  It takes 75 large jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans.  And eating 3 small beans is the same as eating 1 medium-sized bean.  How many small beans can Grandpa eat? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sister loves to snack on peanuts, but how many peanuts she can eat depends on the size of the peanuts. It takes [BLANK] large peanuts to fill Sister up. She can eat",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sister enjoys munching on peanuts, but the quantity she can consume relies on the size of the peanuts. It requires [BLANK] big peanuts to satisfy Sister. She can eat",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sister has a fondness for peanuts, yet the amount she can eat is contingent on the size of the peanuts. To fill Sister up, it takes [BLANK] sizable peanuts. She can eat",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sister delights in snacking on peanuts, but how many she can have is based on the size of the peanuts. It takes [BLANK] hefty peanuts to make Sister feel full. She can eat",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sister likes to snack on peanuts, but the number she can consume is determined by the peanut size. To satisfy Sister, it needs [BLANK] large peanuts. She can eat",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sister has a taste for peanuts, but the total she can eat depends on the peanut size. It takes [BLANK] substantial peanuts to fill Sister up. She can eat",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Cousin enjoys tasting marshmallows, but how many marshmallows he can eat depends on the size of the marshmallows. It takes [BLANK] marshmallows to fill Cousin up. He can eat twice as many medium-sized marshmallows as large marshmallows. And eating 5 small marshmallows is the same as eating 1 medium-sized marshmallow. How many small marshmallows can Cousin eat? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Cousin loves sampling marshmallows, but the number he can consume is influenced by their size. It requires [BLANK] marshmallows to satisfy Cousin. He is able to eat twice the amount of medium marshmallows compared to large ones. Additionally, consuming 5 small marshmallows is equivalent to having 1 medium marshmallow. How many small marshmallows can Cousin consume? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Cousin takes pleasure in tasting marshmallows, but the quantity he can ingest is determined by their size. It takes [BLANK] marshmallows to fill Cousin completely. He can devour two times as many medium marshmallows as he can large ones. Moreover, eating 5 small marshmallows equals eating 1 medium-sized marshmallow. What is the total number of small marshmallows Cousin can eat? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Cousin enjoys sampling marshmallows, but the amount he can eat is contingent on their size. It requires [BLANK] marshmallows for Cousin to feel full. He is capable of eating double the number of medium marshmallows compared to large ones. Furthermore, consuming 5 small marshmallows is the same as consuming 1 medium marshmallow. How many small marshmallows can Cousin potentially eat? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Cousin finds joy in tasting marshmallows, however, the number he can consume is based on the size of the marshmallows. It takes [BLANK] marshmallows to satisfy Cousin's appetite. He can eat twice the quantity of medium marshmallows than large marshmallows. Additionally, 5 small marshmallows are equal to 1 medium marshmallow in terms of consumption. How many small marshmallows can Cousin eat? Let's evaluate this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Cousin enjoys trying different marshmallows, but the total he can eat varies with their size. It needs [BLANK] marshmallows to completely satisfy Cousin. He has the capacity to eat twice as many medium-sized marshmallows than large ones. Furthermore, 5 small marshmallows are equivalent to 1 medium-sized marshmallow in terms of fullness. How many small marshmallows can Cousin consume? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Grandma loves to eat chocolate candies, but how many candies she can eat depends on the size of the candies. It takes [BLANK] chocolate candies to fill Grandma up. She can eat three times as many medium-sized candies as large candies. And eating 4 small candies is the same as eating 1 medium-sized candy. How many small candies can Grandma eat? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Grandma enjoys eating chocolate candies, but the quantity she can consume hinges on their size. It requires [BLANK] chocolate candies for Grandma to feel full. She can eat three times the number of medium candies compared to large ones. Furthermore, consuming 4 small candies is equivalent to having 1 medium candy. How many small candies can Grandma consume? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Grandma has a fondness for chocolate candies, but the amount she can eat is determined by the size of the candies. It takes [BLANK] chocolate candies to satisfy Grandma. She is able to eat three times as many medium candies as she does large candies. Also, eating 4 small candies is the same as eating 1 medium-sized candy. How many small candies can Grandma enjoy? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Grandma loves chocolate candies, but the number she can eat is influenced by their size. To fill Grandma up, it requires [BLANK] chocolate candies. She can consume three times as many medium candies as the large ones. Additionally, 4 small candies equal the consumption of 1 medium candy. How many small candies can Grandma eat? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Grandma has a passion for chocolate candies, but how many she can indulge in is based on their size. It takes [BLANK] chocolate candies for Grandma to be satisfied. She can eat three times as many medium-sized candies than large ones. Moreover, eating 4 small candies is equivalent to consuming 1 medium-sized candy. How many small candies can Grandma eat? Let's explore this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Grandma adores chocolate candies, but the amount she is able to eat depends on their size. To fill Grandma up, it takes [BLANK] chocolate candies. She can consume three times the amount of medium candies as she can large candies. Furthermore, 4 small candies are comparable to 1 medium candy. How many small candies can Grandma eat? Let's think this through step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Aunt loves to munch on popcorn kernels, but how many kernels she can eat depends on the size of the kernels. It takes [BLANK] popcorn kernels to fill Aunt up. She can eat five times as many medium-sized kernels as large kernels. And eating 3 small kernels is the same as eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Aunt enjoys snacking on popcorn kernels, but the amount she can consume varies with the size of the kernels. It requires [BLANK] popcorn kernels to satisfy Aunt's appetite. She is able to eat five times more medium-sized kernels than large kernels. Additionally, consuming 3 small kernels is equivalent to eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Aunt has a fondness for popcorn kernels, but the number she can eat is influenced by the size of the kernels. It takes [BLANK] popcorn kernels to fill Aunt's hunger. She can consume five times as many medium-sized kernels compared to large kernels. Also, eating 3 small kernels equals eating 1 medium-sized kernel. How many small kernels can Aunt eat? We'll consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Aunt takes pleasure in munching on popcorn kernels, but the quantity she can eat is determined by the size of the kernels. It takes [BLANK] popcorn kernels to satisfy Aunt. She can eat five times the amount of medium-sized kernels as she can large kernels. Furthermore, eating 3 small kernels is the same as eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Aunt relishes popcorn kernels, but how many she is able to eat relies on the size of the kernels. It takes [BLANK] popcorn kernels to meet Aunt's needs. She is capable of eating five times as many medium-sized kernels as large kernels. Moreover, consuming 3 small kernels corresponds to eating 1 medium-sized kernel. How many small kernels can Aunt eat? Let's break this down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Aunt has a love for popcorn kernels, but the quantity she can consume is contingent upon the size of the kernels. It requires [BLANK] popcorn kernels to fill Aunt's stomach. She can eat five times as many medium-sized kernels as she does large kernels. Additionally, eating 3 small kernels is equivalent to consuming 1 medium-sized kernel. How many small kernels can Aunt eat? Let\u2019s evaluate this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Uncle likes to enjoy gummy bears, but how many gummy bears he can eat depends on the size of the bears. It takes [BLANK] gummy bears to fill Uncle up. He can eat four times as many medium-sized bears as large bears. And eating 2 small bears is the same as eating 1 medium-sized bear. How many small bears can Uncle eat? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Uncle has a fondness for gummy bears, but the number he can consume relies on their size. It requires [BLANK] gummy bears to satisfy Uncle's hunger. He can eat four times the number of medium gummy bears compared to large ones. Additionally, consuming 2 small bears is equivalent to having 1 medium bear. What is the total of small bears Uncle can eat? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Uncle enjoys eating gummy bears, but the quantity he can have is contingent on the size of the bears. To fill Uncle up, it takes [BLANK] gummy bears. He is capable of eating four times as many medium bears compared to large bears. Furthermore, 2 small bears are equivalent to 1 medium bear in terms of consumption. How many small bears can Uncle consume? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Uncle likes gummy bears, but the amount he can eat is influenced by the size of the bears. It takes [BLANK] gummy bears for Uncle to feel full. He can eat four times the amount of medium-sized bears than large bears. Moreover, eating 2 small bears is similar to consuming 1 medium-sized bear. What number of small bears can Uncle eat? Let's proceed step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Uncle enjoys gummy bears, but the number he is able to eat depends on their size. It takes [BLANK] gummy bears to satisfy Uncle's appetite. He can consume four times as many medium bears as he can large bears. Also, 2 small bears are the same as having 1 medium bear. How many small bears can Uncle eat? Let\u2019s evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Uncle has a taste for gummy bears, but how many he can eat is based on the size of the bears. It takes [BLANK] gummy bears to fill Uncle's stomach. He can eat four times the quantity of medium bears compared to large bears. Additionally, 2 small bears equal 1 medium bear in terms of eating. How many small bears can Uncle consume? Let's go through this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Grandpa loves to eat jelly beans, but how many jelly beans he can eat depends on the size of the beans. It takes [BLANK] jelly beans to fill Grandpa up. He can eat twice as many medium-sized beans as large beans. And eating 3 small beans is the same as eating 1 medium-sized bean. How many small beans can Grandpa eat? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Grandpa enjoys jelly beans, but the quantity he can consume is influenced by the beans' size. It requires [BLANK] jelly beans to satisfy Grandpa. He can consume double the amount of medium-sized beans compared to large beans. Moreover, consuming 3 small beans is equivalent to eating 1 medium-sized bean. What is the total number of small beans Grandpa can eat? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Grandpa has a fondness for jelly beans, yet the number he can eat is based on the size of the beans. To fill Grandpa up, he needs [BLANK] jelly beans. He is able to eat twice as many medium beans as he can large beans. Additionally, eating 3 small beans is the same as consuming 1 medium bean. How many small beans can Grandpa consume? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Grandpa takes pleasure in jelly beans, but the number he can eat depends on their size. He needs [BLANK] jelly beans to feel full. He can eat two times the number of medium beans as he does large ones. Furthermore, 3 small beans are equivalent to 1 medium bean. What is the amount of small beans that Grandpa can eat? Let's go through this systematically and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Grandpa has a liking for jelly beans, but the number he can eat is contingent upon the size of the beans. It takes [BLANK] jelly beans to make Grandpa feel satisfied. He can eat twice the quantity of medium beans compared to large ones. Also, consuming 3 small beans is equal to consuming 1 medium-sized bean. How many small beans can Grandpa eat? Let's break it down step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Grandpa is fond of jelly beans, but the quantity he can eat is determined by the size of the beans. To completely satisfy Grandpa, it takes [BLANK] jelly beans. He can eat twice as many medium-sized beans as he does large beans. Additionally, 3 small beans equate to 1 medium-sized bean in terms of consumption. How many small beans is Grandpa capable of eating? Let's think this through step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

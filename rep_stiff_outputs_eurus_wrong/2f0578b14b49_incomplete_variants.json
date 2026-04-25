@@ -1,0 +1,210 @@
+{
+  "original_question": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared $20 for this purchase. One crayon costs $2. How much change will she get? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Noah wants to buy new colored pencils. He needs them in 8 different colors and prepared [BLANK]. One colored pencil costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah is looking to purchase some new colored pencils. He requires them in 8 unique colors and has [BLANK]. Each colored pencil is priced at $4. What will be the amount of change he receives? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah intends to buy a set of colored pencils. He wants them in 8 distinct colors and has prepared [BLANK]. The cost of one colored pencil is $4. How much change will he obtain? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah is planning to get new colored pencils. He needs them in 8 different shades and has [BLANK]. The price for each colored pencil is $4. What change will he have left? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah wishes to acquire new colored pencils. He requires them in 8 various colors and has set aside [BLANK]. Each colored pencil costs $4. How much change will he receive? Let\u2019s discuss this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah is interested in purchasing new colored pencils. He needs a total of 8 different colors and has gathered [BLANK]. The price for one colored pencil is $4. What amount of change will he get? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Oliver wants to buy new stickers. He needs them in 3 different themes and prepared [BLANK]. One sticker pack costs $4. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver is looking to purchase new stickers. He requires them in 3 distinct themes and has prepared [BLANK]. Each sticker pack is priced at $4. What amount of change will he receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver intends to acquire new stickers. He needs them in 3 separate themes and has set aside [BLANK]. A single sticker pack costs $4. How much change will he obtain? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver wants to get new stickers. He requires them in 3 unique themes and has arranged [BLANK]. The price for one sticker pack is $4. What change will he have left? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver is aiming to buy new stickers. He needs them in 3 varied themes and has allocated [BLANK]. One pack of stickers is $4. How much change will he end up with? Let's think through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver plans to purchase new stickers. He wants them in 3 different themes and has budgeted [BLANK]. Each sticker pack costs $4. What will his change amount to? Let's proceed step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Violetta wants to buy new crayons. She needs them in 5 different colors and prepared [BLANK]. One crayon costs $2. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Violetta is looking to purchase some fresh crayons. She requires them in 5 various colors and has set aside [BLANK]. Each crayon is priced at $2. How much change will she receive? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Violetta intends to acquire new crayons. She wants them in 5 distinct colors and has budgeted [BLANK]. The price for each crayon is $2. What amount of change will she have? Let's analyze this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Violetta plans to buy new crayons. She desires them in 5 different colors and has allocated [BLANK]. A single crayon costs $2. How much change will she obtain? Let's evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Violetta aims to purchase fresh crayons. She needs them in 5 unique colors and has prepared [BLANK]. Each crayon sells for $2. What change will she get back? Let's compute this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Violetta wishes to buy new crayons. She requires them in 5 separate colors and has saved [BLANK]. One crayon is $2. How much change will she end up with? Let's go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma wants to buy new notebooks. She needs them in 6 different designs and prepared [BLANK]. One notebook costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma is looking to purchase some new notebooks. She requires them in 6 unique styles and has prepared [BLANK]. Each notebook is priced at $5. What amount of change will she receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma intends to buy fresh notebooks. She requires 6 distinct designs and has set aside [BLANK]. The price for one notebook is $5. How much change will she end up with? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma plans to acquire new notebooks. She needs them in 6 various designs and has arranged [BLANK]. The cost of a single notebook is $5. What change will she obtain? Let's explore this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma wishes to purchase new notebooks. She needs them in 6 separate designs and has budgeted [BLANK]. One notebook costs $5. How much change will she have left? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma aims to buy some new notebooks. She requires them in 6 different patterns and has saved [BLANK]. Each notebook is $5. What will her change amount to? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia wants to buy new paintbrushes. She needs them in 7 different sizes and prepared [BLANK]. One paintbrush costs $5. How much change will she get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia is looking to purchase some new paintbrushes. She requires them in 7 various sizes and has [BLANK]. Each paintbrush is priced at $5. What will the amount of change be? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia intends to acquire new paintbrushes. She needs them in 7 distinct sizes and has [BLANK]. The cost of one paintbrush is $5. How much change will she receive? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia wishes to buy new paintbrushes. She requires them in 7 different sizes and currently has [BLANK]. Each one costs $5. What change will she obtain? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia is planning to purchase new paintbrushes. She needs them in 7 separate sizes and has [BLANK]. The price for each paintbrush is $5. How much change will she end up with? Let's work through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia wants to acquire new paintbrushes. She needs them in 7 unique sizes and holds [BLANK]. A single paintbrush costs $5. What amount of change will she have? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lucas wants to buy new markers. He needs them in 4 different colors and prepared [BLANK]. One marker costs $3. How much change will he get? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lucas is looking to purchase new markers. He requires them in 4 distinct colors and arranged [BLANK]. Each marker is priced at $3. What amount of change will he receive? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lucas intends to buy new markers. He wants them in 4 unique colors and set up [BLANK]. The cost of one marker is $3. How much change will he have? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lucas is planning to acquire new markers. He needs them in 4 separate colors and organized [BLANK]. A single marker is $3. What is the change he will obtain? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lucas wishes to obtain new markers. He requires 4 different colors and prepared [BLANK]. Each marker costs $3. What will be the change he gets? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lucas wants to get new markers. He needs them in 4 diverse colors and set [BLANK]. One marker is priced at $3. How much change will he receive? Let's think this through step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

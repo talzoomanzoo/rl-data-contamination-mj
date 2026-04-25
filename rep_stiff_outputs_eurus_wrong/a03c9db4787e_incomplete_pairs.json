@@ -1,0 +1,62 @@
+{
+  "original_question": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the specific score of one player\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Frankie and Binkie went bowling together. Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of [BLANK], what was Frankie's score? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the specific score of one player\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Charlie and Darlene went bowling together. Charlie's score was 20 better more than twice as high as Darlene's. If Darlene bowled a score of 85, what was Charlie's score?",
+      "incomplete_question": "Charlie and Darlene went bowling together. Charlie's score was 20 better more than twice as high as Darlene's. If Darlene bowled a score of [BLANK], what was Charlie's score?",
+      "info_removed": "\"the specific score of one player\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Eddie and Faye went bowling together. Eddie's score was 10 better more than twice as high as Faye's. If Faye bowled a score of 75, what was Eddie's score?",
+      "incomplete_question": "Eddie and Faye went bowling together. Eddie's score was 10 better more than twice as high as Faye's. If Faye bowled a score of [BLANK], what was Eddie's score?",
+      "info_removed": "\"the specific score of one player\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Gabriel and Hannah went bowling together. Gabriel's score was 25 better more than twice as high as Hannah's. If Hannah bowled a score of 80, what was Gabriel's score?",
+      "incomplete_question": "Gabriel and Hannah went bowling together. Gabriel's score was 25 better more than twice as high as Hannah's. If Hannah bowled a score of [BLANK], what was Gabriel's score?",
+      "info_removed": "\"the specific score of one player\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Irene and Jake went bowling together. Irene's score was 30 better more than twice as high as Jake's. If Jake bowled a score of 70, what was Irene's score?",
+      "incomplete_question": "Irene and Jake went bowling together. Irene's score was 30 better more than twice as high as Jake's. If Jake bowled a score of [BLANK], what was Irene's score?",
+      "info_removed": "\"the specific score of one player\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Liam and Mia went bowling together. Liam's score was 5 better more than twice as high as Mia's. If Mia bowled a score of 60, what was Liam's score?",
+      "incomplete_question": "Liam and Mia went bowling together. Liam's score was 5 better more than twice as high as Mia's. If Mia bowled a score of [BLANK], what was Liam's score?",
+      "info_removed": "\"the specific score of one player\""
+    }
+  ],
+  "num_valid_similars": 5
+}

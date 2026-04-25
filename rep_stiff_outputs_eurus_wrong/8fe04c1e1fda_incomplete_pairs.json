@@ -1,0 +1,62 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Joseph, Abigail, Logan, and Scarlett. Joseph told you that Joseph is a knight if and only if Abigail is a knave. Abigail commented, \"Joseph is a knight if and only if Logan is a knave\". As Logan put it, \"Abigail is not a knight\". In a statement by Scarlett: \"If Abigail is a knave then Abigail is a knight\". So who is a knight and who is a knave?",
+  "info_removed_type": "\"the names of the inhabitants\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Joseph, Abigail, Logan, and Scarlett. Joseph told you that Joseph is a knight if and only if Abigail is a knave. Abigail commented, \"Joseph is a knight if and only if Logan is a knave\". As Logan put it, \"Abigail is not a knight\". In a statement by Scarlett: \"If Abigail is a knave then Abigail is a knight\". So who is a knight and who is a knave?",
+      "incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] told you that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] commented, \"[BLANK] is a knight if and only if [BLANK] is a knave\". As [BLANK] put it, \"[BLANK] is not a knight\". In a statement by [BLANK]: \"If [BLANK] is a knave then [BLANK] is a knight\". So who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "On a unique island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: Michael, Sarah, Thomas, and Emma. Michael claimed that Michael is a knight if and only if Sarah is a knave. Sarah stated, \"Michael is a knight if and only if Thomas is a knave\". According to Thomas, \"Sarah is not a knight\". Lastly, Emma said, \"If Sarah is a knave then Sarah is a knight\". Who is a knight and who is a knave?",
+      "incomplete_question": "On a unique island, there are only knights and knaves. Knights always tell the truth, while knaves always lie. You encounter 4 inhabitants: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] stated, \"[BLANK] is a knight if and only if [BLANK] is a knave\". According to [BLANK], \"[BLANK] is not a knight\". Lastly, [BLANK] said, \"If [BLANK] is a knave then [BLANK] is a knight\". Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a mystical land, only knights and knaves reside. Knights are truthful, whereas knaves are deceitful. You meet 4 characters: David, Lily, Ethan, and Mia. David asserted that David is a knight if and only if Lily is a knave. Lily remarked, \"David is a knight if and only if Ethan is a knave\". Ethan declared, \"Lily is not a knight\". Mia concluded, \"If Lily is a knave then Lily is a knight\". Who is a knight and who is a knave?",
+      "incomplete_question": "In a mystical land, only knights and knaves reside. Knights are truthful, whereas knaves are deceitful. You meet 4 characters: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] asserted that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] remarked, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] declared, \"[BLANK] is not a knight\". [BLANK] concluded, \"If [BLANK] is a knave then [BLANK] is a knight\". Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "On a whimsical island, knights and knaves coexist. Knights always speak the truth, while knaves lie perpetually. You encounter 4 residents: Oscar, Grace, Noah, and Olivia. Oscar stated that Oscar is a knight if and only if Grace is a knave. Grace mentioned, \"Oscar is a knight if and only if Noah is a knave\". Noah observed, \"Grace is not a knight\". Finally, Olivia proclaimed, \"If Grace is a knave then Grace is a knight\". Who is a knight and who is a knave?",
+      "incomplete_question": "On a whimsical island, knights and knaves coexist. Knights always speak the truth, while knaves lie perpetually. You encounter 4 residents: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] stated that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] mentioned, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] observed, \"[BLANK] is not a knight\". Finally, [BLANK] proclaimed, \"If [BLANK] is a knave then [BLANK] is a knight\". Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "In an enchanted realm, knights and knaves are the only inhabitants. Knights tell the truth, but knaves lie. You come across 4 individuals: Jack, Zoe, Lucas, and Ava. Jack expressed that Jack is a knight if and only if Zoe is a knave. Zoe suggested, \"Jack is a knight if and only if Lucas is a knave\". Lucas stated, \"Zoe is not a knight\". Ava finally said, \"If Zoe is a knave then Zoe is a knight\". Who is a knight and who is a knave?",
+      "incomplete_question": "In an enchanted realm, knights and knaves are the only inhabitants. Knights tell the truth, but knaves lie. You come across 4 individuals: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] expressed that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] suggested, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] stated, \"[BLANK] is not a knight\". [BLANK] finally said, \"If [BLANK] is a knave then [BLANK] is a knight\". Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "On a peculiar island, the residents are knights and knaves only. Knights are truthful, while knaves deceive. You encounter 4 figures: Alex, Bella, Samuel, and Chloe. Alex claimed that Alex is a knight if and only if Bella is a knave. Bella stated, \"Alex is a knight if and only if Samuel is a knave\". Samuel declared, \"Bella is not a knight\". Chloe concluded with, \"If Bella is a knave then Bella is a knight\". Who is a knight and who is a knave?",
+      "incomplete_question": "On a peculiar island, the residents are knights and knaves only. Knights are truthful, while knaves deceive. You encounter 4 figures: [BLANK], [BLANK], [BLANK], and [BLANK]. [BLANK] claimed that [BLANK] is a knight if and only if [BLANK] is a knave. [BLANK] stated, \"[BLANK] is a knight if and only if [BLANK] is a knave\". [BLANK] declared, \"[BLANK] is not a knight\". [BLANK] concluded with, \"If [BLANK] is a knave then [BLANK] is a knight\". Who is a knight and who is a knave?",
+      "info_removed": "\"the names of the inhabitants\""
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n2x & \\text{ if } x > 3, \\\\\nx^3 & \\text{ if } x \\leq 3.\n\\end{array}\n\\right.\\] Find \\( f(f(f(1))) \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the input value for the function\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n2x & \\text{ if } x > 3, \\\\\nx^3 & \\text{ if } x \\leq 3.\n\\end{array}\n\\right.\\] Find \\( f(f(f(1))) \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4. \\end{array} \\right.\\] Find \\( f(f(f(2))) \\).",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2. \\end{array} \\right.\\] Find \\( f(f(f(0))) \\).",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 4x & \\text{ if } x > 5, \\\\ x^5 & \\text{ if } x \\leq 5. \\end{array} \\right.\\] Find \\( f(f(f(3))) \\).",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 4x & \\text{ if } x > 5, \\\\ x^5 & \\text{ if } x \\leq 5. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1. \\end{array} \\right.\\] Find \\( f(f(f(-1))) \\).",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 7x & \\text{ if } x > 6, \\\\ x^7 & \\text{ if } x \\leq 6. \\end{array} \\right.\\] Find \\( f(f(f(5))) \\).",
+      "incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 7x & \\text{ if } x > 6, \\\\ x^7 & \\text{ if } x \\leq 6. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "info_removed": "\"the input value for the function\""
+    }
+  ],
+  "num_valid_similars": 5
+}

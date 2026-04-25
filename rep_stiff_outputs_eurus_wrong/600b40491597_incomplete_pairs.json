@@ -1,0 +1,62 @@
+{
+  "original_question": "A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the number of portions or divisions",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A bag of flour is divided into 8 portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "A bag of flour is divided into [BLANK] portions of 2 kilograms each. How much flour (in kilograms) was in three bags in total, before it was divided into portions? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the number of portions or divisions"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A bag of rice is divided into 10 portions of 3 kilograms each. How much rice (in kilograms) was in four bags in total, before it was divided into portions?",
+      "incomplete_question": "A bag of rice is divided into [BLANK] portions of 3 kilograms each. How much rice (in kilograms) was in four bags in total, before it was divided into portions?",
+      "info_removed": "the number of portions or divisions"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A box of oranges is divided into 6 portions of 4 kilograms each. How much oranges (in kilograms) was in five boxes in total, before it was divided into portions?",
+      "incomplete_question": "A box of oranges is divided into [BLANK] portions of 4 kilograms each. How much oranges (in kilograms) was in five boxes in total, before it was divided into portions?",
+      "info_removed": "the number of portions or divisions"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A container of sugar is divided into 12 portions of 1.5 kilograms each. How much sugar (in kilograms) was in two containers in total, before it was divided into portions?",
+      "incomplete_question": "A container of sugar is divided into [BLANK] portions of 1.5 kilograms each. How much sugar (in kilograms) was in two containers in total, before it was divided into portions?",
+      "info_removed": "the number of portions or divisions"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A crate of apples is divided into 9 portions of 2.5 kilograms each. How much apples (in kilograms) was in three crates in total, before it was divided into portions?",
+      "incomplete_question": "A crate of apples is divided into [BLANK] portions of 2.5 kilograms each. How much apples (in kilograms) was in three crates in total, before it was divided into portions?",
+      "info_removed": "the number of portions or divisions"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A barrel of honey is divided into 7 portions of 3.5 kilograms each. How much honey (in kilograms) was in six barrels in total, before it was divided into portions?",
+      "incomplete_question": "A barrel of honey is divided into [BLANK] portions of 3.5 kilograms each. How much honey (in kilograms) was in six barrels in total, before it was divided into portions?",
+      "info_removed": "the number of portions or divisions"
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the cost per dozen of each pastry\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost [BLANK], 2 dozen mini cupcakes which cost [BLANK], and 6 dozen mini cheesecakes for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Maria went to the bakery and bought various types of pastries. She bought 4 dozen croissants which cost $72 per dozen, 3 dozen chocolate eclairs which cost $90 per dozen, and 5 dozen fruit tarts for $60 per dozen. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Maria went to the bakery and bought various types of pastries. She bought 4 dozen croissants which cost [BLANK], 3 dozen chocolate eclairs which cost [BLANK], and 5 dozen fruit tarts for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "James went to the bakery and bought various types of pastries. He bought 2 dozen scones which cost $50 per dozen, 1 dozen muffins which cost $40 per dozen, and 8 dozen brownies for $45 per dozen. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James went to the bakery and bought various types of pastries. He bought 2 dozen scones which cost [BLANK], 1 dozen muffins which cost [BLANK], and 8 dozen brownies for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Linda went to the bakery and bought various types of pastries. She bought 5 dozen bagels which cost $75 per dozen, 4 dozen tarts which cost $65 per dozen, and 3 dozen \u00e9clairs for $82 per dozen. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Linda went to the bakery and bought various types of pastries. She bought 5 dozen bagels which cost [BLANK], 4 dozen tarts which cost [BLANK], and 3 dozen \u00e9clairs for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Ethan went to the bakery and bought various types of pastries. He bought 6 dozen cookies which cost $55 per dozen, 2 dozen brownies which cost $73 per dozen, and 4 dozen cupcakes for $50 per dozen. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Ethan went to the bakery and bought various types of pastries. He bought 6 dozen cookies which cost [BLANK], 2 dozen brownies which cost [BLANK], and 4 dozen cupcakes for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sophia went to the bakery and bought various types of pastries. She bought 3 dozen pastries which cost $60 per dozen, 5 dozen donuts which cost $78 per dozen, and 2 dozen pies for $69 per dozen. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sophia went to the bakery and bought various types of pastries. She bought 3 dozen pastries which cost [BLANK], 5 dozen donuts which cost [BLANK], and 2 dozen pies for [BLANK]. How much was the total cost? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the cost per dozen of each pastry\""
+    }
+  ],
+  "num_valid_similars": 5
+}

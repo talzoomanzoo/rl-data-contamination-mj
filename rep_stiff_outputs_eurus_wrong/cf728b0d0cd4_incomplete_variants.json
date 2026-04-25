@@ -1,0 +1,210 @@
+{
+  "original_question": "Debra is monitoring a beehive to see how many bees come and go in a day. She sees 30 bees leave the hive in the first 6 hours, and then she sees 1/2 that many bees return in the next 6 hours. She sees two times as many bees as she saw first leave the hive fly from the hive and leave in the next 6 hours. Then every bee that left before that hadn't already returned returns to the hive in the next 6 hours. How many bees did Debra see return to the hive in the last 6 hours of the day? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Tom is monitoring a fish tank to see how many fish come and go in a day. He sees [BLANK] leave the tank in the first 8 hours, and then he sees 1/3 that many fish return in the next 8 hours. He sees six times as many fish as he saw first leave the tank fly from the tank and leave in the next 8 hours. Then every fish that left before that hadn't already returned returns to the tank in the next 8 hours. How many fish did Tom see return to the tank in the last 8 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom is observing a fish tank to track the number of fish that enter and exit each day. He notices [BLANK] depart from the tank during the first 8 hours, followed by 1/3 of that number of fish returning in the subsequent 8 hours. He then witnesses six times the amount of fish that initially left the tank exit again in the next 8 hours. Finally, every fish that had previously left but not yet returned makes its way back to the tank during the last 8 hours. How many fish did Tom see return to the tank in that final 8-hour period? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom is keeping track of a fish tank to determine the number of fish that come and go each day. He observes [BLANK] leaving the tank over the first 8 hours, and in the next 8 hours, he sees 1/3 of that quantity of fish coming back. He then notices six times the number of fish that first exited the tank fly away in the following 8 hours. After that, every fish that had previously left but not returned goes back into the tank in the last 8 hours. How many fish did Tom see return to the tank during the final 8 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom is tracking the activity in a fish tank to see how many fish are entering and exiting daily. He observes that [BLANK] fish leave the tank in the initial 8 hours, and then in the following 8 hours, he sees 1/3 of that amount return. Following this, he sees six times the number of fish that first left the tank exit again in the next 8 hours. Subsequently, every fish that had previously left but hadn't returned makes its way back to the tank in the last 8 hours. How many fish did Tom see return to the tank during the last 8-hour segment of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom is observing a fish tank to analyze the number of fish that come and go throughout the day. He sees [BLANK] fish exit the tank in the first 8 hours, and then, in the next 8 hours, he notices 1/3 of that quantity returning. He subsequently observes six times the number of fish that initially left the tank depart again in the next 8 hours. Then, all fish that had previously left but not yet returned re-enter the tank in the final 8 hours. How many fish did Tom see return to the tank during that last 8-hour period? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom is monitoring a fish tank to find out how many fish move in and out each day. He notices [BLANK] fish leaving the tank in the first 8 hours, followed by 1/3 of that number returning in the next 8 hours. Later, he sees six times the amount of fish that initially exited the tank fly away in the following 8 hours. After that, any fish that had left earlier but not yet returned comes back to the tank during the last 8 hours. How many fish did Tom observe returning to the tank in those final 8 hours? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Rachel is monitoring a rabbit warren to see how many rabbits come and go in a day. She sees [BLANK] leave the warren in the first 3 hours, and then she sees 2/3 that many rabbits return in the next 3 hours. She sees five times as many rabbits as she saw first leave the warren fly from the warren and leave in the next 3 hours. Then every rabbit that left before that hadn't already returned returns to the warren in the next 3 hours. How many rabbits did Rachel see return to the warren in the last 3 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Rachel is observing a rabbit burrow to track the number of rabbits that exit and enter throughout the day. She notices [BLANK] depart the burrow during the first 3 hours, and subsequently, she sees 2/3 of that amount return in the following 3 hours. In the next 3 hours, she observes five times the number of rabbits that initially left the burrow fly out. After that, all rabbits that had previously left and not yet returned come back to the burrow in the next 3 hours. How many rabbits did Rachel witness returning to the burrow in the final 3 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Rachel is keeping track of a rabbit den to determine how many rabbits go in and out during a day. She sees [BLANK] exit the den over the first 3 hours, and then she observes 2/3 of that number coming back in the subsequent 3 hours. She notices five times as many rabbits as the initial number that left the den flying out in the next 3 hours. Then, all rabbits that had exited before and had not returned yet re-enter the den in the following 3 hours. How many rabbits did Rachel see come back to the den during the last 3 hours of the day? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Rachel is tracking a rabbit colony to find out how many rabbits enter and exit throughout the day. She observes [BLANK] leaving the colony in the first 3 hours, and later, she sees 2/3 of that number return in the next 3 hours. Then, in the next 3 hours, she sees five times the number of rabbits that initially exited the colony fly away. Afterward, any rabbits that left earlier and had not yet returned come back to the colony during the next 3 hours. How many rabbits did Rachel see return to the colony in the final 3 hours of the day? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Rachel is watching a rabbit habitat to see how many rabbits come and go in a single day. She spots [BLANK] leaving the habitat within the first 3 hours, and afterward, she notices 2/3 of that number returning in the subsequent 3 hours. Following this, she observes five times the number of rabbits that first left the habitat flying out in the next 3 hours. Finally, all rabbits that had left previously and had not returned yet return to the habitat during the next 3 hours. How many rabbits did Rachel see come back to the habitat in the last 3 hours of the day? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Rachel is observing a rabbit warren to monitor the flow of rabbits in and out during the day. She notices [BLANK] rabbits departing the warren in the first 3 hours, and then she sees 2/3 of that amount come back in the next 3 hours. She sees five times as many rabbits as the initial ones that left the warren fly away in the following 3 hours. Then, all the rabbits that had left earlier and not yet returned come back to the warren in the next 3 hours. How many rabbits did Rachel observe returning to the warren in the final 3 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark is monitoring a squirrel nest to see how many squirrels come and go in a day. He sees [BLANK] leave the nest in the first 4 hours, and then he sees 3/5 that many squirrels return in the next 4 hours. He sees four times as many squirrels as he saw first leave the nest fly from the nest and leave in the next 4 hours. Then every squirrel that left before that hadn't already returned returns to the nest in the next 4 hours. How many squirrels did Mark see return to the nest in the last 4 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark is observing a squirrel nest to track how many squirrels exit and enter throughout the day. He notices [BLANK] depart from the nest during the initial 4 hours, followed by 3/5 of that number coming back in the subsequent 4 hours. He then sees four times the amount of squirrels that initially left the nest take off again in the next 4 hours. After that, all squirrels that had previously left but not returned come back to the nest in the final 4 hours. How many squirrels did Mark observe returning to the nest during the last 4 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark is tracking a squirrel nest to find out how many squirrels go in and out over a single day. He observes [BLANK] leave the nest in the first 4 hours, and then he notes that 3/5 of that amount return in the following 4 hours. Next, he sees four times the number of squirrels that initially left the nest fly away again during the next 4 hours. Subsequently, every squirrel that had departed earlier and had not yet come back returns to the nest in the last 4 hours. How many squirrels did Mark see come back to the nest during the final 4 hours of the day? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark is keeping track of a squirrel nest to determine the number of squirrels that exit and re-enter throughout the day. He witnesses [BLANK] squirrels leave the nest in the first 4 hours, followed by 3/5 of that quantity returning in the next 4 hours. He then observes four times the number of squirrels that initially departed from the nest take off in the subsequent 4 hours. Afterward, all squirrels that had previously left and had not yet returned come back to the nest in the next 4 hours. What is the total number of squirrels Mark saw return to the nest during the last 4 hours of the day? Let's break this down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark is monitoring a squirrel nest to see how many squirrels come and go throughout the day. He sees [BLANK] squirrels leave the nest in the first 4 hours, and then observes that 3/5 of that number return in the next 4 hours. Following that, he witnesses four times the number of squirrels that initially left the nest take flight again during the next 4 hours. Then, every squirrel that had left before and hadn't returned makes its way back to the nest in the final 4 hours. How many squirrels did Mark observe returning to the nest in the last 4 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark is observing a squirrel nest to track the number of squirrels that come and go over a day. He sees [BLANK] leave the nest during the first 4 hours, and then he sees 3/5 of that total return in the next 4 hours. He observes four times as many squirrels as he initially saw leave the nest take off in the following 4 hours. After that, all the squirrels that had earlier left but not yet returned come back to the nest in the last 4 hours. How many squirrels did Mark see return to the nest in the final 4 hours of the day? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Debra is monitoring a beehive to see how many bees come and go in a day. She sees [BLANK] leave the hive in the first 6 hours, and then she sees 1/2 that many bees return in the next 6 hours. She sees two times as many bees as she saw first leave the hive fly from the hive and leave in the next 6 hours. Then every bee that left before that hadn't already returned returns to the hive in the next 6 hours. How many bees did Debra see return to the hive in the last 6 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Debra is watching a beehive to track the number of bees that exit and enter throughout the day. She observes [BLANK] depart from the hive during the first 6 hours, and subsequently, she notices half of that quantity coming back in the following 6 hours. Next, she spots double the amount of bees that initially departed the hive taking off again in the next 6 hours. After that, all the bees that left earlier and had not yet returned come back to the hive in the last 6 hours. How many bees did Debra witness returning to the hive during the final 6 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Debra is overseeing a beehive to determine how many bees enter and exit within a day. Initially, she observes [BLANK] leave the hive over the first 6 hours, and then in the next 6 hours, she sees half of that number come back. Following this, she notices twice as many bees as the first group that left the hive take off in the subsequent 6 hours. Finally, all the bees that had previously left and not yet returned come back to the hive in the last 6 hours. How many bees did Debra see return to the hive in the final 6 hours of the day? Let's reason through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Debra is tracking a beehive to observe the flow of bees throughout the day. She notices that [BLANK] exit the hive during the first 6 hours, and then she sees half of that number come back in the next 6 hours. Afterward, she observes twice the amount of bees that initially left the hive flying away again in the next 6 hours. Subsequently, every bee that had exited earlier and had not returned makes its way back to the hive in the last 6 hours. How many bees did Debra see return to the hive during the final 6 hours of the day? Let\u2019s think this through step by step and output the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Debra is observing a beehive to keep track of the number of bees that go in and out throughout the day. She sees [BLANK] leave the hive in the first 6 hours, and then she notices that half of that amount returns in the following 6 hours. Then, she sees double the number of bees that first left the hive fly out again in the next 6 hours. After this, all the bees that had previously left and hadn\u2019t returned yet come back to the hive in the final 6 hours. How many bees did Debra observe returning to the hive in the last 6 hours of the day? Let\u2019s break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Debra is keeping an eye on a beehive to see how many bees exit and re-enter during the day. She notices that [BLANK] depart from the hive in the initial 6 hours, and then she sees half that number return in the next 6 hours. Afterward, she observes twice as many bees as the initial group that left the hive take off in the next 6 hours. Finally, every bee that left before and had not yet returned makes its way back to the hive in the last 6 hours. How many bees did Debra see returning to the hive in the final 6 hours of the day? Let\u2019s consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lisa is monitoring a birdhouse to see how many birds come and go in a day. She sees [BLANK] leave the house in the first 5 hours, and then she sees 1/4 that many birds return in the next 5 hours. She sees three times as many birds as she saw first leave the house fly from the house and leave in the next 5 hours. Then every bird that left before that hadn't already returned returns to the house in the next 5 hours. How many birds did Lisa see return to the house in the last 5 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lisa is keeping track of a birdhouse to observe the number of birds that enter and exit throughout the day. She notices [BLANK] departing from the house during the initial 5 hours, and subsequently, she observes 1/4 of that amount returning over the following 5 hours. In the next 5 hours, she sees three times the number of birds that initially left the house take off. After that, all birds that had previously left but not yet returned come back to the house in the subsequent 5 hours. How many birds did Lisa see come back to the house in the final 5 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lisa is observing a birdhouse to track the number of birds that move in and out during the day. She spots [BLANK] birds exiting the house in the first 5 hours, and then she witnesses 1/4 of that number coming back in the next 5 hours. Following that, three times as many birds as those who first departed from the house take flight in the next 5 hours. Then, every bird that left earlier and hadn't returned yet goes back to the house in the next 5 hours. What is the total number of birds Lisa saw return to the house in the last 5 hours of the day? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lisa is tracking a birdhouse to see how many birds enter and exit each day. She observes [BLANK] birds leaving the house within the first 5 hours, and then notices 1/4 of that number returning during the next 5 hours. After that, she sees three times as many birds as those who initially left the house fly away in the next 5 hours. Subsequently, all birds that had left previously but not yet returned come back to the house in the following 5 hours. How many birds did Lisa see come back to the house in the day's final 5 hours? Let's reason through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lisa is monitoring a birdhouse to determine how many birds go in and out over the course of a day. She observes [BLANK] birds exit the house in the first 5-hour period, and then she notices 1/4 of that number coming back in the next 5 hours. Following this, three times the number of birds who first departed the house take off in the next 5 hours. Finally, all birds that left before and had not yet returned go back to the house in the next 5 hours. What number of birds did Lisa see return to the house during the last 5 hours of the day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lisa is observing a birdhouse to see the number of birds that arrive and depart throughout the day. She sees [BLANK] birds leave the house during the initial 5 hours, and then she notices 1/4 of that total returning in the subsequent 5 hours. Afterward, she observes three times the number of birds that first exited the house flying away in the next 5-hour period. Then, every bird that had previously left but not returned comes back to the house in the next 5 hours. How many birds did Lisa observe returning to the house in the final 5 hours of the day? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Jill is monitoring a butterfly garden to see how many butterflies come and go in a day. She sees [BLANK] leave the garden in the first 7 hours, and then she sees 1/5 that many butterflies return in the next 7 hours. She sees seven times as many butterflies as she saw first leave the garden fly from the garden and leave in the next 7 hours. Then every butterfly that left before that hadn't already returned returns to the garden in the next 7 hours. How many butterflies did Jill see return to the garden in the last 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jill is observing a butterfly garden to track the number of butterflies that enter and exit throughout the day. She notices [BLANK] depart from the garden during the initial 7 hours, and then she observes 1/5 of that quantity returning in the subsequent 7 hours. She sees seven times the number of butterflies that initially exited the garden fly away again in the next 7 hours. Finally, any butterfly that had left earlier and had not yet returned makes its way back to the garden in the following 7 hours. How many butterflies did Jill witness returning to the garden during the final 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jill is keeping track of a butterfly garden to determine how many butterflies come and go over the course of a day. She observes [BLANK] exit the garden within the first 7 hours, and then she notes that 1/5 of that number comes back in the next 7 hours. She sees seven times the butterflies that originally left the garden take off again in the following 7 hours. After that, all butterflies that departed earlier and had not yet returned come back to the garden over the next 7 hours. How many butterflies did Jill see return to the garden in the last 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jill is analyzing a butterfly garden to assess the flow of butterflies throughout the day. She observes [BLANK] leaving the garden during the first 7 hours, followed by 1/5 of that amount returning in the next 7 hours. Subsequently, she notices seven times as many butterflies as those that initially left the garden departing again in the next 7 hours. Lastly, every butterfly that had previously left and not yet returned comes back to the garden in the following 7 hours. How many butterflies did Jill see return to the garden in the last 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jill is tracking the butterfly garden to see how many butterflies come and go in a single day. She sees [BLANK] leave the garden in the first 7 hours, and afterward, 1/5 of that number returns in the next 7 hours. She observes that seven times the butterflies that initially left the garden fly away again in the next 7 hours. Then, all butterflies that had departed earlier and had not returned yet come back to the garden in the next 7 hours. How many butterflies did Jill see return to the garden during the last 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jill is monitoring a butterfly garden to find out how many butterflies come and go each day. She notices [BLANK] take flight from the garden during the first 7 hours, and then she sees 1/5 of that number return in the next 7 hours. She observes seven times the amount of butterflies that first departed from the garden leaving again in the next 7 hours. Finally, each butterfly that left earlier and hasn't returned yet returns to the garden in the following 7 hours. How many butterflies did Jill see returning to the garden in the last 7 hours of the day? Let's think step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

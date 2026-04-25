@@ -1,0 +1,210 @@
+{
+  "original_question": "Tom, Dick and Harry started out on a $100$-mile journey. Tom and Harry went by automobile at the rate of $25$ mph, while Dick walked at the rate of $5$ mph. After a certain distance, Harry got off and walked on at $5$ mph, while Tom went back for Dick and got him to the destination at the same time that Harry arrived. Calculate the number of hours required for the trip.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "John, Paul and George started out on a [BLANK] journey. John and George went by automobile at the rate of 40 mph, while Paul walked at the rate of 4 mph. After a certain distance, George got off and walked on at 4 mph, while John went back for Paul and got him to the destination at the same time that George arrived. Calculate the number of hours required for the trip.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "John, Paul, and George embarked on a [BLANK] journey. John and George traveled by car at a speed of 40 mph, whereas Paul walked at a pace of 4 mph. After covering a certain distance, George disembarked and continued on foot at 4 mph, while John returned to fetch Paul and brought him to the destination at the same moment that George arrived. Determine the total hours needed for the trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "John, Paul, and George began a [BLANK] journey together. John and George drove in a vehicle at 40 mph, while Paul made his way on foot at 4 mph. After some distance, George exited and proceeded to walk at 4 mph, while John went back to pick up Paul, arriving at the destination simultaneously with George. Find out the number of hours taken for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "John, Paul, and George set off on a [BLANK] journey. John and George used a car traveling at 40 mph, while Paul walked at 4 mph. After a particular distance, George left the car and continued walking at 4 mph, while John returned to get Paul and managed to reach the destination at the same time as George. Calculate how many hours the trip took.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "John, Paul, and George started a [BLANK] journey. John and George were in a car going 40 mph, while Paul was walking at a speed of 4 mph. After traveling a certain distance, George got out and walked at 4 mph, while John went back for Paul and brought him to the destination right when George arrived. Calculate the hours needed for this trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "John, Paul, and George commenced a [BLANK] journey. John and George were driving at a rate of 40 mph, while Paul walked at 4 mph. After some distance, George exited the vehicle and continued on foot at 4 mph, while John returned to pick up Paul, reaching the destination at the same time as George. Determine the hours required for this journey.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Nina, Leo and Max started out on a [BLANK] journey. Nina and Max went by automobile at the rate of 28 mph, while Leo walked at the rate of 6 mph. After a certain distance, Max got off and walked on at 6 mph, while Nina went back for Leo and got him to the destination at the same time that Max arrived. Calculate the number of hours required for the trip.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nina, Leo, and Max embarked on a [BLANK] trip. Nina and Max traveled by car at a speed of 28 mph, while Leo walked at a speed of 6 mph. After covering a certain distance, Max disembarked and continued on foot at 6 mph, while Nina returned to fetch Leo and reached the destination simultaneously with Max. Determine the total hours taken for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Nina, Leo, and Max set off on a [BLANK] expedition. Nina and Max drove in a vehicle at 28 mph, whereas Leo proceeded on foot at 6 mph. After a specific distance, Max exited and walked at 6 mph, while Nina went back for Leo and brought him to the end point at the same moment Max arrived. Find out how many hours the trip took.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nina, Leo, and Max initiated a [BLANK] voyage. Nina and Max used a car traveling at 28 mph, while Leo walked at a pace of 6 mph. After a certain distance, Max left the vehicle and walked at 6 mph, while Nina returned to collect Leo and arrived at the destination concurrently with Max. Calculate the hours needed for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Nina, Leo, and Max began a [BLANK] adventure. Nina and Max drove at 28 mph, while Leo walked at a speed of 6 mph. After a given distance, Max got out and continued on foot at 6 mph, while Nina backtracked to get Leo, arriving at the destination at the same time as Max. Assess the amount of time taken for the trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Nina, Leo, and Max commenced a [BLANK] journey. Nina and Max traveled by car at 28 mph, while Leo walked at a speed of 6 mph. After a certain distance, Max exited and walked at 6 mph, while Nina returned to pick up Leo, arriving at the destination simultaneously with Max. Calculate the hours required for the entire trip.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Tom, Dick and Harry started out on a [BLANK] journey. Tom and Harry went by automobile at the rate of $25$ mph, while Dick walked at the rate of $5$ mph. After a certain distance, Harry got off and walked on at $5$ mph, while Tom went back for Dick and got him to the destination at the same time that Harry arrived. Calculate the number of hours required for the trip.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom, Dick, and Harry embarked on a [BLANK] expedition. Tom and Harry traveled by car at a speed of $25$ mph, whereas Dick ambled along at $5$ mph. After covering a certain distance, Harry disembarked and continued on foot at $5$ mph, while Tom returned to fetch Dick, arriving at the destination simultaneously with Harry. Determine the total time taken for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom, Dick, and Harry set off on a [BLANK] trip. Tom and Harry drove in a vehicle at $25$ mph, while Dick proceeded on foot at $5$ mph. After some distance, Harry stepped off and walked at $5$ mph, while Tom went back to get Dick and brought him to the destination just as Harry arrived. Find out how many hours the journey took.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom, Dick, and Harry began their [BLANK] adventure. Tom and Harry used a car traveling at $25$ mph, while Dick walked at a pace of $5$ mph. After a particular distance, Harry got out and continued walking at $5$ mph, while Tom returned to pick up Dick, reaching the destination at the same time as Harry. Calculate the duration of the trip in hours.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom, Dick, and Harry commenced a [BLANK] voyage. Tom and Harry were in a car moving at $25$ mph, while Dick walked at a speed of $5$ mph. After a certain distance, Harry exited and walked at $5$ mph, while Tom went back to retrieve Dick and brought him to the destination concurrently with Harry. Assess the number of hours needed for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom, Dick, and Harry initiated a [BLANK] trek. Tom and Harry traveled by automobile at $25$ mph, while Dick proceeded on foot at $5$ mph. After reaching a specific distance, Harry got off and continued walking at $5$ mph, while Tom turned back to collect Dick, arriving at the destination at the same time as Harry. Calculate the total hours required for the trip.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jake, Emily and Alex started out on a [BLANK] journey. Jake and Alex went by automobile at the rate of 35 mph, while Emily walked at the rate of 7 mph. After a certain distance, Alex got off and walked on at 7 mph, while Jake went back for Emily and got her to the destination at the same time that Alex arrived. Calculate the number of hours required for the trip.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake, Emily, and Alex embarked on a [BLANK] adventure. Jake and Alex traveled by car at a speed of 35 mph, whereas Emily walked at a pace of 7 mph. After covering a specific distance, Alex disembarked and continued walking at 7 mph, while Jake returned to fetch Emily and brought her to the destination simultaneously as Alex arrived. Determine the total hours needed for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake, Emily, and Alex set off on a [BLANK] expedition. Jake and Alex drove in a vehicle at 35 mph, while Emily proceeded on foot at 7 mph. After a certain distance, Alex exited and walked onward at 7 mph, while Jake went back to get Emily and reached the destination at the same moment as Alex. Find out the duration in hours required for the trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake, Emily, and Alex began their [BLANK] quest. Jake and Alex traveled by car at a speed of 35 mph, while Emily moved at 7 mph on foot. After traveling a particular distance, Alex got out and continued walking at 7 mph, while Jake returned to collect Emily and arrived at the destination concurrently with Alex. Calculate the hours needed for the entire journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake, Emily, and Alex commenced a [BLANK] voyage. Jake and Alex took a vehicle traveling at 35 mph, while Emily walked at a speed of 7 mph. After a designated distance, Alex got out and walked at 7 mph, while Jake went back to retrieve Emily and reached the destination at the same time as Alex. Compute the number of hours necessary for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake, Emily, and Alex started their [BLANK] trip. Jake and Alex drove at a rate of 35 mph, while Emily walked at a speed of 7 mph. After covering a certain distance, Alex exited and continued on foot at 7 mph, while Jake returned to pick up Emily and got her to the destination at the same time that Alex arrived. Calculate the total hours needed for the journey.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara, Mike and Anna started out on a [BLANK] journey. Sara and Anna went by automobile at the rate of 20 mph, while Mike walked at the rate of 4 mph. After a certain distance, Anna got off and walked on at 4 mph, while Sara went back for Mike and got him to the destination at the same time that Anna arrived. Calculate the number of hours required for the trip.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara, Mike, and Anna embarked on a [BLANK] expedition. Sara and Anna traveled by car at a speed of 20 mph, whereas Mike walked at a pace of 4 mph. After covering a specific distance, Anna disembarked and continued walking at 4 mph, while Sara returned to fetch Mike and brought him to the destination simultaneously with Anna's arrival. Determine the total hours needed for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "On a [BLANK] trip, Sara, Mike, and Anna began their travels. Sara and Anna used a vehicle, moving at 20 mph, while Mike proceeded on foot at 4 mph. After traveling a certain distance, Anna exited the vehicle and walked at 4 mph, while Sara went back to get Mike, arriving at the destination at the same time as Anna. Find the amount of time taken for the entire trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara, Mike, and Anna set off on a [BLANK] excursion. Sara and Anna drove at a speed of 20 mph, while Mike walked at 4 mph. After a designated distance, Anna got out and continued on foot at 4 mph, while Sara returned to pick up Mike, reaching the destination simultaneously with Anna. Calculate the hours it took for the entire journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Embarking on a [BLANK] adventure, Sara, Mike, and Anna began their travel. Sara and Anna traveled by car at 20 mph, while Mike was walking at a rate of 4 mph. Once they had traveled a certain distance, Anna exited the car and walked at 4 mph, while Sara turned around to retrieve Mike, arriving at the destination together with Anna. Compute the time in hours required for the journey.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara, Mike, and Anna started their [BLANK] journey together. Sara and Anna drove at a speed of 20 mph, while Mike walked at a rate of 4 mph. After reaching a certain point, Anna got out and continued walking at 4 mph, while Sara went back to get Mike, arriving at the destination at the same moment as Anna. Calculate the total hours needed for this trip.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alice, Bob and Carol started out on a [BLANK] journey. Alice and Carol went by automobile at the rate of 30 mph, while Bob walked at the rate of 6 mph. After a certain distance, Carol got off and walked on at 6 mph, while Alice went back for Bob and got him to the destination at the same time that Carol arrived. Calculate the number of hours required for the trip.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice, Bob, and Carol embarked on a [BLANK] journey. Alice and Carol traveled by car at a speed of 30 mph, while Bob proceeded on foot at a speed of 6 mph. After covering a specific distance, Carol disembarked and continued walking at 6 mph, while Alice returned to pick up Bob and brought him to the destination simultaneously as Carol reached there. Determine the hours needed for the trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice, Bob, and Carol began their [BLANK] journey. Alice and Carol drove in a vehicle at 30 mph, whereas Bob walked at a pace of 6 mph. After a certain distance, Carol got out and walked at 6 mph, while Alice went back for Bob, arriving with him at the destination at the same time as Carol. Find out how many hours the trip took.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice, Bob, and Carol set off on a [BLANK] journey. Alice and Carol drove at a speed of 30 mph, while Bob walked at 6 mph. After traveling a specific distance, Carol exited and continued on foot at 6 mph, while Alice returned to fetch Bob, arriving with him at the destination just when Carol did. Calculate the total hours needed for the trip.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice, Bob, and Carol commenced their [BLANK] journey. Alice and Carol traveled by car at a speed of 30 mph, while Bob walked along at 6 mph. After a certain distance, Carol left the vehicle and walked at 6 mph, while Alice turned back to retrieve Bob, arriving at the destination at the same moment as Carol. Calculate the duration of the trip in hours.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice, Bob, and Carol started their [BLANK] journey together. Alice and Carol went by car at 30 mph, while Bob made his way on foot at 6 mph. After traveling a certain distance, Carol got out to walk at 6 mph, while Alice went back to get Bob, reaching the destination at the same time as Carol. Determine how many hours the journey took.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

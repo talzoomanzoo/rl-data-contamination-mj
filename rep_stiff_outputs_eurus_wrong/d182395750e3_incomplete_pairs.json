@@ -1,0 +1,62 @@
+{
+  "original_question": "A ball is thrown vertically upward from a platform 30 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 30 + 180t - 20t^2$. What is the maximum height reached by the ball?\nA) 800 feet\nB) 450 feet\nC) 435 feet\nD) 400 feet\nE) 500 feet\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the initial height of the platform",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "A ball is thrown vertically upward from a platform 30 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 30 + 180t - 20t^2$. What is the maximum height reached by the ball?\nA) 800 feet\nB) 450 feet\nC) 435 feet\nD) 400 feet\nE) 500 feet\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 180t - 20t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "A ball is thrown vertically upward from a platform 25 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 25 + 150t - 15t^2$. What is the maximum height reached by the ball?",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 150t - 15t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "A ball is thrown vertically upward from a platform 40 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 40 + 200t - 25t^2$. What is the maximum height reached by the ball?",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 200t - 25t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "A ball is thrown vertically upward from a platform 35 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 35 + 160t - 18t^2$. What is the maximum height reached by the ball?",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 160t - 18t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "A ball is thrown vertically upward from a platform 50 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 50 + 220t - 30t^2$. What is the maximum height reached by the ball?",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 220t - 30t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "A ball is thrown vertically upward from a platform 20 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 20 + 140t - 12t^2$. What is the maximum height reached by the ball?",
+      "incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 140t - 12t^2$. What is the maximum height reached by the ball?",
+      "info_removed": "the initial height of the platform"
+    }
+  ],
+  "num_valid_similars": 5
+}

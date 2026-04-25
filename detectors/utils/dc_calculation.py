@@ -97,9 +97,11 @@ def cosine_sim(a: torch.Tensor, b: torch.Tensor, eps: float = 1e-8) -> float:
     """
     Compute cosine similarity between two vectors.
     """
-    return (torch.dot(a, b) / (
-        torch.norm(a) * torch.norm(b) + eps
-    )).item()
+    # IMPORTANT: do the reduction math in fp32.
+    # In fp16, `dot` and `norm(a)*norm(b)` can overflow to inf; inf/inf => NaN.
+    a32 = a.float()
+    b32 = b.float()
+    return (torch.dot(a32, b32) / (torch.norm(a32) * torch.norm(b32) + eps)).item()
 
 #compute shift vector for one question
 def compute_shift_vector(

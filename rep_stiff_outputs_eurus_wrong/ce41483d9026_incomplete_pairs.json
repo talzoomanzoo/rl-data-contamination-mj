@@ -1,0 +1,62 @@
+{
+  "original_question": "Jamie earns $20 per hour for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her regular hourly rate. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the regular hourly wage rate\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Jamie earns $20 per hour for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her regular hourly rate. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Jamie earns [BLANK] for 8 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 150% of her [BLANK]. Last Tuesday, she worked 11 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Alex earns $25 per hour for 9 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 160% of his regular hourly rate. Last Thursday, he worked 12 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Alex earns [BLANK] for 9 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 160% of his [BLANK]. Last Thursday, he worked 12 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sarah earns $15 per hour for 7 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 175% of her regular hourly rate. Last Monday, she worked 10 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sarah earns [BLANK] for 7 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 175% of her [BLANK]. Last Monday, she worked 10 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Tom earns $30 per hour for 6 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 140% of his regular hourly rate. Last Friday, he worked 13 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Tom earns [BLANK] for 6 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 140% of his [BLANK]. Last Friday, he worked 13 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Emily earns $18 per hour for 5 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 155% of her regular hourly rate. Last Wednesday, she worked 9 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily earns [BLANK] for 5 hours of work each day. Should she need to work additional hours, she is paid a special hourly rate that is 155% of her [BLANK]. Last Wednesday, she worked 9 hours. How much was she paid, in dollars, for her work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Michael earns $22 per hour for 10 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 180% of his regular hourly rate. Last Saturday, he worked 14 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael earns [BLANK] for 10 hours of work each day. Should he need to work additional hours, he is paid a special hourly rate that is 180% of his [BLANK]. Last Saturday, he worked 14 hours. How much was he paid, in dollars, for his work that day? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the regular hourly wage rate\""
+    }
+  ],
+  "num_valid_similars": 5
+}

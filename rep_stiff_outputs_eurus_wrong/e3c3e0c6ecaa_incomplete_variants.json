@@ -1,0 +1,210 @@
+{
+  "original_question": "Larry loves taking care of animals.  He has 3 cats.  He has 3 times as many dogs as cats.  He has 2 fewer rabbits than dogs.  He has a fish tank with three times the number of fish as rabbits.  He also has a collection of gerbils that's 1/3 the number of fish he has.  How many pets does Larry have? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Mia loves her pets. She has [BLANK] cats. She has 3 times as many dogs as cats. She has 5 fewer rabbits than dogs. She has a fish tank with six times the number of fish as rabbits. She also has a collection of ferrets that's 1/3 the number of fish she has. How many pets does Mia have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mia adores her animals. She owns [BLANK] felines. The number of dogs she has is three times that of her cats. She possesses five less rabbits than the total number of dogs. There is an aquarium containing six times the amount of fish compared to her rabbits. Additionally, Mia has a group of ferrets that is one-third the quantity of fish she owns. How many pets are there altogether for Mia? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mia is fond of her pets. She has [BLANK] kitties. The dogs she has are three times the number of her cats. She has five fewer bunnies than the dogs. In her aquarium, there are six times as many fish as there are rabbits. Furthermore, Mia keeps a set of ferrets that amounts to one-third of the fish she has. How many pets does Mia possess in total? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mia enjoys taking care of her pets. She has [BLANK] cats. The count of her dogs is three times greater than that of her cats. She has five fewer rabbits than she does dogs. In her fish tank, the number of fish is six times what she has in rabbits. Moreover, Mia owns a group of ferrets that is one-third the size of her fish count. How many pets does Mia have overall? Let's think through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mia is passionate about her pets. She keeps [BLANK] cats. Her number of dogs is three times that of her cats. The number of rabbits she has is five less than the number of dogs she possesses. She has a fish tank that has six times the amount of fish compared to her rabbits. Additionally, Mia's collection of ferrets is one-third the total of her fish. How many pets does Mia have in all? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mia loves her animals dearly. She has [BLANK] cats. The quantity of dogs she keeps is three times that of her cats. She has five rabbits fewer than the number of dogs. In her fish tank, there are six times as many fish as there are rabbits. She also has a ferret collection that is one-third the number of fish she owns. How many pets does Mia actually have? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Larry loves taking care of animals. He has [BLANK] cats. He has 3 times as many dogs as cats. He has 2 fewer rabbits than dogs. He has a fish tank with three times the number of fish as rabbits. He also has a collection of gerbils that's 1/3 the number of fish he has. How many pets does Larry have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Larry enjoys looking after pets. He owns [BLANK] felines. The number of dogs he has is three times that of his cats. He possesses two fewer rabbits than he has dogs. In his aquarium, there are three times as many fish as there are rabbits. Additionally, he has a set of gerbils that is one-third the amount of fish he owns. How many pets does Larry have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Larry takes pleasure in caring for animals. He has [BLANK] kitties. His number of dogs is three times the amount of cats. He has two fewer bunnies compared to the number of dogs. In his fish tank, the count of fish is three times that of the rabbits. Furthermore, he possesses a group of gerbils that equals one-third of the total fish he has. How many pets does Larry have? Let's examine it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Larry has a passion for looking after animals. He keeps [BLANK] cats. He has three times as many dogs as he does cats. The number of rabbits he has is two less than the number of dogs. His fish tank contains three times the number of fish in relation to his rabbits. Moreover, he has a collection of gerbils that is one-third the number of fish he possesses. How many pets does Larry have? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Larry is fond of caring for creatures. He has [BLANK] feline friends. He owns three times the number of dogs compared to cats. He has two fewer rabbits than he has dogs. His aquarium holds three times as many fish as the number of rabbits. Additionally, he has a series of gerbils that make up one-third of the fish he has. How many pets does Larry have? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Larry enjoys nurturing animals. He possesses [BLANK] cats. He has three times as many dogs as he has cats. He keeps two fewer rabbits than the number of dogs he has. In his fish tank, the quantity of fish is three times that of the rabbits. He also maintains a group of gerbils that is one-third the number of fish he owns. How many pets does Larry have? Let's think through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Jake is fond of pets. He has [BLANK] cats. He has 6 times as many dogs as cats. He has 4 fewer rabbits than dogs. He has a fish tank with seven times the number of fish as rabbits. He also has a collection of lizards that's 1/4 the number of fish he has. How many pets does Jake have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jake loves animals. He owns [BLANK] felines. He possesses 6 times the number of canines as he has felines. He has 4 less rabbits than the number of canines. In his aquarium, he keeps seven times the amount of fish compared to his rabbits. Additionally, he has a group of lizards that is a quarter of the fish he owns. What is the total number of pets Jake has? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jake is a pet enthusiast. He has [BLANK] kitty cats. The number of dogs he has is 6 times greater than his cats. He has 4 fewer bunnies than the number of dogs. His fish tank contains seven times as many fish as the rabbits he has. Moreover, he has a collection of lizards that is one-fourth the total number of fish. How many pets are there in total for Jake? Let's break it down step by step and share the conclusion after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake adores pets. He possesses [BLANK] cats. The amount of dogs he has is 6 times that of his cats. He has 4 fewer rabbits compared to the number of dogs. His fish tank holds seven times the quantity of fish as he has rabbits. Furthermore, his lizard collection is one-fourth the number of fish he owns. What is the total count of pets Jake has? Let\u2019s consider it step by step and report the final number after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jake is passionate about animals. He has [BLANK] feline friends. He has 6 times as many dogs in comparison to the number of cats. There are 4 fewer rabbits than there are dogs. His aquarium features seven times the number of fish as he has rabbits. Additionally, he possesses a set of lizards that amounts to a quarter of the fish he owns. How many pets does Jake have altogether? Let\u2019s think this through step by step and write the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jake enjoys having pets. He keeps [BLANK] cats. He has 6 times the number of dogs as he does cats. He has 4 fewer rabbits than the total count of dogs. His fish tank contains seven times as many fish as the rabbits he owns. Additionally, he has a lizard collection that makes up a quarter of his fish. What is the total number of pets Jake has? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Tom enjoys raising pets. He has [BLANK] cats. He has 4 times as many dogs as cats. He has 1 fewer rabbit than dogs. He has a fish tank with five times the number of fish as rabbits. He also has a collection of turtles that's 2/5 the number of fish he has. How many pets does Tom have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom loves taking care of animals. He owns [BLANK] cats. The number of dogs he has is four times the count of cats. He possesses one less rabbit than the total number of dogs. In his fish tank, there are five times as many fish as there are rabbits. Additionally, his turtle collection consists of 2/5 of the number of fish he owns. How many pets does Tom have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom has a passion for keeping pets. He currently has [BLANK] cats. He has four times as many dogs compared to the number of cats. The quantity of rabbits is one less than the number of dogs. His fish tank contains five times the amount of fish as there are rabbits. Moreover, his collection of turtles is 2/5 of the fish count. How many pets does Tom have? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom is fond of raising pets. He possesses [BLANK] cats. The number of dogs he has is four times that of his cats. He has one fewer rabbit than the number of dogs. In his aquarium, there are five times as many fish as the number of rabbits. Also, his turtle collection amounts to 2/5 of the fish he keeps. How many pets does Tom have? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom enjoys having pets. He has [BLANK] cats. He owns four times as many dogs as he does cats. There is one rabbit less than the number of dogs he has. His aquarium has five times the number of fish compared to the rabbits. Furthermore, his collection of turtles is 2/5 of the total number of fish. How many pets does Tom have? Let's examine it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom takes pleasure in raising animals. He has [BLANK] cats. The amount of dogs he owns is four times greater than the number of cats. He has one fewer rabbit than the dogs he has. In the fish tank, there are five times as many fish as there are rabbits. Additionally, his turtle collection is 2/5 of the fish he possesses. How many pets does Tom have? Let's explore this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Ella loves taking care of animals. She has [BLANK] cats. She has 2 times as many dogs as cats. She has 3 fewer rabbits than dogs. She has a fish tank with four times the number of fish as rabbits. She also has a collection of hamsters that's 1/2 the number of fish she has. How many pets does Ella have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ella enjoys looking after animals. She owns [BLANK] cats. The number of dogs she has is double that of her cats. She possesses three less rabbits than she has dogs. In her fish tank, there are four times as many fish as the number of rabbits. Additionally, her collection of hamsters consists of half the quantity of fish. How many pets does Ella have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Ella takes pleasure in caring for animals. She has [BLANK] cats. She has twice as many dogs as the number of cats. There are three fewer rabbits than the dogs she owns. Her fish tank holds four times the number of fish compared to the rabbits. Furthermore, her hamster collection amounts to half of the fish she possesses. How many pets does Ella have? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Ella is fond of taking care of animals. She has [BLANK] cats. The amount of dogs she owns is two times the number of her cats. She has three fewer rabbits than the total of her dogs. In her fish tank, there are four times as many fish as there are rabbits. Moreover, her collection of hamsters is equal to half the fish she has. How many pets does Ella have? Let\u2019s think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella enjoys caring for animals. She has [BLANK] cats. The number of dogs she has is twice that of her cats. She has three fewer rabbits than the number of dogs. Her fish tank contains four times the number of fish compared to the rabbits. Additionally, she has a collection of hamsters that equals half the number of fish. How many pets does Ella have? Let's carefully consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Ella loves looking after animals. She has [BLANK] cats. She owns two times as many dogs as she has cats. There are three fewer rabbits than the number of dogs she keeps. Her fish tank includes four times as many fish as there are rabbits. Also, her collection of hamsters is half the total of her fish. How many pets does Ella have? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sara adores animals. She has [BLANK] cats. She has 5 times as many dogs as cats. She has 2 more rabbits than dogs. She has a fish tank with two times the number of fish as rabbits. She also has a collection of mice that's 3/4 the number of fish she has. How many pets does Sara have? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara loves animals. She owns [BLANK] cats. The number of dogs she has is 5 times that of her cats. She possesses 2 additional rabbits compared to her dogs. In her fish tank, there are double the number of fish compared to her rabbits. Additionally, her collection of mice totals 3/4 of the fish she owns. How many pets does Sara have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara is fond of animals. She has [BLANK] cats in total. Her dogs are 5 times the amount of her cats. She has 2 more rabbits than the number of dogs. In her aquarium, there are twice as many fish as there are rabbits. Furthermore, she has a group of mice that is 3/4 the quantity of the fish she keeps. How many pets does Sara have? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara enjoys keeping animals. She currently has [BLANK] cats. The amount of dogs she possesses is 5 times that of the cats. She has 2 more rabbits than she has dogs. Her fish tank contains twice the number of fish as there are rabbits. Moreover, her mice collection is 3/4 the count of her fish. How many pets does Sara have? Let\u2019s go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara is passionate about animals. She has [BLANK] cats. She owns 5 times as many dogs as the number of cats. There are 2 more rabbits than the dogs she has. Her fish tank holds twice the number of fish compared to the rabbits. Additionally, her mice collection amounts to 3/4 of her total fish. How many pets does Sara have? Let's break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara has a great love for animals. She possesses [BLANK] cats. Her dogs are 5 times the number of cats she has. She has 2 more rabbits than the dogs. In her fish tank, the number of fish is double the number of rabbits. Furthermore, her collection of mice equals 3/4 of the fish she possesses. How many pets does Sara have? Let's evaluate this step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs $0.15. How much does Gary spend on water for laundry in a year? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Jenna does laundry four times a week. Each load of laundry uses 10 gallons of water, and a gallon of water costs [BLANK]. How much does Jenna spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jenna washes clothes four times weekly. Every laundry load requires 10 gallons of water, and the price for one gallon of water is [BLANK]. What is Jenna's total yearly expenditure on water for laundry? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jenna does her laundry four times every week. Each washing machine load consumes 10 gallons of water, with a gallon priced at [BLANK]. How much does Jenna's water cost for laundry over the course of a year? We will break this down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jenna performs laundry four times a week. Each laundry load utilizes 10 gallons of water, and the cost per gallon is [BLANK]. How much will Jenna spend on water for her laundry throughout one year? Let's consider this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jenna completes her laundry four times within a week. Each load of laundry requires 10 gallons of water, and a gallon costs [BLANK]. What is Jenna's total water expenditure for laundry over the year? We will go through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jenna handles laundry four times each week. Each load uses 10 gallons of water, and the price of a gallon is [BLANK]. How much does Jenna pay for water used in laundry in a year? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark does laundry once a week. Each load of laundry uses 25 gallons of water, and a gallon of water costs [BLANK]. How much does Mark spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark washes his clothes weekly. Every laundry load requires 25 gallons of water, and the price of a gallon of water is [BLANK]. What is Mark's yearly expenditure on water for laundry? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Once a week, Mark does his laundry. Each load consumes 25 gallons of water, with the cost of a gallon being [BLANK]. How much does Mark pay for water used in laundry over the course of a year? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark performs laundry once every week. A single load needs 25 gallons of water, and a gallon costs [BLANK]. What amount does Mark spend on water for laundry annually? Let's consider this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Every week, Mark does his laundry. He uses 25 gallons of water per load, and the cost for a gallon is [BLANK]. How much does Mark's annual spending on water for laundry amount to? Let's examine this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark does his laundry on a weekly basis. Each load utilizes 25 gallons of water, and the price for one gallon is [BLANK]. What is the total Mark spends on water for laundry throughout the year? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Samantha does laundry twice a week. Each load of laundry uses 30 gallons of water, and a gallon of water costs [BLANK]. How much does Samantha spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Samantha washes clothes two times each week. Every laundry load requires 30 gallons of water, and the cost of a gallon of water is [BLANK]. What is the total amount Samantha spends on water for laundry annually? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha does her laundry two times per week. Each laundry load consumes 30 gallons of water, and the price for a gallon of water is [BLANK]. How much does Samantha pay for water for laundry over the course of a year? Let's break it down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Samantha completes laundry twice every week. Each load requires 30 gallons of water, and the rate for a gallon of water is [BLANK]. What is the yearly expenditure for Samantha on water for her laundry? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha does her laundry on two occasions each week. Each load utilizes 30 gallons of water, and a gallon of water is priced at [BLANK]. How much does Samantha invest in water for her laundry throughout the year? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Samantha performs laundry two times weekly. Every load uses 30 gallons of water, and the cost for one gallon of water is [BLANK]. What total amount does Samantha incur for water for laundry in a year? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Tom does laundry five times a week. Each load of laundry uses 18 gallons of water, and a gallon of water costs [BLANK]. How much does Tom spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Tom washes his clothes five days a week. Every laundry load requires 18 gallons of water, and the price of a gallon of water is [BLANK]. What is Tom's annual expenditure on water for laundry? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Tom does his laundry five times weekly. Each load consumes 18 gallons of water, and the cost per gallon of water is [BLANK]. How much does Tom pay for water used in laundry over the course of a year? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Tom completes his laundry five times every week. Each load utilizes 18 gallons of water, and the price of one gallon of water is [BLANK]. What amount does Tom spend on water for laundry throughout the year? Let's go through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Tom performs laundry five times weekly. Each cycle requires 18 gallons of water, and each gallon of water costs [BLANK]. What is Tom's total spending on laundry water for the entire year? Let's think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Tom does laundry five times a week. For each load, he uses 18 gallons of water, and the cost for one gallon is [BLANK]. What does Tom spend yearly on laundry water? Let's evaluate this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Gary does laundry twice a week. Each load of laundry uses 20 gallons of water, and a gallon of water costs [BLANK]. How much does Gary spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Gary does laundry two times every week. Every load consumes 20 gallons of water, and the price for a gallon of water is [BLANK]. What is Gary's annual expenditure on water for laundry? Let's analyze this step by step and provide the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Gary completes his laundry twice weekly. Each load requires 20 gallons of water, and the cost of one gallon of water is [BLANK]. How much does Gary pay for water used in laundry over the course of a year? Let's consider this systematically and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Gary washes his clothes two times a week. Each laundry load uses 20 gallons of water, with the cost per gallon being [BLANK]. How much does Gary's water bill for laundry total in one year? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Gary performs laundry twice each week. Every load utilizes 20 gallons of water, and a gallon of water is priced at [BLANK]. What is Gary's yearly spending on water for doing laundry? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Gary launders his clothes two times a week. Each load takes 20 gallons of water, and a gallon costs [BLANK]. What amount does Gary spend on water for his laundry over a year? Let's think through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lisa does laundry three times a week. Each load of laundry uses 15 gallons of water, and a gallon of water costs [BLANK]. How much does Lisa spend on water for laundry in a year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lisa does her laundry on three occasions each week. Every laundry load consumes 15 gallons of water, and the price of a gallon of water is [BLANK]. What is Lisa's annual expenditure on water for laundry? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lisa performs laundry tasks three times every week. Each load requires 15 gallons of water, and the cost for a gallon of water is [BLANK]. How much money does Lisa pay for water for laundry over the course of a year? We will go through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lisa washes clothes three times weekly. Each washing load utilizes 15 gallons of water, and the cost per gallon of water is [BLANK]. What total amount does Lisa allocate for water used in laundry each year? We\u2019ll think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lisa does her laundry thrice a week. Each load takes 15 gallons of water, and the price for one gallon of water is [BLANK]. How much does Lisa invest in water for laundry throughout the year? Let's break this down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lisa completes laundry three times a week. Every load of laundry requires 15 gallons of water, and a gallon of water is priced at [BLANK]. What is the total amount Lisa spends on water for laundry annually? We'll examine this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

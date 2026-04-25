@@ -1,0 +1,210 @@
+{
+  "original_question": "Felix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made $105. On average, how many branches did he climb per day? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "James sees that his friends are constantly losing frisbees in trees. As a skilled tree climber, he starts charging his friends to help them retrieve them. He charges $0.40 for each branch he has to climb. This week he earned [BLANK]. On average, how many branches did he climb per day?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James notices that his buddies frequently misplace frisbees in the trees. Being an adept tree climber, he begins to charge his friends for his assistance in getting them back. He collects $0.40 for every branch he ascends. This week, he made [BLANK]. On average, how many branches did he ascend each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James observes that his friends are regularly losing frisbees in the trees. As an experienced tree climber, he starts to charge them for helping to retrieve them. He fees $0.40 for each branch he climbs. This week, he earned [BLANK]. What is the average number of branches he climbed per day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James realizes that his friends keep losing frisbees in the trees. As a proficient tree climber, he starts charging them for his help in getting the frisbees back. He charges $0.40 for each branch he climbs. This week, his earnings totaled [BLANK]. How many branches did he climb on average each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James sees that his friends are often misplacing frisbees in trees. As a capable tree climber, he begins to charge them for retrieving the lost items. He charges $0.40 for each branch he climbs. This week, he earned [BLANK]. How many branches did he climb on average daily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James finds that his friends frequently lose frisbees up in trees. Being skilled in tree climbing, he starts to charge them for his help in getting the frisbees down. He charges $0.40 for every branch he climbs. This week, he made [BLANK]. What is the average number of branches he climbed per day?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Maria notices that neighbors often get their kites stuck in trees. As an adept tree climber, she decides to charge them for retrieving their kites. She charges $0.35 for every branch she has to climb. During the week, she made [BLANK]. On average, how many branches did she climb per day?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Maria observes that her neighbors frequently have their kites caught in trees. Being skilled at climbing trees, she chooses to charge them for getting their kites back. Her fee is $0.35 for each branch she climbs. Throughout the week, she earned [BLANK]. On average, how many branches did she ascend each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Maria sees that the neighbors often have their kites entangled in trees. As a proficient tree climber, she opts to charge them for retrieving their kites. She charges $0.35 for each branch she climbs. Over the course of the week, she collected [BLANK]. What is the average number of branches she climbed daily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Maria notices that her neighbors regularly get their kites stuck in trees. As an experienced tree climber, she decides to charge them for the retrieval service. Her fee is $0.35 for every branch she ascends. During the week, she earned [BLANK]. How many branches did she typically climb per day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Maria has observed that neighbors often have their kites lodged in trees. Being a skilled tree climber, she decides to impose a fee for retrieving those kites. She charges $0.35 for each branch she climbs. Throughout that week, she made [BLANK]. What is the average number of branches she climbed each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Maria realizes that her neighbors frequently get their kites stuck in tree branches. As a capable tree climber, she chooses to charge them for retrieving their kites. She charges $0.35 for each branch she navigates. In the past week, she accrued [BLANK]. On average, how many branches did she climb on a daily basis?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Samantha sees that pets in her neighborhood are often getting their toys stuck in trees. As a skilled tree climber, she decides to charge pet owners to retrieve their toys. She charges $0.30 for every branch she climbs. Over the weekend, she earned [BLANK]. On average, how many branches did she climb per day?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In her neighborhood, Samantha notices that pets frequently have their toys caught in trees. Being an adept tree climber, she chooses to charge pet owners for retrieving their toys. Her fee is $0.30 for each branch she ascends. Over the weekend, she made [BLANK]. What is the average number of branches she climbed each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Samantha observes that toys belonging to pets in her area often become lodged in trees. As an experienced tree climber, she opts to charge pet owners for getting their toys back. She charges $0.30 for every single branch she scales. During the weekend, her earnings totaled [BLANK]. How many branches did she climb on average each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noticing that pets in her locality frequently get their toys stuck in trees, Samantha, a proficient tree climber, decides to impose a fee on pet owners for retrieving their toys. She collects $0.30 for each branch that she climbs. Over the weekend, she earned [BLANK]. On average, how many branches did she climb daily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Samantha has realized that pets in her neighborhood often find their toys trapped in trees. Being skilled at climbing trees, she chooses to charge pet owners for retrieving their toys. Her rate is $0.30 for each branch she climbs. Throughout the weekend, she earned [BLANK]. What is the average number of branches she climbed per day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In her neighborhood, Samantha sees that pets often get their toys stuck in trees. As a capable tree climber, she decides to charge pet owners for retrieving those toys. She charges $0.30 for each branch she climbs. Over the weekend, her total earnings were [BLANK]. How many branches did she climb on an average day?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Lisa finds that her neighbors frequently get their hats stuck in trees. Being an expert tree climber, she decides to charge for her retrieval services. She charges $0.50 for every branch she climbs. Last month, she made [BLANK]. On average, how many branches did she climb per day?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lisa observes that her neighbors often have their hats caught in trees. As a skilled tree climber, she has chosen to charge for her hat retrieval services. She bills $0.50 for each branch she ascends. Last month, her earnings were [BLANK]. On average, how many branches did she scale each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lisa notices that her neighbors commonly get their hats hung up in trees. Being proficient at climbing trees, she opts to charge for her retrieval services. She fees $0.50 for every branch she ascends. Last month, she earned [BLANK]. On average, how many branches did she climb daily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lisa realizes that her neighbors regularly have their hats ensnared in trees. As an adept tree climber, she decides to charge for her retrieval assistance. She collects $0.50 for each branch she climbs. Last month, she earned [BLANK]. On average, how many branches did she ascend per day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lisa has found that her neighbors often end up with their hats trapped in trees. As an expert at climbing trees, she chooses to charge for her retrieval services. She charges $0.50 for each branch she climbs. Last month, her total earnings were [BLANK]. On average, how many branches did she climb each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lisa has observed that her neighbors frequently get their hats stuck in trees. As a proficient tree climber, she decides to charge for her services to retrieve them. She charges $0.50 for every branch she scales. Last month, she made [BLANK]. On average, how many branches did she climb per day?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Felix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made [BLANK]. On average, how many branches did he climb per day? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Felix observes that children in the area frequently leave items lodged in trees. Being skilled at climbing trees, he has chosen to charge the kids for retrieving their belongings. His fee is determined by the height he must scale; each branch he ascends costs $.25. Throughout the week, he earned [BLANK]. On average, how many branches did he climb each day? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Felix sees that kids in his neighborhood often get their belongings stuck in trees. As an adept tree climber, he decided to charge a fee for helping them retrieve their items. His charges are based on the height of the climb, with a rate of $.25 per branch he ascends. Over the course of the week, he collected [BLANK]. What is the average number of branches he climbed daily? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Felix has noticed that neighborhood children frequently have their possessions caught in trees. Since he is skilled at climbing trees, he opted to charge the kids for retrieving their items. His pricing is determined by how high he climbs, costing $.25 for each branch he ascends. During the week, he earned [BLANK]. What is the average number of branches he climbed per day? Let's think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Felix recognizes that kids in the community often get their belongings stuck in trees. As an experienced tree climber, he decided to start charging them for retrieving their items. His fees are based on the height he needs to climb, with each branch costing $.25. In total, he made [BLANK] over the week. How many branches did he climb on average each day? Let's break this down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Felix has observed that children in the neighborhood frequently leave items tangled in trees. Given his expertise in climbing, he chose to start charging the kids for helping them retrieve their possessions. His fees are calculated based on the height he climbs, at a rate of $.25 for each branch he ascends. This past week, he earned [BLANK]. On average, how many branches did he climb each day? Let\u2019s analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Oliver observes that children in his area frequently lose their balls in trees. Being an experienced tree climber, he starts charging kids to get their balls back. He charges $0.20 for each branch he climbs. This past month, he made [BLANK]. On average, how many branches did he climb per day?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver notices that kids around him often misplace their balls in trees. As a skilled tree climber, he begins to charge the children for retrieving their balls. He charges $0.20 for every branch he ascends. Last month, he earned [BLANK]. On average, how many branches did he scale each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver sees that children in his neighborhood commonly lose their balls in trees. Being adept at climbing trees, he decides to charge the kids for retrieving their balls. His fee is $0.20 for each branch he climbs. Over the last month, he collected [BLANK]. On average, how many branches did he climb daily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver realizes that kids in his vicinity regularly drop their balls into trees. As a proficient tree climber, he starts asking the children for payment to retrieve their balls. He charges $0.20 for each branch he scales. This past month, his earnings totaled [BLANK]. On average, how many branches did he ascend each day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver has observed that kids in his locality often leave their balls in trees. As someone skilled at climbing trees, he begins charging the children for getting their balls back. He charges $0.20 for every branch he climbs. In the previous month, he received [BLANK]. On average, how many branches did he climb per day?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver notices that the children in his area often misplace their balls in trees. Being an experienced climber, he starts charging the kids for retrieving their balls. He charges $0.20 for every branch he climbs. Last month, he earned [BLANK]. On average, how many branches did he climb each day?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

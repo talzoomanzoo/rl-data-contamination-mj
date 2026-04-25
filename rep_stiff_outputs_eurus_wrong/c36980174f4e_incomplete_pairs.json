@@ -1,0 +1,62 @@
+{
+  "original_question": "In triangle \\(ABC\\), the angle bisectors \\(AK\\) and \\(CL\\) and the median \\(BM\\) are drawn. It turns out that \\(ML\\) is the angle bisector of \\(\\angle AMB\\) and \\(MK\\) is the angle bisector of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "the specific properties of angle bisectors and medians",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "In triangle \\(ABC\\), the angle bisectors \\(AK\\) and \\(CL\\) and the median \\(BM\\) are drawn. It turns out that \\(ML\\) is the angle bisector of \\(\\angle AMB\\) and \\(MK\\) is the angle bisector of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"In triangle \\(ABC\\), the angle bisectors \\(AK\\) and \\(CL\\) and the median \\(BM\\) are drawn. It turns out that \\(ML\\) is the angle bisector of \\(\\angle AMB\\) and \\(MK\\) is the angle bisector of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).\",",
+      "incomplete_question": "In triangle \\(ABC\\), the [BLANK] \\(AK\\) and \\(CL\\) and the [BLANK] \\(BM\\) are drawn. It turns out that \\(ML\\) is the [BLANK] of \\(\\angle AMB\\) and \\(MK\\) is the [BLANK] of \\(\\angle CMB\\). Find the angles of triangle \\(ABC\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"In triangle \\(DEF\\), the angle bisectors \\(DG\\) and \\(FH\\) and the median \\(EI\\) are drawn. It turns out that \\(IH\\) is the angle bisector of \\(\\angle DEI\\) and \\(IG\\) is the angle bisector of \\(\\angle CEF\\). Find the angles of triangle \\(DEF\\).\",",
+      "incomplete_question": "In triangle \\(DEF\\), the [BLANK] \\(DG\\) and \\(FH\\) and the [BLANK] \\(EI\\) are drawn. It turns out that \\(IH\\) is the [BLANK] of \\(\\angle DEI\\) and \\(IG\\) is the [BLANK] of \\(\\angle CEF\\). Find the angles of triangle \\(DEF\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"In triangle \\(PQR\\), the angle bisectors \\(PM\\) and \\(QR\\) and the median \\(NS\\) are drawn. It turns out that \\(SM\\) is the angle bisector of \\(\\angle PNS\\) and \\(SK\\) is the angle bisector of \\(\\angle QNR\\). Find the angles of triangle \\(PQR\\).\",",
+      "incomplete_question": "In triangle \\(PQR\\), the [BLANK] \\(PM\\) and \\(QR\\) and the [BLANK] \\(NS\\) are drawn. It turns out that \\(SM\\) is the [BLANK] of \\(\\angle PNS\\) and \\(SK\\) is the [BLANK] of \\(\\angle QNR\\). Find the angles of triangle \\(PQR\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"In triangle \\(XYZ\\), the angle bisectors \\(XA\\) and \\(ZB\\) and the median \\(YC\\) are drawn. It turns out that \\(CB\\) is the angle bisector of \\(\\angle XYC\\) and \\(CA\\) is the angle bisector of \\(\\angle ZYC\\). Find the angles of triangle \\(XYZ\\).\",",
+      "incomplete_question": "In triangle \\(XYZ\\), the [BLANK] \\(XA\\) and \\(ZB\\) and the [BLANK] \\(YC\\) are drawn. It turns out that \\(CB\\) is the [BLANK] of \\(\\angle XYC\\) and \\(CA\\) is the [BLANK] of \\(\\angle ZYC\\). Find the angles of triangle \\(XYZ\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"In triangle \\(GHI\\), the angle bisectors \\(GJ\\) and \\(HK\\) and the median \\(LM\\) are drawn. It turns out that \\(MK\\) is the angle bisector of \\(\\angle GML\\) and \\(MJ\\) is the angle bisector of \\(\\angle HML\\). Find the angles of triangle \\(GHI\\).\"",
+      "incomplete_question": "In triangle \\(GHI\\), the [BLANK] \\(GJ\\) and \\(HK\\) and the [BLANK] \\(LM\\) are drawn. It turns out that \\(MK\\) is the [BLANK] of \\(\\angle GML\\) and \\(MJ\\) is the [BLANK] of \\(\\angle HML\\). Find the angles of triangle \\(GHI\\).",
+      "info_removed": "the specific properties of angle bisectors and medians"
+    }
+  ],
+  "num_valid_similars": 5
+}

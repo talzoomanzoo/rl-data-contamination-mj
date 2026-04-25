@@ -1,0 +1,195 @@
+{
+  "original_question": "1. Solve the trigonometric inequality: $\\cos x \\geq \\frac{1}{2}$\n2. In $\\triangle ABC$, if $\\sin A + \\cos A = \\frac{\\sqrt{2}}{2}$, find the value of $\\tan A$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "1. Solve the trigonometric inequality: [BLANK]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the solution for the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Find the values that satisfy the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Evaluate the trigonometric inequality and solve for: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Resolve the trigonometric inequality to find: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Identify the solution set for the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "3. Solve the trigonometric inequality: [BLANK]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "3. Determine the solution set for the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "3. Find the values that satisfy the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "3. Identify the solutions to the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "3. Resolve the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "3. Work out the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "5. Solve the trigonometric inequality: [BLANK]",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "5. Determine the solution set for the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "5. Find the values that satisfy the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "5. Solve for the values in the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "5. Identify the solutions to the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "5. Work out the solution for the trigonometric inequality: [BLANK]",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "4. In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "4. In triangle ABC, given that \\sin A + \\cos A equals [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "4. In triangle ABC, given that \\sin A + \\cos A = [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". 4In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "2. In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "2. In triangle ABC, given that \\sin A + \\cos A equals [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "2. In triangle ABC, given that \\sin A + \\cos A = [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". 2In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle ABC, given that \\sin A + \\cos A equals [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "6. In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In triangle ABC, given that \\sin A + \\cos A equals [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "6. In triangle ABC, given that \\sin A + \\cos A = [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". 6In \\triangle ABC, if \\sin A + \\cos A = [BLANK], find the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In triangle ABC, given that \\sin A + \\cos A = [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "6. In triangle ABC, given that \\sin A + \\cos A equals [BLANK], determine the value of \\tan A.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

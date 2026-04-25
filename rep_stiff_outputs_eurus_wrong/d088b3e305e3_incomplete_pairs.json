@@ -1,0 +1,62 @@
+{
+  "original_question": "Last month, Tasha made $80 from selling lemonade and mowing lawns. The first week, she mowed Kamala's lawn thrice as many times as she did Joe's. The following week, she mowed Alba's lawn five times as she did Joe's. If Joe paid Tasha $6 for her work, how much did she make from lemonade sales? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the amount paid by Joe for lawn mowing\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Last month, Tasha made $80 from selling lemonade and mowing lawns. The first week, she mowed Kamala's lawn thrice as many times as she did Joe's. The following week, she mowed Alba's lawn five times as she did Joe's. If Joe paid Tasha $6 for her work, how much did she make from lemonade sales? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Last month, Tasha made $80 from selling lemonade and mowing lawns. The first week, she mowed Kamala's lawn thrice as many times as she did [BLANK]. The following week, she mowed Alba's lawn five times as she did [BLANK]. If [BLANK] paid Tasha $6 for her work, how much did she make from lemonade sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Last month, Sarah made $90 from selling cookies and washing cars. The first week, she washed Mark's car four times as many times as she did Lisa's. The following week, she washed Tom's car six times as she did Lisa's. If Lisa paid Sarah $5 for her work, how much did she make from cookie sales? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Last month, Sarah made $90 from selling cookies and washing cars. The first week, she washed Mark's car four times as many times as she did [BLANK]. The following week, she washed Tom's car six times as she did [BLANK]. If [BLANK] paid Sarah $5 for her work, how much did she make from cookie sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Last month, Jake made $120 from selling sandwiches and gardening. The first week, he gardened Emily's backyard twice as many times as he did Brian's. The following week, he gardened Sarah's backyard four times as he did Brian's. If Brian paid Jake $10 for his work, how much did he make from sandwich sales? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Last month, Jake made $120 from selling sandwiches and gardening. The first week, he gardened Emily's backyard twice as many times as he did [BLANK]. The following week, he gardened Sarah's backyard four times as he did [BLANK]. If [BLANK] paid Jake $10 for his work, how much did he make from sandwich sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Last month, Mia made $110 from selling cupcakes and babysitting. The first week, she babysat Anna's kids five times as many times as she did Peter's. The following week, she babysat Sam's kids three times as she did Peter's. If Peter paid Mia $8 for her work, how much did she make from cupcake sales? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Last month, Mia made $110 from selling cupcakes and babysitting. The first week, she babysat Anna's kids five times as many times as she did [BLANK]. The following week, she babysat Sam's kids three times as she did [BLANK]. If [BLANK] paid Mia $8 for her work, how much did she make from cupcake sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Last month, Leo made $75 from selling smoothies and dog walking. The first week, he walked Carla's dog three times as many times as he did Max's. The following week, he walked Jamie's dog twice as he did Max's. If Max paid Leo $7 for his work, how much did he make from smoothie sales? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Last month, Leo made $75 from selling smoothies and dog walking. The first week, he walked Carla's dog three times as many times as he did [BLANK]. The following week, he walked Jamie's dog twice as he did [BLANK]. If [BLANK] paid Leo $7 for his work, how much did he make from smoothie sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Last month, Emily made $95 from selling bracelets and tutoring. The first week, she tutored Zoe three times as many times as she did Alex's. The following week, she tutored Liam five times as she did Alex's. If Alex paid Emily $9 for her work, how much did she make from bracelet sales? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Last month, Emily made $95 from selling bracelets and tutoring. The first week, she tutored Zoe three times as many times as she did [BLANK]. The following week, she tutored Liam five times as she did [BLANK]. If [BLANK] paid Emily $9 for her work, how much did she make from bracelet sales? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the amount paid by Joe for lawn mowing\""
+    }
+  ],
+  "num_valid_similars": 5
+}

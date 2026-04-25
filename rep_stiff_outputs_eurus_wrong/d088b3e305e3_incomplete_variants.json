@@ -1,0 +1,210 @@
+{
+  "original_question": "Last month, Tasha made $80 from selling lemonade and mowing lawns. The first week, she mowed Kamala's lawn thrice as many times as she did Joe's. The following week, she mowed Alba's lawn five times as she did Joe's. If Joe paid Tasha $6 for her work, how much did she make from lemonade sales? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Last month, Tasha made $80 from selling lemonade and mowing lawns. The first week, she mowed Kamala's lawn thrice as many times as she did [BLANK]. The following week, she mowed Alba's lawn five times as she did [BLANK]. If [BLANK] paid Tasha $6 for her work, how much did she make from lemonade sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last month, Tasha earned $80 from selling lemonade and mowing lawns. In the first week, she mowed Kamala's lawn three times more than she did [BLANK]. The next week, she mowed Alba's lawn five times compared to what she did [BLANK]. If [BLANK] compensated Tasha $6 for her efforts, how much did she earn from lemonade sales? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Last month, Tasha generated $80 by selling lemonade and mowing lawns. During the first week, she mowed Kamala's lawn three times as often as she did [BLANK]. In the subsequent week, she mowed Alba's lawn five times more than she did [BLANK]. If [BLANK] rewarded Tasha with $6 for her services, what was her income from lemonade sales? Let's go through it step by step and produce the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Last month, Tasha collected $80 from her lemonade sales and lawn mowing. In the initial week, she mowed Kamala's lawn three times the amount she did [BLANK]. The week after, she mowed Alba's lawn five times the number of times she did [BLANK]. If [BLANK] paid Tasha $6 for her work, how much did she earn from selling lemonade? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Last month, Tasha earned a total of $80 from her lemonade stand and lawn mowing services. In the first week, she mowed Kamala's lawn three times the frequency of what she did [BLANK]. The week that followed, she mowed Alba's lawn five times what she did [BLANK]. If [BLANK] gave Tasha $6 for her efforts, how much did she earn from lemonade sales? Let's think this through step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Tasha made $80 through selling lemonade and mowing lawns. In the first week, she mowed Kamala's lawn three times the number of times she did [BLANK]. The following week, she mowed Alba's lawn five times the amount she did [BLANK]. If [BLANK] compensated Tasha $6 for her tasks, how much did she make from lemonade sales? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Last month, Leo made $75 from selling smoothies and dog walking. The first week, he walked Carla's dog three times as many times as he did [BLANK]. The following week, he walked Jamie's dog twice as he did [BLANK]. If [BLANK] paid Leo $7 for his work, how much did he make from smoothie sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last month, Leo earned $75 from selling smoothies and walking dogs. During the first week, he walked Carla's dog three times more than he did [BLANK]. In the next week, he walked Jamie's dog two times as much as he did [BLANK]. If [BLANK] compensated Leo with $7 for his efforts, what was his earnings from selling smoothies? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the previous month, Leo generated $75 by selling smoothies and dog walking. In the first week, he walked Carla's dog three times as often as he did [BLANK]. The week after, he walked Jamie's dog two times as frequently as he did [BLANK]. If [BLANK] gave Leo $7 for his services, how much did he earn from smoothie sales? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Last month, Leo achieved earnings of $75 from his smoothie sales and dog walking activities. During the initial week, he walked Carla's dog three times the number of times he did [BLANK]. In the subsequent week, he walked Jamie's dog two times the amount he did [BLANK]. If [BLANK] paid Leo $7 for his work, how much did he earn from selling smoothies? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the last month, Leo made $75 from his smoothie sales and dog walking. In the first week, he walked Carla's dog three times as often as he did [BLANK]. The next week, he walked Jamie's dog twice as many times as he did [BLANK]. If [BLANK] paid Leo $7 for his job, how much did he earn from his smoothie sales? Let's think through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Leo's total earnings were $75 from selling smoothies and walking dogs. In the first week, he walked Carla's dog three times as frequently as he did [BLANK]. The following week, he walked Jamie's dog two times as much as he did [BLANK]. If [BLANK] reimbursed Leo $7 for his work, how much did he make from selling smoothies? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Last month, Jake made $120 from selling sandwiches and gardening. The first week, he gardened Emily's backyard twice as many times as he did [BLANK]. The following week, he gardened Sarah's backyard four times as he did [BLANK]. If [BLANK] paid Jake $10 for his work, how much did he make from sandwich sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the previous month, Jake earned $120 through sandwich sales and gardening. During the first week, he worked in Emily's backyard two times more than he did [BLANK]. In the next week, he worked in Sarah's backyard four times as much as he did [BLANK]. If [BLANK] compensated Jake with $10 for his efforts, what amount did he earn from selling sandwiches? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Last month, Jake generated $120 by selling sandwiches and gardening. In the first week, he tended to Emily's backyard double the number of times he did [BLANK]. The week after, he worked on Sarah's backyard four times as often as he did [BLANK]. If [BLANK] gave Jake $10 for his services, how much did he earn from sandwich sales? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jake made $120 last month from his sandwich sales and gardening activities. In the first week, he worked in Emily's backyard twice as many times as he did [BLANK]. The subsequent week, he worked in Sarah's backyard four times as frequently as he did [BLANK]. If [BLANK] paid Jake $10 for his work, how much did he make from selling sandwiches? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the last month, Jake earned $120 from both selling sandwiches and gardening. During the first week, he gardened in Emily's backyard two times more than he did [BLANK]. The following week, he worked in Sarah's backyard four times as often as he did [BLANK]. If [BLANK] provided Jake with $10 for his labor, how much was his earnings from sandwich sales? Let's take it step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Jake brought in $120 from selling sandwiches and doing gardening work. In the first week, he tended to Emily's backyard twice as many times as he did [BLANK]. The next week, he worked in Sarah's backyard four times compared to what he did [BLANK]. If [BLANK] paid Jake $10 for his efforts, how much did he earn from selling sandwiches? Let's go through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Last month, Emily made $95 from selling bracelets and tutoring. The first week, she tutored Zoe three times as many times as she did [BLANK]. The following week, she tutored Liam five times as she did [BLANK]. If [BLANK] paid Emily $9 for her work, how much did she make from bracelet sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the previous month, Emily earned $95 by selling bracelets and providing tutoring. During the first week, she tutored Zoe three times as often as she did [BLANK]. The next week, she tutored Liam five times compared to [BLANK]. If [BLANK] compensated Emily with $9 for her services, what amount did she earn from selling bracelets? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Last month, Emily generated $95 through the sale of bracelets and tutoring sessions. In the first week, she tutored Zoe three times more than she did [BLANK]. The week after, she tutored Liam five times the number she did [BLANK]. If [BLANK] gave Emily $9 for her tutoring, how much revenue did she obtain from bracelet sales? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Last month, Emily received $95 from selling bracelets and tutoring. In the first week, she tutored Zoe three times the amount she did [BLANK]. The following week, she tutored Liam five times the number of times she did [BLANK]. If [BLANK] paid Emily $9 for her tutoring, what was her earnings from bracelet sales? Let\u2019s break this down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the last month, Emily earned $95 through her bracelet sales and tutoring. During the first week, she tutored Zoe three times as many sessions as she did [BLANK]. The week after, she tutored Liam five times the number she did [BLANK]. If [BLANK] paid Emily $9 for her services, how much did she earn from selling bracelets? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Emily made $95 from her tutoring and bracelet sales. In the first week, she tutored Zoe three times as many sessions as she did [BLANK]. The week after, she tutored Liam five times the number of sessions she did [BLANK]. If [BLANK] paid Emily $9 for her work, how much did she earn from selling bracelets? Let\u2019s analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Last month, Sarah made $90 from selling cookies and washing cars. The first week, she washed Mark's car four times as many times as she did [BLANK]. The following week, she washed Tom's car six times as she did [BLANK]. If [BLANK] paid Sarah $5 for her work, how much did she make from cookie sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the previous month, Sarah earned $90 by selling cookies and washing cars. During the first week, she washed Mark's car four times more than she did [BLANK]. The next week, she washed Tom's car six times compared to [BLANK]. If [BLANK] compensated Sarah $5 for her effort, what is her earnings from cookie sales? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Last month, Sarah generated $90 through cookie sales and car washing. In the first week, she cleaned Mark's car four times as often as she did [BLANK]. The subsequent week, she washed Tom's car six times in relation to [BLANK]. If [BLANK] gave Sarah $5 for her services, how much revenue did she earn from selling cookies? Let's break this down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A month ago, Sarah collected $90 from selling cookies and washing vehicles. In the first week, she washed Mark's car four times more than she did [BLANK]. The week after, she washed Tom's car six times as much as [BLANK]. If [BLANK] paid Sarah $5 for her work, what amount did she earn from cookie sales? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the last month, Sarah achieved $90 in earnings from cookie sales and car washing. During the first week, she washed Mark's car four times as frequently as she did [BLANK]. The next week, she washed Tom's car six times more than [BLANK]. If [BLANK] rewarded Sarah $5 for her labor, how much did she earn from cookie sales? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Sarah earned a total of $90 from her cookie sales and car washing activities. In the first week, the number of times she washed Mark's car was four times the amount she did [BLANK]. The following week, she washed Tom's car six times compared to [BLANK]. If [BLANK] provided Sarah $5 for her efforts, what was her income from cookie sales? Let's work through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Last month, Mia made $110 from selling cupcakes and babysitting. The first week, she babysat Anna's kids five times as many times as she did [BLANK]. The following week, she babysat Sam's kids three times as she did [BLANK]. If [BLANK] paid Mia $8 for her work, how much did she make from cupcake sales? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Last month, Mia earned $110 from her cupcake sales and babysitting. During the first week, she looked after Anna's children five times more than she did [BLANK]. In the next week, she cared for Sam's kids three times as often as she did [BLANK]. If [BLANK] compensated Mia with $8 for her services, what was her income from selling cupcakes? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In the previous month, Mia generated $110 through selling cupcakes and babysitting. For the first week, she babysat for Anna's children five times as often as she did [BLANK]. The week after that, she babysat Sam's children three times as much as she did [BLANK]. If [BLANK] paid Mia $8 for her efforts, how much did she earn from cupcake sales? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Last month, Mia brought in $110 from both cupcake sales and babysitting. In the first week, she cared for Anna's kids five times more than she did [BLANK]. The subsequent week, she babysat for Sam's kids three times what she did [BLANK]. If [BLANK] gave Mia $8 for her work, how much was her earnings from selling cupcakes? Let's think through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the last month, Mia made $110 from her cupcake sales and babysitting jobs. During the first week, she looked after Anna's kids five times the number of times she did [BLANK]. The following week, she babysat Sam's kids three times as frequently as she did [BLANK]. If [BLANK] paid Mia $8 for her services, what was her total income from cupcakes? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Last month, Mia accumulated $110 from selling cupcakes and babysitting. In the first week, she looked after Anna's children five times more than she did [BLANK]. The next week, she babysat for Sam's kids three times the amount she did [BLANK]. If [BLANK] rewarded Mia with $8 for her work, how much did she earn from her cupcake sales? Let's break this down step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

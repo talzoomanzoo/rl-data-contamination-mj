@@ -1,0 +1,150 @@
+{
+  "original_question": "Let \\[f(x) = \\left\\{\n\\begin{array}{cl}\n2x & \\text{ if } x > 3, \\\\\nx^3 & \\text{ if } x \\leq 3.\n\\end{array}\n\\right.\\] Find \\( f(f(f(1))) \\).\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 6x & \\text{ if } x > 1, \\\\ x^6 & \\text{ if } x \\leq 1\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3. \\end{array} \\right.\\] Calculate \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Define \\[f(x) = \\left\\{ \\begin{array}{cl} 2x & \\text{ if } x > 3, \\\\ x^3 & \\text{ if } x \\leq 3. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 4x & \\text{ if } x > 5, \\\\ x^5 & \\text{ if } x \\leq 5. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 4x & \\text{ if } x > 5, \\\\ x^5 & \\text{ if } x \\leq 5. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 4x & \\text{ if } x > 5, \\\\ x^5 & \\text{ if } x \\leq 5\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ when } x > 4, \\\\ x^2 & \\text{ when } x \\leq 4. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Consider \\[f(x) = \\left\\{ \\begin{array}{cl} 3x & \\text{ if } x > 4, \\\\ x^2 & \\text{ if } x \\leq 4. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 7x & \\text{ if } x > 6, \\\\ x^7 & \\text{ if } x \\leq 6. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 7x & \\text{ if } x > 6, \\\\ x^7 & \\text{ if } x \\leq 6. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 7x & \\text{ if } x > 6, \\\\ x^7 & \\text{ if } x \\leq 6\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Let \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2. \\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider the function \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": ". Let \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2\\end{array} \\right.\\] Find \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Consider \\[f(x) = \\left\\{ \\begin{array}{cl} 5x & \\text{ if } x > 2, \\\\ x^4 & \\text{ if } x \\leq 2. \\end{array} \\right.\\] Determine \\( f(f(f([BLANK]))) \\).",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

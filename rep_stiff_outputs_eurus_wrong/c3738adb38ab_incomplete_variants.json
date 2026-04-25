@@ -1,0 +1,210 @@
+{
+  "original_question": "Ginger and Amy both start with 100 pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Ella and Mia both start with [BLANK] pieces of gum. Ella eats 8 pieces a day and Mia eats 6 pieces a day. How much more gum does Mia have after three weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ella and Mia each have [BLANK] pieces of gum to start. Ella consumes 8 pieces daily while Mia eats 6 pieces per day. What is the difference in the amount of gum Mia has after three weeks? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the beginning, both Ella and Mia possess [BLANK] pieces of gum. Ella goes through 8 pieces every day, whereas Mia has a daily consumption of 6 pieces. After three weeks, how much more gum does Mia have? Let's go through the steps and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Starting with [BLANK] pieces of gum each, Ella eats 8 pieces per day and Mia consumes 6 pieces per day. How much extra gum does Mia have at the end of three weeks? Let's break it down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ella and Mia begin with [BLANK] pieces of gum each. Ella's daily consumption is 8 pieces, while Mia's is 6 pieces. How much more gum does Mia possess after a span of three weeks? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Both Ella and Mia initially have [BLANK] pieces of gum. Ella eats 8 pieces each day, and Mia consumes 6 pieces daily. How much additional gum does Mia have after three weeks? Let's consider it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Mark and Tim both start with [BLANK] pieces of chocolate. Mark eats 7 pieces a day and Tim eats 5 pieces a day. How much more chocolate does Tim have after twelve days? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark and Tim initially possess [BLANK] chocolate pieces each. Mark consumes 7 pieces daily while Tim consumes 5 pieces daily. After twelve days, how much additional chocolate does Tim have? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Starting with [BLANK] pieces of chocolate, both Mark and Tim begin their day. Mark eats 7 pieces each day, in contrast to Tim's 5 pieces daily. What is the difference in the amount of chocolate Tim has after twelve days? Let's work through this step by step and output the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Both Mark and Tim have [BLANK] pieces of chocolate at the beginning. Each day, Mark eats 7 pieces and Tim consumes 5 pieces. How much extra chocolate does Tim end up with after twelve days? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark and Tim each begin with [BLANK] pieces of chocolate. Mark consumes 7 pieces each day, whereas Tim consumes 5 pieces daily. After a span of twelve days, how much more chocolate does Tim possess? Let's break this down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "At the start, both Mark and Tim have [BLANK] pieces of chocolate. Mark eats 7 pieces per day, while Tim eats 5 pieces daily. How much more chocolate does Tim have after twelve days? Let's think this through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Ginger and Amy both start with [BLANK] pieces of Halloween candy. Ginger eats 4 pieces a day and Amy eats 3 pieces a day. How much more candy does Amy have after two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Ginger and Amy each have [BLANK] pieces of Halloween candy to begin with. Every day, Ginger consumes 4 pieces while Amy consumes 3 pieces. After two weeks, how much more candy will Amy have left? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the start, both Ginger and Amy possess [BLANK] pieces of Halloween candy. Ginger eats 4 pieces daily, while Amy eats 3 pieces each day. What is the difference in the amount of candy Amy has after a period of two weeks? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Initially, Ginger and Amy begin with [BLANK] pieces of Halloween candy each. Ginger consumes 4 pieces per day and Amy has a daily intake of 3 pieces. After a fortnight, how much more candy does Amy retain? Let's solve this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Ginger and Amy start out with [BLANK] pieces of Halloween candy. Each day, Ginger consumes 4 pieces, while Amy consumes 3 pieces. After two weeks, how much additional candy does Amy have? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Both Ginger and Amy initially have [BLANK] pieces of Halloween candy. Ginger's daily consumption is 4 pieces, and Amy's is 3 pieces. What is the amount of extra candy Amy holds after two weeks? Let's go through this step by step and yield the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sara and Julia both start with [BLANK] pieces of birthday cake. Sara eats 6 pieces a day and Julia eats 4 pieces a day. How much more cake does Julia have after one week? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara and Julia each begin with [BLANK] slices of birthday cake. Every day, Sara consumes 6 slices, while Julia consumes 4 slices. After one week, how much more cake does Julia have remaining? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Both Sara and Julia start with [BLANK] portions of birthday cake. Sara eats 6 portions daily, whereas Julia eats 4 portions each day. How much additional cake does Julia possess after a week? Let's go through it step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara and Julia are given [BLANK] servings of birthday cake to start with. Each day, Sara finishes 6 servings, while Julia finishes 4 servings. How much more cake is left with Julia at the end of the week? Let's evaluate this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Starting with [BLANK] slices of birthday cake, both Sara and Julia have their share. Sara consumes 6 slices per day, and Julia consumes 4 slices daily. After one week, how much more cake does Julia end up with? Let's consider this step by step and indicate the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara and Julia initially have [BLANK] cake pieces each. Sara eats 6 pieces every day, while Julia eats 4 pieces per day. At the conclusion of one week, how much extra cake does Julia have? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Chris and Alex both start with [BLANK] pieces of fruit snacks. Chris eats 3 pieces a day and Alex eats 2 pieces a day. How much more snacks does Alex have after fourteen days? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Chris and Alex initially possess [BLANK] fruit snacks each. Chris consumes 3 pieces daily while Alex consumes 2 pieces daily. After fourteen days, how many more snacks does Alex have left? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Chris and Alex both begin with [BLANK] pieces of fruit snacks. Chris is eating 3 pieces per day and Alex is eating 2 pieces per day. After a period of fourteen days, how many additional snacks does Alex have compared to Chris? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Both Chris and Alex start off with [BLANK] pieces of fruit snacks. Chris eats 3 pieces each day, while Alex consumes 2 pieces daily. What is the difference in the number of snacks Alex has after fourteen days? Let's think through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Chris and Alex have [BLANK] fruit snacks each at the beginning. Chris eats 3 pieces every day and Alex eats 2 pieces daily. How many more snacks does Alex possess after fourteen days? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Initially, Chris and Alex each have [BLANK] pieces of fruit snacks. Every day, Chris eats 3 pieces, and Alex eats 2 pieces. How many extra snacks does Alex have after the span of fourteen days? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam and Noah both start with [BLANK] pieces of Christmas cookies. Liam eats 5 pieces a day and Noah eats 2 pieces a day. How much more cookies does Noah have after ten days? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam and Noah initially possess [BLANK] pieces of Christmas cookies. Each day, Liam consumes 5 pieces while Noah consumes 2 pieces. After ten days, how many more cookies does Noah have compared to Liam? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At the beginning, Liam and Noah each have [BLANK] pieces of Christmas cookies. Liam eats 5 pieces daily, and Noah has a daily consumption of 2 pieces. After a span of ten days, how many extra cookies does Noah possess? Let's evaluate this systematically and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Both Liam and Noah start with [BLANK] pieces of Christmas cookies. Liam's daily consumption is 5 pieces, while Noah eats 2 pieces each day. How many more cookies does Noah end up with after ten days? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam and Noah each begin with [BLANK] pieces of Christmas cookies. Liam consumes 5 pieces every day, and Noah eats 2 pieces per day. After ten days, how many additional cookies does Noah have? Let's break this down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Initially, Liam and Noah have [BLANK] pieces of Christmas cookies. Liam's daily intake is 5 pieces, whereas Noah's is 2 pieces. After ten days, what is the difference in the number of cookies Noah has? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

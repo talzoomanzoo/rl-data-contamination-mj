@@ -1,0 +1,210 @@
+{
+  "original_question": "Given a number, determine the total count of specially monotonous numbers considering digits from 0 to 8.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Starting with a number, find the overall quantity of uniquely monotonous numbers using digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From a given number, calculate the complete number of distinct monotonous numbers that utilize digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given a certain number, ascertain the total number of specifically monotonous numbers derived from digits in [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Using a specified number, identify the total amount of uniquely monotonous numbers that are formed with digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With a number provided, determine how many total specially monotonous numbers can be created using digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Starting with a number, find out the complete quantity of uniquely monotonous digits based on the values from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From a specified number, calculate the overall amount of distinct monotonous digits derived from the figures in [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given a specific number, ascertain the total number of uniquely ordered digits taking into account the digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Based on a number, determine the entire count of specially ordered digits when considering the numbers from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With a number as a reference, evaluate the full tally of unique monotonous digits regarding the digits of [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Starting with a certain figure, find the overall quantity of uniquely monotonous digits that include the numbers from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From a specified numeral, calculate the complete number of distinct monotonous values utilizing digits ranging from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given a particular digit, ascertain the total number of specially ordered digits that take into account the values from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a defined number, evaluate the total amount of unique monotonous digits considering the range from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Starting with a designated numeral, determine the count of specially structured monotonous numbers based on the digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Starting with a number, calculate the complete quantity of uniquely monotonous numbers using digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "From a given number, find the overall total of distinct monotonous numbers that utilize digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With a specific number in mind, assess the total number of particular monotonous numbers based on the digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Taking a number into account, determine the entire count of unique monotonous numbers derived from digits in [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Using a number as the basis, evaluate the total amount of specially ordered monotonous numbers that involve digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For a given value, find the overall quantity of uniquely monotonous numbers using digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Based on a specific number, calculate the complete number of distinct monotonous numbers taking into account digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Starting from a certain number, identify the total number of specifically monotonous digits that can be formed from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a particular number in mind, ascertain the total amount of specially monotonous digits derived from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Using a given number, evaluate how many uniquely monotonous numbers can be created with digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given a number, determine the total count of specially monotonous numbers considering digits from [BLANK].",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For a specified number, find the complete quantity of uniquely monotonous numbers by taking into account digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Starting with a certain number, calculate the overall amount of distinctly monotonous numbers using digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Given a particular number, assess the full number of specially monotonic figures while considering digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With a designated number, evaluate the total number of uniquely monotonous figures involving digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Using a provided number, identify the entire count of specially monotonous digits by referencing digits from [BLANK].",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

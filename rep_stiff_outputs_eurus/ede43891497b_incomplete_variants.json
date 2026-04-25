@@ -1,0 +1,210 @@
+{
+  "original_question": "How many positive factors does $23,232$ have?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the total count of positive divisors of $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the number of positive factors for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find out how many positive divisors exist for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the total number of positive factors of $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors does the number $[BLANK]$ possess?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the total number of positive divisors of $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the quantity of positive factors for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find out how many positive divisors exist for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the number of positive factors associated with $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors can be found in $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the total count of positive divisors for $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the number of positive factors present in $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate how many positive divisors are associated with $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find the quantity of positive factors of $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors does $[BLANK]$ possess?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the number of positive divisors of $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the count of positive factors for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find out how many positive divisors are in $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the total number of positive factors of $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors can be found in $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the total number of positive divisors of $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the count of positive factors for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find out how many positive divisors exist for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the number of positive factors associated with $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors can be found in $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "How many positive factors does $[BLANK]$ have?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "What is the total number of positive divisors of $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the count of positive factors for $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Calculate the number of positive divisors that $[BLANK]$ possesses.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Find out how many positive factors are associated with $[BLANK]$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "How many positive divisors can be found in $[BLANK]$?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

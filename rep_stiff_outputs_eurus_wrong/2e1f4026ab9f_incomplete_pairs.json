@@ -1,0 +1,62 @@
+{
+  "original_question": "Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "the total number of doughnuts made",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Derrick has a bakery that makes 10 dozen doughnuts every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Derrick has a bakery that makes [BLANK] every day, selling at $2 per doughnut. How much money does Derrick make in June if he sells all the doughnuts? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "the total number of doughnuts made"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Samantha runs a coffee shop that brews 15 gallons of coffee every day, selling at $3 per cup. How much money does Samantha make in July if she sells all the coffee?",
+      "incomplete_question": "Samantha runs a coffee shop that brews 15 gallons of coffee every day, selling at $3 per cup. How much money does Samantha make in July if she sells all the coffee?",
+      "info_removed": "the total number of doughnuts made"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Michael operates a fruit stand that sells 8 baskets of strawberries each day, with each basket priced at $5. How much money does Michael make in August if he sells all the strawberries?",
+      "incomplete_question": "Michael operates a fruit stand that sells 8 baskets of strawberries each day, with each basket priced at $5. How much money does Michael make in August if he sells all the strawberries?",
+      "info_removed": "the total number of doughnuts made"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Jessica has a flower shop that arranges 12 bouquets every day, selling each bouquet for $10. How much money does Jessica make in September if she sells all the bouquets?",
+      "incomplete_question": "Jessica has a flower shop that arranges 12 bouquets every day, selling each bouquet for $10. How much money does Jessica make in September if she sells all the bouquets?",
+      "info_removed": "the total number of doughnuts made"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "David runs a sandwich shop that prepares 20 sandwiches each day, charging $4 per sandwich. How much money does David make in October if he sells all the sandwiches?",
+      "incomplete_question": "David runs a sandwich shop that prepares 20 sandwiches each day, charging $4 per sandwich. How much money does David make in October if he sells all the sandwiches?",
+      "info_removed": "the total number of doughnuts made"
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Laura owns a bookstore that sells 25 books each day, with each book priced at $15. How much money does Laura make in November if she sells all the books?",
+      "incomplete_question": "Laura owns a bookstore that sells 25 books each day, with each book priced at $15. How much money does Laura make in November if she sells all the books?",
+      "info_removed": "the total number of doughnuts made"
+    }
+  ],
+  "num_valid_similars": 0
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Let $N$ be the number of positive integer divisors of $17017^{17}$ that leave a remainder of $5$ when divided by $12$. Find the remainder when $N$ is divided by $1000$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific divisor condition for divisibility\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Let $N$ be the number of positive integer divisors of $17017^{17}$ that leave a remainder of $5$ when divided by $12$. Find the remainder when $N$ is divided by $1000$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $17017^{17}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $1000$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Let $N$ be the number of positive integer divisors of $12345^{15}$ that leave a remainder of $7$ when divided by $10$. Find the remainder when $N$ is divided by $500$.",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $12345^{15}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $500$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Let $N$ be the number of positive integer divisors of $9876^{12}$ that leave a remainder of $3$ when divided by $8$. Find the remainder when $N$ is divided by $250$.",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $9876^{12}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $250$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Let $N$ be the number of positive integer divisors of $65432^{20}$ that leave a remainder of $4$ when divided by $14$. Find the remainder when $N$ is divided by $300$.",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $65432^{20}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $300$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Let $N$ be the number of positive integer divisors of $34567^{10}$ that leave a remainder of $2$ when divided by $16$. Find the remainder when $N$ is divided by $700$.",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $34567^{10}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $700$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Let $N$ be the number of positive integer divisors of $112233^{8}$ that leave a remainder of $6$ when divided by $18$. Find the remainder when $N$ is divided by $400$.",
+      "incomplete_question": "Let $N$ be the number of positive integer divisors of $112233^{8}$ that leave a remainder of [BLANK]. Find the remainder when $N$ is divided by $400$.",
+      "info_removed": "\"the specific divisor condition for divisibility\""
+    }
+  ],
+  "num_valid_similars": 5
+}

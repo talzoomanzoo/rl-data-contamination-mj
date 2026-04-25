@@ -1,0 +1,62 @@
+{
+  "original_question": "Determine how many integer values of $x$ satisfy $-100 < x^4 < 100$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the range of the variable\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Determine how many integer values of $x$ satisfy $-100 < x^4 < 100$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the range of the variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Determine how many integer values of $x$ satisfy $-50 < x^4 < 50$.",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "info_removed": "\"the range of the variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Determine how many integer values of $x$ satisfy $-200 < x^4 < 200$.",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "info_removed": "\"the range of the variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Determine how many integer values of $x$ satisfy $-30 < x^4 < 30$.",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "info_removed": "\"the range of the variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Determine how many integer values of $x$ satisfy $-75 < x^4 < 75$.",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "info_removed": "\"the range of the variable\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Determine how many integer values of $x$ satisfy $-150 < x^4 < 150$.",
+      "incomplete_question": "Determine how many integer values of $x$ satisfy [BLANK] < x^4 < [BLANK].",
+      "info_removed": "\"the range of the variable\""
+    }
+  ],
+  "num_valid_similars": 5
+}

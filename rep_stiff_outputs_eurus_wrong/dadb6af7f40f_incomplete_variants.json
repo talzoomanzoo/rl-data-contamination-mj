@@ -1,0 +1,210 @@
+{
+  "original_question": "James decided to walk to the store.  When he got halfway there he realized he forgot something at home and had to walk back.  If his home is 4 miles from the store and he walks 4 miles per hour how long did it take him to reach the store? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Liam decided to walk to [BLANK]. When he got halfway there he realized he forgot something at home and had to walk back. If his home is [BLANK] miles from [BLANK] and he walks 4 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam chose to stroll to [BLANK]. Upon reaching the midpoint, he remembered he had left something behind at home and needed to return. Given that his residence is [BLANK] miles away from [BLANK] and he walks at a speed of 4 miles per hour, how long did it take him to arrive at [BLANK]? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam made the decision to walk to [BLANK]. When he had traveled halfway, he recalled that he had forgotten an item at home and needed to go back. Since his house is [BLANK] miles from [BLANK] and he maintains a pace of 4 miles per hour, how much time did it take him to get to [BLANK]? Let's work through it step by step and present the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam opted to walk towards [BLANK]. Upon reaching the halfway point, he suddenly remembered he had left something at home and had to return. His home is [BLANK] miles distant from [BLANK], and he walks at a speed of 4 miles per hour; how long did it take him to get to [BLANK]? Let's go through it step by step and arrive at the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam resolved to walk to [BLANK]. When he reached the midpoint of his journey, he realized he forgot something back at home and needed to head back. His home is [BLANK] miles away from [BLANK], and he walks at 4 miles per hour; how long did it take him to arrive at [BLANK]? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam planned to walk to [BLANK]. Once he got to the halfway mark, he remembered that he had left an item at home and had to return. His house is located [BLANK] miles from [BLANK], and he walks at a speed of 4 miles per hour. How long did it take him to reach [BLANK]? Let's analyze it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Michael decided to walk to [BLANK]. When he got halfway there he realized he forgot something at home and had to walk back. If his home is [BLANK] miles from [BLANK] and he walks 2 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael made the choice to walk to [BLANK]. Upon reaching the midpoint, he remembered he left something at home and had to return. If the distance from his home to [BLANK] is [BLANK] miles and he walks at a pace of 2 miles per hour, how long did it take him to arrive at [BLANK]? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael opted to walk toward [BLANK]. When he arrived at the halfway point, he recalled that he forgot something at home and needed to head back. Given that his home is [BLANK] miles away from [BLANK] and his walking speed is 2 miles per hour, what was the time taken for him to get to [BLANK]? Let's break it down step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael chose to walk to [BLANK]. As he reached the halfway mark, he realized he had forgotten something at home and had to turn back. If his home is located [BLANK] miles from [BLANK] and he walks at a speed of 2 miles per hour, how long did it take him to get to [BLANK]? Let's go through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael decided to trek to [BLANK]. Upon getting to the midway point, he noticed he had left something at home and needed to return. If the distance from his home to [BLANK] is [BLANK] miles and he maintains a walking speed of 2 miles per hour, how long did it take him to reach [BLANK]? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael made the decision to walk towards [BLANK]. When he reached the halfway point, he remembered he had forgotten something at home and had to go back. If his home stands [BLANK] miles away from [BLANK] and he walks at a rate of 2 miles per hour, how long did it take him to arrive at [BLANK]? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Emily decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 3 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily chose to stroll to [BLANK]. Upon reaching the midpoint, she remembered that she had left something at home and needed to return. Given that her house is [BLANK] miles away from [BLANK] and she walks at a speed of 3 miles per hour, how much time did it take her to arrive at [BLANK]? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emily made the decision to walk to [BLANK]. When she was halfway there, she suddenly recalled that she forgot something at home and had to turn back. If the distance from her home to [BLANK] is [BLANK] miles and she walks at a pace of 3 miles per hour, how long did it take her to get to [BLANK]? We will consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emily started walking toward [BLANK]. Once she reached the halfway point, she remembered that she had left something behind at home and needed to go back. With her home located [BLANK] miles from [BLANK] and her walking speed being 3 miles per hour, what was the time taken for her to get to [BLANK]? Let\u2019s evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily opted to walk to [BLANK]. When she arrived at the halfway mark, she realized she had forgotten something at home and had to return. If her residence is [BLANK] miles away from [BLANK] and she maintains a walking speed of 3 miles per hour, how long did it take her to reach [BLANK]? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emily decided to head towards [BLANK]. Upon reaching the halfway point, she remembered that she had left something at home and needed to backtrack. Knowing that her home is [BLANK] miles from [BLANK] and she walks at a speed of 3 miles per hour, how much time did it take her to get to [BLANK]? We will think this through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 5 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia chose to walk towards [BLANK]. Upon reaching the midpoint, she remembered she had left something behind at home and needed to return. If her residence is [BLANK] miles away from [BLANK] and she travels at a speed of 5 miles per hour, how long did it take her to get to [BLANK]? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia made the decision to stroll to [BLANK]. When she was halfway there, she realized she had forgotten an item at home and needed to turn back. Given that her home sits [BLANK] miles from [BLANK] and she walks at a pace of 5 miles per hour, how long did it take her to arrive at [BLANK]? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia opted to take a walk to [BLANK]. Upon reaching the halfway point, she remembered that she left something at home and had to return. If her home is located [BLANK] miles from [BLANK] and she walks at a speed of 5 miles per hour, how long did it take her to get to [BLANK]? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia decided to trek towards [BLANK]. When she reached the middle of her journey, she realized she forgot an item at home and needed to walk back. If her abode is [BLANK] miles away from [BLANK] and she walks at a speed of 5 miles per hour, how much time did it take her to reach [BLANK]? Let's break it down step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia resolved to walk to [BLANK]. After traveling halfway, she remembered she had left something at home and had to return. If her home is [BLANK] miles distant from [BLANK] and she walks at a pace of 5 miles per hour, how long did it take her to get to [BLANK]? Let's examine this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Olivia decided to walk to [BLANK]. When she got halfway there she realized she forgot something at home and had to walk back. If her home is [BLANK] miles from [BLANK] and she walks 6 miles per hour how long did it take her to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Olivia chose to stroll to [BLANK]. Upon reaching the midpoint, she remembered an item she left at home and needed to return. If her residence is [BLANK] miles away from [BLANK] and she walks at a speed of 6 miles per hour, how long did it take her to arrive at [BLANK]? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Olivia made the decision to walk to [BLANK]. When she was halfway to her destination, she realized she had forgotten something at home and needed to go back. Given that her house is [BLANK] miles from [BLANK] and she walks at a pace of 6 miles per hour, what was the duration of her walk to [BLANK]? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Olivia opted to walk towards [BLANK]. Upon getting to the halfway point, she remembered that she left something behind at home and had to return. If her home is located [BLANK] miles from [BLANK] and she travels at 6 miles per hour, how much time did it take her to get to [BLANK]? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Olivia decided to head to [BLANK] on foot. When she reached the halfway mark, she recalled that she forgot something at her house and needed to go back. If her house is [BLANK] miles away from [BLANK] and she walks at 6 miles per hour, how long did it take her to get to [BLANK]? Let's think about this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Olivia planned to walk to [BLANK]. When she arrived at the midpoint of her journey, she remembered she had left something at home and had to turn around. If her home is [BLANK] miles from [BLANK] and she maintains a walking speed of 6 miles per hour, how long did it take her to reach [BLANK]? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "James decided to walk to [BLANK].  When he got halfway there he realized he forgot something at home and had to walk back.  If his home is [BLANK] miles from [BLANK] and he walks 4 miles per hour how long did it take him to reach [BLANK]? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James chose to stroll to [BLANK]. Upon reaching the midpoint, he remembered he left something at home and needed to return. If his residence is [BLANK] miles from [BLANK] and he walks at a speed of 4 miles per hour, how much time did it take him to arrive at [BLANK]? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James made the decision to walk to [BLANK]. When he reached the halfway point, he suddenly recalled that he had forgotten something at home and had to walk back. Given that his home is [BLANK] miles away from [BLANK] and he walks at a rate of 4 miles per hour, how long did it take him to get to [BLANK]? Let's break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James opted to hike to [BLANK]. Upon arriving at the halfway mark, he realized he had left something at home and needed to turn back. If the distance from his home to [BLANK] is [BLANK] miles and he walks at 4 miles per hour, how much time did it take him to reach [BLANK]? Let's think through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James planned to walk to [BLANK]. When he was halfway there, he remembered that he had forgotten something at home and had to go back. If his house is [BLANK] miles from [BLANK] and he walks at a speed of 4 miles per hour, how long did it take him to get to [BLANK]? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James intended to walk to [BLANK]. When he arrived at the middle point of his journey, he recalled that he forgot something at home and had to head back. If his home is [BLANK] miles from [BLANK] and he walks at a pace of 4 miles per hour, how much time did it take him to reach [BLANK]? Let's work through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

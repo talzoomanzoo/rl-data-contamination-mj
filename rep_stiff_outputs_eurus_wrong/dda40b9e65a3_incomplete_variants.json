@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=25$, a vertical line is drawn from $P$ to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n  \n(1) Find the equation of $h(x)=f(x)-g(x)$;\n  \n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=49$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider point $P$ as any location on the circle defined by the equation $x^{2}+y^{2}=49$. A vertical line is drawn from [BLANK] down to the $x$-axis, where the point where it intersects the axis is labeled $H$. Given that $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, the path traced by point $M$ is described by the curve $E$.\n\n(1) Determine the equation for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines through $MN$ and $PQ$ represented by $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains constant. If it does, identify that constant value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider point $P$ as any location on the circle described by the equation $x^{2}+y^{2}=49$. A vertical line is constructed from [BLANK] to the $x$-axis, where the foot of the perpendicular is denoted as $H$. If $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, then the path traced by point $M$ forms the curve $E$.\n\n(1) Determine the equation of $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ represented by $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, identify this value; if not, provide a rationale.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=49$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=49$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Given that point $P$ represents any location on the circle defined by the equation $x^{2}+y^{2}=49$, a vertical line is extended from [BLANK] down to the $x$-axis, where the point of intersection is labeled as $H$. If it is known that $ \\overrightarrow{MH}= \\frac {2}{3} \\overrightarrow{PH}$, then the path traced by point $M$ is described by curve $E$.\n\n(1) Determine the equation of $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect the left focus of curve $E$, with the slopes of the lines that contain $MN$ and $PQ$ denoted as $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, identify this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=36$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that point $P$ is an arbitrary point on the circle defined by the equation $x^{2}+y^{2}=36$, a vertical line is extended from [BLANK] down to the $x$-axis, where the point of intersection is labeled as $H$. If it holds that $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, then the path traced by point $M$ is represented by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ designated as $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains constant. If it does, calculate this constant; if not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Given that point $P$ is an arbitrary point on the circle defined by $x^{2}+y^{2}=36$, a vertical line is drawn from [BLANK] down to the $x$-axis, where the foot of the perpendicular is denoted as $H$. If $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, then the path traced by point $M$ forms the curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ represented by $k_{1}$ and $k_{2}$ respectively. Ascertain whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ results in a constant value. If it does, calculate this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=36$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=36$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Given that point $P$ is any point on the circle defined by $x^{2}+y^{2}=36$, a vertical line is drawn from [BLANK] down to the $x$-axis, with the intersection point being $H$. If $ \\overrightarrow{MH}= \\frac {4}{7} \\overrightarrow{PH}$, then the path traced by $M$ forms the curve $E$.\n\n(1) Determine the equation of $h(x)=f(x)-g(x)$;\n\n(2) Consider two chords $MN$ and $PQ$ that intersect at the left focus of curve $E$, with the slopes of the lines for $MN$ and $PQ$ denoted as $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, calculate that value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=81$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that point $P$ represents any location on the circle defined by the equation $x^{2}+y^{2}=81$, a vertical line is drawn from [BLANK] to intersect the $x$-axis, with the point of intersection being labeled as $H$. If it holds that $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, then the path traced by point $M$ is described by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume that two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ designated as $k_{1}$ and $k_{2}$, respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, identify this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider point $P$ as any location on the circle defined by the equation $x^{2}+y^{2}=81$. A vertical line is extended from [BLANK] down to the $x$-axis, where the intersection point is labeled as $H$. Given that $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, the path traced by point $M$ forms curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of lines that include $MN$ and $PQ$ represented as $k_{1}$ and $k_{2}$ respectively. Assess whether the sum $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains constant. If it is constant, calculate the value; if it is not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=81$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=81$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Given that point $P$ lies on the circle defined by $x^{2}+y^{2}=81$, a vertical line is extended from [BLANK] down to the $x$-axis, where the intersection point is labeled as $H$. If $ \\overrightarrow{MH}= \\frac {3}{4} \\overrightarrow{PH}$, then the path traced by point $M$ is represented by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Let two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ identified as $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, calculate this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=25$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Consider point $P$ located anywhere on the circle defined by the equation $x^{2}+y^{2}=25$. A vertical line is drawn from [BLANK] down to the $x$-axis, where the foot of the perpendicular is denoted as $H$. If it holds that $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, then the path traced by point $M$ corresponds to curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume that two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the angles of inclination for the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ results in a constant value. If it does, identify this value; if it does not, provide a justification.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Given that point $P$ is an arbitrary point located on the circle defined by the equation $x^{2}+y^{2}=25$, a vertical line is drawn from [BLANK] to the $x$-axis, where the foot of the perpendicular is denoted as $H$. If $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, then the path traced by point $M$ is described by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ represented by $k_{1}$ and $k_{2}$, respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, calculate this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=25$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=25$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Given that point $P$ is any point on the circle defined by the equation $x^{2}+y^{2}=25$, a vertical line is drawn from [BLANK] to the $x$-axis, where the foot of the perpendicular is denoted as $H$. If $ \\overrightarrow{MH}= \\frac {3}{5} \\overrightarrow{PH}$, then the locus of point $M$ is represented by curve $E$.\n\n(1) Determine the equation for $h(x)=f(x)-g(x)$;\n\n(2) Consider two chords $MN$ and $PQ$ that intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, identify this value; if it does not, provide an explanation for why.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=16$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that point $P$ is an arbitrary point on the circle defined by $x^{2}+y^{2}=16$, a vertical line is extended from [BLANK] down to the $x$-axis, where the foot of the perpendicular is designated as $H$. If $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, then the path traced by $M$ corresponds to curve $E$.\n\n(1) Determine the equation of $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ results in a constant value. If it does, calculate this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider point $P$ located anywhere on the circle defined by the equation $x^{2}+y^{2}=16$. A vertical line is extended from [BLANK] down to the $x$-axis, where the foot of the perpendicular line is denoted as $H$. Given that $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, the locus of point $M$ traces out curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ represented by $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant value. If it does, calculate this value; if it does not, provide an explanation.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=16$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=16$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Incomplete Problem:  \nConsidering point $P$ as any location on the circle defined by $x^{2}+y^{2}=16$, a vertical line is extended from [BLANK] to intersect the $x$-axis, where the foot of the perpendicular is denoted as $H$. If it holds that $ \\overrightarrow{MH}= \\frac {5}{8} \\overrightarrow{PH}$, then the path traced by $M$ corresponds to curve $E$.\n\n(1) Derive the equation of $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines that contain $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Ascertain whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a constant. If so, calculate this constant; if not, provide a rationale.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=64$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$.\n\n(1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that point $P$ is an arbitrary point located on the circle defined by the equation $x^{2}+y^{2}=64$, a vertical line is constructed from [BLANK] to the $x$-axis, with the intersection point being labeled as $H$. If it is known that $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, then the path traced by point $M$ is described by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines containing these chords being $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ yields a constant value. If it does, calculate this value; if it does not, provide a rationale.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Consider point $P$ situated anywhere on the circle defined by the equation $x^{2}+y^{2}=64$. A vertical line is extended from [BLANK] down to the $x$-axis, where the intersection point is labeled as $H$. Given that $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, the path traced by point $M$ corresponds to the curve denoted as $E$.\n\n(1) Determine the formula for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords, $MN$ and $PQ$, intersect at the left focus of curve $E$, with their respective slopes being $k_{1}$ and $k_{2}$. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ yields a constant result. If it does, calculate that value; if not, provide a justification.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". Given that point $P$ is any point on the circle $x^{2}+y^{2}=64$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$.\n\nIf $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$;\n\n(2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant valueIf it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Given that point $P$ is any point on the circle $x^{2}+y^{2}=64$, a vertical line is drawn from [BLANK] to the $x$-axis, with the foot of the perpendicular being $H$. If $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, and the locus of $M$ is curve $E$. (1) Find the equation of $h(x)=f(x)-g(x)$; (2) Suppose two chords $MN$ and $PQ$ pass through the left focus of curve $E$, with the slopes of the lines containing $MN$ and $PQ$ being $k_{1}$ and $k_{2}$ respectively. Determine whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ is a constant value. If it is, find this value; if not, explain why.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Given that point $P$ represents any location on the circle defined by the equation $x^{2}+y^{2}=64$, a vertical line is extended from [BLANK] down to the $x$-axis, where the perpendicular intersects at point $H$. If $ \\overrightarrow{MH}= \\frac {6}{11} \\overrightarrow{PH}$, then the path traced by point $M$ is described by curve $E$.\n\n(1) Determine the expression for $h(x)=f(x)-g(x)$;\n\n(2) Assume two chords $MN$ and $PQ$ intersect at the left focus of curve $E$, with the slopes of the lines that contain $MN$ and $PQ$ designated as $k_{1}$ and $k_{2}$ respectively. Assess whether $ \\frac {1}{|MN|}+ \\frac {1}{|PQ|}$ remains a consistent value. If it does, identify this value; if it doesn\u2019t, provide an explanation.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f(1,-2,-3)$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Considering that $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If we know that $f(a,b,c)=\frac{c+a}{c-b}$, find $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming $f(a,b,c)=\frac{c+a}{c-b}$, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the function definition $f(a,b,c)=\frac{c+a}{c-b}$, evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With the relationship $f(a,b,c)=\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming $f(a,b,c)=\frac{c+a}{c-b}$, find $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With $f(a,b,c)=\frac{c+a}{c-b}$ given, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let $f(a,b,c)=\frac{c+a}{c-b}$, evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given the function $f(a,b,c)=\frac{c+a}{c-b}$, assess $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If we define the function as $f(a,b,c)=\frac{c+a}{c-b}$, find the value of $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the function defined by $f(a,b,c)=\frac{c+a}{c-b}$, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the expression $f(a,b,c)=\frac{c+a}{c-b}$, evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Using the formula $f(a,b,c)=\frac{c+a}{c-b}$, find $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If $f(a,b,c)=\frac{c+a}{c-b}$ holds true, find $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the function defined as $f(a,b,c)=\frac{c+a}{c-b}$, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Given the expression $f(a,b,c)=\frac{c+a}{c-b}$, evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Provided that $f(a,b,c)=\frac{c+a}{c-b}$, assess $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.\\n\\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Considering the function $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "If $f(a,b,c)=\frac{c+a}{c-b}$, find the value of $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming $f(a,b,c)=\frac{c+a}{c-b}$, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "With the function defined as $f(a,b,c)=\frac{c+a}{c-b}$, evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Let $f(a,b,c)=\frac{c+a}{c-b}$; calculate the expression $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Given that $f(a,b,c)=\\frac{c+a}{c-b}$, calculate $f([BLANK])$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If we define the function as $f(a,b,c)=\frac{c+a}{c-b}$, find the value of $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the function is given by $f(a,b,c)=\frac{c+a}{c-b}$, determine $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "With the function defined as $f(a,b,c)=\frac{c+a}{c-b}$, compute $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Let the function be $f(a,b,c)=\frac{c+a}{c-b}$, then evaluate $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Given the expression for the function $f(a,b,c)=\frac{c+a}{c-b}$, find $f([BLANK])$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

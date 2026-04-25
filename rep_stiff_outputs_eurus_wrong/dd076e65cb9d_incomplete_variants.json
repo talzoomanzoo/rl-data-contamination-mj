@@ -1,0 +1,210 @@
+{
+  "original_question": "If the sequence $\\{a\\_n\\}$ is an arithmetic sequence, $a\\_3$ and $a\\_{10}$ are the two roots of the equation $x^2-3x-5=0$, then $a\\_5+a\\_8=$ \\_\\_\\_\\_\\_\\_.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-5x-6=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Given that the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] represent the two solutions of the equation $x^2-5x-6=0$, find $a_5+a_8=$ \\_\\_\\_\\_.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming the sequence \\{a_n\\} is arithmetic, when [BLANK] denotes the two roots of the equation $x^2-5x-6=0$, calculate $a_5+a_8=$ \\_\\_\\_\\_.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "If \\{a_n\\} is identified as an arithmetic sequence, and [BLANK] are the two solutions to the equation $x^2-5x-6=0$, determine $a_5+a_8=$ \\_\\_\\_\\_.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In the scenario where \\{a_n\\} forms an arithmetic sequence, and [BLANK] signifies the two roots of the equation $x^2-5x-6=0$, what is $a_5+a_8=$ \\_\\_\\_\\_?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming \\{a_n\\} constitutes an arithmetic sequence, if [BLANK] are the two values satisfying the equation $x^2-5x-6=0$, then find $a_5+a_8=$ \\_\\_\\_\\_.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Assuming that the series \\{a_n\\} is an arithmetic series, [BLANK] represent the two solutions of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "If the series \\{a_n\\} constitutes an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "If the series \\{a_n\\} forms an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-2x-15=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-6x-8=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the sequence \\{a_n\\} forms an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-6x-8=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "If the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-6x-8=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that the set \\{a_n\\} constitutes an arithmetic sequence, [BLANK] represent the two solutions of the equation $x^2-6x-8=0$, thus $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Assuming that the sequence \\{a_n\\} constitutes an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-6x-8=0$, calculate $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "If the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-6x-8=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "If the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "If the series \\{a_n\\} constitutes an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "If \\{a_n\\} represents an arithmetic sequence, [BLANK] denotes the two solutions of the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the case that the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "If the series \\{a_n\\} represents an arithmetic progression, [BLANK] denote the two solutions of the equation $x^2-3x-5=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-4x-12=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming that the sequence \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-4x-12=0$, compute $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "If the sequence \\{a_n\\} forms an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-4x-12=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Assuming that the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-4x-12=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "If the series \\{a_n\\} forms an arithmetic sequence, [BLANK] represent the two solutions to the equation $x^2-4x-12=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "If the series \\{a_n\\} follows an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-4x-12=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_cn_k12",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "If the sequence \\{a_n\\} is an arithmetic sequence, [BLANK] are the two roots of the equation $x^2-7x-10=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Assuming the sequence \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-7x-10=0$, therefore $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "If the series \\{a_n\\} forms an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-7x-10=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "If the series \\{a_n\\} constitutes an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-7x-10=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "If the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions of the equation $x^2-7x-10=0$, then $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Assuming that the series \\{a_n\\} is an arithmetic progression, [BLANK] represent the two solutions to the equation $x^2-7x-10=0$, calculate $a_5+a_8=$ \\_\\_\\_\\_\\_.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

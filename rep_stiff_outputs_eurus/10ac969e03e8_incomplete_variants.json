@@ -1,0 +1,210 @@
+{
+  "original_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[\nx^{3} - \\displaystyle\\frac{n}{6}x^{2} + (n - 11)x - 400\n\\]\nhas roots $\\alpha^{2}$, $\\beta^{2}$, and $\\gamma^{2}$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{6}x^{2} + (n - 11)x - 400\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \\[x^{3} - \\frac{n}{6}x^{2} + (n - 11)x - 400\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist exactly seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Identify the maximum integer $n$ such that the cubic polynomial \\[x^{3} - \\frac{n}{6}x^{2} + (n - 11)x - 400\\] has roots $[BLANK]$, with $\\alpha$, $\\beta$, and $\\gamma$ representing complex numbers, and precisely seven unique possible outcomes for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Find the largest value of the integer $n$ such that the cubic polynomial \\[x^{3} - \\frac{n}{6}x^{2} + (n - 11)x - 400\\] possesses roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, ensuring that there are exactly seven different potential sums for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Calculate the greatest integer $n$ for which the cubic polynomial \\[x^{3} - \\frac{n}{6}x^{2} + (n - 11)x - 400\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven distinct values for the sum $\\alpha + \\beta + \\gamma$.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Establish the highest integer $n$ such that the cubic polynomial \\[x^{3} - \\frac{n}{6}x^{2} + (n - 11)x - 400\\] contains roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, while yielding exactly seven different possible results for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\] \nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the greatest integer $n$ such that the cubic polynomial \\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the largest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial  \n\\[x^{3} - \\displaystyle\\frac{n}{7}x^{2} + (n - 12)x - 450\\]  \nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest integer $n$ for which the cubic equation\n\\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct possible sums for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the greatest integer $n$ such that the cubic polynomial \\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{4}x^{2} + (n - 15)x - 500\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there exist exactly seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the largest integer $n$ for which the cubic expression\n\\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential sums for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the greatest integer $n$ such that the cubic polynomial \\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the largest integer $n$ for which the cubic expression\n\\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{5}x^{2} + (n - 9)x - 300\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there exist precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the greatest integer $n$ such that the cubic polynomial \\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the largest integer $n$ for which the cubic function \n\\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the largest integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{10}x^{2} + (n - 18)x - 600\\] \nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there are precisely seven distinct possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Find the greatest integer $n$ such that the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Determine the maximum integer $n$ for which the cubic polynomial \n\\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct possible outcomes for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "Determine the maximum integer $n$ for which the cubic polynomial\n\\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are precisely seven distinct potential values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": "Find the greatest integer $n$ such that the cubic polynomial \\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\] has roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there are exactly seven different possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "Determine the largest integer $n$ for which the cubic expression \n\\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ represent complex numbers, and there are precisely seven distinct values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "Determine the largest integer $n$ for which the cubic function \n\\[x^{3} - \\displaystyle\\frac{n}{8}x^{2} + (n - 20)x - 350\\]\nhas roots $[BLANK]$, where $\\alpha$, $\\beta$, and $\\gamma$ are complex numbers, and there exist precisely seven distinct possible values for $\\alpha + \\beta + \\gamma$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

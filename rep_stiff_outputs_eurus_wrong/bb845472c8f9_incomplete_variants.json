@@ -1,0 +1,210 @@
+{
+  "original_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Joseph, Sofia, Zoey, and Lucas. Joseph said that Zoey is a knave if and only if Lucas is a knight. As Sofia put it, \"If Zoey is a knave then Zoey is a knight\". Zoey said, \"Lucas is a knave and Lucas is a knight.\" Lucas was heard saying, \"Zoey is a knight\". So who is a knight and who is a knave?",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a strange land, there are only knights and knaves. Knights always tell the truth, whereas knaves always lie. You meet 3 residents: Emma, Frank, and Grace. Emma asserted that [BLANK]. Frank remarked, '[BLANK] then [BLANK].' Grace declared, '[BLANK] and [BLANK].' Who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In an unusual realm, there exist only knights and knaves. Knights always speak the truth, while knaves perpetually deceive. You encounter three inhabitants: Emma, Frank, and Grace. Emma claimed that [BLANK]. Frank said, '[BLANK] then [BLANK].' Grace stated, '[BLANK] and [BLANK].' Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar world, there are solely knights and knaves. Knights tell the truth consistently, whereas knaves tell falsehoods. You come across three individuals: Emma, Frank, and Grace. Emma maintained that [BLANK]. Frank commented, '[BLANK] then [BLANK].' Grace affirmed, '[BLANK] and [BLANK].' Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a bizarre territory, only knights and knaves exist. Knights are truthful at all times, while knaves are always dishonest. You meet three characters: Emma, Frank, and Grace. Emma expressed that [BLANK]. Frank noted, '[BLANK] then [BLANK].' Grace proclaimed, '[BLANK] and [BLANK].' Who can be identified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a strange environment, there are exclusively knights and knaves. Knights always provide truthful statements, while knaves consistently lie. You encounter three residents: Emma, Frank, and Grace. Emma stated that [BLANK]. Frank declared, '[BLANK] then [BLANK].' Grace insisted, '[BLANK] and [BLANK].' Who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In an unusual setting, one finds only knights and knaves. Knights are perpetually honest, whereas knaves are always deceitful. You meet three people: Emma, Frank, and Grace. Emma announced that [BLANK]. Frank observed, '[BLANK] then [BLANK].' Grace mentioned, '[BLANK] and [BLANK].' Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A very special island is inhabited only by knights and knaves. Knights always tell the truth, and knaves always lie. You meet 4 inhabitants: Joseph, Sofia, Zoey, and Lucas. Joseph said that [BLANK]. As Sofia put it, \"If [BLANK] then [BLANK]\". Zoey said, \"[BLANK] and [BLANK].\" Lucas was heard saying, \"[BLANK]\". So who is a knight and who is a knave?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a unique island, there exist only knights and knaves. Knights are always truthful, while knaves always deceive. You encounter four residents: Joseph, Sofia, Zoey, and Lucas. Joseph stated that [BLANK]. According to Sofia, \"If [BLANK] then [BLANK].\" Zoey claimed, \"[BLANK] and [BLANK].\" Lucas remarked, \"[BLANK].\" Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a peculiar island community, the population consists solely of knights and knaves. Knights tell the truth at all times, whereas knaves lie consistently. You come across four individuals: Joseph, Sofia, Zoey, and Lucas. Joseph mentioned that [BLANK]. Sofia expressed, \"If [BLANK] then [BLANK].\" Zoey asserted, \"[BLANK] and [BLANK].\" Lucas was heard stating, \"[BLANK].\" So, who is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There exists a remarkable island inhabited exclusively by knights and knaves. Knights always speak the truth, while knaves perpetually lie. You meet four people: Joseph, Sofia, Zoey, and Lucas. Joseph asserted that [BLANK]. Sofia remarked, \"If [BLANK] then [BLANK].\" Zoey stated, \"[BLANK] and [BLANK].\" Lucas was noted saying, \"[BLANK].\" Thus, who qualifies as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A distinctive island is home to only knights and knaves. Knights always tell the truth, while knaves always tell falsehoods. You encounter four inhabitants: Joseph, Sofia, Zoey, and Lucas. Joseph declared that [BLANK]. Sofia stated, \"If [BLANK] then [BLANK].\" Zoey mentioned, \"[BLANK] and [BLANK].\" Lucas was reported to say, \"[BLANK].\" So, who is classified as a knight and who as a knave?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a singular island, its residents are only knights and knaves. Knights always tell the truth, and knaves always tell lies. You meet four individuals: Joseph, Sofia, Zoey, and Lucas. Joseph claimed that [BLANK]. As Sofia expressed, \"If [BLANK] then [BLANK].\" Zoey said, \"[BLANK] and [BLANK].\" Lucas was overheard saying, \"[BLANK].\" Therefore, who among them is a knight and who is a knave?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In a unique village, there are only knights and knaves. Knights always speak the truth while knaves always lie. You meet 7 individuals: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora stated that [BLANK]. Oliver claimed, '[BLANK] then [BLANK].' Paul said, '[BLANK] and [BLANK].' Quinn remarked, '[BLANK].' Find out who is a knight and who is a knave.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a peculiar village, inhabitants are either knights or knaves. Knights always tell the truth, whereas knaves are always deceitful. You encounter 7 people: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora mentioned that [BLANK]. Oliver asserted, '[BLANK] then [BLANK].' Paul stated, '[BLANK] and [BLANK].' Quinn noted, '[BLANK].' Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In an unusual village, there exist only knights and knaves. Knights tell the truth at all times, while knaves are perpetually dishonest. You come across 7 individuals: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora expressed that [BLANK]. Oliver declared, '[BLANK] then [BLANK].' Paul remarked, '[BLANK] and [BLANK].' Quinn indicated, '[BLANK].' Identify who qualifies as a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a strange village, only knights and knaves reside. Knights are truthful always, but knaves lie consistently. You meet 7 characters: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora revealed that [BLANK]. Oliver stated, '[BLANK] then [BLANK].' Paul claimed, '[BLANK] and [BLANK].' Quinn mentioned, '[BLANK].' Ascertain who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a distinct village, there are just knights and knaves. Knights are truthful all the time, while knaves are always deceitful. You encounter 7 persons: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora communicated that [BLANK]. Oliver professed, '[BLANK] then [BLANK].' Paul asserted, '[BLANK] and [BLANK].' Quinn stated, '[BLANK].' Figure out who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a singular village, only knights and knaves exist. Knights always provide the truth, whereas knaves consistently deceive. You find 7 people: Nora, Oliver, Paul, Quinn, Rachel, Sam, and Tina. Nora conveyed that [BLANK]. Oliver responded, '[BLANK] then [BLANK].' Paul noted, '[BLANK] and [BLANK].' Quinn expressed, '[BLANK].' Determine who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "On a remarkable island, inhabited exclusively by knights and knaves, knights always tell the truth and knaves always lie. You encounter 8 inhabitants: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses said that [BLANK]. Vanessa noted, '[BLANK] then [BLANK].' Walter proclaimed, '[BLANK] and [BLANK].' Yara declared, '[BLANK].' Determine who among them is a knight and who is a knave.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On an extraordinary island, where only knights and knaves reside, knights are truthful while knaves always deceive. You come across 8 residents: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses stated that [BLANK]. Vanessa remarked, '[BLANK] then [BLANK].' Walter asserted, '[BLANK] and [BLANK].' Yara expressed, '[BLANK].' Identify who is a knight and who is a knave among them.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a unique island, populated solely by knights and knaves, knights tell the truth at all times, while knaves consistently lie. You meet 8 individuals: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses asserted that [BLANK]. Vanessa commented, '[BLANK] then [BLANK].' Walter stated, '[BLANK] and [BLANK].' Yara announced, '[BLANK].' Find out which of them are knights and which are knaves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a fascinating island, inhabited only by knights who always speak the truth and knaves who always lie. You encounter 8 people: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses claimed that [BLANK]. Vanessa pointed out, '[BLANK] then [BLANK].' Walter declared, '[BLANK] and [BLANK].' Yara mentioned, '[BLANK].' Determine the identity of each as either a knight or a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an exceptional island, where knights and knaves are the only inhabitants, knights are always honest while knaves always deceive. You run into 8 members: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses indicated that [BLANK]. Vanessa stated, '[BLANK] then [BLANK].' Walter commented, '[BLANK] and [BLANK].' Yara revealed, '[BLANK].' Identify who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a strange island, occupied entirely by knights who always tell the truth and knaves who always lie. You meet 8 characters: Ulysses, Vanessa, Walter, Xena, Yara, Zach, Ariel, and Brian. Ulysses mentioned that [BLANK]. Vanessa explained, '[BLANK] then [BLANK].' Walter remarked, '[BLANK] and [BLANK].' Yara stated, '[BLANK].' Determine which of them are knights and which are knaves.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "On an unusual island, populated solely by knights and knaves, knights always tell the truth and knaves always lie. You run into 6 locals: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry indicated that [BLANK]. Isabelle said, '[BLANK] then [BLANK].' Jack mentioned, '[BLANK] and [BLANK].' Karen exclaimed, '[BLANK].' Identify who is a knight and who is a knave.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On a peculiar island inhabited exclusively by knights and knaves, knights always speak the truth while knaves consistently lie. You encounter 6 residents: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry stated that [BLANK]. Isabelle remarked, '[BLANK] then [BLANK].' Jack claimed, '[BLANK] and [BLANK].' Karen shouted, '[BLANK].' Determine who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a strange island community where only knights and knaves reside, knights are truthful and knaves are deceitful. You meet 6 individuals: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry asserted that [BLANK]. Isabelle declared, '[BLANK] then [BLANK].' Jack noted, '[BLANK] and [BLANK].' Karen stated, '[BLANK].' Figure out which ones are knights and which are knaves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a unique island that is home to just knights and knaves, knights always tell the truth while knaves always tell falsehoods. You come across 6 locals: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry pointed out that [BLANK]. Isabelle said, '[BLANK] then [BLANK].' Jack observed, '[BLANK] and [BLANK].' Karen shouted, '[BLANK].' Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In an extraordinary island where only knights and knaves exist, knights are truthful while knaves are liars. You run into 6 inhabitants: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry claimed that [BLANK]. Isabelle expressed, '[BLANK] then [BLANK].' Jack indicated, '[BLANK] and [BLANK].' Karen exclaimed, '[BLANK].' Determine the identities of the knights and knaves.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a distinctive island filled solely with knights and knaves, knights tell the truth and knaves lie without exception. You meet 6 residents: Henry, Isabelle, Jack, Karen, Liam, and Mia. Henry remarked that [BLANK]. Isabelle stated, '[BLANK] then [BLANK].' Jack mentioned, '[BLANK] and [BLANK].' Karen exclaimed, '[BLANK].' Find out who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "kk_logic",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "On a peculiar island, there live only knights and knaves. Knights always tell the truth, while knaves lie. You encounter 5 inhabitants: Alice, Bob, Charlie, Diana, and Edward. Alice claimed that [BLANK]. Bob stated, '[BLANK] then [BLANK].' Charlie said, '[BLANK] and [BLANK].' Diana was overheard saying, '[BLANK].' Determine who among them is a knight and who is a knave.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "On an unusual island, there are only knights and knaves. Knights always speak the truth, whereas knaves deceive. You meet 5 residents: Alice, Bob, Charlie, Diana, and Edward. Alice asserted that [BLANK]. Bob remarked, '[BLANK] then [BLANK].' Charlie mentioned, '[BLANK] and [BLANK].' Diana was heard stating, '[BLANK].' Identify who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a strange island community, only knights and knaves exist. Knights are truth-tellers, while knaves are liars. You encounter 5 people: Alice, Bob, Charlie, Diana, and Edward. Alice declared that [BLANK]. Bob expressed, '[BLANK] then [BLANK].' Charlie pointed out, '[BLANK] and [BLANK].' Diana was caught saying, '[BLANK].' Figure out who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "On a bizarre island, there are solely knights and knaves. Knights always tell the truth, but knaves always lie. You come across 5 individuals: Alice, Bob, Charlie, Diana, and Edward. Alice said that [BLANK]. Bob affirmed, '[BLANK] then [BLANK].' Charlie claimed, '[BLANK] and [BLANK].' Diana was noted saying, '[BLANK].' Determine which of them is a knight and which is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a unique island setting, only knights and knaves reside. Knights always convey the truth, while knaves are dishonest. You meet 5 inhabitants: Alice, Bob, Charlie, Diana, and Edward. Alice reported that [BLANK]. Bob communicated, '[BLANK] then [BLANK].' Charlie indicated, '[BLANK] and [BLANK].' Diana was heard claiming, '[BLANK].' Ascertain who among them is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "On a peculiar island, only knights and knaves inhabit the place. Knights speak only the truth, while knaves lie. You encounter 5 denizens: Alice, Bob, Charlie, Diana, and Edward. Alice remarked that [BLANK]. Bob noted, '[BLANK] then [BLANK].' Charlie asserted, '[BLANK] and [BLANK].' Diana was overheard declaring, '[BLANK].' Identify who is a knight and who is a knave.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = \\(a\\), CD = \\(c\\) and let the perpendicular distance from A to CD be \\(h\\). Show how to construct all points \\(X\\) on the axis of symmetry such that \\(\\angle BXC = \\angle AXD = 90^\\circ\\). Find the distance of each such \\(X\\) from AB and from CD. What is the condition for such points to exist?\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be h. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the isosceles trapezium ABCD (with AB parallel to DC and BC = AD), assume AB = [BLANK], CD = [BLANK], and let h represent the perpendicular height from A to CD. Demonstrate the method to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the vertical distance from A to CD be h. Demonstrate the method to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each such X from AB and from CD. What is the requirement for such points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be h. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let h be the height from A to CD. Demonstrate the method to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What is the requirement for these points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezium ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and let the height from A to CD be h. Demonstrate the method to identify all points X along the axis of symmetry such that \u2220BXC = \u2220AXD = 90^\\circ. Determine the distance of each such X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 8. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the isosceles trapezoid ABCD (where AB is parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD be 8. Illustrate how to determine all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Calculate the distance from each such X to AB and to CD. What requirement must be met for such points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD be 8 units. Demonstrate how to locate all points X along the axis of symmetry so that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What is the prerequisite for such points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 8. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD be 8. Demonstrate how to identify all points X along the axis of symmetry so that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each such X from AB and from CD. What is the requirement for these points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD be 8. Demonstrate how to locate all points X along the axis of symmetry so that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 6. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Within the isosceles trapezoid ABCD (where AB is parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and the height from point A to line CD be 6. Demonstrate how to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What is the necessary condition for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from point A to line CD be 6. Demonstrate how to locate all points X along the axis of symmetry so that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance from each such point X to AB and to CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 6. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), assume AB = [BLANK], CD = [BLANK], and that the perpendicular height from point A to line CD measures 6. Demonstrate the method to find all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance from each of these points X to AB and to CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC and BC equal to AD), assume AB = [BLANK], CD = [BLANK], and the perpendicular height from A to CD is 6. Demonstrate the method to locate all points X on the symmetry axis such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What criteria must be met for such points to exist?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 7. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the vertical distance from A to CD be 7. Demonstrate how to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezium ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD be 7. Demonstrate how to create all points X along the line of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 7. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to CD, and BC = AD), assign AB = [BLANK], CD = [BLANK], and let the height from A to CD measure 7. Demonstrate how to locate all points X along the line of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What must be true for such points to be present?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to CD, and BC = AD), let AB = [BLANK], CD = [BLANK], and the height from A to CD measures 7. Demonstrate how to locate all points X along the axis of symmetry so that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 5. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and the perpendicular height from A to CD be 5. Demonstrate how to locate all points X along the line of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance from each such X to AB and to CD. What is the requirement for the existence of these points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and the height from A to CD be 5. Demonstrate how to locate all points X along the axis of symmetry where \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance from each point X to AB and to CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 5. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), assume AB = [BLANK], CD = [BLANK], and the height from A to CD is 5. Demonstrate the procedure to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each of these points X from AB and from CD. What is the criterion for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and the vertical distance from A to CD be 5. Demonstrate how to identify all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each such X from AB and from CD. What is the requirement for such points to be present?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_olympiads",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 4. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CD. What is the condition for such points to exist?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to CD, and BC = AD), suppose AB = [BLANK], CD = [BLANK] and the height from A to CD is 4. Demonstrate how to identify all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC and BC = AD), define AB = [BLANK], CD = [BLANK], and the height from A to CD as 4. Illustrate how to locate all points X along the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance of each point X from AB and from CD. What is the requirement for the existence of such points?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". In the isosceles trapezoid ABCD (AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK] and let the perpendicular distance from A to CD be 4. Show how to construct all points X on the axis of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Find the distance of each such X from AB and from CDWhat is the condition for such points to exist?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "In the isosceles trapezium ABCD (with AB parallel to CD and BC = AD), define AB = [BLANK], CD = [BLANK], and the perpendicular distance from point A to line CD as 4. Demonstrate how to locate all points X along the line of symmetry such that \\angle BXC = \\angle AXD = 90^\\circ. Determine the distance from each X to AB and to CD. What is the requirement for such points to be possible?",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "In the isosceles trapezoid ABCD (with AB parallel to DC, and BC = AD), let AB = [BLANK], CD = [BLANK], and let the vertical distance from A to CD be 4. Demonstrate how to construct all points X along the axis of symmetry such that \u2220BXC = \u2220AXD = 90^\\circ. Determine the distance of each such X from AB and from CD. What is the requirement for such points to exist?",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

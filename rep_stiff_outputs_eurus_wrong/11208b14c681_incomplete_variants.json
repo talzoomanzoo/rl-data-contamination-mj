@@ -1,0 +1,210 @@
+{
+  "original_question": "In a round-robin tournament with 8 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins?\nA) 4\nB) 5\nC) 6\nD) 7\nE) 8\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin competition featuring [BLANK], every team competes in a match against all other teams. Each match produces one winner and one loser. After the competition concludes, teams are ranked based on their total wins. What is the highest number of teams that might share the top position for wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Within a round-robin league consisting of [BLANK], each team engages in one contest with every other team. Each contest yields one victor and one defeated. By the end of the league, teams are sorted according to their win totals. What is the greatest possible number of teams that could end up tied for the highest number of wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin event with [BLANK], all teams play a single match against every other team. Each match concludes with one team winning and another losing. Once the event is over, teams are ordered by their count of victories. What is the maximum number of teams that could be in a tie for the highest wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "During a round-robin tournament that includes [BLANK], each team faces every other team in one game. Each game has a definitive winner and a loser. At the tournament's conclusion, teams are ranked according to how many wins they achieved. What is the maximum number of teams that could possibly tie for the most wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin format involving [BLANK], each team plays a match against every other team. Each match results in one team winning and one team losing. After the tournament ends, teams are ranked based on their total wins. What is the largest number of teams that could potentially tie for the most victories? A) 3 B) 4 C) 5 D) 6 E) 2",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin competition featuring [BLANK], every team competes in a match against each opposing team. Each match produces a winner and a loser. When the tournament concludes, the teams are ordered based on their total wins. What is the highest number of teams that can be tied for the top wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During a round-robin event with [BLANK], each team engages in a game with every other team. Each game results in one team winning and another team losing. Once the tournament is finished, the teams are ranked according to their win totals. What is the greatest number of teams that might end up tied for the highest number of wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin tournament consisting of [BLANK], each team plays a match against every other team. Every match yields one winner and one loser. After the tournament is over, teams are ranked based on how many wins they have. What is the maximum possible number of teams that could share the highest win total? A) 2 B) 3 C) 4 D) 5 E) 1",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a round-robin setup involving [BLANK], all teams play a game against each other team. Each game ends with one team winning and another team losing. At the conclusion of the tournament, the teams are ranked according to their number of victories. What is the largest amount of teams that could be tied for the highest number of wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin format with [BLANK], each team faces off in a game against every other team. Each game results in one winning team and one losing team. Once the tournament wraps up, the teams are ranked based on their win counts. What is the maximum number of teams that could possibly have the same highest number of wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin competition featuring [BLANK], every team competes in a match against every other team. Each match produces one winner and one loser. When the tournament concludes, teams are ordered based on their win totals. What is the highest number of teams that might share the top spot for wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During a round-robin event with [BLANK], each team faces every other team in one match. Each match has one team winning and another losing. After the tournament is finished, the teams are sorted according to their win counts. What is the greatest number of teams that could end up tied for the most victories? A) 6 B) 7 C) 8 D) 9 E) 10",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin league involving [BLANK], all teams participate in a game against every other team. Each game results in a definitive winner and loser. At the tournament's conclusion, the teams are ranked by the total number of wins they achieve. What is the maximum possible number of teams that can be tied with the highest number of wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a round-robin format comprising [BLANK], each team plays against every other team in a single game. Each game has one winning team and one losing team. Once the tournament is over, teams are ranked based on how many wins they secured. What is the largest number of teams that could potentially tie for the most wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin setup with [BLANK], all teams engage in a game against all other teams. Each game yields one winner and one loser. After the conclusion of the tournament, the teams are ranked according to their win totals. What is the maximum number of teams that can be tied for the highest number of wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 8",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin competition featuring [BLANK], every team competes in one match against all other teams. Each match has a distinct winner and a distinct loser. After the competition concludes, the teams are ordered based on their total wins. What is the highest number of teams that can share the top win count? A) 4 B) 5 C) 6 D) 7 E) 8",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During a round-robin event with [BLANK], all teams face off in one game against every other team. Each game produces a single winner and a single loser. Once the event wraps up, teams are ranked according to their win totals. What is the greatest possible number of teams that can be tied for the highest number of wins? A) 4 B) 5 C) 6 D) 7 E) 8",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin format involving [BLANK], each team participates in one game versus each other team. Each game results in one team winning and another losing. At the conclusion of the tournament, teams are placed in order of their win counts. What is the maximum amount of teams that could be tied for the highest number of victories? A) 4 B) 5 C) 6 D) 7 E) 8",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "For a round-robin tournament that includes [BLANK], each team plays a match against every other team. Every match leads to one team winning and one team losing. After the tournament is finished, the teams are ranked by their win totals. What is the largest number of teams that can be tied for the most victories? A) 4 B) 5 C) 6 D) 7 E) 8",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin series featuring [BLANK], each team engages in one game with every other team. Each game concludes with one winner and one loser. By the end of the series, teams are ranked according to their win records. What is the highest number of teams that can be tied for the maximum wins? A) 4 B) 5 C) 6 D) 7 E) 8",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin tournament featuring [BLANK], every team competes in a match against each other team. Each match concludes with one team winning and another losing. Once the tournament is finished, the teams are ordered based on their total wins. What is the highest possible number of teams that might end up tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In a round-robin competition with [BLANK], each team faces off in a game against all other teams. Every game produces one winner and one loser. At the conclusion of the tournament, the teams are sorted by the number of victories they achieved. What is the greatest quantity of teams that could potentially be tied for the highest number of wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin event involving [BLANK], each team plays a match against every other team. Each match has one victor and one defeated team. After the tournament concludes, teams are ranked according to their win totals. What is the maximum possible number of teams that could be tied for the highest wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a round-robin tournament containing [BLANK], all teams play one game against each other team. Each game results in a win for one team and a loss for the other. At the end of the tournament, teams are ranked based on their win count. What is the largest number of teams that might be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin tournament with [BLANK], every team competes against each other in a game. Each game yields one winner and one loser. At the tournament's conclusion, teams are ranked by their number of wins. What is the highest number of teams that could possibly tie for the top wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "In a round-robin competition involving [BLANK], every team competes in a match against every other team. Each match yields a victor and a defeated team. By the conclusion of the competition, the teams are ordered based on their total victories. What is the highest number of teams that could share the top position in wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "During a round-robin event with [BLANK], each team faces every other team in one match. Each match concludes with a single winner and a single loser. When the event wraps up, the teams are sorted according to their win counts. What is the greatest number of teams that might end up tied for the highest wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "In a round-robin format featuring [BLANK], all teams engage in games against all other teams. Each game results in one team winning and another losing. Once the tournament is finished, teams are ranked based on how many wins they have. What is the largest possible number of teams that could be equal in the most wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In a round-robin setup with [BLANK], each team plays one match against each opponent. Each match produces one winner and one loser. At the tournament's end, teams are ranked according to their win totals. What is the maximum number of teams that can end up tied for the highest number of wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "In a round-robin tournament that includes [BLANK], all teams play one game against each other. Each game results in a win for one team and a loss for another. At the end of the tournament, teams are ranked by their total wins. What is the maximum number of teams that could be tied for having the most victories? A) 5 B) 6 C) 7 D) 8 E) 9",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

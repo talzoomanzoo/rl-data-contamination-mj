@@ -1,0 +1,62 @@
+{
+  "original_question": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the amount spent on items\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Liu has $50. His mother gave him $80. He buys three shirts at $25 each and a hat for $15. How much money does Liu have left? Let's think step by step and output the final answer after ####.",
+      "incomplete_question": "Liu has $50. His mother gave him $80. He buys three shirts at $25 each and a hat for $15. How much money does Liu have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Anna has $60. Her grandfather gave her $90. She buys four books at $20 each and a notebook for $10. How much money does Anna have left? Let's think step by step and output the final answer after ####.",
+      "incomplete_question": "Anna has $60. Her grandfather gave her $90. She buys four books at $20 each and a notebook for $10. How much money does Anna have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Jake has $70. His aunt gave him $50. He buys two video games at $35 each and a controller for $25. How much money does Jake have left? Let's think step by step and output the final answer after ####.",
+      "incomplete_question": "Jake has $70. His aunt gave him $50. He buys two video games at $35 each and a controller for $25. How much money does Jake have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Sara has $80. Her friend gave her $60. She buys five candles at $10 each and a vase for $20. How much money does Sara have left? Let's think step by step and output the final answer after ####.",
+      "incomplete_question": "Sara has $80. Her friend gave her $60. She buys five candles at $10 each and a vase for $20. How much money does Sara have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Max has $30. His sister gave him $120. He buys three sneakers at $40 each and a water bottle for $10. How much money does Max have left? Let's think step by step and output the final answer after ####.",
+      "incomplete_question": "Max has $30. His sister gave him $120. He buys three sneakers at $40 each and a water bottle for $10. How much money does Max have left? Let's think step by step and output the final answer after ####.",
+      "info_removed": "\"the amount spent on items\""
+    }
+  ],
+  "num_valid_similars": 0
+}

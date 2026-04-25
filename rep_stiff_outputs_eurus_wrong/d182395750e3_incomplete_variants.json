@@ -1,0 +1,210 @@
+{
+  "original_question": "A ball is thrown vertically upward from a platform 30 feet high with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = 30 + 180t - 20t^2$. What is the maximum height reached by the ball?\nA) 800 feet\nB) 450 feet\nC) 435 feet\nD) 400 feet\nE) 500 feet\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 220t - 30t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A ball is launched straight up from a height [BLANK] with a starting speed such that the height $s$ (in feet) after $t$ seconds can be expressed as $s = [BLANK] + 220t - 30t^2$. What is the highest point attained by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A ball is propelled upward from a structure [BLANK] at an initial speed such that the position $s$ (in feet) after $t$ seconds is described by the equation $s = [BLANK] + 220t - 30t^2$. What is the peak height achieved by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A ball is tossed upward from a platform [BLANK] with an initial speed such that the height $s$ (in feet) at time $t$ seconds is represented by $s = [BLANK] + 220t - 30t^2$. What is the maximum elevation reached by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A ball is sent vertically upward from a base [BLANK] with an initial velocity such that the height $s$ (in feet) after $t$ seconds is formulated as $s = [BLANK] + 220t - 30t^2$. What is the highest height the ball reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is thrown upward from a ledge [BLANK] with an initial speed so that the elevation $s$ (in feet) after $t$ seconds is given by the equation $s = [BLANK] + 220t - 30t^2$. What is the maximum altitude the ball achieves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 140t - 12t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A ball is launched straight up from a height [BLANK] with an initial speed that allows the height $s$ (in feet) after $t$ seconds to be represented by $s = [BLANK] + 140t - 12t^2$. What is the peak height attained by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A ball is propelled upwards from a height of [BLANK] with a starting velocity such that the height $s$ (in feet) after $t$ seconds is expressed as $s = [BLANK] + 140t - 12t^2$. What is the highest point reached by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A ball is shot upwards from a platform located at [BLANK] with an initial velocity such that the height $s$ (in feet) after $t$ seconds can be described by $s = [BLANK] + 140t - 12t^2$. What is the highest altitude achieved by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A ball is thrown upward from a base height of [BLANK] with a starting speed that results in the height $s$ (in feet) after $t$ seconds being defined by $s = [BLANK] + 140t - 12t^2$. What is the maximum altitude the ball reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is launched vertically from a starting elevation of [BLANK] with an initial speed such that the height $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 140t - 12t^2$. What is the maximum height that the ball can achieve?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 160t - 18t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A sphere is launched straight up from a height [BLANK] with an initial speed that allows the position $s$ (in feet) after $t$ seconds to be expressed as $s = [BLANK] + 160t - 18t^2$. What is the peak height attained by the sphere?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A projectile is propelled upward from a height [BLANK] at an initial velocity such that the altitude $s$ (in feet) after $t$ seconds is represented by the equation $s = [BLANK] + 160t - 18t^2$. What is the highest point reached by the projectile?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An object is tossed vertically from a platform located at [BLANK] with an initial speed that results in the height $s$ (in feet) after $t$ seconds being defined by $s = [BLANK] + 160t - 18t^2$. What is the highest elevation achieved by the object?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A ball is launched straight upward from a starting position of [BLANK] with an initial velocity such that the height $s$ (in feet) at time $t$ seconds is given by the formula $s = [BLANK] + 160t - 18t^2$. What is the maximum height the ball reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is released vertically from a height of [BLANK] with a starting speed that determines the height $s$ (in feet) after $t$ seconds as $s = [BLANK] + 160t - 18t^2$. What is the highest position achieved by the ball?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 200t - 25t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A ball is launched straight up from a height [BLANK] with an initial speed such that its position $s$ (in feet) after $t$ seconds is represented by $s = [BLANK] + 200t - 25t^2$. What is the highest point attained by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A sphere is propelled vertically from a base [BLANK] with a starting velocity so that the height $s$ (in feet) after $t$ seconds is defined by the equation $s = [BLANK] + 200t - 25t^2$. What is the peak height achieved by the sphere?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "An object is tossed upward from a location [BLANK] with an initial speed such that the height $s$ (in feet) at time $t$ seconds is given by the formula $s = [BLANK] + 200t - 25t^2$. What is the highest elevation reached by the object?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A projectile is sent vertically from a point [BLANK] with an initial velocity that results in the height $s$ (in feet) after $t$ seconds being described by $s = [BLANK] + 200t - 25t^2$. What is the maximum altitude the projectile reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is cast upward from a surface [BLANK] with a starting velocity such that the height $s$ (in feet) after $t$ seconds is expressed by $s = [BLANK] + 200t - 25t^2$. What is the utmost height the ball achieves?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 180t - 20t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A ball is launched straight up from a height of [BLANK] with an initial speed that results in the height $s$ (in feet) after $t$ seconds being expressed as $s = [BLANK] + 180t - 20t^2$. What is the highest point attained by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A ball is projected vertically from an elevation of [BLANK] at an initial velocity such that the height $s$ (in feet) after $t$ seconds is represented by $s = [BLANK] + 180t - 20t^2$. What is the peak height achieved by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A ball is tossed upward from a platform situated at [BLANK] with an initial speed that defines the height $s$ (in feet) after $t$ seconds as $s = [BLANK] + 180t - 20t^2$. What is the highest elevation reached by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A ball is thrown upwards from a height of [BLANK] with an initial velocity such that the position $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 180t - 20t^2$. What is the maximum altitude the ball reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is released vertically from a height of [BLANK] with an initial velocity so that the height $s$ (in feet) after $t$ seconds is described by $s = [BLANK] + 180t - 20t^2$. What is the maximum height that the ball can achieve?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A ball is thrown vertically upward from a platform [BLANK] with an initial velocity such that the elevation $s$ (in feet) after $t$ seconds is given by $s = [BLANK] + 150t - 15t^2$. What is the maximum height reached by the ball?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A ball is launched straight up from a platform [BLANK] at an initial speed that allows the height $s$ (in feet) after $t$ seconds to be described by the equation $s = [BLANK] + 150t - 15t^2$. What is the highest point attained by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A ball is projected upward from a platform [BLANK] with an initial velocity that results in the height $s$ (in feet) after $t$ seconds being represented by $s = [BLANK] + 150t - 15t^2$. What is the peak height achieved by the ball?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A ball is tossed upward from a platform [BLANK] with an initial speed such that the height $s$ (in feet) at time $t$ seconds is expressed as $s = [BLANK] + 150t - 15t^2$. What is the greatest height the ball reaches?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A ball is thrown upward from a platform [BLANK] with an initial velocity that leads to the height $s$ (in feet) after $t$ seconds being given by $s = [BLANK] + 150t - 15t^2$. What is the maximum elevation the ball achieves?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A ball is cast vertically upward from a platform [BLANK] with an initial speed so that the height $s$ (in feet) after $t$ seconds is described by the formula $s = [BLANK] + 150t - 15t^2$. What is the highest elevation reached by the ball?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

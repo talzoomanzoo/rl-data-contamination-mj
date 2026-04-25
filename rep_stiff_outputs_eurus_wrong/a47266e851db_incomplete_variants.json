@@ -1,0 +1,210 @@
+{
+  "original_question": "Lori wants to buy a $320.00 pair of shoes and a matching belt that is $32.00.  Her part-time job pays her $8.00 an hour.  How many hours will she have to work before she can make her purchase? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "David wants to buy a [BLANK] bicycle and a $15.00 helmet. His part-time job pays him $7.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "David is looking to purchase a [BLANK] bike along with a helmet that costs $15.00. He earns $7.00 for every hour he works at his part-time job. How many hours does he need to work to afford both items?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "David wishes to buy a [BLANK] bicycle and a helmet priced at $15.00. His hourly wage from his part-time job is $7.00. How many hours must he work to gather enough money for the purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "David intends to get a [BLANK] bike and also a helmet that costs $15.00. He makes $7.00 per hour at his part-time position. How many hours will he need to work to be able to buy them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "David plans to acquire a [BLANK] bicycle and a $15.00 helmet. His earnings from his part-time job are $7.00 each hour. How many hours does he need to work to have enough money for his purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "David aims to buy a [BLANK] bicycle, along with a helmet that costs $15.00. He is paid $7.00 an hour at his part-time job. How many hours does he need to work to afford both the bike and the helmet?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sarah wants to buy a [BLANK] laptop and a $45.00 carrying case. Her part-time job pays her $9.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sarah is looking to purchase a [BLANK] laptop along with a $45.00 case for it. She earns $9.00 per hour at her part-time job. How many hours must she work in order to afford these items?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "In order to buy a [BLANK] laptop and a carrying case that costs $45.00, Sarah needs to work some hours. Her part-time job pays her $9.00 hourly. How many hours will she need to work to make this purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "To buy a [BLANK] laptop and a $45.00 carrying case, Sarah needs to determine how many hours she has to work. She is paid $9.00 for each hour at her part-time job. What is the total number of hours she must work to afford her purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sarah plans to acquire a [BLANK] laptop along with a carrying case priced at $45.00. Her hourly wage from her part-time job is $9.00. How many hours will she need to work to gather enough money for her purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "To purchase a [BLANK] laptop and a carrying case that costs $45.00, Sarah needs to figure out how many hours to work. She earns $9.00 an hour from her part-time job. How many hours will she have to work to afford these items?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Emma wants to buy a [BLANK] phone and a $60.00 phone case. Her part-time job pays her $12.00 an hour. How many hours will she have to work before she can make her purchase?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma is looking to purchase a [BLANK] phone along with a phone case that costs $60.00. She earns $12.00 for each hour of her part-time job. How many hours must she work to afford her desired items?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma wishes to buy a [BLANK] phone and a phone case priced at $60.00. Her hourly wage from her part-time job is $12.00. How many hours will she need to work in order to afford these purchases?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma aims to buy a [BLANK] phone together with a phone case that costs $60.00. She makes $12.00 for every hour she works at her part-time job. How many hours does she need to work to be able to buy these items?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma intends to purchase a [BLANK] phone and a $60.00 phone case. Her income from her part-time job is $12.00 per hour. How many hours must she work to save enough money for her purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma plans to get a [BLANK] phone as well as a phone case that costs $60.00. She earns $12.00 an hour at her part-time job. How many hours will she have to work to make her purchase possible?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Michael wants to buy a [BLANK] gaming console and a $25.00 controller. His part-time job pays him $10.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Michael intends to purchase a [BLANK] gaming system along with a $25.00 controller. He earns $10.00 per hour at his part-time job. How many hours must he work to afford his purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Michael plans to buy a [BLANK] gaming console and also a controller priced at $25.00. His hourly wage from his part-time job is $10.00. How many hours does he need to work in order to make the purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Michael is looking to buy a [BLANK] gaming device along with a controller that costs $25.00. He makes $10.00 for each hour he works at his part-time job. How many hours must he work to be able to buy it?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Michael wishes to acquire a [BLANK] gaming console and a controller that costs $25.00. His part-time job gives him a pay of $10.00 per hour. How many hours will he need to work to afford this purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Michael is interested in getting a [BLANK] gaming console and a $25.00 controller. He earns $10.00 hourly at his part-time job. How many hours does he need to work to be able to make this purchase?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Kevin wants to buy a [BLANK] video game system and a $37.00 game. His part-time job pays him $11.00 an hour. How many hours will he have to work before he can make his purchase?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Kevin is looking to purchase a [BLANK] gaming console along with a game that costs $37.00. He earns $11.00 for each hour of his part-time job. How many hours must he work to afford this?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Kevin intends to buy a [BLANK] video game console and a game priced at $37.00. His hourly wage from his part-time job is $11.00. How many hours does he need to work to afford his purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Kevin aims to acquire a [BLANK] video game system, in addition to a game that costs $37.00. He receives $11.00 per hour at his part-time job. How many hours will he need to work to be able to buy it?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Kevin wishes to get a [BLANK] gaming system and a $37.00 game. His income from his part-time job is $11.00 each hour. How many hours of work are required for him to make this purchase?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Kevin plans to buy a [BLANK] video game system along with a game that costs $37.00. His part-time job pays him $11.00 an hour. How many hours does he have to work to make this purchase possible?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Lori wants to buy a [BLANK] pair of shoes and a matching belt that is $32.00. Her part-time job pays her $8.00 an hour. How many hours will she have to work before she can make her purchase? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lori is looking to purchase a [BLANK] set of shoes along with a coordinating belt priced at $32.00. She earns $8.00 per hour at her part-time job. How many hours does she need to work in order to afford this item? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lori intends to buy a [BLANK] pair of shoes and a complementary belt that costs $32.00. Her hourly wage from her part-time job is $8.00. How many hours must she work to save enough for her purchase? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lori wishes to buy a [BLANK] pair of shoes and a matching belt, which costs $32.00 in total. She earns $8.00 for each hour she works at her part-time job. How many hours will she need to work before she can afford to buy this? Let's consider this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lori plans to acquire a [BLANK] pair of shoes along with a matching belt that has a price tag of $32.00. At her part-time job, she receives $8.00 for every hour of work. How many hours of work will it take her to gather enough money for this purchase? Let's go through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lori aims to purchase a [BLANK] pair of shoes and a coordinating belt that costs $32.00. She is paid $8.00 per hour at her part-time job. How many hours will she need to work in order to afford this item? Let's break it down step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

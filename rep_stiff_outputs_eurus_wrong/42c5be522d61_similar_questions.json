@@ -1,0 +1,27 @@
+{
+  "dataset": "sat",
+  "original_question_id": 0,
+  "original_question": "You are now required to solve a SAT (Boolean Satisfiability) problem. The problem is provided in JSON format, containing the following fields:\n\n- \"n_sat\": The number of variables in each clause (n-SAT problem).\n- \"k\": The total number of distinct variables in the problem.\n- \"clause\": A string representation of the SAT formula, where clauses are separated by \" & \" (representing logical AND). Within each clause, variables are combined using concatenation (representing logical OR). A negation is indicated by \"!\" before a variable.\n\nYour task is to provide a valid solution. The answer is a string of length k representing the truth values of the variables in order (1 for true, 0 for false). If there are multiple solutions, provide any one of them.\nPlease reason step by step, and put your final answer within \\boxed{}.\n\n**Example**\n{\"n_sat\": 3, \"k\": 4, \"clause\": \"!B!C!D & A!B!D & AB!D\"}\n**Final Answer**\n\\boxed{1101}\n\nBelow is the SAT problem you need to solve:\n{\"n_sat\": 3, \"k\": 5, \"clause\": \"!AB!D & !B!D!E & !BC!D & !BC!E & !BCD & !BCE & !C!D!E & A!B!D & AB!C & ABD & ACD & B!C!D & C!D!E\"}\n",
+  "similar_questions": [
+    {
+      "id": 1,
+      "question": "{\"n_sat\": 3, \"k\": 6, \"clause\": \"!A!C!E & !B!D!F & !A!C!D & !B!C!E & !BDE & !BCE & !C!D!F & A!B!E & AB!C & ABD & ACD & B!C!E & C!D!F\"}"
+    },
+    {
+      "id": 2,
+      "question": "{\"n_sat\": 3, \"k\": 7, \"clause\": \"!B!C!E & !C!D!F & !A!B!D & !A!C!F & !BCD & !BCE & !A!D!F & A!C!E & AB!D & ABD & ACD & B!D!E & C!E!F\"}"
+    },
+    {
+      "id": 3,
+      "question": "{\"n_sat\": 3, \"k\": 5, \"clause\": \"!A!C!D & !B!C!E & !A!B!D & !A!B!F & !BCD & !BCE & !C!D!F & A!B!C & AB!D & ACD & B!C!E & C!D!F\"}"
+    },
+    {
+      "id": 4,
+      "question": "{\"n_sat\": 3, \"k\": 4, \"clause\": \"!A!D & !B!C!E & !A!B!C & !B!D!E & !BCD & !BCE & !C!D!E & A!B!D & AB!C & ABD & B!C!D & C!D!E\"}"
+    },
+    {
+      "id": 5,
+      "question": "{\"n_sat\": 3, \"k\": 6, \"clause\": \"!A!B!C & !B!D!E & !A!C!F & !B!C!E & !ABD & !BCE & !A!D!F & A!B!E & AB!C & ACD & B!C!E & C!D!F\"}"
+    }
+  ]
+}

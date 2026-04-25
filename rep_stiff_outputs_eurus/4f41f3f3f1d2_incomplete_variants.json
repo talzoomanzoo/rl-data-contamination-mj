@@ -1,0 +1,210 @@
+{
+  "original_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$. Find the number of positive integers $n$ less than $1000$ such that $f(n)=n$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=54$, then $b=6$, and $54$ as a numeral in base $6$ equals $5\\cdot 6+4=34$; therefore $f(54)=34$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that is larger than the highest digit present in $n$. For instance, if $n=54$, then $b=6$, and the numeral $54$ in base $6$ translates to $5\\cdot 6+4=34$; thus, $f(54)=34$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, define $f(n)$ to be the representation of the base-ten number $n$ when interpreted in base $b$, where $b$ is the smallest integer exceeding the highest digit in $n$. For instance, if $n=54$, then $b=6$, and the value of $54$ in base $6$ is calculated as $5\\cdot 6+4=34$; thus, $f(54)=34$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=54$, then $b=6$, and $54$ as a numeral in base $6$ equals $5\\cdot 6+4=34$; therefore $f(54)=34$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=54$, then $b=6$, and the representation of $54$ in base $6$ yields $5\\cdot 6+4=34$; thus, $f(54)=34$. Determine the quantity of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the largest digit in $n$. For instance, if $n=54$, then $b=6$, and the representation of $54$ in base $6$ is $5\\cdot 6+4=34$; thus, $f(54)=34$. Determine the quantity of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that is larger than the highest digit in $n$. As an illustration, if $n=72$, then $b=8$, and the representation of $72$ in base $8$ is $7\\cdot 8+2=58$; hence, $f(72)=58$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=72$, then $b=8$, and the interpretation of $72$ in base $8$ is $7\\cdot 8+2=58$; thus, $f(72)=58$. Determine how many positive integers $n$ that are less than [BLANK] satisfy the condition that $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=72$, then $b=8$, and $72$ as a numeral in base $8$ equals $7\\cdot 8+2=58$; therefore $f(72)=58$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the base-ten number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=72$, then $b=8$, and when expressed as a numeral in base $8$, $72$ corresponds to $7\\cdot 8+2=58$; thus, $f(72)=58$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the base-ten number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=72$, then $b=8$, and interpreting $72$ in base $8$ gives $7\\cdot 8+2=58$; thus, $f(72)=58$. Determine the count of positive integers $n$ that are less than [BLANK] such that $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=63$, then $b=7$, and $63$ as a numeral in base $7$ equals $6\\cdot 7+3=45$; therefore $f(63)=45$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the decimal number $n$ in base $b$, where $b$ is the smallest integer that is greater than the highest digit in $n$. For instance, if $n=63$, then $b=7$, and the value of $63$ in base $7$ is calculated as $6\\cdot 7 + 3 = 45$; thus, $f(63)=45$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=63$, then $b=7$, and the representation of $63$ in base $7$ is equal to $6\\cdot 7+3=45$; consequently, $f(63)=45$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=63$, then $b=7$, and $63$ as a numeral in base $7$ equals $6\\cdot 7+3=45$; therefore $f(63)=45$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer larger than the highest digit in $n$. For instance, if $n=63$, then $b=7$, and when $63$ is represented in base $7$, it equals $6\\cdot 7+3=45$; thus, $f(63)=45$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=63$, then $b=7$, and the representation of $63$ in base $7$ is calculated as $6\\cdot 7+3=45$; hence, $f(63)=45$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=19$, then $b=2$, and $19$ as a numeral in base $2$ equals $1\\cdot 2+9=11$; therefore $f(19)=11$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=19$, then $b=2$, and representing $19$ in base $2$ yields $1\\cdot 2+9=11$; hence, $f(19)=11$. Determine the quantity of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that is greater than the highest digit present in $n$. For instance, if $n=19$, then $b=2$, and the value of $19$ as a number in base $2$ is equal to $1\\cdot 2+9=11$; thus, $f(19)=11$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=19$, then $b=2$, and $19$ as a numeral in base $2$ equals $1\\cdot 2+9=11$; therefore $f(19)=11$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, define $f(n)$ as the representation of the base-ten number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=19$, then $b=2$, and the representation of $19$ in base $2$ is $1\\cdot 2+9=11$; hence, $f(19)=11$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=19$, then $b=2$, and interpreting $19$ as a numeral in base $2$ results in $1\\cdot 2+9=11$; thus, $f(19)=11$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=85$, then $b=9$, and $85$ as a numeral in base $9$ equals $8\\cdot 9+5=77$; therefore $f(85)=77$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For each positive whole number $n$, define $f(n)$ as the representation of the decimal number $n$ in base $b$, where $b$ is the smallest integer exceeding the highest digit in $n$. For instance, if $n=85$, then $b=9$, and the value of $85$ in base $9$ is $8\\cdot 9+5=77$; thus, $f(85)=77$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal numeral $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=85$, then $b=9$, and the representation of $85$ in base $9$ is $8\\cdot 9+5=77$; thus, $f(85)=77$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=85$, then $b=9$, and $85$ as a numeral in base $9$ equals $8\\cdot 9+5=77$; therefore $f(85)=77$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal numeral $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the maximum digit in $n$. For instance, if $n=85$, then $b=9$, and the representation of $85$ in base $9$ is calculated as $8\\cdot 9 + 5 = 77$; hence, $f(85)=77$. Determine the quantity of positive integers $n$ that are less than [BLANK] such that $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=85$, then $b=9$, and the representation of $85$ in base $9$ corresponds to $8\\cdot 9+5=77$; thus, $f(85)=77$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "aime26",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=41$, then $b=5$, and $41$ as a numeral in base $5$ equals $4\\cdot 5+1=21$; therefore $f(41)=21$. Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal representation of $n$ interpreted in base $b$, where $b$ is the smallest integer that is greater than the highest digit present in $n$. For instance, if $n=41$, then $b=5$, and interpreting $41$ as a number in base $5$ yields $4\\cdot 5 + 1 = 21$; thus, $f(41)=21$. Determine the count of positive integers $n$ that are less than [BLANK] such that $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every positive integer $n$, let $f(n)$ represent the value of the decimal number $n$ interpreted in base $b$, where $b$ is the smallest integer that is larger than the highest digit in $n$. For instance, if $n=41$, then $b=5$, and the representation of $41$ in base $5$ is $4\\cdot 5+1=21$; hence, $f(41)=21$. Determine the count of positive integers $n$ that are less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For each positive integer $n$ let $f(n)$ be the value of the base-ten numeral $n$ viewed in base $b$, where $b$ is the least integer greater than the greatest digit in $n$. For example, if $n=41$, then $b=5$, and $41$ as a numeral in base $5$ equals $4\\cdot 5+1=21$; therefore $f(41)=21$Find the number of positive integers $n$ less than [BLANK] such that $f(n)=n.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal numeral $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit in $n$. For instance, if $n=41$, then $b=5$, and the representation of $41$ in base $5$ is $4\\cdot 5+1=21$; thus, $f(41)=21$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every positive integer $n$, define $f(n)$ as the value of the decimal numeral $n$ interpreted in base $b$, where $b$ is the smallest integer that exceeds the highest digit present in $n$. For instance, if $n=41$, then $b=5$, and the representation of $41$ in base $5$ corresponds to $4\\cdot 5+1=21$; hence, $f(41)=21$. Determine the count of positive integers $n$ that are less than [BLANK] for which $f(n)=n$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

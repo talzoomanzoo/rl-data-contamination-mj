@@ -1,0 +1,210 @@
+{
+  "original_question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at a discount of $0.5. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "A tub of ice cream costing $20 is now sold at $18. A packet of milk was sold at [BLANK]. How much will you save if you buy 2 tubs of ice cream and 3 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An ice cream tub priced at $20 is currently available for $18. A pack of milk was priced at [BLANK]. What will be your savings if you purchase 2 ice cream tubs and 3 packs of milk? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A $20 tub of ice cream is now offered for $18. A milk packet was sold for [BLANK]. How much would you save if you buy 2 tubs of ice cream along with 3 milk packets? Let's go through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The cost of a tub of ice cream is $20 but is now marked down to $18. A packet of milk had a price of [BLANK]. How much will you save when purchasing 2 tubs of ice cream and 3 packets of milk? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Currently, a tub of ice cream that originally costs $20 is being sold for $18. The price of a milk packet was [BLANK]. What would your total savings be if you acquire 2 tubs of ice cream and 3 milk packets? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A tub of ice cream, which costs $20, is on sale for $18. The selling price of a packet of milk was [BLANK]. How much will you save by purchasing 2 tubs of ice cream and 3 packets of milk? Let's think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at [BLANK]. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An ice cream tub priced at $13 is currently available for $11. One packet of milk was sold at [BLANK]. What is the total savings if you purchase 2 tubs of ice cream and 4 packets of milk? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A tub of ice cream originally costing $13 is now priced at $11. A packet of milk was sold for [BLANK]. How much will you save when you buy 2 tubs of ice cream and 4 packets of milk? Let's work through this step by step and present the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Currently, a tub of ice cream that costs $13 is being sold for $11. A packet of milk was priced at [BLANK]. How much savings can you expect if you purchase 2 tubs of ice cream along with 4 packets of milk? Let's go through this methodically and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A tub of ice cream that has a price of $13 is now on sale for $11. A packet of milk was available for [BLANK]. What will your total savings be if you decide to buy 2 tubs of ice cream and 4 packets of milk? Let\u2019s break it down step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "An ice cream tub, which costs $13, is now offered at $11. A packet of milk was sold at [BLANK]. How much will you save by purchasing 2 tubs of ice cream and 4 packets of milk? Let's consider this step by step and provide the final answer following '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "A tub of ice cream costing $25 is now sold at $22. A packet of milk was sold at [BLANK]. How much will you save if you buy 1 tub of ice cream and 6 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An ice cream tub priced at $25 is currently available for $22. A packet of milk was priced at [BLANK]. What will be your total savings if you purchase 1 tub of ice cream and 6 packets of milk? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A $25 tub of ice cream is now offered for $22. The cost of a packet of milk was [BLANK]. How much will you save when you buy 1 tub of ice cream along with 6 packets of milk? Let's analyze this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "The price of a tub of ice cream is $25, but it is currently selling for $22. A packet of milk had a price of [BLANK]. How much will you save if you purchase 1 tub of ice cream and 6 packets of milk? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "A tub of ice cream that costs $25 is now reduced to $22. The price of a packet of milk was [BLANK]. How much will you save when buying 1 tub of ice cream and 6 packets of milk? Let's break this down step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Originally priced at $25, a tub of ice cream is now on sale for $22. The selling price of a packet of milk was [BLANK]. What will your total savings be if you buy 1 tub of ice cream and 6 packets of milk? Let's work through this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "A tub of ice cream costing $18 is now sold at $14. A packet of milk was sold at [BLANK]. How much will you save if you buy 5 tubs of ice cream and 1 packet of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An ice cream tub priced at $18 is currently available for $14. A carton of milk was priced at [BLANK]. What will be your total savings if you purchase 5 tubs of ice cream and 1 carton of milk? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A container of ice cream that costs $18 is now being offered for $14. A bag of milk was sold for [BLANK]. How much money will you save by buying 5 containers of ice cream along with 1 bag of milk? Let's break it down step by step and put the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A tub of ice cream, which originally costs $18, is now priced at $14. A pack of milk was sold for [BLANK]. How much can you save by purchasing 5 tubs of ice cream and 1 pack of milk? Let's go through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An $18 ice cream tub is now offered at a reduced price of $14. A package of milk was sold at [BLANK]. What is your total savings if you buy 5 ice cream tubs and 1 package of milk? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A tub of ice cream that costs $18 is currently on sale for $14. A jug of milk was sold for [BLANK]. How much will you save if you decide to buy 5 tubs of ice cream and 1 jug of milk? Let's evaluate this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "A tub of ice cream costing $10 is now sold at $9. A packet of milk was sold at [BLANK]. How much will you save if you buy 4 tubs of ice cream and 2 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "A container of ice cream priced at $10 is currently available for $9. A carton of milk was priced at [BLANK]. What will be your total savings if you purchase 4 containers of ice cream and 2 cartons of milk? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "An ice cream tub that costs $10 is now available for $9. A bottle of milk was sold at [BLANK]. How much will you save when you buy 4 tubs of ice cream along with 2 bottles of milk? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A tub of ice cream originally priced at $10 is being sold for $9. A packet of milk was offered at [BLANK]. How much will you save if you purchase 4 tubs of ice cream and 2 packets of milk? Let's work through this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An ice cream tub that is $10 is now on sale for $9. A packet of milk was priced at [BLANK]. What will your total savings be if you buy 4 tubs of ice cream and 2 packets of milk? Let\u2019s consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A $10 tub of ice cream is now selling for $9. A packet of milk had a price of [BLANK]. How much will you save if you decide to buy 4 tubs of ice cream and 2 packets of milk? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "A tub of ice cream costing $15 is now sold at $12. A packet of milk was sold at [BLANK]. How much will you save if you buy 3 tubs of ice cream and 5 packets of milk? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "An ice cream tub priced at $15 is currently available for $12. A pack of milk was priced at [BLANK]. What will your savings be if you purchase 3 tubs of ice cream and 5 packs of milk? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "A container of ice cream that costs $15 is now being offered for $12. The price of a milk packet was [BLANK]. How much money will you save by acquiring 3 tubs of ice cream and 5 milk packets? Let's evaluate this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "A $15 tub of ice cream is now on sale for $12. A packet of milk was priced at [BLANK]. How much will you save if you purchase 3 tubs of ice cream alongside 5 packets of milk? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "An ice cream tub that originally costs $15 is now priced at $12. The cost of a packet of milk was [BLANK]. What will your total savings be if you buy 3 tubs of ice cream and 5 packets of milk? Let's go through the steps together and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "A tub of ice cream that was $15 is currently offered for $12. A packet of milk has the price of [BLANK]. How much can you save if you decide to buy 3 tubs of ice cream and 5 milk packets? Let's systematically think this through and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "original_question": "For all values $x$ where it is defined, define $f(x) = \\cot \\frac{x}{3} - \\cot 2x$. The function can be expressed as\n\\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}.\\]\nFind the value of $k$.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every value of $x$ for which it is valid, let $f(x) = [BLANK]$. This function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ in its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every value of $x$ where it is valid, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every value of $x$ in its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{5} \\sin 4x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. This function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every permissible value of $x$, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every value of $x$ in its domain, let $f(x) = [BLANK]$. The function is represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{4} \\sin 3x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every permissible value of $x$, let $f(x) = [BLANK]$. The function is given by the equation \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every value $x$ within its domain, let $f(x) = [BLANK]$. The function is represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{2} \\sin 3x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ for which it is valid, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every value of $x$ in its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every permissible value of $x$, let $f(x) = [BLANK]$. The function is represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{3} \\sin 2x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. This function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every value of $x$ in its domain, let $f(x) = [BLANK]$. The function is represented by the equation \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}\\.] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be written as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{6} \\sin 5x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "For all values $x$ where it is defined, define $f(x) = [BLANK]$. The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Find the value of $k$.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 2,
+          "variant": "For every value of $x$ within its domain, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 3,
+          "variant": ". For all values $x$ where it is defined, define $f(x) = [BLANK]$The function can be expressed as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Find the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 4,
+          "variant": "For every value $x$ for which it is defined, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        },
+        {
+          "id": 5,
+          "variant": "For every value of $x$ for which it is valid, let $f(x) = [BLANK]$. The function can be represented as \\[f(x) = \\frac{\\sin kx}{\\sin \\frac{x}{7} \\sin 6x}\\.\\] Determine the value of $k$.",
+          "strategy": "mixed_fallback"
+        }
+      ]
+    }
+  ]
+}

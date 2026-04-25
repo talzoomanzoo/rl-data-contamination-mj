@@ -1,0 +1,62 @@
+{
+  "original_question": "For a real number \\(x,\\) find the maximum value of\n\\[\n\\frac{x^4}{x^8 + 2x^6 + 4x^4 + 8x^2 + 16}.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the specific polynomial expression\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "For a real number \\(x,\\) find the maximum value of\n\\[\n\\frac{x^4}{x^8 + 2x^6 + 4x^4 + 8x^2 + 16}.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "For a real number \\(x,\\) find the maximum value of\n\\[\n\\frac{x^4}{[BLANK]}.\n\\]\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the specific polynomial expression\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{x^8 + 3x^6 + 9x^4 + 27x^2 + 81}. \\\\]\",",
+      "incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "info_removed": "\"the specific polynomial expression\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{x^8 + 4x^6 + 16x^4 + 32x^2 + 64}. \\\\]\",",
+      "incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "info_removed": "\"the specific polynomial expression\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{x^8 + 5x^6 + 25x^4 + 125x^2 + 625}. \\\\]\",",
+      "incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "info_removed": "\"the specific polynomial expression\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{x^8 + 6x^6 + 36x^4 + 216x^2 + 1296}. \\\\]\",",
+      "incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "info_removed": "\"the specific polynomial expression\""
+    },
+    {
+      "dataset": "numina_synthetic_math",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{x^8 + 7x^6 + 49x^4 + 343x^2 + 2401}. \\\\]\"",
+      "incomplete_question": "\"For a real number \\(x,\\) find the maximum value of \\\\[ \\\\frac{x^4}{[BLANK]}. \\\\]\"",
+      "info_removed": "\"the specific polynomial expression\""
+    }
+  ],
+  "num_valid_similars": 5
+}

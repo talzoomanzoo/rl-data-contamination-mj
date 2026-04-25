@@ -1,0 +1,62 @@
+{
+  "original_question": "In a round-robin tournament with 8 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins?\nA) 4\nB) 5\nC) 6\nD) 7\nE) 8\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the total number of teams in the tournament\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "In a round-robin tournament with 8 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins?\nA) 4\nB) 5\nC) 6\nD) 7\nE) 8\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 8",
+      "info_removed": "\"the total number of teams in the tournament\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "In a round-robin tournament with 6 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 3 B) 4 C) 5 D) 6 E) 2",
+      "info_removed": "\"the total number of teams in the tournament\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "In a round-robin tournament with 10 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 5 B) 6 C) 7 D) 8 E) 9",
+      "info_removed": "\"the total number of teams in the tournament\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "In a round-robin tournament with 12 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 6 B) 7 C) 8 D) 9 E) 10",
+      "info_removed": "\"the total number of teams in the tournament\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "In a round-robin tournament with 5 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 2 B) 3 C) 4 D) 5 E) 1",
+      "info_removed": "\"the total number of teams in the tournament\""
+    },
+    {
+      "dataset": "numina_synthetic_amc",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "In a round-robin tournament with 7 teams, each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+      "incomplete_question": "In a round-robin tournament with [BLANK], each team plays one game against each other team. Every game results in one winner and one loser. At the end of the tournament, the teams are ranked by their number of wins. What is the maximum number of teams that could be tied for the most wins? A) 4 B) 5 C) 6 D) 7 E) 3",
+      "info_removed": "\"the total number of teams in the tournament\""
+    }
+  ],
+  "num_valid_similars": 5
+}

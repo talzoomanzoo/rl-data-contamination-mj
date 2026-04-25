@@ -1,0 +1,62 @@
+{
+  "original_question": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid $76,000 for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined. Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the initial purchase price of a house\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid $76,000 for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined. Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Juan asked his neighbor, Herb, how much his house was worth. Herb answered that he paid [BLANK] for the house. If Juan's house is 30% less expensive than Herb's, calculate the value of the two houses combined. Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the initial purchase price of a house\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Carlos asked his friend, Linda, how much her car was worth. Linda answered that she paid $52,000 for the car. If Carlos's car is 25% less expensive than Linda's, calculate the value of the two cars combined.",
+      "incomplete_question": "Carlos asked his friend, Linda, how much her car was worth. Linda answered that she paid [BLANK] for the car. If Carlos's car is 25% less expensive than Linda's, calculate the value of the two cars combined.",
+      "info_removed": "\"the initial purchase price of a house\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Sophie asked her colleague, Mark, how much his bike was worth. Mark answered that he paid $48,000 for the bike. If Sophie's bike is 20% less expensive than Mark's, calculate the value of the two bikes combined.",
+      "incomplete_question": "Sophie asked her colleague, Mark, how much his bike was worth. Mark answered that he paid [BLANK] for the bike. If Sophie's bike is 20% less expensive than Mark's, calculate the value of the two bikes combined.",
+      "info_removed": "\"the initial purchase price of a house\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "David asked his sister, Emily, how much her laptop was worth. Emily answered that she paid $64,000 for the laptop. If David's laptop is 15% less expensive than Emily's, calculate the value of the two laptops combined.",
+      "incomplete_question": "David asked his sister, Emily, how much her laptop was worth. Emily answered that she paid [BLANK] for the laptop. If David's laptop is 15% less expensive than Emily's, calculate the value of the two laptops combined.",
+      "info_removed": "\"the initial purchase price of a house\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Rachel asked her brother, Tom, how much his camera was worth. Tom answered that he paid $80,000 for the camera. If Rachel's camera is 10% less expensive than Tom's, calculate the value of the two cameras combined.",
+      "incomplete_question": "Rachel asked her brother, Tom, how much his camera was worth. Tom answered that he paid [BLANK] for the camera. If Rachel's camera is 10% less expensive than Tom's, calculate the value of the two cameras combined.",
+      "info_removed": "\"the initial purchase price of a house\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Paul asked his friend, Sarah, how much her watch was worth. Sarah answered that she paid $70,000 for the watch. If Paul's watch is 5% less expensive than Sarah's, calculate the value of the two watches combined.",
+      "incomplete_question": "Paul asked his friend, Sarah, how much her watch was worth. Sarah answered that she paid [BLANK] for the watch. If Paul's watch is 5% less expensive than Sarah's, calculate the value of the two watches combined.",
+      "info_removed": "\"the initial purchase price of a house\""
+    }
+  ],
+  "num_valid_similars": 5
+}

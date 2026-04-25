@@ -1,0 +1,210 @@
+{
+  "original_question": "Bob is 75 miles ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Nina is [BLANK] ahead of Oscar, driving 40 miles per hour. Oscar is driving 50 miles per hour. How long will it take Oscar to catch up with Nina?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nina is [BLANK] in front of Oscar, who is traveling at 50 miles per hour. Nina drives at a speed of 40 miles per hour. What duration will it take for Oscar to reach Nina?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Nina is [BLANK] in advance of Oscar, moving at 40 miles per hour. Oscar drives at 50 miles per hour. How much time will it take for Oscar to close the gap with Nina?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nina is [BLANK] in the lead over Oscar, who is driving at a speed of 50 miles per hour. Meanwhile, Nina is traveling at 40 miles per hour. How long will it take Oscar to catch up with her?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Nina is [BLANK] in front of Oscar, who is driving at 50 miles per hour, while Nina is going at 40 miles per hour. How much time will it take for Oscar to catch up to Nina?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Nina is [BLANK] ahead of Oscar, who is traveling at a speed of 50 miles per hour, while Nina drives at 40 miles per hour. How long will it take Oscar to catch up with her?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Sara is [BLANK] ahead of John, driving 65 miles per hour. John is driving 80 miles per hour. How long will it take John to catch up with Sara?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sara is [BLANK] in front of John, who is traveling at 65 miles per hour. John drives at 80 miles per hour. What duration will it take for John to close the gap with Sara?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sara is [BLANK] in the lead over John, who is moving at 65 miles per hour. Meanwhile, John is going 80 miles per hour. How long will it take for John to reach Sara?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sara is [BLANK] ahead of John, who is going 65 miles per hour. John, on the other hand, is driving at 80 miles per hour. How much time will it take John to catch up with Sara?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sara is [BLANK] in front of John, who drives at a speed of 65 miles per hour. John is traveling at 80 miles per hour. How long will it take him to catch up with Sara?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sara is [BLANK] ahead of John, who is traveling at 65 miles per hour. John drives at a speed of 80 miles per hour. How much time will it take for John to catch up with Sara?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Emily is [BLANK] ahead of Jake, driving 70 miles per hour. Jake is driving 85 miles per hour. How long will it take Jake to catch up with Emily?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emily is [BLANK] in front of Jake, who is traveling at a speed of 70 miles per hour. Meanwhile, Jake is moving at 85 miles per hour. What duration will it take for Jake to reach Emily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "At a speed of 70 miles per hour, Emily is [BLANK] ahead of Jake. Jake, on the other hand, is driving at 85 miles per hour. How much time will it require for Jake to close the gap with Emily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Driving at 70 miles per hour, Emily is [BLANK] in front of Jake, who drives at a speed of 85 miles per hour. How long will it take for Jake to catch up to Emily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emily is currently [BLANK] ahead of Jake, who is driving at 70 miles per hour, while Jake's speed is 85 miles per hour. How much time will it take for Jake to catch up with Emily?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With Emily positioned [BLANK] ahead of Jake and Jake driving at 85 miles per hour while Emily travels at 70 miles per hour, how long will it take for Jake to overtake Emily?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Alice is [BLANK] ahead of Mark, driving 60 miles per hour. Mark is driving 75 miles per hour. How long will it take Mark to catch up with Alice?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alice is [BLANK] in front of Mark, who is traveling at a speed of 60 miles per hour. Meanwhile, Mark drives at 75 miles per hour. What duration will it take for Mark to reach Alice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alice is [BLANK] in advance of Mark, who is moving at 60 miles per hour. On the other hand, Mark's speed is 75 miles per hour. How long will it require for Mark to close the gap with Alice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alice is [BLANK] ahead of Mark, who is going 60 miles per hour. Mark, however, is driving at a speed of 75 miles per hour. How much time will it take for Mark to catch up to Alice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alice is [BLANK] in front of Mark, who drives at 60 miles per hour. In contrast, Mark's speed is 75 miles per hour. How long will it take for Mark to catch up with Alice?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alice is [BLANK] ahead of Mark, who is traveling at 60 miles per hour. Mark drives at a speed of 75 miles per hour. What will be the time needed for Mark to catch up to Alice?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Lisa is [BLANK] ahead of Kevin, driving 50 miles per hour. Kevin is driving 65 miles per hour. How long will it take Kevin to catch up with Lisa?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lisa is [BLANK] in front of Kevin, who is traveling at 50 miles per hour. Kevin, on the other hand, is moving at 65 miles per hour. What duration will it take for Kevin to close the gap with Lisa?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lisa is [BLANK] in the lead compared to Kevin, who drives at 50 miles per hour. Meanwhile, Kevin is going at a speed of 65 miles per hour. How long will it require for Kevin to catch up to Lisa?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lisa is [BLANK] ahead of Kevin, who maintains a speed of 50 miles per hour. Conversely, Kevin drives at 65 miles per hour. How long will it take for Kevin to reach Lisa?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lisa is [BLANK] in advance of Kevin, who is driving at 50 miles per hour. Kevin drives faster at 65 miles per hour. How much time will it take for Kevin to catch Lisa?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lisa is [BLANK] in front of Kevin, who is traveling at a speed of 50 miles per hour. Kevin drives at a faster speed of 65 miles per hour. How long will it take Kevin to reach Lisa?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Bob is [BLANK] ahead of Tom, driving 55 miles per hour. Tom is driving 70 miles per hour. How long will it take Tom to catch up with Bob? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Bob is [BLANK] in front of Tom, traveling at 55 miles per hour. Tom's speed is 70 miles per hour. How much time will it take for Tom to catch up with Bob? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Bob is [BLANK] ahead of Tom, moving at a speed of 55 miles per hour. Meanwhile, Tom drives at 70 miles per hour. How long will it take for Tom to reach Bob? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Bob is [BLANK] in front of Tom, going 55 miles per hour. Tom, on the other hand, is driving at 70 miles per hour. How long will it take Tom to close the gap with Bob? Let's consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Bob is [BLANK] ahead of Tom, who is traveling at 70 miles per hour, while Bob is driving at 55 miles per hour. How long will it take for Tom to catch up to Bob? Let's discuss this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Bob is [BLANK] in front of Tom, who drives at 70 miles per hour while Bob drives at 55 miles per hour. What will be the time taken for Tom to catch up with Bob? Let\u2019s evaluate this step by step and share the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

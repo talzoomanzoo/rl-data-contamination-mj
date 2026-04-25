@@ -1,0 +1,210 @@
+{
+  "original_question": "Lloyd earns $10 an hour on Math tutoring.  He tutored 5 hours for the first week and 8 hours for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Lloyd earns $10 an hour on Math tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lloyd makes $10 each hour for Math tutoring. He tutored [BLANK] during the first week and [BLANK] in the second week. What was his total earnings for the two weeks? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Lloyd receives $10 per hour for his Math tutoring services. He taught for [BLANK] hours in the first week and [BLANK] hours in the second week. How much did he earn over the span of the first two weeks? Let's analyze it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "For Math tutoring, Lloyd charges $10 for every hour. In the first week, he tutored for [BLANK] and in the second week, he tutored for [BLANK]. What is his total income from the first two weeks? Let's examine it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Lloyd's hourly rate for Math tutoring is $10. He provided tutoring for [BLANK] in the first week and [BLANK] in the second week. How much did he make during these two weeks? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Lloyd earns $10 for each hour of Math tutoring he provides. He tutored [BLANK] hours the first week and [BLANK] hours the second week. What amount did he earn in total for the first two weeks? Let's think it through step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Mark earns $12 an hour on English tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Mark receives $12 each hour for tutoring English. He worked [BLANK] during the first week and [BLANK] during the second week. What is his total earnings for the two weeks? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Mark makes $12 per hour from his English tutoring sessions. In the first week, he tutored for [BLANK], and in the second week, he tutored for [BLANK]. How much money did he make over the two weeks? Let's go through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Mark is paid $12 hourly for tutoring English. He spent [BLANK] tutoring in the first week and [BLANK] during the second week. What total amount did he earn for the first two weeks? Let's work through it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Mark earns $12 an hour for his English tutoring work. He tutored [BLANK] in the first week and [BLANK] in the second week. How much did he make overall for the two weeks? Let's think through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Mark has a rate of $12 per hour for tutoring English. He provided tutoring for [BLANK] in the first week and [BLANK] in the second week. What is his total income from the two weeks? Let's examine this step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Sophia earns $18 an hour on Computer Science tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia makes $18 per hour tutoring in Computer Science. She worked [BLANK] during the first week and [BLANK] during the second week. What is her total earnings for these two weeks? Let's analyze this step by step and provide the final result after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia receives $18 for each hour of Computer Science tutoring. For the first week, she tutored [BLANK] and for the second week, she tutored [BLANK]. How much did she earn over the course of the first two weeks? Let's break it down step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia is paid $18 an hour for her Computer Science tutoring sessions. In the first week, she tutored [BLANK] and in the second week, she tutored [BLANK]. What was her total income for the first two weeks? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia's hourly rate for tutoring in Computer Science is $18. She tutored [BLANK] in the first week and [BLANK] in the second week. How much did she make in total for the first two weeks? Let's think this through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia earns $18 for every hour she tutors in Computer Science. She provided tutoring for [BLANK] during the first week and [BLANK] during the second week. What is the total amount she earned for the first two weeks? Let's reason through this step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Nina earns $20 an hour on History tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Nina receives $20 per hour for tutoring in History. She provided tutoring for [BLANK] during the first week and [BLANK] during the second week. What is her total earnings for the two weeks? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Nina makes $20 for each hour she tutors History. In the first week, she tutored [BLANK] hours and in the second week, she tutored [BLANK] hours. How much did she earn over these two weeks? We will break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Nina has a tutoring rate of $20 per hour for History. She worked for [BLANK] hours in the first week and [BLANK] hours in the second week. What was her total income for the two weeks? Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Nina charges $20 an hour for her History tutoring sessions. She tutored [BLANK] in the first week and [BLANK] in the second week. How much money did she make in total for the two weeks? Let\u2019s consider this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Nina earns $20 each hour she spends tutoring History. During the first week, she tutored [BLANK] and in the second week, she tutored [BLANK]. What is her total earnings for the first two weeks? We will think through this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Lydia earns $15 an hour on Science tutoring. She tutored [BLANK] for the first week and [BLANK] for the second week. How much did she earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Lydia receives $15 for each hour she spends on Science tutoring. In the first week, she tutored [BLANK], and in the second week, she tutored [BLANK]. What was her total earnings for the initial two weeks? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "For Science tutoring, Lydia makes $15 hourly. She worked with [BLANK] during the first week and [BLANK] in the second week. What amount did she earn over the course of the first two weeks? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Lydia's hourly rate for Science tutoring is $15. In the first week, she completed [BLANK] hours, and for the second week, she completed [BLANK] hours. How much money did she make in total for the first two weeks? Let's proceed step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Earning $15 per hour, Lydia tutored Science. She logged [BLANK] hours in the first week and [BLANK] hours in the second week. How much did she earn in total for the two weeks combined? Let's evaluate this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "With an hourly wage of $15 for Science tutoring, Lydia tutored [BLANK] during the first week and [BLANK] during the second week. What was her total income for the first two weeks? Let's think it through step by step and display the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Oliver earns $14 an hour on Physics tutoring. He tutored [BLANK] for the first week and [BLANK] for the second week. How much did he earn for the first two weeks? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver receives $14 per hour for tutoring in Physics. During the first week, he tutored [BLANK] and in the second week, he tutored [BLANK]. What was his total earnings for the first two weeks? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver's hourly rate for Physics tutoring is $14. He provided tutoring for [BLANK] in the first week and [BLANK] in the following week. How much did he make in total over the two weeks? Let's go through it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver makes $14 each hour while tutoring Physics. He tutored [BLANK] during the first week and [BLANK] in the second week. What is his total income for these two weeks? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver has an hourly wage of $14 for his Physics tutoring sessions. He tutored [BLANK] in the first week and [BLANK] in the second week. How much did he earn over the two weeks combined? Let's consider this step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver earns $14 for each hour of tutoring in Physics. In the first week, he tutored [BLANK] and in the second week, he tutored [BLANK]. What is his total earnings for the two weeks? Let's think through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

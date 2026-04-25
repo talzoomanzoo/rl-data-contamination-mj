@@ -1,0 +1,210 @@
+{
+  "original_question": "Sasha notices that prices for lumber have gone up 50% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten 2 x 4 x 10 boards that cost her $10 each. She also has five 4 x 4 x 10 boards she bought for $16 each. If she sells them all, how much profit does she make? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Morgan sees that prices for tiles have risen by 45% recently after he made his purchase. With some excess on hand, he decides to sell them. He has leftover eighteen 1 x 1 x 1 tiles that cost him [BLANK] each. He also has four 2 x 2 x 1 tiles he bought for [BLANK] each. If he sells them all, how much profit does he make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Morgan notices that the cost of tiles has increased by 45% recently since he made his purchase. With some extra tiles available, he opts to sell them. He has eighteen 1 x 1 x 1 tiles that he purchased for [BLANK] each. Additionally, he possesses four 2 x 2 x 1 tiles that he bought for [BLANK] each. If he sells all of these, what is his profit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Morgan observes that the prices of tiles have gone up by 45% since he completed his purchase. With some surplus tiles, he chooses to sell them. He currently has eighteen 1 x 1 x 1 tiles that cost him [BLANK] each. He also owns four 2 x 2 x 1 tiles that he acquired for [BLANK] each. How much profit does he earn if he sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Morgan realizes that tile prices have surged by 45% after he made his purchase. With some additional tiles, he has decided to sell them. He has eighteen 1 x 1 x 1 tiles that he spent [BLANK] each on. Moreover, he has four 2 x 2 x 1 tiles that he purchased for [BLANK] each. If he sells everything, what is the profit he makes?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Morgan finds out that the prices for tiles have increased by 45% following his purchase. With some extra tiles in his possession, he plans to sell them. He has a total of eighteen 1 x 1 x 1 tiles that he bought for [BLANK] each. He also has four 2 x 2 x 1 tiles which he paid [BLANK] each for. How much profit will he generate if he sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Morgan discovers that the cost of tiles has gone up by 45% since he made his purchase. With some leftover tiles, he decides to sell them. He has eighteen 1 x 1 x 1 tiles that cost him [BLANK] each. Additionally, he has four 2 x 2 x 1 tiles that he obtained for [BLANK] each. If he sells all of these, what profit will he realize?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Alex realizes that prices for bricks have increased by 60% in the last few months following his purchase. Since he has surplus, he decides to sell them. He has leftover twenty 3 x 4 x 12 bricks that cost him [BLANK] each. He also has eight 6 x 6 x 12 bricks he bought for [BLANK] each. If he sells them all, how much profit does he make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Alex notices that the cost of bricks has risen by 60% in recent months after he made his purchase. Given that he has extras, he plans to sell them. He has twenty bricks measuring 3 x 4 x 12 that he paid [BLANK] each for. Additionally, he possesses eight bricks sized 6 x 6 x 12 that he acquired for [BLANK] each. How much profit will he earn by selling all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Alex observes that brick prices have surged by 60% over the past few months after his purchase. Since he has some leftover, he intends to sell them. He has twenty bricks of dimensions 3 x 4 x 12 that he purchased for [BLANK] each. He also has eight bricks measuring 6 x 6 x 12 that cost him [BLANK] each. What will be his total profit if he sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Alex discovers that the prices of bricks have gone up by 60% in the last few months subsequent to his purchase. As he has an excess, he decides to sell what he has. He has twenty 3 x 4 x 12 bricks that he bought for [BLANK] each. In addition, he has eight 6 x 6 x 12 bricks he purchased for [BLANK] each. If he sells everything, how much profit does he generate?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Alex finds out that the cost of bricks has increased by 60% in recent months since he made his purchase. With some extra stock, he chooses to sell them. He has twenty bricks sized 3 x 4 x 12 that he purchased at [BLANK] each. Furthermore, he has eight bricks that are 6 x 6 x 12, which he bought for [BLANK] each. What is the total profit he will make if he sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Alex becomes aware that the prices of bricks have gone up by 60% in the last few months after he made his purchase. As he has a surplus, he decides to put them up for sale. He has twenty bricks measuring 3 x 4 x 12 which cost him [BLANK] each. He also possesses eight 6 x 6 x 12 bricks that he acquired for [BLANK] each. How much profit does he make if he sells all of these?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Jordan notices that prices for drywall have gone up 40% in the last few months after he purchased some. Since he has leftovers, he decides to sell them. He has leftover fifteen 2 x 4 x 8 panels that cost him [BLANK] each. He also has six 4 x 4 x 8 panels he bought for [BLANK] each. If he sells them all, how much profit does he make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jordan observes that the cost of drywall has increased by 40% recently after his own purchase. With some panels remaining, he plans to sell them. He has fifteen 2 x 4 x 8 panels that he bought for [BLANK] each. Additionally, he possesses six 4 x 4 x 8 panels that he acquired for [BLANK] each. If he sells all of these, what will be his total profit?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noticing a 40% rise in drywall prices over the past few months after his purchase, Jordan decides to sell his surplus. He has fifteen 2 x 4 x 8 panels that he paid [BLANK] each for. Furthermore, he also owns six 4 x 4 x 8 panels, which he bought for [BLANK] each. How much profit will he generate by selling all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jordan has realized that the prices of drywall have gone up 40% in recent months since he made his purchase. With some materials left over, he intends to sell them. He has fifteen 2 x 4 x 8 panels that cost him [BLANK] each. In addition, he has six 4 x 4 x 8 panels that were purchased for [BLANK] each. What is the profit he will earn from selling all of these panels?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "After noticing a 40% increase in drywall pricing over the last few months following his purchase, Jordan decides to sell his remaining stock. He has fifteen 2 x 4 x 8 panels, which he bought at [BLANK] each. He also has six 4 x 4 x 8 panels that he acquired for [BLANK] each. If he sells every panel, how much will his profit amount to?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jordan sees that drywall prices have risen by 40% in the past few months after he made his purchase. Since he has some leftovers, he chooses to sell them. He has fifteen 2 x 4 x 8 panels for which he paid [BLANK] each. He also has six 4 x 4 x 8 panels that cost him [BLANK] each. What total profit will he achieve by selling all of these?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Jamie finds that prices for insulation have gone up 55% in recent months since his purchase. With some remaining, he plans to sell them. He has leftover twenty-five 3 x 3 x 10 rolls that cost him [BLANK] each. He also has three 5 x 5 x 10 rolls he bought for [BLANK] each. If he sells them all, how much profit does he make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Jamie notices that the costs for insulation have increased by 55% recently since he made his purchase. With some stock left, he intends to sell them. He has twenty-five rolls measuring 3 x 3 x 10 that he purchased for [BLANK] each. Additionally, he possesses three rolls of 5 x 5 x 10 that he acquired for [BLANK] each. What total profit will he earn if he sells everything?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Jamie realizes that the prices for insulation have risen by 55% in the past few months following his purchase. With some units still available, he aims to sell them. He has twenty-five rolls of 3 x 3 x 10 that cost him [BLANK] each. Furthermore, he has three rolls of 5 x 5 x 10 that were bought for [BLANK] each. How much profit will he generate by selling all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Jamie discovers that the price of insulation has surged by 55% since he made his purchase a few months ago. With some inventory remaining, he plans to sell it. He has twenty-five rolls measuring 3 x 3 x 10 that he paid [BLANK] each for. He also holds three rolls of 5 x 5 x 10 that he purchased for [BLANK] each. What is the total profit he will make if he sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Jamie finds that insulation prices have increased by 55% in recent months after his purchase. With some items left, he is considering selling them. He has twenty-five rolls that are 3 x 3 x 10 in size, which he bought for [BLANK] each. He also has three rolls measuring 5 x 5 x 10 that he purchased for [BLANK] each. If he sells all of these, what profit does he realize?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Jamie observes that the prices for insulation have gone up by 55% in the last few months since he made his purchase. With some stock still available, he intends to sell them. He has twenty-five rolls that are 3 x 3 x 10 in dimensions that he bought for [BLANK] each. He also possesses three rolls of 5 x 5 x 10 that he acquired for [BLANK] each. How much profit will he make by selling all of them?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Kim observes that prices for concrete have surged by 30% in the past few months after she bought some. Since she has extra, she decides to sell them. She has leftover twelve 2 x 6 x 12 blocks that cost her [BLANK] each. She also has seven 4 x 6 x 12 blocks she bought for [BLANK] each. If she sells them all, how much profit does she make?",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Kim notices that the cost of concrete has increased by 30% over the last few months since her purchase. With some surplus, she chooses to sell them. She possesses twelve 2 x 6 x 12 blocks that she acquired for [BLANK] each. Additionally, she has seven 4 x 6 x 12 blocks that she purchased for [BLANK] each. What is her total profit if she sells all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "After noticing a 30% rise in concrete prices in recent months since her last purchase, Kim decides to sell her extra supply. She has twelve 2 x 6 x 12 blocks that she paid [BLANK] each. Furthermore, she owns seven 4 x 6 x 12 blocks that were bought for [BLANK] each. If she sells all of her blocks, how much profit will she earn?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Having observed a 30% increase in the prices of concrete recently, Kim, who has some extra, opts to sell her stock. She has twelve 2 x 6 x 12 blocks that cost her [BLANK] each. In addition, she has seven 4 x 6 x 12 blocks for which she spent [BLANK] each. What will be her profit if she sells everything?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Kim has realized that concrete prices have gone up by 30% in the last few months since her purchase. Since she has some extra blocks, she plans to sell them. She retains twelve 2 x 6 x 12 blocks that were priced at [BLANK] each. She also has seven 4 x 6 x 12 blocks that she bought for [BLANK] each. How much profit does she generate from selling all of them?",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "After noticing a 30% hike in concrete prices over the past few months since she made a purchase, Kim decides to sell her surplus. She has twelve 2 x 6 x 12 blocks that she acquired for [BLANK] each. Moreover, she has seven 4 x 6 x 12 blocks which she purchased for [BLANK] each. How much profit will she make by selling all her blocks?",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Sasha notices that prices for lumber have gone up 50% in the last few months after she bought some lumber. Since she has leftovers, she decides to sell them. She has leftover ten 2 x 4 x 10 boards that cost her [BLANK] each. She also has five 4 x 4 x 10 boards she bought for [BLANK] each. If she sells them all, how much profit does she make? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sasha observes that the cost of lumber has increased by 50% over the past few months since her purchase. With some remaining stock, she chooses to sell it. She has ten 2 x 4 x 10 boards that she purchased for [BLANK] each. Additionally, she has five 4 x 4 x 10 boards that she acquired for [BLANK] each. If she sells all of these, what will her profit be? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sasha realizes that the prices of lumber have surged by 50% in recent months following her purchase. Since she has some extras, she plans to sell them. She holds ten 2 x 4 x 10 boards that originally cost her [BLANK] each. Furthermore, she possesses five 4 x 4 x 10 boards that she bought for [BLANK] each. What profit will she generate if she sells everything? Let's work through this step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sasha has noticed that lumber prices have risen by 50% in the past few months after she made her purchase. With some remaining inventory, she decides to sell what she has left. She owns ten 2 x 4 x 10 boards that she bought for [BLANK] each. In addition, she has five 4 x 4 x 10 boards that cost her [BLANK] each. How much profit will she make by selling all of these? Let's consider this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sasha finds that the prices for lumber have increased by 50% in recent months after her acquisition. Since she has some excess, she intends to sell them. She possesses ten 2 x 4 x 10 boards that were priced at [BLANK] each. She also has five 4 x 4 x 10 boards that she purchased for [BLANK] each. How much profit will she earn from selling all of these? Let's examine this step by step and report the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sasha has observed that the cost of lumber has gone up by 50% in the last few months since she made her purchase. Given that she has some leftover, she chooses to sell it. She has ten 2 x 4 x 10 boards that she bought for [BLANK] each. Additionally, she has five 4 x 4 x 10 boards that she acquired for [BLANK] each. What will her total profit be if she sells all of these? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

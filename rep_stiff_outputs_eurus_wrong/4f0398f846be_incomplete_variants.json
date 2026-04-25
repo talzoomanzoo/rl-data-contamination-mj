@@ -1,0 +1,210 @@
+{
+  "original_question": "James buys a plane.  The plane cost $150,000.  He pays $5000 a month to rent a hanger to keep it in.  He also spends twice as much as that on fuel per month.  How much did it cost him to get and maintain the plane for the first year? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 6,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Oliver buys a yacht. The yacht cost $250,000. He pays [BLANK]. He also spends one and a half times as much as that on crew expenses per month. How much did it cost him to get and maintain the yacht for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Oliver purchases a yacht for $250,000. He makes a payment of [BLANK]. Additionally, he incurs monthly crew expenses that are one and a half times that amount. What is the total cost for acquiring and maintaining the yacht over the first year? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Oliver acquires a yacht, which is priced at $250,000. He pays [BLANK] towards this purchase. Furthermore, he spends one and a half times that amount on monthly crew costs. How much does he spend in total to acquire and maintain the yacht during the first year? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Oliver invests in a yacht costing $250,000. He contributes [BLANK]. He also allocates one and a half times that amount for monthly crew expenses. What is the total expense incurred for acquiring and maintaining the yacht in the first year? Let's proceed step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Oliver decides to buy a yacht, which costs $250,000. He pays [BLANK]. In addition, he pays monthly crew expenses that are one and a half times that payment. What will be the total cost for obtaining and maintaining the yacht for the first year? Let's think it through step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Oliver makes a purchase of a yacht for $250,000. He makes a payment of [BLANK]. He also spends one and a half times that amount each month on crew costs. How much did he spend altogether to acquire and sustain the yacht for the first year? Let's analyze this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma buys a car. The car cost $30,000. She pays [BLANK]. She also spends four times as much as that on insurance per month. How much did it cost her to get and maintain the car for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma purchases a vehicle. The vehicle is priced at $30,000. She pays [BLANK]. Additionally, she spends four times that amount on monthly insurance. What is the total cost for her to acquire and maintain the vehicle for the initial year? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma acquires a car. The price of the car is $30,000. She makes a payment of [BLANK]. Furthermore, she allocates four times that payment for insurance each month. How much does it cost her to purchase and keep the car for the first year? Let's think through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma gets a new car. The car has a cost of $30,000. She pays [BLANK]. She also spends four times that amount monthly on insurance. What is her total expense for buying and maintaining the car throughout the first year? Let's work through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma acquires a new automobile. The automobile's cost is $30,000. She makes a payment of [BLANK]. In addition, she spends four times that on insurance every month. How much does it cost her to obtain and sustain the automobile for the first year? Let's consider it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma decides to buy a car. The car is valued at $30,000. She pays [BLANK]. Moreover, she spends four times that amount on monthly insurance premiums. What is the total expenditure for her to acquire and maintain the car during the first year? Let's discuss this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "James buys a plane. The plane cost $150,000. He pays [BLANK]. He also spends twice as much as that on fuel per month. How much did it cost him to get and maintain the plane for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James purchases an airplane. The airplane is priced at $150,000. He pays [BLANK]. Additionally, he spends double that amount on fuel each month. What is the total cost for him to acquire and maintain the airplane during the first year? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "James acquires a plane. The cost of the plane is $150,000. He pays [BLANK]. He also allocates twice that amount for fuel every month. How much does it cost him to obtain and keep the plane for the entire first year? Let's break it down step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James buys an aircraft. The aircraft costs $150,000. He pays [BLANK]. Furthermore, he spends twice that amount on fuel monthly. What is the total expense for him to both acquire and maintain the aircraft over the first year? Let's think through it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "James invests in a plane. The price of the plane is $150,000. He pays [BLANK]. In addition, he spends two times that amount on fuel each month. How much does it cost him to purchase and maintain the plane throughout the first year? Let's consider this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James secures a plane. The plane is valued at $150,000. He pays [BLANK]. He also spends twice that amount on fuel every month. What is the total cost for him to acquire and sustain the plane for the initial year? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "Sophia buys an RV. The RV cost $80,000. She pays [BLANK]. She also spends twice as much as that on supplies per month. How much did it cost her to get and maintain the RV for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia purchases an RV. The RV is priced at $80,000. She pays [BLANK]. Additionally, she spends double that amount on supplies each month. What is the total expense for acquiring and maintaining the RV during the first year? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Sophia acquires an RV. The price of the RV is $80,000. She makes a payment of [BLANK]. Furthermore, she allocates twice that amount for monthly supplies. How much did she spend in total to obtain and upkeep the RV for the initial year? Let's go through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia secures an RV. The cost of the RV is $80,000. She contributes [BLANK]. In addition, she expends two times that amount on supplies every month. What is her total cost for obtaining and maintaining the RV for the first year? Let's consider it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Sophia takes ownership of an RV. The RV costs $80,000. She pays [BLANK]. She also uses twice that amount monthly for supplies. How much did it cost her to acquire and sustain the RV for the first year? Let's think through it step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia invests in an RV. The price tag for the RV is $80,000. She pays [BLANK]. Moreover, she spends twice that value on supplies each month. What is her total expenditure for both acquiring and maintaining the RV throughout the first year? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Noah buys a motorcycle. The motorcycle cost $15,000. He pays [BLANK]. He also spends five times as much as that on repairs per month. How much did it cost him to get and maintain the motorcycle for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Noah purchases a motorcycle for $15,000. He makes a payment of [BLANK]. Additionally, he incurs monthly repair costs that are five times that amount. What is the total expenditure for acquiring and maintaining the motorcycle during the first year? Let's analyze it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Noah acquires a motorcycle priced at $15,000. He pays [BLANK]. Furthermore, he allocates five times that amount each month for repairs. How much does he spend in total to obtain and upkeep the motorcycle for the initial year? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Noah gets a motorcycle that costs $15,000. He pays [BLANK]. In addition, he spends five times that amount every month on maintenance. What is his total cost for both acquiring and maintaining the motorcycle for the first year? Let's think through it step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Noah secures a motorcycle with a price tag of $15,000. His payment amounts to [BLANK]. Moreover, he spends five times that figure monthly on repairs. What is the overall cost for him to purchase and maintain the motorcycle over the first year? Let\u2019s think it through step by step and conclude with the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Noah takes ownership of a motorcycle that costs $15,000. He pays [BLANK]. He also invests five times that amount in repairs each month. What will be the total cost for him to acquire and sustain the motorcycle throughout the first year? Let's reason through it step by step and finalize the answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 1,
+      "original_incomplete_question": "Liam buys a boat. The boat cost $120,000. He pays [BLANK]. He also spends three times as much as that on maintenance per month. How much did it cost him to get and maintain the boat for the first year? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Liam purchases a boat. The price of the boat is $120,000. He pays [BLANK]. Additionally, he pays three times that amount for maintenance each month. What is the total cost for acquiring and maintaining the boat in the first year? Let's work through it step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Liam acquires a boat. The cost of the boat is $120,000. He makes a payment of [BLANK]. He also allocates three times that amount for monthly maintenance. What is the total expense for obtaining and maintaining the boat for the first year? Let's analyze it step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Liam gets a boat. The boat's price is $120,000. He contributes [BLANK]. Furthermore, he expends three times that figure on monthly upkeep. How much does it total for both acquiring and maintaining the boat over the first year? Let's examine it step by step and arrive at the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Liam secures a boat. The purchase price of the boat is $120,000. He pays [BLANK]. In addition, he incurs three times that amount in maintenance costs every month. What is the overall cost for both getting and maintaining the boat during the first year? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Liam invests in a boat. The boat costs $120,000. He puts down [BLANK]. He also spends three times that amount monthly for maintenance. What will be the total expenditure for acquiring and maintaining the boat throughout the first year? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "original_question": "Given the expression $\\left(x\\sqrt[3]{2}+y\\sqrt{3}\\right)^{1000}$, determine the number of terms in the expansion with rational coefficients.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+  "info_removed_type": "\"the exponent of the expression\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Given the expression $\\left(x\\sqrt[3]{2}+y\\sqrt{3}\\right)^{1000}$, determine the number of terms in the expansion with rational coefficients.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{2}+y\\sqrt{3}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.\n\nPresent the answer in LaTex format: \\boxed{Your answer}",
+      "info_removed": "\"the exponent of the expression\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Given the expression \\( \\left(x\\sqrt[3]{5}+y\\sqrt{2}\\right)^{800} \\), determine the number of terms in the expansion with rational coefficients.",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{5}+y\\sqrt{2}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.",
+      "info_removed": "\"the exponent of the expression\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "Given the expression \\( \\left(x\\sqrt[3]{7}+y\\sqrt{4}\\right)^{600} \\), determine the number of terms in the expansion with rational coefficients.",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{7}+y\\sqrt{4}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.",
+      "info_removed": "\"the exponent of the expression\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Given the expression \\( \\left(x\\sqrt[3]{3}+y\\sqrt{6}\\right)^{500} \\), determine the number of terms in the expansion with rational coefficients.",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{3}+y\\sqrt{6}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.",
+      "info_removed": "\"the exponent of the expression\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Given the expression \\( \\left(x\\sqrt[3]{11}+y\\sqrt{5}\\right)^{1200} \\), determine the number of terms in the expansion with rational coefficients.",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{11}+y\\sqrt{5}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.",
+      "info_removed": "\"the exponent of the expression\""
+    },
+    {
+      "dataset": "numina_amc_aime",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Given the expression \\( \\left(x\\sqrt[3]{13}+y\\sqrt{8}\\right)^{900} \\), determine the number of terms in the expansion with rational coefficients.",
+      "incomplete_question": "Given the expression $\\left(x\\sqrt[3]{13}+y\\sqrt{8}\\right)^{[BLANK]}$, determine the number of terms in the expansion with rational coefficients.",
+      "info_removed": "\"the exponent of the expression\""
+    }
+  ],
+  "num_valid_similars": 5
+}

@@ -1,0 +1,176 @@
+{
+  "original_question": "Cody and Trevor had 12 sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left? Let's think step by step and output the final answer after \"####\".",
+  "num_entries": 5,
+  "entries": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "original",
+      "id": 0,
+      "original_incomplete_question": "Cody and Trevor had [BLANK] sandwiches. Cody ate a third of the sandwiches, and Trevor ate a quarter of the sandwiches. How many sandwiches are left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Cody and Trevor possessed [BLANK] sandwiches. Cody consumed one-third of the sandwiches, while Trevor consumed one-fourth of the sandwiches. How many sandwiches remain? Let's proceed step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Cody and Trevor had a total of [BLANK] sandwiches. Cody ate one-third of these sandwiches, and Trevor ate one-quarter of them. How many sandwiches are still available? Let's analyze it step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Cody and Trevor owned [BLANK] sandwiches. Cody finished a third of the sandwiches, and Trevor finished a quarter of the sandwiches. How many sandwiches do we have left? Let's work through it step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Cody and Trevor had [BLANK] sandwiches in total. Cody consumed a third of them, and Trevor consumed a quarter of them. How many sandwiches are remaining? Let's think through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Cody and Trevor started with [BLANK] sandwiches. Cody ate one-third, while Trevor ate one-quarter of the sandwiches. How many sandwiches are still there? Let's think about it step by step and output the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 5,
+      "original_incomplete_question": "Isabella and Charlotte had [BLANK] muffins. Isabella ate a third of the muffins, and Charlotte ate a sixth of the muffins. How many muffins are left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Isabella and Charlotte possessed [BLANK] muffins. Isabella consumed one-third of the muffins, while Charlotte consumed one-sixth of the muffins. How many muffins remain? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Isabella and Charlotte had [BLANK] muffins in total. Isabella ate a third of these muffins, and Charlotte had a sixth of them. What is the number of muffins that are left? Let's examine this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "There were [BLANK] muffins with Isabella and Charlotte. Isabella ate one-third of the muffins, and Charlotte ate one-sixth of the total muffins. How many muffins are still there? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Isabella and Charlotte together had [BLANK] muffins. Isabella consumed a third of them, while Charlotte had a sixth. How many muffins do they have remaining? Let's go through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Isabella and Charlotte had a total of [BLANK] muffins. Isabella ate one-third of those muffins, and Charlotte ate one-sixth. How many muffins are left over? Let's break it down step by step and show the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 2,
+      "original_incomplete_question": "Emma and Olivia had [BLANK] cookies. Emma ate a quarter of the cookies, and Olivia ate a half of the cookies. How many cookies are left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Emma and Olivia possessed [BLANK] cookies. Emma consumed one-fourth of the cookies, while Olivia devoured half of the cookies. What is the remaining number of cookies? Let's analyze this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "Emma and Olivia had a total of [BLANK] cookies. Emma took a quarter of the cookies, and Olivia took half of the cookies. How many cookies remain? Let's consider this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Emma and Olivia owned [BLANK] cookies. Emma ate 25% of the cookies, and Olivia ate 50% of the cookies. How many cookies are still available? Let's work through this step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Emma and Olivia started with [BLANK] cookies. Emma consumed 1/4 of the cookies, and Olivia consumed 1/2 of the cookies. How many cookies do we have left? Let's think through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Emma and Olivia had in total [BLANK] cookies. Emma devoured a quarter of the cookies, whereas Olivia devoured half of the cookies. What is the count of cookies that remain? Let's evaluate this step by step and state the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 4,
+      "original_incomplete_question": "James and Ethan had [BLANK] oranges. James ate a half of the oranges, and Ethan ate a quarter of the oranges. How many oranges are left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "James and Ethan possessed [BLANK] oranges. James consumed half of the oranges, while Ethan consumed a quarter of them. How many oranges remain? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There were [BLANK] oranges that belonged to James and Ethan. James ate 50% of the oranges, and Ethan took a quarter of the oranges. What is the total number of oranges left? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "James and Ethan started with [BLANK] oranges. James devoured half of the oranges, and Ethan ate 25% of the oranges. How many oranges do they have remaining? Let's think through it step by step and deliver the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "Initially, James and Ethan had [BLANK] oranges. James consumed one-half of the oranges, while Ethan consumed a fourth of the oranges. How many oranges are still remaining? Let's proceed step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "James and Ethan owned [BLANK] oranges together. James ate half of the total oranges, and Ethan had a quarter of them. How many oranges are still left? Let's work through this step by step and reveal the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "type": "similar",
+      "id": 3,
+      "original_incomplete_question": "Sophia and Mia had [BLANK] cupcakes. Sophia ate a sixth of the cupcakes, and Mia ate a fifth of the cupcakes. How many cupcakes are left? Let's think step by step and output the final answer after '####'.",
+      "variants": [
+        {
+          "id": 1,
+          "variant": "Sophia and Mia possessed [BLANK] cupcakes. Sophia consumed one-sixth of the cupcakes, while Mia devoured one-fifth of the cupcakes. What is the total number of cupcakes remaining? Let's analyze this step by step and provide the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 2,
+          "variant": "There were [BLANK] cupcakes that Sophia and Mia shared. Sophia ate a sixth part of the cupcakes, and Mia had a fifth part of the cupcakes. How many cupcakes are still available? Let's work through this step by step and present the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 3,
+          "variant": "Sophia and Mia started with [BLANK] cupcakes. Sophia took one-sixth of the cupcakes, and Mia took one-fifth of the cupcakes. How many cupcakes do they have left? Let's go through this step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 4,
+          "variant": "In total, Sophia and Mia had [BLANK] cupcakes. Sophia consumed a sixth of those cupcakes, while Mia consumed a fifth of them. How many cupcakes remain? Let's break it down step by step and give the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        },
+        {
+          "id": 5,
+          "variant": "Sophia and Mia began with [BLANK] cupcakes. Sophia ate one-sixth of the cupcakes, and Mia ate one-fifth of the cupcakes. What is the number of cupcakes left over? Let's think this through step by step and write the final answer after '####'.",
+          "strategy": "paraphrase_batch"
+        }
+      ]
+    }
+  ]
+}

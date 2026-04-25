@@ -1,0 +1,62 @@
+{
+  "original_question": "Karan borrowed $3,650 for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after \"####\".",
+  "info_removed_type": "\"the loan amount borrowed\"",
+  "num_pairs": 6,
+  "pairs": [
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": null,
+      "type": "original",
+      "original_question": "Karan borrowed $3,650 for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after \"####\".",
+      "incomplete_question": "Karan borrowed [BLANK] for five months at an interest rate of 10%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 1,
+      "type": "similar",
+      "original_question": "Alicia borrowed $4,200 for six months at an interest rate of 8%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Alicia borrowed [BLANK] for six months at an interest rate of 8%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 2,
+      "type": "similar",
+      "original_question": "James borrowed $2,500 for four months at an interest rate of 12%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "James borrowed [BLANK] for four months at an interest rate of 12%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 3,
+      "type": "similar",
+      "original_question": "Emily borrowed $5,800 for three months at an interest rate of 9%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Emily borrowed [BLANK] for three months at an interest rate of 9%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 4,
+      "type": "similar",
+      "original_question": "Michael borrowed $3,200 for seven months at an interest rate of 11%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Michael borrowed [BLANK] for seven months at an interest rate of 11%. He has to pay an equal amount every month. How much does he have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    },
+    {
+      "dataset": "openai/gsm8k",
+      "original_question_id": 0,
+      "similar_question_id": 5,
+      "type": "similar",
+      "original_question": "Sofia borrowed $6,100 for eight months at an interest rate of 7%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "incomplete_question": "Sofia borrowed [BLANK] for eight months at an interest rate of 7%. She has to pay an equal amount every month. How much does she have to pay per month? Let's think step by step and output the final answer after '####'.",
+      "info_removed": "\"the loan amount borrowed\""
+    }
+  ],
+  "num_valid_similars": 5
+}

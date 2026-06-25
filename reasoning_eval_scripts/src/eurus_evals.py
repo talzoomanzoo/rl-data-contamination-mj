@@ -4,8 +4,11 @@ import asyncio
 import glob
 import hashlib
 import json
+import logging
 import os
 import re
+import sys
+from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -19,14 +22,91 @@ try:
 except Exception:  # pragma: no cover
     tqdm = None
 
+logger = logging.getLogger(__name__)
+
+# vLLM rejects prompt_logprobs > 20 (ValueError in SamplingParams).
+VLLM_MAX_PROMPT_LOGPROBS = 20
+
+
+def _vllm_prompt_logprobs_k(k: int) -> int:
+    return min(max(1, int(k)), VLLM_MAX_PROMPT_LOGPROBS)
+
 
 def _ensure_tokenizer_compat():
-    if not hasattr(PreTrainedTokenizerBase, "all_special_tokens_extended"):
-        @property
-        def all_special_tokens_extended(self):  # type: ignore
-            return self.all_special_tokens
+    """Qwen2Tokenizer lacks all_special_tokens_extended; vLLM reads it in EngineCore workers."""
+    repo_root = Path(__file__).resolve().parents[2]
+    root_s = str(repo_root)
+    if root_s not in sys.path:
+        sys.path.insert(0, root_s)
+    try:
+        from tokenizer_extended_compat import (  # noqa: WPS433
+            apply_transformers_special_tokens_extended_getattr_compat,
+        )
 
-        PreTrainedTokenizerBase.all_special_tokens_extended = all_special_tokens_extended  # type: ignore
+        apply_transformers_special_tokens_extended_getattr_compat()
+        return
+    except ImportError:
+        pass
+
+    _orig_getattr = getattr(PreTrainedTokenizerBase, "__getattr__", None)
+    if _orig_getattr is None:
+        return
+
+    def __getattr__compat(self, key):  # type: ignore
+        if key == "all_special_tokens_extended":
+            try:
+                return list(self.all_special_tokens)
+            except Exception:
+                return []
+        return _orig_getattr(self, key)
+
+    PreTrainedTokenizerBase.__getattr__ = __getattr__compat  # type: ignore[method-assign]
+
+
+def _prepend_compat_site_to_pythonpath_for_vllm_workers() -> None:
+    """vLLM v1 spawn EngineCore subprocesses; they need compat_site/sitecustomize on PYTHONPATH."""
+    compat_site = Path(__file__).resolve().parents[2] / "compat_site"
+    if not compat_site.is_dir():
+        return
+    marker = str(compat_site.resolve())
+    cur = os.environ.get("PYTHONPATH", "")
+    parts = [p for p in cur.split(os.pathsep) if p]
+    if marker in parts:
+        return
+    os.environ["PYTHONPATH"] = marker if not cur else marker + os.pathsep + cur
+
+
+def _patch_vllm_get_cached_tokenizer_safe() -> None:
+    mod = None
+    try:
+        from vllm.tokenizers import hf as _hf_mod  # type: ignore
+
+        if getattr(_hf_mod, "get_cached_tokenizer", None) is not None:
+            mod = _hf_mod
+    except Exception:
+        pass
+    if mod is None:
+        try:
+            from vllm.transformers_utils import tokenizer as _legacy_mod  # type: ignore
+
+            if getattr(_legacy_mod, "get_cached_tokenizer", None) is not None:
+                mod = _legacy_mod
+        except Exception:
+            pass
+    if mod is None:
+        return
+
+    _orig = mod.get_cached_tokenizer
+
+    def _get_cached_tokenizer_safe(tokenizer):
+        if not hasattr(tokenizer, "all_special_tokens_extended"):
+            tokenizer.all_special_tokens_extended = list(tokenizer.all_special_tokens)
+        return _orig(tokenizer)
+
+    mod.get_cached_tokenizer = _get_cached_tokenizer_safe
+
+
+_ensure_tokenizer_compat()
 
 
 def _patch_tqdm_disable():
@@ -266,6 +346,7 @@ def _none_if_nan(x: Optional[float]) -> Optional[float]:
 
 
 def _compute_answer_logp_transformers(*, model, tokenizer, prompt_text: str, answer_target: str) -> float:
+    """Mean log p per answer token: (1/T) Σ_t log p(a_t | prompt, a_<t)) over scored positions."""
     prompt_ids = tokenizer(prompt_text, add_special_tokens=False).input_ids
     full_ids = tokenizer(prompt_text + answer_target, add_special_tokens=False).input_ids
     ans_ids = full_ids[len(prompt_ids) :]
@@ -278,16 +359,21 @@ def _compute_answer_logp_transformers(*, model, tokenizer, prompt_text: str, ans
         lp = torch.log_softmax(logits, dim=-1)
     start = len(prompt_ids)
     total = 0.0
+    n_terms = 0
     for pos, tok in enumerate(ans_ids, start=start):
         if pos == 0:
             continue
         total += float(lp[0, pos - 1, tok].item())
-    return total
+        n_terms += 1
+    if n_terms == 0:
+        return 0.0
+    return total / n_terms
 
 
 def _compute_answer_logp_vllm_sync(
     *, vllm_model, tokenizer, prompt_text: str, answer_target: str, prompt_logprobs_k: int
 ) -> float:
+    """Mean log p per answer token (length-normalized), matching the transformers scorer."""
     from vllm import SamplingParams  # type: ignore
 
     full_text = prompt_text + answer_target
@@ -297,8 +383,9 @@ def _compute_answer_logp_vllm_sync(
     if not ans_ids:
         return 0.0
 
+    k = _vllm_prompt_logprobs_k(prompt_logprobs_k)
     outs = vllm_model.generate(
-        [full_text], SamplingParams(max_tokens=1, prompt_logprobs=int(prompt_logprobs_k)), use_tqdm=False
+        [full_text], SamplingParams(max_tokens=1, prompt_logprobs=k), use_tqdm=False
     )
     if not outs:
         return float("nan")
@@ -315,7 +402,7 @@ def _compute_answer_logp_vllm_sync(
         if entry is None:
             return float("nan")
         total += float(entry.logprob)
-    return total
+    return total / len(ans_ids)
 
 
 async def _init_vllm_async_engine(
@@ -408,13 +495,18 @@ async def _score_answer_logp_vllm_async_engine(
     answer_targets: List[str],
     max_in_flight: int,
     prompt_logprobs_k: int,
+    diagnostics: bool = False,
+    diag_max_detail: int = 32,
 ) -> List[float]:
+    """Per-row mean log p per answer token (length-normalized)."""
     from vllm import SamplingParams  # type: ignore
 
     sem = asyncio.Semaphore(max(1, int(max_in_flight)))
     results: List[Optional[float]] = [None] * len(prompt_texts)
+    detail_lock = asyncio.Lock()
+    detail_printed = 0
 
-    async def _one(i: int, prompt_text: str, answer_target: str) -> Tuple[int, float]:
+    async def _one(i: int, prompt_text: str, answer_target: str) -> Tuple[int, float, Optional[str], Optional[str]]:
         async with sem:
             try:
                 full_text = prompt_text + answer_target
@@ -422,36 +514,79 @@ async def _score_answer_logp_vllm_async_engine(
                 full_ids = tokenizer(full_text, add_special_tokens=False).input_ids
                 ans_ids = full_ids[len(prompt_ids) :]
                 if not ans_ids:
-                    return i, 0.0
+                    return i, 0.0, None, None
 
-                params = SamplingParams(max_tokens=1, prompt_logprobs=int(prompt_logprobs_k))
+                params = SamplingParams(max_tokens=1, prompt_logprobs=_vllm_prompt_logprobs_k(prompt_logprobs_k))
                 final = None
                 async for out in engine.generate(full_text, params, request_id=f"score-{i}"):
                     final = out
-                if final is None or getattr(final, "prompt_logprobs", None) is None:
-                    return i, float("nan")
+                if final is None:
+                    return i, float("nan"), "no_final_output", None
+                plp = getattr(final, "prompt_logprobs", None)
+                if plp is None:
+                    return i, float("nan"), "no_prompt_logprobs", None
 
-                plp = final.prompt_logprobs
                 start = len(prompt_ids)
                 total = 0.0
                 for pos, tok in enumerate(ans_ids, start=start):
-                    if pos >= len(plp) or plp[pos] is None:
-                        return i, float("nan")
+                    if pos >= len(plp):
+                        return (
+                            i,
+                            float("nan"),
+                            "prompt_logprobs_truncated",
+                            f"pos={pos} len_plp={len(plp)} n_ans_tokens={len(ans_ids)}",
+                        )
+                    if plp[pos] is None:
+                        return i, float("nan"), "null_logprobs_at_pos", f"pos={pos}"
                     entry = plp[pos].get(int(tok))
                     if entry is None:
-                        return i, float("nan")
+                        nk = len(plp[pos])
+                        return (
+                            i,
+                            float("nan"),
+                            "token_not_in_topk",
+                            f"pos={pos} tok_id={int(tok)} topk_returned={nk} prompt_logprobs_k={prompt_logprobs_k}",
+                        )
                     total += float(entry.logprob)
-                return i, total
-            except Exception:
-                return i, float("nan")
+                return i, total / len(ans_ids), None, None
+            except Exception as e:
+                return i, float("nan"), "exception", repr(e)
 
     tasks = [
         asyncio.create_task(_one(i, p, a))
         for i, (p, a) in enumerate(zip(prompt_texts, answer_targets))
     ]
+
+    reason_counts: Counter = Counter()
     for fut in asyncio.as_completed(tasks):
-        i, val = await fut
+        i, val, reason, detail = await fut
         results[i] = val
+        if reason:
+            reason_counts[reason] += 1
+            if diagnostics and detail_printed < diag_max_detail:
+                async with detail_lock:
+                    if detail_printed < diag_max_detail:
+                        extra = f" detail={detail}" if detail else ""
+                        logger.warning(
+                            "async logp score row=%d reason=%s%s ans_target_len=%d full_text_len=%d",
+                            i,
+                            reason,
+                            extra,
+                            len(answer_targets[i]),
+                            len(prompt_texts[i]) + len(answer_targets[i]),
+                        )
+                        detail_printed += 1
+
+    if diagnostics and reason_counts:
+        logger.warning(
+            "async logp scoring: %d/%d rows failed; counts by reason: %s",
+            sum(reason_counts.values()),
+            len(prompt_texts),
+            dict(reason_counts),
+        )
+    elif diagnostics and not reason_counts:
+        logger.info("async logp scoring: all %d rows returned finite scores", len(prompt_texts))
+
     return [r if r is not None else float("nan") for r in results]
 
 
@@ -472,8 +607,19 @@ def main():
     parser.add_argument(
         "--prompt_logprobs_k",
         type=int,
-        default=50,
-        help="How many prompt logprobs to request from vLLM when computing log p(answer|prompt).",
+        default=20,
+        help="How many prompt logprobs to request from vLLM when computing mean log p per answer token (max 20).",
+    )
+    parser.add_argument(
+        "--logp_diagnostics",
+        action="store_true",
+        help="Log why async vLLM log-prob scoring fails (NaN); use with --async_vllm.",
+    )
+    parser.add_argument(
+        "--logp_diag_max_detail",
+        type=int,
+        default=32,
+        help="Cap per-row diagnostic log lines when --logp_diagnostics (default: 32).",
     )
 
     parser.add_argument("--use_vllm", action="store_true", help="Use vLLM.")
@@ -499,6 +645,18 @@ def main():
     )
     parser.add_argument("--rope_scaling_factor", type=float, default=1.0, help="vLLM rope scaling factor.")
     args = parser.parse_args()
+
+    if (args.use_vllm or args.async_vllm) and args.prompt_logprobs_k > VLLM_MAX_PROMPT_LOGPROBS:
+        print(
+            f"Note: --prompt_logprobs_k={args.prompt_logprobs_k} capped to "
+            f"{VLLM_MAX_PROMPT_LOGPROBS} (vLLM limit)"
+        )
+        args.prompt_logprobs_k = VLLM_MAX_PROMPT_LOGPROBS
+
+    if args.logp_diagnostics and not logging.root.handlers:
+        logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    if args.logp_diagnostics:
+        logger.setLevel(logging.INFO)
 
     df = pd.read_parquet(args.dataset_path, engine="pyarrow")
     if "prompt" not in df.columns:
@@ -534,6 +692,8 @@ def main():
     if args.use_vllm and not args.async_vllm:
         from vllm import LLM  # type: ignore
 
+        _prepend_compat_site_to_pythonpath_for_vllm_workers()
+        _patch_vllm_get_cached_tokenizer_safe()
         _patch_tqdm_disable()
         os.environ.setdefault("VLLM_WORKER_MULTIPROC_METHOD", "spawn")
         os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
@@ -624,6 +784,7 @@ def main():
             if is_correct_k:
                 nonmember_correct_at_k += 1
 
+        # logp_*: mean log p per answer token (sum of token logprobs / T), length-normalized.
         eval_record = {
             **gen_record,
             "evals": per_sample,
@@ -701,6 +862,8 @@ def main():
                         answer_targets=answer_targets,
                         max_in_flight=score_max_in_flight,
                         prompt_logprobs_k=args.prompt_logprobs_k,
+                        diagnostics=args.logp_diagnostics,
+                        diag_max_detail=args.logp_diag_max_detail,
                     )
                     return all_responses, logps
                 finally:

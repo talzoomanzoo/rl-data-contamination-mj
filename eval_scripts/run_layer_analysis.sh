@@ -1,0 +1,2 @@
+bash eval_scripts/LIMR/run_layer_analysis.sh
+bash eval_scripts/EURUS/run_layer_analysis.sh

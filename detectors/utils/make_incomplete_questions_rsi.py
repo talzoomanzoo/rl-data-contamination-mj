@@ -72,6 +72,45 @@ def _is_blank_preserved(text: str) -> bool:
     return "[BLANK]" in text or "[blank]" in text.lower()
 
 
+def _strip_wrapping_quotes(text: str) -> str:
+    if len(text) >= 2 and text[0] == text[-1] and text[0] in ('"', "'"):
+        return text[1:-1]
+    return text
+
+
+def _parse_json_string_array(content: str) -> list:
+    start_idx = content.find("[")
+    end_idx = content.rfind("]") + 1
+    if start_idx == -1 or end_idx <= start_idx:
+        raise json.JSONDecodeError("No JSON array found", content, 0)
+    variants = json.loads(content[start_idx:end_idx])
+    if not isinstance(variants, list):
+        raise ValueError("Batch response is not a JSON array")
+    return variants
+
+
+def _openrouter_batch_json_array(*, headers: dict, data: dict) -> list:
+    """Call OpenRouter and parse a JSON array of strings from the response, with retries."""
+    content = _openrouter_chat_completion_content(headers=headers, data=data)
+    try:
+        return _parse_json_string_array(content)
+    except json.JSONDecodeError as e:
+        last = e
+        for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                raise ValueError(
+                    f"Failed to parse JSON array from batch response after retries: {last}"
+                ) from last
+            _sleep_with_backoff(attempt)
+            content = _openrouter_chat_completion_content(headers=headers, data=data)
+            try:
+                return _parse_json_string_array(content)
+            except json.JSONDecodeError as e2:
+                last = e2
+                continue
+    raise RuntimeError("unreachable")
+
+
 def _generate_paraphrases_parallel(
     incomplete_question: str,
     *,
@@ -263,15 +302,89 @@ Output ONLY the paraphrased version with [BLANK] in the same position. Do not in
         "max_tokens": 2000
     }
 
-    paraphrased = _openrouter_chat_completion_content(headers=headers, data=data).strip()
-    
-    # Clean up the response (remove quotes if present)
-    if paraphrased.startswith('"') and paraphrased.endswith('"'):
-        paraphrased = paraphrased[1:-1]
-    if paraphrased.startswith("'") and paraphrased.endswith("'"):
-        paraphrased = paraphrased[1:-1]
-    
+    paraphrased = _strip_wrapping_quotes(
+        _openrouter_chat_completion_content(headers=headers, data=data).strip()
+    )
     return paraphrased
+
+
+def generate_question_paraphrase_variant(question: str, model: str = "openai/gpt-4o-mini") -> str:
+    """Generate a single paraphrased variant for a perturbed (non-[BLANK]) question."""
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+    prompt = f"""You are a text rewriter that creates paraphrased versions of math problems.
+
+Given a math problem (it may contain edits such as a replaced number, renamed variable, or an inserted distractor),
+create one paraphrased version that:
+1. Preserves the SAME perturbation edits (same substituted values/words, same distractor meaning)
+2. Uses different wording and phrasing while maintaining mathematical meaning
+3. Keeps the same structure and logical flow
+
+Problem:
+{question}
+
+Output ONLY the paraphrased problem text. Do not include explanations, notes, or JSON.
+"""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Question Paraphrase Generator",
+    }
+
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.7,
+        "max_tokens": 2000,
+    }
+
+    paraphrased = _strip_wrapping_quotes(
+        _openrouter_chat_completion_content(headers=headers, data=data).strip()
+    )
+    return paraphrased
+
+
+def _generate_question_paraphrases_parallel(
+    question: str,
+    *,
+    model: str,
+    target_new: int,
+    existing: set[str],
+    max_workers: int,
+) -> list[str]:
+    """Generate up to `target_new` unique paraphrases for perturbed (non-[BLANK]) questions."""
+    if target_new <= 0:
+        return []
+
+    submit_n = max(target_new, min(target_new * 3, 30))
+    out: list[str] = []
+
+    max_workers = max(1, min(max_workers, submit_n))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        futures = [
+            ex.submit(generate_question_paraphrase_variant, question, model)
+            for _ in range(submit_n)
+        ]
+        for fut in as_completed(futures):
+            try:
+                v = fut.result()
+            except Exception:
+                continue
+            if not v:
+                continue
+            v = v.strip()
+            if not v or v == question:
+                continue
+            if v in existing:
+                continue
+            existing.add(v)
+            out.append(v)
+            if len(out) >= target_new:
+                break
+    return out
 
 
 def generate_incomplete_variants_batch(
@@ -300,6 +413,7 @@ Incomplete Problem:
 {incomplete_question}
 
 Output ONLY a JSON array of {num_variants} strings with the paraphrased versions. Do not include explanations or notes.
+In the JSON output, escape every backslash as \\\\ (e.g. LaTeX \\frac must appear as \\\\frac inside each string).
 """
 
     headers = {
@@ -321,40 +435,69 @@ Output ONLY a JSON array of {num_variants} strings with the paraphrased versions
         "max_tokens": 2000
     }
 
-    content = _openrouter_chat_completion_content(headers=headers, data=data)
-
-    try:
-        start_idx = content.find('[')
-        end_idx = content.rfind(']') + 1
-        if start_idx != -1 and end_idx > start_idx:
-            json_str = content[start_idx:end_idx]
-            variants = json.loads(json_str)
-        else:
-            raise json.JSONDecodeError("No JSON array found", content, 0)
-    except json.JSONDecodeError as e:
-        # Treat parse failures as transient by retrying the whole call a few times.
-        last = e
-        for attempt in range(OPENROUTER_MAX_RETRIES + 1):
-            if attempt >= OPENROUTER_MAX_RETRIES:
-                raise ValueError(f"Failed to parse JSON array from batch response after retries: {last}")
-            _sleep_with_backoff(attempt)
-            content = _openrouter_chat_completion_content(headers=headers, data=data)
-            try:
-                start_idx = content.find('[')
-                end_idx = content.rfind(']') + 1
-                if start_idx != -1 and end_idx > start_idx:
-                    json_str = content[start_idx:end_idx]
-                    variants = json.loads(json_str)
-                    break
-                raise json.JSONDecodeError("No JSON array found", content, 0)
-            except json.JSONDecodeError as e2:
-                last = e2
-                continue
-
-    if not isinstance(variants, list):
-        raise ValueError("Batch response is not a JSON array")
-
+    variants = _openrouter_batch_json_array(headers=headers, data=data)
     return variants[:num_variants]
+
+
+def generate_question_variants_batch(
+    question: str, num_variants: int = 5, model: str = "openai/gpt-4o-mini"
+) -> list:
+    """
+    Paraphrase a (possibly non-blank) perturbed question for RSI, preserving the perturbation.
+    """
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+    prompt = f"""You are a text rewriter that creates paraphrased versions of math problems.
+
+Given a math problem (it may contain edits such as a replaced number, renamed variable, or an inserted distractor),
+create {num_variants} paraphrased versions that:
+1. Preserve the SAME perturbation edits (same substituted values/words, same distractor meaning)
+2. Use different wording and phrasing while maintaining mathematical meaning
+3. Keep the same structure and logical flow
+
+Problem:
+{question}
+
+Output ONLY a JSON array of {num_variants} strings with the paraphrased versions. Do not include explanations.
+In the JSON output, escape every backslash as \\\\ (e.g. LaTeX \\frac must appear as \\\\frac inside each string).
+"""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Question Paraphrase Generator (Batch)",
+    }
+
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.7,
+        "max_tokens": 2000,
+    }
+
+    variants = _openrouter_batch_json_array(headers=headers, data=data)
+    return variants[:num_variants]
+
+
+def generate_question_variants(question: str, num_variants: int = 5, model: str = "openai/gpt-4o-mini") -> list:
+    """
+    Fallback for perturbed questions: generate paraphrases via parallel single-string API calls.
+    Avoids fragile batch JSON parsing (e.g. invalid LaTeX backslash escapes).
+    """
+    existing: set[str] = set()
+    variants = _generate_question_paraphrases_parallel(
+        question,
+        model=model,
+        target_new=num_variants,
+        existing=existing,
+        max_workers=OPENROUTER_PARAPHRASE_WORKERS,
+    )
+    if not variants:
+        variants = [question]
+    return variants[:num_variants]
+
 
 def generate_incomplete_variants(incomplete_question, num_variants=5, model="openai/gpt-4o-mini"):
     """Generate M semantics-preserving perturbations of an incomplete question.

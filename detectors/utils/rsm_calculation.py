@@ -12,14 +12,31 @@ model = None
 tokenizer = None
 LAYER_MAP = None
 
-#1. Layer selection (early, mid, late)
+#1. Layer selection
 def select_layers(model):
     n_layers = model.config.num_hidden_layers
-    return {
+    def at_fraction(numer, denom):
+        return min(n_layers - 1, max(0, int(n_layers * numer / denom)))
+
+    layer_map = {
+        "first": 0,
+        "last": n_layers - 1,
+        "1/4": at_fraction(1, 4),
+        "2/4": at_fraction(2, 4),
+        "1/5": at_fraction(1, 5),
+        "2/5": at_fraction(2, 5),
+        "3/5": at_fraction(3, 5),
+        "4/5": at_fraction(4, 5),
         "early": int(n_layers * 0.25),
         "mid": int(n_layers * 0.5),
         "late": n_layers - 1,
     }
+    # Per-layer addressable keys: e.g. "L0", "L1", ..., and bare "0", "1", ...
+    # Lets `--rep_stiff_layers` probe arbitrary individual transformer layers.
+    for i in range(n_layers):
+        layer_map[f"L{i}"] = i
+        layer_map[str(i)] = i
+    return layer_map
 
 #2. Model setup
 def initialize_model(model_name: str):

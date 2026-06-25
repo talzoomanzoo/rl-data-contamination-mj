@@ -8,13 +8,11 @@ python src/eurus_evals.py \
   --gen_output "data/limr_member__limr__generations.json" \
   --eval_output "data/limr_member__limr__evaluated.json" \
   --use_vllm \
-  --async_vllm \
+  --prompt_logprobs_k 20 \
   --batch_size 60 \
-  --max_in_flight 8 \
-  --score_max_in_flight 1 \
   --gpu_memory_utilization 0.8 \
   --max_num_seqs 16 \
-  --num_samples 5 \
+  --num_samples 10 \
   --do_sample \
   --max_new_tokens 3072
 
@@ -24,12 +22,10 @@ python src/eurus_evals.py \
   --gen_output "data/limr_member__qwen2.5-math-7b__generations.json" \
   --eval_output "data/limr_member__qwen2.5-math-7b__evaluated.json" \
   --use_vllm \
-  --async_vllm \
+  --prompt_logprobs_k 20 \
   --batch_size 60 \
-  --max_in_flight 8 \
-  --score_max_in_flight 1 \
   --gpu_memory_utilization 0.8 \
   --max_num_seqs 16 \
-  --num_samples 5 \
+  --num_samples 10 \
   --do_sample \
   --max_new_tokens 3072

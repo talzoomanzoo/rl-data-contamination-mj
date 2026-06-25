@@ -2,14 +2,153 @@ import json
 import argparse
 import os
 import glob
+import tempfile
+from pathlib import Path
 import pandas as pd
 import numpy as np
+
+# Older Qwen HF tokenizers lack `all_special_tokens_extended`, which vLLM reads.
+# Apply before importing vLLM in this process (EngineCore subprocesses rely on
+# PYTHONPATH compat_site/sitecustomize — see `_prepend_compat_site_to_pythonpath()`).
+try:
+    from tokenizer_extended_compat import (
+        apply_transformers_special_tokens_extended_getattr_compat,
+    )
+
+    apply_transformers_special_tokens_extended_getattr_compat()
+except ImportError:
+    pass
+
 from vllm import LLM, SamplingParams
 from transformers import AutoTokenizer
 from tqdm import tqdm
 import copy
 import json as _json
 from collections.abc import Mapping
+
+
+def _maybe_patch_model_dir_for_vllm(model_path: str) -> str:
+    """
+    Apply small `config.json` fixes for vLLM / Transformers quirks:
+
+    * Some Qwen2-style configs use `rope_scaling` without a `factor` key; vLLM
+      asserts `"factor" in rope_scaling`. We add a no-op linear scaling
+      (factor=1.0) when needed.
+    * OLMo3 checkpoints may store `rope_parameters.beta_{fast,slow}` as JSON
+      integers; Transformers expects floats and logs validation noise otherwise.
+    """
+    try:
+        mp = Path(model_path)
+        cfg_path = mp / "config.json"
+        if not mp.exists() or not mp.is_dir() or not cfg_path.exists():
+            return model_path
+
+        with open(cfg_path, "r") as f:
+            cfg_json = json.load(f)
+
+        rope_scaling = cfg_json.get("rope_scaling")
+        # `null` in config.json is expanded by Transformers to e.g.
+        # {"rope_type": "default", "rope_theta": ...} without "factor", which vLLM rejects.
+        fix_rope_scaling = rope_scaling is None or (
+            isinstance(rope_scaling, dict) and "factor" not in rope_scaling
+        )
+
+        rp = cfg_json.get("rope_parameters")
+        fix_rope_params = False
+        if isinstance(rp, dict):
+            for key in ("beta_fast", "beta_slow"):
+                if key in rp and isinstance(rp.get(key), int):
+                    fix_rope_params = True
+                    break
+
+        if not fix_rope_scaling and not fix_rope_params:
+            return model_path
+
+        patched_dir = Path(tempfile.mkdtemp(prefix="vllm_model_patched_"))
+        for p in mp.iterdir():
+            if p.name == "config.json":
+                continue
+            try:
+                os.symlink(p, patched_dir / p.name)
+            except Exception:
+                return model_path
+
+        if fix_rope_scaling:
+            cfg_json["rope_scaling"] = {"type": "linear", "factor": 1.0}
+        if fix_rope_params and isinstance(cfg_json.get("rope_parameters"), dict):
+            rp2 = cfg_json["rope_parameters"]
+            for key in ("beta_fast", "beta_slow"):
+                if key in rp2 and isinstance(rp2.get(key), int):
+                    rp2[key] = float(rp2[key])
+
+        with open(patched_dir / "config.json", "w") as f:
+            json.dump(cfg_json, f)
+
+        reasons = []
+        if fix_rope_scaling:
+            reasons.append("rope_scaling (add factor)")
+        if fix_rope_params:
+            reasons.append("rope_parameters (int→float)")
+        print(
+            f"[warn] Patched model config for vLLM ({', '.join(reasons)}).\n"
+            f"       original: {model_path}\n"
+            f"       patched:  {str(patched_dir)}"
+        )
+        return str(patched_dir)
+    except Exception:
+        return model_path
+
+
+def _patch_vllm_get_cached_tokenizer_safe() -> None:
+    """
+    vLLM wraps HF tokenizers with get_cached_tokenizer for speed. Some tokenizers
+    lack `all_special_tokens_extended`, which older vLLM paths assumed.
+
+    vLLM 0.19+ defines get_cached_tokenizer in `vllm.tokenizers.hf`; older
+    releases exposed it on `vllm.transformers_utils.tokenizer`.
+    """
+    mod = None
+    try:
+        from vllm.tokenizers import hf as _hf_mod
+
+        if getattr(_hf_mod, "get_cached_tokenizer", None) is not None:
+            mod = _hf_mod
+    except Exception:
+        pass
+    if mod is None:
+        try:
+            from vllm.transformers_utils import tokenizer as _legacy_mod
+
+            if getattr(_legacy_mod, "get_cached_tokenizer", None) is not None:
+                mod = _legacy_mod
+        except Exception:
+            pass
+    if mod is None:
+        return
+
+    _orig = mod.get_cached_tokenizer
+
+    def _get_cached_tokenizer_safe(tokenizer):
+        if not hasattr(tokenizer, "all_special_tokens_extended"):
+            tokenizer.all_special_tokens_extended = list(tokenizer.all_special_tokens)
+        return _orig(tokenizer)
+
+    mod.get_cached_tokenizer = _get_cached_tokenizer_safe
+
+
+def _prepend_compat_site_to_pythonpath_for_vllm_workers() -> None:
+    """vLLM v1 spawn's EngineCore needs sitecustomize; prepend compat_site early."""
+    root = Path(__file__).resolve().parent
+    compat_site = root / "compat_site"
+    if not compat_site.is_dir():
+        return
+    marker = str(compat_site.resolve())
+    cur = os.environ.get("PYTHONPATH", "")
+    parts = [p for p in cur.split(os.pathsep) if p]
+    if marker in parts:
+        return
+    os.environ["PYTHONPATH"] = marker if not cur else marker + os.pathsep + cur
+
 
 def _normalize_prompt_obj(obj):
     """Best-effort normalization across pandas/pyarrow/numpy prompt representations."""
@@ -169,6 +308,44 @@ def process_single_output(output, tokenizer, approx_mode: str = "renorm"):
         "entropies": entropies, # for DIME
     }
 
+
+def _generate_with_microbatches(
+    llm,
+    prompts,
+    sampling_params,
+    *,
+    initial_microbatch_size: int = 8,
+    label: str = "",
+):
+    """
+    Run vLLM generation in microbatches with fallback to smaller microbatches on failure.
+    Returns a list aligned to `prompts`, with None for prompts that fail even at microbatch size 1.
+    """
+    if not prompts:
+        return []
+    results = [None] * len(prompts)
+    mb = max(1, int(initial_microbatch_size))
+    i = 0
+    while i < len(prompts):
+        chunk = prompts[i : i + mb]
+        try:
+            outs = llm.generate(chunk, sampling_params)
+            for j, out in enumerate(outs):
+                results[i + j] = out
+            i += mb
+        except Exception as e:
+            if mb == 1:
+                print(f"[warn] {label} generation failed for idx={i}: {e}")
+                i += 1
+                continue
+            new_mb = max(1, mb // 2)
+            print(
+                f"[warn] {label} generation failed for microbatch={mb} at idx={i}; "
+                f"retrying with microbatch={new_mb}. Error: {e}"
+            )
+            mb = new_mb
+    return results
+
 def main():
     parser = argparse.ArgumentParser(description="Generate three types of responses for each prompt: Original Greedy, Perturbed Greedy, Original Random.")
     # --- All required parameters ---
@@ -183,6 +360,58 @@ def main():
     parser.add_argument("--temperature_random", type=float, default=0.8)
     parser.add_argument("--num_random_samples", type=int, default=10)
     parser.add_argument("--batch_size", type=int, default=8)
+    parser.add_argument(
+        "--gpu_memory_utilization",
+        type=float,
+        default=0.9,
+        help="Fraction of GPU memory vLLM may use for the KV cache / weights.",
+    )
+    parser.add_argument(
+        "--max_model_len",
+        type=int,
+        default=None,
+        help="Cap vLLM context length (prompt + completion). Use when the HF "
+        "config max (e.g. 131072) exceeds available KV cache on your GPU.",
+    )
+    parser.add_argument(
+        "--swap_space",
+        type=float,
+        default=16.0,
+        help="CPU memory (GiB) per GPU for vLLM KV swap when GPU cache is full. "
+        "Raise if you see 'lack of CPU swap space'.",
+    )
+    parser.add_argument(
+        "--max_num_seqs",
+        type=int,
+        default=None,
+        help="Optional cap on concurrent sequences in vLLM (lower reduces KV preemption).",
+    )
+    parser.add_argument(
+        "--max_num_batched_tokens",
+        type=int,
+        default=None,
+        help="Optional vLLM max_num_batched_tokens (lower caps scheduling memory).",
+    )
+    parser.add_argument(
+        "--vllm_attention_backend",
+        type=str,
+        default=None,
+        help="vLLM v1 attention backend name (e.g. FLASHINFER, TRITON_ATTN). "
+        "Avoids pip flash-attn when ABI-mismatched with torch. "
+        "If unset, uses env VLLM_ATTENTION_BACKEND when non-empty.",
+    )
+    parser.add_argument(
+        "--vllm_random_microbatch",
+        type=int,
+        default=None,
+        help="Microbatch size for consistency/random n>1 generation (default: env VLLM_RANDOM_MICROBATCH or 8).",
+    )
+    parser.add_argument(
+        "--vllm_critique_microbatch",
+        type=int,
+        default=None,
+        help="Microbatch size for self_critique pass (default: env VLLM_CRITIQUE_MICROBATCH or 8).",
+    )
     parser.add_argument("--subset_source", type=str, default=None)
     parser.add_argument("--num_samples_per_source", type=int, default=-1)
     parser.add_argument("--temperature", type=float, default=0.0)
@@ -191,6 +420,10 @@ def main():
                         choices=['dime', 'consistency', 'self_critique', 'self_critique_ablation'])
     parser.add_argument("--approx_mode", type=str, default="renorm", choices=["renorm", "rest"])
     args = parser.parse_args()
+
+    # vLLM v1 EngineCore subprocesses inherit PYTHONPATH but not this script's monkey-patches;
+    # prepend compat_site so startup imports compat_site/sitecustomize.py before Transformers+vLLM.
+    _prepend_compat_site_to_pythonpath_for_vllm_workers()
 
     # --- Compatibility patch for older Transformers ---
     # Some tokenizer configs (e.g. Qwen) store `extra_special_tokens` as a *list*.
@@ -210,14 +443,61 @@ def main():
     except Exception:
         pass
     
-    # --- 1. Resume from checkpoint ---
+    # --- 1. Resume from checkpoint (with backfill for missing method outputs) ---
+    # `generate_full_data.py` historically skipped prompts solely based on `original_user_content` being present
+    # in the output file. This can silently produce incomplete rows when you change `--methods_to_run`
+    # (e.g., adding `self_critique` later won't backfill `critique_greedy_results`).
+    #
+    # New behavior: treat a prompt as "processed" only if all required result fields for the requested
+    # methods are present and non-empty. If some required fields are missing, we reprocess that prompt
+    # and then rewrite the output JSONL without duplicating rows.
+    def _has_nonempty_list_field(item: dict, key: str) -> bool:
+        v = item.get(key)
+        return isinstance(v, list) and len(v) > 0
+
+    required_result_keys = {"original_greedy_results"}
+    if "dime" in args.methods_to_run:
+        required_result_keys.add("perturbed_greedy_results")
+    if "consistency" in args.methods_to_run:
+        required_result_keys.add("original_random_results")
+    if "self_critique" in args.methods_to_run:
+        required_result_keys.add("critique_greedy_results")
+    if "self_critique_ablation" in args.methods_to_run:
+        required_result_keys.add("unfamiliar_greedy_results")
+
+    existing_by_content = {}
+    existing_order = []
     processed_contents = set()
     if os.path.exists(args.output_file):
-        with open(args.output_file, 'r') as f:
+        with open(args.output_file, "r", encoding="utf-8") as f:
             for line in f:
-                try: processed_contents.add(json.loads(line)['original_user_content'])
-                except: pass
-        print(f"Found {len(processed_contents)} already processed prompts, will skip automatically.")
+                if not line.strip():
+                    continue
+                try:
+                    item = json.loads(line)
+                except Exception:
+                    continue
+                content = item.get("original_user_content")
+                if not content:
+                    continue
+                if content not in existing_by_content:
+                    existing_order.append(content)
+                # Keep the last occurrence if duplicates exist.
+                existing_by_content[content] = item
+
+        for content, item in existing_by_content.items():
+            if all(_has_nonempty_list_field(item, k) for k in required_result_keys):
+                processed_contents.add(content)
+
+        incomplete = len(existing_by_content) - len(processed_contents)
+        if incomplete > 0:
+            print(
+                f"Found {len(existing_by_content)} prompts in existing output; "
+                f"{len(processed_contents)} complete, {incomplete} missing required fields for "
+                f"methods_to_run={args.methods_to_run}. Will backfill missing fields."
+            )
+        else:
+            print(f"Found {len(processed_contents)} already processed prompts, will skip automatically.")
 
     # --- 2. Load, filter and sample ---
     print(f"Searching for data files in {args.data_root_dir}...")
@@ -273,7 +553,11 @@ def main():
     else:
         df_sampled = df_filtered
 
-    tasks_to_process = [row for _, row in df_sampled.iterrows() if get_user_content(row['prompt']) and get_user_content(row['prompt']) not in processed_contents]
+    tasks_to_process = [
+        row
+        for _, row in df_sampled.iterrows()
+        if get_user_content(row["prompt"]) and get_user_content(row["prompt"]) not in processed_contents
+    ]
 
     if not tasks_to_process:
         # Extra diagnostics to avoid silent empty runs.
@@ -302,48 +586,86 @@ def main():
     
     # --- 3. Load VLLM ---
     # Patch vLLM tokenizer caching to tolerate missing all_special_tokens_extended
-    # in older/custom tokenizer implementations.
-    from vllm.transformers_utils import tokenizer as vllm_tokenizer
-    _orig_get_cached_tokenizer = vllm_tokenizer.get_cached_tokenizer
-    def _get_cached_tokenizer_safe(tokenizer):
-        if not hasattr(tokenizer, "all_special_tokens_extended"):
-            tokenizer.all_special_tokens_extended = list(tokenizer.all_special_tokens)
-        return _orig_get_cached_tokenizer(tokenizer)
-    vllm_tokenizer.get_cached_tokenizer = _get_cached_tokenizer_safe
+    # in older/custom tokenizer implementations (works across vLLM API moves).
+    _patch_vllm_get_cached_tokenizer_safe()
 
     logprobs_to_request = args.K
-    print(f"Loading model: {args.model_path} (TP={args.tensor_parallel_size})...")
+    patched_model_path = _maybe_patch_model_dir_for_vllm(args.model_path)
+    print(f"Loading model: {patched_model_path} (TP={args.tensor_parallel_size})...")
     try:
-        tokenizer = AutoTokenizer.from_pretrained(args.model_path, trust_remote_code=True)
+        tokenizer = AutoTokenizer.from_pretrained(patched_model_path, trust_remote_code=True)
     except AttributeError as e:
         # Fallback for the same "extra_special_tokens list" issue.
         if "keys" in str(e):
             tokenizer = AutoTokenizer.from_pretrained(
-                args.model_path,
+                patched_model_path,
                 trust_remote_code=True,
                 extra_special_tokens={},
             )
         else:
             raise
-    llm = LLM(
-        model=args.model_path,
+    llm_kwargs = dict(
+        model=patched_model_path,
         tensor_parallel_size=args.tensor_parallel_size,
         trust_remote_code=True,
-        gpu_memory_utilization=0.9,
+        gpu_memory_utilization=float(args.gpu_memory_utilization),
         max_logprobs=logprobs_to_request,
-        dtype='bfloat16',
+        dtype="bfloat16",
         enforce_eager=True,
+        swap_space=float(args.swap_space),
     )
+    attn_backend = (args.vllm_attention_backend or "").strip()
+    if not attn_backend:
+        attn_backend = os.environ.get("VLLM_ATTENTION_BACKEND", "").strip()
+    if attn_backend:
+        # vLLM 0.19+: maps to AttentionConfig.backend (see vllm.config.attention).
+        llm_kwargs["attention_config"] = {"backend": attn_backend}
+        print(f"[vLLM] attention_config.backend={attn_backend!r}")
+    if args.max_num_seqs is not None:
+        llm_kwargs["max_num_seqs"] = int(args.max_num_seqs)
+    if args.max_num_batched_tokens is not None:
+        llm_kwargs["max_num_batched_tokens"] = int(args.max_num_batched_tokens)
+    if args.max_model_len is not None:
+        llm_kwargs["max_model_len"] = int(args.max_model_len)
+        print(f"[vLLM] max_model_len={llm_kwargs['max_model_len']}")
+    llm = LLM(**llm_kwargs)
     # Get model's maximum length limit
     max_model_len = llm.llm_engine.model_config.max_model_len
     print(f"Detected model maximum length: {max_model_len}")
     
     # --- 4. Define sampling strategies ---
     greedy_params = SamplingParams(temperature=0, n=1, max_tokens=args.max_tokens, logprobs=logprobs_to_request)
-    random_params = SamplingParams(temperature=args.temperature_random, n=args.num_random_samples, max_tokens=args.max_tokens, logprobs=logprobs_to_request, top_p=0.95)
+    # vLLM treats temperature=0 as greedy sampling, which requires n=1.
+    # If consistency is requested with n>1, ensure temperature_random > 0.
+    temp_random = float(args.temperature_random)
+    if temp_random <= 0.0 and int(args.num_random_samples) > 1:
+        # Keep the run going with a tiny epsilon instead of crashing.
+        # This still behaves "almost greedy" but satisfies vLLM's constraint.
+        print(
+            f"[warn] temperature_random={temp_random} with num_random_samples={args.num_random_samples} "
+            "is invalid for vLLM (greedy requires n=1). Using temperature_random=1e-5."
+        )
+        temp_random = 1e-5
+    random_params = SamplingParams(
+        temperature=temp_random,
+        n=args.num_random_samples,
+        max_tokens=args.max_tokens,
+        logprobs=logprobs_to_request,
+        top_p=0.95,
+    )
     
     # --- 5. Incremental processing and saving ---
-    with open(args.output_file, 'a') as f_out:
+    # If we are backfilling prompts that already exist in the output file, we must rewrite the JSONL to
+    # avoid duplicate rows for the same `original_user_content`.
+    rewrite_mode = bool(existing_by_content) and any(
+        get_user_content(t.get("prompt")) in existing_by_content for t in tasks_to_process
+    )
+
+    updated_by_content = existing_by_content if rewrite_mode else None
+
+    if not rewrite_mode:
+        f_out = open(args.output_file, "a", encoding="utf-8")
+    try:
         for i in tqdm(range(0, len(tasks_to_process), args.batch_size), desc="Processing Batches"):
             batch_tasks = tasks_to_process[i:i+args.batch_size]
             
@@ -381,7 +703,18 @@ def main():
             original_random_outputs = None
             if 'consistency' in args.methods_to_run:
                 try:
-                    original_random_outputs = llm.generate(batch_original_prompts_formatted, random_params)
+                    mb = (
+                        int(args.vllm_random_microbatch)
+                        if args.vllm_random_microbatch is not None
+                        else int(os.getenv("VLLM_RANDOM_MICROBATCH", "8"))
+                    )
+                    original_random_outputs = _generate_with_microbatches(
+                        llm,
+                        batch_original_prompts_formatted,
+                        random_params,
+                        initial_microbatch_size=mb,
+                        label="consistency/random",
+                    )
                 except Exception as e:
                     print(f"Batch {i // args.batch_size} original Random sampling failed: {e}")
                     original_random_outputs = None
@@ -398,7 +731,8 @@ def main():
                     critique_prompt = copy.deepcopy(original_prompt)
                     template_prompt_formatted = format_prompt(critique_prompt, args.prompt_template, tokenizer)
                     template_token_ids = tokenizer.encode(template_prompt_formatted)
-                    max_response_len = max_model_len - len(template_token_ids) - 50
+                    # Leave headroom for instruction + critique generation.
+                    max_response_len = max(0, max_model_len - len(template_token_ids) - 512)
 
                     # As the model context window is limited, we may need to truncate the response
                     response_token_ids = tokenizer.encode(first_pass_text)
@@ -415,8 +749,29 @@ def main():
                     critique_prompt[-1]['content'] = new_user_content
                     batch_critique_prompts.append(format_prompt(critique_prompt, args.prompt_template, tokenizer))
                 try:
-                    greedy_critique_params = SamplingParams(temperature=args.temperature, n=1, max_tokens=args.max_tokens*2, logprobs=logprobs_to_request)
-                    critique_greedy_outputs = llm.generate(batch_critique_prompts, greedy_critique_params)
+                    # Ensure we never exceed context window: prompt_len + max_tokens <= max_model_len.
+                    prompt_lens = [len(tokenizer.encode(p)) for p in batch_critique_prompts]
+                    max_prompt_len = max(prompt_lens) if prompt_lens else 0
+                    available = max(1, max_model_len - max_prompt_len - 32)
+                    max_tokens_critique = int(min(args.max_tokens, available))
+                    greedy_critique_params = SamplingParams(
+                        temperature=args.temperature,
+                        n=1,
+                        max_tokens=max_tokens_critique,
+                        logprobs=logprobs_to_request,
+                    )
+                    mb = (
+                        int(args.vllm_critique_microbatch)
+                        if args.vllm_critique_microbatch is not None
+                        else int(os.getenv("VLLM_CRITIQUE_MICROBATCH", "8"))
+                    )
+                    critique_greedy_outputs = _generate_with_microbatches(
+                        llm,
+                        batch_critique_prompts,
+                        greedy_critique_params,
+                        initial_microbatch_size=mb,
+                        label="self_critique",
+                    )
                 except Exception as e:
                     print(f"Batch {i // args.batch_size} self-critique sampling failed: {e}")
                     critique_greedy_outputs = None
@@ -447,10 +802,11 @@ def main():
             for j in range(len(batch_tasks)):
                 task = batch_tasks[j]
                 original_prompt = _coerce_messages(task.get('prompt'))
+                content = get_user_content(original_prompt)
                 final_item = {
-                    "original_user_content": get_user_content(original_prompt),
-                    "ground_truth_label": 1 if task['member'] else 0,
-                    "data_source": task['data_source'],
+                    "original_user_content": content,
+                    "ground_truth_label": 1 if task["member"] else 0,
+                    "data_source": task["data_source"],
                 }
                 
                 # Add result fields as needed
@@ -460,17 +816,59 @@ def main():
                     final_item["perturbed_greedy_results"] = [process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in perturbed_greedy_outputs[j].outputs]
                 
                 if original_random_outputs:
-                    final_item["original_random_results"] = [process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in original_random_outputs[j].outputs]
+                    ro = original_random_outputs[j] if j < len(original_random_outputs) else None
+                    if ro is not None:
+                        final_item["original_random_results"] = [
+                            process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in ro.outputs
+                        ]
 
                 if critique_greedy_outputs:
-                    final_item["critique_greedy_results"] = [process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in critique_greedy_outputs[j].outputs]
+                    co = critique_greedy_outputs[j] if j < len(critique_greedy_outputs) else None
+                    if co is not None:
+                        final_item["critique_greedy_results"] = [
+                            process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in co.outputs
+                        ]
 
                 if unfamiliar_greedy_outputs:
                     final_item["unfamiliar_greedy_results"] = [process_single_output(o, tokenizer, approx_mode=args.approx_mode) for o in unfamiliar_greedy_outputs[j].outputs]
 
-                f_out.write(json.dumps(final_item) + '\n')
-                f_out.flush()
-                os.fsync(f_out.fileno())
+                # Loud warnings when requested methods are missing for this sample.
+                if "self_critique" in args.methods_to_run and "critique_greedy_results" not in final_item:
+                    print(f"[warn] Missing critique_greedy_results for sample idx={i + j}.")
+                if "consistency" in args.methods_to_run and "original_random_results" not in final_item:
+                    print(f"[warn] Missing original_random_results for sample idx={i + j}.")
+
+                if rewrite_mode:
+                    prev = updated_by_content.get(content, {})
+                    # Preserve any existing fields not recomputed; overwrite with newly computed outputs.
+                    merged = dict(prev)
+                    merged.update(final_item)
+                    if content not in updated_by_content:
+                        existing_order.append(content)
+                    updated_by_content[content] = merged
+                else:
+                    f_out.write(json.dumps(final_item) + "\n")
+                    f_out.flush()
+                    os.fsync(f_out.fileno())
+    finally:
+        if not rewrite_mode:
+            f_out.close()
+
+    if rewrite_mode:
+        tmp_path = args.output_file + ".tmp"
+        seen = set()
+        with open(tmp_path, "w", encoding="utf-8") as wf:
+            for content in existing_order:
+                item = updated_by_content.get(content)
+                if not item:
+                    continue
+                wf.write(json.dumps(item) + "\n")
+                seen.add(content)
+            for content, item in updated_by_content.items():
+                if content in seen:
+                    continue
+                wf.write(json.dumps(item) + "\n")
+        os.replace(tmp_path, args.output_file)
 
     print(f"\nAll data successfully saved to: {args.output_file}")
 

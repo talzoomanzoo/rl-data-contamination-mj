@@ -1,8 +1,0 @@
-{
-  "original_question": "Consider the paths of length $16$ that follow the lines from the lower left corner to the upper right corner on an $8\\times 8$ grid. Find the number of such paths that change direction exactly four times, as in the examples shown below.\n[asy] size(10cm); usepackage(\"tikz\");label(\"\\begin{tikzpicture}[scale=.5]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(2,0)--(2,3)--(5,3)--(5,8)--(8,8);\\end{tikzpicture}\",origin); label(\"\\begin{tikzpicture}[scale=.5]\\draw(0,0)grid(8,8);\\draw[line width=2,red](0,0)--(0,3)--(3,3)--(3,5)--(8,5)--(8,8);\\end{tikzpicture}\",E); [/asy]",
-  "num_entries": 0,
-  "entries": [],
-  "skipped": true,
-  "reason": "insufficient_valid_similars",
-  "min_valid_similars": 2
-}

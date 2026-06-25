@@ -1,11 +1,13 @@
 #!/bin/bash
 set -e 
 
-ROOT="/scratch/mjgwak/rl-data-contamination-mj"
+# Resolve repo root relative to this script so it works from any cwd.
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd -- "${SCRIPT_DIR}/../.." && pwd)"
 
 # --- Hugging Face download acceleration ---
 # NOTE: set to 0 unless you have `hf_transfer` installed.
-export HF_HUB_ENABLE_HF_TRANSFER=0
+export HF_HUB_ENABLE_HF_TRANSFER=1
 
 # --- vLLM multiprocessing start method ---
 # With tensor_parallel_size > 1, vLLM uses multiprocessing; CUDA requires "spawn" (not fork).
@@ -68,6 +70,40 @@ REP_STIFF_SCORES_JSON="${RESULTS_DIR}/rep_stiff_scores.json"
 REP_STIFF_COMBINED_FIXED="${REP_STIFF_COMBINED_FIXED:-1}"
 REP_STIFF_COMBINED_RULE="${REP_STIFF_COMBINED_RULE:-trend_v1}"
 REP_STIFF_COMBINED_WEIGHTS_JSON="${REP_STIFF_COMBINED_WEIGHTS_JSON:-}"
+
+# --- RepStiff incomplete-question blanking controls ---
+# 'important' blanks the most important word(s)/phrase(s); 'guided' blanks an identified info-type.
+REP_STIFF_INCOMPLETE_BLANK_STRATEGY="${REP_STIFF_INCOMPLETE_BLANK_STRATEGY:-important}"
+# In 'important' mode, enforce exactly this many [BLANK] tokens in each incomplete question.
+REP_STIFF_INCOMPLETE_NUM_BLANKS="${REP_STIFF_INCOMPLETE_NUM_BLANKS:-1}"
+
+# --- RepStiff layer probing ---
+# Number of transformer layers in the base model (Qwen2.5-Math-7B = 28).
+# Used to build "L0,L1,...,L{N-1}" so RepStiff probes every layer individually.
+NUM_HIDDEN_LAYERS="${NUM_HIDDEN_LAYERS:-28}"
+REP_STIFF_LAYERS="$(python -c "import sys; print(','.join(f'L{i}' for i in range(int(sys.argv[1]))))" "$NUM_HIDDEN_LAYERS")"
+
+# --- LaRA (clean-reference standardized geometric anomaly) options ---
+# - REP_STIFF_LARA_EPS: numerical epsilon for z = (m - mu)/(sigma + eps).
+# - REP_STIFF_LARA_CLEAN_REF: optional path to a JSON of clean reference stats
+#   {layer: {metric: {mean, std}}} from a held-out clean validation set.
+#   When unset, mu/sigma are estimated from rows with ground_truth_label == 0
+#   in the current eval set.
+# - REP_STIFF_LARA_MIX_BETA: rank-mix weight on self_critique for
+#   self_critique_rep_stiff_lara_mix.
+# - REP_STIFF_LARA_ROBUST_LAYER_WINDOW: which layer-position subset the robust
+#   variant aggregates over. One of {all, early_mid, early, mid, late}; defaults
+#   to 'all' (paper-spec aggregation). Tighter windows are explored as variants
+#   in the auxiliary lara_robust_variants.json / lara_self_critique_beta_sweep.json
+#   files written next to evaluation_summary.json.
+# - REP_STIFF_LARA_ROBUST_DC_WEIGHT: multiplicative weight on the DC metric in
+#   the robust aggregation (1.0 = uniform, 2.0 = double DC influence). Default
+#   1.0 (uniform). Variant files explore higher weights.
+REP_STIFF_LARA_EPS="${REP_STIFF_LARA_EPS:-1e-8}"
+REP_STIFF_LARA_CLEAN_REF="${REP_STIFF_LARA_CLEAN_REF:-}"
+REP_STIFF_LARA_MIX_BETA="${REP_STIFF_LARA_MIX_BETA:-0.65}"
+REP_STIFF_LARA_ROBUST_LAYER_WINDOW="${REP_STIFF_LARA_ROBUST_LAYER_WINDOW:-all}"
+REP_STIFF_LARA_ROBUST_DC_WEIGHT="${REP_STIFF_LARA_ROBUST_DC_WEIGHT:-1.0}"
 # --- WORKFLOW ---
 echo "======================================================"
 echo "    Starting Final Contamination Detection Workflow"
@@ -150,17 +186,41 @@ if [ "$REP_STIFF_COMBINED_FIXED" = "1" ]; then
     COMBINED_ARGS="$COMBINED_ARGS --rep_stiff_combined_fixed --rep_stiff_combined_rule \"$REP_STIFF_COMBINED_RULE\""
 fi
 
+# --- Single RepStiff run with k=1 incomplete-question blanks ---
+# The k=1 output dir is preserved (final_results/.../blank_k_sweep/k1/) because
+# downstream tooling (e.g. final_results_main_analyses/visualize.py) expects
+# rep_stiff_scores.json to live at that path.
+V4_ALPHA_DEFAULT="0.0"
+K_BLANKS=1
+RUN_DIR="${RESULTS_DIR}/blank_k_sweep/k${K_BLANKS}"
+mkdir -p "$RUN_DIR"
+
+echo "--> RepStiff: k_blanks=${K_BLANKS}, alpha=${V4_ALPHA_DEFAULT}"
+
+LARA_ARGS=""
+if [ -n "$REP_STIFF_LARA_CLEAN_REF" ]; then
+    LARA_ARGS="$LARA_ARGS --rep_stiff_lara_clean_ref \"$REP_STIFF_LARA_CLEAN_REF\""
+fi
+
 python "${ROOT}/evaluate_all_methods.py" \
     --input_file "$GENERATED_DATA_FILE" \
-    --output_summary_json "$EVAL_SUMMARY_JSON" \
-    --output_plot "$PLOT_PNG" \
+    --output_summary_json "${RUN_DIR}/evaluation_summary.json" \
+    --output_plot "${RUN_DIR}/performance_plot.png" \
     --rep_stiff_model_name "$HF_MODEL_ID" \
     --rep_stiff_max_workers "$OPENROUTER_WORKERS" \
-    --rep_stiff_layers "early,mid,late" \
-    --rep_stiff_scores_json "$REP_STIFF_SCORES_JSON" \
-    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_eurus" \
-    $(eval echo "$COMBINED_ARGS")
-    
+    --rep_stiff_layers "$REP_STIFF_LAYERS" \
+    --rep_stiff_scores_json "${RUN_DIR}/rep_stiff_scores.json" \
+    --rep_stiff_output_dir "${ROOT}/rep_stiff_outputs_eurus_blank_k${K_BLANKS}" \
+    --rep_stiff_incomplete_blank_strategy "$REP_STIFF_INCOMPLETE_BLANK_STRATEGY" \
+    --rep_stiff_incomplete_num_blanks "$K_BLANKS" \
+    --rep_stiff_combined_v4_alpha "$V4_ALPHA_DEFAULT" \
+    --rep_stiff_lara_eps "$REP_STIFF_LARA_EPS" \
+    --rep_stiff_lara_mix_beta "$REP_STIFF_LARA_MIX_BETA" \
+    --rep_stiff_lara_robust_layer_window "$REP_STIFF_LARA_ROBUST_LAYER_WINDOW" \
+    --rep_stiff_lara_robust_dc_weight "$REP_STIFF_LARA_ROBUST_DC_WEIGHT" \
+    $(eval echo "$COMBINED_ARGS") \
+    $(eval echo "$LARA_ARGS")
+
 echo "======================================================"
 echo "           Workflow Completed!"
 echo "======================================================"

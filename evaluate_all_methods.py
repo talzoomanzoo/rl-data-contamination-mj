@@ -2,6 +2,7 @@ import os
 import json
 import numpy as np
 import argparse
+from typing import Dict, List, Optional, Tuple
 from tqdm import tqdm
 import pandas as pd
 from sklearn.metrics import roc_curve, auc, precision_recall_curve, f1_score, accuracy_score
@@ -190,6 +191,501 @@ def evaluate_performance(y_true, y_scores):
         "tpr_at_fpr_5": tpr_at_fpr_5
     }
 
+
+def segment_lengths_9_9_10(n_layers: int) -> Tuple[int, int, int]:
+    """Early / mid / late run lengths in a 9:9:10 ratio (sums to n_layers)."""
+    if n_layers <= 0:
+        return (0, 0, 0)
+    n_e = (9 * n_layers) // 28
+    n_m = (9 * n_layers) // 28
+    n_l = n_layers - n_e - n_m
+    return (n_e, n_m, n_l)
+
+
+def _layer_sort_key(layer_name: str) -> Tuple[int, str]:
+    if layer_name.startswith("L") and layer_name[1:].isdigit():
+        return (int(layer_name[1:]), layer_name)
+    legacy = {"early": 0, "mid": 1, "late": 2}
+    return (legacy.get(layer_name, 9999), layer_name)
+
+
+def _ordered_rep_stiff_layers(layers: List[str]) -> List[str]:
+    return [name for _, name in sorted((_layer_sort_key(ln), ln) for ln in layers)]
+
+
+def _numeric_layer_indices(layers: List[str]) -> List[Tuple[int, str]]:
+    out: List[Tuple[int, str]] = []
+    for ln in layers:
+        if ln.startswith("L") and ln[1:].isdigit():
+            out.append((int(ln[1:]), ln))
+    return sorted(out)
+
+
+_LEGACY_SEGMENT_LAYERS = frozenset({"early", "mid", "late"})
+
+
+def _legacy_segment_layer_features(
+    df_scores: pd.DataFrame,
+    ordered_layers: List[str],
+) -> Dict[str, pd.Series]:
+    """Map rep_stiff_*_{early,mid,late}_score columns to segment feature series."""
+    if not set(ordered_layers) <= _LEGACY_SEGMENT_LAYERS:
+        return {}
+    features: Dict[str, pd.Series] = {}
+    for seg in ordered_layers:
+        for metric, col_prefix in (
+            ("rsi", "rep_stiff_rsi"),
+            ("rsm", "rep_stiff_rsm"),
+            ("directional_collapse", "rep_stiff_directional_collapse"),
+        ):
+            col = f"{col_prefix}_{seg}_score"
+            if col in df_scores.columns:
+                features[f"{metric}_{seg}"] = pd.to_numeric(df_scores[col], errors="coerce")
+    return features
+
+
+def _compute_rep_stiff_combined_score_new2(
+    df_scores: pd.DataFrame,
+    ordered_layers: List[str],
+) -> Optional[pd.Series]:
+    """Early-vs-late slope combined score (numeric L* layers or legacy early/mid/late)."""
+    parts: List[pd.Series] = []
+    for col_prefix, weight in (
+        ("rep_stiff_rsm", 1.0),
+        ("rep_stiff_directional_collapse", 1.0),
+        ("rep_stiff_rsi", -1.0),
+    ):
+        early_cols: List[str] = []
+        late_cols: List[str] = []
+        numeric = _numeric_layer_indices(ordered_layers)
+        if len(numeric) >= 2:
+            idx_to_name = {idx: name for idx, name in numeric}
+            lo_idx, hi_idx = numeric[0][0], numeric[-1][0]
+            n_e, n_m, _ = segment_lengths_9_9_10(hi_idx - lo_idx + 1)
+            early_idxs = [i for i, _ in numeric if i < lo_idx + n_e]
+            late_idxs = [i for i, _ in numeric if i >= lo_idx + n_e + n_m]
+            if not early_idxs or not late_idxs:
+                continue
+            early_cols = [f"{col_prefix}_{idx_to_name[i]}_score" for i in early_idxs]
+            late_cols = [f"{col_prefix}_{idx_to_name[i]}_score" for i in late_idxs]
+        elif "early" in ordered_layers and "late" in ordered_layers:
+            early_cols = [f"{col_prefix}_early_score"]
+            late_cols = [f"{col_prefix}_late_score"]
+        else:
+            continue
+        if all(c in df_scores.columns for c in early_cols + late_cols):
+            early_mean = df_scores[early_cols].apply(pd.to_numeric, errors="coerce").mean(axis=1)
+            late_mean = df_scores[late_cols].apply(pd.to_numeric, errors="coerce").mean(axis=1)
+            parts.append(weight * (late_mean - early_mean))
+    if not parts:
+        return None
+    return sum(parts)
+
+
+def _build_segment_layer_features(
+    df_scores: pd.DataFrame,
+    ordered_layers: List[str],
+) -> Dict[str, pd.Series]:
+    """Map per-layer columns to rsi/rsm/dc_{early,mid,late} means for trend rules."""
+    numeric = _numeric_layer_indices(ordered_layers)
+    if not numeric:
+        return _legacy_segment_layer_features(df_scores, ordered_layers)
+    n_layers = numeric[-1][0] - numeric[0][0] + 1
+    n_e, n_m, _n_l = segment_lengths_9_9_10(n_layers)
+    buckets = {
+        "early": {idx for idx, _ in numeric if idx < numeric[0][0] + n_e},
+        "mid": {idx for idx, _ in numeric if numeric[0][0] + n_e <= idx < numeric[0][0] + n_e + n_m},
+        "late": {idx for idx, _ in numeric if idx >= numeric[0][0] + n_e + n_m},
+    }
+    idx_to_name = {idx: name for idx, name in numeric}
+    features: Dict[str, pd.Series] = {}
+    for seg, idx_set in buckets.items():
+        if not idx_set:
+            continue
+        for metric, col_prefix in (
+            ("rsi", "rep_stiff_rsi"),
+            ("rsm", "rep_stiff_rsm"),
+            ("directional_collapse", "rep_stiff_directional_collapse"),
+        ):
+            cols = [f"{col_prefix}_{idx_to_name[i]}_score" for i in sorted(idx_set) if i in idx_to_name]
+            cols = [c for c in cols if c in df_scores.columns]
+            if not cols:
+                continue
+            features[f"{metric}_{seg}"] = df_scores[cols].apply(
+                pd.to_numeric, errors="coerce"
+            ).mean(axis=1)
+    return features
+
+
+def _aligned_layer_rank_columns(
+    df_scores: pd.DataFrame,
+    ordered_layers: List[str],
+) -> Tuple[List[str], List[str]]:
+    """Percentile ranks per metric/layer and per-layer aligned rigidity s_l."""
+    rsm_cols: List[str] = []
+    dc_cols: List[str] = []
+    rsi_cols: List[str] = []
+    s_cols: List[str] = []
+    for layer_name in ordered_layers:
+        rsm_col = f"__rs_rank_{layer_name}"
+        dc_col = f"__dc_rank_{layer_name}"
+        rsi_col = f"__rsi_rank_{layer_name}"
+        base_rsm = f"rep_stiff_rsm_{layer_name}_score"
+        base_dc = f"rep_stiff_directional_collapse_{layer_name}_score"
+        base_rsi = f"rep_stiff_rsi_{layer_name}_score"
+        if base_rsm in df_scores.columns:
+            df_scores[rsm_col] = pd.to_numeric(df_scores[base_rsm], errors="coerce").rank(pct=True)
+            rsm_cols.append(rsm_col)
+        if base_dc in df_scores.columns:
+            df_scores[dc_col] = pd.to_numeric(df_scores[base_dc], errors="coerce").rank(pct=True)
+            dc_cols.append(dc_col)
+        if base_rsi in df_scores.columns:
+            df_scores[rsi_col] = pd.to_numeric(df_scores[base_rsi], errors="coerce").rank(pct=True)
+            rsi_cols.append(rsi_col)
+        if rsm_col in df_scores.columns and dc_col in df_scores.columns and rsi_col in df_scores.columns:
+            scol = f"__s_align_{layer_name}"
+            df_scores[scol] = (
+                df_scores[rsm_col] + df_scores[dc_col] + (1.0 - df_scores[rsi_col])
+            ) / 3.0
+            s_cols.append(scol)
+    return s_cols, ordered_layers
+
+
+def _compute_rep_stiff_derived_columns(
+    df_scores: pd.DataFrame,
+    args: argparse.Namespace,
+    rep_stiff_layers: List[str],
+    rep_stiff_scores_list: Optional[List[dict]],
+) -> None:
+    """Post-process per-layer RepStiff scores into combined / LaRA detector columns."""
+    ordered_layers = _ordered_rep_stiff_layers(rep_stiff_layers)
+    if not ordered_layers:
+        return
+
+    segment_features = _build_segment_layer_features(df_scores, ordered_layers)
+    if segment_features and (args.rep_stiff_combined_weights or args.rep_stiff_combined_fixed):
+        for key, series in segment_features.items():
+            df_scores[key] = series
+        if args.rep_stiff_combined_fixed:
+            seg_keys = list(segment_features.keys())
+            df_scores["rep_stiff_combined_trend_v1_score"] = [
+                RepStiffDetector.compute_fixed_trend_score(
+                    {k: segment_features[k].iloc[i] for k in seg_keys}
+                )
+                for i in range(len(df_scores))
+            ]
+            df_scores["rep_stiff_combined_trend_v2_score"] = [
+                RepStiffDetector.compute_fixed_trend_v2_score(
+                    {k: segment_features[k].iloc[i] for k in seg_keys}
+                )
+                for i in range(len(df_scores))
+            ]
+            df_scores["rep_stiff_combined_trend_v3_score"] = [
+                RepStiffDetector.compute_fixed_trend_v3_score(
+                    {k: segment_features[k].iloc[i] for k in seg_keys}
+                )
+                for i in range(len(df_scores))
+            ]
+            df_scores["rep_stiff_combined_trend_v4_score"] = [
+                RepStiffDetector.compute_fixed_trend_v4_score(
+                    {k: segment_features[k].iloc[i] for k in seg_keys}
+                )
+                for i in range(len(df_scores))
+            ]
+
+    s_cols, required_layers = _aligned_layer_rank_columns(df_scores, ordered_layers)
+    if len(s_cols) == len(required_layers) and len(required_layers) >= 1:
+        s_mat = df_scores[s_cols].to_numpy(dtype=float)
+        df_scores["rep_stiff_combined_v4"] = np.nanmean(s_mat, axis=1)
+        df_scores["rep_stiff_combined_v6"] = df_scores["rep_stiff_combined_v4"]
+        df_scores["rep_stiff_combined_new"] = df_scores["rep_stiff_combined_v4"]
+        if len(required_layers) >= 2:
+            depth = np.linspace(0.0, 1.0, len(required_layers))
+            dd = depth - float(depth.mean())
+            denom_d = float(np.sqrt(np.dot(dd, dd)))
+            s_mean = s_mat.mean(axis=1, keepdims=True)
+            ss = s_mat - s_mean
+            denom_s = np.sqrt((ss * ss).sum(axis=1))
+            num = (ss * dd).sum(axis=1)
+            with np.errstate(divide="ignore", invalid="ignore"):
+                r_pearson = num / (denom_d * denom_s)
+            r_pearson = np.where(denom_s > 1e-12, r_pearson, np.nan)
+            df_scores["rep_stiff_combined_v5"] = r_pearson.astype(float)
+        else:
+            df_scores["rep_stiff_combined_v5"] = np.nan
+
+    new2 = _compute_rep_stiff_combined_score_new2(df_scores, ordered_layers)
+    if new2 is not None:
+        df_scores["rep_stiff_combined_score_new2"] = new2
+        df_scores["rep_stiff_combined_new2"] = new2
+        df_scores["rep_stiff_combined_new3"] = new2
+
+    if segment_features:
+        rsi_e = segment_features.get("rsi_early")
+        dc_e = segment_features.get("directional_collapse_early")
+        rsm_e = segment_features.get("rsm_early")
+        if rsi_e is not None and dc_e is not None:
+            df_scores["rep_stiff_combined_rsi_dc_score"] = rsi_e * dc_e
+        if rsi_e is not None and rsm_e is not None:
+            df_scores["rep_stiff_combined_rsi_rsm_score"] = rsi_e + rsm_e
+        if dc_e is not None and rsm_e is not None:
+            df_scores["rep_stiff_combined_dc_rsm_score"] = dc_e + rsm_e
+
+    alpha_v4 = float(getattr(args, "rep_stiff_combined_v4_alpha", 0.0))
+    alpha_v4 = min(1.0, max(0.0, alpha_v4))
+    beta_v6 = float(getattr(args, "rep_stiff_v6_mix_beta", 0.65))
+    beta_v6 = min(1.0, max(0.0, beta_v6))
+    if "self_critique_score" in df_scores.columns:
+        r_sc = pd.to_numeric(df_scores["self_critique_score"], errors="coerce").rank(pct=True)
+        if "rep_stiff_combined_v4" in df_scores.columns:
+            r_v4 = pd.to_numeric(df_scores["rep_stiff_combined_v4"], errors="coerce").rank(pct=True)
+            df_scores["self_critique_rep_stiff_v4_mix"] = (
+                alpha_v4 * r_sc + (1.0 - alpha_v4) * r_v4
+            )
+        if "rep_stiff_combined_v5" in df_scores.columns:
+            r_v5 = pd.to_numeric(df_scores["rep_stiff_combined_v5"], errors="coerce").rank(pct=True)
+            df_scores["self_critique_rep_stiff_v5_mix"] = beta_v6 * r_sc + (1.0 - beta_v6) * r_v5
+        if "rep_stiff_combined_v6" in df_scores.columns:
+            r_v6 = pd.to_numeric(df_scores["rep_stiff_combined_v6"], errors="coerce").rank(pct=True)
+            df_scores["self_critique_rep_stiff_v6_mix"] = beta_v6 * r_sc + (1.0 - beta_v6) * r_v6
+
+    # --- LaRA ---
+    lara_eps = float(getattr(args, "rep_stiff_lara_eps", 1e-8))
+    lara_metrics: List[Tuple[str, str, str]] = [
+        ("rep_stiff_rsm", "rsm", "signed"),
+        ("rep_stiff_directional_collapse", "directional_collapse", "absolute"),
+        ("rep_stiff_rsi", "rsi", "negated"),
+    ]
+    lara_layers = list(ordered_layers)
+    external_ref: Dict[str, Dict[str, Dict[str, float]]] = {}
+    ref_path = getattr(args, "rep_stiff_lara_clean_ref", None)
+    if ref_path:
+        try:
+            with open(ref_path, "r", encoding="utf-8") as fref:
+                external_ref = json.load(fref)
+            print(f"[info] LaRA: loaded external clean-reference stats from {ref_path}")
+        except Exception as exc:
+            print(
+                f"[warn] LaRA: could not load --rep_stiff_lara_clean_ref={ref_path}: {exc}; "
+                "falling back to in-set clean rows."
+            )
+            external_ref = {}
+
+    label_arr = pd.to_numeric(df_scores.get("ground_truth_label"), errors="coerce").to_numpy()
+    in_set_clean_mask = label_arr == 0
+    n_clean = int(np.sum(in_set_clean_mask))
+    if not external_ref and n_clean < 2:
+        print(
+            f"[warn] LaRA: only {n_clean} clean rows in eval set; "
+            "falling back to all rows for clean-reference statistics."
+        )
+        in_set_clean_mask = np.ones_like(in_set_clean_mask, dtype=bool)
+
+    n_rows = len(df_scores)
+
+    def _signed_log1p(arr: np.ndarray) -> np.ndarray:
+        return np.sign(arr) * np.log1p(np.abs(arr))
+
+    def _layer_index_subset(window: str) -> set:
+        L_local = len(lara_layers)
+        if L_local == 0 or window == "all":
+            return set(range(L_local))
+        numeric_local = _numeric_layer_indices(lara_layers)
+        if not numeric_local:
+            return set(range(L_local))
+        lo = numeric_local[0][0]
+        hi = numeric_local[-1][0]
+        n_e, n_m, _ = segment_lengths_9_9_10(hi - lo + 1)
+        early = {i for i, _ in numeric_local if i < lo + n_e}
+        mid = {i for i, _ in numeric_local if lo + n_e <= i < lo + n_e + n_m}
+        late = {i for i, _ in numeric_local if i >= lo + n_e + n_m}
+        pos = {idx: li for li, (idx, _) in enumerate(numeric_local)}
+        if window == "early_mid":
+            keep = early | mid
+        elif window == "mid_late":
+            keep = mid | late
+        elif window == "early":
+            keep = early
+        elif window == "mid":
+            keep = mid
+        elif window == "late":
+            keep = late
+        else:
+            keep = set(range(L_local))
+        return {pos[i] for i in keep if i in pos}
+
+    def _compute_lara(
+        log_metrics: set,
+        drop_delta: bool,
+        use_mad: bool = False,
+        layer_window: str = "all",
+        metric_weights: Optional[Dict[str, float]] = None,
+        active_metrics: Optional[List[Tuple[str, str, str]]] = None,
+    ) -> np.ndarray:
+        metrics = active_metrics if active_metrics is not None else lara_metrics
+        M = len(metrics)
+        L = len(lara_layers)
+        zhat_stack = np.full((n_rows, M, L), np.nan, dtype=float)
+        have_all = True
+        layer_keep = _layer_index_subset(layer_window)
+
+        for li, layer_name in enumerate(lara_layers):
+            if li not in layer_keep:
+                continue
+            for mi, (col_prefix, metric_short, alignment) in enumerate(metrics):
+                col = f"{col_prefix}_{layer_name}_score"
+                if col not in df_scores.columns:
+                    have_all = False
+                    break
+                raw = pd.to_numeric(df_scores[col], errors="coerce").to_numpy(dtype=float)
+                raw_for_stats = _signed_log1p(raw) if metric_short in log_metrics else raw
+
+                mu = sigma = None
+                ref_layer = external_ref.get(layer_name, {})
+                ref_metric = ref_layer.get(metric_short, {}) if isinstance(ref_layer, dict) else {}
+                if isinstance(ref_metric, dict) and "mean" in ref_metric and "std" in ref_metric:
+                    try:
+                        mu = float(ref_metric["mean"])
+                        sigma = float(ref_metric["std"])
+                    except (TypeError, ValueError):
+                        mu = sigma = None
+
+                if mu is None or sigma is None or not (np.isfinite(mu) and np.isfinite(sigma)):
+                    clean_vals = raw_for_stats[in_set_clean_mask]
+                    clean_vals = clean_vals[np.isfinite(clean_vals)]
+                    if clean_vals.size < 2:
+                        mu, sigma = np.nan, np.nan
+                    elif use_mad:
+                        med = float(np.median(clean_vals))
+                        mad = float(np.median(np.abs(clean_vals - med)))
+                        mu = med
+                        sigma = 1.4826 * mad
+                    else:
+                        mu = float(np.mean(clean_vals))
+                        sigma = float(np.std(clean_vals, ddof=0))
+
+                if not (np.isfinite(mu) and np.isfinite(sigma)):
+                    continue
+                z = (raw_for_stats - mu) / (sigma + lara_eps)
+                if alignment == "signed":
+                    zhat = z
+                elif alignment == "absolute":
+                    zhat = np.abs(z)
+                elif alignment == "negated":
+                    zhat = -z
+                else:
+                    zhat = z
+                zhat_stack[:, mi, li] = zhat
+            if not have_all:
+                break
+
+        if not have_all or L < 1 or not layer_keep:
+            return np.full(n_rows, np.nan, dtype=float)
+
+        abs_zhat = np.abs(zhat_stack)
+        if drop_delta:
+            summand = abs_zhat
+        else:
+            if L >= 2:
+                deltas = np.diff(zhat_stack, axis=2)
+                deltas = np.concatenate(
+                    [deltas, np.zeros((deltas.shape[0], deltas.shape[1], 1), dtype=float)],
+                    axis=2,
+                )
+            else:
+                deltas = np.zeros_like(zhat_stack)
+            summand = abs_zhat + np.abs(deltas)
+
+        if metric_weights is not None:
+            w = np.array(
+                [float(metric_weights.get(short, 1.0)) for _, short, _ in metrics],
+                dtype=float,
+            )
+            w_mean = float(np.mean(w))
+            if w_mean > 0:
+                w = w / w_mean
+            summand = summand * w[None, :, None]
+
+        with np.errstate(invalid="ignore"):
+            return np.nanmean(summand.reshape(n_rows, -1), axis=1)
+
+    df_scores["rep_stiff_lara"] = _compute_lara(log_metrics=set(), drop_delta=False)
+    robust_layer_window = str(getattr(args, "rep_stiff_lara_robust_layer_window", "all"))
+    robust_dc_weight = float(getattr(args, "rep_stiff_lara_robust_dc_weight", 1.0))
+    log_metrics_robust = {"rsm", "directional_collapse", "rsi"}
+    df_scores["rep_stiff_lara_robust"] = _compute_lara(
+        log_metrics=log_metrics_robust,
+        drop_delta=True,
+        use_mad=True,
+        layer_window=robust_layer_window,
+        metric_weights={
+            "rsm": 1.0,
+            "directional_collapse": robust_dc_weight,
+            "rsi": 1.0,
+        },
+    )
+
+    # All-layers LaRA-robust single-metric scores (for evaluation_summary.json).
+    for col_name, col_prefix, metric_short, alignment in (
+        ("rep_stiff_lara_robust_rsm", "rep_stiff_rsm", "rsm", "signed"),
+        ("rep_stiff_lara_robust_rsi", "rep_stiff_rsi", "rsi", "negated"),
+        ("rep_stiff_lara_robust_dc", "rep_stiff_directional_collapse", "directional_collapse", "absolute"),
+    ):
+        df_scores[col_name] = _compute_lara(
+            log_metrics=log_metrics_robust,
+            drop_delta=True,
+            use_mad=True,
+            layer_window="all",
+            active_metrics=[(col_prefix, metric_short, alignment)],
+        )
+
+    beta_lara = float(getattr(args, "rep_stiff_lara_mix_beta", 0.65))
+    beta_lara = min(1.0, max(0.0, beta_lara))
+    if "self_critique_score" in df_scores.columns:
+        r_sc_lara = pd.to_numeric(df_scores["self_critique_score"], errors="coerce").rank(pct=True)
+        if "rep_stiff_lara" in df_scores.columns:
+            r_lara = pd.to_numeric(df_scores["rep_stiff_lara"], errors="coerce").rank(pct=True)
+            df_scores["self_critique_rep_stiff_lara_mix"] = beta_lara * r_sc_lara + (1.0 - beta_lara) * r_lara
+        if "rep_stiff_lara_robust" in df_scores.columns:
+            r_lara_r = pd.to_numeric(df_scores["rep_stiff_lara_robust"], errors="coerce").rank(pct=True)
+            df_scores["self_critique_rep_stiff_lara_robust_mix"] = (
+                beta_lara * r_sc_lara + (1.0 - beta_lara) * r_lara_r
+            )
+
+    if rep_stiff_scores_list is not None and len(rep_stiff_scores_list) == len(df_scores):
+        export_map = {
+            "rep_stiff_combined_v4": "combined_v4",
+            "rep_stiff_combined_v5": "combined_v5",
+            "rep_stiff_combined_v6": "combined_v6",
+            "rep_stiff_combined_new": "combined_new",
+            "rep_stiff_combined_new2": "combined_new2",
+            "rep_stiff_combined_new3": "combined_new3",
+            "rep_stiff_combined_score_new2": "combined_new2",
+            "rep_stiff_lara": "lara",
+            "rep_stiff_lara_robust": "lara_robust",
+            "rep_stiff_lara_robust_rsm": "lara_robust_rsm",
+            "rep_stiff_lara_robust_rsi": "lara_robust_rsi",
+            "rep_stiff_lara_robust_dc": "lara_robust_dc",
+            "self_critique_rep_stiff_v4_mix": "self_critique_rep_stiff_v4_mix",
+            "self_critique_rep_stiff_v5_mix": "self_critique_rep_stiff_v5_mix",
+            "self_critique_rep_stiff_v6_mix": "self_critique_rep_stiff_v6_mix",
+            "self_critique_rep_stiff_lara_mix": "self_critique_rep_stiff_lara_mix",
+            "self_critique_rep_stiff_lara_robust_mix": "self_critique_rep_stiff_lara_robust_mix",
+            "rep_stiff_combined_rsi_dc_score": "combined_rsi_dc_score",
+            "rep_stiff_combined_rsi_rsm_score": "combined_rsi_rsm_score",
+            "rep_stiff_combined_dc_rsm_score": "combined_dc_rsm_score",
+            "rep_stiff_combined_trend_v1_score": "combined_trend_v1_score",
+            "rep_stiff_combined_trend_v2_score": "combined_trend_v2_score",
+            "rep_stiff_combined_trend_v3_score": "combined_trend_v3_score",
+            "rep_stiff_combined_trend_v4_score": "combined_trend_v4_score",
+        }
+        for col, key in export_map.items():
+            if col in df_scores.columns:
+                vals = df_scores[col].tolist()
+                for i, v in enumerate(vals):
+                    rep_stiff_scores_list[i][key] = v
+
+
 def main():
     parser = argparse.ArgumentParser(description="Calculate performance for all modular detection methods.")
     parser.add_argument("--input_file", type=str, required=True, help="JSONL file generated by generate_full_data.py.")
@@ -213,6 +709,29 @@ def main():
     parser.add_argument("--rep_stiff_combined_rule", type=str, default="trend_v1",
                         choices=["trend_v1", "trend_v2", "trend_v3", "trend_v4"],
                         help="Fixed rule for RepStiff combined score.")
+    parser.add_argument("--rep_stiff_incomplete_blank_strategy", type=str, default="important",
+                        choices=[
+                            "important", "info_rem", "guided", "info", "info_type", "guidance",
+                            "num_replace", "var_rename", "distractor", "distractor_insert",
+                        ],
+                        help="RepStiff incomplete-question perturbation strategy.")
+    parser.add_argument("--rep_stiff_incomplete_num_blanks", type=int, default=1,
+                        help="Number of [BLANK] tokens per incomplete question (important mode).")
+    parser.add_argument("--rep_stiff_combined_v4_alpha", type=float, default=0.0,
+                        help="Weight on rank(self_critique) in self_critique_rep_stiff_v4_mix.")
+    parser.add_argument("--rep_stiff_v6_mix_beta", type=float, default=0.65,
+                        help="Weight on rank(self_critique) in v5/v6 mix scores.")
+    parser.add_argument("--rep_stiff_lara_eps", type=float, default=1e-8,
+                        help="Epsilon for LaRA clean-reference standardization.")
+    parser.add_argument("--rep_stiff_lara_clean_ref", type=str, default=None,
+                        help="Optional JSON of external clean-reference stats for LaRA.")
+    parser.add_argument("--rep_stiff_lara_mix_beta", type=float, default=0.65,
+                        help="Weight on rank(self_critique) in LaRA mix scores.")
+    parser.add_argument("--rep_stiff_lara_robust_layer_window", type=str, default="all",
+                        choices=["all", "early_mid", "mid_late", "early", "mid", "late"],
+                        help="Layer window for rep_stiff_lara_robust aggregation.")
+    parser.add_argument("--rep_stiff_lara_robust_dc_weight", type=float, default=1.0,
+                        help="Multiplicative weight on DC in rep_stiff_lara_robust.")
     parser.add_argument("--output_summary_json_subset", type=str, default=None,
                         help="JSON output path for subset evaluation.")
     parser.add_argument("--output_plot_subset", type=str, default=None,
@@ -238,6 +757,8 @@ def main():
         rep_stiff_kwargs["max_openrouter_workers"] = args.rep_stiff_max_workers
     if args.rep_stiff_output_dir:
         rep_stiff_kwargs["output_dir"] = args.rep_stiff_output_dir
+    rep_stiff_kwargs["incomplete_blank_strategy"] = args.rep_stiff_incomplete_blank_strategy
+    rep_stiff_kwargs["incomplete_num_blanks"] = args.rep_stiff_incomplete_num_blanks
 
     rep_stiff_layers = [l.strip() for l in args.rep_stiff_layers.split(",") if l.strip()]
     if not rep_stiff_layers:
@@ -274,6 +795,28 @@ def main():
             _ScoreOnlyDetector("rep_stiff_combined_trend_v2_score"),
             _ScoreOnlyDetector("rep_stiff_combined_trend_v3_score"),
             _ScoreOnlyDetector("rep_stiff_combined_trend_v4_score"),
+        ])
+    if rep_stiff_layers:
+        detectors.extend([
+            _ScoreOnlyDetector("rep_stiff_combined_v4"),
+            _ScoreOnlyDetector("rep_stiff_combined_v5"),
+            _ScoreOnlyDetector("rep_stiff_combined_v6"),
+            _ScoreOnlyDetector("self_critique_rep_stiff_v4_mix"),
+            _ScoreOnlyDetector("self_critique_rep_stiff_v5_mix"),
+            _ScoreOnlyDetector("self_critique_rep_stiff_v6_mix"),
+            _ScoreOnlyDetector("rep_stiff_combined_score_new2"),
+            _ScoreOnlyDetector("rep_stiff_lara"),
+            _ScoreOnlyDetector("rep_stiff_lara_robust"),
+            _ScoreOnlyDetector("rep_stiff_lara_robust_rsm"),
+            _ScoreOnlyDetector("rep_stiff_lara_robust_rsi"),
+            _ScoreOnlyDetector("rep_stiff_lara_robust_dc"),
+            _ScoreOnlyDetector("self_critique_rep_stiff_lara_mix"),
+            _ScoreOnlyDetector("self_critique_rep_stiff_lara_robust_mix"),
+            _ScoreOnlyDetector("rep_stiff_combined_rsi_dc_score"),
+            _ScoreOnlyDetector("rep_stiff_combined_rsi_rsm_score"),
+            _ScoreOnlyDetector("rep_stiff_combined_dc_rsm_score"),
+            _ScoreOnlyDetector("rep_stiff_combined_new"),
+            _ScoreOnlyDetector("rep_stiff_combined_new3"),
         ])
     
     # --- 2. Read data and calculate all scores ---
@@ -361,13 +904,22 @@ def main():
             
     df_scores = pd.DataFrame(all_scores_list)
 
+    if rep_stiff_layers:
+        _compute_rep_stiff_derived_columns(
+            df_scores, args, rep_stiff_layers, rep_stiff_scores_list
+        )
+
     # --- 3. Evaluate all methods ---
     final_evaluation = {}
     print("\nCalculating and saving evaluation results...")
     for detector in detectors:
         method_name = detector.get_name()
         direction = detector.get_direction()
-        
+
+        if method_name not in df_scores.columns:
+            print(f"[warn] Skipping {method_name}: score column not computed for this run")
+            continue
+
         df_method = df_scores.dropna(subset=[method_name])
         y_true = df_method['ground_truth_label'].values
         y_scores = df_method[method_name].values * direction

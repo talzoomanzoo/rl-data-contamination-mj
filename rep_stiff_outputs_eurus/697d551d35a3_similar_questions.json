@@ -9,19 +9,19 @@
     },
     {
       "id": 2,
-      "question": "For each positive integer $r$ less than $432,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{432n+r}, \\]\nwhere $\\binom{8000}{n}$ is defined to be $0$ when $n>8000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{8000}{k}$ for which $0\\le k\\le 8000$ and $k-r$ is a multiple of $432.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{431}$ that are multiples of the prime number $433.$"
+      "question": "For each positive integer $r$ less than $401,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{8000}{401n+r}, \\]\nwhere $\\binom{8000}{n}$ is defined to be $0$ when $n>8000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{8000}{k}$ for which $0\\le k\\le 8000$ and $k-r$ is a multiple of $401.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{400}$ that are multiples of the prime number $409.$"
     },
     {
       "id": 3,
-      "question": "For each positive integer $r$ less than $501,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{501n+r}, \\]\nwhere $\\binom{15000}{n}$ is defined to be $0$ when $n>15000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is a multiple of $501.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{500}$ that are multiples of the prime number $509.$"
+      "question": "For each positive integer $r$ less than $751,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{15000}{751n+r}, \\]\nwhere $\\binom{15000}{n}$ is defined to be $0$ when $n>15000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{15000}{k}$ for which $0\\le k\\le 15000$ and $k-r$ is a multiple of $751.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{750}$ that are multiples of the prime number $757.$"
     },
     {
       "id": 4,
-      "question": "For each positive integer $r$ less than $345,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{9000}{345n+r}, \\]\nwhere $\\binom{9000}{n}$ is defined to be $0$ when $n>9000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{9000}{k}$ for which $0\\le k\\le 9000$ and $k-r$ is a multiple of $345.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{344}$ that are multiples of the prime number $347.$"
+      "question": "For each positive integer $r$ less than $302,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{5000}{302n+r}, \\]\nwhere $\\binom{5000}{n}$ is defined to be $0$ when $n>5000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{5000}{k}$ for which $0\\le k\\le 5000$ and $k-r$ is a multiple of $302.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{301}$ that are multiples of the prime number $307.$"
     },
     {
       "id": 5,
-      "question": "For each positive integer $r$ less than $278,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{11000}{278n+r}, \\]\nwhere $\\binom{11000}{n}$ is defined to be $0$ when $n>11000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{11000}{k}$ for which $0\\le k\\le 11000$ and $k-r$ is a multiple of $278.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{277}$ that are multiples of the prime number $281.$"
+      "question": "For each positive integer $r$ less than $901,$ define\n\\[ S_r=\\sum_{m\\ge 0}\\dbinom{20000}{901n+r}, \\]\nwhere $\\binom{20000}{n}$ is defined to be $0$ when $n>20000.$ That is, $S_r$ is the sum of all binomial coefficients of the form $\\binom{20000}{k}$ for which $0\\le k\\le 20000$ and $k-r$ is a multiple of $901.$ Find the number of integers in the list $S_0,S_1,\\dots,S_{900}$ that are multiples of the prime number $907.$"
     }
   ]
 }

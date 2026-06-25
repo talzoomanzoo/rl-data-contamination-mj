@@ -18,6 +18,7 @@
 **/rep_stiff_outputs_sat/
 **/rep_stiff_outputs_aime_5k/
 **/rep_stiff_outputs_aime25_5k/
+**/rep_stiff_outputs_**
 /reasoning_eval_scripts/data/
 /reasoning_eval_scripts/data_tokens512/
 /reasoning_eval_scripts/data_wo_eval/
@@ -27,3 +28,14 @@
 **/rep_stiff_outputs_aime25_5k/*
 **/rep_stiff_outputs_kk_mia_test/*
 **/data_acc_1/**
+**/outputs/
+**/benchmarks/
+
+# Local package/model caches and generated evaluation artifacts
+.tmp_pip_cache/
+**/.tmp_pip_cache/
+RL_Contaminate/models/
+RL_Contaminate/hf_home/
+RL_Contaminate/data/
+reasoning_eval_scripts/data_old/
+reasoning_eval_scripts/data_5/

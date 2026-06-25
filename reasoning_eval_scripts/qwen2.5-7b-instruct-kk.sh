@@ -13,7 +13,7 @@ OUT_DIR="${OUT_DIR:-${ROOT}/reasoning_eval_scripts/data}"
 
 # vLLM / decoding config (match eurus_and_base.sh defaults)
 USE_VLLM="${USE_VLLM:-1}"
-ASYNC_VLLM="${ASYNC_VLLM:-1}"
+ASYNC_VLLM="${ASYNC_VLLM:-0}"
 BATCH_SIZE="${BATCH_SIZE:-60}"
 MAX_IN_FLIGHT="${MAX_IN_FLIGHT:-8}"
 SCORE_MAX_IN_FLIGHT="${SCORE_MAX_IN_FLIGHT:-1}"
@@ -44,9 +44,9 @@ for MODEL_ID in "${MODELS[@]}"; do
   EXTRA_ARGS=()
   if [ "$USE_VLLM" -eq 1 ]; then
     EXTRA_ARGS+=(--use_vllm --batch_size "$BATCH_SIZE")
+    EXTRA_ARGS+=(--gpu_memory_utilization "$GPU_MEMORY_UTILIZATION" --max_num_seqs "$MAX_NUM_SEQS")
     if [ "$ASYNC_VLLM" -eq 1 ]; then
       EXTRA_ARGS+=(--async_vllm --max_in_flight "$MAX_IN_FLIGHT" --score_max_in_flight "$SCORE_MAX_IN_FLIGHT")
-      EXTRA_ARGS+=(--gpu_memory_utilization "$GPU_MEMORY_UTILIZATION" --max_num_seqs "$MAX_NUM_SEQS")
     fi
   fi
   if [ "$DO_SAMPLE" -eq 1 ]; then

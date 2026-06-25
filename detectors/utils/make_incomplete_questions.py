@@ -374,6 +374,323 @@ Output ONLY a JSON array of strings with the same length and order as the input 
     raise ValueError(f"Failed to parse JSON array from batch response after retries: {last}")
 
 
+def generate_incomplete_questions_by_importance_batch(
+    questions: list[str],
+    *,
+    num_blanks: int = 1,
+    model: str = "openai/gpt-4o-mini",
+) -> list[str]:
+    """
+    Generate incomplete questions by blanking out the most important word(s)/short phrase(s).
+
+    The model is instructed to insert EXACTLY `num_blanks` occurrences of the literal token [BLANK]
+    (counting occurrences in the final string), selecting the most semantically important
+    word/phrase occurrences for solving the problem.
+    """
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+    if not questions:
+        return []
+    num_blanks = int(num_blanks)
+    if num_blanks < 1:
+        # Degenerate ablation: no blanks -> return originals.
+        return list(questions)
+
+    numbered_questions = "\n".join([f"{i+1}. {q}" for i, q in enumerate(questions)])
+    prompt = f"""You are a question editor that creates incomplete versions of math problems.
+
+Given each complete problem, replace the most important word(s) or short phrase(s) (1-3 words)
+that are most crucial for solving the problem with the literal token [BLANK].
+
+Hard constraints (must follow):
+- Output MUST be a JSON array of strings with the same length and order as the input.
+- Each output string MUST contain EXACTLY {num_blanks} occurrences of [BLANK] (count occurrences).
+- Prefer blanking NON-NUMERIC keywords/phrases (core objects, conditions, operations, or constraints),
+  not generic stopwords. Only blank a number if you truly cannot choose a meaningful keyword.
+- Replace specific word/phrase occurrences, not entire sentences.
+- Do NOT add or remove other information. Keep the rest of the text unchanged except for the blanks.
+- Do NOT output anything except the JSON array.
+
+Problems:
+{numbered_questions}
+"""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Incomplete Question Generator (Importance Batch)"
+    }
+
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.3,
+        "max_tokens": 4000,
+    }
+
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        content = _openrouter_chat_completion_content(headers=headers, data=data)
+        try:
+            start_idx = content.find('[')
+            end_idx = content.rfind(']') + 1
+            if start_idx != -1 and end_idx > start_idx:
+                json_str = content[start_idx:end_idx]
+                out = json.loads(json_str)
+            else:
+                raise json.JSONDecodeError("No JSON array found", content, 0)
+            if not isinstance(out, list):
+                raise ValueError("Batch response is not a JSON array")
+            # Light validation: length + blank count.
+            if len(out) != len(questions):
+                raise ValueError("Batch response length mismatch")
+            for s in out:
+                if not isinstance(s, str):
+                    raise ValueError("Non-string element in batch response")
+                if s.count("[BLANK]") != num_blanks:
+                    raise ValueError("Incorrect [BLANK] count in output")
+            return out
+        except Exception as e:
+            last = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                break
+            _sleep_with_backoff(attempt)
+
+    raise ValueError(f"Failed to generate/parse importance batch response after retries: {last}")
+
+
+def generate_incomplete_question_by_importance(
+    question: str,
+    *,
+    num_blanks: int = 1,
+    model: str = "openai/gpt-4o-mini",
+) -> str:
+    """Single-question fallback for importance-based blanking."""
+    out = generate_incomplete_questions_by_importance_batch([question], num_blanks=int(num_blanks), model=model)
+    return out[0] if out else question
+
+
+def _parse_json_string_array(content: str, *, expected_len: int) -> list[str]:
+    start_idx = content.find("[")
+    end_idx = content.rfind("]") + 1
+    if start_idx == -1 or end_idx <= start_idx:
+        raise ValueError("No JSON array found in model response")
+    out = json.loads(content[start_idx:end_idx])
+    if not isinstance(out, list) or len(out) != expected_len:
+        raise ValueError("Batch response length mismatch")
+    for s in out:
+        if not isinstance(s, str) or not s.strip():
+            raise ValueError("Non-string/empty element in batch response")
+    return out
+
+
+def _perturb_replace_single_number(question: str, *, rng: random.Random) -> str:
+    """Replace one numeric literal with a different numeric literal (deterministic)."""
+    import re
+
+    matches = list(re.finditer(r"(?<!\w)-?\d+(?:\.\d+)?(?!\w)", question))
+    if not matches:
+        return question
+    preferred = [m for m in matches if m.group() not in ("0", "1", "-1")]
+    m = rng.choice(preferred if preferred else matches)
+    old = m.group()
+    if "." in old:
+        val = float(old)
+        delta = rng.uniform(0.5, 2.5) * rng.choice([-1.0, 1.0])
+        new_val = val + delta
+        if abs(new_val - val) < 1e-9:
+            new_val = val + 1.0
+        new = f"{new_val:.6g}"
+    else:
+        val = int(old)
+        delta = rng.randint(1, max(2, abs(val) // 5 + 1))
+        new_val = val + (delta if rng.random() < 0.5 else -delta)
+        if new_val == val:
+            new_val = val + 1
+        new = str(new_val)
+    return question[: m.start()] + new + question[m.end() :]
+
+
+def generate_perturbed_questions_num_replace_batch(
+    questions: list[str],
+    *,
+    model: str = "openai/gpt-4o-mini",
+) -> list[str]:
+    """Replace exactly one number in each problem with a different number (no [BLANK])."""
+    if not questions:
+        return []
+    deterministic = []
+    need_llm: list[tuple[int, str]] = []
+    for i, q in enumerate(questions):
+        rng = random.Random(hash(q) & 0xFFFFFFFF)
+        out = _perturb_replace_single_number(q, rng=rng)
+        if out != q:
+            deterministic.append((i, out))
+        else:
+            need_llm.append((i, q))
+
+    results = [None] * len(questions)
+    for i, out in deterministic:
+        results[i] = out
+
+    if not need_llm:
+        return results  # type: ignore[return-value]
+
+    if not OPENROUTER_API_KEY:
+        for i, q in need_llm:
+            results[i] = q
+        return results  # type: ignore[return-value]
+
+    idxs, qs = zip(*need_llm)
+    numbered = "\n".join(f"{j + 1}. {q}" for j, q in enumerate(qs))
+    prompt = f"""You edit math problems for robustness testing.
+
+For each problem, change EXACTLY ONE numeric literal to a different numeric literal.
+- Do NOT use [BLANK].
+- Do NOT change anything else (wording, variables, structure).
+- The new number must differ from the original.
+
+Problems:
+{numbered}
+
+Output ONLY a JSON array of strings with the same length and order as the input."""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Num Replace Perturbation (Batch)",
+    }
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.3,
+        "max_tokens": 4000,
+    }
+
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        try:
+            content = _openrouter_chat_completion_content(headers=headers, data=data)
+            llm_out = _parse_json_string_array(content, expected_len=len(qs))
+            for pos, out in zip(idxs, llm_out):
+                results[pos] = out
+            return results  # type: ignore[return-value]
+        except Exception as e:
+            last = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                break
+            _sleep_with_backoff(attempt)
+
+    for i, q in need_llm:
+        results[i] = q
+    return results  # type: ignore[return-value]
+
+
+def generate_perturbed_questions_var_rename_batch(
+    questions: list[str],
+    *,
+    model: str = "openai/gpt-4o-mini",
+) -> list[str]:
+    """Replace one single-letter variable with a random common English word (no [BLANK])."""
+    if not questions:
+        return []
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+    numbered = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
+    prompt = f"""You edit math problems for robustness testing.
+
+For each problem, replace EXACTLY ONE single-letter variable (e.g. x, y, n, t) with a random common English noun
+(not a single letter). Example: replace "x" with "widget" everywhere that variable appears in the problem, or only
+once if the variable appears once — pick one occurrence if multiple variables exist.
+- Do NOT use [BLANK].
+- Keep all numbers and the problem structure unchanged except for that substitution.
+
+Problems:
+{numbered}
+
+Output ONLY a JSON array of strings with the same length and order as the input."""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Var Rename Perturbation (Batch)",
+    }
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.5,
+        "max_tokens": 4000,
+    }
+
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        content = _openrouter_chat_completion_content(headers=headers, data=data)
+        try:
+            return _parse_json_string_array(content, expected_len=len(questions))
+        except Exception as e:
+            last = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                break
+            _sleep_with_backoff(attempt)
+
+    raise ValueError(f"Failed to generate var-rename batch response after retries: {last}")
+
+
+def generate_perturbed_questions_distractor_batch(
+    questions: list[str],
+    *,
+    model: str = "openai/gpt-4o-mini",
+) -> list[str]:
+    """Insert one short distractor sentence into each problem (no [BLANK])."""
+    if not questions:
+        return []
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables. Please set it in .env file")
+
+    numbered = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(questions))
+    prompt = f"""You edit math problems for robustness testing.
+
+For each problem, insert EXACTLY ONE short distractor sentence (one clause) that is irrelevant or misleading but
+plausible-sounding. Place it naturally in the problem text.
+- Do NOT use [BLANK].
+- Do not change the original numbers or the core question being asked.
+
+Problems:
+{numbered}
+
+Output ONLY a JSON array of strings with the same length and order as the input."""
+
+    headers = {
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/yourusername/contamination-train",
+        "X-Title": "Distractor Insert Perturbation (Batch)",
+    }
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.5,
+        "max_tokens": 4000,
+    }
+
+    last = None
+    for attempt in range(OPENROUTER_MAX_RETRIES + 1):
+        content = _openrouter_chat_completion_content(headers=headers, data=data)
+        try:
+            return _parse_json_string_array(content, expected_len=len(questions))
+        except Exception as e:
+            last = e
+            if attempt >= OPENROUTER_MAX_RETRIES:
+                break
+            _sleep_with_backoff(attempt)
+
+    raise ValueError(f"Failed to generate distractor batch response after retries: {last}")
+
+
 def generate_incomplete_question(original_question, model="openai/gpt-4o-mini"):
     """Generate an incomplete version of a question using OpenRouter API (legacy single-question mode)."""
     

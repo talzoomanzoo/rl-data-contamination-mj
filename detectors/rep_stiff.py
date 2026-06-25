@@ -14,11 +14,21 @@ from .utils.make_incomplete_questions import (
     identify_information_to_remove,
     generate_incomplete_question_with_guidance,
     generate_incomplete_questions_with_guidance_batch,
+    generate_incomplete_question_by_importance,
+    generate_incomplete_questions_by_importance_batch,
+    generate_perturbed_questions_num_replace_batch,
+    generate_perturbed_questions_var_rename_batch,
+    generate_perturbed_questions_distractor_batch,
 )
 from .utils.make_incomplete_questions_rsi import (
     generate_incomplete_variants,
     generate_incomplete_variants_batch,
+    generate_question_variants,
+    generate_question_variants_batch,
 )
+
+_BLANK_STRATEGIES = frozenset({"important", "guided", "info", "info_type", "guidance", "info_rem"})
+_PERTURB_STRATEGIES = frozenset({"num_replace", "var_rename", "distractor", "distractor_insert"})
 from .utils import rsm_calculation, dc_calculation, rsi_calculation
 
 
@@ -44,6 +54,8 @@ class RepStiffDetector(BaseDetector):
         model_name: Optional[str] = None,
         openrouter_model: str = "openai/gpt-4o-mini",
         layer_name: str = "mid",
+        incomplete_blank_strategy: str = "important",
+        incomplete_num_blanks: int = 1,
     ):
         self.num_similar_questions = num_similar_questions
         self.num_rsi_variants = num_rsi_variants
@@ -60,6 +72,13 @@ class RepStiffDetector(BaseDetector):
         )
         self.openrouter_model = openrouter_model
         self.layer_name = layer_name
+        strategy = (incomplete_blank_strategy or "important").strip().lower()
+        if strategy == "info_rem":
+            strategy = "important"
+        if strategy == "distractor_insert":
+            strategy = "distractor"
+        self.incomplete_blank_strategy = strategy
+        self.incomplete_num_blanks = max(1, int(incomplete_num_blanks))
         self.output_dir = output_dir or os.path.abspath(
             os.path.join(os.path.dirname(__file__), "..", "rep_stiff_outputs")
         )
@@ -298,15 +317,27 @@ class RepStiffDetector(BaseDetector):
         self._ensure_rsm_ready()
         layer_idx = rsm_calculation.LAYER_MAP[self.layer_name]
         incomplete_mapping = self._build_incomplete_mapping(pairs)
-        out = rsm_calculation.compute_group_zrsm(similar_entry, incomplete_mapping, layer_idx)
-        return float(out.get("zRSM", np.nan))
+        orig_key = (similar_entry.get("original_question_id", 0), None)
+        if orig_key not in incomplete_mapping:
+            return float(np.nan)
+        try:
+            out = rsm_calculation.compute_group_zrsm(similar_entry, incomplete_mapping, layer_idx)
+            return float(out.get("zRSM", np.nan))
+        except Exception:
+            return float(np.nan)
 
     def directional_collapse_score_calculation(self, similar_entry: Dict, pairs: List[Dict]) -> float:
         self._ensure_dc_ready()
         layer_idx = dc_calculation.LAYER_MAP[self.layer_name]
         incomplete_mapping = self._build_incomplete_mapping(pairs)
-        out = dc_calculation.compute_group_alignment(similar_entry, incomplete_mapping, layer_idx)
-        return float(out.get("alignment", np.nan))
+        orig_key = (similar_entry.get("original_question_id", 0), None)
+        if orig_key not in incomplete_mapping:
+            return float(np.nan)
+        try:
+            out = dc_calculation.compute_group_alignment(similar_entry, incomplete_mapping, layer_idx)
+            return float(out.get("alignment", np.nan))
+        except Exception:
+            return float(np.nan)
 
     def rsi_score_calculation(self, similar_entry: Dict, pairs: List[Dict]) -> float:
         self._ensure_rsi_ready()
@@ -347,13 +378,20 @@ class RepStiffDetector(BaseDetector):
         self, similar_entry: Dict, data_item: Dict
     ) -> Tuple[List[Dict], str]:
         question = similar_entry["original_question"]
-        path = self._build_output_path(question, suffix="incomplete_pairs.json")
+        suffix = f"incomplete_pairs__{self.incomplete_blank_strategy}__k{self.incomplete_num_blanks}.json"
+        path = self._build_output_path(question, suffix=suffix)
         if self.reuse_existing and os.path.exists(path):
             with open(path, "r", encoding="utf-8") as f:
                 payload = json.load(f)
             return payload.get("pairs", []), path
 
-        info_to_remove = identify_information_to_remove(question, self.openrouter_model)
+        info_to_remove = None
+        if self.incomplete_blank_strategy in ("guided", "info", "info_type", "guidance"):
+            info_to_remove = identify_information_to_remove(question, self.openrouter_model)
+        elif self.incomplete_blank_strategy in _PERTURB_STRATEGIES:
+            info_to_remove = self.incomplete_blank_strategy
+        else:
+            info_to_remove = f"importance_top_{self.incomplete_num_blanks}"
         pairs: List[Dict] = []
         all_questions = [question] + [
             s["question"] for s in similar_entry.get("similar_questions", [])
@@ -393,6 +431,8 @@ class RepStiffDetector(BaseDetector):
         payload = {
             "original_question": question,
             "info_removed_type": info_to_remove,
+            "incomplete_blank_strategy": self.incomplete_blank_strategy,
+            "incomplete_num_blanks": self.incomplete_num_blanks,
             "num_pairs": len(pairs),
             "pairs": pairs,
             "num_valid_similars": self._count_valid_similars(pairs),
@@ -407,9 +447,14 @@ class RepStiffDetector(BaseDetector):
             orig_id = entry.get("original_question_id", 0)
             similar_id = entry.get("similar_question_id")
             key = (orig_id, similar_id if entry.get("type") == "similar" else None)
+            incomplete = entry.get("incomplete_question")
+            if not isinstance(incomplete, str) or not incomplete.strip():
+                continue
+            if not self._is_incomplete_valid(incomplete, entry.get("original_question")):
+                continue
             mapping[key] = {
                 "complete": entry["original_question"],
-                "incomplete": entry["incomplete_question"],
+                "incomplete": incomplete,
             }
         return mapping
 
@@ -419,37 +464,82 @@ class RepStiffDetector(BaseDetector):
             if entry.get("type") != "similar":
                 continue
             incomplete = entry.get("incomplete_question") or ""
-            if "[BLANK]" in incomplete or "[blank]" in incomplete.lower():
+            if self._is_incomplete_valid(incomplete, entry.get("original_question")):
                 count += 1
         return count
 
     def _generate_incomplete_questions(
-        self, all_questions: List[str], info_to_remove: str
+        self, all_questions: List[str], info_to_remove: Optional[str]
     ) -> List[Optional[str]]:
         if not all_questions:
             return []
 
         incomplete_list = [None] * len(all_questions)
+        strategy = self.incomplete_blank_strategy
         for attempt in range(self.max_incomplete_retries + 1):
             try:
-                batch_out = generate_incomplete_questions_with_guidance_batch(
-                    all_questions, info_to_remove, self.openrouter_model
-                )
+                if strategy in _BLANK_STRATEGIES:
+                    if strategy in ("guided", "info", "info_type", "guidance"):
+                        batch_out = generate_incomplete_questions_with_guidance_batch(
+                            all_questions, str(info_to_remove or ""), self.openrouter_model
+                        )
+                    else:
+                        batch_out = generate_incomplete_questions_by_importance_batch(
+                            all_questions,
+                            num_blanks=self.incomplete_num_blanks,
+                            model=self.openrouter_model,
+                        )
+                elif strategy == "num_replace":
+                    batch_out = generate_perturbed_questions_num_replace_batch(
+                        all_questions, model=self.openrouter_model
+                    )
+                elif strategy == "var_rename":
+                    batch_out = generate_perturbed_questions_var_rename_batch(
+                        all_questions, model=self.openrouter_model
+                    )
+                elif strategy == "distractor":
+                    batch_out = generate_perturbed_questions_distractor_batch(
+                        all_questions, model=self.openrouter_model
+                    )
+                else:
+                    raise ValueError(f"Unknown incomplete_blank_strategy: {strategy}")
                 if len(batch_out) != len(all_questions):
                     raise ValueError("Batch output length mismatch")
                 for i, out in enumerate(batch_out):
                     if out:
                         incomplete_list[i] = out
             except Exception:
+                def _work(q: str) -> Optional[str]:
+                    if strategy in ("guided", "info", "info_type", "guidance"):
+                        return generate_incomplete_question_with_guidance(
+                            q,
+                            str(info_to_remove or ""),
+                            self.openrouter_model,
+                        )
+                    if strategy == "important":
+                        return generate_incomplete_question_by_importance(
+                            q,
+                            num_blanks=self.incomplete_num_blanks,
+                            model=self.openrouter_model,
+                        )
+                    if strategy == "num_replace":
+                        return generate_perturbed_questions_num_replace_batch(
+                            [q], model=self.openrouter_model
+                        )[0]
+                    if strategy == "var_rename":
+                        return generate_perturbed_questions_var_rename_batch(
+                            [q], model=self.openrouter_model
+                        )[0]
+                    if strategy == "distractor":
+                        return generate_perturbed_questions_distractor_batch(
+                            [q], model=self.openrouter_model
+                        )[0]
+                    return None
+
                 max_workers = min(self.max_openrouter_workers, len(all_questions))
                 with ThreadPoolExecutor(max_workers=max_workers) as executor:
                     future_map = {
-                        executor.submit(
-                            generate_incomplete_question_with_guidance,
-                            q,
-                            info_to_remove,
-                            self.openrouter_model,
-                        ): idx
+                        executor.submit(_work, q): idx
                         for idx, q in enumerate(all_questions)
                     }
                     for future in as_completed(future_map):
@@ -459,18 +549,36 @@ class RepStiffDetector(BaseDetector):
                         except Exception:
                             incomplete_list[idx] = None
 
-            if all(self._has_blank(q) for q in incomplete_list if q):
+            if all(
+                q is not None and self._is_incomplete_valid(q, all_questions[i])
+                for i, q in enumerate(incomplete_list)
+            ):
                 break
         return incomplete_list
 
     def _has_blank(self, text: str) -> bool:
         return "[BLANK]" in text or "[blank]" in text.lower()
 
+    def _is_incomplete_valid(self, text: str, original: Optional[str] = None) -> bool:
+        if not text or not text.strip():
+            return False
+        strategy = self.incomplete_blank_strategy
+        if strategy in ("guided", "info", "info_type", "guidance"):
+            return self._has_blank(text)
+        if strategy == "important":
+            return text.count("[BLANK]") == self.incomplete_num_blanks
+        if strategy in _PERTURB_STRATEGIES and original:
+            return text.strip() != original.strip()
+        if strategy in _PERTURB_STRATEGIES:
+            return True
+        return self._has_blank(text)
+
     def _get_or_create_rsi_variants(
         self, similar_entry: Dict, pairs: List[Dict]
     ) -> Tuple[List[Dict], str]:
         question = similar_entry["original_question"]
-        path = self._build_output_path(question, suffix="incomplete_variants.json")
+        suffix = f"incomplete_variants__{self.incomplete_blank_strategy}__k{self.incomplete_num_blanks}.json"
+        path = self._build_output_path(question, suffix=suffix)
         if self.reuse_existing and os.path.exists(path):
             with open(path, "r", encoding="utf-8") as f:
                 payload = json.load(f)
@@ -493,21 +601,33 @@ class RepStiffDetector(BaseDetector):
             incomplete_question = entry.get("incomplete_question")
             if not incomplete_question:
                 return None
-            if not self._has_blank(incomplete_question):
-                return None
             try:
-                variants = generate_incomplete_variants_batch(
-                    incomplete_question,
-                    num_variants=self.num_rsi_variants,
-                    model=self.openrouter_model,
-                )
+                if self._has_blank(incomplete_question):
+                    variants = generate_incomplete_variants_batch(
+                        incomplete_question,
+                        num_variants=self.num_rsi_variants,
+                        model=self.openrouter_model,
+                    )
+                else:
+                    variants = generate_question_variants_batch(
+                        incomplete_question,
+                        num_variants=self.num_rsi_variants,
+                        model=self.openrouter_model,
+                    )
                 strategy = "paraphrase_batch"
             except Exception:
-                variants, _ = generate_incomplete_variants(
-                    incomplete_question,
-                    num_variants=self.num_rsi_variants,
-                    model=self.openrouter_model,
-                )
+                if self._has_blank(incomplete_question):
+                    variants, _ = generate_incomplete_variants(
+                        incomplete_question,
+                        num_variants=self.num_rsi_variants,
+                        model=self.openrouter_model,
+                    )
+                else:
+                    variants = generate_question_variants(
+                        incomplete_question,
+                        num_variants=self.num_rsi_variants,
+                        model=self.openrouter_model,
+                    )
                 strategy = "mixed_fallback"
 
             entry_id = entry["similar_question_id"] if entry.get("type") == "similar" else 0
